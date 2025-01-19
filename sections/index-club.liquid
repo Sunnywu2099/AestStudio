@@ -1,6 +1,9 @@
 {% assign sid = section.id %}
 
 <style>
+  #shopify-section-{{sid}} .index_section_title{
+    
+  }
   #shopify-section-{{sid}} .index-club_swiper{
     padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
   }
@@ -55,9 +58,11 @@
 </style>
 
 <div class="index-products">
+  {%  if section.settings.section_title != blank %} 
+    <h2 class="index_section_title">{{section.settings.section_title}}</h2>
+  {% endif %}
   <div class="swiper index-club_swiper">
     <div class="swiper-wrapper">
-
       {% for block in section.blocks %} 
         {% liquid 
           assign bs = block.settings
@@ -112,7 +117,6 @@
           </div>
         </div>
       {% endfor %}
-
     </div>
   </div>  
 </div>
@@ -148,6 +152,12 @@
   {
     "name": "Index club",
     "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Title",
+        "default":"AEST CLUB"
+      }
     ],
     "blocks":[{
         "type": "block",
