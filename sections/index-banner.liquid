@@ -38,8 +38,13 @@
     line-height: 1.4; /* 140% */
     letter-spacing: 1.1px;
   }
-  #shopify-section-{{ sid }} .item .info .item_btn{}
-  #shopify-section-{{ sid }} .item .info .item_btn svg{}
+  #shopify-section-{{ sid }} .item .info .item_btn{
+    display: inline-flex;
+    gap: 4px;
+  }
+  #shopify-section-{{ sid }} .item .info .item_btn svg{
+    display: block;
+  }
   #shopify-section-{{ sid }} .item .info .item_btn:hover{}
   @media (min-width:768px){
     #shopify-section-{{ sid }} .media video.mobile{display:none;}
