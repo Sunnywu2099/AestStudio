@@ -98,6 +98,7 @@
                 {% if product.metafields.custom.short.value != blank %} 
                   <p class="short">{{product.metafields.custom.short.value}}</p>
                 {% endif %}
+                {%- render 'price-list', product: product, context: 'card' -%}
               </div>
             </a>
           </div>
