@@ -1,9 +1,9 @@
 {% liquid
-  assign bs = block.settings
+  assign sid = section.id
+  assign bs = section.settings
+  assign type = bs.type
   assign title = bs.title
   assign desc = bs.desc
-  assign inright = bs.inright
-  assign type = bs.type
   assign pc_image = bs.img
   assign mobile_image = bs.img_m
   assign alt = bs.img.alt
