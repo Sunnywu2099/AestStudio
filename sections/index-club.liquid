@@ -129,6 +129,14 @@
                 {% endif %}
               {% endif %}
             </div>
+            <div class="info">
+              {% if title != blank %}
+                <h3 class="item_title">{{ title }}</h3>
+              {% endif %}
+              {% if btn != blank %}
+                <a class="item_btn" href="{{link}}"><span>{{btn}}</span></a>
+              {% endif %}
+            </div>
           </div>
         </div>
       {% endfor %}
