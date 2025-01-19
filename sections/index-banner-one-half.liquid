@@ -52,6 +52,12 @@
       background: rgba(37, 40, 42, 0.40);
     }
     @media (min-width:768px){
+      #shopify-section-{{ sid }} .index-banner-one_half{
+        display: flex;
+      }
+      #shopify-section-{{ sid }} .item{
+        width: 50%;
+      }
       #shopify-section-{{ sid }} .media video.mobile{display:none;}
     }
     @media (max-width:767px){
@@ -69,7 +75,7 @@
       }
   } 
   </style>
-  <div class="index-banner-full">
+  <div class="index-banner-one_half">
     {% for block in section.blocks %} 
       {% liquid 
         assign bs = block.settings
