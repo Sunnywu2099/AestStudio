@@ -16,13 +16,6 @@
   #shopify-section-{{ sid }} .item{
     position: relative;
   }
-  #shopify-section-{{ sid }} .item .info{
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
   #shopify-section-{{ sid }} .media video,
   #shopify-section-{{ sid }} .media img{
     width:100%;
@@ -31,6 +24,17 @@
     object-fit:cover;
     object-position: center;
   }
+  #shopify-section-{{ sid }} .item .info{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  #shopify-section-{{ sid }} .item .info .item_title{}
+  #shopify-section-{{ sid }} .item .info .item_btn{}
+  #shopify-section-{{ sid }} .item .info .item_btn svg{}
+  #shopify-section-{{ sid }} .item .info .item_btn svg{}
   @media (min-width:768px){
     #shopify-section-{{ sid }} .media video.mobile{display:none;}
   }
@@ -72,7 +76,7 @@
     </div>
     <div class="info">
       {% if title != blank %}
-        <div class="item_title">{{ title }}</div>
+        <h3 class="item_title">{{ title }}</h3>
       {% endif %}
       {% if btn != blank %}
         <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
