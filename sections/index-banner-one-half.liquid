@@ -1,16 +1,6 @@
 {% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="white" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="white"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="white"/></clipPath></defs>  </svg>   {% endcapture %}
   {% liquid
     assign sid = section.id
-    assign bs = section.settings
-    assign type = bs.type
-    assign title = bs.title
-    assign btn = bs.btn
-    assign link = bs.link
-    assign pc_image = bs.img
-    assign mobile_image = bs.img_m
-    assign alt = bs.img.alt
-    assign pc_video = bs.video
-    assign mobile_video = bs.video_m
   %}
   <style>
     #shopify-section-{{ sid }} .item{
@@ -80,46 +70,60 @@
   } 
   </style>
   <div class="index-banner-full">
-    <div class="item">
-      <div class="media">
-        {% if type == 'img' %}
-          {% if pc_image != blank %}
-            <picture>
-              {% if mobile_image != blank %}
-              <source
-                srcset="{{ mobile_image | img_url: '750x' }}"
-                media="(max-width: 375px)"
-              >
-              <source
-                srcset="{{ mobile_image | img_url: '1000x' }}"
-                media="(max-width: 767px)"
-              >
-              {% endif %}
-              <source
-                srcset="{{ pc_image | img_url: '2160x' }}"
-                media="(max-width: 1080px)"
-              >
-              <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
-            </picture>
+    {% for block in section.blocks %} 
+      {% liquid 
+        assign bs = block.settings
+        assign type = bs.type
+        assign title = bs.title
+        assign btn = bs.btn
+        assign link = bs.link
+        assign pc_image = bs.img
+        assign mobile_image = bs.img_m
+        assign alt = bs.img.alt
+        assign pc_video = bs.video
+        assign mobile_video = bs.video_m
+      %}
+      <div class="item">
+        <div class="media">
+          {% if type == 'img' %}
+            {% if pc_image != blank %}
+              <picture>
+                {% if mobile_image != blank %}
+                <source
+                  srcset="{{ mobile_image | img_url: '750x' }}"
+                  media="(max-width: 375px)"
+                >
+                <source
+                  srcset="{{ mobile_image | img_url: '1000x' }}"
+                  media="(max-width: 767px)"
+                >
+                {% endif %}
+                <source
+                  srcset="{{ pc_image | img_url: '2160x' }}"
+                  media="(max-width: 1080px)"
+                >
+                <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+              </picture>
+            {% endif %}
+          {% else %}
+            {% if pc_video != blank %}
+              {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+            {% endif %}
+            {% if mobile_video != blank %}
+              {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+            {% endif %}
           {% endif %}
-        {% else %}
-          {% if pc_video != blank %}
-            {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+        </div>
+        <div class="info">
+          {% if title != blank %}
+            <h3 class="item_title">{{ title }}</h3>
           {% endif %}
-          {% if mobile_video != blank %}
-            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+          {% if btn != blank %}
+            <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
           {% endif %}
-        {% endif %}
+        </div>
       </div>
-      <div class="info">
-        {% if title != blank %}
-          <h3 class="item_title">{{ title }}</h3>
-        {% endif %}
-        {% if btn != blank %}
-          <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
-        {% endif %}
-      </div>
-    </div>
+    {% endfor %}
   </div>
   {% schema %}
     {
