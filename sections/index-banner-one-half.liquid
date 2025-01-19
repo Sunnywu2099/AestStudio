@@ -124,8 +124,11 @@
   {% schema %}
     {
       "name": "Index baaner (one half)",
-      "settings":[
-        {
+      "blocks":[{
+        "type": "block",
+        "name":"block",
+        "settings":[
+          {
             "type":"select",
             "id":"type",
             "label": "选用类型",
@@ -186,10 +189,19 @@
             "id": "link",
             "label": "Link"
           }
-      ],
+        ]
+      }],
       "presets":[
         {
-      "name": "Index banner (one half)"
+          "name": "Index banner (one half)" ,
+          "blocks": [
+            {
+              "type": "block"
+            },
+            {
+              "type": "block"
+            }
+          ]
         }
       ]
     }
