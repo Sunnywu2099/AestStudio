@@ -28,6 +28,9 @@
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
+                {% if product.metafields.custom.short.value != blank %} 
+                  <p class="short">{{product.metafields.custom.short.value}}</p>
+                {% endif %}
               </div>
             </a>
           </div>
