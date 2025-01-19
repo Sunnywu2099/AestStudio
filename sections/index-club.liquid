@@ -5,6 +5,23 @@
     max-width:500px;
     position: relative;
   }
+  #shopify-section-{{ sid }} .media video,
+  #shopify-section-{{ sid }} .media img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position: center;
+  }
+  #shopify-section-{{ sid }} .item .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+    color: {{color}};
+  }
   @media (max-width:1024px){
   }
   @media (min-width:768px){
