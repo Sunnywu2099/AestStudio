@@ -13,6 +13,23 @@
   assign mobile_video = bs.video_m
 %}
 <style>
+  #shopify-section-{{ sid }} .item{
+    position: relative;
+  }
+  #shopify-section-{{ sid }} .item .info{
+    position: absolute;
+    bottom: ;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #shopify-section-{{ sid }} .media video,
+  #shopify-section-{{ sid }} .media img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position: center;
+  }
   @media (min-width:768px){
     #shopify-section-{{ sid }} .media video.mobile{display:none;}
   }
