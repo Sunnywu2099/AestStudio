@@ -127,6 +127,8 @@
           </div>
         </div>
       {% endfor %}
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </div>  
 </div>
@@ -136,10 +138,10 @@
     let index_club_swiper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-club_swiper', {
       spaceBetween: 1,
       slidesPerView: 4,
-      // navigation: {
-      //   prevEl: '#shopify-section-{{ sid }} .prev_button',
-      //   nextEl: '#shopify-section-{{ sid }} .next_button',
-      // },
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .next_button',
+      },
       breakpoints: { 
         320: { 
           slidesPerView: 1.4,
