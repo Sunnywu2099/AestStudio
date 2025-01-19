@@ -1,6 +1,9 @@
 {% assign sid = section.id %}
 
 <style>
+  #shopify-section-{{sid}} .index-club_swiper{
+    padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+  }
   #shopify-section-{{sid}} .slide_inner{
     max-width:500px;
     position: relative;
@@ -52,7 +55,7 @@
 </style>
 
 <div class="index-products">
-  <div class="swiper index-products_swiper">
+  <div class="swiper index-club_swiper">
     <div class="swiper-wrapper">
 
       {% for block in section.blocks %} 
@@ -116,7 +119,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    let index_products_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-products_swiper', {
+    let index_club_swiper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-club_swiper', {
       spaceBetween: 1,
       slidesPerView: 4,
       // navigation: {
