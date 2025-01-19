@@ -1,0 +1,164 @@
+{% assign sid = section.id %}
+
+<style>
+  #shopify-section-{{sid}} .e_product_item{
+    max-width:500px;
+    text-align:center;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida{
+    position:relative;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida .second{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transition:all 0.3s ease-in;
+    z-index:1;
+    opacity:0;
+    visibility: hidden;
+  }
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .first{
+    opacity:0;
+    visibility: hidden;
+  }
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .second{
+    opacity:1;
+    visibility: visible;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info{
+    padding: 12px;
+    text-align: left;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info h3{
+    color: #25282A;
+    font-weight: 500;
+    font-size:14px; 
+    line-height: 1.4;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info .short{
+    margin-top:4px; 
+    color: #25282A;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info .price-list>*{
+    margin-top:4px; 
+    color: #25282A;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+  }
+  @media (max-width:1024px){
+    #shopify-section-{{sid}} .e_product_item .e_info h3{
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info .price{
+    }
+  }
+  @media (max-width:767px){
+    #shopify-section-{{sid}} {
+      margin:60px 0;
+    }
+    #shopify-section-{{sid}} .index-products_swiper{
+      padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info h3{
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info .price{
+    }
+  }
+</style>
+
+<div class="index-products">
+  <div class="swiper index-products_swiper">
+    <div class="swiper-wrapper">
+
+      {% for block in section.blocks %} 
+        {% liquid
+          assign bs = block.settings
+          assign product = bs.product
+          assign img_one = bs.img1
+          assign img_two = bs.img2
+        %}
+        <div class="swiper-slide">
+          <div class="slide_inner">
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>  
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let index_products_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-products_swiper', {
+      spaceBetween: 1,
+      slidesPerView: 4,
+      // navigation: {
+      //   prevEl: '#shopify-section-{{ sid }} .prev_button',
+      //   nextEl: '#shopify-section-{{ sid }} .next_button',
+      // },
+      breakpoints: { 
+        320: { 
+          slidesPerView: 1.4,
+          spaceBetween: 12
+        },
+        768: {   
+          slidesPerView: 3,
+          spaceBetween: 1
+        },
+        1280: {  
+          slidesPerView: 4,
+          spaceBetween: 1
+        }
+      }
+    });
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "Index club",
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name":"item",
+        "settings":[
+          {
+            "type": "product",
+            "id": "product",
+            "label": "product"
+          },
+          {
+              "type": "image_picker",
+              "id": "img1",
+              "label": "image "
+            },
+            {
+              "type": "image_picker",
+              "id": "img2",
+              "label": "image （hover）"
+            }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name": "Index club"
+      }
+    ]
+  }
+{% endschema %}
