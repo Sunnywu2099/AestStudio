@@ -77,6 +77,42 @@
       ],
       "settings": {}
     },
+    "index_products_8KXU9w": {
+      "type": "index-products",
+      "blocks": {
+        "product_NQ6CaJ": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        },
+        "product_fMekgk": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        },
+        "product_gmeiHm": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        },
+        "product_WbKrhb": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        }
+      },
+      "block_order": [
+        "product_NQ6CaJ",
+        "product_fMekgk",
+        "product_gmeiHm",
+        "product_WbKrhb"
+      ],
+      "settings": {}
+    },
     "index_banner_3XLRKw": {
       "type": "index-banner",
       "settings": {
@@ -86,206 +122,6 @@
         "title": "CAMERA BAG",
         "btn": "Shop Now",
         "link": ""
-      }
-    },
-    "image_with_text_overlay_QRTNUL": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_bBeWaR": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>主推产品1</strong>",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_ri6XAJ": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bBeWaR",
-        "richtext_ri6XAJ"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "image_size": "lg",
-        "image": "shopify://shop_images/model-with-leather-jacket-over-shoulders.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media_grid_UALGEC": {
-      "type": "media-grid",
-      "blocks": {
-        "image_66T7az": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "<strong>主推产品2</strong>",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_6k7P7t": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "<strong>主推产品3</strong>",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_66T7az",
-        "image_6k7P7t"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 400,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "before_after_3hynDD": {
-      "type": "before-after",
-      "blocks": {
-        "before_UY4Udn": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "text": "Almond green Liégé",
-            "link_text": "View product",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after_mHzAti": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
-            "text": "Blue denim Liégé",
-            "link_text": "View product",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before_UY4Udn",
-        "after_mHzAti"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
-    },
-    "featured_collections_mXBhJk": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_gMFxMM": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_gMFxMM"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "image_with_text_overlay_GnpXPm": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_XbdmnY": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>主推产品4</strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_nXYLHz": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XbdmnY",
-        "richtext_nXYLHz"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "image_size": "lg",
-        "image": "shopify://shop_images/model-in-neutral-colors-by-window.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "multi_column_mQRtbp": {
@@ -361,11 +197,7 @@
     "video_G8KLaB",
     "index_products_VebRWX",
     "index_banner_3XLRKw",
-    "image_with_text_overlay_QRTNUL",
-    "media_grid_UALGEC",
-    "before_after_3hynDD",
-    "featured_collections_mXBhJk",
-    "image_with_text_overlay_GnpXPm",
+    "index_products_8KXU9w",
     "multi_column_mQRtbp"
   ]
 }
