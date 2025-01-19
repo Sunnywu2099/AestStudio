@@ -5,6 +5,12 @@
     <div class="swiper-wrapper">
 
       {% for block in section.blocks %} 
+        {% liquid
+          assign bs = block.settings
+          assign product = bs.product
+          assign img_one = bs.img1
+          assign img_two = bs.img2
+        %}
         <div class="swiper-slide">
           <div class="e_product_item">
             <a href="{{ product.url }}">
@@ -22,7 +28,6 @@
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
-                {% render 'price', product: product, use_variant:true %}
               </div>
             </a>
           </div>
