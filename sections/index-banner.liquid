@@ -10,6 +10,15 @@
   assign pc_video = bs.video
   assign mobile_video = bs.video_m
 %}
+<style>
+  @media (min-width:768px){
+    #shopify-section-{{ sid }} .media video.mobile{display:none;}
+  }
+  @media (max-width:767px){
+    #shopify-section-{{ sid }} .media video.desktop{display:none;}
+} 
+</style>
+
 {% schema %}
   {
     "name": "Index baaner (full width)",
