@@ -1,0 +1,281 @@
+{% assign sid = section.id %}
+
+<style>
+  #shopify-section-{{sid}} .index-club{
+    margin: 60px 0 150px;
+  }
+  #shopify-section-{{sid}} .index_section_title{
+    color: #25282A;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 3px;
+    margin: 0 0 20px;
+    padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+    text-align: center;
+  }
+  #shopify-section-{{sid}} .index-club_swiper{
+    padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+  }
+  #shopify-section-{{sid}} .slide_inner{
+    max-width:500px;
+    position: relative;
+  }
+  #shopify-section-{{ sid }} .media video,
+  #shopify-section-{{ sid }} .media img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position: center;
+  }
+  #shopify-section-{{ sid }} .slide_inner .info{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color:var(--color);
+  }
+  #shopify-section-{{ sid }} .slide_inner .info .item_btn{
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 0.7px;
+    transition:all 0.3s ease-in;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    padding: 2px 12px;
+  }
+  #shopify-section-{{ sid }} .slide_inner:hover .info .item_btn{
+    border-color:var(--color);
+    background: rgba(37, 40, 42, 0.40);
+  }
+  #shopify-section-{{ sid }} .prev_next:after{display:none;}
+  #shopify-section-{{ sid }} .prev_button{
+    left: calc(max(var(--container-gutter),50% - var(--container-max-width) / 2)*2);
+  }
+  #shopify-section-{{ sid }} .next_button{
+    right: calc(max(var(--container-gutter),50% - var(--container-max-width) / 2)*2);
+  }
+  @media (max-width:1024px){
+  }
+  @media (min-width:768px){
+    #shopify-section-{{ sid }} .media video.mobile{display:none;}
+  }
+  @media (max-width:767px){
+    #shopify-section-{{ sid }} .prev_next{display:none;}  
+    #shopify-section-{{ sid }} .media video.desktop{display:none;}
+    #shopify-section-{{sid}} .index-club{
+      margin: 60px 0;
+    }
+    #shopify-section-{{sid}} .index_section_title{
+      font-size: 32px;
+    }
+    #shopify-section-{{ sid }} .slide_inner .info .item_btn{
+      border-color:var(--color);
+      background: rgba(37, 40, 42, 0.40);
+    }
+  
+  }
+</style>
+
+<div class="index-club">
+  {%  if section.settings.section_title != blank %} 
+    <h2 class="index_section_title">{{section.settings.section_title}}</h2>
+  {% endif %}
+  <div class="swiper index-club_swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %} 
+        {% liquid 
+          assign bs = block.settings
+          assign color = bs.color
+          assign type = bs.type
+          assign title = bs.title
+          assign btn = bs.btn
+          assign link = bs.link
+          assign pc_image = bs.img
+          assign mobile_image = bs.img_m
+          assign alt = bs.img.alt
+          assign pc_video = bs.video
+          assign mobile_video = bs.video_m
+        %}
+        <div class="swiper-slide">
+          <div class="slide_inner" style="--color:{{color}};">
+            <div class="media">
+              {% if type == 'img' %}
+                {% if pc_image != blank %}
+                  <picture>
+                    {% if mobile_image != blank %}
+                    <source
+                      srcset="{{ mobile_image | img_url: '750x' }}"
+                      media="(max-width: 375px)"
+                    >
+                    <source
+                      srcset="{{ mobile_image | img_url: '1000x' }}"
+                      media="(max-width: 767px)"
+                    >
+                    {% endif %}
+                    <source
+                      srcset="{{ pc_image | img_url: '2160x' }}"
+                      media="(max-width: 1080px)"
+                    >
+                    <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                  </picture>
+                {% endif %}
+              {% else %}
+                {% if pc_video != blank %}
+                  {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+                {% endif %}
+                {% if mobile_video != blank %}
+                  {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+                {% endif %}
+              {% endif %}
+            </div>
+            <div class="info">
+              {% if btn != blank %}
+                <a class="item_btn" href="{{link}}"><span>{{btn}}</span></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-prev prev_next prev_button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">  <path d="M0 6.4031L12 0V1.86305L2.159 7L2.25941 6.83721V7.19897L2.159 7.03618L12 12.137V14L0 7.61499V6.4031Z" fill="white"/></svg>
+    </div>
+    <div class="swiper-button-next prev_next next_button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none"><path d="M12 7.5969L0 14L0 12.137L9.841 7L9.74059 7.16279V6.80103L9.841 6.96382L0 1.86305L0 0L12 6.38501V7.5969Z" fill="white"/></svg>
+    </div>
+  </div>  
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let index_club_swiper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-club_swiper', {
+      spaceBetween: 1,
+      slidesPerView: 4,
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .next_button',
+      },
+      breakpoints: { 
+        320: { 
+          slidesPerView: 1.4,
+          spaceBetween: 12
+        },
+        768: {   
+          slidesPerView: 3,
+          spaceBetween: 14
+        },
+        1280: {  
+          slidesPerView: 4,
+          spaceBetween: 16
+        }
+      }
+    });
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "Index club",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Title",
+        "default":"AEST CLUB"
+      }
+    ],
+    "blocks":[{
+        "type": "block",
+        "name":"block",
+        "settings":[
+          {
+            "type": "color",
+            "id": "color",
+            "label": "Text color",
+            "default":"#fff"
+          },
+          {
+            "type":"select",
+            "id":"type",
+            "label": "选用类型",
+            "default":"img",
+            "options": [
+              {
+                "label": "图片",
+                "value": "img"
+              },
+              {
+                "label": "视频",
+                "value": "video"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "图片"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image (desktop)"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image (mobile)"
+          },
+          {
+            "type": "header",
+            "content": "视频"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "video (desktop)"
+          },
+          {
+            "type": "video",
+            "id": "video_m",
+            "label": "video (mobile)"
+          },
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Button",
+            "default": "Our Story"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }],
+    "presets":[
+      {
+        "name": "Index club",
+        "blocks": [
+            {
+              "type": "block"
+            },
+            {
+              "type": "block"
+            },
+            {
+              "type": "block"
+            },
+            {
+              "type": "block"
+            }
+        ]
+      }
+    ]
+  }
+{% endschema %}
