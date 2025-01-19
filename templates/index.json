@@ -77,6 +77,49 @@
       ],
       "settings": {}
     },
+    "index_banner_3XLRKw": {
+      "type": "index-banner",
+      "settings": {
+        "type": "img",
+        "img": "shopify://shop_images/01.png",
+        "img_m": "shopify://shop_images/01_1.png",
+        "title": "CAMERA BAG",
+        "btn": "Shop Now",
+        "link": ""
+      }
+    },
+    "index_banner_one_half_MLnXVr": {
+      "type": "index-banner-one-half",
+      "blocks": {
+        "block_CD8Gqh": {
+          "type": "block",
+          "settings": {
+            "type": "img",
+            "img": "shopify://shop_images/Rectangle_1.png",
+            "img_m": "shopify://shop_images/Rectangle_3.png",
+            "title": "CAMERA BAG",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "block_Yi6NnE": {
+          "type": "block",
+          "settings": {
+            "type": "img",
+            "img": "shopify://shop_images/Rectangle.png",
+            "img_m": "shopify://shop_images/Rectangle_2.png",
+            "title": "CAMERA BAG",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_CD8Gqh",
+        "block_Yi6NnE"
+      ],
+      "settings": {}
+    },
     "index_products_8KXU9w": {
       "type": "index-products",
       "blocks": {
@@ -112,17 +155,6 @@
         "product_WbKrhb"
       ],
       "settings": {}
-    },
-    "index_banner_3XLRKw": {
-      "type": "index-banner",
-      "settings": {
-        "type": "img",
-        "img": "shopify://shop_images/01.png",
-        "img_m": "shopify://shop_images/01_1.png",
-        "title": "CAMERA BAG",
-        "btn": "Shop Now",
-        "link": ""
-      }
     },
     "multi_column_mQRtbp": {
       "type": "multi-column",
@@ -197,6 +229,7 @@
     "video_G8KLaB",
     "index_products_VebRWX",
     "index_banner_3XLRKw",
+    "index_banner_one_half_MLnXVr",
     "index_products_8KXU9w",
     "multi_column_mQRtbp"
   ]
