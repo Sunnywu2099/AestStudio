@@ -1,4 +1,4 @@
-{% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="white" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="white"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="white"/></clipPath></defs>  </svg>   {% endcapture %}
+{% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="currentColor" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="currentColor"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="currentColor"/></clipPath></defs>  </svg>   {% endcapture %}
   {% liquid
     assign sid = section.id
   %}
@@ -21,9 +21,10 @@
       transform: translateX(-50%);
       z-index: 1;
       text-align: center;
+      color:var(--color);
     }
     #shopify-section-{{ sid }} .item .info .item_title{
-      color: #FFF;
+      color: inherit;
       font-size: 22px;
       font-weight: 600;
       line-height: 1.4; /* 140% */
@@ -34,7 +35,7 @@
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      color: #FFF;
+      color: inherit;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.4; /* 140% */
@@ -79,6 +80,7 @@
     {% for block in section.blocks %} 
       {% liquid 
         assign bs = block.settings
+        assign color = bs.color
         assign type = bs.type
         assign title = bs.title
         assign btn = bs.btn
@@ -89,7 +91,7 @@
         assign pc_video = bs.video
         assign mobile_video = bs.video_m
       %}
-      <div class="item">
+      <div class="item" style="--color:{{color}};">
         <div class="media">
           {% if type == 'img' %}
             {% if pc_image != blank %}
@@ -138,6 +140,12 @@
         "type": "block",
         "name":"block",
         "settings":[
+          {
+            "type": "color",
+            "id": "color",
+            "label": "Text color",
+            "default":"#fff"
+          },
           {
             "type":"select",
             "id":"type",
