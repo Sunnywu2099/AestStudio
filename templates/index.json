@@ -219,13 +219,25 @@
             "btn": "Cooperation Plan",
             "link": ""
           }
+        },
+        "block_Fij9U6": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1.png",
+            "btn": "Cooperation Plan",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "block_cTwNpV",
         "block_DCpCth",
         "block_n4jTGh",
-        "block_9tqePb"
+        "block_9tqePb",
+        "block_Fij9U6"
       ],
       "settings": {}
     }
