@@ -1,3 +1,4 @@
+{% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="white" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="white"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="white"/></clipPath></defs>  </svg>   {% endcapture %}
 {% liquid
   assign sid = section.id
   assign bs = section.settings
@@ -56,7 +57,7 @@
         <div class="item_title">{{ title }}</div>
       {% endif %}
       {% if btn != blank %}
-        <div class="item_btn" href="{{link}}">{{ btn }} </div>
+        <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
       {% endif %}
     </div>
   </div>
