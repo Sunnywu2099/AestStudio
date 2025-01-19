@@ -80,7 +80,7 @@
     "index_banner_3XLRKw": {
       "type": "index-banner",
       "settings": {
-        "color": "#fff",
+        "color": "#ffffff",
         "type": "img",
         "img": "shopify://shop_images/01.png",
         "img_m": "shopify://shop_images/01_1.png",
@@ -96,7 +96,7 @@
         "block_CD8Gqh": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Rectangle_1.png",
             "img_m": "shopify://shop_images/Rectangle_3.png",
@@ -108,7 +108,7 @@
         "block_Yi6NnE": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Rectangle.png",
             "img_m": "shopify://shop_images/Rectangle_2.png",
@@ -172,6 +172,54 @@
         "btn": "Shop Now",
         "link": ""
       }
+    },
+    "index_club_ri3Mta": {
+      "type": "index-club",
+      "blocks": {
+        "block_cTwNpV": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "btn": "Our Story",
+            "link": ""
+          }
+        },
+        "block_DCpCth": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "btn": "Our Story",
+            "link": ""
+          }
+        },
+        "block_n4jTGh": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "btn": "Our Story",
+            "link": ""
+          }
+        },
+        "block_9tqePb": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "btn": "Our Story",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_cTwNpV",
+        "block_DCpCth",
+        "block_n4jTGh",
+        "block_9tqePb"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -180,6 +228,7 @@
     "index_banner_3XLRKw",
     "index_banner_one_half_MLnXVr",
     "index_products_8KXU9w",
-    "index_banner_m3eGmP"
+    "index_banner_m3eGmP",
+    "index_club_ri3Mta"
   ]
 }
