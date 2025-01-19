@@ -80,6 +80,7 @@
     "index_banner_3XLRKw": {
       "type": "index-banner",
       "settings": {
+        "color": "#fff",
         "type": "img",
         "img": "shopify://shop_images/01.png",
         "img_m": "shopify://shop_images/01_1.png",
@@ -95,6 +96,7 @@
         "block_CD8Gqh": {
           "type": "block",
           "settings": {
+            "color": "#fff",
             "type": "img",
             "img": "shopify://shop_images/Rectangle_1.png",
             "img_m": "shopify://shop_images/Rectangle_3.png",
@@ -106,6 +108,7 @@
         "block_Yi6NnE": {
           "type": "block",
           "settings": {
+            "color": "#fff",
             "type": "img",
             "img": "shopify://shop_images/Rectangle.png",
             "img_m": "shopify://shop_images/Rectangle_2.png",
@@ -156,6 +159,19 @@
         "product_WbKrhb"
       ],
       "settings": {}
+    },
+    "index_banner_m3eGmP": {
+      "type": "index-banner",
+      "settings": {
+        "color": "#25282a",
+        "type": "img",
+        "img": "shopify://shop_images/4.png",
+        "img_m": "shopify://shop_images/Group_162.png",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "title": "CAMERA BAG",
+        "btn": "Shop Now",
+        "link": ""
+      }
     },
     "multi_column_mQRtbp": {
       "type": "multi-column",
@@ -232,6 +248,7 @@
     "index_banner_3XLRKw",
     "index_banner_one_half_MLnXVr",
     "index_products_8KXU9w",
+    "index_banner_m3eGmP",
     "multi_column_mQRtbp"
   ]
 }
