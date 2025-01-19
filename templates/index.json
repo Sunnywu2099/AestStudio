@@ -77,33 +77,15 @@
       ],
       "settings": {}
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
+    "index_banner_3XLRKw": {
+      "type": "index-banner",
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
+        "type": "img",
+        "img": "shopify://shop_images/01.png",
+        "img_m": "shopify://shop_images/01_1.png",
+        "title": "CAMERA BAG",
+        "btn": "Shop Now",
+        "link": ""
       }
     },
     "image_with_text_overlay_QRTNUL": {
@@ -378,7 +360,7 @@
   "order": [
     "video_G8KLaB",
     "index_products_VebRWX",
-    "featured-collections",
+    "index_banner_3XLRKw",
     "image_with_text_overlay_QRTNUL",
     "media_grid_UALGEC",
     "before_after_3hynDD",
