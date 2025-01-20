@@ -35,10 +35,6 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -76,7 +72,6 @@
         "description",
         "price",
         "payment_terms",
-        "separator",
         "variant_picker",
         "buy_buttons",
         "complementary_products"
