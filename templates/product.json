@@ -117,10 +117,33 @@
         "title": "Related products",
         "content": ""
       }
+    },
+    "video_eEEpfh": {
+      "type": "video",
+      "blocks": {
+        "play_PU4wVK": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_PU4wVK"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/Layer_0.png",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "video_eEEpfh"
   ]
 }
