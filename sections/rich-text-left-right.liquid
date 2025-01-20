@@ -28,44 +28,35 @@
 {% schema %}
 {
   "name": "Rich text Left Right",
-  "settings":[
-          {
-            "type": "color",
-            "id": "color",
-            "label": "Text color",
-            "default":"#fff"
-          }],
-  "blocks":[{
-    "type": "block",
-    "name":"block",
-    "settings":[
-      {
-        "type": "color",
-        "id": "color",
-        "label": "Text color",
-        "default":"#fff"
-      },
-      {
-        "type":"select",
-        "id":"type",
-        "label": "选用类型",
-        "default":"img",
-        "options": [
-          {
-            "label": "图片",
-            "value": "img"
-          },
-          {
-            "label": "视频",
-            "value": "video"
-          }
-        ]
-      },
-      {
-        "type": "header",
-        "content": "图片"
-      }
-    ]
-  }]
+  "settings": [
+    {
+      "type": "header",
+      "content": "文本"
+    },
+    {
+      "type": "textarea",
+      "id": "rich_text_left",
+      "label": "Left"
+    },
+    {
+      "type": "textarea",
+      "id": "rich_text_right",
+      "label": "Right"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "block",
+      "settings": [
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text color",
+          "default": "#fff"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
