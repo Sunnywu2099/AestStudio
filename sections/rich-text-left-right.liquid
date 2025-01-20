@@ -1,8 +1,15 @@
 {% liquid
+  assign sid = section.id
   assign bs = section.settings
   assign left = bs.left
   assign right = bs.right
 %}
+
+<style>
+  #shopify-section-{{ sid }} .rich-text-left-right {
+    display: flex;
+  }
+</style>
 
 <div class="rich-text-left-right container">
   {% if left != blank %}
