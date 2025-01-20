@@ -38,7 +38,7 @@
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
         {% assign alt = block.settings.name %}
-        <div class="swiper-slide item">
+        <a class="swiper-slide item" href="{{ block.settings.link }}" target="_blank">
           <div class="img-wrapper">
             {% if block.settings.img != blank %}
               <picture>
@@ -56,7 +56,7 @@
               </picture>
             {% endif %}
           </div>
-        </div>
+        </a>
       {% endfor %}
     </div>
   </div>
@@ -115,6 +115,10 @@
             "type": "image_picker",
             "id": "img_m",
             "label": "Image Mobile"
+          }, {
+            "type": "url",
+            "id": "url",
+            "label": "Image Link"
           }
         ]
       }
