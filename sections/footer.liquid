@@ -1,9 +1,9 @@
 
+
 <style>
   #shopify-section-{{ section.id }} {
     --footer-content-justify-items: {% if section.settings.blocks.size <= 2 %}start{% else %}space-between{% endif %};
   }
-  
   .footer__aside__custom {
     display: flex;
     flex-direction: column;
@@ -67,15 +67,18 @@
   .form-control label {
     background-color: transparent;
   }
-  .email-error-message {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-top: 10px;
+  .footer .social-media--list svg {
+    width: 24px !important;
   }
+  .footer .tap-area:before {
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+  }
+  
+
+
   
 </style>
 
@@ -219,20 +222,12 @@
                         <p class="h6">{{ block.settings.title | default: title }}</p>
                       {%- endif -%}
 
-                      <ul class="v-stack gap-2.5 unstyled-list" role="list">
+                 
 
-                        {% for i in (1..5) %}
-                          {% assign link_name = 'link_' | append: i %}
-                          {% assign icon_name = 'icon_' | append: i %}
-                          
-                          <li>
-                            <a href="{{ block.settings[link_name] }}">
-                              {{ block.settings[icon_name] }}
-                            </a>
-                          </li>
-                        {% endfor %}
-                       
-                      </ul>
+
+      {%- if section.settings.show_social_media -%}
+        {%- render 'social-media', layout: 'list' -%}
+      {%- endif -%}
                     </div>
                   {%- endif -%}
               
@@ -257,9 +252,7 @@
         ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media', layout: 'list' -%}
-      {%- endif -%}
+ 
 
       {%- comment -%}
         ------------------------------------------------------------------------------------------------------------------
@@ -559,56 +552,7 @@
           "label": "title",
           "default": "Follow Us"
         },
-        {
-          "type": "url",
-          "id": "url_1",
-          "label": "link_1"
-        },
-        {
-          "type": "html",
-          "id": "icon_1",
-          "label": "icon_1"
-        },
-        {
-          "type": "url",
-          "id": "url_2",
-          "label": "link_2"
-        },
-        {
-          "type": "html",
-          "id": "icon_2",
-          "label": "icon_2"
-        },
-        {
-          "type": "url",
-          "id": "url_3",
-          "label": "link_3"
-        },
-        {
-          "type": "html",
-          "id": "icon_3",
-          "label": "icon_3"
-        }   ,
-        {
-          "type": "url",
-          "id": "url_4",
-          "label": "link_4"
-        },
-        {
-          "type": "html",
-          "id": "icon_4",
-          "label": "icon_4"
-        } , 
-        {
-          "type": "url",
-          "id": "url_5",
-          "label": "link_5"
-        },
-        {
-          "type": "html",
-          "id": "icon_5",
-          "label": "icon_5" 
-          }
+       
       ]
     }
   ]
