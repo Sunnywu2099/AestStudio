@@ -17,45 +17,20 @@
         "page_width": "xs"
       }
     },
-    "rich_text_XLCNEL": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_rnhrkq": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_Qw7jEj": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_HPYgXN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rnhrkq",
-        "heading_Qw7jEj",
-        "richtext_HPYgXN"
-      ],
+    "custom_liquid_7rwm8P": {
+      "type": "custom-liquid",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy/paste Liquid code</p>",
+        "text_alignment": "center"
       }
     }
   },
   "order": [
     "main",
-    "rich_text_XLCNEL"
+    "custom_liquid_7rwm8P"
   ]
 }
