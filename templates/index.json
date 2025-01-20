@@ -179,7 +179,7 @@
         "block_cTwNpV": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
             "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
@@ -190,7 +190,7 @@
         "block_DCpCth": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
@@ -201,7 +201,7 @@
         "block_n4jTGh": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_2.png",
             "img_m": "shopify://shop_images/Clip_path_group_2.png",
@@ -212,7 +212,7 @@
         "block_9tqePb": {
           "type": "block",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
@@ -222,8 +222,9 @@
         },
         "block_Fij9U6": {
           "type": "block",
+          "disabled": true,
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
@@ -239,7 +240,9 @@
         "block_9tqePb",
         "block_Fij9U6"
       ],
-      "settings": {}
+      "settings": {
+        "section_title": "AEST CLUB"
+      }
     }
   },
   "order": [
