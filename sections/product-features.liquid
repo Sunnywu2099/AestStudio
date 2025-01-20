@@ -1,0 +1,107 @@
+<style>
+  .product-features{
+
+  }
+</style>
+
+
+  <div class="product-nav">
+    <h2 class="section-title">{{ section.settings.title }}</h2>
+    <div class="top-wrapper">
+      {%  for block in section.blocks %} 
+        <div class="name">{{ block.settings.name }}</div>
+      {% endfor %}
+    </div>
+    <div class="bottom-wrapper swiper">
+      <div class="swiper-wrapper">
+        {%  for block in section.blocks %} 
+          {%  assign alt = block.settings.name %} 
+          <div class="swiper-slide item">
+            <div class="img-wrapper">
+              {% if block.settings.img != blank %}
+                <picture>
+                    {% if block.settings.img_m != blank %}
+                    <source
+                      srcset="{{ block.settings.img_m | img_url: '750x' }}"
+                      media="(max-width: 375px)"
+                    >
+                    <source
+                      srcset="{{ block.settings.img_m | img_url: '1000x' }}"
+                      media="(max-width: 767px)"
+                    >
+                    {% endif %}
+                    <source
+                      srcset="{{ block.settings.img | img_url: '2160x' }}"
+                      media="(max-width: 1080px)"
+                    >
+                    <img src="{{ block.settings.img | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                  </picture>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let features_swiper = new Swiper('.product-features .bottom-wrapper', {
+      spaceBetween: 1,
+      slidesPerView: 10,
+      navigation: {
+        prevEl: '.product-features .prev_button',
+        nextEl: '.product-features .next_button',
+      }
+    });
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "product features",
+    "class": "product-features",
+    "limit": 1,
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title",
+        "default": "Product Features"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Title",
+            "default": "Inside"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "product features"
+      }
+    ]
+  }
+{% endschema %}
