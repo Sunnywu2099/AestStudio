@@ -134,7 +134,7 @@
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "md",
+        "video_size": "lg",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "poster": "shopify://shop_images/Layer_0.png",
         "text_color": "#ffffff"
