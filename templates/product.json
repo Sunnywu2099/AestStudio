@@ -261,6 +261,36 @@
       "settings": {
         "title": "Agnès on You"
       }
+    },
+    "product_follows_RnNaCy": {
+      "type": "product-follows",
+      "blocks": {
+        "item_GQee7r": {
+          "type": "item",
+          "settings": {}
+        },
+        "item_KV3cYf": {
+          "type": "item",
+          "settings": {}
+        },
+        "item_xpVCBB": {
+          "type": "item",
+          "settings": {}
+        },
+        "item_anpEhe": {
+          "type": "item",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "item_GQee7r",
+        "item_KV3cYf",
+        "item_xpVCBB",
+        "item_anpEhe"
+      ],
+      "settings": {
+        "title": "Flow Us"
+      }
     }
   },
   "order": [
@@ -269,6 +299,7 @@
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
     "product_features_QrAATR",
-    "product_cards_zQFYB9"
+    "product_cards_zQFYB9",
+    "product_follows_RnNaCy"
   ]
 }
