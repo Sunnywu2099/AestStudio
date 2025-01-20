@@ -21,7 +21,7 @@
     "index_banner_ni9R3N": {
       "type": "index-banner",
       "settings": {
-        "color": "#fff",
+        "color": "#ffffff",
         "type": "img",
         "img": "shopify://shop_images/eV74eP_tif.png",
         "img_m": "shopify://shop_images/eV74eP_tif.png",
@@ -50,11 +50,28 @@
         "text_position": "start",
         "remove_vertical_spacing": false
       }
+    },
+    "section_fold_3PexCU": {
+      "type": "section-fold",
+      "blocks": {
+        "item_jBVEfV": {
+          "type": "item",
+          "settings": {
+            "title": "How to Care for Your Bag",
+            "content": "<p>1.Daily Care<br/>Avoid prolonged exposure to sunlight or high temperatures to prevent cracking or fading.<br/>Use a soft, dry cloth to remove surface dust, and occasionally apply leather conditioner with a gentle touch.</p><p>2.Waterproofing<br/>Avoid water contact. If the bag gets wet, pat it dry with a clean, soft cloth and air dry in a cool, ventilated place. Do not expose it to direct heat or use a hairdryer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jBVEfV"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "index_banner_ni9R3N",
-    "rich_text_GhePUE"
+    "rich_text_GhePUE",
+    "section_fold_3PexCU"
   ]
 }
