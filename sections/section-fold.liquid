@@ -64,6 +64,14 @@
     </div>
 </div>
 
+<script>
+    $('#shopify-section-{{sid}} .container_inner .item .item-heading').on('click',function () {
+        let el = $(this);
+        el.toggleClass('open');
+        el.next().slideToggle();
+    })
+</script>
+
 {% schema  %} 
 {
     "name":"Section fold",
