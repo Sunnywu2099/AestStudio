@@ -25,6 +25,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/look_book_poster_1.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -42,6 +43,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/look_book_poster_2.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -59,6 +61,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/look_book_poster_3.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -76,6 +79,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/look_book_poster_4.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -93,6 +97,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/look_book_poster_1.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -110,6 +115,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/look_book_poster_2.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
