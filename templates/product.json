@@ -211,6 +211,56 @@
       "settings": {
         "title": "Product Features"
       }
+    },
+    "product_cards_zQFYB9": {
+      "type": "product-cards",
+      "blocks": {
+        "item_MXWeV8": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_2.png",
+            "img_m": "shopify://shop_images/Layer_0_2.png"
+          }
+        },
+        "item_adDApN": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_3.png",
+            "img_m": "shopify://shop_images/Layer_0_3.png"
+          }
+        },
+        "item_kxJCE6": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_4.png",
+            "img_m": "shopify://shop_images/Layer_0_4.png"
+          }
+        },
+        "item_JxA8PW": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_5.png",
+            "img_m": "shopify://shop_images/Layer_0_5.png"
+          }
+        },
+        "item_UQCD4J": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_6.png",
+            "img_m": "shopify://shop_images/Layer_0_6.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_MXWeV8",
+        "item_adDApN",
+        "item_kxJCE6",
+        "item_JxA8PW",
+        "item_UQCD4J"
+      ],
+      "settings": {
+        "title": "Agnès on You"
+      }
     }
   },
   "order": [
@@ -218,6 +268,7 @@
     "related-products",
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
-    "product_features_QrAATR"
+    "product_features_QrAATR",
+    "product_cards_zQFYB9"
   ]
 }
