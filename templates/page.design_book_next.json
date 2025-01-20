@@ -18,27 +18,6 @@
         "page_width": "xs"
       }
     },
-    "rich_text_4GEc3z": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_eGQGjJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_eGQGjJ"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "rich_text_U7cYVA": {
       "type": "rich-text",
       "blocks": {
@@ -217,39 +196,55 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_one_half_BBWVTm": {
-      "type": "rich-text-one-half",
+    "rich_text_4GEc3z": {
+      "type": "rich-text",
       "blocks": {
-        "block_3VzTpJ": {
-          "type": "block",
+        "richtext_eGQGjJ": {
+          "type": "richtext",
           "settings": {
-            "color": "#fff"
-          }
-        },
-        "block_ywfdEK": {
-          "type": "block",
-          "settings": {
-            "color": "#fff"
-          }
-        },
-        "block_nRbbfr": {
-          "type": "block",
-          "settings": {
-            "color": "#fff"
+            "content": "<p>The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs.</p>"
           }
         }
       },
       "block_order": [
-        "block_3VzTpJ",
-        "block_ywfdEK",
-        "block_nRbbfr"
+        "richtext_eGQGjJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_left_right_VnLmkh": {
+      "type": "rich-text-left-right",
+      "blocks": {
+        "block_PLHTVW": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img"
+          }
+        },
+        "block_adrKc6": {
+          "type": "block",
+          "settings": {
+            "color": "#fff",
+            "type": "img"
+          }
+        }
+      },
+      "block_order": [
+        "block_PLHTVW",
+        "block_adrKc6"
       ],
       "settings": {}
     }
   },
   "order": [
     "main",
-    "rich_text_one_half_BBWVTm",
+    "rich_text_left_right_VnLmkh",
     "rich_text_U7cYVA",
     "image_with_text_overlay_bNPBLt",
     "image_with_text_overlay_8ta7An",
