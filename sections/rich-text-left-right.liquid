@@ -1,15 +1,10 @@
 {% liquid
   assign bs = section.settings
-  assign title = bs.title
   assign left = bs.left
   assign right = bs.right
 %}
 
-{% if title != blank %}
-  <div>{{ title }}</div>
-{% endif %}
-
-<div class="rich-text-left-right">
+<div class="rich-text-left-right container">
   {% if left != blank %}
     <div class="rich-text-left">
       {{ left }}
@@ -37,12 +32,6 @@
       "id": "right",
       "label": "Right",
       "default": "Left"
-    },
-    {
-      "type": "textarea",
-      "id": "title",
-      "label": "Title",
-      "default": "CAMERA BAG"
     }
   ]
 }
