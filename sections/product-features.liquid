@@ -42,7 +42,7 @@
     <h2 class="section-title">{{ section.settings.title }}</h2>
     <div class="top-wrapper">
       {%  for block in section.blocks %} 
-        <div class="name">{{ block.settings.name }}</div>
+        <div class="name {% if forloop.first %}active{% endif %}">{{ block.settings.name }}</div>
       {% endfor %}
     </div>
     <div class="bottom-wrapper swiper">
