@@ -98,7 +98,7 @@
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "desktop_media_grid_gap": 30,
+        "desktop_media_grid_gap": 8,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
