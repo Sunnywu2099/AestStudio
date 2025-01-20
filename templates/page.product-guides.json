@@ -91,10 +91,12 @@
           "settings": {
             "reverse": true,
             "type": "img",
-            "title": "",
-            "content": "",
-            "table": "",
-            "btn": "",
+            "img": "shopify://shop_images/Layer_0_0786ac4c-2814-4f58-b17e-5d7272afad81.png",
+            "img_m": "shopify://shop_images/Layer_0_0786ac4c-2814-4f58-b17e-5d7272afad81.png",
+            "title": "Agnès",
+            "content": "Series Introduction Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx",
+            "table": "a'sas",
+            "btn": "ViEW ALL",
             "link": ""
           }
         }
