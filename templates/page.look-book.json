@@ -144,7 +144,7 @@
         "desktop_row_height": 400,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "md",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
