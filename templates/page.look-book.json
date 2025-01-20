@@ -11,88 +11,14 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
-    },
-    "media_grid_JEcBVh": {
-      "type": "media-grid",
-      "blocks": {
-        "image_xpEJDc": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_t6x77R": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_AVm3yk": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_xpEJDc",
-        "image_t6x77R",
-        "image_AVm3yk"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "Media grid",
-        "content": ""
-      }
     }
   },
   "order": [
-    "main",
-    "media_grid_JEcBVh"
+    "main"
   ]
 }
