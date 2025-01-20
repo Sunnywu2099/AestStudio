@@ -1,22 +1,26 @@
 {% liquid
   assign bs = section.settings
   assign title = bs.title
-  assign rich_text_left = bs.rich_text_left
-  assign rich_text_right = bs.rich_text_right
+  assign left = bs.left
+  assign right = bs.right
 %}
 
-<div class="rich-text-left-right">
-  <div class="rich-text-left">
-    <div>{{ rich_text_left }}</div>
-  </div>
-  <div class="rich-text-right">
-    <div>{{ rich_text_right }}</div>
-  </div>
-</div>
-
 {% if title != blank %}
-  <h3 class="item_title">{{ title }}</h3>
+  <div>{{ title }}</div>
 {% endif %}
+
+<div class="rich-text-left-right">
+  {% if left != blank %}
+    <div class="rich-text-left">
+      {{ left }}
+    </div>
+  {% endif %}
+  {% if right != blank %}
+    <div class="rich-text-right">
+      {{ right }}
+    </div>
+  {% endif %}
+</div>
 
 {% schema %}
 {
@@ -24,13 +28,13 @@
   "settings": [
     {
       "type": "textarea",
-      "id": "rich_text_left",
+      "id": "left",
       "label": "Left",
       "default": "Left"
     },
     {
       "type": "textarea",
-      "id": "rich_text_right",
+      "id": "right",
       "label": "Right",
       "default": "Left"
     },
