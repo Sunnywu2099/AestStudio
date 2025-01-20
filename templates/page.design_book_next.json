@@ -25,42 +25,6 @@
         "right": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
       }
     },
-    "rich_text_U7cYVA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_8KeKNT": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_N366Vp": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_JV4NCG": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_8KeKNT",
-        "heading_N366Vp",
-        "richtext_JV4NCG"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "image_with_text_overlay_bNPBLt": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -228,7 +192,6 @@
   "order": [
     "main",
     "rich_text_left_right_VnLmkh",
-    "rich_text_U7cYVA",
     "image_with_text_overlay_bNPBLt",
     "image_with_text_overlay_8ta7An",
     "media_grid_rTaTcA",
