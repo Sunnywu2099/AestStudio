@@ -1,0 +1,70 @@
+{% content_for 'blocks' %}
+{% schema %}
+{
+    "name": "Section guide",
+    "blocks": [
+        {
+            "type": "heading-conent"
+        },
+        {
+            "type": "guide-table"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "reverse",
+            "label": "图文位置调换",
+            "default": true
+        },
+        {
+            "type":"select",
+            "id":"type",
+            "label": "选用类型",
+            "default":"img",
+            "options": [
+              {
+                "label": "图片",
+                "value": "img"
+              },
+              {
+                "label": "视频",
+                "value": "video"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "图片"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image (desktop)"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image (mobile)"
+          },
+          {
+            "type": "header",
+            "content": "视频"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "video (desktop)"
+          },
+          {
+            "type": "video",
+            "id": "video_m",
+            "label": "video (mobile)"
+          }
+    ],
+    "presets": []
+}
+{% endschema %}
