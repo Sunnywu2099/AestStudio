@@ -11,145 +11,14 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
-    },
-    "image_with_text_overlay_8ta7An": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify://shop_images/look_book_next_banner.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_U7cYVA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_8KeKNT": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_N366Vp": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_JV4NCG": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_8KeKNT",
-        "heading_N366Vp",
-        "richtext_JV4NCG"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "media_grid_rTaTcA": {
-      "type": "media-grid",
-      "blocks": {
-        "image_EXyWLH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_4fe34fcf-2167-41f8-a6d9-31b048827572.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_YKcYbR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_1_7a5efadd-54eb-4164-bb4d-106bb05e3b7d.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_dQqkpR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_2_910ba98a-4907-4db2-a4ee-c69b5e25e5f1.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_EXyWLH",
-        "image_YKcYbR",
-        "image_dQqkpR"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
     }
   },
   "order": [
-    "main",
-    "image_with_text_overlay_8ta7An",
-    "rich_text_U7cYVA",
-    "media_grid_rTaTcA"
+    "main"
   ]
 }
