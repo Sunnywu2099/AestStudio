@@ -85,6 +85,23 @@
     },
     "section_guide_fwRXAz": {
       "type": "section-guide",
+      "blocks": {
+        "item_BQ7ReD": {
+          "type": "item",
+          "settings": {
+            "reverse": true,
+            "type": "img",
+            "title": "",
+            "content": "",
+            "table": "",
+            "btn": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BQ7ReD"
+      ],
       "settings": {}
     }
   },
