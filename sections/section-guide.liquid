@@ -3,14 +3,18 @@
     #shopify-section-{{sid}} .container_inner{
         max-width: 1680px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        --gap:80px;
+        gap: var(--gap);
     }
     #shopify-section-{{sid}} .container_inner>item{
         display: flex;
-        gap: 80px;
+        gap: var(--gap);
         align-items: center;
     }
     #shopify-section-{{sid}} .container_inner>item>div{
-        width: calc((100% - 80px)/2);
+        width: calc((100% - var(--gap))/2);
     }
 </style>
 
