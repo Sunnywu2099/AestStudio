@@ -1,92 +1,87 @@
 <style>
-  .product-features{
-
+  .product-features {}
+.product-features .section-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  color: #25282A;
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+.product-features .top-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 24px;
+  margin-bottom: 40px;
+  gap: 20px;
+  overflow-x: auto;
+}
+.product-features .top-wrapper .name {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 18px;
+  border-radius: 2px;
+  border: 0.5px solid #25282A;
+  font-weight: 400;
+  line-height: 19.6px;
+  /* 140% */
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+.product-features .top-wrapper .name.active {
+  background: #25282A;
+  color: #FFF
+}
+@media screen and (max-width: 767px) {
+  .product-features .section-title {
+    padding: 0 16px;
+    margin-bottom: 16px;
   }
-  .product-features .section-title{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.9px;
-    color: #25282A;
-    padding: 0 24px;
-    margin-bottom: 32px;
+  .product-features .top-wrapper {
+    padding: 0 16px;
+    margin-bottom: 20px;
+    gap: 10px;
   }
-  .product-features .top-wrapper{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 24px;
-    margin-bottom: 40px;
-    gap: 20px;
-    overflow-x: auto;
-  }
-  .product-features .top-wrapper .name{
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0px 18px;
-    border-radius: 2px;
-    border: 0.5px solid #25282A;
-    font-weight: 400;
-    line-height: 19.6px; /* 140% */
-    letter-spacing: 0.7px;
-    cursor: pointer;
-  }
-  .product-features .top-wrapper .name.active{
-    background: #25282A;
-    color: #FFF
-  }
-  @media screen and (max-width: 767px) {
-    .product-features .section-title{
-      padding: 0 16px;
-      margin-bottom: 16px;
-    }
-    .product-features .top-wrapper{
-      padding: 0 16px;
-      margin-bottom: 20px;
-      gap: 10px;
-    }
-  }
+}
 </style>
 
 
-  <div class="product-nav">
-    <h2 class="section-title">{{ section.settings.title }}</h2>
-    <div class="top-wrapper">
-      {%  for block in section.blocks %} 
-        <div class="name {% if forloop.first %}active{% endif %}">{{ block.settings.name }}</div>
+<div class="product-nav">
+  <h2 class="section-title">{{ section.settings.title }}</h2>
+  <div class="top-wrapper">
+    {% for block in section.blocks %}
+      <div class="name {% if forloop.first %}active{% endif %}">{{ block.settings.name }}</div>
+    {% endfor %}
+  </div>
+  <div class="bottom-wrapper swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        {% assign alt = block.settings.name %}
+        <div class="swiper-slide item">
+          <div class="img-wrapper">
+            {% if block.settings.img != blank %}
+              <picture>
+                {% if block.settings.img_m != blank %}
+                  <source srcset="{{ block.settings.img_m | img_url: '750x' }}" media="(max-width: 375px)">
+                  <source srcset="{{ block.settings.img_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                {% endif %}
+                <source srcset="{{ block.settings.img | img_url: '2160x' }}" media="(max-width: 1080px)">
+                <img
+                  src="{{ block.settings.img | img_url: '2400x' }}"
+                  alt="{{ alt }}"
+                  loading="lazy"
+                  width="auto"
+                  height="100%">
+              </picture>
+            {% endif %}
+          </div>
+        </div>
       {% endfor %}
     </div>
-    <div class="bottom-wrapper swiper">
-      <div class="swiper-wrapper">
-        {%  for block in section.blocks %} 
-          {%  assign alt = block.settings.name %} 
-          <div class="swiper-slide item">
-            <div class="img-wrapper">
-              {% if block.settings.img != blank %}
-                <picture>
-                    {% if block.settings.img_m != blank %}
-                    <source
-                      srcset="{{ block.settings.img_m | img_url: '750x' }}"
-                      media="(max-width: 375px)"
-                    >
-                    <source
-                      srcset="{{ block.settings.img_m | img_url: '1000x' }}"
-                      media="(max-width: 767px)"
-                    >
-                    {% endif %}
-                    <source
-                      srcset="{{ block.settings.img | img_url: '2160x' }}"
-                      media="(max-width: 1080px)"
-                    >
-                    <img src="{{ block.settings.img | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
-                  </picture>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
   </div>
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -96,9 +91,15 @@
       navigation: {
         prevEl: '.product-features .prev_button',
         nextEl: '.product-features .next_button',
+      },
+      on: {
+        slideChangeTransitionEnd:function(event){
+          $('.product-features .top-wrapper .name').removeClass('active');
+          $('.product-features .top-wrapper .name').eq(features_swiper.activeIndex).addClass('active');
+        }
       }
     });
-
+  
     $('.product-features .top-wrapper .name').click(function(){
       $('.product-features .top-wrapper .name').removeClass('active');
       $(this).addClass('active');
@@ -134,13 +135,11 @@
             "id": "name",
             "label": "Title",
             "default": "Inside"
-          },
-          {
+          }, {
             "type": "image_picker",
             "id": "img",
             "label": "Image"
-          },
-          {
+          }, {
             "type": "image_picker",
             "id": "img_m",
             "label": "Image Mobile"
