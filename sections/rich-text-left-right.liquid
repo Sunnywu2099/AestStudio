@@ -1,5 +1,6 @@
 {% liquid
   assign bs = section.settings
+  assign title = bs.title
   assign rich_text_left = bs.rich_text_left
   assign rich_text_right = bs.rich_text_right
 %}
@@ -12,6 +13,10 @@
     <div>{{ rich_text_right }}</div>
   </div>
 </div>
+
+{% if title != blank %}
+  <h3 class="item_title">{{ title }}</h3>
+{% endif %}
 
 {% schema %}
 {
