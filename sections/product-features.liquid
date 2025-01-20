@@ -98,6 +98,12 @@
         nextEl: '.product-features .next_button',
       }
     });
+
+    $('.product-features .top-wrapper .name').click(function(){
+      $('.product-features .top-wrapper .name').removeClass('active');
+      $(this).addClass('active');
+      features_swiper.slideTo($(this).index());
+    })
   })
 </script>
 
