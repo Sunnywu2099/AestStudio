@@ -34,42 +34,6 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_U7cYVA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_8KeKNT": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_N366Vp": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_JV4NCG": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_8KeKNT",
-        "heading_N366Vp",
-        "richtext_JV4NCG"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "media_grid_rTaTcA": {
       "type": "media-grid",
       "blocks": {
@@ -149,7 +113,6 @@
   "order": [
     "main",
     "image_with_text_overlay_8ta7An",
-    "rich_text_U7cYVA",
     "media_grid_rTaTcA"
   ]
 }
