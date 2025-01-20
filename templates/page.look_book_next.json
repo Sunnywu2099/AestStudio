@@ -146,11 +146,22 @@
         "separate_section_with_border": true,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
-        "section_width": "full",
+        "section_width": "lg",
         "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "custom_liquid_KrQ4gt": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy/paste Liquid code</p>",
+        "text_alignment": "center"
       }
     },
     "image_with_text_overlay_PyUH3w": {
@@ -223,17 +234,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "custom_liquid_KrQ4gt": {
-      "type": "custom-liquid",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p>Write or copy/paste Liquid code</p>",
-        "text_alignment": "center"
       }
     }
   },
