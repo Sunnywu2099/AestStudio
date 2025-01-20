@@ -1,18 +1,96 @@
+
 <style>
   #shopify-section-{{ section.id }} {
     --footer-content-justify-items: {% if section.settings.blocks.size <= 2 %}start{% else %}space-between{% endif %};
   }
+  
+  .footer__aside__custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (min-width: 768px) {
+    .footer__aside__custom {
+      flex-direction: row;
+    }
+  }
+  .footer__aside__custom {
+    border-top: 1px solid #25282a;
+    padding-top: 24px;
+  }
+  .footer__aside__custom .footer__aside__logo {
+    width: 124px;
+  }
+  .footer__aside__custom .footer__aside__social {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .footer__aside {
+    display: none;
+  }
+  @media screen and (min-width: 700px) {
+    .footer__block--follow_us {
+      flex-grow: 0;
+      max-width: 14rem;
+    }
+  }
+  .footer input {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    padding-left: 0;
+  }
+  .footer .follow_us ul {
+    display: flex;
+    gap: 15px;
+  }
+  .form-input {
+    position: relative;
+  }
+  .form-input .align-self-start {
+    position: absolute;
+    background-color: transparent;
+    right: 0;
+  }
+  .form-input .align-self-start button {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    color: transparent;
+    border-style: none;
+    background-color: transparent;
+    padding-right: 0;
+  }
+  .form-control label {
+    background-color: transparent;
+  }
+  .email-error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
 </style>
 
-{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+  | default: section.settings.color_scheme.settings.background
+  | md5
+-%}
 
 <div class="footer color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container">
     <div class="footer__inner">
       {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      FOOTER BLOCKS (MAIN CONTENT)
-      ------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------
+        FOOTER BLOCKS (MAIN CONTENT)
+        ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
       {%- if section.blocks.size > 0 -%}
@@ -79,6 +157,8 @@
                   {%- endif -%}
 
                 {%- when 'newsletter' -%}
+
+
                   <div class="v-stack gap-4 sm:gap-5">
                     {%- if block.settings.title != blank -%}
                       <p class="h6">{{ block.settings.title }}</p>
@@ -92,14 +172,24 @@
 
                     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
 
-                    {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
+                    {%- form 'customer', id: newsletter_form_id, class: 'form form-input' -%}
                       {%- if form.posted_successfully? -%}
                         {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
                         {%- render 'banner', content: success_message, status: 'success' -%}
+
+                       
+
                       {%- else -%}
+
+
+                        
                         {%- if form.errors -%}
                           {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
                           {%- render 'banner', content: error_message, status: 'error' -%}
+
+                       
+
+               
                         {%- endif -%}
 
                         <input type="hidden" name="contact[tags]" value="newsletter">
@@ -108,18 +198,52 @@
                         {%- render 'input', name: 'contact[email]', label: input_label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
 
                         <div class="align-self-start">
-                          {%- assign button_label = 'general.newsletter.subscribe' | t -%}
+                          {%- assign button_label = '.<svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 3.00488H13.1601" stroke="#25282A" stroke-width="0.75" stroke-miterlimit="10"/>
+                        <path d="M10.6201 6L10.0977 5.46166L12.8633 3.00489L10.0977 0.538336L10.6201 0L14.0003 3.00489L10.6201 6Z" fill="#25282A"/>
+                        </svg>
+                        ' -%}
                           {%- render 'button', type: 'submit', content: button_label, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
                         </div>
                       {%- endif -%}
                     {%- endform -%}
                   </div>
 
-              {%- endcase -%}
+              
+                {%- when 'follow_us' -%}
+                  {%- assign title = block.settings.title -%}
+
+                  {%- if title != blank  -%}
+                    <div class="v-stack gap-4 sm:gap-5  follow_us">
+                      {%- if block.settings.title != blank -%}
+                        <p class="h6">{{ block.settings.title | default: title }}</p>
+                      {%- endif -%}
+
+                      <ul class="v-stack gap-2.5 unstyled-list" role="list">
+
+                        {% for i in (1..5) %}
+                          {% assign link_name = 'link_' | append: i %}
+                          {% assign icon_name = 'icon_' | append: i %}
+                          
+                          <li>
+                            <a href="{{ block.settings[link_name] }}">
+                              {{ block.settings[icon_name] }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                       
+                      </ul>
+                    </div>
+                  {%- endif -%}
+              
+                {%- endcase -%}
             {%- endcapture -%}
 
             {%- if block_content != blank -%}
-              <div class="footer__block footer__block--{{ block.type | remove_first: '@' }}" {{ block.shopify_attributes }}>
+              <div
+                class="footer__block footer__block--{{ block.type | remove_first: '@' }}"
+                {{ block.shopify_attributes }}
+              >
                 {{- block_content -}}
               </div>
             {%- endif -%}
@@ -128,9 +252,9 @@
       {%- endif -%}
 
       {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      FOOTER SOCIAL MEDIA
-      ------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------
+        FOOTER SOCIAL MEDIA
+        ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
       {%- if section.settings.show_social_media -%}
@@ -138,9 +262,9 @@
       {%- endif -%}
 
       {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      FOOTER ASIDE (COPYRIGHT + LOCALIZATION SELECTORS + PAYMENT METHODS)
-      ------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------
+        FOOTER ASIDE (COPYRIGHT + LOCALIZATION SELECTORS + PAYMENT METHODS)
+        ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
       <div class="footer__aside">
@@ -155,7 +279,12 @@
         {%- if show_country_selector or show_locale_selector -%}
           <div class="localization-selectors">
             {%- if show_country_selector -%}
-              {%- render 'localization-selector', type: 'country', placement: 'top-start', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag -%}
+              {%- render 'localization-selector',
+                type: 'country',
+                placement: 'top-start',
+                show_country_name: section.settings.show_country_name,
+                show_country_flag: section.settings.show_country_flag
+              -%}
             {%- endif -%}
 
             {%- if show_locale_selector -%}
@@ -164,7 +293,10 @@
           </div>
         {%- endif -%}
 
-        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
+        <p class="heading text-subdued text-xxs">
+          © {{ 'now' | date: '%Y' }} - {{ shop.name }}
+          {{ powered_by_link }}
+        </p>
 
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <ul class="payment-methods unstyled-list">
@@ -173,6 +305,40 @@
             {%- endfor -%}
           </ul>
         {%- endif -%}
+      </div>
+
+      <div class="footer__aside footer__aside__custom">
+        {%- for block in section.blocks -%}
+          {% if block.type == 'footer_aside_custom' %}
+            {% if block.settings.logo != blank %}
+              <div class="footer__aside__logo">
+                <picture class="{{ class }}">
+                  {{
+                    block.settings.logo
+                    | image_url: width: width
+                    | image_tag:
+                      alt: alt,
+                      class: class,
+                      widths: '100,200,300,400,500,600,700,800,1000,1200,1400,1600,1800',
+                      loading: loading,
+                      fetchpriority: priority,
+                      decoding: decoding
+                  }}
+                </picture>
+              </div>
+            {% endif %}
+
+            <div class="footer__aside__social">
+              {{ block.settings.social }}
+            </div>
+
+            {% if block.settings.copyright %}
+              <div class="footer__aside__copyright">
+                {{ block.settings.copyright }}
+              </div>
+            {% endif %}
+          {% endif %}
+        {%- endfor -%}
       </div>
     </div>
   </div>
@@ -357,6 +523,92 @@
           "id": "button_text_color",
           "label": "t:global.colors.button_text"
         }
+      ]
+    },
+    {
+      "type": "footer_aside_custom",
+      "name": "Bottom Info",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "logo"
+        },
+
+        {
+          "type": "html",
+          "id": "social",
+          "label": "social svg"
+        },
+
+        {
+          "type": "text",
+          "id": "copyright",
+          "label": "Copyright",
+          "default": "© 2024 Aest Studios"
+        }
+      ]
+    },
+    {
+      "type": "follow_us",
+      "name": "follow us",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default": "Follow Us"
+        },
+        {
+          "type": "url",
+          "id": "url_1",
+          "label": "link_1"
+        },
+        {
+          "type": "html",
+          "id": "icon_1",
+          "label": "icon_1"
+        },
+        {
+          "type": "url",
+          "id": "url_2",
+          "label": "link_2"
+        },
+        {
+          "type": "html",
+          "id": "icon_2",
+          "label": "icon_2"
+        },
+        {
+          "type": "url",
+          "id": "url_3",
+          "label": "link_3"
+        },
+        {
+          "type": "html",
+          "id": "icon_3",
+          "label": "icon_3"
+        }   ,
+        {
+          "type": "url",
+          "id": "url_4",
+          "label": "link_4"
+        },
+        {
+          "type": "html",
+          "id": "icon_4",
+          "label": "icon_4"
+        } , 
+        {
+          "type": "url",
+          "id": "url_5",
+          "label": "link_5"
+        },
+        {
+          "type": "html",
+          "id": "icon_5",
+          "label": "icon_5" 
+          }
       ]
     }
   ]
