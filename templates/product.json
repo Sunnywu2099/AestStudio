@@ -101,23 +101,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Related products",
-        "content": ""
-      }
-    },
     "video_eEEpfh": {
       "type": "video",
       "blocks": {
@@ -262,6 +245,41 @@
         "title": "Agnès on You"
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related products",
+        "content": ""
+      }
+    },
+    "17373628072f3d93c9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4acArB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4acArB"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "product_follows_RnNaCy": {
       "type": "product-follows",
       "blocks": {
@@ -307,11 +325,12 @@
   },
   "order": [
     "main",
-    "related-products",
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
     "product_features_QrAATR",
     "product_cards_zQFYB9",
+    "related-products",
+    "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
 }
