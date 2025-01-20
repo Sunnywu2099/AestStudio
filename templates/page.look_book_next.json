@@ -18,15 +18,25 @@
         "page_width": "xs"
       }
     },
+    "image_with_text_overlay_8ta7An": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/look_book_next_banner.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_U7cYVA": {
       "type": "rich-text",
       "blocks": {
-        "subheading_8KeKNT": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_N366Vp": {
           "type": "heading",
           "settings": {
@@ -42,7 +52,6 @@
         }
       },
       "block_order": [
-        "subheading_8KeKNT",
         "heading_N366Vp",
         "richtext_JV4NCG"
       ],
@@ -54,12 +63,11 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_overlay_8ta7An": {
+    "image_with_text_overlay_64k3rR": {
       "type": "image-with-text-overlay",
       "settings": {
         "color_scheme": "",
         "image_size": "auto",
-        "image": "shopify://shop_images/look_book_next_banner.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -67,7 +75,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 30
       }
     },
     "media_grid_rTaTcA": {
@@ -148,8 +156,9 @@
   },
   "order": [
     "main",
-    "rich_text_U7cYVA",
     "image_with_text_overlay_8ta7An",
+    "rich_text_U7cYVA",
+    "image_with_text_overlay_64k3rR",
     "media_grid_rTaTcA"
   ]
 }
