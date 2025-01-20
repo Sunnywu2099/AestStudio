@@ -18,22 +18,6 @@
         "page_width": "xs"
       }
     },
-    "image_with_text_overlay_8ta7An": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify://shop_images/look_book_next_banner.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_U7cYVA": {
       "type": "rich-text",
       "blocks": {
@@ -70,6 +54,38 @@
         "remove_vertical_spacing": false
       }
     },
+    "image_with_text_overlay_bNPBLt": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/design_book_banner.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_8ta7An": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/look_book_next_banner.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "media_grid_rTaTcA": {
       "type": "media-grid",
       "blocks": {
@@ -77,8 +93,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_4fe34fcf-2167-41f8-a6d9-31b048827572.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/design_book_next_1.png",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -95,8 +111,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_1_7a5efadd-54eb-4164-bb4d-106bb05e3b7d.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/design_book_next_2.png",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -113,8 +129,26 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Clip_path_group_2_910ba98a-4907-4db2-a4ee-c69b5e25e5f1.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/design_book_next_1.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GWdKWd": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/design_book_next_2.png",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -131,7 +165,8 @@
       "block_order": [
         "image_EXyWLH",
         "image_YKcYbR",
-        "image_dQqkpR"
+        "image_dQqkpR",
+        "image_GWdKWd"
       ],
       "settings": {
         "color_scheme": "",
@@ -144,12 +179,30 @@
         "title": "",
         "content": ""
       }
+    },
+    "image_with_text_overlay_xDFKQn": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/design_book_banner_2.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_8ta7An",
     "rich_text_U7cYVA",
-    "media_grid_rTaTcA"
+    "image_with_text_overlay_bNPBLt",
+    "image_with_text_overlay_8ta7An",
+    "media_grid_rTaTcA",
+    "image_with_text_overlay_xDFKQn"
   ]
 }
