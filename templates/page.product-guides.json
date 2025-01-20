@@ -23,8 +23,10 @@
       "settings": {
         "color": "#fff",
         "type": "img",
-        "title": "CAMERA BAG",
-        "btn": "Shop Now",
+        "img": "shopify://shop_images/eV74eP_tif.png",
+        "img_m": "shopify://shop_images/eV74eP_tif.png",
+        "title": "",
+        "btn": "",
         "link": ""
       }
     }
