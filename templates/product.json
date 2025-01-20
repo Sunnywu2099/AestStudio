@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -71,8 +67,8 @@
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
+            "title": "Pairs With",
+            "products_count": 5,
             "show_below_gallery": true,
             "stack_products": false,
             "show_quick_buy": true
@@ -80,7 +76,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "payment_terms",
