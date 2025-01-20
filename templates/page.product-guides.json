@@ -82,12 +82,17 @@
         "item_84MTb3"
       ],
       "settings": {}
+    },
+    "section_guide_fwRXAz": {
+      "type": "section-guide",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "index_banner_ni9R3N",
     "rich_text_GhePUE",
-    "section_fold_3PexCU"
+    "section_fold_3PexCU",
+    "section_guide_fwRXAz"
   ]
 }
