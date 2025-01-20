@@ -152,6 +152,89 @@
         "title": "",
         "content": ""
       }
+    },
+    "image_with_text_overlay_PyUH3w": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/design_book_banner_2.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_grid_W3RctB": {
+      "type": "media-grid",
+      "blocks": {
+        "image_KK774Y": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/design_book_next_1.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NhwryE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/design_book_next_2.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KK774Y",
+        "image_NhwryE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "custom_liquid_KrQ4gt": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy/paste Liquid code</p>",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -159,6 +242,9 @@
     "image_with_text_overlay_8ta7An",
     "rich_text_U7cYVA",
     "image_with_text_overlay_64k3rR",
-    "media_grid_rTaTcA"
+    "media_grid_rTaTcA",
+    "custom_liquid_KrQ4gt",
+    "image_with_text_overlay_PyUH3w",
+    "media_grid_W3RctB"
   ]
 }
