@@ -35,6 +35,26 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_pbUfXR": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "SHOP",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/Layer_0_b70e4dd4-5556-4b7b-9924-84484c1f43b8.png",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2": "shopify://shop_images/Layer_0_0786ac4c-2814-4f58-b17e-5d7272afad81.png",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_pbUfXR"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
