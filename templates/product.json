@@ -18,6 +18,13 @@
             "heading_tag": "h3"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -31,13 +38,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -77,10 +77,10 @@
       },
       "block_order": [
         "title",
+        "description",
         "price",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -287,28 +287,32 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
-            "img_m": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png"
+            "img_m": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
+            "url": ""
           }
         },
         "item_KV3cYf": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png"
+            "img_m": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
+            "url": ""
           }
         },
         "item_xpVCBB": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png"
+            "img_m": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
+            "url": ""
           }
         },
         "item_anpEhe": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_3.png",
-            "img_m": "shopify://shop_images/Clip_path_group_3.png"
+            "img_m": "shopify://shop_images/Clip_path_group_3.png",
+            "url": ""
           }
         }
       },
