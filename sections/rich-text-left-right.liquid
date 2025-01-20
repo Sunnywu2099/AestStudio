@@ -7,11 +7,12 @@
 
 <style>
   #shopify-section-{{ sid }} .rich-text-left-right {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 </style>
 
-<div class="rich-text-left-right container">
+<div class="rich-text-left-right container--{{ section.settings.content_width }}">
   {% if left != blank %}
     <div class="rich-text-left">
       {{ left }}
