@@ -1,0 +1,226 @@
+{% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="currentColor" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="currentColor"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="currentColor"/></clipPath></defs>  </svg>   {% endcapture %}
+  {% liquid
+    assign sid = section.id
+  %}
+  <style>
+    #shopify-section-{{ sid }} .item{
+      position: relative;
+    }
+    #shopify-section-{{ sid }} .media video,
+    #shopify-section-{{ sid }} .media img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
+      object-position: center;
+    }
+    #shopify-section-{{ sid }} .item .info{
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      text-align: center;
+      color:var(--color);
+    }
+    #shopify-section-{{ sid }} .item .info .item_title{
+      color: inherit;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.4; /* 140% */
+      letter-spacing: 1.1px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn{
+      margin: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: inherit;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4; /* 140% */
+      letter-spacing: 0.6px;
+      transition:all 0.3s ease-in;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      padding: 0 7px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn svg{
+      display: block;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn:hover{
+      border-color:var(--color);
+      background: rgba(37, 40, 42, 0.40);
+    }
+    @media (min-width:768px){
+      #shopify-section-{{ sid }} .index-banner-one_half{
+        display: flex;
+      }
+      #shopify-section-{{ sid }} .item{
+        width: 50%;
+      }
+      #shopify-section-{{ sid }} .media video.mobile{display:none;}
+    }
+    @media (max-width:767px){
+      #shopify-section-{{ sid }} .media video.desktop{display:none;}
+      #shopify-section-{{ sid }} .item .info{
+        bottom: 24px;
+      }
+      #shopify-section-{{ sid }} .item .info .item_title{
+        font-size: 18px;
+        letter-spacing: 0.9px;
+      }
+      #shopify-section-{{ sid }} .item .info .item_btn{
+        border-color:var(--color);
+        background: rgba(37, 40, 42, 0.40);
+      }
+  } 
+  </style>
+  <div class="index-banner-one_half">
+    {% for block in section.blocks %} 
+      {% liquid 
+        assign bs = block.settings
+        assign color = bs.color
+        assign type = bs.type
+        assign title = bs.title
+        assign btn = bs.btn
+        assign link = bs.link
+        assign pc_image = bs.img
+        assign mobile_image = bs.img_m
+        assign alt = bs.img.alt
+        assign pc_video = bs.video
+        assign mobile_video = bs.video_m
+      %}
+      <div class="item" style="--color:{{color}};">
+        <div class="media">
+          {% if type == 'img' %}
+            {% if pc_image != blank %}
+              <picture>
+                {% if mobile_image != blank %}
+                <source
+                  srcset="{{ mobile_image | img_url: '750x' }}"
+                  media="(max-width: 375px)"
+                >
+                <source
+                  srcset="{{ mobile_image | img_url: '1000x' }}"
+                  media="(max-width: 767px)"
+                >
+                {% endif %}
+                <source
+                  srcset="{{ pc_image | img_url: '2160x' }}"
+                  media="(max-width: 1080px)"
+                >
+                <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+              </picture>
+            {% endif %}
+          {% else %}
+            {% if pc_video != blank %}
+              {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+            {% endif %}
+            {% if mobile_video != blank %}
+              {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+            {% endif %}
+          {% endif %}
+        </div>
+        <div class="info">
+          {% if title != blank %}
+            <h3 class="item_title">{{ title }}</h3>
+          {% endif %}
+          {% if btn != blank %}
+            <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  {% schema %}
+    {
+      "name": "Index baaner (one half)",
+      "blocks":[{
+        "type": "block",
+        "name":"block",
+        "settings":[
+          {
+            "type": "color",
+            "id": "color",
+            "label": "Text color",
+            "default":"#fff"
+          },
+          {
+            "type":"select",
+            "id":"type",
+            "label": "选用类型",
+            "default":"img",
+            "options": [
+              {
+                "label": "图片",
+                "value": "img"
+              },
+              {
+                "label": "视频",
+                "value": "video"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "图片"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image (desktop)"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image (mobile)"
+          },
+          {
+            "type": "header",
+            "content": "视频"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "video (desktop)"
+          },
+          {
+            "type": "video",
+            "id": "video_m",
+            "label": "video (mobile)"
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default": "CAMERA BAG"
+          },
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Button",
+            "default": "Shop Now"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }],
+      "presets":[
+        {
+          "name": "Index banner (one half)" ,
+          "blocks": [
+            {
+              "type": "block"
+            },
+            {
+              "type": "block"
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}
