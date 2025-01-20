@@ -65,11 +65,30 @@
 </div>
 
 <script>
-    $('#shopify-section-{{sid}} .container_inner .item .item-heading').on('click',function () {
-        let el = $(this);
-        el.toggleClass('open');
-        el.next().slideToggle();
-    })
+    // $('#shopify-section-{{sid}} .container_inner .item .item-heading').on('click',function () {
+    //     let el = $(this);
+    //     el.toggleClass('open');
+    //     el.next().slideToggle();
+    // })
+    document.addEventListener('DOMContentLoaded', function() {
+        const headings = document.querySelectorAll('#shopify-section-{{sid}} .container_inner .item .item-heading');
+
+        headings.forEach(function(heading) {
+            heading.addEventListener('click', function() {
+                const el = this;
+                el.classList.toggle('open');
+                const content = el.nextElementSibling;
+
+                if (content) {
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'block'; // 显示内容
+                    } else {
+                        content.style.display = 'none'; // 隐藏内容
+                    }
+                }
+            });
+        });
+    });
 </script>
 
 {% schema  %} 
