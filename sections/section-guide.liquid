@@ -27,6 +27,12 @@
         object-fit:cover;
         object-position: center;
     }
+    @media (min-width:768px){
+        #shopify-section-{{ sid }} .media video.mobile{display:none;}
+    }
+    @media (max-width:767px){
+        #shopify-section-{{ sid }} .media video.desktop{display:none;}
+    }
 </style>
 
 <div class="section-guide section-spacing">
