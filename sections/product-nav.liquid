@@ -42,23 +42,38 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+    // 使用节流函数来控制滚动事件的触发频率
+    let ticking = false;
+    
     $(window).scroll(function () {
-      if( $('.product-sticky-bar').hasClass('is-visible') ){
-        let header_height = 0;
-        let bar_height = $('.product-sticky-bar').height();
-        if($('.header').hasClass('.is-hidden')){
-          header_height = 0;
-        }else{
-          header_height = $('.header').height();
-        }
-        let total_height = header_height + bar_height;
-        $('.product-nav').addClass('is-visible');
-        $('.product-nav').css('top', total_height);
-      }else{
-        $('.product-nav').removeClass('is-visible');
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          if ($('.product-sticky-bar').hasClass('is-visible')) {
+            // 确保获取实际的DOM元素高度
+            const header = $('.header')[0];
+            const stickyBar = $('.product-sticky-bar')[0];
+            
+            let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+            let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
+            
+            let total_height = header_height + bar_height;
+            
+            // 使用transform来优化性能
+            $('.product-nav')
+              .addClass('is-visible')
+              .css({
+                'transform': `translateY(${total_height}px)`,
+                'top': 0
+              });
+          } else {
+            $('.product-nav').removeClass('is-visible');
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
-    })
-  })
+    });
+  });
 </script>
 
 {% schema %}
