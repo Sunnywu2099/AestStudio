@@ -137,7 +137,10 @@
     @media (max-width:767px){
         #shopify-section-{{ sid }} .media video.desktop{display:none;}
         #shopify-section-{{sid}} .container_inner>.item{
-            flex-direction: row!important;
+            flex-direction: column!important;
+        }
+        #shopify-section-{{sid}} .container_inner>.item>div{
+            width: 100%;
         }
     }
 </style>
