@@ -135,15 +135,15 @@
         <div class="swiper-slide">
           <div class="e_product_item">
               <div class="e_meida">
-                <div class="slide_prev_button">{{arrow_left}}</div>
+                <div class="slide_prev_button" data-current = "0">{{arrow_left}}</div>
                 <div class="slide_wrpper" data-total = "{{product.images.size}}">
                     {% for img in product.images %}
-                        <div class="slide {% if forloop.first %} is_active {% endif %}" data-index = "{{forloop.index}}" data-img-id="{{ img.id }}">
+                        <div class="slide {% if forloop.first %} is_active {% endif %}" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}">
                             {{ img | image_url: width: '500x' | image_tag }}
                         </div>
                     {% endfor %}
                 </div>
-                <div class="slide_next_button">{{arrow_right}}</div>
+                <div class="slide_next_button" data-current = "0">{{arrow_right}}</div>
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
