@@ -189,8 +189,30 @@
         const el = $(this);
         const container = el.prev();
         const items = el.prev().children();
-        console.log(container , items)
-    })
+        const currentIndex = el.attr('data-current');
+        if (currentIndex < $items.length - 1) {
+            el.attr('data-current',currentIndex++);
+            updateActiveItem(container, items, currentIndex)
+        }
+    });
+
+    function updateActiveItem($container,$items,currentIndex) {
+        const $activeItem = $items.eq(currentIndex);
+
+        if ($activeItem.length) {
+            const containerRect = $container[0].getBoundingClientRect();
+            const itemRect = $activeItem[0].getBoundingClientRect();
+
+            // 检查激活项是否超出容器边界
+            if (itemRect.right > containerRect.right) {
+                // 如果右边溢出，滚动到激活项
+                $container.scrollLeft($container.scrollLeft() + (itemRect.right - containerRect.right));
+            } else if (itemRect.left < containerRect.left) {
+                // 如果左边溢出，滚动到激活项
+                $container.scrollLeft($container.scrollLeft() - (containerRect.left - itemRect.left));
+            }
+        }
+    }
 
   })
 </script>
