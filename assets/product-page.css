@@ -70,4 +70,11 @@ legend{
   right: 0!important;
   bottom: 0!important;
   transform: translateY(0)!important;
+  justify-content: space-between;
+}
+
+.pswp__button[aria-label="Close gallery"]{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
