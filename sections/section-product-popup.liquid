@@ -469,10 +469,6 @@
       },
     });
 
-    $("#shopify-section-{{ sid }} .spp-trigger_close").on('click',function(){
-        $('#shopify-section-{{sid}} .spp-trigger').removeClass('open');
-    });
-
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
         let el = $(this);
         let next_btn = el.siblings('.slide_next_button');
@@ -519,7 +515,11 @@
         }
 
         console.log(slide)
-    })
+    });
+
+    $("#shopify-section-{{ sid }} .spp-trigger_close").on('click',function(){
+        $('#shopify-section-{{sid}} .spp-trigger').removeClass('open');
+    });
 
     function updateActiveItem($container,$items,currentIndex) {
         const $activeItem = $items.eq(currentIndex);
