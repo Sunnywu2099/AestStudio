@@ -10,6 +10,10 @@
     opacity: 0;
     transition: all 0.3s ease-in-out;
   }
+  .product-nav.is-visible{
+    visibility: visible;
+    opacity: 1;
+  }
   .nav-wrapper{
     padding: 16px var(--container-gutter);
     display: flex;
@@ -39,10 +43,19 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     $(window).scroll(function () {
-      if($(window).scrollTop() > 100){
-        $('.product-nav').css('visibility', 'visible').css('opacity', '1');
+      if( $('product-sticky-bar').hasClass('is-visible') ){
+        let header_height = 0;
+        let bar_height = $('product-sticky-bar').height();
+        if($('.shopify-section--header').height() > 0){
+          header_height = $('.shopify-section--header').height();
+        }else{
+          header_height = 0;
+        }
+        let total_height = header_height + bar_height;
+        $('.product-nav').addClass('is-visible');
+        $('.product-nav').css('top', total_height);
       }else{
-        $('.product-nav').css('visibility', 'hidden').css('opacity', '0');
+        $('.product-nav').removeClass('is-visible');
       }
     })
   })
