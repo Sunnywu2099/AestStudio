@@ -1,4 +1,9 @@
 .accordion__toggle{
   padding-block: 12px;
-  text-transform: capitalize
+  text-transform: capitalize;
+  color: #25282A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.6px;
 }
