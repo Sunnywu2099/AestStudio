@@ -243,6 +243,23 @@
   </div>  
 </div>
 
+<div class="spp-trigger">
+      <div class="swiper">
+        <div class="swiper_wrapper">
+            {% for block in section.blocks %}
+                {% liquid
+                    assign bs = block.settings
+                    assign product = bs.product
+                    assign cover = bs.img 
+                    assign cover_m = bs.img_m 
+                    assign text = bs.text 
+                    assign show_media = bs.show_media 
+                %}
+            {% endfor %}
+        </div>
+      </div>
+</div>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     let seciton_product_popup_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .section-product-popup_swiper', {
@@ -378,11 +395,22 @@
               "id": "img",
               "label": "封面 "
             },
+          {
+              "type": "image_picker",
+              "id": "img_m",
+              "label": "封面 (移动端)"
+            },
             {
               "type": "text",
               "id": "text",
-              "label": "Text",
+              "label": "文本",
               "default":"Shop This Look"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_media",
+                "label":"显示社媒",
+                "default":true
             }
         ]
       }
