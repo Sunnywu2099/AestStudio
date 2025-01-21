@@ -15,100 +15,105 @@
 %}
 
 <style>
-
+  .block-containr{
+    padding: 0 30px;
+  }
 </style>
 
 <div class="block-wrapper">
   <div class="block-title">{{ title }}</div>
 
-  <div class="swiper product-swiper-{{ block.id }}" style="padding: 0 30px;">
-    <div class="swiper-wrapper">
-      {% if img_1 != blank %} 
-        <div class="swiper-slide">
-          <a {% if url_1 != blank %}href="{{ url_1 }}"{% endif %}>
-            <picture>
-              <source srcset="{{ img_1 | img_url: 'master' }}" media="(max-width: 1080px)">
-              <img
-                  src="{{ img_1 | img_url: 'master' }}"
-                  alt="{{ img_1.alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-            </picture>
-            
-          </a>
-        </div>
-      {% endif %}
+  <div class="block-containr">
+    <div class="swiper product-swiper-{{ block.id }}">
+      <div class="swiper-wrapper">
+        {% if img_1 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_1 != blank %}href="{{ url_1 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_1 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_1 | img_url: 'master' }}"
+                    alt="{{ img_1.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
 
-      {% if img_2 != blank %} 
-        <div class="swiper-slide">
-          <a {% if url_2 != blank %}href="{{ url_2 }}"{% endif %}>
-            <picture>
-              <source srcset="{{ img_2 | img_url: 'master' }}" media="(max-width: 1080px)">
-              <img
-                  src="{{ img_2 | img_url: 'master' }}"
-                  alt="{{ img_2.alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-            </picture>
-            
-          </a>
-        </div>
-      {% endif %}
+        {% if img_2 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_2 != blank %}href="{{ url_2 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_2 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_2 | img_url: 'master' }}"
+                    alt="{{ img_2.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
 
-      {% if img_3 != blank %} 
-        <div class="swiper-slide">
-          <a {% if url_3 != blank %}href="{{ url_3 }}"{% endif %}>
-            <picture>
-              <source srcset="{{ img_3 | img_url: 'master' }}" media="(max-width: 1080px)">
-              <img
-                  src="{{ img_3 | img_url: 'master' }}"
-                  alt="{{ img_3.alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-            </picture>
-            
-          </a>
-        </div>
-      {% endif %}
+        {% if img_3 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_3 != blank %}href="{{ url_3 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_3 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_3 | img_url: 'master' }}"
+                    alt="{{ img_3.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
 
-      {% if img_4 != blank %} 
-        <div class="swiper-slide">
-          <a {% if url_4 != blank %}href="{{ url_4 }}"{% endif %}>
-            <picture>
-              <source srcset="{{ img_4 | img_url: 'master' }}" media="(max-width: 1080px)">
-              <img
-                  src="{{ img_4 | img_url: 'master' }}"
-                  alt="{{ img_4.alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-            </picture>
-            
-          </a>
-        </div>
-      {% endif %}
+        {% if img_4 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_4 != blank %}href="{{ url_4 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_4 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_4 | img_url: 'master' }}"
+                    alt="{{ img_4.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
 
-      {% if img_5 != blank %} 
-        <div class="swiper-slide">
-          <a {% if url_5 != blank %}href="{{ url_5 }}"{% endif %}>
-            <picture>
-              <source srcset="{{ img_5 | img_url: 'master' }}" media="(max-width: 1080px)">
-              <img
-                  src="{{ img_5 | img_url: 'master' }}"
-                  alt="{{ img_5.alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-            </picture>
-          </a>
-        </div>
-      {% endif %}
-      
+        {% if img_5 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_5 != blank %}href="{{ url_5 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_5 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_5 | img_url: 'master' }}"
+                    alt="{{ img_5.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+            </a>
+          </div>
+        {% endif %}
+        
+      </div>
     </div>
   </div>
+  
 
   {% if text != blank %}
     <div class="block-text">{{ text }}</div>
