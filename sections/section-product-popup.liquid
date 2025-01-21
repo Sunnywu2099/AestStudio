@@ -60,6 +60,9 @@
 </style>
 
 <div class="index-products">
+  <div class="setion-title">
+    <h3>{{section.settings.title}}</h3>
+  </div>
   <div class="swiper index-products_swiper">
     <div class="swiper-wrapper">
 
@@ -95,10 +98,10 @@
     let index_products_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .index-products_swiper', {
       spaceBetween: 16,
       slidesPerView: 4,
-      // navigation: {
-      //   prevEl: '#shopify-section-{{ sid }} .prev_button',
-      //   nextEl: '#shopify-section-{{ sid }} .next_button',
-      // },
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .next_button',
+      },
       breakpoints: { 
         320: { 
           slidesPerView: 1.4,
@@ -121,6 +124,12 @@
   {
     "name": "Index products",
     "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default":"You May Also Like"
+        }
     ],
     "blocks": [
       {
