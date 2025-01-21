@@ -168,9 +168,10 @@
               <div class="e_meida">
                 <div class="slide_prev_button disable" data-current = "0">{{arrow_left}}</div>
                 <div class="slide_wrpper" data-total = "{{product.images.size}}">
-                    {% for img in product.images %}
-                        <div class="slide" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}" data-img="{{img | json}}">
-                            {{ img | image_url: width: '500x' | image_tag }}
+                    {% for media in product.media %}
+                        
+                        <div class="slide" data-index = "{{forloop.index0}}" data-img-id="{{ media.id }}" data-img="{{media.media_type | json}}">
+                            {{ media | image_url: width: '500x' | image_tag }}
                         </div>
                     {% endfor %}
                 </div>
