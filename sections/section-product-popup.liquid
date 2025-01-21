@@ -298,6 +298,11 @@
         toggleButtonState(currentIndex, $items.length, prev_btn, el);
     });
 
+    $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(){
+        let el = $(this);
+        console.log(el)
+    })
+
     function updateActiveItem($container,$items,currentIndex) {
         const $activeItem = $items.eq(currentIndex);
 
