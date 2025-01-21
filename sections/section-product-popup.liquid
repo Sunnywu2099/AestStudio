@@ -22,7 +22,12 @@
     gap: 40px;
   }
   #shopify-section-{{sid}} .product_ctrl svg{
-    display: block;
+      display: block;
+  }
+  #shopify-section-{{sid}} .product_ctrl>.swiper-button-disabled{
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none
   }
   #shopify-section-{{sid}} .e_product_item{
     max-width:500px;
@@ -144,7 +149,7 @@
                 <div class="slide_prev_button" data-current = "0">{{arrow_left}}</div>
                 <div class="slide_wrpper" data-total = "{{product.images.size}}">
                     {% for img in product.images %}
-                        <div class="slide {% if forloop.first %} is_active {% endif %}" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}">
+                        <div class="slide" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}">
                             {{ img | image_url: width: '500x' | image_tag }}
                         </div>
                     {% endfor %}
