@@ -47,26 +47,6 @@
     // 使用节流函数来控制滚动事件的触发频率
     let ticking = false;
     
-    // 添加鼠标进入事件处理
-    $('.product-sticky-bar').on('mouseenter', function() {
-      if($('.header').hasClass('is-hidden')){
-        $('.header').addClass('is-hidden').removeClass('is-solid');
-      }
-    });
-
-    // 添加鼠标离开事件处理
-    $('.product-sticky-bar').on('mouseleave', function() {
-      // 恢复header的事件处理
-      if (originalHeaderEvents) {
-        // 重新绑定所有之前的事件
-        $.each(originalHeaderEvents, function(eventName, eventHandlers) {
-          $.each(eventHandlers, function(_, eventHandler) {
-            $('.header').on(eventName, eventHandler.handler);
-          });
-        });
-      }
-    });
-    
     $(window).scroll(function () {
       if($(window).width() > 699){
         if (!ticking) {
