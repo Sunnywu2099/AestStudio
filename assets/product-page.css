@@ -15,6 +15,5 @@
   letter-spacing: 0.5px;
 }
 .product-info__block-item:is([data-group-type=accordion]){
-  margin-block-start: 32px;
-  margin-block-end: 32px;
+  margin: 32px 0;
 }
