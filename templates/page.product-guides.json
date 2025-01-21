@@ -142,7 +142,13 @@
         "product_dAQtd3": {
           "type": "product",
           "settings": {
-            "product": "mini-bag"
+            "product": "agnes-black-mini-shoulder-bag"
+          }
+        },
+        "product_AeVPUp": {
+          "type": "product",
+          "settings": {
+            "product": "test"
           }
         },
         "product_mJXetM": {
@@ -166,6 +172,7 @@
       },
       "block_order": [
         "product_dAQtd3",
+        "product_AeVPUp",
         "product_mJXetM",
         "product_8CHRXH",
         "product_Fxybyq"
