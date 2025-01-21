@@ -6195,7 +6195,7 @@ product-rerender {
 
 .product-sticky-bar {
   width: 100%;
-  padding: var(--container-gutter);
+  padding: 0 var(--container-gutter);
   opacity: 0;
   visibility: hidden;
   z-index: 3;
