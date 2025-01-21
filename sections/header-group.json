@@ -85,6 +85,9 @@
         "mega_menu_Nmd8VK",
         "mega_menu_QL8937"
       ],
+      "custom_css": [
+        "[data-title=\"Shop\"] .mega-menu__promo{display:none; }"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
