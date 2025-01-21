@@ -45,6 +45,14 @@ legend{
   line-height: normal;
   letter-spacing: 0.7px;
 }
+.price-list compare-at-price{
+  font-size: 12px;
+  color: rgba(37, 40, 42, 0.60);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
 .product-title.h3{
   color: #25282A;
   font-size: 20px;
