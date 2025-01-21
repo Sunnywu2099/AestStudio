@@ -259,7 +259,7 @@
         align-items: center;
         height: 100%;
     }
-    #shopify-section-{{sid}} .spp_swiper{
+    #shopify-section-{{sid}} .spp-trigger_inner{
         max-width: 800px;
         margin: 0 auto;
     }   
@@ -325,54 +325,59 @@
 </style>
 <div class="spp-trigger">
     <div class="container">
-      <div class="swiper spp_swiper">
-        <div class="swiper-wrapper">
-            {% for block in section.blocks %}
-                {% liquid
-                    assign bs = block.settings
-                    assign product = bs.product
-                    assign cover = bs.img 
-                    assign cover_m = bs.img_m 
-                    assign text = bs.text 
-                    assign show_media = bs.show_media 
-                %}
-                <div class="swiper-slide spp_slide">
-                    {% if cover != blank %}
-                    <div class="meida">
-                        <picture>
-                            {% if mobile_image != blank %}
-                            <source
-                            srcset="{{ cover_m | img_url: '750x' }}"
-                            media="(max-width: 375px)"
-                            >
-                            <source
-                            srcset="{{ cover_m | img_url: '1000x' }}"
-                            media="(max-width: 767px)"
-                            >
-                            {% endif %}
-                            <source
-                            srcset="{{ cover | img_url: '2160x' }}"
-                            media="(max-width: 1080px)"
-                            >
-                            <img src="{{ cover | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
-                        </picture>
-                    </div>
-                    {% endif %}
-                    <div class="info">
-                        {% if text != blank %}
-                            <div class="text">{{text}}</div>
-                        {% endif %}
-                        <div class="spp_product">
-                            {{ product.images[0] | image_url: width: '100x' | image_tag }}
-                            <h4>{{ product.title }}</h4>
-                            {%- render 'price-list', product: product, context: 'card' -%}
-                            <a href="{{product.url}}">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+        <div class=" spp-trigger_inner">
+            <div class="spp-trigger_close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1" stroke="#25282A" stroke-width="0.5" stroke-miterlimit="10"/>                <path d="M1 1L13 13" stroke="#25282A" stroke-width="0.5" stroke-miterlimit="10"/></svg>
+            </div>
+            <div class="swiper spp_swiper">
+              <div class="swiper-wrapper">
+                  {% for block in section.blocks %}
+                      {% liquid
+                          assign bs = block.settings
+                          assign product = bs.product
+                          assign cover = bs.img 
+                          assign cover_m = bs.img_m 
+                          assign text = bs.text 
+                          assign show_media = bs.show_media 
+                      %}
+                      <div class="swiper-slide spp_slide">
+                          {% if cover != blank %}
+                          <div class="meida">
+                              <picture>
+                                  {% if mobile_image != blank %}
+                                  <source
+                                  srcset="{{ cover_m | img_url: '750x' }}"
+                                  media="(max-width: 375px)"
+                                  >
+                                  <source
+                                  srcset="{{ cover_m | img_url: '1000x' }}"
+                                  media="(max-width: 767px)"
+                                  >
+                                  {% endif %}
+                                  <source
+                                  srcset="{{ cover | img_url: '2160x' }}"
+                                  media="(max-width: 1080px)"
+                                  >
+                                  <img src="{{ cover | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                              </picture>
+                          </div>
+                          {% endif %}
+                          <div class="info">
+                              {% if text != blank %}
+                                  <div class="text">{{text}}</div>
+                              {% endif %}
+                              <div class="spp_product">
+                                  {{ product.images[0] | image_url: width: '100x' | image_tag }}
+                                  <h4>{{ product.title }}</h4>
+                                  {%- render 'price-list', product: product, context: 'card' -%}
+                                  <a href="{{product.url}}">Buy Now</a>
+                              </div>
+                          </div>
+                      </div>
+                  {% endfor %}
+              </div>
+            </div>
         </div>
-      </div>
     </div>
 </div>
 
