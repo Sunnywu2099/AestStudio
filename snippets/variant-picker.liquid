@@ -67,9 +67,10 @@ Supported variables
           <div class="h-stack gap-1">
             <legend>{{ option.name }}:</legend>
 
-            {%- if resolved_option_selector_style == 'swatch' or resolved_option_selector_style == 'variant_image' -%}
+            {% comment %} {%- if resolved_option_selector_style == 'swatch' or resolved_option_selector_style == 'variant_image' -%}
               <span>{{ option.selected_value }}</span>
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
+            <span>{{ option.selected_value }}</span>
           </div>
 
           {%- if size_chart_page != blank and size_label_list contains option_downcase -%}
