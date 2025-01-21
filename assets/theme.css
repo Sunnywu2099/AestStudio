@@ -6222,7 +6222,8 @@ product-rerender {
     border-block-end-width: 1px;
     grid-template-columns: minmax(0, 1fr) max-content;
     align-items: center;
-    padding-block: 1.125rem;
+    /* padding-block: 1.125rem; */
+    padding-block: 0;
     display: grid;
   }
 }
