@@ -18,12 +18,16 @@
             "heading_tag": "h3"
           }
         },
-        "description": {
+        "description_iN8fCC": {
           "type": "description",
           "settings": {
             "collapse_content": false,
             "show_below_gallery": false
           }
+        },
+        "vendor_DweKHP": {
+          "type": "vendor",
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -56,25 +60,92 @@
             "payment_button_text_color": ""
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
+        "in_action_ifkLi4": {
+          "type": "in_action",
+          "settings": {
+            "title": "In Action",
+            "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
+            "img_1": "shopify://shop_images/Layer_0_7.png",
+            "url_1": "/",
+            "img_2": "shopify://shop_images/Layer_0_8.png",
+            "url_2": "/",
+            "img_3": "shopify://shop_images/Layer_0_9.png",
+            "url_3": "/",
+            "img_4": "shopify://shop_images/Layer_0_10.png",
+            "url_4": "/",
+            "img_5": "shopify://shop_images/Layer_0_7.png",
+            "url_5": ""
+          }
+        },
+        "accordion_UYLqjQ": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Description",
+            "content": "<p>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_XzHcUk": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Product Details",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction</li></ul>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_jVztkw": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping & Payment",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li></ul>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "in_action_fcgMfP": {
+          "type": "in_action",
           "settings": {
             "title": "Pairs With",
-            "products_count": 5,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
+            "text": "",
+            "img_1": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "url_1": "shopify://products/agnes-black-mini-shoulder-bag",
+            "img_2": "shopify://shop_images/image_1.png",
+            "url_2": "",
+            "img_3": "shopify://shop_images/image_2.png",
+            "url_3": "",
+            "img_4": "shopify://shop_images/image_3.png",
+            "url_4": "",
+            "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "url_5": ""
           }
+        },
+        "share_buttons_cKhN8j": {
+          "type": "share_buttons",
+          "settings": {}
         }
       },
       "block_order": [
         "title",
-        "description",
+        "description_iN8fCC",
+        "vendor_DweKHP",
         "price",
         "payment_terms",
         "variant_picker",
         "buy_buttons",
-        "complementary_products"
+        "in_action_ifkLi4",
+        "accordion_UYLqjQ",
+        "accordion_XzHcUk",
+        "accordion_jVztkw",
+        "in_action_fcgMfP",
+        "share_buttons_cKhN8j"
       ],
       "settings": {
         "color_scheme": "",
@@ -90,6 +161,62 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
       }
+    },
+    "product_nav_eBmH6T": {
+      "type": "product-nav",
+      "blocks": {
+        "item_rGmAbD": {
+          "type": "item",
+          "settings": {
+            "name": "Product  Video",
+            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+          }
+        },
+        "item_PiwMpQ": {
+          "type": "item",
+          "settings": {
+            "name": "Product Features",
+            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+          }
+        },
+        "item_tLRGyK": {
+          "type": "item",
+          "settings": {
+            "name": "Agnès on you",
+            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+          }
+        },
+        "item_QrKERe": {
+          "type": "item",
+          "settings": {
+            "name": "You May Also Like",
+            "id": ""
+          }
+        },
+        "item_aqM9w8": {
+          "type": "item",
+          "settings": {
+            "name": "Customer Reviews",
+            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
+          }
+        },
+        "item_BzKfMV": {
+          "type": "item",
+          "settings": {
+            "name": "Follow Us",
+            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+          }
+        }
+      },
+      "block_order": [
+        "item_rGmAbD",
+        "item_PiwMpQ",
+        "item_tLRGyK",
+        "item_QrKERe",
+        "item_aqM9w8",
+        "item_BzKfMV"
+      ],
+      "settings": {}
     },
     "video_eEEpfh": {
       "type": "video",
@@ -319,6 +446,7 @@
   },
   "order": [
     "main",
+    "product_nav_eBmH6T",
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
     "product_features_QrAATR",
