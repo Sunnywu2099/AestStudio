@@ -44,12 +44,12 @@
   document.addEventListener('DOMContentLoaded', function () {
     $(window).scroll(function () {
       if( $('product-sticky-bar').hasClass('is-visible') ){
-        let header_height = $('.shopify-section--header').height();
+        let header_height = $('.header').height();
         let bar_height = $('product-sticky-bar').height();
         if($('.header').has('.is-hidden')){
           header_height = 0;
         }else{
-          header_height = $('.shopify-section--header').height();
+          header_height = $('.header').height();
         }
         let total_height = header_height + bar_height;
         $('.product-nav').addClass('is-visible');
