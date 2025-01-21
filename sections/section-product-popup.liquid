@@ -499,7 +499,8 @@
         toggleButtonState(currentIndex, $items.length, prev_btn, el);
     });
 
-    $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(){
+    $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(e){
+        e.stopPropagation();
         let el = $(this);
         let data = JSON.parse(el.prev().attr('data-variant-media'));
 
