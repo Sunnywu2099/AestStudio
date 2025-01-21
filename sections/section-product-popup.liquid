@@ -136,7 +136,7 @@
                 <div class="slide_prev_button">{{arrow_left}}</div>
                 {% for img in product.images %}
                     <div class="slide">
-                        {{ img | image_url: width: '500x' | image_tag: class:"first" }}
+                        {{ img | image_url: width: '500x' | image_tag: class:"first" ,data-img-id: img.id }}
                     </div>
                 {% endfor %}
                 <div class="slide_next_button">{{arrow_right}}</div>
@@ -180,6 +180,10 @@
         }
       }
     });
+
+    $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
+
+    })
 
   })
 </script>
