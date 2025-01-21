@@ -259,7 +259,7 @@
     }   
 </style>
 <div class="spp-trigger">
-      <div class="swiper">
+      <div class="swiper spp_swiper">
         <div class="swiper_wrapper">
             {% for block in section.blocks %}
                 {% liquid
@@ -270,7 +270,7 @@
                     assign text = bs.text 
                     assign show_media = bs.show_media 
                 %}
-                <div class="swiper-slide">
+                <div class="swiper-slide spp_slide">
                     {% if cover != blank %}
                     <div class="meida">
                         <picture>
