@@ -1,0 +1,174 @@
+{% liquid 
+  assign block = block
+  assign title = block.settings.title
+  assign text = block.settings.text
+  assign img_1 = block.settings.img_1
+  assign url_1 = block.settings.url_1
+  assign img_2 = block.settings.img_2
+  assign url_2 = block.settings.url_2
+  assign img_3 = block.settings.img_3
+  assign url_3 = block.settings.url_3
+  assign img_4 = block.settings.img_4
+  assign url_4 = block.settings.url_4
+  assign img_5 = block.settings.img_5
+  assign url_5 = block.settings.url_5
+%}
+
+<style>
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after,
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after{
+    display: none;
+  }
+  .block-title{
+    color: #25282A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin-bottom: 8px;
+  }
+  .block-container {
+    padding: 0 22px;
+    position: relative;
+  }
+  .block-container .swiper-button-prev{
+    left: 0;
+    justify-content: flex-start;
+  }
+  .block-container .swiper-button-next{
+    right: 0;
+    justify-content: flex-end;
+  }
+  .block-text{
+    color: #25282A;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px; /* 140% */
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+  }
+</style>
+
+<div class="block-wrapper">
+  <div class="block-title">{{ title }}</div>
+
+  <div class="block-container block-container-{{ block.id }}">
+    <div class="swiper product-swiper-{{ block.id }}">
+      <div class="swiper-wrapper">
+        {% if img_1 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_1 != blank %}href="{{ url_1 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_1 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_1 | img_url: 'master' }}"
+                    alt="{{ img_1.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
+
+        {% if img_2 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_2 != blank %}href="{{ url_2 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_2 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_2 | img_url: 'master' }}"
+                    alt="{{ img_2.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
+
+        {% if img_3 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_3 != blank %}href="{{ url_3 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_3 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_3 | img_url: 'master' }}"
+                    alt="{{ img_3.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
+
+        {% if img_4 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_4 != blank %}href="{{ url_4 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_4 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_4 | img_url: 'master' }}"
+                    alt="{{ img_4.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+              
+            </a>
+          </div>
+        {% endif %}
+
+        {% if img_5 != blank %} 
+          <div class="swiper-slide">
+            <a {% if url_5 != blank %}href="{{ url_5 }}"{% endif %}>
+              <picture>
+                <source srcset="{{ img_5 | img_url: 'master' }}" media="(max-width: 1080px)">
+                <img
+                    src="{{ img_5 | img_url: 'master' }}"
+                    alt="{{ img_5.alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+              </picture>
+            </a>
+          </div>
+        {% endif %}
+        
+      </div>
+    </div>
+    <div class="swiper-button-prev block_prev_button">
+      {%  render 'block-prev' %}
+    </div>
+    <div class="swiper-button-next block_next_button">
+      {%  render 'block-next' %}
+    </div>
+  </div>
+  
+
+  {% if text != blank %}
+    <div class="block-text">{{ text }}</div>
+  {% endif %}
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let swiper_{{ block.id }} = new Swiper('.product-swiper-{{ block.id }}', {
+      slidesPerView: 4,
+      spaceBetween: 8,
+      loop: false,
+      navigation: {
+        prevEl: '.block-container-{{ block.id }} .block_prev_button',
+        nextEl: '.block-container-{{ block.id }} .block_next_button',
+      },
+    });
+  })
+  
+</script>

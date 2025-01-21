@@ -192,6 +192,9 @@ Supported variables
               {%- render 'product-rating', show_placeholder: true -%}
             {%- endif -%}
 
+          {%- when 'in_action' -%}
+            {%- render 'product-swiper', block:block -%}
+
           {%- when 'separator' -%}
             <hr>
 

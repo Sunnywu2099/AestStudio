@@ -1,0 +1,221 @@
+<style>
+  .product-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .product-nav.is-visible{
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav-wrapper{
+    padding: 16px var(--container-gutter);
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .nav-wrapper .nav-item{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+@media screen and (max-width: 699px) {
+
+}
+</style>
+
+
+<div class="nav-wrapper">
+  <div class="nav-item" data-id="back-to-top">Back to Top</div>
+  {% for block in section.blocks %} 
+    <div class="nav-item" data-id="{{ block.settings.id }}">{{ block.settings.name }}</div>
+  {% endfor %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // 使用节流函数来控制滚动事件的触发频率
+    let ticking = false;
+    
+    // $(window).scroll(function () {
+    //   if($(window).width() > 699){
+    //     if (!ticking) {
+    //       window.requestAnimationFrame(function() {
+    //         if ($('.product-sticky-bar').hasClass('is-visible')) {
+    //           // 确保获取实际的DOM元素高度
+    //           const header = $('.header')[0];
+    //           const stickyBar = $('.product-sticky-bar')[0];
+              
+    //           let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+    //           let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
+              
+    //           let total_height = header_height + bar_height;
+              
+    //           // 使用transform来优化性能
+    //           $('.product-nav')
+    //             .addClass('is-visible')
+    //             .css({
+    //               'transform': `translateY(${total_height}px)`,
+    //               'top': 0
+    //             });
+    //         } else {
+    //           $('.product-nav').removeClass('is-visible');
+    //         }
+    //         ticking = false;
+    //       });
+    //       ticking = true;
+    //     }
+    //   }else{
+    //     if (!ticking) {
+    //       window.requestAnimationFrame(function() {
+    //         if ($('.product-sticky-bar').hasClass('is-visible')) {
+    //           // 确保获取实际的DOM元素高度
+    //           const header = $('.header')[0];
+              
+    //           let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+
+    //           let total_height = header_height;
+              
+    //           // 使用transform来优化性能
+    //           $('.product-nav')
+    //             .addClass('is-visible')
+    //             .css({
+    //               'transform': `translateY(${total_height}px)`,
+    //               'top': 0
+    //             });
+    //         } else {
+    //           $('.product-nav').removeClass('is-visible');
+    //         }
+    //         ticking = false;
+    //       });
+    //       ticking = true;
+    //     }
+    //   }
+    // });
+    // 创建一个更新nav位置的函数
+    function updateNavPosition() {
+      if ($('.product-sticky-bar').hasClass('is-visible')) {
+        const header = $('.header')[0];
+        const stickyBar = $('.product-sticky-bar')[0];
+        let total_height = 0;
+        let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+        let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
+        if( $(window).width() > 700 ){
+          total_height = header_height + bar_height;
+        } else {
+          total_height = header_height;
+        }
+        
+        $('.product-nav')
+          .addClass('is-visible')
+          .css({
+            'transform': `translateY(${total_height}px)`,
+            'top': 0
+          });
+      } else {
+        $('.product-nav').removeClass('is-visible');
+      }
+    }
+
+    // 创建观察器
+    const headerObserver = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'attributes' && 
+            (mutation.attributeName === 'class' || mutation.attributeName === 'style')) {
+          requestAnimationFrame(updateNavPosition);
+        }
+      });
+    });
+
+    // 配置观察器选项
+    const config = {
+      attributes: true,
+      attributeFilter: ['class', 'style'],
+      subtree: false
+    };
+
+    // 开始观察header
+    const header = $('.header')[0];
+    if (header) {
+      headerObserver.observe(header, config);
+    }
+
+    // 保留滚动事件，但使用相同的更新函数
+    $(window).scroll(function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          updateNavPosition();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    $('.nav-wrapper .nav-item').click(function () {
+      const id = $(this).data('id');
+      if(id == 'back-to-top'){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500 )
+      }else{
+        const section = $(`#${id}`);
+        if (section.length) {
+          $('html, body').animate({
+            scrollTop: section.offset().top - $('.product-nav').outerHeight()
+          }, 500 )
+        }
+      }
+      
+    })
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "product nav",
+    "class": "product-nav",
+    "limit": 1,
+    "tag": "section",
+    "enabled_on": {
+      "templates": ["product"]
+    },
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Section name",
+            "default": "Section name"
+          },
+          {
+            "type": "text",
+            "id": "id",
+            "label": "Section ID",
+            "info": "This ID will be used to scroll to the section, find the ID in the product page with the browser inspector"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "product nav"
+      }
+    ]
+  }
+{% endschema %}
