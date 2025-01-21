@@ -102,7 +102,6 @@
         %}
         <div class="swiper-slide">
           <div class="e_product_item">
-            <a href="{{ product.url }}">
               <div class="e_meida">
                   {{ product.images[0] | image_url: width: '500x' | image_tag: class:"first" }}
               </div>
@@ -113,7 +112,6 @@
                 {% endif %}
                 {%- render 'price-list', product: product, context: 'card' -%}
               </div>
-            </a>
           </div>
         </div>
       {% endfor %}
