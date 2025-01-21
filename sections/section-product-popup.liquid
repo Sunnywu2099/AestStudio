@@ -193,7 +193,7 @@
         if (currentIndex < $items.length - 1) {
             el.attr('data-current',currentIndex++);
             // $container.find
-            console.log(currentIndex)
+            console.log(currentIndex);
             updateActiveItem($container, $items, currentIndex)
         }
     });
@@ -205,12 +205,9 @@
             const containerRect = $container[0].getBoundingClientRect();
             const itemRect = $activeItem[0].getBoundingClientRect();
 
-            // 检查激活项是否超出容器边界
             if (itemRect.right > containerRect.right) {
-                // 如果右边溢出，滚动到激活项
                 $container.scrollLeft($container.scrollLeft() + (itemRect.right - containerRect.right));
             } else if (itemRect.left < containerRect.left) {
-                // 如果左边溢出，滚动到激活项
                 $container.scrollLeft($container.scrollLeft() - (containerRect.left - itemRect.left));
             }
         }
