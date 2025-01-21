@@ -195,9 +195,7 @@
         if (currentIndex > 0) {
             currentIndex--;
             el.attr('data-current',currentIndex);
-            prev_btn.attr('data-current',currentIndex);
-            // $container.find
-            console.log(currentIndex);
+            next_btn.attr('data-current',currentIndex);
             updateActiveItem($container, $items, currentIndex)
         }
     });
@@ -211,8 +209,6 @@
             currentIndex++;
             el.attr('data-current',currentIndex);
             prev_btn.attr('data-current',currentIndex);
-            // $container.find
-            console.log(currentIndex);
             updateActiveItem($container, $items, currentIndex)
         }
     });
