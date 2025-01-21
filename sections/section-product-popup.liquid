@@ -346,7 +346,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        z-index: 1;
+        z-index: 3;
         cursor: pointer;
     }
     #shopify-section-{{sid}} .spp-trigger_inner .pn_btn svg path{
@@ -452,8 +452,8 @@
     let spp_swiper{{section.index}} = new Swiper('#shopify-section-{{sid}} .spp_swiper',{
       slidesPerView: 1,
       navigation: {
-        prevEl: '#shopify-section-{{ sid }} .spp_swiper .prev_button',
-        nextEl: '#shopify-section-{{ sid }} .spp_swiper .next_button',
+        prevEl: '#shopify-section-{{ sid }} .spp-trigger_inner .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .spp-trigger_inner .next_button',
       },
     })
 
