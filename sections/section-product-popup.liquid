@@ -191,7 +191,8 @@
         let $items = el.prev().children();
         let currentIndex = el.attr('data-current');
         if (currentIndex < $items.length - 1) {
-            el.attr('data-current',currentIndex++);
+            currentIndex++;
+            el.attr('data-current',currentIndex);
             // $container.find
             console.log(currentIndex);
             updateActiveItem($container, $items, currentIndex)
