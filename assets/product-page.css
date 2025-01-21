@@ -42,3 +42,10 @@ legend{
   line-height: normal;
   letter-spacing: 0.7px;
 }
+.product-title.h3{
+  color: #25282A;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
