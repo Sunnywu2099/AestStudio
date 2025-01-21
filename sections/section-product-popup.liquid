@@ -135,8 +135,8 @@
               <div class="e_meida">
                 <div class="slide_prev_button">{{arrow_left}}</div>
                 {% for img in product.images %}
-                    <div class="slide">
-                        {{ img | image_url: width: '500x' | image_tag: class:"first" ,data-img-id: img.id }}
+                    <div class="slide" data-index = "{{forloop.index}}" data-img-id="{{ img.id }}">
+                        {{ img | image_url: width: '500x' | image_tag }}
                     </div>
                 {% endfor %}
                 <div class="slide_next_button">{{arrow_right}}</div>
