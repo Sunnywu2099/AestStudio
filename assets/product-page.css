@@ -65,6 +65,9 @@ legend{
   letter-spacing: 1px;
 }
 .pswp__top-bar{
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  transform: translateY(0)!important;
 }
