@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "section_vertical_spacing": "md",
+    "section_vertical_spacing": "xl",
     "default_color_scheme": "",
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
@@ -24,13 +24,26 @@
     "text_font_size_mobile": 12,
     "text_font_size_desktop": 12,
     "button_letter_spacing": 6,
+    "round_color_swatches": true,
+    "social_facebook": "/",
+    "social_twitter": "/",
+    "social_pinterest": "/",
+    "social_threads": "/",
+    "social_instagram": "/",
     "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#efefef",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
+          "text_color": "#25282a",
           "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
