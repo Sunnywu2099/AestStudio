@@ -190,7 +190,7 @@
         const container = el.prev();
         const items = el.prev().children();
         const currentIndex = el.attr('data-current');
-        if (currentIndex < $items.length - 1) {
+        if (currentIndex < items.length - 1) {
             el.attr('data-current',currentIndex++);
             updateActiveItem(container, items, currentIndex)
         }
