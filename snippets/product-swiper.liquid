@@ -29,17 +29,17 @@
     letter-spacing: 0.7px;
     margin-bottom: 8px;
   }
-  .block-containr {
+  .block-container {
     padding: 0 22px;
     position: relative;
   }
-  .block-containr .swiper-button-prev{
+  .block-container .swiper-button-prev{
     left: 0;
   }
-  .block-containr .swiper-button-next{
+  .block-container .swiper-button-next{
     right: 0;
   }
-  .block-containr .block-text{
+  .block-container .block-text{
     color: #25282A;
     font-size: 10px;
     font-weight: 300;
@@ -52,7 +52,7 @@
 <div class="block-wrapper">
   <div class="block-title">{{ title }}</div>
 
-  <div class="block-containr block-containr-{{ block.id }}">
+  <div class="block-container block-container-{{ block.id }}">
     <div class="swiper product-swiper-{{ block.id }}">
       <div class="swiper-wrapper">
         {% if img_1 != blank %} 
@@ -163,8 +163,8 @@
       spaceBetween: 8,
       loop: false,
       navigation: {
-        prevEl: 'block-containr-{{ block.id }} .block_prev_button',
-        nextEl: 'block-containr-{{ block.id }} .block_next_button',
+        prevEl: 'block-container-{{ block.id }} .block_prev_button',
+        nextEl: 'block-container-{{ block.id }} .block_next_button',
       },
     });
   })
