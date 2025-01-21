@@ -253,6 +253,13 @@
         left: 0;
         background: #00000065;
         z-index: 4;
+        transition: all 0.3s;
+    }
+    #shopify-section-{{sid}} .spp-trigger:not(.open){
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        z-index: -1;
     }
     #shopify-section-{{sid}} .spp-trigger .container{
         display: flex;
@@ -460,7 +467,11 @@
         prevEl: '#shopify-section-{{ sid }} .spp-trigger_inner .prev_button',
         nextEl: '#shopify-section-{{ sid }} .spp-trigger_inner .next_button',
       },
-    })
+    });
+
+    $("#shopify-section-{{ sid }} .spp-trigger_close").on('click',function(){
+
+    });
 
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
         let el = $(this);
