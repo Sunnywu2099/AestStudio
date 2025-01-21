@@ -126,6 +126,10 @@
             "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
             "url_5": ""
           }
+        },
+        "share_buttons_cKhN8j": {
+          "type": "share_buttons",
+          "settings": {}
         }
       },
       "block_order": [
@@ -140,7 +144,8 @@
         "accordion_UYLqjQ",
         "accordion_XzHcUk",
         "accordion_jVztkw",
-        "in_action_fcgMfP"
+        "in_action_fcgMfP",
+        "share_buttons_cKhN8j"
       ],
       "settings": {
         "color_scheme": "",
