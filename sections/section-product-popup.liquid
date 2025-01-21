@@ -384,6 +384,9 @@
                                   {%- render 'price-list', product: product, context: 'card' -%}
                                   <a href="{{product.url}}">Buy Now</a>
                               </div>
+                              {% if show_media %}
+                                {%- render 'social-media', layout: 'list' -%}
+                              {% endif %}
                           </div>
                       </div>
                   {% endfor %}
