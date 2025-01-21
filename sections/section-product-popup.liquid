@@ -218,6 +218,7 @@
             next_btn.attr('data-current',currentIndex);
             updateActiveItem($container, $items, currentIndex)
         }
+        toggleButtonState(currentIndex, $items.length, el, next_btn);
     });
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
         let el = $(this);
@@ -232,6 +233,7 @@
             updateActiveItem($container, $items, currentIndex);
             console.log('next',currentIndex)
         }
+        toggleButtonState(currentIndex, $items.length, prev_btn, el);
     });
 
     function updateActiveItem($container,$items,currentIndex) {
@@ -246,6 +248,20 @@
             } else if (itemRect.left < containerRect.left) {
                 $container.scrollLeft($container.scrollLeft() - (containerRect.left - itemRect.left));
             }
+        }
+    }
+
+    function toggleButtonState(currentIndex, totalItems, prevButton, nextButton) {
+        if (currentIndex === 0) {
+            prevButton.addClass('disable'); // 禁用前一按钮
+        } else {
+            prevButton.removeClass('disable'); // 启用前一按钮
+        }
+
+        if (currentIndex >= totalItems - 1) {
+            nextButton.addClass('disable'); // 禁用下一按钮
+        } else {
+            nextButton.removeClass('disable'); // 启用下一按钮
         }
     }
 
