@@ -103,7 +103,15 @@
         <div class="swiper-slide">
           <div class="e_product_item">
               <div class="e_meida">
-                  {{ product.images[0] | image_url: width: '500x' | image_tag: class:"first" }}
+                <div class="swiper">
+                    <div class="swiper_wrapper">
+                        {% for img in product.images %}
+                            <div class="swiper-slide">
+                                {{ img | image_url: width: '500x' | image_tag: class:"first" }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
