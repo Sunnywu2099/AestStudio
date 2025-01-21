@@ -30,3 +30,6 @@ legend{
   padding: 0;
   min-width: 1.5rem;
 }
+.product-info__block-item:is([data-block-type=vendor]){
+  --product-info-gap: 4px;
+}
