@@ -161,6 +161,15 @@
         ticking = true;
       }
     });
+
+    $('.nav-wrapper .nav-item').click(function () {
+      const id = $(this).data('id');
+      const section = $(`#${id}`);
+      if (section.length) {
+        $('html, body').animate({
+          scrollTop: section.offset().top - $('.product-nav').outerHeight()
+        }, 500 );
+    })
   });
 </script>
 
