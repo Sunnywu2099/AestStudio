@@ -18,6 +18,13 @@
             "heading_tag": "h3"
           }
         },
+        "description_iN8fCC": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
         "vendor_DweKHP": {
           "type": "vendor",
           "settings": {}
@@ -123,6 +130,7 @@
       },
       "block_order": [
         "title",
+        "description_iN8fCC",
         "vendor_DweKHP",
         "price",
         "payment_terms",
