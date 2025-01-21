@@ -229,7 +229,8 @@
             currentIndex++;
             el.attr('data-current',currentIndex);
             prev_btn.attr('data-current',currentIndex);
-            updateActiveItem($container, $items, currentIndex)
+            updateActiveItem($container, $items, currentIndex);
+            console.log('next',currentIndex)
         }
     });
 
