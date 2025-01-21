@@ -3,7 +3,7 @@
     #shopify-section-{{sid}} .section-guide{
         background: #fff;
     }
-    #shopify-section-{{sid}} .contianer_inner{
+    #shopify-section-{{sid}} .container_inner{
         max-width: 1680px;
         margin: 0 auto;
         display: flex;
@@ -11,12 +11,12 @@
         --gap:80px;
         gap: var(--gap);
     }
-    #shopify-section-{{sid}} .contianer_inner>.item{
+    #shopify-section-{{sid}} .container_inner>.item{
         display: flex;
         gap: var(--gap);
         align-items: center;
     }
-    #shopify-section-{{sid}} .contianer_inner>.item>div{
+    #shopify-section-{{sid}} .container_inner>.item>div{
         width: calc((100% - var(--gap))/2);
     }
     #shopify-section-{{ sid }} .media video,
@@ -112,7 +112,7 @@
         background: #ffff;
     }
     @media (max-width:1300px){
-        #shopify-section-{{sid}} .contianer_inner{
+        #shopify-section-{{sid}} .container_inner{
             --gap:40px;
         }
     }
@@ -125,8 +125,8 @@
 </style>
 
 <div class="section-guide section-spacing">
-    <div class="contianer">
-        <div class="contianer_inner">
+    <div class=".container">
+        <div class="container_inner">
             {% for block in section.blocks %}  
                 {% liquid 
                     assign bs = block.settings
