@@ -164,21 +164,21 @@
           "type": "item",
           "settings": {
             "name": "Product  Video",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__video_eEEpfh"
           }
         },
         "item_PiwMpQ": {
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
           }
         },
         "item_tLRGyK": {
           "type": "item",
           "settings": {
             "name": "Agnès on you",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
           }
         },
         "item_QrKERe": {
@@ -192,14 +192,14 @@
           "type": "item",
           "settings": {
             "name": "Customer Reviews",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
           }
         },
         "item_BzKfMV": {
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
           }
         }
       },
