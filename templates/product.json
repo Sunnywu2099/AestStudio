@@ -75,8 +75,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Description",
+            "content": "<p>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</p>",
             "liquid": "",
             "page": ""
           }
@@ -86,8 +86,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Product Details",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction</li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -97,8 +97,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Shipping & Payment",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li></ul>",
             "liquid": "",
             "page": ""
           }
