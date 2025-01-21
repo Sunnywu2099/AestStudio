@@ -75,7 +75,6 @@
           assign bs = block.settings
           assign product = bs.product
         %}
-        {% if product.available %}
         <div class="swiper-slide">
           <div class="e_product_item">
             <a href="{{ product.url }}">
@@ -92,7 +91,6 @@
             </a>
           </div>
         </div>
-        {% endif %}
       {% endfor %}
 
     </div>
