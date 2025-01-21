@@ -33,6 +33,9 @@ legend{
 .product-info__block-item:is([data-block-type=vendor]){
   --product-info-gap: 0px;
 }
+.product-info__block-item:is([data-block-type=vendor]) .h6{
+  font-size: 10px;
+}
 .product-info__block-item:is([data-block-type=price]){
   --product-info-gap: 0px;
 }
