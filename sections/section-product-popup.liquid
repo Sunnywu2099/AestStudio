@@ -521,7 +521,7 @@
         let el = $(this);
         let index = el.index();
         
-        spp_swiper{{section.index}}.slideTo(0, 500, false);
+        spp_swiper{{section.index}}.slideTo(index, 500, false);
         $('#shopify-section-{{sid}} .spp-trigger').addClass('open');
 
         console.log(el.index());
