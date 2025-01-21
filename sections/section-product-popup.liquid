@@ -45,6 +45,7 @@
   #shopify-section-{{sid}} .e_product_item .e_meida .slide {
     flex: 0 0 100%;
     scroll-snap-align: start;
+    cursor: pointer;
   }
   #shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button {
     position: absolute;
@@ -520,7 +521,7 @@
 
     $('#shopify-section-{{sid}} .section-product-popup_swiper .slide').on('click',function(){
         let el = $(this);
-        let index = el.index();
+        let index = el.parents('.swiper-slide').index();
         
         spp_swiper{{section.index}}.slideTo(index, 50, false);
         $('#shopify-section-{{sid}} .spp-trigger').addClass('open');
