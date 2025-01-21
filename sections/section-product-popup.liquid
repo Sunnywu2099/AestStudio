@@ -186,6 +186,21 @@
       }
     });
 
+    $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
+        let el = $(this);
+        let next_btn = el.siblings('.slide_next_button');
+        let $container = el.next();
+        let $items = el.next().children();
+        let currentIndex = el.attr('data-current');
+        if (currentIndex > 0) {
+            currentIndex--;
+            el.attr('data-current',currentIndex);
+            prev_btn.attr('data-current',currentIndex);
+            // $container.find
+            console.log(currentIndex);
+            updateActiveItem($container, $items, currentIndex)
+        }
+    });
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
         let el = $(this);
         let prev_btn = el.siblings('.slide_prev_button');
