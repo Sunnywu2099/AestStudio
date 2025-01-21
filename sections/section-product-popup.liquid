@@ -300,7 +300,8 @@
 
     $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(){
         let el = $(this);
-        console.log(el)
+        let data = el.prev().attr('data-variant-media');
+        console.log(el,data)
     })
 
     function updateActiveItem($container,$items,currentIndex) {
