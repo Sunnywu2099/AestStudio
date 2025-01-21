@@ -103,7 +103,7 @@
         <div class="swiper-slide">
           <div class="e_product_item">
               <div class="e_meida">
-                <div class="swiper">
+                <div class="swiper ">
                     <div class="swiper_wrapper">
                         {% for img in product.images %}
                             <div class="swiper-slide">
@@ -130,7 +130,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    let index_products_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .section-product-popup_swiper', {
+    let seciton_product_popup_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .section-product-popup_swiper', {
       spaceBetween: 16,
       slidesPerView: 4,
       navigation: {
@@ -152,6 +152,11 @@
         }
       }
     });
+    let product_swiper = new Swiper('#shopify-section-{{sid}} .e_product_item .e_meida',{
+      slidesPerView: 1,
+
+    })
+
   })
 </script>
 
