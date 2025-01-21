@@ -135,6 +135,44 @@
         "item_f6nRky"
       ],
       "settings": {}
+    },
+    "section_product_popup_9XWtre": {
+      "type": "section-product-popup",
+      "blocks": {
+        "product_dAQtd3": {
+          "type": "product",
+          "settings": {
+            "product": "mini-bag"
+          }
+        },
+        "product_mJXetM": {
+          "type": "product",
+          "settings": {
+            "product": "belly-bag-复制-复制-复制"
+          }
+        },
+        "product_8CHRXH": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        },
+        "product_Fxybyq": {
+          "type": "product",
+          "settings": {
+            "product": "test"
+          }
+        }
+      },
+      "block_order": [
+        "product_dAQtd3",
+        "product_mJXetM",
+        "product_8CHRXH",
+        "product_Fxybyq"
+      ],
+      "settings": {
+        "title": "You May Also Like"
+      }
     }
   },
   "order": [
@@ -142,6 +180,7 @@
     "index_banner_ni9R3N",
     "rich_text_GhePUE",
     "section_fold_3PexCU",
-    "section_guide_fwRXAz"
+    "section_guide_fwRXAz",
+    "section_product_popup_9XWtre"
   ]
 }
