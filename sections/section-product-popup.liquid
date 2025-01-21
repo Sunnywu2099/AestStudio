@@ -186,10 +186,10 @@
     });
 
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
-        const el = $(this);
-        const $container = el.prev();
-        const $items = el.prev().children();
-        const currentIndex = el.attr('data-current');
+        let el = $(this);
+        let $container = el.prev();
+        let $items = el.prev().children();
+        let currentIndex = el.attr('data-current');
         if (currentIndex < $items.length - 1) {
             el.attr('data-current',currentIndex++);
             updateActiveItem($container, $items, currentIndex)
