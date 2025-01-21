@@ -7,3 +7,10 @@
   line-height: 16.8px;
   letter-spacing: 0.6px;
 }
+.accordion__content{
+  color: #25282A;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
