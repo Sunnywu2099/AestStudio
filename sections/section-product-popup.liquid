@@ -301,7 +301,10 @@
     $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(){
         let el = $(this);
         let data = JSON.parse(el.prev().attr('data-variant-media'));
-        console.log(el,data.id)
+
+        let slide = el.parents('.e_product_item')
+console.log(slide)
+
     })
 
     function updateActiveItem($container,$items,currentIndex) {
