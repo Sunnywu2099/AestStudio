@@ -95,6 +95,10 @@
             "liquid": "",
             "page": ""
           }
+        },
+        "share_buttons_nNwHqh": {
+          "type": "share_buttons",
+          "settings": {}
         }
       },
       "block_order": [
@@ -107,7 +111,8 @@
         "complementary_products",
         "accordion_UYLqjQ",
         "accordion_XzHcUk",
-        "accordion_jVztkw"
+        "accordion_jVztkw",
+        "share_buttons_nNwHqh"
       ],
       "settings": {
         "color_scheme": "",
