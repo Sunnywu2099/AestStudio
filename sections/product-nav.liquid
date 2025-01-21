@@ -102,6 +102,11 @@
         }
       }
     });
+
+    $('.product-sticky-bar').on('mouseenter', function(e) {
+      // 阻止事件冒泡
+      e.stopPropagation();
+    });
   });
 </script>
 
