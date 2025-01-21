@@ -38,7 +38,13 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-
+    $(window).scroll(function () {
+      if($(window).scrollTop() > 100){
+        $('.product-nav').css('visibility', 'visible').css('opacity', '1');
+      }else{
+        $('.product-nav').css('visibility', 'hidden').css('opacity', '0');
+      }
+    })
   })
 </script>
 
