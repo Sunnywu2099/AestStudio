@@ -107,11 +107,14 @@
       if ($('.product-sticky-bar').hasClass('is-visible')) {
         const header = $('.header')[0];
         const stickyBar = $('.product-sticky-bar')[0];
-        
+        let total_height = 0;
         let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
         let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
-        
-        let total_height = header_height + bar_height;
+        if( $(window).width() > 700 ){
+          total_height = header_height + bar_height;
+        } else {
+          total_height = header_height;
+        }
         
         $('.product-nav')
           .addClass('is-visible')
