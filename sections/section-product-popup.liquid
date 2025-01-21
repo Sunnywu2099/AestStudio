@@ -303,8 +303,12 @@
         let data = JSON.parse(el.prev().attr('data-variant-media'));
 
         let slide = el.parents('.e_product_item').find(`.slide[data-img-id=${data.id}]`);
-console.log(slide)
+        
+        if(slide){
+            
+        }
 
+        console.log(slide)
     })
 
     function updateActiveItem($container,$items,currentIndex) {
