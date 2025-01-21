@@ -187,12 +187,14 @@
 
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
         let el = $(this);
+        let prev_btn = el.siblings('.slide_prev_button');
         let $container = el.prev();
         let $items = el.prev().children();
         let currentIndex = el.attr('data-current');
         if (currentIndex < $items.length - 1) {
             currentIndex++;
             el.attr('data-current',currentIndex);
+            prev_btn.attr('data-current',currentIndex);
             // $container.find
             console.log(currentIndex);
             updateActiveItem($container, $items, currentIndex)
