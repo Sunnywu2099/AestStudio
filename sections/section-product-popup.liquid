@@ -399,6 +399,8 @@
                       </div>
                   {% endfor %}
               </div>
+              <div class="prev_button">{{arrow_left}}</div>
+            <div class="next_button">{{arrow_right}}</div>
             </div>
         </div>
     </div>
@@ -431,6 +433,10 @@
 
     let spp_swiper{{section.index}} = new Swiper('#shopify-section-{{sid}} .spp_swiper',{
       slidesPerView: 1,
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .spp_swiper .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .spp_swiper .next_button',
+      },
     })
 
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
