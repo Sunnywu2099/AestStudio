@@ -302,10 +302,15 @@
         let el = $(this);
         let data = JSON.parse(el.prev().attr('data-variant-media'));
 
+        let slide_wrpper = el.parents('.e_product_item').find(`.slide_wrpper`);
+        let slides = el.parents('.e_product_item').find(`.slide`);
         let slide = el.parents('.e_product_item').find(`.slide[data-img-id=${data.id}]`);
+        let slide_prev_button = el.parents('.e_product_item').find(`.slide_prev_button`);
+        let slide_next_button = el.parents('.e_product_item').find(`.slide_next_button`);
         
         if(slide){
-            
+            updateActiveItem(slide_wrpper,slides,slide.attr('data-index'));
+            toggleButtonState(slide.attr('data-index'), slides, slide_prev_button, slide_next_button);
         }
 
         console.log(slide)
