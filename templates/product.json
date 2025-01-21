@@ -18,12 +18,9 @@
             "heading_tag": "h3"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
+        "vendor_DweKHP": {
+          "type": "vendor",
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -69,7 +66,7 @@
       },
       "block_order": [
         "title",
-        "description",
+        "vendor_DweKHP",
         "price",
         "payment_terms",
         "variant_picker",
