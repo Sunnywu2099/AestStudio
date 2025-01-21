@@ -14,6 +14,6 @@
   line-height: 14px;
   letter-spacing: 0.5px;
 }
-.product-info__block-item:is([data-group-type=accordion]){
+.product-info__block-group.accordion-group{
   margin: 32px 0;
 }
