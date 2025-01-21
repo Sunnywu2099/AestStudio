@@ -53,14 +53,16 @@
             "payment_button_text_color": ""
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
+        "in_action_ifkLi4": {
+          "type": "in_action",
           "settings": {
-            "title": "Pairs With",
-            "products_count": 5,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
+            "title": "In Action",
+            "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
+            "url_1": "",
+            "url_2": "",
+            "url_3": "",
+            "url_4": "",
+            "url_5": ""
           }
         },
         "accordion_UYLqjQ": {
@@ -95,6 +97,18 @@
             "liquid": "",
             "page": ""
           }
+        },
+        "in_action_fcgMfP": {
+          "type": "in_action",
+          "settings": {
+            "title": "Pairs With",
+            "text": "",
+            "url_1": "",
+            "url_2": "",
+            "url_3": "",
+            "url_4": "",
+            "url_5": ""
+          }
         }
       },
       "block_order": [
@@ -104,10 +118,11 @@
         "payment_terms",
         "variant_picker",
         "buy_buttons",
-        "complementary_products",
+        "in_action_ifkLi4",
         "accordion_UYLqjQ",
         "accordion_XzHcUk",
-        "accordion_jVztkw"
+        "accordion_jVztkw",
+        "in_action_fcgMfP"
       ],
       "settings": {
         "color_scheme": "",
