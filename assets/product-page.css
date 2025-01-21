@@ -77,4 +77,13 @@ legend{
   position: absolute;
   top: 60px;
   right: 60px; 
+  box-shadow: none;
+}
+.pswp__button[aria-label="Previous"]{
+  margin-left: 60px; 
+  box-shadow: none;
+}
+.pswp__button[aria-label="Next"]{
+  margin-right: 60px; 
+  box-shadow: none;
 }
