@@ -314,7 +314,7 @@
                             <div class="text">{{text}}</div>
                         {% endif %}
                         <div class="spp_product">
-                            {{ product.images[0] | image_url: width: '500x' | image_tag }}
+                            {{ product.images[0] | image_url: width: '100x' | image_tag }}
                             <h4>{{ product.title }}</h4>
                             {%- render 'price-list', product: product, context: 'card' -%}
                             <a href="{{product.url}}">Buy Now</a>
