@@ -519,6 +519,11 @@
 
     $('#shopify-section-{{sid}} .section-product-popup_swiper .swiper-slide').on('click',function(){
         let el = $(this);
+        let index = el.index();
+        
+        spp_swiper{{section.index}}.slideTo(0, 500, false);
+        $('#shopify-section-{{sid}} .spp-trigger').addClass('open');
+
         console.log(el.index());
     });
 
