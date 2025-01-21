@@ -64,3 +64,7 @@ legend{
   line-height: 28px;
   letter-spacing: 1px;
 }
+.pswp__top-bar{
+  top: 50%;
+  transform: translateY(-50%);
+}
