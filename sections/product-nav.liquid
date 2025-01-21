@@ -164,12 +164,19 @@
 
     $('.nav-wrapper .nav-item').click(function () {
       const id = $(this).data('id');
-      const section = $(`#${id}`);
-      if (section.length) {
+      if(id == 'back-to-top'){
         $('html, body').animate({
-          scrollTop: section.offset().top - $('.product-nav').outerHeight()
+            scrollTop: 0
         }, 500 )
+      }else{
+        const section = $(`#${id}`);
+        if (section.length) {
+          $('html, body').animate({
+            scrollTop: section.offset().top - $('.product-nav').outerHeight()
+          }, 500 )
+        }
       }
+      
     })
   });
 </script>
