@@ -47,59 +47,114 @@
     // 使用节流函数来控制滚动事件的触发频率
     let ticking = false;
     
-    $(window).scroll(function () {
-      if($(window).width() > 699){
-        if (!ticking) {
-          window.requestAnimationFrame(function() {
-            if ($('.product-sticky-bar').hasClass('is-visible')) {
-              // 确保获取实际的DOM元素高度
-              const header = $('.header')[0];
-              const stickyBar = $('.product-sticky-bar')[0];
+    // $(window).scroll(function () {
+    //   if($(window).width() > 699){
+    //     if (!ticking) {
+    //       window.requestAnimationFrame(function() {
+    //         if ($('.product-sticky-bar').hasClass('is-visible')) {
+    //           // 确保获取实际的DOM元素高度
+    //           const header = $('.header')[0];
+    //           const stickyBar = $('.product-sticky-bar')[0];
               
-              let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
-              let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
+    //           let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+    //           let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
               
-              let total_height = header_height + bar_height;
+    //           let total_height = header_height + bar_height;
               
-              // 使用transform来优化性能
-              $('.product-nav')
-                .addClass('is-visible')
-                .css({
-                  'transform': `translateY(${total_height}px)`,
-                  'top': 0
-                });
-            } else {
-              $('.product-nav').removeClass('is-visible');
-            }
-            ticking = false;
-          });
-          ticking = true;
-        }
-      }else{
-        if (!ticking) {
-          window.requestAnimationFrame(function() {
-            if ($('.product-sticky-bar').hasClass('is-visible')) {
-              // 确保获取实际的DOM元素高度
-              const header = $('.header')[0];
+    //           // 使用transform来优化性能
+    //           $('.product-nav')
+    //             .addClass('is-visible')
+    //             .css({
+    //               'transform': `translateY(${total_height}px)`,
+    //               'top': 0
+    //             });
+    //         } else {
+    //           $('.product-nav').removeClass('is-visible');
+    //         }
+    //         ticking = false;
+    //       });
+    //       ticking = true;
+    //     }
+    //   }else{
+    //     if (!ticking) {
+    //       window.requestAnimationFrame(function() {
+    //         if ($('.product-sticky-bar').hasClass('is-visible')) {
+    //           // 确保获取实际的DOM元素高度
+    //           const header = $('.header')[0];
               
-              let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+    //           let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
 
-              let total_height = header_height;
+    //           let total_height = header_height;
               
-              // 使用transform来优化性能
-              $('.product-nav')
-                .addClass('is-visible')
-                .css({
-                  'transform': `translateY(${total_height}px)`,
-                  'top': 0
-                });
-            } else {
-              $('.product-nav').removeClass('is-visible');
-            }
-            ticking = false;
+    //           // 使用transform来优化性能
+    //           $('.product-nav')
+    //             .addClass('is-visible')
+    //             .css({
+    //               'transform': `translateY(${total_height}px)`,
+    //               'top': 0
+    //             });
+    //         } else {
+    //           $('.product-nav').removeClass('is-visible');
+    //         }
+    //         ticking = false;
+    //       });
+    //       ticking = true;
+    //     }
+    //   }
+    // });
+    // 创建一个更新nav位置的函数
+    function updateNavPosition() {
+      if ($('.product-sticky-bar').hasClass('is-visible')) {
+        const header = $('.header')[0];
+        const stickyBar = $('.product-sticky-bar')[0];
+        
+        let header_height = $('.header').hasClass('is-hidden') ? 0 : (header ? header.offsetHeight : 0);
+        let bar_height = stickyBar ? stickyBar.offsetHeight : 0;
+        
+        let total_height = header_height + bar_height;
+        
+        $('.product-nav')
+          .addClass('is-visible')
+          .css({
+            'transform': `translateY(${total_height}px)`,
+            'top': 0
           });
-          ticking = true;
+      } else {
+        $('.product-nav').removeClass('is-visible');
+      }
+    }
+
+    // 创建观察器
+    const headerObserver = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'attributes' && 
+            (mutation.attributeName === 'class' || mutation.attributeName === 'style')) {
+          requestAnimationFrame(updateNavPosition);
         }
+      });
+    });
+
+    // 配置观察器选项
+    const config = {
+      attributes: true,
+      attributeFilter: ['class', 'style'],
+      subtree: false
+    };
+
+    // 开始观察header
+    const header = $('.header')[0];
+    if (header) {
+      headerObserver.observe(header, config);
+    }
+
+    // 保留滚动事件，但使用相同的更新函数
+    $(window).scroll(function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          updateNavPosition();
+          ticking = false;
+        });
+        ticking = true;
       }
     });
   });
