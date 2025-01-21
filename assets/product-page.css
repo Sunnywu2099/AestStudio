@@ -16,4 +16,6 @@
 }
 .product-info__block-group.accordion-group{
   margin: 32px 0;
+  margin-block-start: 32px;
+  margin-block-end: 32px;
 }
