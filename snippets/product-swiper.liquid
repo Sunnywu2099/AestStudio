@@ -112,9 +112,12 @@
 
 
 <script>
-  const product_swiper_{{ block.id }} = new Swiper('.product-swiper-{{ block.id }}', {
-    slidesPerView: 4,
-    spaceBetween: 8,
-    loop: false,
-  });
+  document.addEventListener('DOMContentLoaded', function () {
+    let swiper_{{ block.id }} = new Swiper('.product-swiper-{{ block.id }}', {
+      slidesPerView: 4,
+      spaceBetween: 8,
+      loop: false,
+    });
+  })
+  
 </script>
