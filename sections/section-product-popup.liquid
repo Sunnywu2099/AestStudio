@@ -346,6 +346,10 @@
       }
     });
 
+    let spp_swiper{{section.index}} = new Swiper('#shopify-section-{{sid}} .spp_swiper',{
+      slidesPerView: 1,
+    })
+
     $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
         let el = $(this);
         let next_btn = el.siblings('.slide_next_button');
