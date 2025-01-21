@@ -1,3 +1,4 @@
 .accordion__toggle{
   padding-block: 12px;
+  text-transform: capitalize
 }
