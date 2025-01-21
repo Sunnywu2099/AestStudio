@@ -39,7 +39,7 @@
 <div class="block-wrapper">
   <div class="block-title">{{ title }}</div>
 
-  <div class="block-containr">
+  <div class="block-containr block-containr-{{ block.id }}">
     <div class="swiper product-swiper-{{ block.id }}">
       <div class="swiper-wrapper">
         {% if img_1 != blank %} 
@@ -128,10 +128,10 @@
         
       </div>
     </div>
-    <div class="swiper-button-prev prev_next prev_button">
+    <div class="swiper-button-prev block_prev_button">
       {%  render 'swiper-prev' %}
     </div>
-    <div class="swiper-button-next prev_next next_button">
+    <div class="swiper-button-next block_next_button">
       {%  render 'swiper-next' %}
     </div>
   </div>
@@ -149,6 +149,10 @@
       slidesPerView: 4,
       spaceBetween: 8,
       loop: false,
+      navigation: {
+        prevEl: 'block-containr-{{ block.id }} .block_prev_button',
+        nextEl: 'block-containr-{{ block.id }} .block_next_button',
+      },
     });
   })
   
