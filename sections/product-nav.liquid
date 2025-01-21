@@ -46,14 +46,12 @@
   document.addEventListener('DOMContentLoaded', function () {
     // 使用节流函数来控制滚动事件的触发频率
     let ticking = false;
-    let originalHeaderEvents;
     
     // 添加鼠标进入事件处理
     $('.product-sticky-bar').on('mouseenter', function() {
-      // 保存header原有的mouseenter事件处理函数
-      originalHeaderEvents = jQuery._data($('.header')[0], 'events');
-      // 临时移除header的所有事件监听器
-      $('.header').off();
+      if($('.header').hasClass('is-hidden')){
+        $('.header').addClass('is-hidden').removeClass('is-solid');
+      }
     });
 
     // 添加鼠标离开事件处理
