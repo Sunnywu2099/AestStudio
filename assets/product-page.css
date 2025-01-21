@@ -19,3 +19,7 @@
   margin-block-start: 32px!important;
   margin-block-end: 32px;
 }
+legend{
+  font-size: 14px;
+  text-transform: capitalize;
+}
