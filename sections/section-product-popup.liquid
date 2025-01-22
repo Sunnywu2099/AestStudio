@@ -420,11 +420,7 @@
                                   media="(max-width: 699px)"
                                   >
                                   {% endif %}
-                                  <source
-                                  srcset="{{ cover | img_url: '2160x' }}"
-                                  media="(max-width: 1080px)"
-                                  >
-                                  <img src="{{ cover | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                                  <img src="{{ cover | img_url: '1500x' }}" alt="{{ cover.alt }}" loading="lazy" width="auto" height="100%">
                               </picture>
                           </div>
                           {% endif %}
