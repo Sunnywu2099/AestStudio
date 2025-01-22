@@ -235,7 +235,8 @@
         "autoplay": false,
         "show_controls": true,
         "video_size": "lg",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "external_video_url": "",
         "poster": "shopify://shop_images/Layer_0.png",
         "text_color": "#ffffff"
       }
