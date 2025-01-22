@@ -14,13 +14,18 @@
   }
   .custom-text-with-media .custom-wrapper .media-wrapper{
     width: calc( ( 100% - 80px ) / 2 );
+    position: relative;
   }
-  .custom-text-with-media .custom-wrapper .content-wrapper{
+  .custom-text-with-media .custom-wrapper .media-wrapper{
     width: calc( ( 100% - 80px ) / 2 );
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+    position: relative;
+  }
+  .custom-text-with-media .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
   }
   .custom-text-with-media .title{
     color: #000;
