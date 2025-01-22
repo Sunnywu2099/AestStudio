@@ -144,6 +144,12 @@
     #shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button {
         opacity: 1; 
     }
+    #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_prev_button.disable,
+    #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_next_button.disable {
+      opacity: .35;
+      cursor: auto;
+      pointer-events: none
+    }
   }
 </style>
 
