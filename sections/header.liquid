@@ -58,7 +58,7 @@
   {%- endif -%}
 
 
-  .inside_menu_ul {
+.inside_menu_ul {
   position: relative;
 }
 .inside_menu_ul:before {
@@ -70,13 +70,30 @@
   top: -2.5rem;
   height: calc(100% + 5rem);
   z-index: 1;
-  background-color: rgba(227, 229, 223, 0.3);
+  background-color: #e3e5df4d;
 }
 .inside_menu {
   z-index: 2;
 }
 [data-title="Shop"] .mega-menu__promo {
   display: none;
+}
+@media screen and (min-width: 1800px) {
+  [data-title="Shop"] .mega-menu__promo {
+    display: flex;
+  }
+  [data-title="Shop"] .mega-menu__promo > * {
+    flex: 160px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  [data-title="Shop"] .mega-menu__promo > * {
+    flex: 280px;
+    min-width: 220px;
+    max-width: 240px;
+  }
 }
 
   
