@@ -84,7 +84,10 @@
     <div class="media-wrapper">
       {% if use_video %}
         {% if autoplay %}
-          {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master' }}
+          {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:none' }}
+          {% if mobile_video != blank %}
+            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:block' }}
+          {% endif %}
         {% else %}
         {% endif %}
       {% else %}
