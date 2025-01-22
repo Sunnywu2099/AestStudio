@@ -93,6 +93,9 @@
           {% if mobile_video != blank %}
             {{ mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: true, playsinline: true, image_size: 'master', class:' sm:hidden' }}
           {% endif %}
+          <div class="play-btn">
+            {% render 'play-video' %} 
+          </div>
         {% endif %}
       {% else %}
         {% if img != blank %}
