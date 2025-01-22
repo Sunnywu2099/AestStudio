@@ -41,6 +41,7 @@
           "settings": {
             "menu_item": "SHOP",
             "images_position": "right",
+            "inside_menu": "view_all",
             "image_1": "shopify://shop_images/Layer_0_b70e4dd4-5556-4b7b-9924-84484c1f43b8.png",
             "image_1_heading": "",
             "image_1_text": "",
@@ -56,6 +57,7 @@
           "settings": {
             "menu_item": "BAGS",
             "images_position": "right",
+            "inside_menu": "",
             "image_1": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_1_heading": "",
             "image_1_text": "",
@@ -71,6 +73,7 @@
           "settings": {
             "menu_item": "",
             "images_position": "right",
+            "inside_menu": "",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
