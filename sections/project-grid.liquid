@@ -32,6 +32,7 @@
 </div>
 
 <script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.js?v=1737538820"></script>
+<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-auto-scroll.js?v=1737539284"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const gridSplide = new Splide('.grid-splide', {
@@ -46,7 +47,7 @@
         pauseOnHover: true // 鼠标悬停时暂停
       },
     });
-
+    gridSplide.mount(window.splide.Extensions);
   });
 </script>
 
