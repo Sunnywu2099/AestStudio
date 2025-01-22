@@ -9,6 +9,9 @@
     padding: 80px 0;
     border-bottom: 0.7px solid #e7e7e7;
   }
+  .custom-text-with-media .custom-wrapper.row-reverse{
+    flex-direction: row-reverse;
+  }
   .custom-text-with-media .custom-wrapper .media-wrapper{
     width: calc( ( 100% - 80px ) / 2 );
   }
@@ -50,7 +53,7 @@
   assign text_alignment = section.settings.text_alignment
 %}
 <div class="container">
-  <div class="custom-wrapper">
+  <div class="custom-wrapper {% if text_alignment == 'left' %}row-reverse{% endif %}">
     <div class="media-wrapper">
       {% if use_video %}
       {% else %}
