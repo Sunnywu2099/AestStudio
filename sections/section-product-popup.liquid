@@ -411,7 +411,7 @@
                           {% if cover != blank %}
                           <div class="meida">
                               <picture>
-                                  {% if mobile_image != blank %}
+                                  {% if cover_m != blank %}
                                   <source
                                   srcset="{{ cover_m | img_url: '750x' }}"
                                   media="(max-width: 375px)"
