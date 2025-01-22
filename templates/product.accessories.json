@@ -337,72 +337,12 @@
         "text_alignment": "right"
       }
     },
-    "product_cards_zQFYB9": {
-      "type": "product-cards",
-      "blocks": {
-        "item_MXWeV8": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_2.png",
-            "img_m": "shopify://shop_images/Layer_0_2.png"
-          }
-        },
-        "item_adDApN": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_3.png",
-            "img_m": "shopify://shop_images/Layer_0_3.png"
-          }
-        },
-        "item_kxJCE6": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_4.png",
-            "img_m": "shopify://shop_images/Layer_0_4.png"
-          }
-        },
-        "item_JxA8PW": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_5.png",
-            "img_m": "shopify://shop_images/Layer_0_5.png"
-          }
-        },
-        "item_UQCD4J": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_6.png",
-            "img_m": "shopify://shop_images/Layer_0_6.png"
-          }
-        }
-      },
-      "block_order": [
-        "item_MXWeV8",
-        "item_adDApN",
-        "item_kxJCE6",
-        "item_JxA8PW",
-        "item_UQCD4J"
-      ],
+    "product_banner_HgD9HU": {
+      "type": "product-banner",
       "settings": {
-        "title": "Agnès on You"
-      }
-    },
-    "17373628072f3d93c9": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_4acArB": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_4acArB"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false
+        "title": "You May Also Like",
+        "img": "shopify://shop_images/Layer_0_11.png",
+        "content": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
       }
     },
     "section_product_popup_DyMQKF": {
@@ -472,6 +412,24 @@
         "url": "shopify://products/accessories-product"
       }
     },
+    "17373628072f3d93c9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4acArB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4acArB"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    },
     "product_follows_RnNaCy": {
       "type": "product-follows",
       "blocks": {
@@ -526,9 +484,9 @@
     "custom_text_with_media_BaK7bn",
     "custom_text_with_media_iPGteQ",
     "custom_text_with_media_dhJxQC",
-    "product_cards_zQFYB9",
-    "17373628072f3d93c9",
+    "product_banner_HgD9HU",
     "section_product_popup_DyMQKF",
+    "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
 }
