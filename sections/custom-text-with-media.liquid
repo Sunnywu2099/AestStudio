@@ -38,9 +38,20 @@
     letter-spacing: 0.6px;
     margin: 0;
   }
-@media screen and (max-width: 699px) {
+  @media screen and (max-width: 699px) {
+    .custom-text-with-media .custom-wrapper{
+      gap: 40px;
+    }
+    .custom-text-with-media .custom-wrapper .media-wrapper{
+      width: calc( ( 100% - 40px ) / 2 );
+    }
+    .custom-text-with-media .custom-wrapper .content-wrapper{
+      width: calc( ( 100% - 40px ) / 2 );
+    }
+  }
+  @media screen and (max-width: 699px) {
 
-}
+  }
 </style>
 
 {% liquid 
