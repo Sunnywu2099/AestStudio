@@ -251,7 +251,10 @@
       {% endfor %}
 
     </div>
-  </div>  
+  </div>
+    {% if section.settings.continue_shopping %} 
+      <a href="{{section.settings.url}}" target="_blank">CONTINUE SHOPPING</a>
+    {% endif %}
 </div>
 
 
@@ -619,6 +622,16 @@
             "id": "title",
             "label": "Title",
             "default":"You May Also Like"
+        },{
+            "type": "checkbox",
+            "id": "continue_shopping",
+            "label": "Continue shopping",
+            "default": false
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "Continue shopping page"
         }
     ],
     "blocks": [
