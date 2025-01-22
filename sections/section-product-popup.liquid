@@ -1,0 +1,659 @@
+{% capture arrow_left %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">    <path d="M0 5.48837L10 0V1.5969L1.79916 6L1.88285 5.86047V6.17054L1.79916 6.03101L10 10.4031V12L0 6.52713V5.48837Z" fill="#25282A"/></svg>{% endcapture %}
+{% capture arrow_right %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">  <path d="M10 6.51163L0 12L0 10.4031L8.20084 6L8.11715 6.13953V5.82946L8.20084 5.96899L0 1.5969L0 0L10 5.47287V6.51163Z" fill="#25282A"/></svg>{% endcapture %}
+{% assign sid = section.id %}
+<style>
+  #shopify-section-{{sid}} {
+      background:#fff;
+    }
+  #shopify-section-{{sid}} .setion-title-block{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #shopify-section-{{sid}} .setion-title-block h3{
+    color: #25282A;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+  }
+  #shopify-section-{{sid}} .product_ctrl {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  #shopify-section-{{sid}} .product_ctrl svg{
+      display: block;
+  }
+  #shopify-section-{{sid}} .product_ctrl>.swiper-button-disabled{
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none
+  }
+  #shopify-section-{{sid}} .e_product_item{
+    max-width:500px;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida{
+    position:relative;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide_wrpper {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    cursor: pointer;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+  }   
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+  }   
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_prev_button.disable,
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_next_button.disable {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none
+  }
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_prev_button,
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_next_button {
+      opacity: 1; 
+  }
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button svg,
+  #shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button svg{
+      display: block;
+  }
+  /* #shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button[data-current="0"],
+  #shopify-section-{{sid}} .e_product_item:hover .e_meida .slide_next_button[data-current="0"] {
+     opacity: 0.65;
+     cursor: default;
+  } */
+  #shopify-section-{{sid}} .e_product_item .e_meida img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info{
+    padding: 12px;
+    text-align: left;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info h3{
+    color: #25282A;
+    font-weight: 500;
+    font-size:14px; 
+    line-height: 1.4;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info .short{
+    margin-top:4px; 
+    color: #25282A;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+  }
+  #shopify-section-{{sid}} .e_product_item .e_info .price-list>*{
+      margin-top:4px; 
+      color: #25282A;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 1.4;
+      letter-spacing: 0.6px;
+    }
+  #shopify-section-{{sid}} .e_product_item .e_info>fieldset {
+      justify-content: start;
+      margin-top: 8px;
+    }
+  #shopify-section-{{sid}} .e_product_item .e_info>fieldset label{
+    --swatch-offset: 0px;
+    --swatch-size: 10px;
+    --swatch-border-size: 0px;
+    border-radius: 50%;
+  }
+  @media (max-width:1024px){
+    #shopify-section-{{sid}} .e_product_item .e_info h3{
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info .price{
+    }
+  }
+  @media (max-width:767px){
+    #shopify-section-{{sid}} {
+      margin:60px 0;
+    }
+    #shopify-section-{{sid}} .section-product-popup_swiper{
+      padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info h3{
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info .price{
+    }
+  }
+</style>
+
+<div class="section-product-popup section-spacing">
+  <div class="container">
+      <div class="setion-title-block">
+        <h3>{{section.settings.title}}</h3>
+        <div class="product_ctrl">
+            <div class="prev_button">{{arrow_left}}</div>
+            <div class="next_button">{{arrow_right}}</div>
+        </div>
+      </div>
+  </div>
+  <div class="swiper section-product-popup_swiper">
+    <div class="swiper-wrapper">
+
+      {% for block in section.blocks %} 
+        {% liquid
+          assign bs = block.settings
+          assign product = bs.product
+        %}
+        <div class="swiper-slide">
+          <div class="e_product_item">
+              <div class="e_meida">
+                <div class="slide_prev_button disable" data-current = "0">{{arrow_left}}</div>
+                <div class="slide_wrpper" data-total = "{{product.images.size}}">
+                    {% for media in product.media %}
+                        {% if media.media_type == 'image' %}
+                            {% assign img = media %}
+                            <div class="slide" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}" data-img='{{img | json}}'>
+                                {{ img | image_url: width: '500x' | image_tag }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="slide_next_button" data-current = "0">{{arrow_right}}</div>
+              </div>
+              <div class="e_info">
+                <h3>{{ product.title }}</h3>
+                {% if product.metafields.custom.short.value != blank %} 
+                  <p class="short">{{product.metafields.custom.short.value}}</p>
+                {% endif %}
+                {%- render 'price-list', product: product, context: 'card' -%}
+
+                {%- if settings.product_color_display != 'hide' -%}
+                    {%- liquid
+                      assign matched_product_option = nil
+                      assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ','
+                      
+                      # First, we try to find an option named explicitly "color" in the store's language
+                      for color_label in color_label_list
+                        if product.options_by_name[color_label] != blank
+                          assign matched_product_option = product.options_by_name[color_label]
+                          break
+                        endif
+                      endfor
+              
+                      # If we didn't find an option named "color", we try to find an option that has swatches, as this is probably
+                      # the color option that the merchant want to use for swatches
+                      if matched_product_option == blank
+                        for product_option in product.options_with_values
+                          assign values_with_swatch = product_option.values | where: 'swatch'
+              
+                          if values_with_swatch.size > 0
+                            assign matched_product_option = product_option
+                            break
+                          endif
+                        endfor
+                      endif
+                    -%}
+              
+                    {%- if matched_product_option != blank -%}
+                      {%- case settings.product_color_display -%}
+                        {%- when 'count' -%}
+                          <p class="smallcaps text-subdued">{{- 'product.general.available_colors_count' | t: count: matched_product_option.values.size -}}</p>
+              
+                        {%- when 'swatch' -%}
+                          <fieldset class="h-stack wrap justify-center gap-1">
+                            <legend class="sr-only">{{ matched_product_option.name }}</legend>
+                            
+                            {%- capture param_name -%}swatch-{{ section.id }}-{{ product.id }}-{{ matched_product_option.position }}{%- endcapture -%}
+              
+                            {%- liquid
+                              for option_value in matched_product_option.values
+                                render 'option-value', type: 'swatch', option_value: option_value, param_name: param_name, option_position: matched_product_option.position, output_variant_media: true, size: 'sm'
+                              endfor
+                            -%}
+                          </fieldset>
+                      {%- endcase -%}
+                    {%- endif -%}
+                  {%- endif -%}
+
+              </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>  
+</div>
+
+
+<style>
+    #shopify-section-{{sid}} .spp-trigger{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #00000065;
+        z-index: 4;
+        transition: all 0.3s;
+    }
+    #shopify-section-{{sid}} .spp-trigger:not(.open){
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        z-index: -1;
+    }
+    #shopify-section-{{sid}} .spp-trigger .container{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner{
+        max-width: 800px;
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+    }   
+    #shopify-section-{{sid}} .spp-trigger_close{
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    #shopify-section-{{sid}} .spp_slide{
+        display: flex;
+        background: #fff;
+        height: auto;
+    }
+    #shopify-section-{{sid}} .spp_slide>.meida{
+        width: 55%;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info{
+        width: 100%;
+        padding: 8% 3% 3%;
+        text-align: center;
+        position: relative;
+    }
+    #shopify-section-{{sid}} .spp_slide>.meida+.info{
+        width: 45%;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .text{
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.6px;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product{
+        margin: 30px 0;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product img{
+        margin: 0 auto;
+        display: block;
+        max-width: 80px;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product h4{
+        color: #25282A;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.55px;
+        margin: 8px 0;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product .price-list{
+        justify-content: center;
+        margin: 8px 0;
+
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product .price-list>*{
+        color: #25282A;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .spp_product a{
+        border-radius: 2px;
+        background: #25282A;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+        padding: 10px 50px;
+        display: inline-block;
+        margin-top: 24px;
+    }
+    #shopify-section-{{sid}} .spp_slide>.info .social-media{
+        justify-content: center;
+        position: absolute;
+        left: 3%;
+        bottom: 5%;
+        width: 94%;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner .pn_btn{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        cursor: pointer;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner .pn_btn svg path{
+        fill: #fff;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner .prev_button{
+        left: -30px;
+        color: #fff;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner .next_button{
+        color: #fff;
+        right: -30px;
+    }
+    #shopify-section-{{sid}} .spp-trigger_inner .pn_btn.swiper-button-disabled{
+        opacity: .35;
+        cursor: auto;
+        pointer-events: none
+    }
+    @media (max-width:1280px){
+        #shopify-section-{{sid}} .spp_slide>.info{
+            padding:4% 2% 2% ;
+        }
+        #shopify-section-{{sid}}  .spp_slide>.info .spp_product{
+            margin: 20px 0;
+        }
+        #shopify-section-{{sid}}   .spp_slide>.info .spp_product a{
+            margin-top: 12px;
+            padding: 8px 24px;
+        }
+        #shopify-section-{{sid}}  .spp_slide>.info .social-media{
+            bottom: 3%;
+        }
+    }
+    @media (max-width:699px){
+        #shopify-section-{{sid}} .spp-trigger_inner{
+            width: 90%; 
+        }
+        #shopify-section-{{sid}} .spp-trigger_inner .swiper-wrapper{
+            align-items: center;
+        }
+        #shopify-section-{{sid}} .spp-trigger_close path{
+            stroke-width: 1px;
+            stroke: #FFF;
+        }
+        #shopify-section-{{sid}} .spp_slide{
+            flex-direction: column;
+            height: max-content;
+        }
+        #shopify-section-{{sid}} .spp_slide>.meida{
+            width: 100%!important; 
+        }
+        #shopify-section-{{sid}} .spp_slide>.info{
+            width: 100%!important; 
+            padding: 12px;
+        }
+        #shopify-section-{{sid}} .spp_slide>.info .social-media{
+            position: unset;
+            width: 100%;
+        }
+    }
+</style>
+<div class="spp-trigger">
+    <div class="container">
+        <div class=" spp-trigger_inner">
+            <div class="spp-trigger_close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1" stroke="#25282A" stroke-width="0.5" stroke-miterlimit="10"/>                <path d="M1 1L13 13" stroke="#25282A" stroke-width="0.5" stroke-miterlimit="10"/></svg>
+            </div>
+            <div class="swiper spp_swiper">
+              <div class="swiper-wrapper">
+                  {% for block in section.blocks %}
+                      {% liquid
+                          assign bs = block.settings
+                          assign product = bs.product
+                          assign cover = bs.img 
+                          assign cover_m = bs.img_m 
+                          assign text = bs.text 
+                          assign show_media = bs.show_media 
+                      %}
+                      <div class="swiper-slide spp_slide">
+                          {% if cover != blank %}
+                          <div class="meida">
+                              <picture>
+                                  {% if cover_m != blank %}
+                                  <source
+                                  srcset="{{ cover_m | img_url: '750x' }}"
+                                  media="(max-width: 699px)"
+                                  >
+                                  {% endif %}
+                                  <img src="{{ cover | img_url: '1500x' }}" alt="{{ cover.alt }}" loading="lazy" width="auto" height="100%">
+                              </picture>
+                          </div>
+                          {% endif %}
+                          <div class="info">
+                              {% if text != blank %}
+                                  <div class="text">{{text}}</div>
+                              {% endif %}
+                              <div class="spp_product">
+                                  {{ product.images[0] | image_url: width: '100x' | image_tag }}
+                                  <h4>{{ product.title }}</h4>
+                                  {%- render 'price-list', product: product, context: 'card' -%}
+                                  <a href="{{product.url}}">Buy Now</a>
+                              </div>
+                              {% if show_media %}
+                                {%- render 'social-media', layout: 'list' -%}
+                              {% endif %}
+                          </div>
+                      </div>
+                  {% endfor %}
+              </div>
+            </div>
+            <div class="pn_btn prev_button">{{arrow_left}}</div>
+            <div class="pn_btn next_button">{{arrow_right}}</div>
+        </div>
+    </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let seciton_product_popup_siwper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .section-product-popup_swiper', {
+      spaceBetween: 16,
+      slidesPerView: 4,
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .product_ctrl .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .product_ctrl .next_button',
+      },
+      breakpoints: { 
+        320: { 
+          slidesPerView: 1.4,
+          spaceBetween: 8
+        },
+        768: {   
+          slidesPerView: 3,
+          spaceBetween: 12
+        },
+        1280: {  
+          slidesPerView: 4,
+          spaceBetween: 16
+        }
+      }
+    });
+
+    let spp_swiper{{section.index}} = new Swiper('#shopify-section-{{sid}} .spp_swiper',{
+      slidesPerView: 1,
+      navigation: {
+        prevEl: '#shopify-section-{{ sid }} .spp-trigger_inner .prev_button',
+        nextEl: '#shopify-section-{{ sid }} .spp-trigger_inner .next_button',
+      },
+    });
+
+    $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_prev_button').on('click',function(){
+        let el = $(this);
+        let next_btn = el.siblings('.slide_next_button');
+        let $container = el.next();
+        let $items = el.next().children();
+        let currentIndex = el.attr('data-current');
+        if (currentIndex > 0) {
+            currentIndex--;
+            el.attr('data-current',currentIndex);
+            next_btn.attr('data-current',currentIndex);
+            updateActiveItem($container, $items, currentIndex)
+        }
+        toggleButtonState(currentIndex, $items.length, el, next_btn);
+    });
+    $('#shopify-section-{{sid}} .e_product_item .e_meida .slide_next_button').on('click',function(){
+        let el = $(this);
+        let prev_btn = el.siblings('.slide_prev_button');
+        let $container = el.prev();
+        let $items = el.prev().children();
+        let currentIndex = el.attr('data-current');
+        if (currentIndex < $items.length - 1) {
+            currentIndex++;
+            el.attr('data-current',currentIndex);
+            prev_btn.attr('data-current',currentIndex);
+            updateActiveItem($container, $items, currentIndex);
+            console.log('next',currentIndex)
+        }
+        toggleButtonState(currentIndex, $items.length, prev_btn, el);
+    });
+
+    $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(e){
+        e.stopPropagation();
+        let el = $(this);
+        let data = JSON.parse(el.prev().attr('data-variant-media'));
+
+        let slide_wrpper = el.parents('.e_product_item').find(`.slide_wrpper`);
+        let slides = el.parents('.e_product_item').find(`.slide`);
+        let slide = el.parents('.e_product_item').find(`.slide[data-img-id=${data.id}]`);
+        let slide_prev_button = el.parents('.e_product_item').find(`.slide_prev_button`);
+        let slide_next_button = el.parents('.e_product_item').find(`.slide_next_button`);
+        
+        if(slide){
+            updateActiveItem(slide_wrpper,slides,slide.attr('data-index'));
+            toggleButtonState(slide.attr('data-index'), slides, slide_prev_button, slide_next_button);
+        }
+
+        console.log(slide)
+    });
+
+    $('#shopify-section-{{sid}} .section-product-popup_swiper .slide').on('click',function(){
+        let el = $(this);
+        let index = el.parents('.swiper-slide').index();
+        
+        spp_swiper{{section.index}}.slideTo(index, 50, false);
+        $('#shopify-section-{{sid}} .spp-trigger').addClass('open');
+
+        console.log(el.index());
+    });
+
+    $("#shopify-section-{{ sid }} .spp-trigger_close").on('click',function(){
+        $('#shopify-section-{{sid}} .spp-trigger').removeClass('open');
+    });
+
+    function updateActiveItem($container,$items,currentIndex) {
+        const $activeItem = $items.eq(currentIndex);
+
+        if ($activeItem.length) {
+            const containerRect = $container[0].getBoundingClientRect();
+            const itemRect = $activeItem[0].getBoundingClientRect();
+
+            if (itemRect.right > containerRect.right) {
+                $container.scrollLeft($container.scrollLeft() + (itemRect.right - containerRect.right));
+            } else if (itemRect.left < containerRect.left) {
+                $container.scrollLeft($container.scrollLeft() - (containerRect.left - itemRect.left));
+            }
+        }
+    }
+
+    function toggleButtonState(currentIndex, totalItems, prevButton, nextButton) {
+        if (currentIndex === 0) {
+            prevButton.addClass('disable'); // 禁用前一按钮
+        } else {
+            prevButton.removeClass('disable'); // 启用前一按钮
+        }
+
+        if (currentIndex >= totalItems - 1) {
+            nextButton.addClass('disable'); // 禁用下一按钮
+        } else {
+            nextButton.removeClass('disable'); // 启用下一按钮
+        }
+    }
+
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "Section product popup",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default":"You May Also Like"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name":"product",
+        "settings":[
+          {
+            "type": "product",
+            "id": "product",
+            "label": "product"
+          },
+          {
+            "type":"header",
+            "content":"弹窗"
+          },
+          {
+              "type": "image_picker",
+              "id": "img",
+              "label": "封面 "
+            },
+          {
+              "type": "image_picker",
+              "id": "img_m",
+              "label": "封面 (移动端)"
+            },
+            {
+              "type": "text",
+              "id": "text",
+              "label": "文本",
+              "default":"Shop This Look"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_media",
+                "label":"显示社媒",
+                "default":true
+            }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name": "Section product popup"
+      }
+    ]
+  }
+{% endschema %}
