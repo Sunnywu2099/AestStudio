@@ -240,76 +240,35 @@
         "text_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_HnemtW": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify://shop_images/Layer_0_1.png",
-        "mobile_image": "shopify://shop_images/Clip_path_group_1.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "product_features_QrAATR": {
-      "type": "product-features",
+    "custom_text_with_media_BaK7bn": {
+      "type": "custom-text-with-media",
       "blocks": {
-        "item_7ppeai": {
+        "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "title": "Product Introduction",
+            "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
           }
         },
-        "item_gdzg8N": {
+        "item_yiwEDA": {
           "type": "item",
           "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_rU4AFj": {
-          "type": "item",
-          "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "title": "Product Introduction",
+            "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
           }
         }
       },
       "block_order": [
-        "item_7ppeai",
-        "item_gdzg8N",
-        "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_eXUKfX",
+        "item_yiwEDA"
       ],
       "settings": {
-        "title": "Product Features"
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
       }
     },
     "product_cards_zQFYB9": {
@@ -360,23 +319,6 @@
       ],
       "settings": {
         "title": "Agnès on You"
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Related products",
-        "content": ""
       }
     },
     "17373628072f3d93c9": {
@@ -448,10 +390,8 @@
     "main",
     "product_nav_eBmH6T",
     "video_eEEpfh",
-    "image_with_text_overlay_HnemtW",
-    "product_features_QrAATR",
+    "custom_text_with_media_BaK7bn",
     "product_cards_zQFYB9",
-    "related-products",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
