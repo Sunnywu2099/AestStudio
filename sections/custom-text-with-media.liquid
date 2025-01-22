@@ -91,6 +91,7 @@
             playsinline
             loop
             preload="auto"
+            poster="{{ img | image_url: width: img.width }}"
           >
             <source src="{{ video }}" type="video/mp4">
             Your browser does not support the video tag.
