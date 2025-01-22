@@ -389,6 +389,9 @@
             bottom: 3%;
         }
     }
+    @media (max-width:699px){
+
+    }
 </style>
 <div class="spp-trigger">
     <div class="container">
@@ -414,11 +417,7 @@
                                   {% if cover_m != blank %}
                                   <source
                                   srcset="{{ cover_m | img_url: '750x' }}"
-                                  media="(max-width: 375px)"
-                                  >
-                                  <source
-                                  srcset="{{ cover_m | img_url: '1000x' }}"
-                                  media="(max-width: 767px)"
+                                  media="(max-width: 699px)"
                                   >
                                   {% endif %}
                                   <source
