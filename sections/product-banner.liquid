@@ -1,0 +1,105 @@
+<style>
+.product-banner {
+  padding: 112px 0 0;
+}
+.product-banner .section-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  color: #25282A;
+  margin-bottom: 32px;
+}
+@media screen and (max-width: 999px){
+  .product-banner {
+    padding: 64px 0 0;
+  }
+}
+.product-banner .section-content {
+  max-width: 800px;
+  margin-top: 60px;
+  color: #25282A;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16.8px;
+  letter-spacing: 0.6px;
+}
+@media screen and (max-width: 699px) {
+  .product-banner .section-title {
+    margin-bottom: 16px;
+  }
+  .product-banner .section-content {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+</style>
+
+{%  liquid 
+  assign img = section.settings.img
+  assign img_m = section.settings.img_m
+  assign title = section.settings.title
+  assign content = section.settings.content
+%}
+
+<div class="container container--xl">
+  {% if title != blank %}
+    <h2 class="section-title">{{ title }}</h2>
+  {% endif %}
+  <div class=""img-box>
+    {% if img != blank %}
+      <picture>
+        {%- if img_m != blank -%}
+          <source
+            media="(max-width: 699px)"
+            srcset="{{ img_m | image_url: width: '400x' }} 400w, {{ img_m | image_url: width: '600x' }} 600w, {{ img_m | image_url: width: '800x' }} 800w, {{ img_m | image_url: width: '1000x' }} 1000w, {{ img_m | image_url: width: '1200x' }} 1200w"
+            width="{{ img_m.width }}"
+            height="{{ img_m.height }}">
+        {%- endif -%}
+        {{- img | image_url: width: img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+      </picture>
+    {% endif %}
+  </div>
+  {% if content != blank %}
+    <div class="section-content">{{ content }}</div>
+  {% endif %}   
+</div>
+
+{% schema %}
+  {
+    "name": "product banner",
+    "class": "product-banner",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "You May Also Like"
+      },
+      {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+      }, {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+      }
+    ],
+    "presets": [
+      {
+        "name": "product banner"
+      }
+    ]
+  }
+{% endschema %}
