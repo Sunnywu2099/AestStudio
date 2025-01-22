@@ -1,0 +1,91 @@
+<style>
+@media screen and (max-width: 699px) {
+
+}
+</style>
+
+
+<div class="">
+  
+</div>
+
+{% schema %}
+  {
+    "name": "custom text with media",
+    "class": "custom-text-with-media",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Image PC"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_m",
+        "label": "Image Mobile"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_video",
+        "label": "Use video",
+        "default": true,
+        "info": "Image will be the post image if video is used"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video PC"
+      },
+      {
+        "type": "video",
+        "id": "mobile_video",
+        "label": "Video Mobile"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom text with media"
+      }
+    ]
+  }
+{% endschema %}
