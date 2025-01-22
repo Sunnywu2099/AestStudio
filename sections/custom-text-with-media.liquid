@@ -14,7 +14,7 @@
     {%- endif -%}
     
     {%- capture poster -%}
-      {%- unless section.settings.is_autoplay -%}
+      {%- unless section.settings.autoplay -%}
         {%- if poster_image != blank -%}
           {{- poster_image | image_url: width: poster_image.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
         
@@ -75,7 +75,7 @@
       },
       {
         "type": "checkbox",
-        "id": "is_autoplay",
+        "id": "autoplay",
         "label": "Autoplay",
         "default": true
       },
