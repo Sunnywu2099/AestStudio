@@ -40,11 +40,33 @@
 }
 </style>
 
-
+{% liquid 
+  assign img = section.settings.img
+  assign img_m = section.settings.img_m
+  assign use_video = section.settings.use_video
+  assign autoplay = section.settings.autoplay
+  assign video = section.settings.video
+  assign mobile_video = section.settings.mobile_video
+  assign text_alignment = section.settings.text_alignment
+%}
 <div class="container">
   <div class="custom-wrapper">
     <div class="media-wrapper">
-      123
+      {% if use_video %}
+      {% else %}
+        {% if img != blank %}
+          <picture>
+            {%- if img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ img_m | image_url: width: '400x' }} 400w, {{ img_m | image_url: width: '600x' }} 600w, {{ img_m | image_url: width: '800x' }} 800w, {{ img_m | image_url: width: '1000x' }} 1000w, {{ img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ img_m.width }}"
+                height="{{ img_m.height }}">
+            {%- endif -%}
+            {{- img | image_url: width: img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+      {% endif %}
     </div>
 
     <div class="content-wrapper">
