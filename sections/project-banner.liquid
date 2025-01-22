@@ -1,8 +1,8 @@
 <style>
-.project-banner {
+ #{{section.id}} .project-banner {
   padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
 }
-.project-banner .section-title {
+ #{{section.id}} .project-banner .section-title {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
@@ -11,11 +11,11 @@
   margin-bottom: 32px;
 }
 @media screen and (max-width: 999px){
-  .project-banner {
+   #{{section.id}} .project-banner {
     padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
   }
 }
-.project-banner .section-content {
+ #{{section.id}} .project-banner .section-content {
   max-width: 800px;
   margin-top: 60px;
   color: #25282A;
@@ -25,10 +25,10 @@
   letter-spacing: 0.6px;
 }
 @media screen and (max-width: 699px) {
-  .project-banner .section-title {
+   #{{section.id}} .project-banner .section-title {
     margin-bottom: 16px;
   }
-  .project-banner .section-content {
+   #{{section.id}} .project-banner .section-content {
     max-width: 100%;
     margin-top: 30px;
   }
