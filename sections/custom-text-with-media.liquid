@@ -86,12 +86,12 @@
         {% if autoplay %}
           {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
           {% if mobile_video != blank %}
-            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'hidden sm:hidden' }}
+            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
           {% endif %}
         {% else %}
           {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
           {% if mobile_video != blank %}
-            {{ mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'hidden sm:hidden' }}
+            {{ mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
           {% endif %}
         {% endif %}
       {% else %}
