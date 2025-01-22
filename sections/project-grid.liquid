@@ -37,13 +37,31 @@
       speed: 5000, // 过渡动画时间，设置较长使滚动更平滑
       autoplay: {
         delay: 0, // 无延迟，立即开始
+        disableOnInteraction: false,
         pauseOnMouseEnter: true, 
       },
       grid: {
         fill: 'row',
         rows: 3
+      },
+      on: {
+        // 初始化完成后自动开始播放
+        init: function() {
+          this.autoplay.start();
+        }
       }
     })
+
+    // 添加鼠标悬停控制
+    const swiperEl = document.querySelector('.grid-swiper');
+    
+    swiperEl.addEventListener('mouseenter', function() {
+      gridSwiper.autoplay.stop();
+    });
+
+    swiperEl.addEventListener('mouseleave', function() {
+      gridSwiper.autoplay.start();
+    });
   });
 </script>
 
