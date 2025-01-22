@@ -169,42 +169,42 @@
           "type": "item",
           "settings": {
             "name": "Product  Video",
-            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+            "id": "shopify-section-template--18965441183965__video_eEEpfh"
           }
         },
         "item_PiwMpQ": {
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+            "id": "shopify-section-template--18965441183965__custom_text_with_media_BaK7bn"
           }
         },
         "item_tLRGyK": {
           "type": "item",
           "settings": {
             "name": "Agnès on you",
-            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+            "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
         "item_QrKERe": {
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": ""
+            "id": "shopify-section-template--18965441183965__section_product_popup_DyMQKF"
           }
         },
         "item_aqM9w8": {
           "type": "item",
           "settings": {
             "name": "Customer Reviews",
-            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
+            "id": "judgeme_product_reviews"
           }
         },
         "item_BzKfMV": {
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+            "id": "shopify-section-template--18965441183965__product_follows_RnNaCy"
           }
         }
       },
