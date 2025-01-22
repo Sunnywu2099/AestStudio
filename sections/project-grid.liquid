@@ -40,11 +40,17 @@
       drag: true,          // 禁用拖拽
       arrows: false,        // 隐藏箭头
       pagination: false,    // 隐藏分页器
-      perPage: 12,          // 每页显示数量
-      gap: 16,             // 间距
       autoScroll: {
         speed: 1,          // 滚动速度
         pauseOnHover: true // 鼠标悬停时暂停
+      },
+      grid: {
+        rows: 3,
+        cols: 4,
+        gap : {
+          row: '16px',
+          col: '16px',
+        },
       },
     });
     gridSplide.mount(window.splide.Extensions);
