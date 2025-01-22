@@ -5,6 +5,11 @@
 }
 .grid-wrapper .splide__pagination{
   position: static;
+  counter-reset: pagination-num;
+}
+.grid-wrapper .splide__pagination__page:before {
+  counter-increment: pagination-num;
+  content: counter( pagination-num );
 }
 @media screen and (max-width: 999px){
   #shopify-section-{{section.id}} {
