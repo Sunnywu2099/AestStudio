@@ -69,10 +69,12 @@
       <ul class="splide__list">
         {% for block in section.blocks %}
             <div class="splide__slide">
-              {% if block.settings.img != blank %}  
-                <picture>
-                  {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-                </picture>
+              {% if block.settings.img != blank %}
+                <div class="img-box">
+                  <picture>
+                    {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+                  </picture>
+                </div>
               {% endif %}
               <div class="content-box">
                 {% if block.settings.title != blank %}
