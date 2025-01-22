@@ -405,6 +405,71 @@
         "remove_horizontal_spacing": false
       }
     },
+    "section_product_popup_DyMQKF": {
+      "type": "section-product-popup",
+      "blocks": {
+        "product_qjY7Kx": {
+          "type": "product",
+          "settings": {
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_afxQDF": {
+          "type": "product",
+          "settings": {
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_AM3Jac": {
+          "type": "product",
+          "settings": {
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_znMdCT": {
+          "type": "product",
+          "settings": {
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_nfPUDX": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        }
+      },
+      "block_order": [
+        "product_qjY7Kx",
+        "product_afxQDF",
+        "product_AM3Jac",
+        "product_znMdCT",
+        "product_nfPUDX"
+      ],
+      "settings": {
+        "title": "You May Also Like"
+      }
+    },
     "product_follows_RnNaCy": {
       "type": "product-follows",
       "blocks": {
@@ -461,6 +526,7 @@
     "custom_text_with_media_dhJxQC",
     "product_cards_zQFYB9",
     "17373628072f3d93c9",
+    "section_product_popup_DyMQKF",
     "product_follows_RnNaCy"
   ]
 }
