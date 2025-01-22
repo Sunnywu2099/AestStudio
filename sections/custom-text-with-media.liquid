@@ -5,8 +5,46 @@
 </style>
 
 
-<div class="">
-  
+<div class="container container--xl">
+  <div class="wrapper">
+    {%- assign poster_image = section.settings.img | default: section.settings.video.preview_image -%}
+
+    {%- if section.settings.img_m != blank -%}
+      {%- assign poster_image_mobile = section.settings.img_m | default: section.settings.video.preview_image -%}
+    {%- endif -%}
+    
+    {%- capture poster -%}
+      {%- unless section.settings.is_autoplay -%}
+        {%- if poster_image != blank -%}
+          {{- poster_image | image_url: width: poster_image.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+        
+          {%- if poster_image_mobile != blank -%}
+            {{- poster_image_mobile | image_url: width: poster_image_mobile.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000',class:"sm:hidden" -}}
+          {% endif %}
+        
+        {%- else -%}
+          {{- 'lifestyle-1' | placeholder_svg_tag: 'h-full w-full placeholder' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endcapture -%}
+
+    {%- if section.settings.video -%}
+      {%- if section.settings.mobile_video != blank -%}
+        {%- assign poster_image = section.settings.poster | default: section.settings.mobile_video.preview_image -%}
+
+        <video-media {% if section.settings.autoplay %}autoplay{% endif %} class="sm:hidden" style="--aspect-ratio: {{ section.settings.mobile_video.aspect_ratio }}">
+          {{- poster_image | image_url: width: poster_image.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200' -}}
+          {{- section.settings.mobile_video | video_tag: class: 'object-cover sm:hidden', controls: section.settings.show_controls, playsinline: true, muted: section.settings.autoplay, loop: section.settings.autoplay, preload: 'metadata', image_size: '400x' -}}
+        </video-media>
+      {%- endif -%}
+
+      <video-media {% if section.settings.autoplay %}autoplay{% endif %} {% if section.settings.mobile_video != blank %}class="hidden sm:block"{% endif %} style="--aspect-ratio: {{ section.settings.video.aspect_ratio }}">
+        {{- poster -}}
+        {{- section.settings.video | video_tag: class: 'object-cover', controls: section.settings.show_controls, playsinline: true, muted: section.settings.autoplay, loop: section.settings.autoplay, preload: 'metadata', image_size: '400x' -}}
+      </video-media>
+    {%- else -%}
+    {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
@@ -34,6 +72,12 @@
         "label": "Use video",
         "default": true,
         "info": "Image will be the post image if video is used"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_autoplay",
+        "label": "Autoplay",
+        "default": true
       },
       {
         "type": "video",
