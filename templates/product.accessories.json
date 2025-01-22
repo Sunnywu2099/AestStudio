@@ -467,7 +467,9 @@
         "product_nfPUDX"
       ],
       "settings": {
-        "title": "You May Also Like"
+        "title": "You May Also Like",
+        "continue_shopping": true,
+        "url": "shopify://products/accessories-product"
       }
     },
     "product_follows_RnNaCy": {
