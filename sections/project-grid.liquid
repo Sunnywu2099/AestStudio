@@ -34,7 +34,7 @@
       freeMode: true,
       slidesPerView: 4,
       spaceBetween: 16,
-      speed: 0, // 过渡动画时间，设置较长使滚动更平滑
+      speed: 10000, // 过渡动画时间，设置较长使滚动更平滑
       autoplay: {
         delay: 0, // 无延迟，立即开始
         disableOnInteraction: false,
@@ -52,16 +52,6 @@
       }
     })
 
-    // 添加鼠标悬停控制
-    const swiperEl = document.querySelector('.grid-swiper');
-    
-    swiperEl.addEventListener('mouseenter', function() {
-      gridSwiper.autoplay.stop();
-    });
-
-    swiperEl.addEventListener('mouseleave', function() {
-      gridSwiper.autoplay.start();
-    });
   });
 </script>
 
