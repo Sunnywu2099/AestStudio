@@ -158,7 +158,7 @@
     }
 </style>
 
-<div class="section-guide section-spacing">
+<div class="section-guide {% unless section.settings.unable_padding %}section-spacing{% endunless %}">
     <div class="container">
         <div class="container_inner">
             {% for block in section.blocks %}  
@@ -318,7 +318,13 @@
         ]
       }
     ],
-    "settings": [],
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "unable_padding",
+            "label": "隐藏上下边距"
+        }
+    ],
     "presets": [
       {
         "name": "Section guide"
