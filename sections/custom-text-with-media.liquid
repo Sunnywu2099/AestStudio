@@ -83,6 +83,20 @@
   <div class="custom-wrapper {% if text_alignment == 'left' %}row-reverse{% endif %}">
     <div class="media-wrapper">
       {% if use_video %}
+        {% if autoplay %}
+          <video
+            width="100%"
+            height="auto"
+            autoplay
+            playsinline
+            loop
+            preload="auto"
+          >
+            <source src="{{ video }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% else %}
+        {% endif %}
       {% else %}
         {% if img != blank %}
           <picture>
