@@ -59,25 +59,26 @@
 
 
   .inside_menu_ul {
-    min-width: 90px;
-  }
-  .inside_menu:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: calc(var(--container-gutter) * -1);
-    width: calc(100% + var(--container-gutter) * 2);
-    top: -2.5rem;
-    height: calc(100% + 5rem);
-    z-index: 1;
-    background-color: #e3e5df4d;
-  }
-  .inside_menu {
-    z-index: 2;
-  }
-  [data-title="Shop"] .mega-menu__promo {
-    display: none;
-  }
+  position: relative;
+}
+.inside_menu_ul:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: calc(var(--container-gutter) * -1);
+  width: calc(100% + var(--container-gutter) * 2);
+  top: -2.5rem;
+  height: calc(100% + 5rem);
+  z-index: 1;
+  background-color: gray;
+}
+.inside_menu {
+  z-index: 2;
+}
+[data-title="Shop"] .mega-menu__promo {
+  display: none;
+}
+
   
 </style>
 
