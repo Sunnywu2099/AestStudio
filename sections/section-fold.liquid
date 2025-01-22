@@ -1,0 +1,137 @@
+{% capture arrow %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">        <path d="M4.11628 7.11986L0 0.423828L1.19767 0.423828L4.5 5.91513L4.39535 5.8591L4.62791 5.8591L4.52326 5.91513L7.80233 0.423828L9 0.423828L4.89535 7.11986L4.11628 7.11986Z" fill="#25282A"/></svg>
+{% endcapture %}
+{% liquid assign sid = section.id %}
+
+<style>
+    #shopify-section-{{sid}} .section-fold{background: #fff;}
+    #shopify-section-{{sid}} .container_inner{
+        max-width: 1680px;
+        margin: 0 auto;
+    }
+    #shopify-section-{{sid}} .container_inner .item{
+        padding: 32px 0;
+        border-bottom: 1px solid rgba(37, 40, 42, 0.50);
+    }
+    #shopify-section-{{sid}} .container_inner>.item:first-child{
+        padding-top: 0;
+    }
+    #shopify-section-{{sid}} .container_inner .item .item-heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #25282A;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.4;
+        letter-spacing: 0.7px;
+        cursor: pointer;
+    }       
+    #shopify-section-{{sid}} .container_inner .item .item-heading.open svg{
+        transform: rotate(180deg);
+    }
+    #shopify-section-{{sid}} .container_inner .item .item-content{
+        padding-top: 24px;
+    }       
+    #shopify-section-{{sid}} .container_inner .item .item-content p{
+        color: #25282A;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }   
+    #shopify-section-{{sid}} .container_inner .item .item-content>p:not(:first-child){
+        margin-top: 32px;
+    }
+    #shopify-section-{{sid}} .container_inner .item .item-content p span{
+        color: #25282A;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+        display: block;
+        margin-bottom: 8px;
+    }  
+    @media (max-width:767px){
+        #shopify-section-{{sid}} .container_inner .item{
+            padding: 24px 0;
+        }
+        #shopify-section-{{sid}} .container_inner>.item:first-child{
+            padding-top: 0;
+        }
+        #shopify-section-{{sid}} .container_inner .item .item-content>p:not(:first-child){
+            margin-top: 24px;
+        }
+    } 
+</style>
+
+<div class="section-fold section-spacing">
+    <div class="container">
+        <div class="container_inner">
+            {% for block in section.blocks %}  
+                <div class="item">
+                    <div class="item-heading">
+                        <span>{{block.settings.title}}</span>
+                        {{arrow}}
+                    </div>
+                    <div class="item-content" style="display: none;">{{block.settings.content}}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    // $('#shopify-section-{{sid}} .container_inner .item .item-heading').on('click',function () {
+    //     let el = $(this);
+    //     el.toggleClass('open');
+    //     el.next().slideToggle();
+    // })
+    document.addEventListener('DOMContentLoaded', function() {
+        const headings = document.querySelectorAll('#shopify-section-{{sid}} .container_inner .item .item-heading');
+
+        headings.forEach(function(heading) {
+            heading.addEventListener('click', function() {
+                const el = this;
+                el.classList.toggle('open');
+                const content = el.nextElementSibling;
+
+                if (content) {
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'block'; // 显示内容
+                    } else {
+                        content.style.display = 'none'; // 隐藏内容
+                    }
+                }
+            });
+        });
+    });
+</script>
+
+{% schema  %} 
+{
+    "name":"Section fold",
+    "blocks": [
+        {
+            "type": "item",
+            "name":"Item",
+            "settings": [
+                {
+                    "type":"text",
+                    "id": "title",
+                    "label": "Heading",
+                    "default":"How to Care for Your Bag"
+                },
+                {
+                    "type": "html",
+                    "id": "content",
+                    "label": "Content",
+                    "default":"<p><span>title</span>How to Care for Your Bag 1231 123 1523 </p>",
+                    "info":"段落：<p><span>标题</span>文本</p> 换行：<br>"
+                }
+            ]
+        }
+    ],
+    "presets": [{"name":"Section fold"}]
+}
+{% endschema %}

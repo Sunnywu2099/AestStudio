@@ -1,0 +1,466 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "description_iN8fCC": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "vendor_DweKHP": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "in_action_ifkLi4": {
+          "type": "in_action",
+          "settings": {
+            "title": "In Action",
+            "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
+            "img_1": "shopify://shop_images/Layer_0_7.png",
+            "url_1": "/",
+            "img_2": "shopify://shop_images/Layer_0_8.png",
+            "url_2": "/",
+            "img_3": "shopify://shop_images/Layer_0_9.png",
+            "url_3": "/",
+            "img_4": "shopify://shop_images/Layer_0_10.png",
+            "url_4": "/",
+            "img_5": "shopify://shop_images/Layer_0_7.png",
+            "url_5": ""
+          }
+        },
+        "accordion_UYLqjQ": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Description",
+            "content": "<p>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_XzHcUk": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Product Details",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction</li></ul>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_jVztkw": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping & Payment",
+            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li></ul>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "in_action_fcgMfP": {
+          "type": "in_action",
+          "settings": {
+            "title": "Pairs With",
+            "text": "",
+            "img_1": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "url_1": "shopify://products/agnes-black-mini-shoulder-bag",
+            "img_2": "shopify://shop_images/image_1.png",
+            "url_2": "",
+            "img_3": "shopify://shop_images/image_2.png",
+            "url_3": "",
+            "img_4": "shopify://shop_images/image_3.png",
+            "url_4": "",
+            "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "url_5": ""
+          }
+        },
+        "share_buttons_cKhN8j": {
+          "type": "share_buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "description_iN8fCC",
+        "vendor_DweKHP",
+        "price",
+        "payment_terms",
+        "variant_picker",
+        "buy_buttons",
+        "in_action_ifkLi4",
+        "accordion_UYLqjQ",
+        "accordion_XzHcUk",
+        "accordion_jVztkw",
+        "in_action_fcgMfP",
+        "share_buttons_cKhN8j"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "xl",
+        "product_info_size": 40,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 8,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "product_nav_eBmH6T": {
+      "type": "product-nav",
+      "blocks": {
+        "item_rGmAbD": {
+          "type": "item",
+          "settings": {
+            "name": "Product  Video",
+            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+          }
+        },
+        "item_PiwMpQ": {
+          "type": "item",
+          "settings": {
+            "name": "Product Features",
+            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+          }
+        },
+        "item_tLRGyK": {
+          "type": "item",
+          "settings": {
+            "name": "Agnès on you",
+            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+          }
+        },
+        "item_QrKERe": {
+          "type": "item",
+          "settings": {
+            "name": "You May Also Like",
+            "id": ""
+          }
+        },
+        "item_aqM9w8": {
+          "type": "item",
+          "settings": {
+            "name": "Customer Reviews",
+            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
+          }
+        },
+        "item_BzKfMV": {
+          "type": "item",
+          "settings": {
+            "name": "Follow Us",
+            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+          }
+        }
+      },
+      "block_order": [
+        "item_rGmAbD",
+        "item_PiwMpQ",
+        "item_tLRGyK",
+        "item_QrKERe",
+        "item_aqM9w8",
+        "item_BzKfMV"
+      ],
+      "settings": {}
+    },
+    "video_eEEpfh": {
+      "type": "video",
+      "blocks": {
+        "play_PU4wVK": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_PU4wVK"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "external_video_url": "",
+        "poster": "shopify://shop_images/Layer_0.png",
+        "text_color": "#ffffff"
+      }
+    },
+    "custom_text_with_media_BaK7bn": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_eXUKfX": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_yiwEDA": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_eXUKfX",
+        "item_yiwEDA"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": false,
+        "autoplay": true,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
+      }
+    },
+    "custom_text_with_media_iPGteQ": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_eLELVW": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_Fg8hrc": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_eLELVW",
+        "item_Fg8hrc"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "autoplay": false,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "left"
+      }
+    },
+    "custom_text_with_media_dhJxQC": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_EK6GDX": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_NTRqdK": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_EK6GDX",
+        "item_NTRqdK"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "autoplay": false,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
+      }
+    },
+    "product_cards_zQFYB9": {
+      "type": "product-cards",
+      "blocks": {
+        "item_MXWeV8": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_2.png",
+            "img_m": "shopify://shop_images/Layer_0_2.png"
+          }
+        },
+        "item_adDApN": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_3.png",
+            "img_m": "shopify://shop_images/Layer_0_3.png"
+          }
+        },
+        "item_kxJCE6": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_4.png",
+            "img_m": "shopify://shop_images/Layer_0_4.png"
+          }
+        },
+        "item_JxA8PW": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_5.png",
+            "img_m": "shopify://shop_images/Layer_0_5.png"
+          }
+        },
+        "item_UQCD4J": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_6.png",
+            "img_m": "shopify://shop_images/Layer_0_6.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_MXWeV8",
+        "item_adDApN",
+        "item_kxJCE6",
+        "item_JxA8PW",
+        "item_UQCD4J"
+      ],
+      "settings": {
+        "title": "Agnès on You"
+      }
+    },
+    "17373628072f3d93c9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4acArB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4acArB"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "product_follows_RnNaCy": {
+      "type": "product-follows",
+      "blocks": {
+        "item_GQee7r": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
+            "img_m": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
+            "url": ""
+          }
+        },
+        "item_KV3cYf": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
+            "url": ""
+          }
+        },
+        "item_xpVCBB": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
+            "url": ""
+          }
+        },
+        "item_anpEhe": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_3.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_GQee7r",
+        "item_KV3cYf",
+        "item_xpVCBB",
+        "item_anpEhe"
+      ],
+      "settings": {
+        "title": "Follow Us"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_nav_eBmH6T",
+    "video_eEEpfh",
+    "custom_text_with_media_BaK7bn",
+    "custom_text_with_media_iPGteQ",
+    "custom_text_with_media_dhJxQC",
+    "product_cards_zQFYB9",
+    "17373628072f3d93c9",
+    "product_follows_RnNaCy"
+  ]
+}
