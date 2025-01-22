@@ -144,12 +144,10 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.querySelector('.play-btn');
-    const video = document.querySelector('.custom-text-with-media video');
-    
-    // video.play();
-    // playBtn.style.display = 'none';
-
+    $('.custom-text-with-media .play-btn').click(function () {
+      $(this).hide();
+      $(this).parent().find('video').get(0).play;
+    })
   });
   
 </script>
