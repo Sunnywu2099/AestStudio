@@ -1,6 +1,6 @@
 <style>
 .product-banner {
-  padding: 112px 0 0;
+  padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
 }
 .product-banner .section-title {
   font-size: 18px;
@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 999px){
   .product-banner {
-    padding: 64px 0 0;
+    padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
   }
 }
 .product-banner .section-content {
