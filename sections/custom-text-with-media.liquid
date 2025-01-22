@@ -65,22 +65,26 @@
         {%- endunless -%}
       {%- endcapture -%}
 
-      {%- if section.settings.video -%}
-        {%- if section.settings.mobile_video != blank -%}
-          {%- assign poster_image = section.settings.poster | default: section.settings.mobile_video.preview_image -%}
-
-          <video-media {% if section.settings.autoplay %}autoplay{% endif %} class="sm:hidden" style="--aspect-ratio: {{ section.settings.mobile_video.aspect_ratio }}">
-            {{- poster_image | image_url: width: poster_image.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200' -}}
-            {{- section.settings.mobile_video | video_tag: class: 'object-cover sm:hidden', controls: section.settings.show_controls, playsinline: true, muted: section.settings.autoplay, loop: section.settings.autoplay, preload: 'metadata', image_size: '400x' -}}
-          </video-media>
-        {%- endif -%}
-
-        <video-media {% if section.settings.autoplay %}autoplay{% endif %} {% if section.settings.mobile_video != blank %}class="hidden sm:block"{% endif %} style="--aspect-ratio: 0.9">
-          {{- poster -}}
-          {{- section.settings.video | video_tag: class: 'object-cover', controls: section.settings.show_controls, playsinline: true, muted: section.settings.autoplay, loop: section.settings.autoplay, preload: 'metadata', image_size: '400x' -}}
-        </video-media>
+      {%- if section.settings.use_video -%}
+        <video
+          class="video"
+          playsinline
+          autoplay
+          muted
+          loop
+          controls
+          preload="auto"
+          poster="{{- poster -}}"
+          style="width: 100%;"
+        >
+          <source src="{{- section.settings.video -}}" type="video/mp4">
+          <source src="{{- section.settings.mobile_video -}}" type="video/mp4">
+        </video>
       {%- else -%}
+        <img src="{{- section.settings.img -}}" alt="" style="width: 100%;">
       {%- endif -%}
+      
+      
     </div>
     <div class="text-wrapper">
       {% for block in section.blocks %}
