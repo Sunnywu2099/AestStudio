@@ -1,0 +1,73 @@
+<style>
+.product-banner {
+  padding: 112px 0 0;
+}
+.product-banner .section-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  color: #25282A;
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+@media screen and (max-width: 999px){
+  .product-banner {
+    padding: 64px 0 0;
+  }
+}
+@media screen and (max-width: 699px) {
+  .product-banner .section-title {
+    padding: 0 16px;
+    margin-bottom: 16px;
+  }
+}
+</style>
+
+
+<div class="">
+  <h2 class="section-title">{{ section.settings.title }}</h2>
+
+  
+            
+          
+</div>
+
+{% schema %}
+  {
+    "name": "product banner",
+    "class": "product-banner",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "You May Also Like"
+      },
+      {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+      }, {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+      }
+    ],
+    "presets": [
+      {
+        "name": "product banner"
+      }
+    ]
+  }
+{% endschema %}
