@@ -266,6 +266,70 @@
       "settings": {
         "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": false,
+        "autoplay": true,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
+      }
+    },
+    "custom_text_with_media_iPGteQ": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_eLELVW": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_Fg8hrc": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_eLELVW",
+        "item_Fg8hrc"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "autoplay": false,
+        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "left"
+      }
+    },
+    "custom_text_with_media_dhJxQC": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_EK6GDX": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_NTRqdK": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_EK6GDX",
+        "item_NTRqdK"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "use_video": true,
         "autoplay": true,
         "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
@@ -393,6 +457,8 @@
     "product_nav_eBmH6T",
     "video_eEEpfh",
     "custom_text_with_media_BaK7bn",
+    "custom_text_with_media_iPGteQ",
+    "custom_text_with_media_dhJxQC",
     "product_cards_zQFYB9",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
