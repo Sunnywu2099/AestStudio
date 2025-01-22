@@ -8,6 +8,18 @@
   counter-reset: pagination-num;
   margin-top: 80px;
 }
+.grid-wrapper .splide__pagination__page{
+  width: 25px;
+  font-size: 12px;
+  color: #25282A;
+  background: none;
+  height: 15px;
+}
+.grid-wrapper .splide__pagination__page.is-active{
+  background: none;
+  transform: scale(1);
+  opacity: 1;
+}
 .grid-wrapper .splide__pagination__page:before {
   counter-increment: pagination-num;
   content: counter( pagination-num );
