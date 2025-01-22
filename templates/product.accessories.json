@@ -331,7 +331,7 @@
         "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "use_video": true,
-        "autoplay": true,
+        "autoplay": false,
         "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "right"
