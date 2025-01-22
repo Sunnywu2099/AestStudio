@@ -12,7 +12,7 @@
   .custom-text-with-media .wrapper .media-wrapper{
     width: calc( ( 100% - 80px ) / 2 );
   }
-  .custom-text-with-media .wrapper .text-wrapper{
+  .custom-text-with-media .wrapper .content-wrapper{
     width: calc( ( 100% - 80px ) / 2 );
     padding-top: 60px;
     display: flex;
@@ -47,7 +47,7 @@
       123
     </div>
 
-    <div class="text-wrapper">
+    <div class="content-wrapper">
       {% for block in section.blocks %}
         <div class="text-item">
           {% if block.settings.title != blank %}
