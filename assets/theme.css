@@ -5155,12 +5155,13 @@ product-rerender {
 
 .mega-menu {
   --mega-menu-gap: 2.5rem;
-  --mega-menu-linklist-gap: 2.5rem;
+  --mega-menu-linklist-gap: 60px;
   --mega-menu-promo-gap: 2rem;
   width: 100%;
+  overflow: hidden;
   max-height: calc(100vh - var(--header-height, 0px)  - var(--announcement-bar-height, 0px)  - 20px);
-  justify-content: safe center;
-  align-items: start;
+  justify-content: safe start;
+  align-items: stretch;
   column-gap: var(--mega-menu-gap);
   background: rgb(var(--background));
   color: rgb(var(--text-color));
