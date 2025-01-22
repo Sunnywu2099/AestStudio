@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.css?v=1737538820">
 <style>
 #shopify-section-{{section.id}} {
   padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
@@ -13,44 +14,38 @@
 </style>
 
 <div class="grid-wrapper">
-  <div class="swiper grid-swiper">
-    <div class="swiper-wrapper">
-      {% for block in section.blocks %}
-          <div class="swiper-slide">
-            {% if block.settings.img != blank %}  
-              <picture>
-                {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-              </picture>
-            {% endif %}
-          </div>
-      {% endfor %}
+  <div class="grid-splide grid-swiper">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for block in section.blocks %}
+            <div class="splide__slide">
+              {% if block.settings.img != blank %}  
+                <picture>
+                  {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+                </picture>
+              {% endif %}
+            </div>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
 
+<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.js?v=1737538820"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    let gridSwiper = new Swiper('.grid-swiper', {
-      freeMode: true,
-      slidesPerView: 4,
-      spaceBetween: 16,
-      speed: 10000, // 过渡动画时间，设置较长使滚动更平滑
-      autoplay: {
-        delay: 0, // 无延迟，立即开始
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true, 
+    const gridSplide = new Splide('.grid-splide', {
+      type: 'loop',
+      drag: true,          // 禁用拖拽
+      arrows: false,        // 隐藏箭头
+      pagination: false,    // 隐藏分页器
+      perPage: 12,          // 每页显示数量
+      gap: 16,             // 间距
+      autoScroll: {
+        speed: 1,          // 滚动速度
+        pauseOnHover: true // 鼠标悬停时暂停
       },
-      grid: {
-        fill: 'row',
-        rows: 3
-      },
-      on: {
-        // 初始化完成后自动开始播放
-        init: function() {
-          this.autoplay.start();
-        }
-      }
-    })
+    });
 
   });
 </script>
