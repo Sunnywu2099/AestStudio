@@ -1,0 +1,113 @@
+<style>
+#shopify-section-{{section.id}} {
+  padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+}
+
+@media screen and (max-width: 999px){
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+  }
+}
+@media screen and (max-width: 699px) {
+
+}
+</style>
+
+<div class="grid-wrapper">
+
+
+</div>
+
+{% schema %}
+  {
+    "name": "project grid",
+    "class": "project-grid",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Vanessa"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text",
+            "default": "Famous architectural designer"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "Aest Studios will be your top choice in 2025"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "project grid"
+      }
+    ]
+  }
+{% endschema %}
