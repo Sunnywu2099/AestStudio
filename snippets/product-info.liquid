@@ -527,7 +527,8 @@ Supported variables
 
               <div class="share-buttons">
                 <span class="smallcaps text-xxs text-subdued">{{- 'general.social.share' | t -}}</span>
-                {%- render 'share-buttons', url: product.url, title: product.title, description: product.description, layout: 'list' -%}
+                {%- render 'share-block' -%}
+                {% comment %} {%- render 'share-buttons', url: product.url, title: product.title, description: product.description, layout: 'list' -%} {% endcomment %}
               </div>
             </share-button>
 
