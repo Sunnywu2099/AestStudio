@@ -66,6 +66,13 @@ legend{
   line-height: 28px;
   letter-spacing: 1px;
 }
+.share-block-text{
+  color: #25282A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
     top: 0!important;
