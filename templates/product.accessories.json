@@ -468,7 +468,7 @@
       ],
       "settings": {
         "title": "You May Also Like",
-        "continue_shopping": true,
+        "continue_shopping": false,
         "url": "shopify://products/accessories-product"
       }
     },
