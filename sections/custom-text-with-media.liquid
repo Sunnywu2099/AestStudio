@@ -1,0 +1,241 @@
+<style>
+  .custom-text-with-media{
+    
+  }
+  .custom-text-with-media .custom-wrapper{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    padding: 80px 0;
+    border-bottom: 0.7px solid #e7e7e7;
+  }
+  .custom-text-with-media .custom-wrapper.row-reverse{
+    flex-direction: row-reverse;
+  }
+  .custom-text-with-media .custom-wrapper .media-wrapper{
+    width: calc( ( 100% - 80px ) / 2 );
+    position: relative;
+    flex-shrink: 0;
+  }
+  .custom-text-with-media video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .custom-text-with-media .custom-wrapper .content-wrapper{
+    width: calc( ( 100% - 80px ) / 2 );
+    flex-shrink: 0;
+    padding-top: 60px;
+    gap: 80px;
+  }
+  .custom-text-with-media .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .custom-text-with-media .title{
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: 0.6px;
+    margin-bottom: 32px;
+  }
+  .custom-text-with-media .text{
+    color: #25282A;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0.6px;
+    margin: 0;
+  }
+  @media screen and (max-width: 1000px) {
+    .custom-text-with-media .custom-wrapper{
+      gap: 40px;
+    }
+    .custom-text-with-media .custom-wrapper .media-wrapper{
+      width: calc( ( 100% - 40px ) / 2 );
+    }
+    .custom-text-with-media .custom-wrapper .content-wrapper{
+      width: calc( ( 100% - 40px ) / 2 );
+      padding-top: 0;
+      gap: 20px;
+    }
+    .custom-text-with-media .title{
+      margin-bottom: 16px;
+    }
+  }
+  @media screen and (max-width: 699px) {
+    .custom-text-with-media .custom-wrapper{
+      flex-direction: column!important;
+      gap: 20px;
+      padding: 40px 0;
+    }
+    .custom-text-with-media .custom-wrapper .media-wrapper{
+      width: 100%;
+    }
+    .custom-text-with-media .custom-wrapper .content-wrapper{
+      width: 100%;
+      gap: 20px;
+    }
+  }
+</style>
+
+{% liquid 
+  assign img = section.settings.img
+  assign img_m = section.settings.img_m
+  assign use_video = section.settings.use_video
+  assign autoplay = section.settings.autoplay
+  assign video = section.settings.video
+  assign mobile_video = section.settings.mobile_video
+  assign text_alignment = section.settings.text_alignment
+%}
+<div class="container container--xl">
+  <div class="custom-wrapper {% if text_alignment == 'left' %}row-reverse{% endif %}">
+    <div class="media-wrapper">
+      {% if use_video %}
+        {% if autoplay %}
+          {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+          {% if mobile_video != blank %}
+            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+          {% endif %}
+        {% else %}
+          {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+          {% if mobile_video != blank %}
+            {{ mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+          {% endif %}
+          <div class="play-btn">
+            {% render 'play-video' %} 
+          </div>
+        {% endif %}
+      {% else %}
+        {% if img != blank %}
+          <picture>
+            {%- if img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ img_m | image_url: width: '400x' }} 400w, {{ img_m | image_url: width: '600x' }} 600w, {{ img_m | image_url: width: '800x' }} 800w, {{ img_m | image_url: width: '1000x' }} 1000w, {{ img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ img_m.width }}"
+                height="{{ img_m.height }}">
+            {%- endif -%}
+            {{- img | image_url: width: img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="content-wrapper">
+      {% for block in section.blocks %}
+        <div class="text-item">
+          {% if block.settings.title != blank %}
+            <h2 class="title">{{ block.settings.title }}</h2>
+          {% endif %}
+          {% if block.settings.text != blank %}
+            <p class="text">{{ block.settings.text }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    $('.custom-text-with-media .play-btn').click(function () {
+      $(this).hide();
+      $(this).parent().find('video')[0].play();
+      $(this).parent().find('video')[1].play();
+    })
+  });
+  
+</script>
+
+{% schema %}
+  {
+    "name": "custom text with media",
+    "class": "custom-text-with-media",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Image PC"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_m",
+        "label": "Image Mobile"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_video",
+        "label": "Use video",
+        "default": true,
+        "info": "Image will be the post image if video is used"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay",
+        "default": true
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video PC"
+      },
+      {
+        "type": "video",
+        "id": "mobile_video",
+        "label": "Video Mobile"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom text with media"
+      }
+    ]
+  }
+{% endschema %}
