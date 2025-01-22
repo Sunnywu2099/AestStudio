@@ -190,14 +190,14 @@
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": ""
+            "id": "shopify-section-template--18952352989405__section_product_popup_iqCkwF"
           }
         },
         "item_aqM9w8": {
           "type": "item",
           "settings": {
             "name": "Customer Reviews",
-            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
+            "id": "judgeme_product_reviews"
           }
         },
         "item_BzKfMV": {
@@ -362,21 +362,71 @@
         "title": "Agnès on You"
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "section_product_popup_iqCkwF": {
+      "type": "section-product-popup",
+      "blocks": {
+        "product_NARDw8": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_bM7EVV": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_yzYa9L": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_kwnea7": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_fJUqTf": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        }
+      },
+      "block_order": [
+        "product_NARDw8",
+        "product_bM7EVV",
+        "product_yzYa9L",
+        "product_kwnea7",
+        "product_fJUqTf"
+      ],
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Related products",
-        "content": ""
+        "title": "You May Also Like",
+        "continue_shopping": false,
+        "url": ""
       }
     },
     "17373628072f3d93c9": {
@@ -451,7 +501,7 @@
     "image_with_text_overlay_HnemtW",
     "product_features_QrAATR",
     "product_cards_zQFYB9",
-    "related-products",
+    "section_product_popup_iqCkwF",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]

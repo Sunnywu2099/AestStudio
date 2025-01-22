@@ -169,42 +169,42 @@
           "type": "item",
           "settings": {
             "name": "Product  Video",
-            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+            "id": "shopify-section-template--18965441183965__video_eEEpfh"
           }
         },
         "item_PiwMpQ": {
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+            "id": "shopify-section-template--18965441183965__custom_text_with_media_BaK7bn"
           }
         },
         "item_tLRGyK": {
           "type": "item",
           "settings": {
             "name": "Agnès on you",
-            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+            "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
         "item_QrKERe": {
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": ""
+            "id": "shopify-section-template--18965441183965__section_product_popup_DyMQKF"
           }
         },
         "item_aqM9w8": {
           "type": "item",
           "settings": {
             "name": "Customer Reviews",
-            "id": "shopify-section-template--18952352989405__17373628072f3d93c9"
+            "id": "judgeme_product_reviews"
           }
         },
         "item_BzKfMV": {
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+            "id": "shopify-section-template--18965441183965__product_follows_RnNaCy"
           }
         }
       },
@@ -337,54 +337,79 @@
         "text_alignment": "right"
       }
     },
-    "product_cards_zQFYB9": {
-      "type": "product-cards",
+    "product_banner_HgD9HU": {
+      "type": "product-banner",
+      "settings": {
+        "title": "You May Also Like",
+        "img": "shopify://shop_images/Layer_0_11.png",
+        "content": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+      }
+    },
+    "section_product_popup_DyMQKF": {
+      "type": "section-product-popup",
       "blocks": {
-        "item_MXWeV8": {
-          "type": "item",
+        "product_qjY7Kx": {
+          "type": "product",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_2.png",
-            "img_m": "shopify://shop_images/Layer_0_2.png"
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
           }
         },
-        "item_adDApN": {
-          "type": "item",
+        "product_afxQDF": {
+          "type": "product",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_3.png",
-            "img_m": "shopify://shop_images/Layer_0_3.png"
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
           }
         },
-        "item_kxJCE6": {
-          "type": "item",
+        "product_AM3Jac": {
+          "type": "product",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_4.png",
-            "img_m": "shopify://shop_images/Layer_0_4.png"
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
           }
         },
-        "item_JxA8PW": {
-          "type": "item",
+        "product_znMdCT": {
+          "type": "product",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_5.png",
-            "img_m": "shopify://shop_images/Layer_0_5.png"
+            "product": "agnes-black-mini-shoulder-bag",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
           }
         },
-        "item_UQCD4J": {
-          "type": "item",
+        "product_nfPUDX": {
+          "type": "product",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_6.png",
-            "img_m": "shopify://shop_images/Layer_0_6.png"
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
           }
         }
       },
       "block_order": [
-        "item_MXWeV8",
-        "item_adDApN",
-        "item_kxJCE6",
-        "item_JxA8PW",
-        "item_UQCD4J"
+        "product_qjY7Kx",
+        "product_afxQDF",
+        "product_AM3Jac",
+        "product_znMdCT",
+        "product_nfPUDX"
       ],
       "settings": {
-        "title": "Agnès on You"
+        "title": "You May Also Like",
+        "continue_shopping": false,
+        "url": "shopify://products/accessories-product"
       }
     },
     "17373628072f3d93c9": {
@@ -459,7 +484,8 @@
     "custom_text_with_media_BaK7bn",
     "custom_text_with_media_iPGteQ",
     "custom_text_with_media_dhJxQC",
-    "product_cards_zQFYB9",
+    "product_banner_HgD9HU",
+    "section_product_popup_DyMQKF",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
