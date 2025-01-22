@@ -52,31 +52,17 @@
             "image_2_link": ""
           }
         },
-        "mega_menu_Nmd8VK": {
-          "type": "mega_menu",
+        "mega_menu_sec_nav_xrKyVE": {
+          "type": "mega_menu_sec_nav",
           "settings": {
-            "menu_item": "BAGS",
+            "menu_item": "Projects",
             "images_position": "right",
             "inside_menu": "",
             "image_1": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/jL3P1I_tif.jpg",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": "shopify://products/test"
-          }
-        },
-        "mega_menu_QL8937": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "",
-            "images_position": "right",
-            "inside_menu": "",
-            "image_1_heading": "",
-            "image_1_text": "",
-            "image_1_link": "",
+            "image_2": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
@@ -85,8 +71,7 @@
       },
       "block_order": [
         "mega_menu_pbUfXR",
-        "mega_menu_Nmd8VK",
-        "mega_menu_QL8937"
+        "mega_menu_sec_nav_xrKyVE"
       ],
       "custom_css": [],
       "settings": {
