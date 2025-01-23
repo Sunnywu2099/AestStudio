@@ -17,9 +17,43 @@
         "show_title": true,
         "page_width": "xs"
       }
+    },
+    "custom_multiple_media_4LrJw8": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_k6iEnp": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_10_54f21a90-3897-4193-9a72-a5ec991ae5dc.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_bPWkHc": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "Creative manifesto\nWe believe creativity is our greatest asset, and how we utilize it is our greatest responsibility. Progressive creativity is about responding to the significant questions of our time. Our planet is facing critical challenges, and we know the decisions we make now will have an impact long into the future. Fashion is an expression of identity and values, and it is our mission to ensure it deserves a part in creating a more sustainable and inclusive world to live in. We are asking the challenging questions and collectively embracing change.\nOur Creative Manifesto represents our shared values and defines a set of principles that are guiding us in our sustainability journey. By incorporating these principles in everything we do, we are setting a course for progress, significant both for our times and for our future.\nDesign lasting icons\nCreate desirable products that stand the test of time with considerations for their entire life cycle.​\nCreate with impact in mind\nChoose quality materials and solutions consciously to minimise environmental impact​.\nStrive for progress together\nBuild partnerships with suppliers that share our sustainability values on people and nature.​\nBe curious and honest\nImplement a culture of transparency and learning within our supply chain and towards our customers.\nAct on climate\nAdapt our business model to reduce the carbon footprint across our operations in line with climate science."
+          }
+        }
+      },
+      "block_order": [
+        "media_k6iEnp",
+        "text_bPWkHc"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_multiple_media_4LrJw8"
   ]
 }
