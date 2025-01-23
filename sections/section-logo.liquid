@@ -11,6 +11,14 @@
     } 
     #shopify-section-{{sid}} .container {
         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #shopify-section-{{sid}} .container img{
+        {% if section.settings.width != blank %}
+        width: {{ section.settings.width |  append: 'px' }};
+        {% endif %}
+        display:block;
     }
     @media (max-width:767px){
         #shopify-section-{{sid}}{
@@ -22,6 +30,11 @@
                 margin-bottom:{{section.settings.bottom_m |  append: 'px'}};
             {%  endif %} 
         }   
+        #shopify-section-{{sid}} .container img{
+            {% if section.settings.width_m != blank %}
+            width: {{ section.settings.width_m |  append: 'px' }};
+            {% endif %}
+        }
     }
 </style>
 
