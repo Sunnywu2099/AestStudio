@@ -52,6 +52,30 @@
 .grid-wrapper .img-box{
   position: relative;
 }
+.grid-wrapper .img-box .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.grid-wrapper .img-box:hover .mask{
+  opacity: 1;
+}
+.grid-wrapper .img-box .mask a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.7px;
+}
+
 @media screen and (max-width: 999px){
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
