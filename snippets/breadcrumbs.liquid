@@ -3,11 +3,14 @@
     margin-bottom: 40px;
   }
   .breadcrumb-list {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     list-style: none;
     margin: 0;
     padding: 2px 0;
-    border-top: 1px solid #25282A;;
-    border-bottom: 1px solid #25282A;;
+    border-top: 1px solid #25282A;
+    border-bottom: 1px solid #25282A;
   }
   .breadcrumb-list>li{
     padding: 0;
@@ -30,13 +33,9 @@
       </li>
       {% if template contains 'product' %}
         {% if collection %}
-          {%- if isMenu -%}
-            {{ bd }}
-          {%- else -%}
-            <li class="breadcrumb-item">
-              {{ collection.title | link_to: collection.url }}
-            </li>
-          {%- endif -%}
+          <li class="breadcrumb-item">
+            {{ collection.title | link_to: collection.url }}
+          </li>
         {% endif %}
 
         <li class="breadcrumb-item">
@@ -45,13 +44,9 @@
 
       {% elsif template contains 'collection' and collection.handle %}
         {% if collection %}
-          {%- if isMenu -%}
-            {{ bd }}
-          {%- else -%}
             <li class="breadcrumb-item">
               {{ collection.title | link_to: collection.url }}
             </li>
-          {%- endif -%}
         {% endif %}
         
         {% if current_tags %}
