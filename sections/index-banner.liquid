@@ -61,7 +61,7 @@
   }
   #shopify-section-{{ sid }} .item .info .item_btn:hover{
     border-color:{{color}};
-    background: rgba(37, 40, 42, 0.40);
+    background: rgba(37, 40, 42, {{section.settings.opacity |  divided_by: 100.0}});
   }
   @media (min-width:768px){
     #shopify-section-{{ sid }} .media video.mobile{display:none;}
@@ -77,7 +77,7 @@
     }
     #shopify-section-{{ sid }} .item .info .item_btn{
       border-color:{{color}};
-      background: rgba(37, 40, 42, 0.40);
+      background: rgba(37, 40, 42, {{section.settings.opacity | divided_by: 100.0}});
     }
 } 
 </style>
@@ -193,6 +193,15 @@
           "type": "url",
           "id": "link",
           "label": "Link"
+        },
+        {
+          "type": "range",
+          "id": "opacity",
+          "label": "Button background opacity",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "default":40
         }
     ],
     "presets":[
