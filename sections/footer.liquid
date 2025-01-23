@@ -78,14 +78,9 @@
   .form-control > label.error{
   color:rgba(219, 56, 68, 1);}
 </style>
-<<<<<<< HEAD
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/jquery.validate.min.js"></script>
 
-=======
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
-<script>
->>>>>>> dev_ayue
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
   | default: section.settings.color_scheme.settings.background
   | md5
@@ -343,14 +338,10 @@
   </div>
 </div>
 
-<<<<<<< HEAD
- <script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    console.log('newsletter_form_id', `#{{ newsletter_form_id }}`);
 
-
-  document.addEventListener('DOMContentLoaded', function () {     
-  
-    console.log('newsletter_form_id',`#{{ newsletter_form_id }}`)
- 
     $(`#{{ newsletter_form_id }}`).validate({
       rules: {
         email: {
@@ -358,61 +349,17 @@
           email: true,
         },
       },
-      
+
       errorPlacement: function (error, element) {
-    // 获取错误消息
-    const message = error.text();
-   
-    // 自定义显示错误消息的位置
-    error.insertAfter(element);
-  },
-    });
-  
-  
-  
-  } )
-    
-  
- 
+        // 获取错误消息
+        const message = error.text();
 
-  {% comment %} $(document).ready(function () {
-    $("#{{ newsletter_form_id }}").validate({
-=======
-
-<script>
-
-
-  $(document).ready(function () {
-    {% comment %} $("#myForm").validate({
->>>>>>> dev_ayue
-      rules: {
-        email: {
-          required: true,
-          email: true,
-        },
+        // 自定义显示错误消息的位置
+        error.insertAfter(element);
       },
-      messages: {
-        email: {
-          required: "请输入邮箱",
-          email: "请输入有效的邮箱地址",
-        },
-      },
-<<<<<<< HEAD
     });
-  }); {% endcomment %}
-</script> 
-=======
-    }); {% endcomment %}
-
-
-    console.log('newsletter_form_id',{{ newsletter_form_id }})
   });
-
-
 </script>
-
-
->>>>>>> dev_ayue
 {% schema %}
 {
   "name": "t:sections.footer.name",
