@@ -16,7 +16,7 @@
     }
     #shopify-section-{{sid}} .container img{
         {% if section.settings.width != blank %}
-        width: {{ section.settings.width |  append: 'px' }};
+        width: {{ section.settings.width }};
         {% endif %}
         display:block;
     }
@@ -32,7 +32,7 @@
         }   
         #shopify-section-{{sid}} .container img{
             {% if section.settings.width_m != blank %}
-            width: {{ section.settings.width_m |  append: 'px' }};
+            width: {{ section.settings.width_m }};
             {% endif %}
         }
     }
