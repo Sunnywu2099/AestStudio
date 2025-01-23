@@ -1,0 +1,323 @@
+<link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.css?v=1737538820">
+<style>
+#shopify-section-{{section.id}} {
+  padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+}
+.grid-wrapper .splide__arrow{
+  position: static;
+  transform: translateY(0);
+  background: none;
+  width: auto;
+  height: auto;
+}
+.grid-wrapper .splide__pagination{
+  position: static;
+  counter-reset: pagination-num;
+}
+.grid-wrapper .splide__arrows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.grid-wrapper .splide__arrow svg{
+  height: auto;
+  width: auto;
+  transform: none;
+}
+.grid-wrapper .splide__pagination__page{
+  width: 25px;
+  font-size: 12px;
+  color: #25282A;
+  background: none;
+  height: 15px;
+}
+.grid-wrapper .splide__pagination__page.is-active{
+  background: none;
+  transform: scale(1);
+  opacity: 1;
+}
+.grid-wrapper .splide__pagination__page:before {
+  counter-increment: pagination-num;
+  content: counter( pagination-num );
+}
+.grid-wrapper .content-box{
+  padding: 16px 16px 0;
+}
+.grid-wrapper .content-box .block-title{
+  color: #25282A;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.7px;
+}
+.grid-wrapper .content-box .block-text{
+  color: #25282A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.6px;
+  margin: 8px 0 4px;
+}
+.grid-wrapper .content-box .block-content{
+  color: #25282A;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16.8px;
+  letter-spacing: 0.6px;
+}
+.grid-wrapper .img-box{
+  position: relative;
+}
+.grid-wrapper .img-box .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.grid-wrapper .img-box:hover .mask{
+  opacity: 1;
+}
+.grid-wrapper .img-box .mask a{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+  letter-spacing: 0.9px;
+  padding: 2px 12px;
+  text-align: center;
+
+  border-radius: 2px;
+  border: 0.7px solid #FFF;
+  background: rgba(37, 40, 42, 0.40);
+}
+
+@media screen and (max-width: 999px){
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+  }
+  .grid-wrapper .splide__arrows{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 699px) {
+
+}
+</style>
+
+<div class="grid-wrapper">
+  <div class="grid-splide splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for block in section.blocks %}
+            <div class="splide__slide">
+              {% if block.settings.img != blank %}
+                <div class="img-box">
+                  <picture>
+                    {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+                  </picture>
+                  <div class="mask">
+                    <a {% if block.settings.url != blank %}href="{{ block.settings.url }}" target="_blank"{% endif %}>Voice{{forloop.index}}</a>
+                  </div>
+                </div>
+              {% endif %}
+              <div class="content-box">
+                {% if block.settings.title != blank %}
+                  <div class="block-title">{{ block.settings.title }}</div>
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <div class="block-text">{{ block.settings.text }}</div>
+                {% endif %}
+                {% if block.settings.content != blank %}
+                  <div class="block-content">{{ block.settings.content }}</div>
+                {% endif %}
+              </div>
+            </div>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="splide__arrows">
+      <button class="splide__arrow splide__arrow--prev">
+        {% render 'block-prev' %}
+      </button>
+      <ul class="splide__pagination"></ul>
+      <button class="splide__arrow splide__arrow--next">
+        {% render 'block-next' %}
+      </button>
+    </div>
+
+    {% comment %} <div class="splide__pagination-wrapper">
+      <button class="splide__arrow splide__arrow--prev">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+          <path d="M27.2 4L14.4 16.8c-1.6 1.6-1.6 4.8 0 6.4L27.2 36" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+      </button>
+      <!-- Splide 会自动在这里插入分页器 -->
+      <button class="splide__arrow splide__arrow--next">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+          <path d="M12.8 4l12.8 12.8c1.6 1.6 1.6 4.8 0 6.4L12.8 36" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+      </button>
+    </div> {% endcomment %}
+  </div>
+</div>
+
+<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.js?v=1737538820"></script>
+<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-grid.min.js?v=1737539685"></script>
+<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-auto-scroll.js?v=1737539284"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const gridSplide = new Splide('.grid-splide', {
+      type: 'loop',
+      drag: true,          
+      arrows: true,        
+      pagination: true,    
+      gap: 16,
+      autoScroll: {
+        speed: 0.2,          
+        pauseOnHover: true 
+      },
+      grid: {
+        rows: 3,
+        cols: 4,
+        gap : {
+          row: '40px',
+          col: '16px',
+        },
+      },
+      breakpoints: {
+        1024: {
+          grid: {
+            rows: 2,
+            cols: 2,
+            gap : {
+              row: '16px',
+              col: '16px',
+            },
+          },
+        }
+      }
+    });
+    gridSplide.mount(window.splide.Extensions);
+
+    // gridSplide.on('arrows:mounted pagination:mounted', function() {
+    //   const controls = [
+    //     ...document.querySelectorAll('.splide__arrow'),
+    //     ...document.querySelectorAll('.splide__pagination__page')
+    //   ];
+    //   controls.forEach(control => {
+    //     control.addEventListener('click', () => {
+    //       setTimeout(() => {
+    //         gridSplide.Components.AutoScroll.play();
+    //       }, 100);
+    //     });
+    //   });
+    // });
+    // gridSplide.on('moved', () => {
+    //   gridSplide.Components.AutoScroll.play();
+    // });
+
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "project grid",
+    "class": "project-grid",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Vanessa"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text",
+            "default": "Famous architectural designer"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "Aest Studios will be your top choice in 2025"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "project grid"
+      }
+    ]
+  }
+{% endschema %}
