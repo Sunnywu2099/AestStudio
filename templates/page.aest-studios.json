@@ -181,9 +181,11 @@
           "type": "item",
           "settings": {
             "color": "#ffffff",
-            "type": "img",
+            "type": "video",
             "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "video_m": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "title": "SPRING SUMMER 2015",
             "btn": "Shop Now",
             "link": ""
