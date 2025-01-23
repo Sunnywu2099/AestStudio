@@ -116,12 +116,46 @@
         "pt_m": 0,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_HCmafy": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_qGRepy": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/image_2_ac893905-6a6a-435e-bede-c1947a48d31d.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_ze4Ekr": {
+          "type": "text",
+          "settings": {
+            "title": "Strategic partnerships",
+            "text": "•Target: >50% of orders produced with suppliers sharing our sustainability ambitions by FY 26/27<br>\n•Progress: 41% of order value with product suppliers meeting high standards in our sustainability evaluations in FY 22/23 <br>\nEvery partner we work with meets our minimum environmental and social standards, but this is just the start. Real change happens through long-lasting relationships built on trust, communication, and mutual support. Our strategic partners share our ambitions for sustainability and uncompromised creativity. We are proud to have worked with over 50% of our product manufacturers for longer than five years and over 20% for more than a decade. These are integral partnerships that help us create a culture of transparency and learning across our supply chain and it is our aim that to produce more than 50% of collection with suppliers meeting our high sustainability standards by FY 26/27. <br>\nAcne Studios Supplier Forum\nWe hosted a two-day supplier forum at our headquarters in Stockholm, bringing 100 people from our European supplier network together to learn more about our business strategy, our values, and our sustainability ambitions. We ran workshops and invited guest speakers to present on sustainability topics from Climate Action to Renewable Energy. These forums help us create space for conversation and learning within our supply chain as we work together to solve the toughest sustainability challenges. <br>\nIndustry networks  <br>\nWe collaborate with multi-stakeholder groups to stay at the forefront of sustainability research and innovation, and to share perspectives with experts and peers. These networks help us gain insights and further our progress in specific areas. Our memberships and networks include for example The Textile Exchange, Leather Working Group, Fair Wear, and The Swedish Textile Initiative for Climate Action.​ "
+          }
+        }
+      },
+      "block_order": [
+        "media_qGRepy",
+        "text_ze4Ekr"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
     "custom_multiple_media_4LrJw8",
     "custom_multiple_media_3kk8pd",
-    "custom_multiple_media_KN7VFU"
+    "custom_multiple_media_KN7VFU",
+    "custom_multiple_media_HCmafy"
   ]
 }
