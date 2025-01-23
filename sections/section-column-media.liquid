@@ -89,6 +89,7 @@
         justify-content: center;
         width: max-content;
         margin: 80px auto 0;
+        cursor: pointer;
     }
     @media (min-width:768px){
       #shopify-section-{{ sid }} .item{
@@ -180,6 +181,14 @@
         {% endif %}
     </div>
 </div>
+
+<script type="module">
+    $('#shopify-section-{{ sid }} .see_more').on('click',function(){
+        let el = $(this);
+        console.log(el.prev().children('.item.hidden'));
+        // el.hide();
+    })
+</script>
 
 {% schema %}
 {
