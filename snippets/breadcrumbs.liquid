@@ -26,78 +26,85 @@
 </style>
 
 <div class="breadcrumb-bar container">
-  <div class="breadcrumb-container">
-    <ul class="breadcrumb-list">
-      <li class="breadcrumb-item">
-        <a href="{{ routes.root_url }}" title="home">Home</a>
-      </li>
-      {% if template contains 'product' %}
-        {% if collection %}
-          <li class="breadcrumb-item">
-            {{ collection.title | link_to: collection.url }}
-          </li>
-        {% endif %}
+  <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
 
-        <li class="breadcrumb-item">
-          <span>{{ product.title | truncatewords: 3 }}</span>
-        </li>
+  <a href="/" title="Home">Home</a>
 
-      {% elsif template contains 'collection' and collection.handle %}
-        {% if collection %}
-            <li class="breadcrumb-item">
-              {{ collection.title | link_to: collection.url }}
-            </li>
-        {% endif %}
-        
-        {% if current_tags %}
-          {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-          <li class="breadcrumb-item">
-            {{ collection.title | link_to: url }}
-          </li>
+  {% if template contains 'page' %}
 
-          <li class="breadcrumb-item">
-            <span>{{ current_tags | join: ' + ' | replace: 'tags_', '#' }}</span>
-          </li>
-        {% else %}
-          <li class="breadcrumb-item">
-            <span>{{ collection.title }}</span>
-          </li>
-        {% endif %}
-        
+    <span aria-hidden="true">&rsaquo;</span>
 
-      {% elsif template == 'blog' %}
-        {% if current_tags %}
-          <li class="breadcrumb-item">
-            {{ blog.title | link_to: blog.url }}
-          </li>
-          <li class="breadcrumb-item">
-            <span>{{ current_tags | join: ' + ' }}</span>
-          </li>
-        {% else %}
-          <li class="breadcrumb-item">
-            <span>{{ blog.title }}</span>
-          </li>
-        {% endif %}
+    <span>{{ page.title }}</span>
 
-      {% elsif template == 'article' %}
-        <li class="breadcrumb-item">
-          {{ blog.title | link_to: blog.url }}
-        </li>
+  {% elsif template contains 'product' %}
 
-        <li class="breadcrumb-item">
-          <span>{{ article.title | truncatewords: 3 }}</span>
-        </li>
+    {% if collection.url %}
 
-      {% elsif template contains 'page' %}
-        <li class="breadcrumb-item">
-          <span>{{ page.title }}</span>
-        </li>
+      <span aria-hidden="true">&rsaquo;</span>
 
-      {% else %}
-        <li class="breadcrumb-item">
-          <span>{{ page_title }}</span>
-        </li>
-      {% endif %}
-    </ul>
-  </div>
+      {{ collection.title | link_to: collection.url }}
+
+    {% endif %}
+
+    <span aria-hidden="true">&rsaquo;</span>
+
+    <span>{{ product.title }}</span>
+
+  {% elsif template contains 'collection' and collection.handle %}
+
+    <span aria-hidden="true">&rsaquo;</span>
+
+    {% if current_tags %}
+
+      {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+
+      {{ collection.title | link_to: url }}
+
+      <span aria-hidden="true">&rsaquo;</span>
+
+      <span>{{ current_tags | join: " + " }}</span>
+
+    {% else %}
+
+      <span>{{ collection.title }}</span>
+
+    {% endif %}
+
+  {% elsif template == 'blog' %}
+
+    <span aria-hidden="true">&rsaquo;</span>
+
+    {% if current_tags %}
+
+      {{ blog.title | link_to: blog.url }}
+
+      <span aria-hidden="true">&rsaquo;</span>
+
+      <span>{{ current_tags | join: " + " }}</span>
+
+    {% else %}
+
+    <span>{{ blog.title }}</span>
+
+    {% endif %}
+
+  {% elsif template == 'article' %}
+
+    <span aria-hidden="true">&rsaquo;</span>
+
+    {{ blog.title | link_to: blog.url }}
+
+    <span aria-hidden="true">&rsaquo;</span>
+
+    <span>{{ article.title }}</span>
+
+  {% else %}
+
+   <span aria-hidden="true">&rsaquo;</span>
+
+   <span>{{ page_title }}</span>
+
+  {% endif %}
+
+</nav>
 </div>
