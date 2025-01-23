@@ -2,7 +2,7 @@
   .breadcrumb-bar {
     margin-bottom: 40px;
   }
-  .breadcrumb-list {
+  .breadcrumb {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -12,11 +12,8 @@
     border-top: 1px solid #25282A;
     border-bottom: 1px solid #25282A;
   }
-  .breadcrumb-list>li{
-    padding: 0;
-  }
-  .breadcrumb-list>li>span,
-  .breadcrumb-list>li>a{
+  .breadcrumb>span,
+  .breadcrumb>a{
     color: #25282A;
     font-size: 10px;
     font-weight: 300;
@@ -25,7 +22,7 @@
   }
 </style>
 
-<div class="container">
+<div class="breadcrumb-bar container">
   <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
 
   <a href="/" title="Home">Home</a>
