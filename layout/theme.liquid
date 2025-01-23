@@ -103,6 +103,10 @@
       {%- sections 'overlay-group' -%}
     {%- endif -%}
 
+    {%- unless request.page_type == 'index' or request.page_type =='404' or request.page_type == 'password' or request.page_type == 'collection' or request.page_type contains 'customers' -%}
+      {%  render 'breadcrumbs' %}
+    {%- endunless -%}
+
     <main id="main" class="anchor">
       {{ content_for_layout }}
 

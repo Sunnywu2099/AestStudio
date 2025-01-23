@@ -1,0 +1,156 @@
+{% assign sid = section.id %}
+<style>
+    #shopify-section-{{sid}}{
+        {%if section.settings.type == 'padding' %}
+            padding-top:{{section.settings.top |  append: 'px'}};
+            padding-bottom:{{section.settings.bottom |  append: 'px'}};
+            {%  else %} 
+            margin-top:{{section.settings.top |  append: 'px'}};
+            margin-bottom:{{section.settings.bottom |  append: 'px'}};
+            {%  endif %} 
+    } 
+    #shopify-section-{{sid}} .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #shopify-section-{{sid}} .container img{
+        {% if section.settings.width != blank %}
+        width: {{ section.settings.width }};
+        {% endif %}
+        display:block;
+    }
+    @media (max-width:767px){
+        #shopify-section-{{sid}}{
+            {%if section.settings.type == 'padding' %}
+                padding-top:{{section.settings.top_m |  append: 'px'}};
+                padding-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  else %} 
+                margin-top:{{section.settings.top_m |  append: 'px'}};
+                margin-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  endif %} 
+        }   
+        #shopify-section-{{sid}} .container img{
+            {% if section.settings.width_m != blank %}
+            width: {{ section.settings.width_m }};
+            {% endif %}
+        }
+    }
+</style>
+
+<div class="container">
+    {%liquid
+        assign bs = section.settings    
+        assign pc_image = bs.img
+        assign mobile_image = bs.img_m
+    %}
+    {% if pc_image != blank %}  
+        <picture>
+            {% if mobile_image != blank %}
+            <source
+                srcset="{{ mobile_image | img_url: 'master' }}"
+                media="(max-width: 767px)"
+            >
+            {% endif %}
+            <img src="{{ pc_image | img_url: 'master' }}" alt="{{ pc_image.alt }}" loading="lazy" width="auto" height="100%">
+        </picture>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Section logo",
+    "class": "custom-section-logo",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image (desktop)"
+        },
+        {
+          "type": "text",
+          "id": "width",
+          "label": "logo_width",
+          "default":"280px"
+        },
+        {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image (mobile)"
+        },
+        {
+          "type": "text",
+          "id": "width_m",
+          "label": "logo_width_m",
+          "default":"280px"
+        },
+        {
+            "type": "select",
+            "id": "type",
+            "default":"margin",
+            "label": "Padding or Margin",
+            "options": [
+                {
+                    "label": "Padding",
+                    "value": "padding"
+                },
+                {
+                    "label": "Margin",
+                    "value": "margin"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Desktop"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom",
+          "label": "Bottom",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+            "type": "header",
+            "content": "mobile"
+        },
+        {
+          "type": "range",
+          "id": "top_m",
+          "label": "Top",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom_m",
+          "label": "Bottom",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        }
+    ],
+    "presets": [
+        {"name": "Section logo"}
+    ]
+}
+{% endschema %}

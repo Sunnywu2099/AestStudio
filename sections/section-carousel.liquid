@@ -1,0 +1,340 @@
+{% capture arrow_left %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">    <path d="M0 5.48837L10 0V1.5969L1.79916 6L1.88285 5.86047V6.17054L1.79916 6.03101L10 10.4031V12L0 6.52713V5.48837Z" fill="#25282A"/></svg>{% endcapture %}
+{% capture arrow_right %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">  <path d="M10 6.51163L0 12L0 10.4031L8.20084 6L8.11715 6.13953V5.82946L8.20084 5.96899L0 1.5969L0 0L10 5.47287V6.51163Z" fill="#25282A"/></svg>{% endcapture %}
+{% assign sid = section.id %}
+<style>
+    #shopify-section-{{sid}}{
+        {%if section.settings.type == 'padding' %}
+            padding-top:{{section.settings.top |  append: 'px'}};
+            padding-bottom:{{section.settings.bottom |  append: 'px'}};
+        {%  else %} 
+            margin-top:{{section.settings.top |  append: 'px'}};
+            margin-bottom:{{section.settings.bottom |  append: 'px'}};
+        {%  endif %} 
+    } 
+    #shopify-section-{{sid}} .container {
+    }
+    #shopify-section-{{sid}} .container_inner{
+        width: 100%;
+        max-width: 1680px;
+        margin: 0 auto;
+    }
+    #shopify-section-{{ sid }} .items{
+        display: flex;
+        gap: 16px;
+    }
+    #shopify-section-{{ sid }} .item{
+      position: relative;
+    }
+    #shopify-section-{{ sid }} .media,
+    #shopify-section-{{ sid }} .media video,
+    #shopify-section-{{ sid }} .media img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
+      object-position: center;
+    }
+    #shopify-section-{{ sid }} .item .info{
+      text-align: left;
+      color:var(--color);
+      margin-top: 16px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_title{
+      color: inherit;
+      font-family: Courier;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4; /* 140% */
+      letter-spacing: 0.7px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_text{
+        color: inherit;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.6px;
+        margin-top: 4px;
+    }   
+    #shopify-section-{{ sid }} .pn_btn{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    #shopify-section-{{ sid }} .pn_btn path{
+        fill: #fff;
+    }
+    #shopify-section-{{ sid }} .prev_button{
+        left: 36px;
+    }
+    #shopify-section-{{ sid }} .next_button{
+        right: 36px;
+    }
+    #shopify-section-{{ sid }} .pn_btn.swiper-button-disabled{
+        opacity: .35;
+        cursor: auto;
+        pointer-events: none
+    }
+    @media (min-width:768px){
+      #shopify-section-{{ sid }} .item{
+        width: calc(25% - 8px);
+      }
+      #shopify-section-{{ sid }} .media video.mobile{display:none;}
+    }
+    @media (max-width:767px){
+        #shopify-section-{{ sid }} .media video.desktop{display:none;}
+        #shopify-section-{{ sid }} .container{
+            margin: 0;
+        }   
+        #shopify-section-{{ sid }} .swiper{
+            padding: 0 max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+        }
+        #shopify-section-{{sid}}{
+            {%if section.settings.type == 'padding' %}
+                padding-top:{{section.settings.top_m |  append: 'px'}};
+                padding-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  else %} 
+                margin-top:{{section.settings.top_m |  append: 'px'}};
+                margin-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  endif %} 
+        }   
+        #shopify-section-{{ sid }} .item .info .item_title{
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="container_inner">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %} 
+                    {% liquid 
+                    assign bs = block.settings
+                    assign color = bs.color
+                    assign type = bs.type
+                    assign title = bs.title
+                    assign text = bs.text
+                    assign pc_image = bs.img
+                    assign mobile_image = bs.img_m
+                    assign alt = bs.img.alt
+                    assign pc_video = bs.video
+                    assign mobile_video = bs.video_m
+                    %}
+                    <div class="swiper-slide item {% if forloop.index > 6 %} hidden {% endif %}" style="--color:{{color}};">
+                    <div class="media">
+                        {% if type == 'img' %}
+                        {% if pc_image != blank %}
+                            <picture>
+                            {% if mobile_image != blank %}
+                            <source
+                                srcset="{{ mobile_image | img_url: '750x' }}"
+                                media="(max-width: 375px)"
+                            >
+                            <source
+                                srcset="{{ mobile_image | img_url: '1000x' }}"
+                                media="(max-width: 767px)"
+                            >
+                            {% endif %}
+                            <source
+                                srcset="{{ pc_image | img_url: '2160x' }}"
+                                media="(max-width: 1080px)"
+                            >
+                            <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                            </picture>
+                        {% endif %}
+                        {% else %}
+                        {% if pc_video != blank %}
+                            {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+                        {% endif %}
+                        {% if mobile_video != blank %}
+                            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                    <div class="info">
+                        {% if title != blank %}
+                        <h3 class="item_title">{{ title }}</h3>
+                        {% endif %}
+                        {% if text != blank %}
+                        <h3 class="item_text">{{ text }}</h3>
+                        {% endif %}
+                    </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="pn_btn prev_button">{{arrow_left}}</div>
+            <div class="pn_btn next_button">{{arrow_right}}</div>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+    let sectionSwiper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .swiper', {
+        spaceBetween: 16,
+        slidesPerView: 4,
+        navigation: {
+            prevEl: '#shopify-section-{{ sid }} .prev_button',
+            nextEl: '#shopify-section-{{ sid }} .next_button',
+        },
+        breakpoints: { 
+            320: { 
+                slidesPerView: 1.4,
+                spaceBetween: 8
+            },
+            768: {   
+                slidesPerView: 3,
+                spaceBetween: 12
+            },
+            1280: {  
+                slidesPerView: 4,
+                spaceBetween: 16
+            }
+        }
+    })
+</script>
+
+{% schema %}
+{
+    "name": "Section carousel",
+    "class": "custom-section-carousel",
+    "settings": [
+        {
+            "type": "select",
+            "id": "type",
+            "default":"margin",
+            "label": "Padding or Margin",
+            "options": [
+                {
+                    "label": "Padding",
+                    "value": "padding"
+                },
+                {
+                    "label": "Margin",
+                    "value": "margin"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Desktop"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom",
+          "label": "Bottom",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+            "type": "header",
+            "content": "mobile"
+        },
+        {
+          "type": "range",
+          "id": "top_m",
+          "label": "Top",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom_m",
+          "label": "Bottom",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "item",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Text color",
+                    "default":"#25282A"
+                },
+                {
+                    "type":"select",
+                    "id":"type",
+                    "label": "选用类型",
+                    "default":"img",
+                    "options": [
+                    {
+                        "label": "图片",
+                        "value": "img"
+                    },
+                    {
+                        "label": "视频",
+                        "value": "video"
+                    }
+                    ]
+                },
+                {
+                    "type": "header",
+                    "content": "图片"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image (desktop)"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_m",
+                    "label": "Image (mobile)"
+                },
+                {
+                    "type": "header",
+                    "content": "视频"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "video (desktop)"
+                },
+                {
+                    "type": "video",
+                    "id": "video_m",
+                    "label": "video (mobile)"
+                },
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Vanessa"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "Aest Studios Founder / Architecture designer"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {"name": "Section carousel"}
+    ]
+}
+{% endschema %}
