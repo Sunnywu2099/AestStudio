@@ -204,6 +204,74 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_yLfDVV": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_TfPCz4": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_8.png",
+            "img_m": "shopify://shop_images/Clip_path_group_8.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "text_KDeNkH": {
+          "type": "text",
+          "settings": {
+            "title": "Tracy",
+            "text": "Amid the lush cultural whispers of the South, I found my way to design. From the soft embrace of fashion accessories, I wandered deeper into the world of bags. Lost in the leather workshops, I infused each piece with the quiet strength and tender resilience of this land. With every creation, I whisper to the world: my heart keeps on beating, and it always will."
+          }
+        }
+      },
+      "block_order": [
+        "media_TfPCz4",
+        "text_KDeNkH"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_AHhbX7": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_x4BXYi": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_9.png",
+            "img_m": "shopify://shop_images/Clip_path_group_9.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "text_9qMNd8": {
+          "type": "text",
+          "settings": {
+            "title": "Dakota",
+            "text": "A rich background in fashion and global experiences in London have shaped me into a marketer who perfectly balances commerce and art. I excel at leveraging sharp business insights to understand people’s needs and am committed to creating content that truly serves users—just as our brand is dedicated to addressing real-world needs at its core."
+          }
+        }
+      },
+      "block_order": [
+        "media_x4BXYi",
+        "text_9qMNd8"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
     "section_carousel_xF9fyM": {
       "type": "section-carousel",
       "blocks": {
@@ -395,6 +463,8 @@
     "custom_multiple_media_9kHQM7",
     "custom_multiple_media_Aciiaq",
     "custom_multiple_media_xDFWVC",
+    "custom_multiple_media_yLfDVV",
+    "custom_multiple_media_AHhbX7",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
