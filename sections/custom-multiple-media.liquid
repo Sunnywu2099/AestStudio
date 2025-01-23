@@ -125,9 +125,25 @@
       },
       {
         "type": "select",
+        "id": "section_type",
+        "label": "Section type",
+        "options": [
+          {
+            "value": "one-media-top-one-content-bottom",
+            "label": "One media top,one content bottom"
+          },
+          {
+            "value": "one-media-left-one-content-right",
+            "label": "One media left,one content right"
+          }
+        ],
+        "default": "one-media-top-one-content-bottom"
+      },
+      {
+        "type": "select",
         "id": "text_alignment",
         "label": "Text alignment",
-        "info": "This setting only works when full width is turned off",
+        "info": "This setting only works when section type is 'One media left,one content right'",
         "options": [
           {
             "value": "left",
