@@ -85,6 +85,7 @@
         "text_bPWkHc"
       ],
       "settings": {
+        "page_desc": "Our Mission",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -118,6 +119,7 @@
         "text_GBz9ME"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
@@ -151,6 +153,7 @@
         "text_erXPW8"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
@@ -184,6 +187,7 @@
         "text_ze4Ekr"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
