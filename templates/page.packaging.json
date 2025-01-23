@@ -194,9 +194,77 @@
         "section_type": "two-media",
         "text_alignment": "left",
         "pt": 0,
-        "pb": 120,
+        "pb": 0,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 0
+      }
+    },
+    "section_product_popup_Ahikrm": {
+      "type": "section-product-popup",
+      "blocks": {
+        "product_3UQEqY": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_RHrNwM": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_qaeKpJ": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_PAmcbD": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_8abwxb": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        }
+      },
+      "block_order": [
+        "product_3UQEqY",
+        "product_RHrNwM",
+        "product_qaeKpJ",
+        "product_PAmcbD",
+        "product_8abwxb"
+      ],
+      "settings": {
+        "unable_padding": false,
+        "title": "You May Also Like",
+        "continue_shopping": true,
+        "url": "shopify://collections/frontpage"
       }
     }
   },
@@ -206,6 +274,7 @@
     "custom_multiple_media_WwJETL",
     "custom_multiple_media_97x7Nd",
     "custom_multiple_media_d73wc6",
-    "custom_multiple_media_xtPEnk"
+    "custom_multiple_media_xtPEnk",
+    "section_product_popup_Ahikrm"
   ]
 }
