@@ -96,6 +96,14 @@
   #shopify-section-{{section.id}} .type-5 .custom-wrapper{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+  }
+  #shopify-section-{{section.id}} .type-5 .custom-wrapper .media-wrapper{
+    width: calc((100% - 20px) / 2);
+  }
+  #shopify-section-{{section.id}} .type-5 .custom-wrapper .content-wrapper{
+    width: 100%;
+    margin: 20px auto 0;
   }
   /* section type-5 */
   @media screen and (max-width: 999px) {
