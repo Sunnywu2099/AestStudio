@@ -102,6 +102,68 @@
         "bottom_m": 60
       }
     },
+    "section_carousel_xF9fyM": {
+      "type": "section-carousel",
+      "blocks": {
+        "item_6QrV6A": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_3gzQ4B": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_dXKYmq": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_LNqwdm": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        }
+      },
+      "block_order": [
+        "item_6QrV6A",
+        "item_3gzQ4B",
+        "item_dXKYmq",
+        "item_LNqwdm"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 120,
+        "bottom": 120,
+        "top_m": 60,
+        "bottom_m": 60
+      }
+    },
     "section_column_media_bnccFY": {
       "type": "section-column-media",
       "blocks": {
@@ -201,6 +263,7 @@
         "item_ejAgnC",
         "item_AaVnYi"
       ],
+      "disabled": true,
       "settings": {
         "text": "SEE MORE",
         "type": "margin",
@@ -215,6 +278,7 @@
     "main",
     "section_nav_mGDaCc",
     "section_logo_z6VJck",
+    "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
 }
