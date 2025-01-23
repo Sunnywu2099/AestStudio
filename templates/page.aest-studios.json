@@ -62,6 +62,13 @@
             "text": "Behind The Scenes",
             "link": "shopify://pages/behind-the-scenes"
           }
+        },
+        "item_FzANbX": {
+          "type": "item",
+          "settings": {
+            "text": "Technology & Process",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -70,7 +77,8 @@
         "item_bVciHi",
         "item_JGGPbA",
         "item_RMifqG",
-        "item_3RFn9L"
+        "item_3RFn9L",
+        "item_FzANbX"
       ],
       "settings": {
         "type": "margin",
