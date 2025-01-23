@@ -112,10 +112,18 @@
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
           }
+        },
+        "text_x9yLW8": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
         }
       },
       "block_order": [
-        "media_nUJJM3"
+        "media_nUJJM3",
+        "text_x9yLW8"
       ],
       "settings": {
         "page_desc": "Technology & Process",
