@@ -105,42 +105,6 @@
     "section_column_media_bnccFY": {
       "type": "section-column-media",
       "blocks": {
-        "item_YqtLpQ": {
-          "type": "item",
-          "settings": {
-            "color": "#ffffff",
-            "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
-            "link": ""
-          }
-        },
-        "item_EGAFB3": {
-          "type": "item",
-          "settings": {
-            "color": "#ffffff",
-            "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
-            "link": ""
-          }
-        },
-        "item_H4wyVH": {
-          "type": "item",
-          "settings": {
-            "color": "#ffffff",
-            "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
-            "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
-            "link": ""
-          }
-        },
         "item_FadmHz": {
           "type": "item",
           "settings": {
@@ -161,7 +125,7 @@
             "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
+            "btn": "",
             "link": ""
           }
         },
@@ -173,7 +137,7 @@
             "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
+            "btn": "",
             "link": ""
           }
         },
@@ -187,7 +151,7 @@
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "video_m": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "title": "SPRING SUMMER 2015",
-            "btn": "Shop Now",
+            "btn": "",
             "link": ""
           }
         },
@@ -199,20 +163,43 @@
             "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "title": "SPRING SUMMER 2025",
-            "btn": "Shop Now",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_ejAgnC": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2025",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_AaVnYi": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2025",
+            "btn": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "item_YqtLpQ",
-        "item_EGAFB3",
-        "item_H4wyVH",
         "item_FadmHz",
         "item_X84Td9",
         "item_mJPaF7",
         "item_ry9xrx",
-        "item_qxFdfj"
+        "item_qxFdfj",
+        "item_ejAgnC",
+        "item_AaVnYi"
       ],
       "settings": {
         "text": "SEE MORE",
