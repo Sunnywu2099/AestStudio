@@ -79,7 +79,7 @@
         "text_ygNG78"
       ],
       "settings": {
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
         "pt": 0,
