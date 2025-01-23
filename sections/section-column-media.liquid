@@ -1,0 +1,357 @@
+{% capture arrow %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">        <path d="M4.11628 7.11986L0 0.423828L1.19767 0.423828L4.5 5.91513L4.39535 5.8591L4.62791 5.8591L4.52326 5.91513L7.80233 0.423828L9 0.423828L4.89535 7.11986L4.11628 7.11986Z" fill="#25282A"/></svg>
+{% endcapture %}
+{% assign sid = section.id %}
+<style>
+    #shopify-section-{{sid}}{
+        {%if section.settings.type == 'padding' %}
+            padding-top:{{section.settings.top |  append: 'px'}};
+            padding-bottom:{{section.settings.bottom |  append: 'px'}};
+        {%  else %} 
+            margin-top:{{section.settings.top |  append: 'px'}};
+            margin-bottom:{{section.settings.bottom |  append: 'px'}};
+        {%  endif %} 
+    } 
+    #shopify-section-{{sid}} .container {
+    }
+    #shopify-section-{{sid}} .container_inner{
+        width: 100%;
+        max-width: 1680px;
+        margin: 0 auto;
+    }
+    #shopify-section-{{ sid }} .items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #shopify-section-{{ sid }} .item{
+      position: relative;
+    }
+    #shopify-section-{{ sid }} .media,
+    #shopify-section-{{ sid }} .media video,
+    #shopify-section-{{ sid }} .media img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
+      object-position: center;
+    }
+    #shopify-section-{{ sid }} .item .info{
+      position: absolute;
+      top: 50%;
+      left: 4%;
+      transform: translateY(-50%);
+      width: 92%;
+      z-index: 1;
+      text-align: center;
+      color:var(--color);
+    }
+    #shopify-section-{{ sid }} .item .info .item_title{
+      color: inherit;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.4; /* 140% */
+      letter-spacing: 1.1px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn{
+      margin: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: inherit;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4; /* 140% */
+      letter-spacing: 0.6px;
+      transition:all 0.3s ease-in;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      padding: 0 7px;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn svg{
+      display: block;
+    }
+    #shopify-section-{{ sid }} .item .info .item_btn:hover{
+      border-color:var(--color);
+      background: rgba(37, 40, 42, 0.40);
+    }
+    #shopify-section-{{ sid }} .see_more{
+        color: #25282A;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.6px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        justify-content: center;
+        width: max-content;
+        margin: 80px auto 0;
+        cursor: pointer;
+    }
+    @media (min-width:768px){
+      #shopify-section-{{ sid }} .item{
+        width: calc(50% - 10px);
+      }
+      #shopify-section-{{ sid }} .media video.mobile{display:none;}
+    }
+    @media (max-width:767px){
+        #shopify-section-{{ sid }} .media video.desktop{display:none;}
+        #shopify-section-{{sid}}{
+            {%if section.settings.type == 'padding' %}
+                padding-top:{{section.settings.top_m |  append: 'px'}};
+                padding-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  else %} 
+                margin-top:{{section.settings.top_m |  append: 'px'}};
+                margin-bottom:{{section.settings.bottom_m |  append: 'px'}};
+            {%  endif %} 
+        }   
+        #shopify-section-{{ sid }} .items{
+            flex-direction: column;
+        } 
+        #shopify-section-{{ sid }} .item .info .item_title{
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+        #shopify-section-{{ sid }} .item .info .item_btn{
+            border-color:var(--color);
+            background: rgba(37, 40, 42, 0.40);
+        }
+        #shopify-section-{{ sid }} .see_more{
+            margin: 40px auto 0;
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="container_inner">
+        <div class="items">
+            {% for block in section.blocks %} 
+                {% liquid 
+                  assign bs = block.settings
+                  assign color = bs.color
+                  assign type = bs.type
+                  assign title = bs.title
+                  assign btn = bs.btn
+                  assign link = bs.link
+                  assign pc_image = bs.img
+                  assign mobile_image = bs.img_m
+                  assign alt = bs.img.alt
+                  assign pc_video = bs.video
+                  assign mobile_video = bs.video_m
+                %}
+                <div class="item {% if forloop.index > 6 %} hidden {% endif %}" style="--color:{{color}};">
+                  <div class="media">
+                    {% if type == 'img' %}
+                      {% if pc_image != blank %}
+                        <picture>
+                          {% if mobile_image != blank %}
+                          <source
+                            srcset="{{ mobile_image | img_url: '750x' }}"
+                            media="(max-width: 375px)"
+                          >
+                          <source
+                            srcset="{{ mobile_image | img_url: '1000x' }}"
+                            media="(max-width: 767px)"
+                          >
+                          {% endif %}
+                          <source
+                            srcset="{{ pc_image | img_url: '2160x' }}"
+                            media="(max-width: 1080px)"
+                          >
+                          <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                        </picture>
+                      {% endif %}
+                    {% else %}
+                      {% if pc_video != blank %}
+                        {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+                      {% endif %}
+                      {% if mobile_video != blank %}
+                        {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                  <div class="info">
+                    {% if title != blank %}
+                      <h3 class="item_title">{{ title }}</h3>
+                    {% endif %}
+                    {% if btn != blank %}
+                      <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
+                    {% endif %}
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+        {% if section.blocks.size > 6 %}
+            <div class="see_more">
+                <span>{{section.settings.text}}</span>
+                {{arrow}}
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<script type="module">
+    $('#shopify-section-{{ sid }} .see_more').on('click',function(){
+        let el = $(this);
+        el.prev().children('.item.hidden').removeClass('hidden');
+        el.hide();
+    })
+</script>
+
+{% schema %}
+{
+    "name": "Section column media",
+    "class": "custom-section-column-media",
+    "settings": [
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Button text",
+            "default":"SEE MORE"
+        },
+        {
+            "type": "select",
+            "id": "type",
+            "default":"margin",
+            "label": "Padding or Margin",
+            "options": [
+                {
+                    "label": "Padding",
+                    "value": "padding"
+                },
+                {
+                    "label": "Margin",
+                    "value": "margin"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Desktop"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom",
+          "label": "Bottom",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "unit": "px",
+          "default":0
+        },
+        {
+            "type": "header",
+            "content": "mobile"
+        },
+        {
+          "type": "range",
+          "id": "top_m",
+          "label": "Top",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom_m",
+          "label": "Bottom",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "unit": "px",
+          "default":0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "item",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Text color",
+                    "default":"#fff"
+                },
+                {
+                    "type":"select",
+                    "id":"type",
+                    "label": "选用类型",
+                    "default":"img",
+                    "options": [
+                    {
+                        "label": "图片",
+                        "value": "img"
+                    },
+                    {
+                        "label": "视频",
+                        "value": "video"
+                    }
+                    ]
+                },
+                {
+                    "type": "header",
+                    "content": "图片"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image (desktop)"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_m",
+                    "label": "Image (mobile)"
+                },
+                {
+                    "type": "header",
+                    "content": "视频"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "video (desktop)"
+                },
+                {
+                    "type": "video",
+                    "id": "video_m",
+                    "label": "video (mobile)"
+                },
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "CAMERA BAG"
+                },
+                {
+                    "type": "text",
+                    "id": "btn",
+                    "label": "Button",
+                    "default": "Shop Now"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {"name": "Section column media"}
+    ]
+}
+{% endschema %}
