@@ -132,9 +132,9 @@
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "pt": 120,
+        "pt": 0,
         "pb": 120,
-        "pt_m": 60,
+        "pt_m": 0,
         "pb_m": 60
       }
     },
