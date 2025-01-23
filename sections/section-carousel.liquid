@@ -1,6 +1,5 @@
-{% capture arrow %}
-    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">        <path d="M4.11628 7.11986L0 0.423828L1.19767 0.423828L4.5 5.91513L4.39535 5.8591L4.62791 5.8591L4.52326 5.91513L7.80233 0.423828L9 0.423828L4.89535 7.11986L4.11628 7.11986Z" fill="#25282A"/></svg>
-{% endcapture %}
+{% capture arrow_left %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">    <path d="M0 5.48837L10 0V1.5969L1.79916 6L1.88285 5.86047V6.17054L1.79916 6.03101L10 10.4031V12L0 6.52713V5.48837Z" fill="#25282A"/></svg>{% endcapture %}
+{% capture arrow_right %}    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">  <path d="M10 6.51163L0 12L0 10.4031L8.20084 6L8.11715 6.13953V5.82946L8.20084 5.96899L0 1.5969L0 0L10 5.47287V6.51163Z" fill="#25282A"/></svg>{% endcapture %}
 {% assign sid = section.id %}
 <style>
     #shopify-section-{{sid}}{
@@ -186,12 +185,33 @@
                     </div>
                 {% endfor %}
             </div>
+            <div class="prev_button">{{arrow_left}}</div>
+            <div class="next_button">{{arrow_right}}</div>
         </div>
     </div>
 </div>
 
 <script type="module">
     let sectionSwiper{{section.index}} = new Swiper('#shopify-section-{{ sid }} .swiper', {
+        spaceBetween: 16,
+        slidesPerView: 4,
+        navigation: {
+            prevEl: '#shopify-section-{{ sid }} .product_ctrl .prev_button',
+            nextEl: '#shopify-section-{{ sid }} .product_ctrl .next_button',
+        },
+        breakpoints: { 
+            320: { 
+            slidesPerView: 1.4,
+            spaceBetween: 8
+            },
+            768: {   
+            slidesPerView: 3,
+            spaceBetween: 12
+            },
+            1280: {  
+            slidesPerView: 4,
+            spaceBetween: 16
+            }
     })
 </script>
 
