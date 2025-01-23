@@ -167,11 +167,7 @@
                       <p class="h6">{{ block.settings.title }}</p>
                     {%- endif -%}
 
-                    {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued">
-                        {{- block.settings.content -}}
-                      </div>
-                    {%- endif -%}
+
 
                     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
 
