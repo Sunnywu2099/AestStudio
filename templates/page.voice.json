@@ -59,8 +59,8 @@
         "media_zRKBME": {
           "type": "media",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_ae544450-f277-48a9-bfc5-7b0c98be67ec.png",
-            "use_video": true,
+            "img": "shopify://shop_images/Layer_0_1_3530a57c-953f-49ec-8db5-a0f43154028d.png",
+            "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
