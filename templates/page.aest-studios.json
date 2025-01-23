@@ -108,7 +108,79 @@
         "item_YqtLpQ": {
           "type": "item",
           "settings": {
-            "color": "#fff",
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_EGAFB3": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_H4wyVH": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_FadmHz": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_X84Td9": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_mJPaF7": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        },
+        "item_ry9xrx": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
             "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
@@ -119,7 +191,13 @@
         }
       },
       "block_order": [
-        "item_YqtLpQ"
+        "item_YqtLpQ",
+        "item_EGAFB3",
+        "item_H4wyVH",
+        "item_FadmHz",
+        "item_X84Td9",
+        "item_mJPaF7",
+        "item_ry9xrx"
       ],
       "settings": {
         "text": "SEE MORE",
