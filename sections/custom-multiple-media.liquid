@@ -187,6 +187,8 @@
     assign custom_class = 'type-4'
   elsif section_type == 'two-media-top-one-content-bottom'
     assign custom_class = 'type-5'
+  elsif section_type == 'two-media-top-two-content-bottom'
+    assign custom_class = 'type-6'
   endif section_type == ''
 
   assign is_full = section.settings.is_full
@@ -306,6 +308,10 @@
           {
             "value": "two-media-top-one-content-bottom",
             "label": "Two media top,one content bottom"
+          },
+          {
+            "value": "two-media-top-two-content-bottom",
+            "label": "Two media top,two content bottom"
           }
         ],
         "default": "one-media-top-one-content-bottom"
