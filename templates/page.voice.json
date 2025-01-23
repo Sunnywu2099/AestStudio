@@ -96,7 +96,7 @@
           "settings": {
             "img": "shopify://shop_images/Layer_0_2_ac1c9079-86d1-4294-9066-c0aa651173a7.png",
             "use_video": true,
-            "autoplay": true,
+            "autoplay": false,
             "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
             "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
           }
