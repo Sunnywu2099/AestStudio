@@ -1,4 +1,26 @@
 {% assign sid = section.id %}
+<style>
+    #shopify-section-{{sid}}{
+        {%if section.settings.type == 'padding' %}
+            padding-top:{{section.settings.top}};
+            padding-bottom:{{section.settings.bottom}};
+        {%  else %} 
+            margin-top:{{section.settings.top}};
+            margin-bottom:{{section.settings.bottom}};
+        {%  endif %} 
+    } 
+    @media (max-width:767px){
+        #shopify-section-{{sid}}{
+            {%if section.settings.type == 'padding' %}
+                padding-top:{{section.settings.top_m}};
+                padding-bottom:{{section.settings.bottom_m}};
+            {%  else %} 
+                margin-top:{{section.settings.toptop_m}};
+                margin-bottom:{{section.settings.bottom_m}};
+            {%  endif %} 
+        }   
+    }
+</style>
 {% schema %}
 {
     "name": "Section navigation",
