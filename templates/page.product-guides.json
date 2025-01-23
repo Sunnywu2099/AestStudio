@@ -81,7 +81,9 @@
         "item_LYgaPC",
         "item_84MTb3"
       ],
-      "settings": {}
+      "settings": {
+        "unable_padding": true
+      }
     },
     "section_guide_fwRXAz": {
       "type": "section-guide",
@@ -134,7 +136,9 @@
         "item_eAJDpp",
         "item_f6nRky"
       ],
-      "settings": {}
+      "settings": {
+        "unable_padding": false
+      }
     },
     "section_product_popup_9XWtre": {
       "type": "section-product-popup",
