@@ -1,3 +1,6 @@
+{% capture arrow %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">        <path d="M4.11628 7.11986L0 0.423828L1.19767 0.423828L4.5 5.91513L4.39535 5.8591L4.62791 5.8591L4.52326 5.91513L7.80233 0.423828L9 0.423828L4.89535 7.11986L4.11628 7.11986Z" fill="#25282A"/></svg>
+{% endcapture %}
 {% assign sid = section.id %}
 <style>
     #shopify-section-{{sid}}{
@@ -168,7 +171,7 @@
         {% if section.blocks.size > 6 %}
             <div class="see_more">
                 <span>{{section.settings.text}}</span>
-                <svg width="17" height="17" viewBox="0 0 76 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M72.2016 11L69 6H69.9315L72.5 10.1004L72.4186 10.0586H72.5995L72.5181 10.1004L75.0685 6H76L72.8075 11H72.2016Z" fill="currentColor"/></svg>
+                {{arrow}}
             </div>
         {% endif %}
     </div>
