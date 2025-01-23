@@ -138,6 +138,40 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_6r7aAH": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_DnC8Yj": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Mask_group_5.png",
+            "img_m": "shopify://shop_images/Mask_group_5.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "text_YVQCqp": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "Our story begins on the white cliffs of London, where the ocean breeze carries the scent of salt and freedom, and nature stretches endlessly before her. In this moment of serene beauty, she faced an unexpected dilemma: her camera and drone, precious companions of her journey, had no place to rest, no sanctuary to shield them. The bag she carried, though stylish, lacked the structure to cradle them with care, while traditional camera bags felt uninspired and devoid of grace.\n<br><br>\nAmidst the mountains and sea, she realized that the market lacked a bag that seamlessly married functionality with the elegance of design and the allure of fashion."
+          }
+        }
+      },
+      "block_order": [
+        "media_DnC8Yj",
+        "text_YVQCqp"
+      ],
+      "settings": {
+        "is_full": true,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
     "section_carousel_xF9fyM": {
       "type": "section-carousel",
       "blocks": {
@@ -328,6 +362,7 @@
     "section_nav_mGDaCc",
     "section_logo_z6VJck",
     "custom_multiple_media_7qYjAW",
+    "custom_multiple_media_6r7aAH",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
