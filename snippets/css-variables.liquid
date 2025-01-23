@@ -42,6 +42,19 @@ note that this may have impact on different places.
     {{ text_font_bold_italic | font_face: font_display: 'fallback' }}
   {%- endif -%}
 
+  @font-face {
+    font-family: Courier;
+    src: url(https://cdn.shopify.com/s/files/1/0737/7187/6573/files/Courier_New.ttf?v=1737623192);
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: Courier;
+    src: url(https://cdn.shopify.com/s/files/1/0737/7187/6573/files/Courier_New_Bold.ttf?v=1737623192);
+    font-weight: 700;
+    font-display: fallback;
+  }
+
   :root {
     /* Container */
     --container-max-width: 100%;
