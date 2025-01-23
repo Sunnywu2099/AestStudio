@@ -185,8 +185,8 @@
 <script type="module">
     $('#shopify-section-{{ sid }} .see_more').on('click',function(){
         let el = $(this);
-        console.log(el.prev().children('.item.hidden'));
-        // el.hide();
+        el.prev().children('.item.hidden').removeClass('hidden');
+        el.hide();
     })
 </script>
 
