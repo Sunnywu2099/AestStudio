@@ -2,45 +2,45 @@
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
   }
-  .custom-multiple-media .media-wrapper{
+  #shopify-section-{{section.id}}.custom-multiple-media .media-wrapper{
     position: relative;
   }
-  .custom-multiple-media video{
+  #shopify-section-{{section.id}}.custom-multiple-media video{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .custom-multiple-media .play-btn{
+  #shopify-section-{{section.id}}.custom-multiple-media .play-btn{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
   }
-  .custom-multiple-media .content-wrapper{
+  #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper{
     margin: 60px auto 0;
     padding: 0 20px;
     max-width: 1200px;
   }
-  .custom-multiple-media .content-wrapper .text{
+  #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper .text{
     color: #25282A;
     font-size: 14px;
     font-weight: 300;
     line-height: 19.6px;
     letter-spacing: 0.7px;
   }
-  .type-1{
+  #shopify-section-{{section.id}} .type-1{
 
   }
-  .type-2 .custom-wrapper{
+  #shopify-section-{{section.id}} .type-2 .custom-wrapper{
     display: flex;
     gap: 80px;
     justify-content: space-between;
   }
-  .type-2 .media-wrapper{
+  #shopify-section-{{section.id}} .type-2 .media-wrapper{
     flex: 1;
   }
-  .type-2 .content-wrapper{
+  #shopify-section-{{section.id}} .type-2 .content-wrapper{
     flex: 1;
     margin: 60px auto 0;
     padding: 0;
@@ -53,7 +53,7 @@
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
     }
-    .custom-multiple-media .content-wrapper{
+    #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper{
       margin: 30px auto 0;
     }
   }
@@ -71,6 +71,7 @@
   endif section_type == 'one-media-top-one-content-top'
 
   assign is_full = section.settings.is_full
+  assign text_alignment = section.settings.text_alignment
 %}
 
 <div class="{% unless is_full %}container container--xl{% endunless %} {{custom_class}}">
