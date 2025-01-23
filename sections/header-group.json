@@ -125,7 +125,8 @@
         "mega_menu_sec_nav_GpfWN9"
       ],
       "custom_css": [
-        ".header {background-color: #F7F7F5;}"
+        ".header {background-color: #f7f7f5;}",
+        ".inside_menu_ul:before{background-color: #f7f7f5;}"
       ],
       "settings": {
         "color_scheme": "",
