@@ -42,8 +42,20 @@
   }
 </style>
 
-<div class="{% unless section.settings.is_full %}container container--xl{% endunless %}">
-  <div class="custom-wrapper">
+{% liquid 
+  assign custom_class = ''
+  assign section_type = section.settings.section_type
+  if section_type == 'one-media-top-one-content-bottom'
+    assign custom_class = 'type-1'
+  elsif section_type == 'one-media-left-one-content-right'
+    assign custom_class = 'type-2'
+  endif section_type == 'one-media-top-one-content-top'
+
+  assign is_full = section.settings.is_full
+%}
+
+<div class="{% unless is_full %}container container--xl{% endunless %}">
+  <div class="custom-wrapper {{custom_class}}">
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
