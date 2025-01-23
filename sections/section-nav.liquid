@@ -1,8 +1,38 @@
+{% assign sid = section.id %}
 {% schema %}
 {
     "name": "Section navigation",
+    "class": "custom-section-nav",
     "settings": [
-        
+        {
+            "type": "select",
+            "id": "type",
+            "default":"margin",
+            "label": "Padding or Margin",
+            "options": [
+                {
+                    "label": "Padding",
+                    "value": "padding"
+                },
+                {
+                    "label": "Margin",
+                    "value": "margin"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Desktop"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "default":40
+        }
     ],
     "presets": [
         {"name": "Section navigation"}
