@@ -206,6 +206,33 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_6mjbNj": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_kray83": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_5.png",
+            "use_video": true,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+          }
+        }
+      },
+      "block_order": [
+        "media_kray83"
+      ],
+      "settings": {
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
     "section_carousel_xF9fyM": {
       "type": "section-carousel",
       "blocks": {
@@ -398,6 +425,7 @@
     "custom_multiple_media_7qYjAW",
     "custom_multiple_media_6r7aAH",
     "custom_multiple_media_yiGbdg",
+    "custom_multiple_media_6mjbNj",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
