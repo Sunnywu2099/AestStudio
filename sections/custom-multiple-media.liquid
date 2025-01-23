@@ -1,0 +1,414 @@
+<style>
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+  }
+  #shopify-section-{{section.id}} img{
+    height: 100%;
+    object-fit: cover;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .media-wrapper{
+    position: relative;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper{
+    margin: 60px auto 0;
+    padding: 0 20px;
+    max-width: 1200px;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .container .content-wrapper{
+    padding: 0;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper .title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    letter-spacing: 1.1px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+  }
+  #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper .text{
+    color: #25282A;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.6px;
+    letter-spacing: 0.7px;
+  }
+  #shopify-section-{{section.id}} .type-1{
+
+  }
+  /* section type-2 */
+  #shopify-section-{{section.id}} .type-2 .custom-wrapper{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+  }
+  #shopify-section-{{section.id}} .type-2 .media-wrapper{
+    width: calc((100% - 80px) / 2);
+    flex-shrink: 0;
+  }
+  #shopify-section-{{section.id}} .type-2 .content-wrapper{
+    width: calc((100% - 80px) / 2);
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #shopify-section-{{section.id}} .type-2.left .custom-wrapper{
+
+  }
+  #shopify-section-{{section.id}} .type-2.right .custom-wrapper{
+    flex-direction: row-reverse;
+  }
+  /* section type-2 */
+
+  /* section type-3 */
+  #shopify-section-{{section.id}} .type-3 .custom-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #shopify-section-{{section.id}} .type-3 .media-wrapper{
+    width: 100%;
+  }
+  #shopify-section-{{section.id}} .type-3 .content-wrapper{
+    width: calc((100% - 20px) / 2);
+    margin: 20px auto 0;
+    padding: 0;
+  }
+  /* section type-3 */
+  /* section type-4 */
+  #shopify-section-{{section.id}} .type-4 .custom-wrapper{
+    display: flex;
+    gap: 20px;
+  }
+  /* section type-4 */
+  /* section type-5 */
+  #shopify-section-{{section.id}} .type-5 .custom-wrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #shopify-section-{{section.id}} .type-5 .custom-wrapper .media-wrapper{
+    width: calc((100% - 20px) / 2);
+  }
+  #shopify-section-{{section.id}} .type-5 .custom-wrapper .content-wrapper{
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  /* section type-5 */
+  @media screen and (max-width: 999px) {
+    #shopify-section-{{section.id}} {
+      padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+    }
+    #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper{
+      margin: 20px auto 0;
+    }
+    #shopify-section-{{section.id}} .type-2 .custom-wrapper{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    #shopify-section-{{section.id}} .type-2 .media-wrapper{
+      flex: auto;
+      width: 100%;
+    }
+    #shopify-section-{{section.id}} .type-2 .content-wrapper{
+      flex: 1;
+      flex: auto;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper .title{
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 12px;
+    }
+  }
+
+  @media screen and (max-width: 699px) {
+    #shopify-section-{{section.id}} .type-3 .content-wrapper{
+      width: 100%;
+      margin: 0;
+    }
+    #shopify-section-{{section.id}} .type-4 .custom-wrapper{
+      display: flex;
+      gap: 10px;
+    }
+    #shopify-section-{{section.id}} .type-5 .custom-wrapper{
+      gap: 10px;
+    }
+  }
+</style>
+
+{% liquid 
+  assign custom_class = ''
+  assign section_type = section.settings.section_type
+  if section_type == 'one-media-top-one-content-bottom'
+    assign custom_class = 'type-1'
+  elsif section_type == 'one-media-left-one-content-right'
+    assign custom_class = 'type-2'
+  elsif section_type == 'one-media-top-two-content-bottom'
+    assign custom_class = 'type-3'
+  elsif section_type == 'two-media'
+    assign custom_class = 'type-4'
+  elsif section_type == 'two-media-top-one-content-bottom'
+    assign custom_class = 'type-5'
+  endif section_type == ''
+
+  assign is_full = section.settings.is_full
+  assign text_alignment = section.settings.text_alignment
+%}
+
+<div class="{% unless is_full %}container container--xl{% endunless %} {{custom_class}} {{text_alignment}}">
+  <div class="custom-wrapper">
+    {% for block in section.blocks %}
+      {% assign bs = block.settings %}
+      {% if block.type == 'media' %}
+        <div class="media-wrapper">
+          {% if bs.use_video %}
+            {% if bs.autoplay %}
+              {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+              {% if bs.mobile_video != blank %}
+                {{ bs.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+              {% endif %}
+            {% else %}
+              {{ bs.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+              {% if bs.mobile_video != blank %}
+                {{ bs.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+              {% endif %}
+              <div class="play-btn">
+                {% render 'play-video' %} 
+              </div>
+            {% endif %}
+          {% else %}
+            {% if bs.img != blank %}
+              <picture>
+                {%- if bs.img_m != blank -%}
+                  <source
+                    media="(max-width: 699px)"
+                    srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                    width="{{ bs.img_m.width }}"
+                    height="{{ bs.img_m.height }}">
+                {%- endif -%}
+                {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              </picture>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% for block in section.blocks %}  
+      {% if block.type == 'text' %}
+        <div class="content-wrapper">
+            {% assign bs = block.settings %}
+            <div class="text-item">
+              {% if bs.title != blank %}
+                <h2 class="title">{{ bs.title }}</h2>
+              {% endif %}
+              {% if bs.text != blank %}
+                <p class="text">{{ bs.text }}</p>
+              {% endif %}
+            </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    $('.custom-multiple-media .play-btn').click(function () {
+      $(this).hide();
+      $(this).parent().find('video')[0].play();
+      $(this).parent().find('video')[1].play();
+    })
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "custom multiple media",
+    "class": "custom-multiple-media",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "is_full",
+        "label": "Full width",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "section_type",
+        "label": "Section type",
+        "options": [
+          {
+            "value": "one-media-top-one-content-bottom",
+            "label": "One media top,one content bottom"
+          },
+          {
+            "value": "one-media-left-one-content-right",
+            "label": "One media left,one content right"
+          },
+          {
+            "value": "one-media-top-two-content-bottom",
+            "label": "One media top,two content bottom"
+          },
+          {
+            "value": "two-media",
+            "label": "Two media"
+          },
+          {
+            "value": "two-media-top-one-content-bottom",
+            "label": "Two media top,one content bottom"
+          }
+        ],
+        "default": "one-media-top-one-content-bottom"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "info": "This setting only works when section type is 'One media left,one content right'",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "media",
+        "name": "media",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image PC"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          },
+          {
+            "type": "checkbox",
+            "id": "use_video",
+            "label": "Use video",
+            "default": true,
+            "info": "Image will be the post image if video is used"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "default": true
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video PC"
+          },
+          {
+            "type": "video",
+            "id": "mobile_video",
+            "label": "Video Mobile"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom multiple media"
+      }
+    ]
+  }
+{% endschema %}
