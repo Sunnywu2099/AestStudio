@@ -148,13 +148,25 @@
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
+        },
+        "item_8mfAFE": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
         }
       },
       "block_order": [
         "item_6QrV6A",
         "item_3gzQ4B",
         "item_dXKYmq",
-        "item_LNqwdm"
+        "item_LNqwdm",
+        "item_8mfAFE"
       ],
       "settings": {
         "type": "margin",
