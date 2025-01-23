@@ -224,7 +224,7 @@
       ],
       "settings": {
         "unable_padding": false,
-        "title": "You May Also Like",
+        "title": "Selected For You",
         "continue_shopping": true,
         "url": "shopify://collections/frontpage"
       }
