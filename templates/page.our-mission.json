@@ -50,10 +50,44 @@
         "pt_m": 60,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_3kk8pd": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_i7BcdP": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_11_d547c671-4a48-4138-8286-2e55753ae375.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_GBz9ME": {
+          "type": "text",
+          "settings": {
+            "title": "Preferred materials",
+            "text": "•Target: 100% of our collection created using preferred materials by FY 26/27<br>\n•Progress: 68% of our collection made in preferred raw materials in FY 22/23\nMaterials are the core of our creative expressions. We drape, fold, cut and continually experiment to evolve our aesthetic, fluid or sculptural, delicate or technical, we care how our materials are made. We prioritise working with qualitative, responsible materials that last. Our material classification tools help our design team navigate material choices by guiding them on what to use more of and what to avoid. Today, over 60% of our collections are created using preferred organic, recycled or responsibly sourced materials and we aim to reach 100% by FY 26/27. <br>\nResponsible wool<br>\nWe have been crafting our classic Canada scarf from responsibly sourced wool since 2022. Making the transition to wool certified by the Responsible Wool Standard (RWS) means we can feel confident that our fibre is coming from farms committed to upholding high animal welfare standards and a progressive approach to land management that helps protect soil. Over 70% of all the wool we use in our collection is now RWS certified. ​Find our products made in RWS wool here. <br>\nThe Recycled puffer<br>\nOur hooded down puffer jackets in our Fall Winter 2023 collection were made using 100% recycled materials, including recycled nylon, polyester and down filling. By switching to recycled alternatives, we reduce the use of virgin fossil fuel-based materials and lower the product’s overall environmental impact. Recycled down also supports us to avoid risks on animal welfare. Overall, 10% of the materials we use in our collection is recycled. Find our products made in recycled materials here. <br>\nOrganic denim<br>\nWe use more cotton in our collections than anything else. Over the last four years we have been transitioning to organic and today it represents over 70% of the cotton we source. Organic cotton is grown without chemical pesticides, supports healthy ecosystems and improves working conditions for farmers. Find our denim and other products made in organic cotton here. Now, we are also working with partners that practice regenerative farming methods that focus on climate and biodiversity conservation. Our first regenerative denim styles have now launched with our Fall Winter 2023 collection.  "
+          }
+        }
+      },
+      "block_order": [
+        "media_i7BcdP",
+        "text_GBz9ME"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
-    "custom_multiple_media_4LrJw8"
+    "custom_multiple_media_4LrJw8",
+    "custom_multiple_media_3kk8pd"
   ]
 }
