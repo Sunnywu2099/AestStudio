@@ -81,7 +81,7 @@
       "settings": {
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
-        "text_alignment": "right",
+        "text_alignment": "left",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -116,7 +116,7 @@
       "settings": {
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
-        "text_alignment": "left",
+        "text_alignment": "right",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
