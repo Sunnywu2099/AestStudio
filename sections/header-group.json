@@ -124,7 +124,9 @@
         "mega_menu_sec_nav_4tfnJH",
         "mega_menu_sec_nav_GpfWN9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".header {background-color:rgba(227, 229, 223, 0.3) ;}"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
