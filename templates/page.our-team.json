@@ -340,9 +340,9 @@
       ],
       "settings": {
         "type": "margin",
-        "top": 120,
+        "top": 0,
         "bottom": 120,
-        "top_m": 60,
+        "top_m": 0,
         "bottom_m": 60
       }
     },
