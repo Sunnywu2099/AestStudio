@@ -67,7 +67,7 @@
           "type": "item",
           "settings": {
             "text": "Technology & Process",
-            "link": ""
+            "link": "shopify://pages/technology-process"
           }
         }
       },
