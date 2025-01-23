@@ -6,6 +6,16 @@
     height: 100%;
     object-fit: cover;
   }
+  #shopify-section-{{section.id}}.custom-multiple-media .section-title{
+    color: #25282A;
+    font-family: Courier;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px; /* 140% */
+    letter-spacing: 1.1px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
   #shopify-section-{{section.id}}.custom-multiple-media .media-wrapper{
     position: relative;
   }
@@ -141,6 +151,12 @@
       line-height: 24px;
       margin-bottom: 12px;
     }
+    #shopify-section-{{section.id}}.custom-multiple-media .section-title{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1.1px;
+      margin-bottom: 30px;
+    }
   }
 
   @media screen and (max-width: 699px) {
@@ -178,6 +194,9 @@
 %}
 
 <div class="{% unless is_full %}container container--xl{% endunless %} {{custom_class}} {{text_alignment}}">
+  {% if section.settings.page_desc != blank %}
+    <h2 class="section-title">{{ section.settings.page_desc }}</h2>
+  {% endif %}
   <div class="custom-wrapper">
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
@@ -252,6 +271,11 @@
       "groups": ["footer", "header"]
     },
     "settings": [
+      {
+        "type": "text",
+        "id": "page_desc",
+        "label": "Page description"
+      },
       {
         "type": "checkbox",
         "id": "is_full",
