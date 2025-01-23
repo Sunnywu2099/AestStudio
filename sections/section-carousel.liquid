@@ -129,61 +129,63 @@
 
 <div class="container">
     <div class="container_inner">
-        <div class="items">
-            {% for block in section.blocks %} 
-                {% liquid 
-                  assign bs = block.settings
-                  assign color = bs.color
-                  assign type = bs.type
-                  assign title = bs.title
-                  assign text = bs.text
-                  assign pc_image = bs.img
-                  assign mobile_image = bs.img_m
-                  assign alt = bs.img.alt
-                  assign pc_video = bs.video
-                  assign mobile_video = bs.video_m
-                %}
-                <div class="item {% if forloop.index > 6 %} hidden {% endif %}" style="--color:{{color}};">
-                  <div class="media">
-                    {% if type == 'img' %}
-                      {% if pc_image != blank %}
-                        <picture>
-                          {% if mobile_image != blank %}
-                          <source
-                            srcset="{{ mobile_image | img_url: '750x' }}"
-                            media="(max-width: 375px)"
-                          >
-                          <source
-                            srcset="{{ mobile_image | img_url: '1000x' }}"
-                            media="(max-width: 767px)"
-                          >
-                          {% endif %}
-                          <source
-                            srcset="{{ pc_image | img_url: '2160x' }}"
-                            media="(max-width: 1080px)"
-                          >
-                          <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
-                        </picture>
-                      {% endif %}
-                    {% else %}
-                      {% if pc_video != blank %}
-                        {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
-                      {% endif %}
-                      {% if mobile_video != blank %}
-                        {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
-                      {% endif %}
-                    {% endif %}
-                  </div>
-                  <div class="info">
-                    {% if title != blank %}
-                      <h3 class="item_title">{{ title }}</h3>
-                    {% endif %}
-                    {% if text != blank %}
-                      <h3 class="item_text">{{ text }}</h3>
-                    {% endif %}
-                  </div>
-                </div>
-            {% endfor %}
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %} 
+                    {% liquid 
+                    assign bs = block.settings
+                    assign color = bs.color
+                    assign type = bs.type
+                    assign title = bs.title
+                    assign text = bs.text
+                    assign pc_image = bs.img
+                    assign mobile_image = bs.img_m
+                    assign alt = bs.img.alt
+                    assign pc_video = bs.video
+                    assign mobile_video = bs.video_m
+                    %}
+                    <div class="swiper-slide item {% if forloop.index > 6 %} hidden {% endif %}" style="--color:{{color}};">
+                    <div class="media">
+                        {% if type == 'img' %}
+                        {% if pc_image != blank %}
+                            <picture>
+                            {% if mobile_image != blank %}
+                            <source
+                                srcset="{{ mobile_image | img_url: '750x' }}"
+                                media="(max-width: 375px)"
+                            >
+                            <source
+                                srcset="{{ mobile_image | img_url: '1000x' }}"
+                                media="(max-width: 767px)"
+                            >
+                            {% endif %}
+                            <source
+                                srcset="{{ pc_image | img_url: '2160x' }}"
+                                media="(max-width: 1080px)"
+                            >
+                            <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                            </picture>
+                        {% endif %}
+                        {% else %}
+                        {% if pc_video != blank %}
+                            {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+                        {% endif %}
+                        {% if mobile_video != blank %}
+                            {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                    <div class="info">
+                        {% if title != blank %}
+                        <h3 class="item_title">{{ title }}</h3>
+                        {% endif %}
+                        {% if text != blank %}
+                        <h3 class="item_text">{{ text }}</h3>
+                        {% endif %}
+                    </div>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
