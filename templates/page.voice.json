@@ -11,10 +11,46 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "custom_multiple_media_f3L3zh": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_iADrd9": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_ae544450-f277-48a9-bfc5-7b0c98be67ec.png",
+            "use_video": true,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "text_xUTN7H": {
+          "type": "text",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "media_iADrd9",
+        "text_xUTN7H"
+      ],
+      "settings": {
+        "is_full": true,
+        "text_alignment": "right"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_multiple_media_f3L3zh"
   ]
 }
