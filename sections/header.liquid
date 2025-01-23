@@ -259,14 +259,7 @@
 
 
                       {%- if mega_menu_block.type == 'mega_menu' -%}
-                        <script>
-                          var collectionData = {{ mega_menu_block.type | json }};
-                          console.log(collectionData);
-                      
-                    
-                    
-                        </script>
-                    
+                
                         
                      
                     
@@ -276,13 +269,7 @@
 
 
                           {%- elsif mega_menu_block.type == 'mega_menu_sec_nav' -%}
-                            <script>
-                              var collectionData = {{ mega_menu_block.type | json }};
-                              console.log(collectionData);
                           
-                        
-                        
-                            </script>
                         
                             
                             {%- render 'mega-menu-sec', link: link, block: mega_menu_block -%}
