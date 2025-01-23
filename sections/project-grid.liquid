@@ -5,6 +5,10 @@
 }
 .grid-wrapper .splide__arrow{
   position: static;
+  transform: translateY(0);
+  background: none;
+  width: auto;
+  height: auto;
 }
 .grid-wrapper .splide__pagination{
   position: static;
@@ -136,11 +140,11 @@
 
     <div class="splide__arrows">
       <button class="splide__arrow splide__arrow--prev">
-        Prev
+        {% render 'block-prev' %}
       </button>
       <ul class="splide__pagination"></ul>
       <button class="splide__arrow splide__arrow--next">
-        Next
+        {% render 'block-prev' %}
       </button>
     </div>
 
