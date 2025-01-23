@@ -68,6 +68,9 @@
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'swiper-bundle.min.css' | asset_url | stylesheet_tag: preload: true -}}
+    {% if template.name == 'product' %}
+      {{- 'product-page.css' | asset_url | stylesheet_tag: preload: true -}}
+    {% endif %}
   </head>
 
   {% liquid
@@ -99,6 +102,10 @@
       {%- sections 'header-group' -%}
       {%- sections 'overlay-group' -%}
     {%- endif -%}
+
+    {%- unless request.page_type == 'index' or request.page_type =='404' or request.page_type == 'password' or request.page_type contains 'customers' -%}
+      {%  render 'breadcrumbs' %}
+    {%- endunless -%}
 
     <main id="main" class="anchor">
       {{ content_for_layout }}
