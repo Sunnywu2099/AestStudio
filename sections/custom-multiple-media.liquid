@@ -54,8 +54,8 @@
   assign is_full = section.settings.is_full
 %}
 
-<div class="{% unless is_full %}container container--xl{% endunless %}">
-  <div class="custom-wrapper {{custom_class}}">
+<div class="{% unless is_full %}container container--xl{% endunless %} {{custom_class}}">
+  <div class="custom-wrapper">
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
