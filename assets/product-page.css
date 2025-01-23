@@ -27,7 +27,7 @@ legend{
   --swatch-size: 20px;
 }
 .block-swatch{
-  padding: 0;
+  padding: 0 5px;
   min-width: 1.5rem;
 }
 .product-info__block-item:is([data-block-type=vendor]){
