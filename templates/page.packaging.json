@@ -1,0 +1,280 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "custom_multiple_media_f3L3zh": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_iADrd9": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_9_13dc1eeb-a1a8-4c6d-ad53-fa83e743f55c.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "text_xUTN7H": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_iADrd9",
+        "text_xUTN7H"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_WwJETL": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_QpwhyF": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_931c9d75-1ff2-4505-9d84-67f2cdc400bb.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "media_qCcW3k": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Group_1000006615.jpg",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "media_QpwhyF",
+        "media_qCcW3k"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "left",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_97x7Nd": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_zRKBME": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_931c9d75-1ff2-4505-9d84-67f2cdc400bb.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "text_ygNG78": {
+          "type": "text",
+          "settings": {
+            "title": "Aest Studio",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_zRKBME",
+        "text_ygNG78"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_d73wc6": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_gygVEq": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_931c9d75-1ff2-4505-9d84-67f2cdc400bb.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "text_Gwtf3K": {
+          "type": "text",
+          "settings": {
+            "title": "Aest Studio",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_gygVEq",
+        "text_Gwtf3K"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_xtPEnk": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_wdz8Ni": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_3_86cad199-8aef-413f-a847-f537b2c57488.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        },
+        "media_khfWba": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Layer_0_4_b795e328-2d94-4c9d-b309-1571fb87ba9d.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "media_wdz8Ni",
+        "media_khfWba"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "left",
+        "pt": 0,
+        "pb": 0,
+        "pt_m": 0,
+        "pb_m": 0
+      }
+    },
+    "section_product_popup_Ahikrm": {
+      "type": "section-product-popup",
+      "blocks": {
+        "product_3UQEqY": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_RHrNwM": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_qaeKpJ": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_PAmcbD": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        },
+        "product_8abwxb": {
+          "type": "product",
+          "settings": {
+            "product": "accessories-product",
+            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
+            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
+            "text": "Shop This Look",
+            "show_media": true
+          }
+        }
+      },
+      "block_order": [
+        "product_3UQEqY",
+        "product_RHrNwM",
+        "product_qaeKpJ",
+        "product_PAmcbD",
+        "product_8abwxb"
+      ],
+      "settings": {
+        "unable_padding": false,
+        "title": "You May Also Like",
+        "continue_shopping": true,
+        "url": "shopify://collections/frontpage"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_multiple_media_f3L3zh",
+    "custom_multiple_media_WwJETL",
+    "custom_multiple_media_97x7Nd",
+    "custom_multiple_media_d73wc6",
+    "custom_multiple_media_xtPEnk",
+    "section_product_popup_Ahikrm"
+  ]
+}
