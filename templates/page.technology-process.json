@@ -114,10 +114,18 @@
             "autoplay": true,
             "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
           }
+        },
+        "text_fcdTCE": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "At Aest Studio, our pursuit of excellence begins with the finest materials and cutting-edge techniques. Each product is crafted with precision, combining advanced machinery and artisanal skill. From the initial design to the final stitch, every detail matters."
+          }
         }
       },
       "block_order": [
-        "media_AKmanP"
+        "media_AKmanP",
+        "text_fcdTCE"
       ],
       "settings": {
         "is_full": true,
