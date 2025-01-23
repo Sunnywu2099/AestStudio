@@ -1,0 +1,198 @@
+<style>
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+  }
+  .custom-multiple-media{
+    
+  }
+  @media screen and (max-width: 999px) {
+    #shopify-section-{{section.id}} {
+      padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+    }
+
+  }
+  @media screen and (max-width: 699px) {
+
+  }
+</style>
+
+<div class="{% if section.settings.is_full %}container container--xl{% endif %}">
+  <div class="custom-wrapper">
+    {% for block in section.blocks %}
+      {% assign bs = block.settings %}
+      {% if block.type == 'media' %}
+        <div class="media-wrapper">
+          {% if bs.use_video %}
+            {% if bs.autoplay %}
+              {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+              {% if bs.mobile_video != blank %}
+                {{ bs.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+              {% endif %}
+            {% else %}
+              {{ bs.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+              {% if bs.mobile_video != blank %}
+                {{ bs.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+              {% endif %}
+              <div class="play-btn">
+                {% render 'play-video' %} 
+              </div>
+            {% endif %}
+          {% else %}
+            {% if bs.img != blank %}
+              <picture>
+                {%- if bs.img_m != blank -%}
+                  <source
+                    media="(max-width: 699px)"
+                    srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                    width="{{ bs.img_m.width }}"
+                    height="{{ bs.img_m.height }}">
+                {%- endif -%}
+                {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              </picture>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% for block in section.blocks %}  
+      {% if block.type == 'text' %}
+        <div class="content-wrapper">
+          {% for block in section.blocks %}
+            {% assign bs = block.settings %}
+            <div class="text-item">
+              {% if bs.title != blank %}
+                <h2 class="title">{{ bs.title }}</h2>
+              {% endif %}
+              {% if bs.text != blank %}
+                <p class="text">{{ bs.text }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    $('.custom-multiple-media .play-btn').click(function () {
+      $(this).hide();
+      $(this).parent().find('video')[0].play();
+      $(this).parent().find('video')[1].play();
+    })
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "custom multiple media",
+    "class": "custom-multiple-media",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "is_full",
+        "label": "Full width",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "media",
+        "name": "media",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image PC"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          },
+          {
+            "type": "checkbox",
+            "id": "use_video",
+            "label": "Use video",
+            "default": true,
+            "info": "Image will be the post image if video is used"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "default": true
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video PC"
+          },
+          {
+            "type": "video",
+            "id": "mobile_video",
+            "label": "Video Mobile"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom multiple media"
+      }
+    ]
+  }
+{% endschema %}
