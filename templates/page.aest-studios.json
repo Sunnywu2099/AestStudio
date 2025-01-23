@@ -44,6 +44,7 @@
         },
         "item_JGGPbA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Look Book",
             "link": "shopify://pages/look-book"
@@ -51,6 +52,7 @@
         },
         "item_RMifqG": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Design Book",
             "link": "shopify://pages/design-book"
@@ -100,6 +102,40 @@
         "bottom": 120,
         "top_m": 60,
         "bottom_m": 60
+      }
+    },
+    "custom_multiple_media_7qYjAW": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_dmKhwi": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_5.png",
+            "img_m": "shopify://shop_images/Clip_path_group_5.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "text_6i3PVh": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_dmKhwi",
+        "text_6i3PVh"
+      ],
+      "settings": {
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
       }
     },
     "section_carousel_xF9fyM": {
@@ -168,6 +204,7 @@
         "item_LNqwdm",
         "item_8mfAFE"
       ],
+      "disabled": true,
       "settings": {
         "type": "margin",
         "top": 120,
@@ -290,6 +327,7 @@
     "main",
     "section_nav_mGDaCc",
     "section_logo_z6VJck",
+    "custom_multiple_media_7qYjAW",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
