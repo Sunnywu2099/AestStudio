@@ -142,7 +142,8 @@
         "media_iq8KkL": {
           "type": "media",
           "settings": {
-            "use_video": true,
+            "img": "shopify://shop_images/Clip_path_group_12.png",
+            "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
           }
