@@ -110,8 +110,8 @@
         "media_dmKhwi": {
           "type": "media",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_5.png",
-            "img_m": "shopify://shop_images/Clip_path_group_5.png",
+            "img": "shopify://shop_images/Mask_group.png",
+            "img_m": "shopify://shop_images/Mask_group.png",
             "use_video": false,
             "autoplay": true
           }
@@ -120,7 +120,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+            "text": "Our founder, Vanessa, is an architect with deep reverence for detail.  In her journey as an architect, she recognized how many design conventions overlook invisible needs—those subtle, often unarticulated requirements.\nFrom the height of furniture, the spacing of chairs and staircases, to the design of public spaces, like the restroom ratios, the absence of nurturing spaces, and even the standard room temperature, these standards frequently fail to consider diverse perspectives, leaving essential needs unaddressed."
           }
         }
       },
