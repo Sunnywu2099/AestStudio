@@ -1,0 +1,150 @@
+{% assign sid = section.id %}
+<style>
+    #shopify-section-{{sid}}{
+        {%if section.settings.type == 'padding' %}
+            padding-top:{{section.settings.top}};
+            padding-bottom:{{section.settings.bottom}};
+            {%  else %} 
+            margin-top:{{section.settings.top}};
+            margin-bottom:{{section.settings.bottom}};
+            {%  endif %} 
+    } 
+    #shopify-section-{{sid}} .container {
+        display: flex;
+        gap: 24px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    #shopify-section-{{sid}} a{
+        flex-shrink: 0;
+        color: #25282A;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.6px;
+    }
+    @media (max-width:767px){
+        #shopify-section-{{sid}}{
+            {%if section.settings.type == 'padding' %}
+                padding-top:{{section.settings.top_m}};
+                padding-bottom:{{section.settings.bottom_m}};
+            {%  else %} 
+                margin-top:{{section.settings.toptop_m}};
+                margin-bottom:{{section.settings.bottom_m}};
+            {%  endif %} 
+        }   
+    }
+</style>
+
+<div class="container">
+    {%liquid
+        assign bs = section.settings    
+        assign pc_image = bs.img
+        assign mobile_image = bs.img_m
+    %}
+    {% if pc_image != blank %}  
+        <picture>
+            {% if mobile_image != blank %}
+            <source
+                srcset="{{ mobile_image | img_url: 'master' }}"
+                media="(max-width: 767px)"
+            >
+            {% endif %}
+            <img src="{{ pc_image | img_url: 'master' }}" alt="{{ pc_image.alt }}" loading="lazy" width="auto" height="100%">
+        </picture>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Section navigation",
+    "class": "custom-section-logo",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image (desktop)"
+        },
+        {
+          "type": "text",
+          "id": "width",
+          "label": "logo_width",
+          "default":"280px"
+        },
+        {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image (mobile)"
+        },
+        {
+          "type": "text",
+          "id": "width_m",
+          "label": "logo_width_m",
+          "default":"280px"
+        },
+        {
+            "type": "select",
+            "id": "type",
+            "default":"margin",
+            "label": "Padding or Margin",
+            "options": [
+                {
+                    "label": "Padding",
+                    "value": "padding"
+                },
+                {
+                    "label": "Margin",
+                    "value": "margin"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Desktop"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom",
+          "label": "Bottom",
+          "max": 200,
+          "min": 0,
+          "step": 2,
+          "default":0
+        },
+        {
+            "type": "header",
+            "content": "mobile"
+        },
+        {
+          "type": "range",
+          "id": "top_m",
+          "label": "Top",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "default":0
+        },
+        {
+          "type": "range",
+          "id": "bottom_m",
+          "label": "Bottom",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "default":0
+        }
+    ],
+    "presets": [
+        {"name": "Section navigation"}
+    ]
+}
+{% endschema %}
