@@ -11,10 +11,78 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_mGDaCc": {
+      "type": "section-nav",
+      "blocks": {
+        "item_zNfPHD": {
+          "type": "item",
+          "settings": {
+            "text": "Aest Studios",
+            "link": "shopify://pages/aest-studios"
+          }
+        },
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Our Team",
+            "link": "shopify://pages/our-team"
+          }
+        },
+        "item_bVciHi": {
+          "type": "item",
+          "settings": {
+            "text": "Series Of Stories",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "item_JGGPbA": {
+          "type": "item",
+          "settings": {
+            "text": "Look Book",
+            "link": "shopify://pages/look-book"
+          }
+        },
+        "item_RMifqG": {
+          "type": "item",
+          "settings": {
+            "text": "Design Book",
+            "link": "shopify://pages/design-book"
+          }
+        },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Behind The Scenes",
+            "link": "shopify://pages/behind-the-scenes"
+          }
+        }
+      },
+      "block_order": [
+        "item_zNfPHD",
+        "item_zzXym9",
+        "item_bVciHi",
+        "item_JGGPbA",
+        "item_RMifqG",
+        "item_3RFn9L"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_nav_mGDaCc"
   ]
 }
