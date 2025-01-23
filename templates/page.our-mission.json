@@ -83,11 +83,45 @@
         "pt_m": 0,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_KN7VFU": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_LKq3N6": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/image_1_bc327704-4a9b-4597-80c8-cacb71743dc3.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_erXPW8": {
+          "type": "text",
+          "settings": {
+            "title": "Traceable supply chains",
+            "text": "•Target: 100% traceable supply chains down to raw materials by FY26/27 <br>\n•Progress: Achieved 100% tier 1 and 76% tier 2 supplier traceability in FY 22/23 <br>\n•We believe traceability is necessary for change. We want to know who is making our products all the way back to where our raw materials are grown so that we can understand our impact and work to improve it. We have full traceability of our product suppliers and their subcontractors in tier 1 since 2008.  <br>\n•We are collaborating closely with our material suppliers to trace all their tier 2 locations of every step involved in the production and finishing of our materials. We have already achieved over 70% traceability in tier 2 and have 73% of country of origin traceability verification for raw materials from tier 4. Now, we are working hard to close the gaps towards the goal of having a fully traceable supply chain by FY 26/27. Our product suppliers are listed in Open Supply Hub as part of an overview of factories that Fair Wear member brands source from. "
+          }
+        }
+      },
+      "block_order": [
+        "media_LKq3N6",
+        "text_erXPW8"
+      ],
+      "settings": {
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
     "custom_multiple_media_4LrJw8",
-    "custom_multiple_media_3kk8pd"
+    "custom_multiple_media_3kk8pd",
+    "custom_multiple_media_KN7VFU"
   ]
 }
