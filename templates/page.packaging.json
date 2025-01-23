@@ -97,7 +97,7 @@
         "media_zRKBME": {
           "type": "media",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_6_02ac67b3-a231-4930-8838-3fe649e27b97.png",
+            "img": "shopify://shop_images/Rectangle_931c9d75-1ff2-4505-9d84-67f2cdc400bb.png",
             "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -119,7 +119,7 @@
       "settings": {
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
-        "text_alignment": "left",
+        "text_alignment": "right",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
