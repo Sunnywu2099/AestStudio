@@ -87,7 +87,8 @@
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "CAMERA BAG",
         "btn": "Shop Now",
-        "link": ""
+        "link": "",
+        "opacity": 40
       }
     },
     "index_banner_one_half_MLnXVr": {
@@ -170,7 +171,8 @@
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "CAMERA BAG",
         "btn": "Shop Now",
-        "link": ""
+        "link": "",
+        "opacity": 20
       }
     },
     "index_club_ri3Mta": {
