@@ -74,6 +74,11 @@
     padding: 0;
   }
   /* section type-3 */
+  /* section type-4 */
+  #shopify-section-{{section.id}} .type-4{
+    
+  }
+  /* section type-4 */
   @media screen and (max-width: 999px) {
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
@@ -119,7 +124,9 @@
     assign custom_class = 'type-2'
   elsif section_type == 'one-media-top-two-content-bottom'
     assign custom_class = 'type-3'
-  endif section_type == 'one-media-top-one-content-top'
+  elsif section_type == 'two-media'
+    assign custom_class = 'type-4'
+  endif section_type == ''
 
   assign is_full = section.settings.is_full
   assign text_alignment = section.settings.text_alignment
@@ -222,6 +229,10 @@
           {
             "value": "one-media-top-two-content-bottom",
             "label": "One media top,two content bottom"
+          },
+          {
+            "value": "two-media",
+            "label": "Two media"
           }
         ],
         "default": "one-media-top-one-content-bottom"
