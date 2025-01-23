@@ -75,12 +75,6 @@
         pointer-events: none
     }
     @media (min-width:768px){
-      #shopify-section-{{ sid }} .container{
-          margin: 0;
-      }   
-      #shopify-section-{{ sid }} .swiper{
-        padding: 0 max(var(--container-gutter), 50% - var(--container-max-width) / 2);
-      }
       #shopify-section-{{ sid }} .item{
         width: calc(25% - 8px);
       }
@@ -88,6 +82,12 @@
     }
     @media (max-width:767px){
         #shopify-section-{{ sid }} .media video.desktop{display:none;}
+        #shopify-section-{{ sid }} .container{
+            margin: 0;
+        }   
+        #shopify-section-{{ sid }} .swiper{
+            padding: 0 max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+        }
         #shopify-section-{{sid}}{
             {%if section.settings.type == 'padding' %}
                 padding-top:{{section.settings.top_m |  append: 'px'}};
