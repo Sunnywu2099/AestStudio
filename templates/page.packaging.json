@@ -18,6 +18,49 @@
         "page_width": "xs"
       }
     },
+    "section_nav_yP8wc7": {
+      "type": "section-nav",
+      "blocks": {
+        "item_h4kVFj": {
+          "type": "item",
+          "settings": {
+            "text": "Packaging",
+            "link": ""
+          }
+        },
+        "item_fgPCAd": {
+          "type": "item",
+          "settings": {
+            "text": "Environment",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_h4kVFj",
+        "item_fgPCAd"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "section_logo_7BaNbk": {
+      "type": "section-logo",
+      "settings": {
+        "img": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
+        "width": "280px",
+        "width_m": "140px",
+        "type": "margin",
+        "top": 120,
+        "bottom": 0,
+        "top_m": 60,
+        "bottom_m": 0
+      }
+    },
     "custom_multiple_media_f3L3zh": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -44,6 +87,7 @@
         "text_xUTN7H"
       ],
       "settings": {
+        "page_desc": "Packaging",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -82,6 +126,7 @@
         "media_qCcW3k"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "two-media",
         "text_alignment": "left",
@@ -117,6 +162,7 @@
         "text_ygNG78"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
@@ -152,6 +198,7 @@
         "text_Gwtf3K"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
@@ -190,6 +237,7 @@
         "media_khfWba"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "two-media",
         "text_alignment": "left",
@@ -270,6 +318,8 @@
   },
   "order": [
     "main",
+    "section_nav_yP8wc7",
+    "section_logo_7BaNbk",
     "custom_multiple_media_f3L3zh",
     "custom_multiple_media_WwJETL",
     "custom_multiple_media_97x7Nd",

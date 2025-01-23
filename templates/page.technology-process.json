@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_mGDaCc": {
+      "type": "section-nav",
+      "blocks": {
+        "item_zNfPHD": {
+          "type": "item",
+          "settings": {
+            "text": "Aest Studios",
+            "link": "shopify://pages/aest-studios"
+          }
+        },
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Our Team",
+            "link": "shopify://pages/our-team"
+          }
+        },
+        "item_bVciHi": {
+          "type": "item",
+          "settings": {
+            "text": "Series Of Stories",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "item_JGGPbA": {
+          "type": "item",
+          "settings": {
+            "text": "Look Book",
+            "link": "shopify://pages/look-book"
+          }
+        },
+        "item_RMifqG": {
+          "type": "item",
+          "settings": {
+            "text": "Design Book",
+            "link": "shopify://pages/design-book"
+          }
+        },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Behind The Scenes",
+            "link": "shopify://pages/behind-the-scenes"
+          }
+        },
+        "item_FzANbX": {
+          "type": "item",
+          "settings": {
+            "text": "Technology & Process",
+            "link": "shopify://pages/technology-process"
+          }
+        }
+      },
+      "block_order": [
+        "item_zNfPHD",
+        "item_zzXym9",
+        "item_bVciHi",
+        "item_JGGPbA",
+        "item_RMifqG",
+        "item_3RFn9L",
+        "item_FzANbX"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "section_logo_z6VJck": {
+      "type": "section-logo",
+      "settings": {
+        "img": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
+        "width": "280px",
+        "img_m": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
+        "width_m": "280px",
+        "type": "margin",
+        "top": 120,
+        "bottom": 120,
+        "top_m": 60,
+        "bottom_m": 60
+      }
+    },
+    "section_carousel_xF9fyM": {
+      "type": "section-carousel",
+      "blocks": {
+        "item_6QrV6A": {
+          "type": "item",
+          "settings": {
+            "color": "#25282a",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_3gzQ4B": {
+          "type": "item",
+          "settings": {
+            "color": "#25282a",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_dXKYmq": {
+          "type": "item",
+          "settings": {
+            "color": "#25282a",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_LNqwdm": {
+          "type": "item",
+          "settings": {
+            "color": "#25282a",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        },
+        "item_8mfAFE": {
+          "type": "item",
+          "settings": {
+            "color": "#25282a",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "title": "Vanessa",
+            "text": "Aest Studios Founder / Architecture designer"
+          }
+        }
+      },
+      "block_order": [
+        "item_6QrV6A",
+        "item_3gzQ4B",
+        "item_dXKYmq",
+        "item_LNqwdm",
+        "item_8mfAFE"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 120,
+        "bottom": 120,
+        "top_m": 60,
+        "bottom_m": 60
+      }
+    },
+    "section_column_media_bnccFY": {
+      "type": "section-column-media",
+      "blocks": {
+        "item_FadmHz": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_X84Td9": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_mJPaF7": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_ry9xrx": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "video",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "video_m": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "title": "SPRING SUMMER 2015",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_qxFdfj": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2025",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_ejAgnC": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2025",
+            "btn": "",
+            "link": ""
+          }
+        },
+        "item_AaVnYi": {
+          "type": "item",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2025",
+            "btn": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FadmHz",
+        "item_X84Td9",
+        "item_mJPaF7",
+        "item_ry9xrx",
+        "item_qxFdfj",
+        "item_ejAgnC",
+        "item_AaVnYi"
+      ],
+      "disabled": true,
+      "settings": {
+        "text": "SEE MORE",
+        "type": "margin",
+        "top": 120,
+        "bottom": 120,
+        "top_m": 80,
+        "bottom_m": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_nav_mGDaCc",
+    "section_logo_z6VJck",
+    "section_carousel_xF9fyM",
+    "section_column_media_bnccFY"
+  ]
+}
