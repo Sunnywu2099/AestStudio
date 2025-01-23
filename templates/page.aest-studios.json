@@ -96,8 +96,8 @@
         "img_m": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
         "width_m": "280px",
         "type": "margin",
-        "top": 0,
-        "bottom": 0,
+        "top": 120,
+        "bottom": 120,
         "top_m": 0,
         "bottom_m": 0
       }
