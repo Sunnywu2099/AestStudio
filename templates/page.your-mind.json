@@ -24,8 +24,8 @@
         "media_iADrd9": {
           "type": "media",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_ae544450-f277-48a9-bfc5-7b0c98be67ec.png",
-            "use_video": true,
+            "img": "shopify://shop_images/Layer_0_5_1d4dcf58-d686-4e1c-8950-058b3d09b420.png",
+            "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4"
@@ -44,7 +44,7 @@
         "text_xUTN7H"
       ],
       "settings": {
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "pt": 120,
