@@ -174,7 +174,7 @@
   }
 </style>
 
-<div class="section-product-popup section-spacing">
+<div class="section-product-popup {% unless section.settings.unable_padding %} section-spacing {% endunless %}">
   <div class="container">
       <div class="setion-title-block">
         <h3>{{section.settings.title}}</h3>
@@ -636,6 +636,11 @@
     "name": "Section product popup",
     "tag": "section",
     "settings": [
+      {
+            "type": "checkbox",
+            "id": "unable_padding",
+            "label": "隐藏上下边距"
+        },
         {
             "type": "text",
             "id": "title",

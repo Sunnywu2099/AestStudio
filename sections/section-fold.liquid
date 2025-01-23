@@ -65,7 +65,7 @@
     } 
 </style>
 
-<div class="section-fold section-spacing">
+<div class="section-fold {% unless section.settings.unable_padding %} section-spacing {% endunless %}">
     <div class="container">
         <div class="container_inner">
             {% for block in section.blocks %}  
@@ -111,6 +111,13 @@
 {% schema  %} 
 {
     "name":"Section fold",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "unable_padding",
+            "label": "隐藏上下边距"
+        }
+    ],
     "blocks": [
         {
             "type": "item",
