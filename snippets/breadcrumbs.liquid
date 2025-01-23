@@ -29,22 +29,22 @@
               </li>
             {%- endif -%}
           {% endif %}
-          {% comment %}
-            {% if current_tags %}
-              {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-              <li class="breadcrumb-item">
-                {{ collection.title | link_to: url }}
-              </li>
+          
+          {% if current_tags %}
+            {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+            <li class="breadcrumb-item">
+              {{ collection.title | link_to: url }}
+            </li>
 
-              <li class="breadcrumb-item">
-                <span>{{ current_tags | join: ' + ' | replace: 'tags_', '#' }}</span>
-              </li>
-            {% else %}
-              <li class="breadcrumb-item">
-                <span>{{ collection.title }}</span>
-              </li>
-            {% endif %}
-          {% endcomment %}
+            <li class="breadcrumb-item">
+              <span>{{ current_tags | join: ' + ' | replace: 'tags_', '#' }}</span>
+            </li>
+          {% else %}
+            <li class="breadcrumb-item">
+              <span>{{ collection.title }}</span>
+            </li>
+          {% endif %}
+          
 
         {% elsif template == 'blog' %}
           {% if current_tags %}
