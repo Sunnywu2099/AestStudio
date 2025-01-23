@@ -54,6 +54,18 @@
         letter-spacing: 0.6px;
         margin-top: 4px;
     }   
+    #shopify-section-{{ sid }} .pn_btn{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    #shopify-section-{{ sid }} .prev_button{
+        left: 36px;
+    }
+    #shopify-section-{{ sid }} .next_button{
+        right: 36px;
+    }
     @media (min-width:768px){
       #shopify-section-{{ sid }} .item{
         width: calc(25% - 8px);
@@ -137,8 +149,8 @@
                     </div>
                 {% endfor %}
             </div>
-            <div class="prev_button">{{arrow_left}}</div>
-            <div class="next_button">{{arrow_right}}</div>
+            <div class="pn_btn prev_button">{{arrow_left}}</div>
+            <div class="pn_btn next_button">{{arrow_right}}</div>
         </div>
     </div>
 </div>
