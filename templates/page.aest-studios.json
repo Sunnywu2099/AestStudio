@@ -98,8 +98,8 @@
         "type": "margin",
         "top": 120,
         "bottom": 120,
-        "top_m": 0,
-        "bottom_m": 0
+        "top_m": 60,
+        "bottom_m": 60
       }
     }
   },
