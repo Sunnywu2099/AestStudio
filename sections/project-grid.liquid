@@ -207,6 +207,31 @@
       }
     });
     gridSplide.mount(window.splide.Extensions);
+
+    // 监听分页器和箭头按钮的点击事件
+    gridSplide.on('arrows:mounted pagination:mounted', function() {
+      // 获取所有控制元素
+      const controls = [
+        ...document.querySelectorAll('.splide__arrow'),
+        ...document.querySelectorAll('.splide__pagination__page')
+      ];
+
+      // 为每个控制元素添加点击事件
+      controls.forEach(control => {
+        control.addEventListener('click', () => {
+          // 短暂延迟后重新启动自动滚动
+          setTimeout(() => {
+            gridSplide.Components.AutoScroll.play();
+          }, 100);
+        });
+      });
+    });
+
+    // 监听移动完成事件
+    gridSplide.on('moved', () => {
+      // 确保自动滚动继续进行
+      gridSplide.Components.AutoScroll.play();
+    });
   });
 </script>
 
