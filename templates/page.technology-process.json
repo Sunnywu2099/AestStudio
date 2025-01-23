@@ -161,8 +161,8 @@
         "text_imDAQH"
       ],
       "settings": {
-        "page_desc": "Technology & Process",
-        "is_full": true,
+        "page_desc": "",
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "pt": 0,
