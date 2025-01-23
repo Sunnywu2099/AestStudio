@@ -40,11 +40,19 @@
     }
     #shopify-section-{{ sid }} .item .info .item_title{
       color: inherit;
-      font-size: 22px;
-      font-weight: 600;
       line-height: 1.4; /* 140% */
-      letter-spacing: 1.1px;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
     }
+    #shopify-section-{{ sid }} .item .info .item_text{
+        color: inherit;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.6px;
+        margin-top: 4px;
+    }   
     @media (min-width:768px){
       #shopify-section-{{ sid }} .item{
         width: calc(25% - 8px);
