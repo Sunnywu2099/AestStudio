@@ -95,6 +95,9 @@
                 </div>
             {% endfor %}
         </div>
+        {% if section.blocks.size > 6 %}
+            <div class="see_more">{{section.settings.text}}</div>
+        {% endif %}
     </div>
 </div>
 
