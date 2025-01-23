@@ -72,9 +72,10 @@
     @media (min-width:768px){
       #shopify-section-{{ sid }} .items{
         display: flex;
+        gap: 20px;
       }
       #shopify-section-{{ sid }} .item{
-        width: 50%;
+        width: calc(50% - 10px);
       }
       #shopify-section-{{ sid }} .media video.mobile{display:none;}
     }
