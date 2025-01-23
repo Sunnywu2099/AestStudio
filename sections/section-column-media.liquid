@@ -4,10 +4,10 @@
         {%if section.settings.type == 'padding' %}
             padding-top:{{section.settings.top |  append: 'px'}};
             padding-bottom:{{section.settings.bottom |  append: 'px'}};
-            {%  else %} 
+        {%  else %} 
             margin-top:{{section.settings.top |  append: 'px'}};
             margin-bottom:{{section.settings.bottom |  append: 'px'}};
-            {%  endif %} 
+        {%  endif %} 
     } 
     #shopify-section-{{sid}} .container {
         display: flex;
