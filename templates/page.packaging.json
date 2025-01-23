@@ -18,6 +18,36 @@
         "page_width": "xs"
       }
     },
+    "section_nav_yP8wc7": {
+      "type": "section-nav",
+      "blocks": {
+        "item_h4kVFj": {
+          "type": "item",
+          "settings": {
+            "text": "Packaging",
+            "link": ""
+          }
+        },
+        "item_fgPCAd": {
+          "type": "item",
+          "settings": {
+            "text": "Environment",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_h4kVFj",
+        "item_fgPCAd"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
     "custom_multiple_media_f3L3zh": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -270,6 +300,7 @@
   },
   "order": [
     "main",
+    "section_nav_yP8wc7",
     "custom_multiple_media_f3L3zh",
     "custom_multiple_media_WwJETL",
     "custom_multiple_media_97x7Nd",
