@@ -101,11 +101,40 @@
         "top_m": 60,
         "bottom_m": 60
       }
+    },
+    "section_column_media_bnccFY": {
+      "type": "section-column-media",
+      "blocks": {
+        "item_YqtLpQ": {
+          "type": "item",
+          "settings": {
+            "color": "#fff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1ba1145f-5175-4e06-b9b2-7546e19a9c2b.png",
+            "title": "SPRING SUMMER 2015",
+            "btn": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_YqtLpQ"
+      ],
+      "settings": {
+        "text": "SEE MORE",
+        "type": "margin",
+        "top": 120,
+        "bottom": 120,
+        "top_m": 80,
+        "bottom_m": 80
+      }
     }
   },
   "order": [
     "main",
     "section_nav_mGDaCc",
-    "section_logo_z6VJck"
+    "section_logo_z6VJck",
+    "section_column_media_bnccFY"
   ]
 }
