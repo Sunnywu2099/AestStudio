@@ -20,6 +20,11 @@
         max-width: 1680px;
         margin: 0 auto;
     }
+    #shopify-section-{{ sid }} .items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
     #shopify-section-{{ sid }} .item{
       position: relative;
     }
@@ -72,6 +77,7 @@
     @media (min-width:768px){
       #shopify-section-{{ sid }} .items{
         display: flex;
+        flex-wrap: wrap;
         gap: 20px;
       }
       #shopify-section-{{ sid }} .item{
