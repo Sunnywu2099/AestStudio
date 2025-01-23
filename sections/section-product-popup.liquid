@@ -133,9 +133,9 @@
     }
   }
   @media (max-width:767px){
-    #shopify-section-{{sid}} {
+    /* #shopify-section-{{sid}} {
       margin:60px 0;
-    }
+    } */
     #shopify-section-{{sid}} .section-product-popup_swiper{
       padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
     }
@@ -146,7 +146,7 @@
   }
 </style>
 
-<div class="section-product-popup section-spacing">
+<div class="section-product-popup {% unless section.settings.unable_padding %} section-spacing {% endunless %}">
   <div class="container">
       <div class="setion-title-block">
         <h3>{{section.settings.title}}</h3>
@@ -604,6 +604,11 @@
   {
     "name": "Section product popup",
     "settings": [
+      {
+            "type": "checkbox",
+            "id": "unable_padding",
+            "label": "隐藏上下边距"
+        },
         {
             "type": "text",
             "id": "title",
