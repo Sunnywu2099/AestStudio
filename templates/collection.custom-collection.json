@@ -9,16 +9,85 @@
  */
 {
   "sections": {
+    "as_collection_info_A6DU4x": {
+      "type": "as-collection-info",
+      "blocks": {
+        "tab_ggFMEX": {
+          "type": "tab",
+          "settings": {
+            "collection": "shiny-vegetable-leather"
+          }
+        },
+        "tab_z3iU3g": {
+          "type": "tab",
+          "settings": {
+            "collection": "shiny-vegetable-leather"
+          }
+        },
+        "tab_LNqXn7": {
+          "type": "tab",
+          "settings": {
+            "collection": "shiny-vegetable-leather"
+          }
+        }
+      },
+      "block_order": [
+        "tab_ggFMEX",
+        "tab_z3iU3g",
+        "tab_LNqXn7"
+      ],
+      "settings": {
+        "padding_top_web": 48,
+        "padding_top_table": 48,
+        "padding_top_mobile": 24,
+        "padding_bottom_web": 80,
+        "padding_bottom_table": 80,
+        "padding_bottom_mobile": 40,
+        "bg_color": ""
+      }
+    },
     "collection-banner": {
       "type": "collection-banner",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_image": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     },
     "main": {
       "type": "main-collection",
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
     }
   },
   "order": [
+    "as_collection_info_A6DU4x",
     "collection-banner",
     "main"
   ]
