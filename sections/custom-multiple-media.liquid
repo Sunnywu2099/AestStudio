@@ -222,6 +222,7 @@
     <h2 class="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
   <div class="custom-wrapper">
+    {% assign ss = section.settings %}
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
@@ -255,8 +256,8 @@
               </picture>
             {% endif %}
           {% endif %}
-          {% if bs.link_text != blank %}
-            <a class="media_link" {% if bs.link_url != blank %} href="{{ bs.link_url }}"{% endif %}>{{ bs.link_text }}</a>
+          {% if ss.link_text != blank %}
+            <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>{{ ss.link_text }}</a>
           {% endif %}
         </div>
       {% endif %}
