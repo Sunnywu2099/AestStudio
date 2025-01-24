@@ -17,8 +17,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "SUBSCRUBE TO OUR NEWSLETTER",
-            "content": "<p>By clicking on \"Subscribe\", you confirm that you have read and understood our Privacy Policy and that you want to receive the newsletter and other marketing communications as set out therein.</p>",
+            "title": "BE THE FIRST TO KNOW",
+            "content": "<p>Subscribe to stay updated！<br/>Be the first to discover our latest<br/>collections, events, exclusive offers, and<br/>sales.</p>",
             "button_background": "",
             "button_text_color": ""
           }
@@ -71,7 +71,7 @@
         "footer_aside_custom_L7TBbh"
       ],
       "custom_css": [
-        ".footer {background: #F7F7F5;}",
+        ".footer {background: #f7f7f5;}",
         ".footer__aside {display: none;}",
         ".footer__aside__custom {display: flex;}"
       ],
