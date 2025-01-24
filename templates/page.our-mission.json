@@ -48,19 +48,6 @@
         "page_width": "xs"
       }
     },
-    "section_logo_YmmwF8": {
-      "type": "section-logo",
-      "settings": {
-        "img": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
-        "width": "280px",
-        "width_m": "140px",
-        "type": "margin",
-        "top": 120,
-        "bottom": 0,
-        "top_m": 60,
-        "bottom_m": 0
-      }
-    },
     "custom_multiple_media_4LrJw8": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -280,7 +267,6 @@
   "order": [
     "section_nav_XgBFVd",
     "main",
-    "section_logo_YmmwF8",
     "custom_multiple_media_4LrJw8",
     "custom_multiple_media_3kk8pd",
     "custom_multiple_media_KN7VFU",
