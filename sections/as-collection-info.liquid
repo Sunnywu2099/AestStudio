@@ -1,0 +1,186 @@
+{% comment %} ay-icon-text {% endcomment %}
+
+
+{% liquid
+  assign name = 'as-collection-info'
+  assign heading = section.settings.heading
+  assign container_width = section.settings.container_width
+%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top_mobile }}px;
+        padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+      }
+
+      @media screen and (min-width: 768px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top_table }}px;
+        padding-bottom: {{ section.settings.padding_bottom_table }}px;
+      }
+    }
+
+      @media screen and (min-width: 1024px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top_web }}px;
+          padding-bottom: {{ section.settings.padding_bottom_web }}px;
+        }
+      }
+
+
+    .section-{{ section.id }} .box-container {
+        max-width: var( --ay-mx-w );
+        margin: 0 auto;
+    }
+    .section-{{ section.id }} {
+      display:block;
+    }
+    .section-{{ section.id }} .des {
+      h1,h2,h3,h4,h5,h6 {
+      color: var(--ay-des-color)
+
+      }
+
+    }
+    as-collection-info .as-collection-heading{margin-bottom:24px}as-collection-info .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-info .as-underline span{color:var(--text-color);font-size:18px;font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-info .as-collection-tab{display:flex;flex-direction:row;gap:24px;margin-top:40px}@media (min-width: 768px){as-collection-info .as-collection-tab{margin-top:64px}}
+
+{%- endstyle -%}
+
+<{{ name }}
+  class=" section-{{ section.id }}-padding section-{{ section.id }}  section-{{ section.id }}-bg "
+  ay-sections
+>
+  <div class="container">
+    <div class="as-collection-heading  as-underline">
+      <span>
+        {{ collection.title }}
+      </span>
+    </div>
+    <div class="as-collection-desc">
+      {{ collection.description }}
+    </div>
+
+    <div class="as-collection-tab">
+      <div class="tab-cur tab">
+        {{ collection.title }}
+      </div>
+
+      {% for block in section.blocks %}
+        {% if block.type == 'tab' %}
+          <div class="tab-pre tab">
+            {{ block.settings.collection.title | link_to: block.settings.collection.url }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</{{ name }}>
+
+{% schema %}
+{
+  "name": "as-collection-info",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "上边距:"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_web",
+      "label": "web",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "default": 160
+    },
+
+    {
+      "type": "range",
+      "id": "padding_top_table",
+      "label": "table",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "default": 128
+    },
+
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "mobile",
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "unit": "px",
+      "default": 96
+    },
+    {
+      "type": "header",
+      "content": "下边距:"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_web",
+      "label": "web",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "default": 160
+    },
+
+    {
+      "type": "range",
+      "id": "padding_bottom_table",
+      "label": "table",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "default": 128
+    },
+
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "mobile",
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "unit": "px",
+      "default": 96
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "背景颜色"
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "collections",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "collection"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "as-collection-info",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
