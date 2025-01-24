@@ -51,7 +51,7 @@
     }
     #shopify-section-{{ sid }} .item .info .item_btn:hover{
       border-color:var(--color);
-      background: rgba(37, 40, 42, 0.40);
+      background: rgba(37, 40, 42, var(--opacity));
     }
     @media (min-width:768px){
       #shopify-section-{{ sid }} .index-banner-one_half{
@@ -73,7 +73,7 @@
       }
       #shopify-section-{{ sid }} .item .info .item_btn{
         border-color:var(--color);
-        background: rgba(37, 40, 42, 0.40);
+        background: rgba(37, 40, 42, var(--opacity));
       }
   } 
   </style>
@@ -91,6 +91,7 @@
         assign alt = bs.img.alt
         assign pc_video = bs.video
         assign mobile_video = bs.video_m
+        assign opacity = bs.opacity |  divided_by: 100.0
       %}
       <div class="item" style="--color:{{color}};">
         <div class="media">
@@ -128,7 +129,7 @@
             <h3 class="item_title">{{ title }}</h3>
           {% endif %}
           {% if btn != blank %}
-            <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
+            <a class="item_btn" href="{{link}}" style="--opacity:{{opacity}};"><span>{{btn}}</span>{{arrow_right}}</a>
           {% endif %}
         </div>
       </div>
@@ -207,7 +208,16 @@
             "type": "url",
             "id": "link",
             "label": "Link"
-          }
+          },
+          {
+          "type": "range",
+          "id": "opacity",
+          "label": "Button background opacity",
+          "max": 100,
+          "min": 0,
+          "step": 1,
+          "default":0
+        }
         ]
       }],
       "presets":[
