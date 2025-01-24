@@ -113,7 +113,7 @@
 </style>
 
 <div class="grid-wrapper">
-  <div class="grid-splide splide" data-direction="{{ section.settings.direction }}">
+  <div class="grid-splide splide">
     <div class="splide__track">
       <ul class="splide__list">
         {% for block in section.blocks %}
@@ -171,7 +171,6 @@
       autoScroll: {
         speed: 0.4,          
         pauseOnHover: true,
-        direction: document.querySelector('#shopify-section-{{section.id}} .grid-splide').dataset.direction
       },
       grid: {
         rows: 1,
@@ -219,22 +218,6 @@
       "groups": ["footer", "header"]
     },
     "settings": [
-      {
-        "type": "select",
-        "id": "direction",
-        "label": "Scroll direction",
-        "options": [
-          {
-            "value": "ltr",
-            "label": "Left to right"
-          },
-          {
-            "value": "rtl",
-            "label": "Right to left"
-          }
-        ],
-        "default": "ltr"
-      },
       {
         "type": "range",
         "id": "pt",
