@@ -47,25 +47,41 @@
         "product_w6CEyi": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "capture-large-shoulder-bag",
+            "img1": "shopify://shop_images/1.jpg",
+            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
+            "title": "Capture Large Shoulder Bag",
+            "link": ""
           }
         },
         "product_E8X4Wf": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "capture-medium-sling-bag",
+            "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
+            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
+            "title": "Capture Medium Sling Bag",
+            "link": ""
           }
         },
         "product_GAgipp": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "mini-bag",
+            "img1": "shopify://shop_images/Group_1000006659.png",
+            "img2": "shopify://shop_images/lookbook2.png",
+            "title": "Capture Small Bag",
+            "link": ""
           }
         },
         "product_dReknA": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "mini-bag",
+            "img1": "shopify://shop_images/Group_1000006660.png",
+            "img2": "shopify://shop_images/Mask_group_1.png",
+            "title": "Capture Small Bag",
+            "link": ""
           }
         }
       },
@@ -139,25 +155,41 @@
         "product_NQ6CaJ": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "phone-case",
+            "img1": "shopify://shop_images/Group_1000006667.png",
+            "img2": "shopify://shop_images/Group_1000006644.png",
+            "title": "Fiery Mirage",
+            "link": ""
           }
         },
         "product_fMekgk": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "phone-case",
+            "img1": "shopify://shop_images/Group_1000006668.png",
+            "img2": "shopify://shop_images/Group_1000006645.png",
+            "title": "Solstice Dream",
+            "link": ""
           }
         },
         "product_gmeiHm": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "protective-wrap",
+            "img1": "shopify://shop_images/Group_1000006669.png",
+            "img2": "shopify://shop_images/Group_1000006646.png",
+            "title": "Illusionary Bloom",
+            "link": ""
           }
         },
         "product_WbKrhb": {
           "type": "product",
           "settings": {
-            "product": "test"
+            "product": "protective-wrap",
+            "img1": "shopify://shop_images/Group_1000006661.png",
+            "img2": "shopify://shop_images/Group_1000006647.png",
+            "title": "Moonlit Drift",
+            "link": ""
           }
         }
       },
@@ -172,12 +204,12 @@
     "index_banner_m3eGmP": {
       "type": "index-banner",
       "settings": {
-        "color": "#25282a",
+        "color": "#ffffff",
         "type": "img",
         "img": "shopify://shop_images/4_787d487c-e707-4736-8ba2-6cc805b07fc1.png",
         "img_m": "shopify://shop_images/4_787d487c-e707-4736-8ba2-6cc805b07fc1.png",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
-        "title": "CAMERA BAG",
+        "title": "Capture Large Shoulder Bag",
         "btn": "Shop Now",
         "link": "",
         "opacity": 0
