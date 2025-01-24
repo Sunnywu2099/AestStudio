@@ -44,6 +44,7 @@
         },
         "item_JGGPbA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Look Book",
             "link": "shopify://pages/look-book"
@@ -51,6 +52,7 @@
         },
         "item_RMifqG": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Design Book",
             "link": "shopify://pages/design-book"
