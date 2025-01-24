@@ -2609,7 +2609,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .link-faded {
-  color: rgb(var(--text-color) / .65);
+  color: rgb(var(--text-color) / .85);
   transition: color .2s ease-in-out;
 }
 
@@ -4882,7 +4882,7 @@ product-rerender {
 
 @media screen and (min-width: 1281px) {
   .header__primary-nav {
-    column-gap: 2.5rem;
+    column-gap: 28px;
   }
 }
 
@@ -5171,7 +5171,7 @@ product-rerender {
   color: rgb(var(--text-color));
   border-block-end-width: 1px;
   padding-block: 2.5rem;
-  padding-inline-start: var(--container-gutter);
+  padding-inline-start: var(--container-custom-nav-padding);
   padding-inline-end: var(--container-gutter);
   display: flex;
   position: absolute;
