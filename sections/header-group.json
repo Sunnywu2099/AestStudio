@@ -138,7 +138,7 @@
         ".inside_menu_ul:before {background-color: #f7f7f5;}"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "enable_sticky": true,
         "hide_on_scroll": true,
         "show_separation_border": true,
