@@ -371,7 +371,8 @@
         font-weight: 400;
         line-height: 1.4;
         letter-spacing: 0.6px;
-        padding: 10px 50px;
+        padding: 10px 23px;
+        min-width: 155px;
         display: inline-block;
         margin-top: 24px;
     }
@@ -489,6 +490,7 @@
                                   <h4>{{ product.title }}</h4>
                                   {%- render 'price-list', product: product, context: 'card' -%}
                                   <a href="{{link | default:product.url}}">Buy Now</a>
+                                  {% render "add-to-wishlist", product:product %}
                               </div>
                               {% if show_media %}
                                 {%- render 'social-media', layout: 'list' -%}

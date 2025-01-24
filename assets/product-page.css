@@ -30,6 +30,14 @@ legend{
   padding: 0 5px;
   min-width: 1.5rem;
 }
+.product-info__block-item:is([data-block-type="@app"]){
+  --product-info-gap: 0px;
+  margin-block-end: 0;
+}
+.product-info__block-item:is([data-block-type=buy-buttons]){
+  --product-info-gap: 0px;
+  margin-block-start: 0;
+}
 .product-info__block-item:is([data-block-type=vendor]){
   --product-info-gap: 4px;
 }
