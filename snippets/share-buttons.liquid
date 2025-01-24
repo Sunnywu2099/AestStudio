@@ -26,6 +26,14 @@ Supported variables
     </a>
   </li>
 
+  <li class="social-media__item branding-colors--sina">
+    {%- capture share_url -%}https://www.sina.com/sharer.php?u={{ url }}{%- endcapture -%}
+
+    <a href="{{ share_url }}" aria-label="{{ 'general.social.share_on' | t: social_media: 'Sina' }}">
+      {%- render 'icon' with 'sina' -%}
+    </a>
+  </li>
+
   <li class="social-media__item branding-colors--twitter">
     {%- capture share_url -%}https://twitter.com/intent/tweet?{% if title != blank %}text={{ title | url_param_escape }}&{% endif %}url={{ url }}{%- endcapture -%}
 

@@ -734,6 +734,11 @@
       },
       {
         "type": "url",
+        "id": "social_sina",
+        "label": "Sina"
+      },
+      {
+        "type": "url",
         "id": "social_facebook",
         "label": "Facebook"
       },

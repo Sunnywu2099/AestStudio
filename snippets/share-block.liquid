@@ -7,6 +7,14 @@
     </li>
   {%- endif -%}
 
+  {%- if settings.social_sina != blank or shop.brand.metafields.social_links.sina != blank -%}
+    <li class="social-media__item branding-colors--sina">
+      <a href="{{ settings.social_sina | default: shop.brand.metafields.social_links.sina }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Sina' }}">
+        {%- render 'icon' with 'sina' -%}
+      </a>
+    </li>
+  {%- endif -%}
+
   {%- if settings.social_twitter != blank or shop.brand.metafields.social_links.twitter != blank -%}
     <li class="social-media__item branding-colors--twitter">
       <a href="{{ settings.social_twitter | default: shop.brand.metafields.social_links.twitter }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Twitter' }}">

@@ -2745,7 +2745,7 @@ tr[onclick]:hover {
 }
 
 .social-media--list .social-media__item {
-  opacity: .65;
+  /* opacity: .65; */
   transition: opacity .2s, color .2s;
 }
 
