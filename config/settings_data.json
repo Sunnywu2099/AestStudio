@@ -28,9 +28,10 @@
     "round_color_swatches": true,
     "social_facebook": "/",
     "social_twitter": "/",
-    "social_pinterest": "/",
-    "social_threads": "/",
+    "social_pinterest": "",
+    "social_threads": "",
     "social_instagram": "/",
+    "social_youtube": "/",
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
