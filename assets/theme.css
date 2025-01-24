@@ -203,6 +203,10 @@ height-observer {
   display: block;
 }
 
+.custom-justify-content {
+  text-align: justify;
+  hyphens: auto;
+}
 .color-scheme {
   background-color: rgb(var(--background));
   background-image: var(--background-gradient);
@@ -403,10 +407,10 @@ height-observer {
 
 @media screen and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   .features--button-transition :is(.button, .shopify-challenge__button, .shopify-payment-button__button--unbranded):not([disabled]):hover {
-    color: rgb(var(--button-background));
+    /* color: rgb(var(--button-background));
     background-position: var(--hover-background-position);
     border-color: rgb(var(--button-background));
-    background-size: 0 101%, 101% 101%;
+    background-size: 0 101%, 101% 101%; */
   }
 
   .features--button-transition .shopify-payment-button__button--unbranded:not([disabled]):hover {

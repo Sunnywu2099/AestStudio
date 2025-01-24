@@ -58,6 +58,17 @@
   #shopify-section-{{section.id}} .type-1{
 
   }
+  #shopify-section-{{section.id}} .media_link{
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.9px;
+  }
   /* section type-2 */
   #shopify-section-{{section.id}} .type-2 .custom-wrapper{
     display: flex;
@@ -136,6 +147,10 @@
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
     }
+    #shopify-section-{{section.id}} .media_link{
+      bottom: 30px;
+      font-size: 14px;
+    }
     #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper{
       margin: 20px auto 0;
     }
@@ -146,12 +161,12 @@
     }
     #shopify-section-{{section.id}} .type-2 .media-wrapper{
       flex: auto;
-      width: 100%;
+      width: 100%!important;
     }
     #shopify-section-{{section.id}} .type-2 .content-wrapper{
       flex: 1;
       flex: auto;
-      width: 100%;
+      width: 100%!important;
       margin: 0;
       padding: 0;
       max-width: 100%;
@@ -222,10 +237,11 @@
     <h2 class="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
   <div class="custom-wrapper">
+    {% assign ss = section.settings %}
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
-        <div class="media-wrapper">
+        <div class="media-wrapper" {% if custom_class == 'type-2' and bs.width != blank %} style="width: calc({{ bs.width }}% - 40px);" {% endif %}>
           {% if bs.use_video %}
             {% if bs.autoplay %}
               {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
@@ -255,19 +271,22 @@
               </picture>
             {% endif %}
           {% endif %}
+          {% if ss.link_text != blank %}
+            <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>{{ ss.link_text }}</a>
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}
     {% for block in section.blocks %}  
       {% if block.type == 'text' %}
-        <div class="content-wrapper">
+        <div class="content-wrapper" {% if custom_class == 'type-2' and bs.width != blank %} style="width: calc({{ bs.width }}% - 40px);" {% endif %}>
             {% assign bs = block.settings %}
             <div class="text-item">
               {% if bs.title != blank %}
                 <h2 class="title">{{ bs.title }}</h2>
               {% endif %}
               {% if bs.text != blank %}
-                <p class="text">{{ bs.text }}</p>
+                <p class="text custom-justify-content">{{ bs.text }}</p>
               {% endif %}
             </div>
         </div>
@@ -356,6 +375,16 @@
         "default": "right"
       },
       {
+        "type": "text",
+        "id": "link_text",
+        "label": "Link text"
+      },
+      {
+        "type": "url",
+        "id": "link_url",
+        "label": "Link URL"
+      },
+      {
         "type": "range",
         "id": "pt",
         "min": 0,
@@ -403,6 +432,12 @@
         "limit": 2,
         "settings": [
           {
+            "type": "text",
+            "id": "width",
+            "label": "width",
+            "info": "only works when section type is 'One media left,one content right'"
+          },
+          {
             "type": "image_picker",
             "id": "img",
             "label": "Image PC"
@@ -442,6 +477,12 @@
         "name": "text",
         "limit": 2,
         "settings": [
+          {
+            "type": "text",
+            "id": "width",
+            "label": "width",
+            "info": "only works when section type is 'One media left,one content right'"
+          },
           {
             "type": "text",
             "id": "title",
