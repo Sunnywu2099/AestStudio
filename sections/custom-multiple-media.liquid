@@ -255,6 +255,9 @@
               </picture>
             {% endif %}
           {% endif %}
+          {% if bs.link_text != blank %}
+            <a class="media_link" {% if bs.link_url != blank %} href="{{ bs.link_url }}"{% endif %}>{{ bs.link_text }}</a>
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}
