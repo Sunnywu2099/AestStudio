@@ -424,6 +424,7 @@
         "product_fJUqTf"
       ],
       "settings": {
+        "unable_padding": false,
         "title": "You May Also Like",
         "continue_shopping": false,
         "url": ""
