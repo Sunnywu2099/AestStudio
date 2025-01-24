@@ -130,10 +130,10 @@
     display: block;
     margin-top: 80px;
     border-radius: 2px;
-    padding: 14px 0;
-    min-width: 400px;
+    padding: 6px 0;
+    min-width: 200px;
     text-align: center;
-    margin: 80px auto 0;
+    margin: 60px auto 0;
     width: max-content;
     font-size: 12px;
     font-weight: 400;
@@ -210,9 +210,9 @@
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
-                {% comment %} {% if product.metafields.custom.short.value != blank %} 
+                {% if product.metafields.custom.short.value != blank %} 
                   <p class="short">{{product.metafields.custom.short.value}}</p>
-                {% endif %} {% endcomment %}
+                {% endif %}
                 {%- render 'price-list', product: product, context: 'card' -%}
 
                 {%- if settings.product_color_display != 'hide' -%}
