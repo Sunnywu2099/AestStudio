@@ -210,9 +210,9 @@
               </div>
               <div class="e_info">
                 <h3>{{ product.title }}</h3>
-                {% if product.metafields.custom.short.value != blank %} 
+                {% comment %} {% if product.metafields.custom.short.value != blank %} 
                   <p class="short">{{product.metafields.custom.short.value}}</p>
-                {% endif %}
+                {% endif %} {% endcomment %}
                 {%- render 'price-list', product: product, context: 'card' -%}
 
                 {%- if settings.product_color_display != 'hide' -%}
