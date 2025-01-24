@@ -13,9 +13,11 @@
       "type": "as-collection-info",
       "settings": {
         "collection_list": [
-          "ayue-test",
           "mini",
-          "shiny-vegetable-leather"
+          "shiny-vegetable-leather",
+          "shoulder-bags",
+          "sling-bags",
+          "elongated-bags"
         ],
         "padding_top_web": 48,
         "padding_top_table": 48,
@@ -86,12 +88,28 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "as_collection_text_qAekMk": {
+      "type": "as-collection-text",
+      "settings": {
+        "heading": "EXPLORE AEST'S BAG COLLECTION FOR WOMEN",
+        "left_text": "Discover the selection of women's bags from LEMAIRE. Our collection features a range of styles, including crossbody bags, shoulder bags, weekend bags, and hobo bags. Each bag is meticulously crafted using premium materials such as leather, nylon canvas, and coated cotton, ensuring both durability and timeless elegance.\n\n<br>\n<br>\nCrossbody Bags\n<br>\nLEMAIRE's crossbody bags are designed for the modern woman who values both style and convenience. These bags are perfect for hands-free carrying, offering ample space and smart compartments for all your essentials. Crafted from high-quality leather and durable nylon canvas, our crossbody bags are not only stylish but also built to last.\n\n<br><br>\nShoulder Bags\n<br>\nOur shoulder bags combine elegance and practicality, making them a must-have for any wardrobe. Designed with comfortable straps and spacious interiors, LEMAIRE's shoulder bags are ideal for daily use. Available in various materials these bags come in both iconic and seasonal designs, ensuring you find the perfect match for your personal style.",
+        "right_text": "Weekend Bags\n<br>\nDiscover the selection of women's bags from LEMAIRE. Our collection features a range of styles, including crossbody bags, shoulder bags, weekend bags, and hobo bags. Each bag is meticulously crafted using premium materials such as leather, nylon canvas, and coated cotton, ensuring both durability and timeless elegance.\n<br><br>\n\nCrossbody Bags\n<br>\nLEMAIRE's crossbody bags are designed for the modern woman who values both style and convenience. These bags are perfect for hands-free carrying, offering ample space and smart compartments for all your essentials. Crafted from high-quality leather and durable nylon canvas, our crossbody bags are not only stylish but also built to last.\n\n<br><br>\nShoulder Bags<br>\nOur shoulder bags combine elegance and practicality, making them a must-have for any wardrobe. Designed with comfortable straps and spacious interiors, LEMAIRE's shoulder bags are ideal for daily use. Available in various materials these bags come in both iconic and seasonal designs, ensuring you find the perfect match for your personal style.",
+        "padding_top_web": 160,
+        "padding_top_table": 128,
+        "padding_top_mobile": 96,
+        "padding_bottom_web": 160,
+        "padding_bottom_table": 128,
+        "padding_bottom_mobile": 96,
+        "bg_color": ""
+      }
     }
   },
   "order": [
     "as_collection_info_A6DU4x",
     "collection-banner",
     "main",
-    "as_main_collection_8pR6TW"
+    "as_main_collection_8pR6TW",
+    "as_collection_text_qAekMk"
   ]
 }
