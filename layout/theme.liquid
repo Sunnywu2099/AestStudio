@@ -79,7 +79,13 @@
     {% if page.template_suffix == 'your-voice' %}
       <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.css?v=1737538820">
     {% endif %}
-  </head>
+  <script type="text/javascript">if(typeof window.hulkappsWishlist === 'undefined') {
+        window.hulkappsWishlist = {};
+        }
+        window.hulkappsWishlist.baseURL = '/apps/advanced-wishlist/api';
+        window.hulkappsWishlist.hasAppBlockSupport = '1';
+        </script>
+</head>
 
   {% liquid
     assign features_class = ''
@@ -127,5 +133,6 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-  </body>
+  {% render 'hulkappsWishlistPopup' %}
+</body>
 </html>
