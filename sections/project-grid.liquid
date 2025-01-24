@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.css?v=1737538820">
+
 <style>
 #shopify-section-{{section.id}} {
   padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
@@ -144,7 +144,7 @@
       </ul>
     </div>
 
-    <div class="splide__arrows">
+    {% comment %} <div class="splide__arrows">
       <button class="splide__arrow splide__arrow--prev">
         {% render 'block-prev' %}
       </button>
@@ -152,79 +152,60 @@
       <button class="splide__arrow splide__arrow--next">
         {% render 'block-next' %}
       </button>
-    </div>
-
-    {% comment %} <div class="splide__pagination-wrapper">
-      <button class="splide__arrow splide__arrow--prev">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-          <path d="M27.2 4L14.4 16.8c-1.6 1.6-1.6 4.8 0 6.4L27.2 36" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
-        </svg>
-      </button>
-      <!-- Splide 会自动在这里插入分页器 -->
-      <button class="splide__arrow splide__arrow--next">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-          <path d="M12.8 4l12.8 12.8c1.6 1.6 1.6 4.8 0 6.4L12.8 36" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
-        </svg>
-      </button>
     </div> {% endcomment %}
+
+    
   </div>
 </div>
 
-<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.js?v=1737538820"></script>
-<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-grid.min.js?v=1737539685"></script>
-<script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-auto-scroll.js?v=1737539284"></script>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const gridSplide = new Splide('.grid-splide', {
+    const gridSplide_{{section.index}} = new Splide('#shopify-section-{{section.id}} .grid-splide', {
       type: 'loop',
       drag: true,          
-      arrows: true,        
-      pagination: true,    
+      arrows: false,        
+      pagination: false,    
       gap: 16,
+      // direction: 'ltr',
       autoScroll: {
-        speed: 0.2,          
-        pauseOnHover: true 
+        speed: 0.4,          
+        pauseOnHover: true,
       },
       grid: {
-        rows: 3,
+        rows: 1,
         cols: 4,
-        gap : {
-          row: '40px',
-          col: '16px',
-        },
+        gap:{
+          row: 0,
+          col: 16
+        }
       },
       breakpoints: {
         1024: {
+          gap: 10,
           grid: {
-            rows: 2,
+            rows: 1,
+            cols: 3,
+            gap:{
+              row: 0,
+              col: 10
+            }
+          },
+        },
+        699: {
+          gap: 10,
+          grid: {
+            rows: 1,
             cols: 2,
-            gap : {
-              row: '16px',
-              col: '16px',
-            },
+            gap:{
+              row: 0,
+              col: 10
+            }
           },
         }
       }
     });
-    gridSplide.mount(window.splide.Extensions);
-
-    // gridSplide.on('arrows:mounted pagination:mounted', function() {
-    //   const controls = [
-    //     ...document.querySelectorAll('.splide__arrow'),
-    //     ...document.querySelectorAll('.splide__pagination__page')
-    //   ];
-    //   controls.forEach(control => {
-    //     control.addEventListener('click', () => {
-    //       setTimeout(() => {
-    //         gridSplide.Components.AutoScroll.play();
-    //       }, 100);
-    //     });
-    //   });
-    // });
-    // gridSplide.on('moved', () => {
-    //   gridSplide.Components.AutoScroll.play();
-    // });
-
+    gridSplide_{{section.index}}.mount(window.splide.Extensions);
   });
 </script>
 

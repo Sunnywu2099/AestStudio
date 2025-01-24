@@ -63,6 +63,11 @@
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+    {% if page.template_suffix == 'your-voice' %}
+      <script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.js?v=1737538820"></script>
+      <script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-grid.min.js?v=1737539685"></script>
+      <script type="module" src="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide-extension-auto-scroll.js?v=1737539284"></script>
+    {% endif %}
 
     {{ content_for_header }}
 
@@ -70,6 +75,9 @@
     {{- 'swiper-bundle.min.css' | asset_url | stylesheet_tag: preload: true -}}
     {% if template.name == 'product' %}
       {{- 'product-page.css' | asset_url | stylesheet_tag: preload: true -}}
+    {% endif %}
+    {% if page.template_suffix == 'your-voice' %}
+      <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0737/7187/6573/files/splide.min.css?v=1737538820">
     {% endif %}
   </head>
 
