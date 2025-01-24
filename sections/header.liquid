@@ -306,7 +306,9 @@
           </li>
         {%- endif -%}
 
-        <a href="/apps/advanced-wishlist" class="site-header__icon" icon-wishlist-heart-empty=""></a>
+        <a href="/apps/advanced-wishlist" class="site-header__icon" icon-wishlist-heart-empty="">
+          {% render 'wishlist' %}
+        </a>
 
         <li class="relative header__cart-link">
           <a
