@@ -5171,7 +5171,7 @@ product-rerender {
   color: rgb(var(--text-color));
   border-block-end-width: 1px;
   padding-block: 2.5rem;
-  padding-inline-start: var(--container-gutter);
+  padding-inline-start: var(--container-custom-nav-padding);
   padding-inline-end: var(--container-gutter);
   display: flex;
   position: absolute;
