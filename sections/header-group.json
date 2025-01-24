@@ -70,19 +70,20 @@
             "image_3_link": ""
           }
         },
-        "mega_menu_sec_nav_xrKyVE": {
+        "mega_menu_sec_nav_GpfWN9": {
           "type": "mega_menu_sec_nav",
           "settings": {
-            "menu_item": "Projects",
+            "menu_item": "Accessories",
             "images_position": "right",
-            "image_1": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
+            "image_1": "shopify://shop_images/Group_1000006656.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
+            "image_2": "shopify://shop_images/Group_1000006655.jpg",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
+            "image_3": "shopify://shop_images/Group_1000006654.jpg",
             "image_3_heading": "",
             "image_3_text": "",
             "image_3_link": ""
@@ -105,20 +106,20 @@
             "image_3_link": ""
           }
         },
-        "mega_menu_sec_nav_GpfWN9": {
+        "mega_menu_sec_nav_xrKyVE": {
           "type": "mega_menu_sec_nav",
           "settings": {
-            "menu_item": "Accessories",
+            "menu_item": "Projects",
             "images_position": "right",
-            "image_1": "shopify://shop_images/Group_1000006656.jpg",
+            "image_1": "shopify://shop_images/Layer_0-1.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/Group_1000006655.jpg",
+            "image_2": "shopify://shop_images/Layer_0-2.jpg",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
-            "image_3": "shopify://shop_images/Group_1000006654.jpg",
+            "image_3": "shopify://shop_images/Layer_0.jpg",
             "image_3_heading": "",
             "image_3_text": "",
             "image_3_link": ""
@@ -128,9 +129,9 @@
       "block_order": [
         "mega_menu_pbUfXR",
         "mega_menu_sec_nav_dpezNp",
-        "mega_menu_sec_nav_xrKyVE",
+        "mega_menu_sec_nav_GpfWN9",
         "mega_menu_sec_nav_4tfnJH",
-        "mega_menu_sec_nav_GpfWN9"
+        "mega_menu_sec_nav_xrKyVE"
       ],
       "custom_css": [
         ".header {background-color: #f7f7f5; box-shadow: none;}",
