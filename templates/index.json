@@ -155,32 +155,40 @@
         "product_NQ6CaJ": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "title": "",
+            "product": "phone-case",
+            "img1": "shopify://shop_images/Mask_group_7a71ae9b-9faa-4bc8-988b-84c81f2f1877.png",
+            "img2": "shopify://shop_images/Group_1000006644.png",
+            "title": "Fiery Mirage",
             "link": ""
           }
         },
         "product_fMekgk": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "title": "",
+            "product": "phone-case",
+            "img1": "shopify://shop_images/Mask_group_1_3cf14831-f4bd-43af-9cf9-975c835b99c0.png",
+            "img2": "shopify://shop_images/Group_1000006645.png",
+            "title": "Solstice Dream",
             "link": ""
           }
         },
         "product_gmeiHm": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "title": "",
+            "product": "protective-wrap",
+            "img1": "shopify://shop_images/Mask_group_2.png",
+            "img2": "shopify://shop_images/Group_1000006646.png",
+            "title": "Illusionary Bloom",
             "link": ""
           }
         },
         "product_WbKrhb": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "title": "",
+            "product": "protective-wrap",
+            "img1": "shopify://shop_images/Group_1000006647.png",
+            "img2": "shopify://shop_images/Group_1000006647.png",
+            "title": "Moonlit Drift",
             "link": ""
           }
         }
