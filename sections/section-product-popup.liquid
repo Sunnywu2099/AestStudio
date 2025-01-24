@@ -489,7 +489,7 @@
                                   <h4>{{ product.title }}</h4>
                                   {%- render 'price-list', product: product, context: 'card' -%}
                                   <a href="{{link | default:product.url}}">Buy Now</a>
-                                  {% render "add-to-wishlist" %}
+                                  {% render "add-to-wishlist", product:product %}
                               </div>
                               {% if show_media %}
                                 {%- render 'social-media', layout: 'list' -%}
