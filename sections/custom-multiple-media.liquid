@@ -225,7 +225,7 @@
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
-        <div class="media-wrapper">
+        <div class="media-wrapper" {% if section_type == 'type-2' and bs.width !=" blank" %} style="width: calc({{ bs.width }}% - 40px);" {% endif %}>
           {% if bs.use_video %}
             {% if bs.autoplay %}
               {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
@@ -260,7 +260,7 @@
     {% endfor %}
     {% for block in section.blocks %}  
       {% if block.type == 'text' %}
-        <div class="content-wrapper">
+        <div class="content-wrapper" {% if section_type == 'type-2' and bs.width !=" blank" %} style="width: calc({{ bs.width }}% - 40px);" {% endif %}>
             {% assign bs = block.settings %}
             <div class="text-item">
               {% if bs.title != blank %}
