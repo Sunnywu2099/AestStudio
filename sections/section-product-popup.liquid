@@ -317,7 +317,7 @@
         height: auto;
     }
     #shopify-section-{{sid}} .spp_slide>.meida{
-        width: 55%;
+        width: 61.26%;
     }
     #shopify-section-{{sid}} .spp_slide>.info{
         width: 100%;
@@ -326,7 +326,7 @@
         position: relative;
     }
     #shopify-section-{{sid}} .spp_slide>.meida+.info{
-        width: 45%;
+        width: 38.74%;
     }
     #shopify-section-{{sid}} .spp_slide>.info .text{
         color: #000;
@@ -460,6 +460,7 @@
                       {% liquid
                           assign bs = block.settings
                           assign product = bs.product
+                          assign link = bs.link 
                           assign cover = bs.img 
                           assign cover_m = bs.img_m 
                           assign text = bs.text 
@@ -487,7 +488,7 @@
                                   {{ product.images[0] | image_url: width: '100x' | image_tag }}
                                   <h4>{{ product.title }}</h4>
                                   {%- render 'price-list', product: product, context: 'card' -%}
-                                  <a href="{{product.url}}">Buy Now</a>
+                                  <a href="{{link | default:product.url}}">Buy Now</a>
                               </div>
                               {% if show_media %}
                                 {%- render 'social-media', layout: 'list' -%}
@@ -667,6 +668,11 @@
             "type": "product",
             "id": "product",
             "label": "product"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "link"
           },
           {
             "type":"header",

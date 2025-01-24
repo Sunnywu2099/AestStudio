@@ -23,11 +23,12 @@
       "settings": {
         "color": "#ffffff",
         "type": "img",
-        "img": "shopify://shop_images/eV74eP_tif.png",
-        "img_m": "shopify://shop_images/eV74eP_tif.png",
+        "img": "shopify://shop_images/1_1.png",
+        "img_m": "shopify://shop_images/1_1.png",
         "title": "",
         "btn": "",
-        "link": ""
+        "link": "",
+        "opacity": 40
       }
     },
     "rich_text_GhePUE": {
@@ -58,21 +59,21 @@
           "type": "item",
           "settings": {
             "title": "How to Care for Your Bag",
-            "content": "<p><span>1.Daily Care</span>Avoid prolonged exposure to sunlight or high temperatures to prevent cracking or fading.<br>\nUse a soft, dry cloth to remove surface dust, and occasionally apply leather conditioner with a gentle touch.</p>\n<p><span>2.Waterproofing</span>Avoid water contact. If the bag gets wet, pat it dry with a clean, soft cloth and air dry in a cool, ventilated place. Do not expose it to direct heat or use a hairdryer.</p>"
+            "content": "<p><span>1.Daily Care</span>Avoid exposing the bag to moisture or direct sunlight, and be mindful of pairing dark leather bags with light-colored clothing to prevent color transfer. Also, avoid excessive friction. <br>\nRegularly apply leather care oil to maintain its shine and softness. When storing, use appropriate padding to help maintain the bag’s shape and prevent deformation.</p>\n<p><span>2.Cleaning Maintenance</span>For minor stains, gently wipe with a damp cloth. For stubborn stains, use a dedicated leather cleaner, and allow the bag to air dry naturally afterward. Avoid frequent cleaning to prevent damaging the leather.</p>"
           }
         },
         "item_LYgaPC": {
           "type": "item",
           "settings": {
             "title": "Size Guide",
-            "content": "<p><span>1.Daily Care</span>Avoid prolonged exposure to sunlight or high temperatures to prevent cracking or fading.<br>\nUse a soft, dry cloth to remove surface dust, and occasionally apply leather conditioner with a gentle touch.</p>\n<p><span>2.Waterproofing</span>Avoid water contact. If the bag gets wet, pat it dry with a clean, soft cloth and air dry in a cool, ventilated place. Do not expose it to direct heat or use a hairdryer.</p>"
+            "content": "<p><span>1.Basic Size Parameters</span>Length: The widest part of the bottom of the bag.<br>Height: The vertical distance from the bottom to the top of the bag.<br>Height: Depth: The horizontal distance from the back to the front of the bag.<br>Strap Length: The distance from the top of the strap to the top of the bag, applicable for shoulder or crossbody bags.\n</p>\n<p><span>2.Size Classification:</span>Small: A mini bag suitable for daily use.<br>Medium: A medium-sized bag with moderate capacity, suitable for work or going out.<br>Large: A larger bag with more capacity, ideal for travel or extended outings.</p>"
           }
         },
         "item_84MTb3": {
           "type": "item",
           "settings": {
             "title": "Bag Features and Innovations",
-            "content": "<p><span>1.Daily Care</span>Avoid prolonged exposure to sunlight or high temperatures to prevent cracking or fading.<br>\nUse a soft, dry cloth to remove surface dust, and occasionally apply leather conditioner with a gentle touch.</p>\n<p><span>2.Waterproofing</span>Avoid water contact. If the bag gets wet, pat it dry with a clean, soft cloth and air dry in a cool, ventilated place. Do not expose it to direct heat or use a hairdryer.</p>"
+            "content": "<p><span>1.Modern Stylish Appearance with Durable Material</span>This bag breaks away from traditional camera bag designs, combining a fashionable look with durable full-grain leather, meeting the diverse needs of modern women across various settings.</p><p><span>2.Detachable Compartment</span>The interior features a detachable cotton compartment, designed to fit a camera and other items. Users can adjust it according to their needs, enhancing the bag’s versatility and practicality.</p><p><span>3.Opening Mechanism</span>With a combination of magnetic closure and double zippers, this bag offers convenience and security, providing multiple opening options to increase flexibility in use.</p><p><span>4.Aesthetic and Functionality Balance</span>The bag strikes a balance between aesthetics and practicality, offering an exquisite appearance and strong functionality, making it suitable for daily commuting, travel, photography, and more.</p><p><span>5.Multi-Scenario Application</span>The flexible design of the bag adapts to different usage scenarios, encouraging users from various backgrounds to explore more ways and possibilities to use it.</p>"
           }
         }
       },
@@ -93,8 +94,8 @@
           "settings": {
             "reverse": false,
             "type": "img",
-            "img": "shopify://shop_images/Layer_0_0786ac4c-2814-4f58-b17e-5d7272afad81.png",
-            "img_m": "shopify://shop_images/Layer_0_0786ac4c-2814-4f58-b17e-5d7272afad81.png",
+            "img": "shopify://shop_images/Mask_group_3.png",
+            "img_m": "shopify://shop_images/Mask_group_3.png",
             "title": "Agnès",
             "content": "Series Introduction Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx",
             "table": "<div>\n                                    <span></span>\n                                    <span>texture of material</span>\n                                    <span>size</span>\n                                    <span>Shoulder strap length</span>\n                                    <span>Opening method</span>\n                                </div>\n                                <div>\n                                    <span>Mini Bags</span>\n                                    <span>100% cowhide</span>\n                                    <span>30x20x15cm</span>\n                                    <span>15cm</span>\n                                    <span>Zipper</span>\n                                </div>\n                                <div>\n                                    <span>Xxxxxx Bags</span>\n                                    <span>100% cowhide</span>\n                                    <span>30x20x15cm</span>\n                                    <span>15cm</span>\n                                    <span>Zipper</span>\n                                </div>\n                                <div>\n                                    <span>Xxxxxx Bags</span>\n                                    <span>100% cowhide</span>\n                                    <span>30x20x15cm</span>\n                                    <span>15cm</span>\n                                    <span>Zipper</span>\n                                </div>\n                                <div>\n                                    <span>Xxxxxx Bags</span>\n                                    <span>100% cowhide</span>\n                                    <span>30x20x15cm</span>\n                                    <span>15cm</span>\n                                    <span>Zipper</span>\n                                </div>\n                                <div>\n                                    <span>Xxxxxx Bags</span>\n                                    <span>100% cowhide</span>\n                                    <span>30x20x15cm</span>\n                                    <span>15cm</span>\n                                    <span>Zipper</span>\n                                </div>",
@@ -146,7 +147,7 @@
         "product_dAQtd3": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-large-shoulder-bag",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/design_book_banner_2.png",
             "text": "Shop This Look",
@@ -156,7 +157,7 @@
         "product_AeVPUp": {
           "type": "product",
           "settings": {
-            "product": "test",
+            "product": "capture-medium-sling-bag",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/20250121-140821.png",
             "text": "Shop This Look",
@@ -166,7 +167,7 @@
         "product_mJXetM": {
           "type": "product",
           "settings": {
-            "product": "belly-bag-复制-复制-复制",
+            "product": "mini-bag",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -174,15 +175,7 @@
         "product_8CHRXH": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "text": "Shop This Look",
-            "show_media": true
-          }
-        },
-        "product_Fxybyq": {
-          "type": "product",
-          "settings": {
-            "product": "test",
+            "product": "mini-bag",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -192,11 +185,13 @@
         "product_dAQtd3",
         "product_AeVPUp",
         "product_mJXetM",
-        "product_8CHRXH",
-        "product_Fxybyq"
+        "product_8CHRXH"
       ],
       "settings": {
-        "title": "You May Also Like"
+        "unable_padding": false,
+        "title": "You May Also Like",
+        "continue_shopping": false,
+        "url": ""
       }
     }
   },
