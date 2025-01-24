@@ -234,7 +234,7 @@
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "lg",
+        "video_size": "auto",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "external_video_url": "",
         "poster": "shopify://shop_images/Layer_0.png",
@@ -407,6 +407,7 @@
         "product_nfPUDX"
       ],
       "settings": {
+        "unable_padding": false,
         "title": "You May Also Like",
         "continue_shopping": false,
         "url": "shopify://products/accessories-product"
