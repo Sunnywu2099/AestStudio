@@ -113,7 +113,7 @@
 </style>
 
 <div class="grid-wrapper">
-  <div class="grid-splide splide">
+  <div class="grid-splide splide" data-direction="{{ section.settings.direction }}">
     <div class="splide__track">
       <ul class="splide__list">
         {% for block in section.blocks %}
@@ -171,7 +171,7 @@
       autoScroll: {
         speed: 0.4,          
         pauseOnHover: true,
-        direction: '{{section.settings.direction}}'
+        direction: document.querySelector('#shopify-section-{{section.id}} .grid-splide').dataset.direction
       },
       grid: {
         rows: 1,
