@@ -63,7 +63,7 @@
         "liquid_wipqDN": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"swym-wishlist-button-bar\"></div>"
+            "liquid": "<a href=\"#\" class=\"wishlist-btn\">Save for later</a>"
           }
         },
         "in_action_ifkLi4": {
