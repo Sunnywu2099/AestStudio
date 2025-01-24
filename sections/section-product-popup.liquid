@@ -130,10 +130,10 @@
     display: block;
     margin-top: 80px;
     border-radius: 2px;
-    padding: 14px 0;
-    min-width: 400px;
+    padding: 6px 0;
+    min-width: 200px;
     text-align: center;
-    margin: 80px auto 0;
+    margin: 60px auto 0;
     width: max-content;
     font-size: 12px;
     font-weight: 400;
@@ -168,8 +168,8 @@
       pointer-events: none
     }
     .continue-shopping{
-      min-width: 200px;
-      margin-top: 32px;
+      min-width: 180px;
+      margin-top: 30px;
     }
   }
 </style>
@@ -460,6 +460,7 @@
                       {% liquid
                           assign bs = block.settings
                           assign product = bs.product
+                          assign link = bs.link 
                           assign cover = bs.img 
                           assign cover_m = bs.img_m 
                           assign text = bs.text 
@@ -487,7 +488,7 @@
                                   {{ product.images[0] | image_url: width: '100x' | image_tag }}
                                   <h4>{{ product.title }}</h4>
                                   {%- render 'price-list', product: product, context: 'card' -%}
-                                  <a href="{{product.url}}">Buy Now</a>
+                                  <a href="{{link | default:product.url}}">Buy Now</a>
                               </div>
                               {% if show_media %}
                                 {%- render 'social-media', layout: 'list' -%}
@@ -667,6 +668,11 @@
             "type": "product",
             "id": "product",
             "label": "product"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "link"
           },
           {
             "type":"header",
