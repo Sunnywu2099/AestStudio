@@ -231,6 +231,7 @@
         "image_aEWf6L"
       ],
       "settings": {
+        "direction": "ltr",
         "pt": 0,
         "pb": 16,
         "pt_m": 0,
@@ -376,6 +377,7 @@
         "image_RhELqf"
       ],
       "settings": {
+        "direction": "rtl",
         "pt": 0,
         "pb": 16,
         "pt_m": 0,
@@ -521,6 +523,7 @@
         "image_eywBjK"
       ],
       "settings": {
+        "direction": "ltr",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
