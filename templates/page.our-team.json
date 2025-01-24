@@ -96,6 +96,7 @@
         "media_iVkD6X": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_6.png",
             "img_m": "shopify://shop_images/Clip_path_group_6.png",
             "use_video": false,
@@ -105,6 +106,7 @@
         "text_r8wFeV": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Our team brings together a diverse collective of designers, photographers, artists, architects, and visual creators — driven by an unwavering passion for contemporary culture, art, and design."
           }
@@ -131,6 +133,7 @@
         "media_hhhfxG": {
           "type": "media",
           "settings": {
+            "width": "41",
             "img": "shopify://shop_images/Group.png",
             "img_m": "shopify://shop_images/Group.png",
             "use_video": false,
@@ -140,6 +143,7 @@
         "text_yhCdLN": {
           "type": "text",
           "settings": {
+            "width": "59",
             "title": "Vanessa",
             "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
           }
@@ -166,6 +170,7 @@
         "media_89jkGg": {
           "type": "media",
           "settings": {
+            "width": "41",
             "img": "shopify://shop_images/Clip_path_group_7.png",
             "img_m": "shopify://shop_images/Clip_path_group_7.png",
             "use_video": false,
@@ -175,6 +180,7 @@
         "text_w4Mfbj": {
           "type": "text",
           "settings": {
+            "width": "59",
             "title": "Lilymons",
             "text": "A designer driven by curiosity, I see every project as a question waiting to be explored and answered. As one of the visual architects of Aest Studios, I bring stories to life through bold, thoughtful, and ever-evolving design.Years of studying and traveling across Asia have provided me with a multidimensional perspective, where the richness of diverse cultures has expanded the boundaries of my design and shaped my artistic language."
           }
@@ -201,6 +207,7 @@
         "media_TfPCz4": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_8.png",
             "img_m": "shopify://shop_images/Clip_path_group_8.png",
             "use_video": false,
@@ -210,6 +217,7 @@
         "text_KDeNkH": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "Tracy",
             "text": "Amid the lush cultural whispers of the South, I found my way to design. From the soft embrace of fashion accessories, I wandered deeper into the world of bags. Lost in the leather workshops, I infused each piece with the quiet strength and tender resilience of this land. With every creation, I whisper to the world: my heart keeps on beating, and it always will."
           }
@@ -236,6 +244,7 @@
         "media_x4BXYi": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_9.png",
             "img_m": "shopify://shop_images/Clip_path_group_9.png",
             "use_video": false,
@@ -245,6 +254,7 @@
         "text_9qMNd8": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "Dakota",
             "text": "A rich background in fashion and global experiences in London have shaped me into a marketer who perfectly balances commerce and art. I excel at leveraging sharp business insights to understand people’s needs and am committed to creating content that truly serves users—just as our brand is dedicated to addressing real-world needs at its core."
           }
