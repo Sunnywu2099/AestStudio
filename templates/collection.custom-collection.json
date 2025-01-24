@@ -7,36 +7,16 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "as_collection_info_A6DU4x": {
       "type": "as-collection-info",
-      "blocks": {
-        "tab_ggFMEX": {
-          "type": "tab",
-          "settings": {
-            "collection": "shiny-vegetable-leather"
-          }
-        },
-        "tab_z3iU3g": {
-          "type": "tab",
-          "settings": {
-            "collection": "shiny-vegetable-leather"
-          }
-        },
-        "tab_LNqXn7": {
-          "type": "tab",
-          "settings": {
-            "collection": "shiny-vegetable-leather"
-          }
-        }
-      },
-      "block_order": [
-        "tab_ggFMEX",
-        "tab_z3iU3g",
-        "tab_LNqXn7"
-      ],
       "settings": {
+        "collection_list": [
+          "ayue-test",
+          "mini",
+          "shiny-vegetable-leather"
+        ],
         "padding_top_web": 48,
         "padding_top_table": 48,
         "padding_top_mobile": 24,
