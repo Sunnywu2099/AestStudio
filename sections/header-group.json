@@ -57,7 +57,6 @@
           "settings": {
             "menu_item": "Bags",
             "images_position": "right",
-            "inside_menu": "",
             "image_1": "shopify://shop_images/Bags.jpg",
             "image_1_heading": "",
             "image_1_text": "",
@@ -65,7 +64,10 @@
             "image_2": "shopify://shop_images/bags2.jpg",
             "image_2_heading": "",
             "image_2_text": "",
-            "image_2_link": ""
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": ""
           }
         },
         "mega_menu_sec_nav_xrKyVE": {
@@ -73,7 +75,6 @@
           "settings": {
             "menu_item": "Projects",
             "images_position": "right",
-            "inside_menu": "",
             "image_1": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_1_heading": "",
             "image_1_text": "",
@@ -81,7 +82,10 @@
             "image_2": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_2_heading": "",
             "image_2_text": "",
-            "image_2_link": ""
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": ""
           }
         },
         "mega_menu_sec_nav_4tfnJH": {
@@ -89,7 +93,6 @@
           "settings": {
             "menu_item": "About",
             "images_position": "right",
-            "inside_menu": "",
             "image_1": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_1_heading": "",
             "image_1_text": "",
@@ -97,7 +100,10 @@
             "image_2": "shopify://shop_images/Layer_0_b1fbda79-7d7b-4e0d-93c2-455451817de7.png",
             "image_2_heading": "",
             "image_2_text": "",
-            "image_2_link": ""
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": ""
           }
         },
         "mega_menu_sec_nav_GpfWN9": {
@@ -105,7 +111,6 @@
           "settings": {
             "menu_item": "Accessories",
             "images_position": "right",
-            "inside_menu": "",
             "image_1": "shopify://shop_images/Group_1000006656.jpg",
             "image_1_heading": "",
             "image_1_text": "",
@@ -113,7 +118,11 @@
             "image_2": "shopify://shop_images/Group_1000006655.jpg",
             "image_2_heading": "",
             "image_2_text": "",
-            "image_2_link": ""
+            "image_2_link": "",
+            "image_3": "shopify://shop_images/Group_1000006654.jpg",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": ""
           }
         }
       },
