@@ -60,12 +60,6 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_wipqDN": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<a href=\"#\" class=\"wishlist-btn\">Save for later</a>"
-          }
-        },
         "in_action_ifkLi4": {
           "type": "in_action",
           "settings": {
@@ -146,7 +140,6 @@
         "payment_terms",
         "variant_picker",
         "buy_buttons",
-        "liquid_wipqDN",
         "in_action_ifkLi4",
         "accordion_UYLqjQ",
         "accordion_XzHcUk",
