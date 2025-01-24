@@ -147,7 +147,7 @@
         "product_dAQtd3": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-large-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/design_book_banner_2.png",
@@ -158,7 +158,7 @@
         "product_AeVPUp": {
           "type": "product",
           "settings": {
-            "product": "test",
+            "product": "capture-medium-sling-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/20250121-140821.png",
@@ -169,7 +169,7 @@
         "product_mJXetM": {
           "type": "product",
           "settings": {
-            "product": "belly-bag-复制-复制-复制",
+            "product": "mini-bag",
             "link": "",
             "text": "Shop This Look",
             "show_media": true
@@ -178,16 +178,7 @@
         "product_8CHRXH": {
           "type": "product",
           "settings": {
-            "product": "test",
-            "link": "",
-            "text": "Shop This Look",
-            "show_media": true
-          }
-        },
-        "product_Fxybyq": {
-          "type": "product",
-          "settings": {
-            "product": "test",
+            "product": "mini-bag",
             "link": "",
             "text": "Shop This Look",
             "show_media": true
@@ -198,8 +189,7 @@
         "product_dAQtd3",
         "product_AeVPUp",
         "product_mJXetM",
-        "product_8CHRXH",
-        "product_Fxybyq"
+        "product_8CHRXH"
       ],
       "settings": {
         "unable_padding": false,
