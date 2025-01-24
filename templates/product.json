@@ -234,7 +234,7 @@
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "lg",
+        "video_size": "auto",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "poster": "shopify://shop_images/Layer_0.png",
         "text_color": "#ffffff"
@@ -424,6 +424,7 @@
         "product_fJUqTf"
       ],
       "settings": {
+        "unable_padding": false,
         "title": "You May Also Like",
         "continue_shopping": false,
         "url": ""

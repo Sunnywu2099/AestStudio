@@ -106,6 +106,7 @@
         "text_xUTN7H"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -141,9 +142,10 @@
         "text_ygNG78"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
-        "text_alignment": "right",
+        "text_alignment": "left",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -176,9 +178,10 @@
         "text_knXqfV"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
-        "text_alignment": "left",
+        "text_alignment": "right",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -219,6 +222,7 @@
         "text_FPhKHT"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-top-two-content-bottom",
         "text_alignment": "left",
@@ -257,6 +261,7 @@
         "media_XgpLxp"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "two-media",
         "text_alignment": "left",

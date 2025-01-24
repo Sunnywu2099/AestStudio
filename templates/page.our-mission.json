@@ -48,25 +48,13 @@
         "page_width": "xs"
       }
     },
-    "section_logo_YmmwF8": {
-      "type": "section-logo",
-      "settings": {
-        "img": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
-        "width": "280px",
-        "width_m": "140px",
-        "type": "margin",
-        "top": 120,
-        "bottom": 0,
-        "top_m": 60,
-        "bottom_m": 0
-      }
-    },
     "custom_multiple_media_4LrJw8": {
       "type": "custom-multiple-media",
       "blocks": {
         "media_k6iEnp": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Layer_0_10_54f21a90-3897-4193-9a72-a5ec991ae5dc.png",
             "use_video": false,
             "autoplay": false
@@ -75,6 +63,7 @@
         "text_bPWkHc": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Creative manifesto\nWe believe creativity is our greatest asset, and how we utilize it is our greatest responsibility. Progressive creativity is about responding to the significant questions of our time. Our planet is facing critical challenges, and we know the decisions we make now will have an impact long into the future. Fashion is an expression of identity and values, and it is our mission to ensure it deserves a part in creating a more sustainable and inclusive world to live in. We are asking the challenging questions and collectively embracing change.\nOur Creative Manifesto represents our shared values and defines a set of principles that are guiding us in our sustainability journey. By incorporating these principles in everything we do, we are setting a course for progress, significant both for our times and for our future.\nDesign lasting icons\nCreate desirable products that stand the test of time with considerations for their entire life cycle.​\nCreate with impact in mind\nChoose quality materials and solutions consciously to minimise environmental impact​.\nStrive for progress together\nBuild partnerships with suppliers that share our sustainability values on people and nature.​\nBe curious and honest\nImplement a culture of transparency and learning within our supply chain and towards our customers.\nAct on climate\nAdapt our business model to reduce the carbon footprint across our operations in line with climate science."
           }
@@ -101,6 +90,7 @@
         "media_i7BcdP": {
           "type": "media",
           "settings": {
+            "width": "41",
             "img": "shopify://shop_images/Layer_0_11_d547c671-4a48-4138-8286-2e55753ae375.png",
             "use_video": false,
             "autoplay": false
@@ -109,6 +99,7 @@
         "text_GBz9ME": {
           "type": "text",
           "settings": {
+            "width": "59",
             "title": "Preferred materials",
             "text": "•Target: 100% of our collection created using preferred materials by FY 26/27<br>\n•Progress: 68% of our collection made in preferred raw materials in FY 22/23\nMaterials are the core of our creative expressions. We drape, fold, cut and continually experiment to evolve our aesthetic, fluid or sculptural, delicate or technical, we care how our materials are made. We prioritise working with qualitative, responsible materials that last. Our material classification tools help our design team navigate material choices by guiding them on what to use more of and what to avoid. Today, over 60% of our collections are created using preferred organic, recycled or responsibly sourced materials and we aim to reach 100% by FY 26/27. <br>\nResponsible wool<br>\nWe have been crafting our classic Canada scarf from responsibly sourced wool since 2022. Making the transition to wool certified by the Responsible Wool Standard (RWS) means we can feel confident that our fibre is coming from farms committed to upholding high animal welfare standards and a progressive approach to land management that helps protect soil. Over 70% of all the wool we use in our collection is now RWS certified. ​Find our products made in RWS wool here. <br>\nThe Recycled puffer<br>\nOur hooded down puffer jackets in our Fall Winter 2023 collection were made using 100% recycled materials, including recycled nylon, polyester and down filling. By switching to recycled alternatives, we reduce the use of virgin fossil fuel-based materials and lower the product’s overall environmental impact. Recycled down also supports us to avoid risks on animal welfare. Overall, 10% of the materials we use in our collection is recycled. Find our products made in recycled materials here. <br>\nOrganic denim<br>\nWe use more cotton in our collections than anything else. Over the last four years we have been transitioning to organic and today it represents over 70% of the cotton we source. Organic cotton is grown without chemical pesticides, supports healthy ecosystems and improves working conditions for farmers. Find our denim and other products made in organic cotton here. Now, we are also working with partners that practice regenerative farming methods that focus on climate and biodiversity conservation. Our first regenerative denim styles have now launched with our Fall Winter 2023 collection.  "
           }
@@ -135,6 +126,7 @@
         "media_LKq3N6": {
           "type": "media",
           "settings": {
+            "width": "41",
             "img": "shopify://shop_images/image_1_bc327704-4a9b-4597-80c8-cacb71743dc3.png",
             "use_video": false,
             "autoplay": false
@@ -143,6 +135,7 @@
         "text_erXPW8": {
           "type": "text",
           "settings": {
+            "width": "59",
             "title": "Traceable supply chains",
             "text": "•Target: 100% traceable supply chains down to raw materials by FY26/27 <br>\n•Progress: Achieved 100% tier 1 and 76% tier 2 supplier traceability in FY 22/23 <br>\n•We believe traceability is necessary for change. We want to know who is making our products all the way back to where our raw materials are grown so that we can understand our impact and work to improve it. We have full traceability of our product suppliers and their subcontractors in tier 1 since 2008.  <br>\n•We are collaborating closely with our material suppliers to trace all their tier 2 locations of every step involved in the production and finishing of our materials. We have already achieved over 70% traceability in tier 2 and have 73% of country of origin traceability verification for raw materials from tier 4. Now, we are working hard to close the gaps towards the goal of having a fully traceable supply chain by FY 26/27. Our product suppliers are listed in Open Supply Hub as part of an overview of factories that Fair Wear member brands source from. "
           }
@@ -169,6 +162,7 @@
         "media_qGRepy": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/image_2_ac893905-6a6a-435e-bede-c1947a48d31d.png",
             "use_video": false,
             "autoplay": false
@@ -177,6 +171,7 @@
         "text_ze4Ekr": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "Strategic partnerships",
             "text": "•Target: >50% of orders produced with suppliers sharing our sustainability ambitions by FY 26/27<br>\n•Progress: 41% of order value with product suppliers meeting high standards in our sustainability evaluations in FY 22/23 <br>\nEvery partner we work with meets our minimum environmental and social standards, but this is just the start. Real change happens through long-lasting relationships built on trust, communication, and mutual support. Our strategic partners share our ambitions for sustainability and uncompromised creativity. We are proud to have worked with over 50% of our product manufacturers for longer than five years and over 20% for more than a decade. These are integral partnerships that help us create a culture of transparency and learning across our supply chain and it is our aim that to produce more than 50% of collection with suppliers meeting our high sustainability standards by FY 26/27. <br>\nAcne Studios Supplier Forum\nWe hosted a two-day supplier forum at our headquarters in Stockholm, bringing 100 people from our European supplier network together to learn more about our business strategy, our values, and our sustainability ambitions. We ran workshops and invited guest speakers to present on sustainability topics from Climate Action to Renewable Energy. These forums help us create space for conversation and learning within our supply chain as we work together to solve the toughest sustainability challenges. <br>\nIndustry networks  <br>\nWe collaborate with multi-stakeholder groups to stay at the forefront of sustainability research and innovation, and to share perspectives with experts and peers. These networks help us gain insights and further our progress in specific areas. Our memberships and networks include for example The Textile Exchange, Leather Working Group, Fair Wear, and The Swedish Textile Initiative for Climate Action.​ "
           }
@@ -280,7 +275,6 @@
   "order": [
     "section_nav_XgBFVd",
     "main",
-    "section_logo_YmmwF8",
     "custom_multiple_media_4LrJw8",
     "custom_multiple_media_3kk8pd",
     "custom_multiple_media_KN7VFU",

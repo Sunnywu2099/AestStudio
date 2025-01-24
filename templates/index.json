@@ -35,8 +35,8 @@
         "autoplay": false,
         "show_controls": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
-        "mobile_video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
+        "video": "shopify://files/videos/虚焦眼睛和包.mp4",
+        "mobile_video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
@@ -88,7 +88,7 @@
         "title": "CAMERA BAG",
         "btn": "Shop Now",
         "link": "",
-        "opacity": 40
+        "opacity": 0
       }
     },
     "index_banner_one_half_MLnXVr": {
@@ -103,7 +103,8 @@
             "img_m": "shopify://shop_images/Rectangle_3.png",
             "title": "CAMERA BAG",
             "btn": "Shop Now",
-            "link": ""
+            "link": "",
+            "opacity": 0
           }
         },
         "block_Yi6NnE": {
@@ -115,7 +116,8 @@
             "img_m": "shopify://shop_images/Rectangle_2.png",
             "title": "CAMERA BAG",
             "btn": "Shop Now",
-            "link": ""
+            "link": "",
+            "opacity": 0
           }
         }
       },
@@ -123,7 +125,13 @@
         "block_CD8Gqh",
         "block_Yi6NnE"
       ],
-      "settings": {}
+      "settings": {
+        "type": "margin",
+        "top": 20,
+        "bottom": 20,
+        "top_m": 12,
+        "bottom_m": 12
+      }
     },
     "index_products_8KXU9w": {
       "type": "index-products",
@@ -172,7 +180,7 @@
         "title": "CAMERA BAG",
         "btn": "Shop Now",
         "link": "",
-        "opacity": 20
+        "opacity": 0
       }
     },
     "index_club_ri3Mta": {
