@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "as_collection_info_A6DU4x": {
       "type": "as-collection-info",
@@ -40,9 +40,9 @@
         "padding_top_web": 48,
         "padding_top_table": 48,
         "padding_top_mobile": 24,
-        "padding_bottom_web": 80,
-        "padding_bottom_table": 80,
-        "padding_bottom_mobile": 40,
+        "padding_bottom_web": 0,
+        "padding_bottom_table": 0,
+        "padding_bottom_mobile": 0,
         "bg_color": ""
       }
     },
@@ -66,6 +66,7 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
@@ -75,7 +76,7 @@
         "show_grid_mode_selector": true,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "filter_layout": "sidebar",
+        "filter_layout": "drawer",
         "quick_links_menu": "",
         "show_sort_by": true,
         "show_filters": true,
@@ -84,11 +85,33 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "as_main_collection_8pR6TW": {
+      "type": "as-main-collection",
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": true,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
     }
   },
   "order": [
     "as_collection_info_A6DU4x",
     "collection-banner",
-    "main"
+    "main",
+    "as_main_collection_8pR6TW"
   ]
 }
