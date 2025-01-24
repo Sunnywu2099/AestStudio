@@ -1,6 +1,5 @@
 {% comment %} ay-icon-text {% endcomment %}
 
-
 {% liquid
   assign name = 'as-collection-info'
   assign heading = section.settings.heading
@@ -43,7 +42,6 @@
 
     }
     as-collection-info .as-collection-heading{margin-bottom:24px}as-collection-info .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-info .as-underline span{color:var(--text-color);font-size:18px;font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-info .as-collection-tab{display:flex;flex-direction:row;gap:24px;margin-top:40px}@media (min-width: 768px){as-collection-info .as-collection-tab{margin-top:64px}}
-
 {%- endstyle -%}
 
 <{{ name }}
@@ -82,14 +80,15 @@
   "disabled_on": {
     "groups": ["header", "footer"]
   },
-  "settings": [{
-    "type": "textarea",
-    "id": "list",
-    "label": "系列的数组",
-    "default": "",
-    "info": "请用;分隔",
-    "placeholder": "collection1;collection2;collection3"
-  },
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "list",
+      "label": "系列的数组",
+      "default": "collection1;collection2;collection3",
+      "info": "请用;分隔",
+      "placeholder": "collection1;collection2;collection3"
+    },
     {
       "type": "header",
       "content": "上边距:"
