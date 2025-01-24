@@ -89,6 +89,7 @@
           assign img_one = bs.img1
           assign img_two = bs.img2
           assign link = bs.link
+          assign title = bs.title
         %}
         <div class="swiper-slide">
           <div class="e_product_item">
@@ -106,7 +107,7 @@
                 {% endif %}
               </div>
               <div class="e_info">
-                <h3>{{ product.title }}</h3>
+                <h3>{{ title |  default:product.title }}</h3>
                 {% if product.metafields.custom.short.value != blank %} 
                   <p class="short">{{product.metafields.custom.short.value}}</p>
                 {% endif %}
@@ -172,6 +173,11 @@
               "type": "image_picker",
               "id": "img2",
               "label": "image （hover）"
+            },
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
             },
             {
               "type": "url",
