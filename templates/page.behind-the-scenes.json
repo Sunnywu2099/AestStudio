@@ -96,6 +96,7 @@
         "media_tKExar": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_6.png",
             "img_m": "shopify://shop_images/Mask_group_6.png",
             "use_video": false,
@@ -111,6 +112,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 120,
         "pb": 20,
         "pt_m": 60,
@@ -123,6 +126,7 @@
         "media_4tWacU": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_10.png",
             "img_m": "shopify://shop_images/Clip_path_group_10.png",
             "use_video": false,
@@ -138,6 +142,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "Designer Bag",
+        "link_url": "",
         "pt": 0,
         "pb": 20,
         "pt_m": 0,
@@ -150,6 +156,7 @@
         "media_iqEaL6": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_11.png",
             "img_m": "shopify://shop_images/Clip_path_group_11.png",
             "use_video": false,
@@ -165,6 +172,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "Artist Bag",
+        "link_url": "",
         "pt": 0,
         "pb": 20,
         "pt_m": 0,
@@ -177,6 +186,7 @@
         "media_yrp7JG": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_10.png",
             "img_m": "shopify://shop_images/Clip_path_group_10.png",
             "use_video": false,
@@ -192,6 +202,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "Sports Bag",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
