@@ -29,6 +29,10 @@
     }
 
     @media screen and (min-width: 1000px) {
+      .site-header__icon{
+        width: auto;
+        height: auto;
+      }
       #shopify-section-{{ section.id }} {
         {%- case section.settings.layout -%}
           {%- when 'logo_left_navigation_inline' -%}
