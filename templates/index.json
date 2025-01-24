@@ -50,6 +50,7 @@
             "product": "capture-large-shoulder-bag",
             "img1": "shopify://shop_images/1.jpg",
             "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
+            "title": "Capture Large Shoulder Bag",
             "link": ""
           }
         },
@@ -59,6 +60,7 @@
             "product": "capture-medium-sling-bag",
             "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
             "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
+            "title": "Capture Medium Sling Bag",
             "link": ""
           }
         },
@@ -68,15 +70,17 @@
             "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006659.png",
             "img2": "shopify://shop_images/lookbook2.png",
+            "title": "Capture Small Bag",
             "link": ""
           }
         },
         "product_dReknA": {
           "type": "product",
           "settings": {
-            "product": "test",
+            "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006660.png",
             "img2": "shopify://shop_images/Mask_group_1.png",
+            "title": "Capture Small Bag",
             "link": ""
           }
         }
@@ -152,6 +156,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "title": "",
             "link": ""
           }
         },
@@ -159,6 +164,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "title": "",
             "link": ""
           }
         },
@@ -166,6 +172,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "title": "",
             "link": ""
           }
         },
@@ -173,6 +180,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "title": "",
             "link": ""
           }
         }
