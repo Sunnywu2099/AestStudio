@@ -23,11 +23,12 @@
       "settings": {
         "color": "#ffffff",
         "type": "img",
-        "img": "shopify://shop_images/eV74eP_tif.png",
-        "img_m": "shopify://shop_images/eV74eP_tif.png",
+        "img": "shopify://shop_images/1_1.png",
+        "img_m": "shopify://shop_images/1_1.png",
         "title": "",
         "btn": "",
-        "link": ""
+        "link": "",
+        "opacity": 40
       }
     },
     "rich_text_GhePUE": {
@@ -147,6 +148,7 @@
           "type": "product",
           "settings": {
             "product": "agnes-black-mini-shoulder-bag",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/design_book_banner_2.png",
             "text": "Shop This Look",
@@ -157,6 +159,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/20250121-140821.png",
             "text": "Shop This Look",
@@ -167,6 +170,7 @@
           "type": "product",
           "settings": {
             "product": "belly-bag-复制-复制-复制",
+            "link": "",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -175,6 +179,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "link": "",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -183,6 +188,7 @@
           "type": "product",
           "settings": {
             "product": "test",
+            "link": "",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -196,7 +202,10 @@
         "product_Fxybyq"
       ],
       "settings": {
-        "title": "You May Also Like"
+        "unable_padding": false,
+        "title": "You May Also Like",
+        "continue_shopping": false,
+        "url": ""
       }
     }
   },
