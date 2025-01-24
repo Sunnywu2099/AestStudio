@@ -192,6 +192,112 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_Q7xYYE": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_TgkdEX": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/w3ebfw_tif.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+          }
+        },
+        "media_BHLCNb": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/w3ebfw.tif_1.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+          }
+        },
+        "text_ffT3AC": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        },
+        "text_YyMaYi": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_TgkdEX",
+        "media_BHLCNb",
+        "text_ffT3AC",
+        "text_YyMaYi"
+      ],
+      "settings": {
+        "page_desc": "Technology & Process",
+        "is_full": false,
+        "section_type": "two-media-top-two-content-bottom",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_FqjhYF": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_CiJE3N": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/w3ebfw_tif.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+          }
+        },
+        "media_gdYEUB": {
+          "type": "media",
+          "settings": {
+            "img": "shopify://shop_images/w3ebfw.tif_1.png",
+            "use_video": false,
+            "autoplay": false,
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+          }
+        },
+        "text_HJq3Pa": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        },
+        "text_8bEBXa": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_CiJE3N",
+        "media_gdYEUB",
+        "text_HJq3Pa",
+        "text_8bEBXa"
+      ],
+      "settings": {
+        "page_desc": "Technology & Process",
+        "is_full": false,
+        "section_type": "two-media-top-two-content-bottom",
+        "text_alignment": "right",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
     "custom_multiple_media_aiANJ8": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -234,6 +340,8 @@
     "section_logo_z6VJck",
     "custom_multiple_media_4pUzFr",
     "custom_multiple_media_YP3JtM",
-    "custom_multiple_media_aiANJ8"
+    "custom_multiple_media_FqjhYF",
+    "custom_multiple_media_aiANJ8",
+    "custom_multiple_media_Q7xYYE"
   ]
 }
