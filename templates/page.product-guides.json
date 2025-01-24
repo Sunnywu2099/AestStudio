@@ -148,7 +148,6 @@
           "type": "product",
           "settings": {
             "product": "capture-large-shoulder-bag",
-            "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/design_book_banner_2.png",
             "text": "Shop This Look",
@@ -159,7 +158,6 @@
           "type": "product",
           "settings": {
             "product": "capture-medium-sling-bag",
-            "link": "",
             "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
             "img_m": "shopify://shop_images/20250121-140821.png",
             "text": "Shop This Look",
@@ -170,7 +168,6 @@
           "type": "product",
           "settings": {
             "product": "mini-bag",
-            "link": "",
             "text": "Shop This Look",
             "show_media": true
           }
@@ -179,7 +176,6 @@
           "type": "product",
           "settings": {
             "product": "mini-bag",
-            "link": "",
             "text": "Shop This Look",
             "show_media": true
           }

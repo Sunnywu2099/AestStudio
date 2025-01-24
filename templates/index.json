@@ -49,9 +49,7 @@
           "settings": {
             "product": "capture-large-shoulder-bag",
             "img1": "shopify://shop_images/1.jpg",
-            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
-            "title": "Capture Large Shoulder Bag",
-            "link": ""
+            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png"
           }
         },
         "product_E8X4Wf": {
@@ -59,9 +57,7 @@
           "settings": {
             "product": "capture-medium-sling-bag",
             "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
-            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
-            "title": "Capture Medium Sling Bag",
-            "link": ""
+            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png"
           }
         },
         "product_GAgipp": {
@@ -69,9 +65,7 @@
           "settings": {
             "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006659.png",
-            "img2": "shopify://shop_images/lookbook2.png",
-            "title": "Capture Small Bag",
-            "link": ""
+            "img2": "shopify://shop_images/lookbook2.png"
           }
         },
         "product_dReknA": {
@@ -79,9 +73,7 @@
           "settings": {
             "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006660.png",
-            "img2": "shopify://shop_images/Mask_group_1.png",
-            "title": "Capture Small Bag",
-            "link": ""
+            "img2": "shopify://shop_images/Mask_group_1.png"
           }
         }
       },
@@ -157,9 +149,7 @@
           "settings": {
             "product": "phone-case",
             "img1": "shopify://shop_images/Group_1000006667.png",
-            "img2": "shopify://shop_images/Group_1000006644.png",
-            "title": "Fiery Mirage",
-            "link": ""
+            "img2": "shopify://shop_images/Group_1000006644.png"
           }
         },
         "product_fMekgk": {
@@ -167,9 +157,7 @@
           "settings": {
             "product": "phone-case",
             "img1": "shopify://shop_images/Group_1000006668.png",
-            "img2": "shopify://shop_images/Group_1000006645.png",
-            "title": "Solstice Dream",
-            "link": ""
+            "img2": "shopify://shop_images/Group_1000006645.png"
           }
         },
         "product_gmeiHm": {
@@ -177,9 +165,7 @@
           "settings": {
             "product": "protective-wrap",
             "img1": "shopify://shop_images/Group_1000006669.png",
-            "img2": "shopify://shop_images/Group_1000006646.png",
-            "title": "Illusionary Bloom",
-            "link": ""
+            "img2": "shopify://shop_images/Group_1000006646.png"
           }
         },
         "product_WbKrhb": {
@@ -187,9 +173,7 @@
           "settings": {
             "product": "protective-wrap",
             "img1": "shopify://shop_images/Group_1000006661.png",
-            "img2": "shopify://shop_images/Group_1000006647.png",
-            "title": "Moonlit Drift",
-            "link": ""
+            "img2": "shopify://shop_images/Group_1000006647.png"
           }
         }
       },
