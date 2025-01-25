@@ -1798,6 +1798,11 @@ var DialogElement = class extends HTMLElement {
           __privateSet(this, _originalParentBeforeAppend, null);
           this.style.setProperty("display", "block");
           this.dispatchEvent(new CustomEvent("dialog:before-show"));
+
+          if (this.shouldAppendToBody_SortBy) {
+            __privateSet(this, _originalParentBeforeAppend, this.parentElement);
+            document.body.append(this);
+          }
           if (this.shouldAppendToBody && this.parentElement !== document.body) {
             __privateSet(this, _originalParentBeforeAppend, this.parentElement);
             document.body.append(this);
@@ -2059,6 +2064,19 @@ var Popover = class extends DialogElement {
   }
   get shouldAppendToBody() {
     return matchesMediaQuery("md-max");
+  }
+
+  get shouldAppendToBody() {
+    return matchesMediaQuery("md-max");
+  }
+  get shouldAppendToBody_SortBy() {
+    const parent = document.querySelector('.as-main-collection')
+    const isChild = parent && parent.contains(this)
+  
+    const id = this.id == "sort-by-popover" ?true:false
+
+    return isChild &&id;
+    
   }
   get preventScrollWhenTrapped() {
     return true;
