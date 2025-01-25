@@ -2009,6 +2009,9 @@ var Drawer = class extends Modal {
     return this.getAttribute("open-from") || "right";
   }
   createEnterAnimationControls() {
+    const scrollw =  window.innerWidth - document.documentElement.clientWidth;
+    document.documentElement.style.paddingRight = `${scrollw}px`;
+    
     this.getShadowPartByName("content").style.marginInlineStart = this.openFrom === "right" ? "auto" : 0;
     return timeline3([
       [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
@@ -2016,6 +2019,7 @@ var Drawer = class extends Modal {
     ]);
   }
   createLeaveAnimationControls() {
+    document.documentElement.style.paddingRight = "0px";
     return timeline3([
       [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
       [this.getShadowPartByName("content"), { transform: ["translateX(0)", `translateX(calc(var(--transform-logical-flip) * ${this.openFrom === "right" ? "100%" : "-100%"}))`] }, { duration: 0.3, at: "<", easing: [0.645, 0.045, 0.355, 1] }]
@@ -2084,7 +2088,13 @@ var Popover = class extends DialogElement {
   createEnterAnimationControls() {
     if (matchesMediaQuery("md")) {
       return animate7(this, { opacity: [0, 1] }, { duration: 0.2 });
-    } else {
+
+
+    } else if (this.classList.contains('custom-popover')) {
+      return animate7(this, { opacity: [0, 1] }, { duration: 0.2 });
+
+    }
+    else {
       return timeline4([
         [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
         [this.getShadowPartByName("content"), { transform: ["translateY(100%)", "translateY(0)"] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1], at: "<" }]
@@ -2094,7 +2104,10 @@ var Popover = class extends DialogElement {
   createLeaveAnimationControls() {
     if (matchesMediaQuery("md")) {
       return animate7(this, { opacity: [1, 0] }, { duration: 0.2 });
-    } else {
+    }  else if (this.classList.contains('custom-popover')) {
+      return animate7(this, { opacity: [0, 1] }, { duration: 0.2 });
+
+    }else {
       return timeline4([
         [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
         [this.getShadowPartByName("content"), { transform: ["translateY(0)", "translateY(100%)"] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1], at: "<" }]

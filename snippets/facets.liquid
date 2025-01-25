@@ -53,12 +53,18 @@ Supported variables
 
       {%- if show_filters -%}
         {%- for filter in results.filters -%}
+
+
+        
           {%- capture filter_content -%}
+
+        
             {%- if filter.type == 'boolean' or filter.param_name == 'filter.v.availability' -%}
               {%- if filter.param_name == 'filter.v.availability' -%}
                 <div class="checkbox-control">
                   <input id="{{ id_prefix }}-{{ filter.param_name }}" type="checkbox" class="switch" name="{{ filter.param_name }}" value="1" {% if filter.active_values.size > 0 %}checked{% endif %}>
                   <label for="{{ id_prefix }}-{{ filter.param_name }}" class="text-subdued">{{- 'collection.faceting.in_stock_only' | t -}}</label>
+                  
                 </div>
               {%- else -%}
                 <div class="v-stack gap-2.5">
@@ -76,6 +82,8 @@ Supported variables
 
                       <input id="{{ id_prefix }}-{{ filter_value.param_name }}-{{ boolean_index }}" type="checkbox" class="switch" name="{{ filter_value.param_name }}" value="{{ filter_value.value }}" {% if filter_value.active %}checked{% endif %}>
                       <label for="{{ id_prefix }}-{{ filter_value.param_name }}-{{ boolean_index }}" class="text-subdued">{{ label }}</label>
+                
+                    
                     </div>
                   {%- endfor -%}
                 </div>
@@ -111,7 +119,7 @@ Supported variables
                             assign label = filter_value.label
                           endif
 
-                          render 'checkbox', hide_checkbox: true, label: label, name: filter_value.param_name, value: filter_value.value, checked: filter_value.active, id_prefix: value_id_prefix
+                          render 'as-checkbox', hide_checkbox: true, label: label, name: filter_value.param_name, value: filter_value.value, checked: filter_value.active, id_prefix: value_id_prefix
                         endif
                       endfor
                     %}
