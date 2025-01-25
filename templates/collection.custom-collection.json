@@ -22,9 +22,9 @@
         "padding_top_web": 48,
         "padding_top_table": 48,
         "padding_top_mobile": 24,
-        "padding_bottom_web": 0,
-        "padding_bottom_table": 0,
-        "padding_bottom_mobile": 0,
+        "padding_bottom_web": 80,
+        "padding_bottom_table": 40,
+        "padding_bottom_mobile": 20,
         "bg_color": ""
       }
     },
