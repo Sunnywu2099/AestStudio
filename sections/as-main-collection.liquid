@@ -1,7 +1,6 @@
 {%- liquid
   assign active_values_count = 0
 
-  
   for filter in collection.filters
     if filter.type == 'price_range'
       if filter.max_value.value != blank or filter.min_value.value != blank
@@ -12,17 +11,14 @@
     endif
   endfor
 
-
   if section.settings.quick_links_menu.links.size > 0 or section.settings.show_filters and collection.filters.size > 0
     assign show_filters = true
   else
     assign show_filters = false
   endif
-  
 
   # First, we retrieve, based on the merchant settings, the user preferences and the available space the most appropriate size
   assign products_mobile_grid_mode = cart.attributes.products_mobile_grid_mode
-
 
   if request.design_mode
     # In the theme editor we do not use the choice selected manually, to reduce confusion when changing the theme editor values
@@ -252,7 +248,19 @@
     }
     .color-swatch{
     size:28px}
+
+    
   }
+  .as-main-collection nav.pagination{
+    border:none;
+    {% comment %} border-block-end-width: 0px; {% endcomment %}
+  }
+
+  .as-main-collection .pagination__link[aria-current="page"] {
+   
+      box-shadow: 0 1px, inset 0 -1px;
+  }
+}
 </style>
 
 {%- comment -%}
