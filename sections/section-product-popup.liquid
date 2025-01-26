@@ -216,7 +216,7 @@
                 {%- render 'price-list', product: product, context: 'card' -%}
 
                 {% assign product_list = block.settings.product_list %}
-                {% assign color_list = block.settings.product_colors %}
+                {% assign color_list = block.settings.product_colors | split: ',' %}
                 {% if product_list != blank and color_list != blank %}
                 <div class="color_box">
                   {% for p in product_list %}
