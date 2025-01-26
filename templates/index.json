@@ -67,7 +67,7 @@
         "product_GAgipp": {
           "type": "product",
           "settings": {
-            "product": "mini-bag",
+            "product": "capture-small-bag-black",
             "img1": "shopify://shop_images/Group_1000006659.png",
             "img2": "shopify://shop_images/lookbook2.png",
             "title": "",
@@ -77,7 +77,7 @@
         "product_dReknA": {
           "type": "product",
           "settings": {
-            "product": "mini-bag",
+            "product": "capture-small-bag-green",
             "img1": "shopify://shop_images/Group_1000006660.png",
             "img2": "shopify://shop_images/Mask_group_1.png",
             "title": "",
