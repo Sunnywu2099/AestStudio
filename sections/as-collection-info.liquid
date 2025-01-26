@@ -43,14 +43,14 @@
       }
   as-collection-info{display:none}as-collection-info .as-collection-heading{margin-bottom:24px}as-collection-info .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-info .as-underline span{color:var(--text-color);font-size:18px;font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-info .as-collection-tab{display:flex;flex-direction:row;-moz-column-gap:24px;column-gap:24px;row-gap:4px;padding-bottom:40px}as-collection-info .as-collection-tab{margin-top:40px}@media (min-width: 768px){as-collection-info .as-collection-tab{margin-top:64px}}as-collection-info .as-collection-tab{flex-wrap:wrap}
 
-  .tab-pre a  {
-    text-transform: lowercase;
-    display:inline-block;
-  }
-  .tab-pre a:first-letter,
-  .tab-pre a:first-line {
-    text-transform: uppercase;
-  }
+  .tab-pre link  {
+  text-transform: lowercase;
+  display：inline-block;
+}
+.tab-pre link::first-letter,
+.tab-pre link::first-line {
+  text-transform: uppercase;
+}
 {%- endstyle -%}
 
 <{{ name }}
@@ -71,7 +71,8 @@
       {% for tab_collection in section.settings.collection_list %}
         {% if tab_collection.title != collection.title %}
           <div class="tab-pre tab">
-            {{ tab_collection.title | link_to: tab_collection.url }}
+            <a class="link" href="{{ tab_collection.url }}">{{ tab_collection.title }}</a>
+
           </div>
         {% endif %}
       {% endfor %}
