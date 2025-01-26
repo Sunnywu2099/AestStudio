@@ -105,7 +105,7 @@
           "test_mode": true,
           "modal_closeButton": true,
           "option_flag_style": "square",
-          "option_currency_type": "none",
+          "option_currency_type": "only_flag",
           "option_language": false,
           "option_search_country": false,
           "title": "Are you in the right place?",
