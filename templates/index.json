@@ -31,6 +31,11 @@
         "play_pDjcaV",
         "heading_9JnFx7"
       ],
+      "custom_css": [
+        ".content-over-media video::-webkit-media-controls {display: none !important;}",
+        ".content-over-media video::-webkit-media-controls-panel {display: none !important;}",
+        ".content-over-media video::-webkit-media-controls-play-button {display: none !important;}"
+      ],
       "settings": {
         "autoplay": true,
         "show_controls": true,
