@@ -126,6 +126,16 @@
     --swatch-border-size: 0px;
     border-radius: 50%;
   }
+  #shopify-section-{{sid}} .e_product_item .color_box{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  #shopify-section-{{sid}} .e_product_item .color_item{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
   .continue-shopping{
     display: block;
     margin-top: 80px;
@@ -215,7 +225,19 @@
                 {% endif %} {% endcomment %}
                 {%- render 'price-list', product: product, context: 'card' -%}
 
-                {%- if settings.product_color_display != 'hide' -%}
+                {% assign product_list = block.settings.product_list %}
+                {% if product_list != blank %}
+                <div class="color_box">
+                  {% for p in product_list %}
+                    <a href="{{ p.url }}">
+                      {% assign bg = p.metafields.custom.product_color.value %}
+                      <div class="color_item" style="background-color:{{bg}};"></div>
+                    </a>
+                  {% endfor %}
+                </div>
+                {% endif %}
+                {%  comment  %} 
+                  {%- if settings.product_color_display != 'hide' -%}
                     {%- liquid
                       assign matched_product_option = nil
                       assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ','
@@ -262,7 +284,7 @@
                       {%- endcase -%}
                     {%- endif -%}
                   {%- endif -%}
-
+                {% endcomment %}
               </div>
           </div>
         </div>
@@ -569,24 +591,24 @@
         toggleButtonState(currentIndex, $items.length, prev_btn, el);
     });
 
-    $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(e){
-        e.stopPropagation();
-        let el = $(this);
-        let data = JSON.parse(el.prev().attr('data-variant-media'));
+    // $('#shopify-section-{{sid}} .e_product_item .e_info>fieldset label').on('click',function(e){
+    //     e.stopPropagation();
+    //     let el = $(this);
+    //     let data = JSON.parse(el.prev().attr('data-variant-media'));
 
-        let slide_wrpper = el.parents('.e_product_item').find(`.slide_wrpper`);
-        let slides = el.parents('.e_product_item').find(`.slide`);
-        let slide = el.parents('.e_product_item').find(`.slide[data-img-id=${data.id}]`);
-        let slide_prev_button = el.parents('.e_product_item').find(`.slide_prev_button`);
-        let slide_next_button = el.parents('.e_product_item').find(`.slide_next_button`);
+    //     let slide_wrpper = el.parents('.e_product_item').find(`.slide_wrpper`);
+    //     let slides = el.parents('.e_product_item').find(`.slide`);
+    //     let slide = el.parents('.e_product_item').find(`.slide[data-img-id=${data.id}]`);
+    //     let slide_prev_button = el.parents('.e_product_item').find(`.slide_prev_button`);
+    //     let slide_next_button = el.parents('.e_product_item').find(`.slide_next_button`);
         
-        if(slide){
-            updateActiveItem(slide_wrpper,slides,slide.attr('data-index'));
-            toggleButtonState(slide.attr('data-index'), slides, slide_prev_button, slide_next_button);
-        }
+    //     if(slide){
+    //         updateActiveItem(slide_wrpper,slides,slide.attr('data-index'));
+    //         toggleButtonState(slide.attr('data-index'), slides, slide_prev_button, slide_next_button);
+    //     }
 
-        console.log(slide)
-    });
+    //     console.log(slide)
+    // });
 
     $('#shopify-section-{{sid}} .section-product-popup_swiper .slide').on('click',function(){
         let el = $(this);
@@ -701,6 +723,12 @@
                 "id": "show_media",
                 "label":"显示社媒",
                 "default":true
+            },
+            {
+              "type": "product_list",
+              "id": "product_list",
+              "label": "同类产品",
+              "limit": 3
             }
         ]
       }
