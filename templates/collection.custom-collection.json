@@ -14,10 +14,14 @@
       "settings": {
         "collection_list": [
           "mini",
-          "shiny-vegetable-leather",
-          "shoulder-bags",
           "sling-bags",
-          "elongated-bags"
+          "shoulder-bags",
+          "elongated-bags",
+          "tote",
+          "multi-bags",
+          "backpacks",
+          "small-leather-goods",
+          "accessories"
         ],
         "padding_top_web": 48,
         "padding_top_table": 48,
