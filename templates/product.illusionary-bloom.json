@@ -133,7 +133,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Shipping & Payment",
-            "content": "<ul><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li><li>Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.</li></ul>",
+            "content": "<p>Payment</p><p>Aest Studios accepts the following payment methods: Shopify payment (including Visa, Mastercard, Apple Pay, American Express, Discover, Diners, etc.) and PayPal and other major credit cards and payment platforms.</p><p>Shipping</p><ul><li> United States: Free shipping on orders over $69; $12 shipping fee for orders under $69;  Europe: $17 shipping fee; Asia: $11 shipping fee</li><li>Delivery time: 5-8 working days in the United States; 7-10 working days for international orders</li><li>More information view <span style=\"text-decoration:underline\">Shipping and Orders</span></li></ul><p>Returns</p><ul><li>It is possible to return any item ordered within 15 days from the date of delivery</li><li>Items must be returned in their original condition and in their original packaging</li><li>More information view  <span style=\"text-decoration:underline\">Return and Refunds</span></li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -297,7 +297,6 @@
         "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "use_video": false,
         "autoplay": true,
-        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "right"
       }
@@ -329,7 +328,6 @@
         "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "use_video": true,
         "autoplay": false,
-        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "left"
       }
@@ -361,7 +359,6 @@
         "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
         "use_video": true,
         "autoplay": false,
-        "video": "shopify://files/videos/5532765-uhd_2160_4096_25fps.mp4",
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "right"
       }
