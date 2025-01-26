@@ -402,7 +402,11 @@
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-large-shoulder-bag"
+            ],
+            "product_colors": "#000000"
           }
         },
         "product_bM7EVV": {
@@ -413,7 +417,11 @@
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-medium-sling-bag"
+            ],
+            "product_colors": "#000000"
           }
         },
         "product_yzYa9L": {
@@ -424,7 +432,13 @@
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,"
           }
         },
         "product_kwnea7": {
@@ -435,7 +449,9 @@
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [],
+            "product_colors": ""
           }
         },
         "product_fJUqTf": {
@@ -446,7 +462,9 @@
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [],
+            "product_colors": ""
           }
         }
       },
