@@ -214,8 +214,8 @@
                   <p class="short">{{product.metafields.custom.short.value}}</p>
                 {% endif %} {% endcomment %}
                 {%- render 'price-list', product: product, context: 'card' -%}
-
-                {%- if settings.product_color_display != 'hide' -%}
+                {%  comment  %} 
+                  {%- if settings.product_color_display != 'hide' -%}
                     {%- liquid
                       assign matched_product_option = nil
                       assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ','
@@ -262,7 +262,7 @@
                       {%- endcase -%}
                     {%- endif -%}
                   {%- endif -%}
-
+                {% endcomment %}
               </div>
           </div>
         </div>
