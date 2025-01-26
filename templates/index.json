@@ -34,7 +34,7 @@
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "auto",
+        "video_size": "md",
         "video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "mobile_video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -49,7 +49,9 @@
           "settings": {
             "product": "capture-large-shoulder-bag",
             "img1": "shopify://shop_images/1.jpg",
-            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png"
+            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_E8X4Wf": {
@@ -57,7 +59,9 @@
           "settings": {
             "product": "capture-medium-sling-bag",
             "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
-            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png"
+            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_GAgipp": {
@@ -65,7 +69,9 @@
           "settings": {
             "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006659.png",
-            "img2": "shopify://shop_images/lookbook2.png"
+            "img2": "shopify://shop_images/lookbook2.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_dReknA": {
@@ -73,7 +79,9 @@
           "settings": {
             "product": "mini-bag",
             "img1": "shopify://shop_images/Group_1000006660.png",
-            "img2": "shopify://shop_images/Mask_group_1.png"
+            "img2": "shopify://shop_images/Mask_group_1.png",
+            "title": "",
+            "link": ""
           }
         }
       },
@@ -149,7 +157,9 @@
           "settings": {
             "product": "phone-case",
             "img1": "shopify://shop_images/Group_1000006667.png",
-            "img2": "shopify://shop_images/Group_1000006644.png"
+            "img2": "shopify://shop_images/Group_1000006644.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_fMekgk": {
@@ -157,7 +167,9 @@
           "settings": {
             "product": "phone-case",
             "img1": "shopify://shop_images/Group_1000006668.png",
-            "img2": "shopify://shop_images/Group_1000006645.png"
+            "img2": "shopify://shop_images/Group_1000006645.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_gmeiHm": {
@@ -165,7 +177,9 @@
           "settings": {
             "product": "protective-wrap",
             "img1": "shopify://shop_images/Group_1000006669.png",
-            "img2": "shopify://shop_images/Group_1000006646.png"
+            "img2": "shopify://shop_images/Group_1000006646.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_WbKrhb": {
@@ -173,7 +187,9 @@
           "settings": {
             "product": "protective-wrap",
             "img1": "shopify://shop_images/Group_1000006661.png",
-            "img2": "shopify://shop_images/Group_1000006647.png"
+            "img2": "shopify://shop_images/Group_1000006647.png",
+            "title": "",
+            "link": ""
           }
         }
       },
