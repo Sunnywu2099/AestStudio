@@ -226,7 +226,7 @@
             "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
             "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
             "btn": "Our Story",
-            "link": ""
+            "link": "shopify://pages/aest-studios"
           }
         },
         "block_DCpCth": {
@@ -236,8 +236,8 @@
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
-            "btn": "Charitable Projects",
-            "link": ""
+            "btn": "Your Voice & Your Mind",
+            "link": "shopify://pages/your-voice"
           }
         },
         "block_n4jTGh": {
@@ -247,8 +247,8 @@
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_2.png",
             "img_m": "shopify://shop_images/Clip_path_group_2.png",
-            "btn": "Your Voice",
-            "link": ""
+            "btn": "Charitable Projects",
+            "link": "shopify://pages/our-mission"
           }
         },
         "block_9tqePb": {
@@ -262,15 +262,36 @@
             "link": ""
           }
         },
-        "block_Fij9U6": {
+        "block_dwaUxg": {
           "type": "block",
-          "disabled": true,
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
+            "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
+            "btn": "Special Projects",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "block_QbwJXH": {
+          "type": "block",
           "settings": {
             "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
-            "btn": "Cooperation Plan",
+            "btn": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "block_QKp4UY": {
+          "type": "block",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2.png",
+            "btn": "Help Center",
             "link": ""
           }
         }
@@ -280,7 +301,9 @@
         "block_DCpCth",
         "block_n4jTGh",
         "block_9tqePb",
-        "block_Fij9U6"
+        "block_dwaUxg",
+        "block_QbwJXH",
+        "block_QKp4UY"
       ],
       "settings": {
         "section_title": "AEST CLUB"
