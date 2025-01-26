@@ -62,11 +62,10 @@
 
     <div class="as-collection-tab">
       {% for tab_collection in section.settings.collection_list %}
-        {% if tab_collection.title != collection.title %}
           <div class="tab-pre tab">
             {{ tab_collection.title | downcase | capitalize | link_to: tab_collection.url }}
           </div>
-        {% endif %}
+  
       {% endfor %}
     </div>
   </div>
