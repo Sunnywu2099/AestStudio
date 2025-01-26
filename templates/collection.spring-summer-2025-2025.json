@@ -13,15 +13,8 @@
       "type": "as-collection-info",
       "settings": {
         "collection_list": [
-          "mini",
-          "sling-bags",
-          "shoulder-bags",
-          "elongated-bags",
-          "tote",
-          "multi-bags",
-          "backpacks",
-          "small-leather-goods",
-          "accessories"
+          "spring-summer-2025",
+          "fall-winter-2025"
         ],
         "padding_top_web": 48,
         "padding_top_table": 48,
