@@ -217,9 +217,15 @@
 
                 {% assign product_list = block.settings.product_list %}
                 {% assign color_list = block.settings.product_colors %}
+                {% if product_list != blank and color_list != blank %}
                 <div class="color_box">
-                  {% for color in product_list %}123{% endfor %}
+                  {% for p in product_list %}
+                    <a href="{{ p.url }}">
+                      <div class="color_item" style="background-color:{{color_list[forloop.index0]}}"></div>
+                    </a>
+                  {% endfor %}
                 </div>
+                {% endif %}
                 {%  comment  %} 
                   {%- if settings.product_color_display != 'hide' -%}
                     {%- liquid
