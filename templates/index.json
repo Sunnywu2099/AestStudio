@@ -103,7 +103,7 @@
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture SHE Collection",
         "btn": "Shop Now",
-        "link": "",
+        "link": "shopify://collections/capture-she-series",
         "opacity": 0
       }
     },
@@ -119,7 +119,7 @@
             "img_m": "shopify://shop_images/Mask_group_10.png",
             "title": "Our Story",
             "btn": "Shop Now",
-            "link": "",
+            "link": "shopify://pages/aest-studios",
             "opacity": 0
           }
         },
@@ -132,7 +132,7 @@
             "img_m": "shopify://shop_images/Mask_group_11.png",
             "title": "Capture Medium Sling Bag",
             "btn": "Shop Now",
-            "link": "",
+            "link": "shopify://collections/sling-bags",
             "opacity": 0
           }
         }
@@ -155,7 +155,7 @@
         "product_NQ6CaJ": {
           "type": "product",
           "settings": {
-            "product": "phone-case",
+            "product": "fiery-mirage",
             "img1": "shopify://shop_images/Group_1000006667.png",
             "img2": "shopify://shop_images/Group_1000006644.png",
             "title": "",
@@ -165,7 +165,7 @@
         "product_fMekgk": {
           "type": "product",
           "settings": {
-            "product": "phone-case",
+            "product": "solstice-dream-1",
             "img1": "shopify://shop_images/Group_1000006668.png",
             "img2": "shopify://shop_images/Group_1000006645.png",
             "title": "",
@@ -175,7 +175,7 @@
         "product_gmeiHm": {
           "type": "product",
           "settings": {
-            "product": "protective-wrap",
+            "product": "moonlit-drift",
             "img1": "shopify://shop_images/Group_1000006669.png",
             "img2": "shopify://shop_images/Group_1000006646.png",
             "title": "",
@@ -185,7 +185,7 @@
         "product_WbKrhb": {
           "type": "product",
           "settings": {
-            "product": "protective-wrap",
+            "product": "solstice-dream",
             "img1": "shopify://shop_images/Group_1000006661.png",
             "img2": "shopify://shop_images/Group_1000006647.png",
             "title": "",
