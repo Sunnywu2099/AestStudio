@@ -18,6 +18,45 @@
         "page_width": "xs"
       }
     },
+    "custom_multiple_media_8qkp6L": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_mD8JrP": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/1_1.png",
+            "img_m": "shopify://shop_images/1_1.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_KzGGDU": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studios is a brand that explores invisible needs and creates innovative solutions for everyone.\nDevoted to the Functional Aesthetic philosophy, where design meets purpose, we craft creations that seamlessly fuse fashion, functionality, and innovation."
+          }
+        }
+      },
+      "block_order": [
+        "media_mD8JrP",
+        "text_KzGGDU"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
     "index_banner_ni9R3N": {
       "type": "index-banner",
       "settings": {
@@ -203,6 +242,7 @@
   },
   "order": [
     "main",
+    "custom_multiple_media_8qkp6L",
     "index_banner_ni9R3N",
     "rich_text_GhePUE",
     "section_fold_3PexCU",
