@@ -220,7 +220,8 @@
                 <div class="color_box">
                   {% for p in product_list %}
                     <a href="{{ p.url }}">
-                      <div class="color_item" style="background-color:{{}}"></div>
+                      {% assign bg = p.metafields.custom.product_color.value %}
+                      <div class="color_item" style="background-color:{{bg}};"></div>
                     </a>
                   {% endfor %}
                 </div>
