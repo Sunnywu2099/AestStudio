@@ -59,6 +59,7 @@
     },
     "index_banner_ni9R3N": {
       "type": "index-banner",
+      "disabled": true,
       "settings": {
         "color": "#ffffff",
         "type": "img",
@@ -83,6 +84,7 @@
       "block_order": [
         "richtext_YBipWd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
