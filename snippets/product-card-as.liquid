@@ -42,7 +42,7 @@
     assign show_quick_buy = show_quick_buy | default: settings.show_quick_buy, allow_false: true
     assign show_title = true
     assign show_prices = true
-    assign show_short = true
+    assign show_short = product.metafields.custom.short
     assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true
     assign show_swatches = show_swatches | default: true, allow_false: true
   endif
