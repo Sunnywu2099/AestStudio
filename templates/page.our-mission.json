@@ -78,6 +78,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -114,6 +116,8 @@
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -150,6 +154,8 @@
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -186,6 +192,8 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 0,
         "pt_m": 0,
@@ -198,61 +206,77 @@
         "product_giVmcp": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-large-shoulder-bag",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-large-shoulder-bag"
+            ]
           }
         },
         "product_Qnih3E": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-medium-sling-bag",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-medium-sling-bag"
+            ]
           }
         },
         "product_CxL3C6": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-small-bag-black",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         },
         "product_cENDpP": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-small-bag-green",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         },
         "product_EarxmR": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-small-bag-purple",
+            "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
-          }
-        },
-        "product_ieBrtk": {
-          "type": "product",
-          "settings": {
-            "product": "accessories-product",
-            "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
-            "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
-            "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         }
       },
@@ -261,8 +285,7 @@
         "product_Qnih3E",
         "product_CxL3C6",
         "product_cENDpP",
-        "product_EarxmR",
-        "product_ieBrtk"
+        "product_EarxmR"
       ],
       "settings": {
         "unable_padding": false,

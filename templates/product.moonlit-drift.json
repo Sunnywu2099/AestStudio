@@ -377,56 +377,77 @@
         "product_qjY7Kx": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-large-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-large-shoulder-bag"
+            ]
           }
         },
         "product_afxQDF": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-medium-sling-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-medium-sling-bag"
+            ]
           }
         },
         "product_AM3Jac": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-small-bag-black",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         },
         "product_znMdCT": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-small-bag-green",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         },
         "product_nfPUDX": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-small-bag-purple",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
           }
         }
       },

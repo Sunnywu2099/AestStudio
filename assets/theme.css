@@ -7816,3 +7816,8 @@ ul {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+.mock-name{
+  display: none;
+}
