@@ -31,14 +31,10 @@
         "play_pDjcaV",
         "heading_9JnFx7"
       ],
-      "custom_css": [
-        ".content-over-media video::-webkit-media-controls {display: none !important;}",
-        ".content-over-media video::-webkit-media-controls-panel {display: none !important;}",
-        ".content-over-media video::-webkit-media-controls-play-button {display: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "autoplay": true,
-        "show_controls": true,
+        "show_controls": false,
         "video_size": "fill",
         "video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "mobile_video": "shopify://files/videos/虚焦眼睛和包.mp4",
