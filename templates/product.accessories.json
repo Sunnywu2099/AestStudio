@@ -374,77 +374,103 @@
         "content": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
       }
     },
-    "section_product_popup_DyMQKF": {
+    "section_product_popup_iqCkwF": {
       "type": "section-product-popup",
       "blocks": {
-        "product_qjY7Kx": {
+        "product_NARDw8": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-large-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-large-shoulder-bag"
+            ],
+            "product_colors": "#000000"
           }
         },
-        "product_afxQDF": {
+        "product_bM7EVV": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-medium-sling-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-medium-sling-bag"
+            ],
+            "product_colors": "#000000"
           }
         },
-        "product_AM3Jac": {
+        "product_yzYa9L": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-small-bag-green",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         },
-        "product_znMdCT": {
+        "product_kwnea7": {
           "type": "product",
           "settings": {
-            "product": "agnes-black-mini-shoulder-bag",
+            "product": "capture-small-bag-purple",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         },
-        "product_nfPUDX": {
+        "product_fJUqTf": {
           "type": "product",
           "settings": {
-            "product": "accessories-product",
+            "product": "capture-small-bag-black",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         }
       },
       "block_order": [
-        "product_qjY7Kx",
-        "product_afxQDF",
-        "product_AM3Jac",
-        "product_znMdCT",
-        "product_nfPUDX"
+        "product_NARDw8",
+        "product_bM7EVV",
+        "product_yzYa9L",
+        "product_kwnea7",
+        "product_fJUqTf"
       ],
       "settings": {
         "unable_padding": false,
         "title": "You May Also Like",
         "continue_shopping": false,
-        "url": "shopify://products/accessories-product"
+        "url": ""
       }
     },
     "17373628072f3d93c9": {
@@ -520,7 +546,7 @@
     "custom_text_with_media_iPGteQ",
     "custom_text_with_media_dhJxQC",
     "product_banner_HgD9HU",
-    "section_product_popup_DyMQKF",
+    "section_product_popup_iqCkwF",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
