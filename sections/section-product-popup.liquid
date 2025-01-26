@@ -216,13 +216,11 @@
                 {%- render 'price-list', product: product, context: 'card' -%}
 
                 {% assign product_list = block.settings.product_list %}
-                {% assign color_list = block.settings.product_colors | split: ',' %}
-                {{color_list}}
-                {% if product_list != blank and color_list != blank %}
+                {% if product_list != blank %}
                 <div class="color_box">
                   {% for p in product_list %}
                     <a href="{{ p.url }}">
-                      <div class="color_item" style="background-color:{{color_list[forloop.index0]}}"></div>
+                      <div class="color_item" style="background-color:{{}}"></div>
                     </a>
                   {% endfor %}
                 </div>
@@ -720,12 +718,6 @@
               "id": "product_list",
               "label": "同类产品",
               "limit": 3
-            },
-            {
-              "type": "textarea",
-              "id": "product_colors",
-              "label": "同类产品颜色",
-              "info": "颜色按上面的产品list顺序写，用逗号隔开,例如: #000000,#ffffff"
             }
         ]
       }
