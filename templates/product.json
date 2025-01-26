@@ -438,7 +438,7 @@
               "capture-small-bag-green",
               "capture-small-bag-purple"
             ],
-            "product_colors": "#000000,"
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         },
         "product_kwnea7": {
@@ -450,8 +450,12 @@
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
             "show_media": true,
-            "product_list": [],
-            "product_colors": ""
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         },
         "product_fJUqTf": {
@@ -463,8 +467,12 @@
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
             "show_media": true,
-            "product_list": [],
-            "product_colors": ""
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ],
+            "product_colors": "#000000,#B9C89F,#C9C4D5"
           }
         }
       },
