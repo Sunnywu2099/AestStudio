@@ -7,41 +7,42 @@
 %}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top_mobile }}px;
-        padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
-      }
+    .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top_mobile }}px;
+          padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
 
-      @media screen and (min-width: 768px) {
-      .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top_table }}px;
-        padding-bottom: {{ section.settings.padding_bottom_table }}px;
-      }
-    }
-
-      @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 768px) {
         .section-{{ section.id }}-padding {
-          padding-top: {{ section.settings.padding_top_web }}px;
-          padding-bottom: {{ section.settings.padding_bottom_web }}px;
+          padding-top: {{ section.settings.padding_top_table }}px;
+          padding-bottom: {{ section.settings.padding_bottom_table }}px;
         }
       }
 
+        @media screen and (min-width: 1024px) {
+          .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top_web }}px;
+            padding-bottom: {{ section.settings.padding_bottom_web }}px;
+          }
+        }
 
-    .section-{{ section.id }} .box-container {
-        max-width: var( --ay-mx-w );
-        margin: 0 auto;
-    }
-    .section-{{ section.id }} {
-      display:block;
-    }
-    .section-{{ section.id }} .des {
-      h1,h2,h3,h4,h5,h6 {
-      color: var(--ay-des-color)
+
+      .section-{{ section.id }} .box-container {
+          max-width: var( --ay-mx-w );
+          margin: 0 auto;
+      }
+      .section-{{ section.id }} {
+        display:block;
+      }
+      .section-{{ section.id }} .des {
+        h1,h2,h3,h4,h5,h6 {
+        color: var(--ay-des-color)
+
+        }
 
       }
+  as-collection-info{display:none}as-collection-info .as-collection-heading{margin-bottom:24px}as-collection-info .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-info .as-underline span{color:var(--text-color);font-size:18px;font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-info .as-collection-tab{display:flex;flex-direction:row;-moz-column-gap:24px;column-gap:24px;row-gap:4px;padding-bottom:40px}as-collection-info .as-collection-tab{margin-top:40px}@media (min-width: 768px){as-collection-info .as-collection-tab{margin-top:64px}}as-collection-info .as-collection-tab{flex-wrap:wrap}
 
-    }
-as-collection-info{display:none}as-collection-info .as-collection-heading{margin-bottom:24px}as-collection-info .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-info .as-underline span{color:var(--text-color);font-size:18px;font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-info .as-collection-tab{display:flex;flex-direction:row;-moz-column-gap:24px;column-gap:24px;row-gap:4px;padding-bottom:40px}as-collection-info .as-collection-tab{margin-top:40px}@media (min-width: 768px){as-collection-info .as-collection-tab{margin-top:64px}}as-collection-info .as-collection-tab{flex-wrap:wrap}
 
 {%- endstyle -%}
 
@@ -60,15 +61,10 @@ as-collection-info{display:none}as-collection-info .as-collection-heading{margin
     </div>
 
     <div class="as-collection-tab">
-      <div class="tab-cur tab">
-        {{ collection.title }}
-      </div>
-
       {% for tab_collection in section.settings.collection_list %}
-        
         {% if tab_collection.title != collection.title %}
           <div class="tab-pre tab">
-            {{ tab_collection.title | link_to:tab_collection.url }}
+            {{ tab_collection.title | downcase | capitalize | link_to: tab_collection.url }}
           </div>
         {% endif %}
       {% endfor %}
@@ -86,8 +82,7 @@ as-collection-info{display:none}as-collection-info .as-collection-heading{margin
     {
       "type": "collection_list",
       "id": "collection_list",
-      "label": "产品系列tabs",
-    
+      "label": "产品系列tabs"
     },
     {
       "type": "header",
@@ -168,9 +163,7 @@ as-collection-info{display:none}as-collection-info .as-collection-heading{margin
     }
   ],
 
-  "blocks": [
-   
-  ],
+  "blocks": [],
 
   "presets": [
     {

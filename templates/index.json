@@ -34,7 +34,7 @@
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "auto",
+        "video_size": "fill",
         "video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "mobile_video": "shopify://files/videos/虚焦眼睛和包.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -49,7 +49,9 @@
           "settings": {
             "product": "capture-large-shoulder-bag",
             "img1": "shopify://shop_images/1.jpg",
-            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png"
+            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_E8X4Wf": {
@@ -57,23 +59,29 @@
           "settings": {
             "product": "capture-medium-sling-bag",
             "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
-            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png"
+            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_GAgipp": {
           "type": "product",
           "settings": {
-            "product": "mini-bag",
+            "product": "capture-small-bag-black",
             "img1": "shopify://shop_images/Group_1000006659.png",
-            "img2": "shopify://shop_images/lookbook2.png"
+            "img2": "shopify://shop_images/lookbook2.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_dReknA": {
           "type": "product",
           "settings": {
-            "product": "mini-bag",
+            "product": "capture-small-bag-green",
             "img1": "shopify://shop_images/Group_1000006660.png",
-            "img2": "shopify://shop_images/Mask_group_1.png"
+            "img2": "shopify://shop_images/Mask_group_1.png",
+            "title": "",
+            "link": ""
           }
         }
       },
@@ -95,7 +103,7 @@
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture SHE Collection",
         "btn": "Shop Now",
-        "link": "",
+        "link": "shopify://collections/capture-she-series",
         "opacity": 0
       }
     },
@@ -111,7 +119,7 @@
             "img_m": "shopify://shop_images/Mask_group_10.png",
             "title": "Our Story",
             "btn": "Shop Now",
-            "link": "",
+            "link": "shopify://pages/aest-studios",
             "opacity": 0
           }
         },
@@ -124,7 +132,7 @@
             "img_m": "shopify://shop_images/Mask_group_11.png",
             "title": "Capture Medium Sling Bag",
             "btn": "Shop Now",
-            "link": "",
+            "link": "shopify://collections/sling-bags",
             "opacity": 0
           }
         }
@@ -147,33 +155,41 @@
         "product_NQ6CaJ": {
           "type": "product",
           "settings": {
-            "product": "phone-case",
+            "product": "fiery-mirage",
             "img1": "shopify://shop_images/Group_1000006667.png",
-            "img2": "shopify://shop_images/Group_1000006644.png"
+            "img2": "shopify://shop_images/Group_1000006644.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_fMekgk": {
           "type": "product",
           "settings": {
-            "product": "phone-case",
+            "product": "solstice-dream-1",
             "img1": "shopify://shop_images/Group_1000006668.png",
-            "img2": "shopify://shop_images/Group_1000006645.png"
+            "img2": "shopify://shop_images/Group_1000006645.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_gmeiHm": {
           "type": "product",
           "settings": {
-            "product": "protective-wrap",
+            "product": "moonlit-drift",
             "img1": "shopify://shop_images/Group_1000006669.png",
-            "img2": "shopify://shop_images/Group_1000006646.png"
+            "img2": "shopify://shop_images/Group_1000006646.png",
+            "title": "",
+            "link": ""
           }
         },
         "product_WbKrhb": {
           "type": "product",
           "settings": {
-            "product": "protective-wrap",
+            "product": "solstice-dream",
             "img1": "shopify://shop_images/Group_1000006661.png",
-            "img2": "shopify://shop_images/Group_1000006647.png"
+            "img2": "shopify://shop_images/Group_1000006647.png",
+            "title": "",
+            "link": ""
           }
         }
       },
@@ -195,7 +211,7 @@
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture Large Shoulder Bag",
         "btn": "Shop Now",
-        "link": "",
+        "link": "shopify://products/capture-large-shoulder-bag",
         "opacity": 0
       }
     },
@@ -210,7 +226,7 @@
             "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
             "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
             "btn": "Our Story",
-            "link": ""
+            "link": "shopify://pages/aest-studios"
           }
         },
         "block_DCpCth": {
@@ -220,8 +236,8 @@
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
-            "btn": "Charitable Projects",
-            "link": ""
+            "btn": "Your Voice & Your Mind",
+            "link": "shopify://pages/your-voice"
           }
         },
         "block_n4jTGh": {
@@ -231,8 +247,8 @@
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_2.png",
             "img_m": "shopify://shop_images/Clip_path_group_2.png",
-            "btn": "Your Voice",
-            "link": ""
+            "btn": "Charitable Projects",
+            "link": "shopify://pages/our-mission"
           }
         },
         "block_9tqePb": {
@@ -246,15 +262,36 @@
             "link": ""
           }
         },
-        "block_Fij9U6": {
+        "block_dwaUxg": {
           "type": "block",
-          "disabled": true,
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
+            "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
+            "btn": "Special Projects",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "block_QbwJXH": {
+          "type": "block",
           "settings": {
             "color": "#ffffff",
             "type": "img",
             "img": "shopify://shop_images/Clip_path_group_1.png",
             "img_m": "shopify://shop_images/Clip_path_group_1.png",
-            "btn": "Cooperation Plan",
+            "btn": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "block_QKp4UY": {
+          "type": "block",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2.png",
+            "btn": "Help Center",
             "link": ""
           }
         }
@@ -264,7 +301,9 @@
         "block_DCpCth",
         "block_n4jTGh",
         "block_9tqePb",
-        "block_Fij9U6"
+        "block_dwaUxg",
+        "block_QbwJXH",
+        "block_QKp4UY"
       ],
       "settings": {
         "section_title": "AEST CLUB"

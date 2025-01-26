@@ -20,17 +20,18 @@ Supported variables
     {%- if filter.type == 'price_range' -%}
       {%- if filter.max_value.value != blank or filter.min_value.value != blank -%}
         <div class="removable-facet">
-          <facet-link>
-            <a href="{{ filter.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>
-              {%- render 'icon' with 'close', width: 10 -%}
-            </a>
-          </facet-link>
+
 
           {%- if section.settings.show_filter_group_name -%}
             <span class="text-subdued">{{- filter.label }}: {{ filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}</span>
           {%- else -%}
             <span class="text-subdued">{{- filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}</span>
           {%- endif -%}
+          <facet-link>
+            <a href="{{ filter.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>
+              {%- render 'icon' with 'close', width: 10 -%}
+            </a>
+          </facet-link>
         </div>
 
         {%- assign active_values_count = active_values_count | plus: 1 -%}
@@ -38,17 +39,18 @@ Supported variables
     {%- else -%}
       {%- for active_value in filter.active_values -%}
         <div class="removable-facet">
-          <facet-link>
-            <a href="{{ active_value.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>
-              {%- render 'icon' with 'close', width: 10 -%}
-            </a>
-          </facet-link>
+     
 
           {%- if section.settings.show_filter_group_name or filter.type == 'boolean' -%}
             <span class="text-subdued">{{- filter.label }}: {{ active_value.label -}}</span>
           {%- else -%}
             <span class="text-subdued">{{- active_value.label -}}</span>
           {%- endif -%}
+          <facet-link>
+            <a href="{{ active_value.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>
+              {%- render 'icon' with 'close', width: 10 -%}
+            </a>
+          </facet-link>
         </div>
 
         {%- assign active_values_count = active_values_count | plus: 1 -%}

@@ -49,13 +49,13 @@
             "size_chart_page": ""
           }
         },
-        "advanced_wishlist_wishlist_btn_QkrA3n": {
+        "advanced_wishlist_wishlist_btn_HxJFt6": {
           "type": "shopify://apps/advanced-wishlist/blocks/wishlist-btn/330d9272-08ea-4193-b3e0-475a69fa65fa",
           "settings": {
             "button_style": "style_3",
             "button_border": 0,
             "button_font_size": 14,
-            "button_font_weight": "400",
+            "button_font_weight": "500",
             "button_border_radius": 0,
             "button_vertical_space": 0,
             "button_horizontal_space": 0,
@@ -92,7 +92,7 @@
           "type": "in_action",
           "settings": {
             "title": "In Action",
-            "text": "Capture Large Shoulder Bag in hand-finished oil-waxed cow leather with a brushed matte silver metal plaque on the front, featuring the AEST logo in Braille, symbolizing our philosophy of addressing invisible needs with thoughtful design.",
+            "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
             "img_1": "shopify://shop_images/Layer_0_7.png",
             "url_1": "/",
             "img_2": "shopify://shop_images/Layer_0_8.png",
@@ -111,7 +111,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Description",
-            "content": "<p>This Capture Shoulder Bag is a member of the Capture \"SHE\" Collection. We draw inspiration from the traditional camera bag, blending timeless design with fashion and elegance to fulfill both functional and aesthetic needs. </p><p>Designed to transition seamlessly between occasions, the Capture Shoulder Bag is perfect for commuting, capturing life’s moments, or enjoying a casual weekend getaway. It effortlessly blends elegance with practicality, adapting to various lifestyles with ease.</p>",
+            "content": "<p>This collection draws inspiration from Vladimir Mayakovsky’s powerful words: “I am not fragile like a flower, I am fragile like a bomb.” A testament to strength and resilience, it combines bold design with thoughtful functionality.</p><ul><li>Comprehensive Protection for Your Gear</li><li>Multi-Purpose Use</li><li>Durable and Reusable</li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -122,7 +122,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Product Details",
-            "content": "<ul><li>Dimensions: 39.5 x 13.5 x 18 cm (15.5 x 5.3 x 7 inches)</li><li>Material: 100% Calf Leather</li><li>Style: Shoulder Bag</li><li>Top Handle: 31 cm (12.2 inches)</li><li>Adjustable Shoulder Strap: 55-61 cm (21.7-24 inches)</li><li>Matte silver metal plaque featuring the AEST logo</li><li> Dual zipper + hidden magnetic closure</li><li>2 side flap pockets with magnetic closures</li><li>2 fixed internal compartment pockets</li><li>3 internal leather card slots</li><li>2 padded dividers for customizable organization</li><li>Fits 1 camera with 2 lenses or other essentials</li><li>Embossed branding on the bag</li><li>Lining: Soft cavalry twill black lining</li><li>Weight: 1.2 kg (2.65 lbs)</li></ul>",
+            "content": "<ul><li>Dimensions: 350 x 350 mm (13.8 x 13.8 inches)</li><li>Material: 100% Polyester</li><li>Design: Blooming Flower pattern, combining elegance and vibrancy</li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -167,7 +167,7 @@
         "price",
         "payment_terms",
         "variant_picker",
-        "advanced_wishlist_wishlist_btn_QkrA3n",
+        "advanced_wishlist_wishlist_btn_HxJFt6",
         "buy_buttons",
         "in_action_ifkLi4",
         "accordion_UYLqjQ",
@@ -198,28 +198,28 @@
           "type": "item",
           "settings": {
             "name": "Product  Video",
-            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+            "id": "shopify-section-template--18965441183965__video_eEEpfh"
           }
         },
         "item_PiwMpQ": {
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+            "id": "shopify-section-template--18965441183965__custom_text_with_media_BaK7bn"
           }
         },
         "item_tLRGyK": {
           "type": "item",
           "settings": {
             "name": "Agnès on you",
-            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+            "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
         "item_QrKERe": {
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": "shopify-section-template--18952352989405__section_product_popup_iqCkwF"
+            "id": "shopify-section-template--18965441183965__section_product_popup_DyMQKF"
           }
         },
         "item_aqM9w8": {
@@ -233,7 +233,7 @@
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+            "id": "shopify-section-template--18965441183965__product_follows_RnNaCy"
           }
         }
       },
@@ -264,230 +264,184 @@
         "autoplay": false,
         "show_controls": true,
         "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "external_video_url": "",
         "poster": "shopify://shop_images/Layer_0.png",
         "text_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_HnemtW": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify://shop_images/Layer_0_1.png",
-        "mobile_image": "shopify://shop_images/Clip_path_group_1.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "product_features_QrAATR": {
-      "type": "product-features",
+    "custom_text_with_media_BaK7bn": {
+      "type": "custom-text-with-media",
       "blocks": {
-        "item_7ppeai": {
+        "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
           }
         },
-        "item_gdzg8N": {
+        "item_yiwEDA": {
           "type": "item",
           "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_rU4AFj": {
-          "type": "item",
-          "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
           }
         }
       },
       "block_order": [
-        "item_7ppeai",
-        "item_gdzg8N",
-        "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_eXUKfX",
+        "item_yiwEDA"
       ],
       "settings": {
-        "title": "Product Features"
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": false,
+        "autoplay": true,
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
       }
     },
-    "product_cards_zQFYB9": {
-      "type": "product-cards",
+    "custom_text_with_media_iPGteQ": {
+      "type": "custom-text-with-media",
       "blocks": {
-        "item_MXWeV8": {
+        "item_eLELVW": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_2.png",
-            "img_m": "shopify://shop_images/Layer_0_2.png"
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
           }
         },
-        "item_adDApN": {
+        "item_Fg8hrc": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_3.png",
-            "img_m": "shopify://shop_images/Layer_0_3.png"
-          }
-        },
-        "item_kxJCE6": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_4.png",
-            "img_m": "shopify://shop_images/Layer_0_4.png"
-          }
-        },
-        "item_JxA8PW": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_5.png",
-            "img_m": "shopify://shop_images/Layer_0_5.png"
-          }
-        },
-        "item_UQCD4J": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Layer_0_6.png",
-            "img_m": "shopify://shop_images/Layer_0_6.png"
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
           }
         }
       },
       "block_order": [
-        "item_MXWeV8",
-        "item_adDApN",
-        "item_kxJCE6",
-        "item_JxA8PW",
-        "item_UQCD4J"
+        "item_eLELVW",
+        "item_Fg8hrc"
       ],
       "settings": {
-        "title": "Agnès on You"
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "autoplay": false,
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "left"
       }
     },
-    "section_product_popup_iqCkwF": {
+    "custom_text_with_media_dhJxQC": {
+      "type": "custom-text-with-media",
+      "blocks": {
+        "item_EK6GDX": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        },
+        "item_NTRqdK": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_EK6GDX",
+        "item_NTRqdK"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "use_video": true,
+        "autoplay": false,
+        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "text_alignment": "right"
+      }
+    },
+    "product_banner_HgD9HU": {
+      "type": "product-banner",
+      "settings": {
+        "title": "You May Also Like",
+        "img": "shopify://shop_images/Layer_0_11.png",
+        "content": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+      }
+    },
+    "section_product_popup_DyMQKF": {
       "type": "section-product-popup",
       "blocks": {
-        "product_NARDw8": {
+        "product_qjY7Kx": {
           "type": "product",
           "settings": {
-            "product": "capture-large-shoulder-bag",
+            "product": "accessories-product",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-large-shoulder-bag"
-            ],
-            "product_colors": "#000000"
+            "show_media": true
           }
         },
-        "product_bM7EVV": {
+        "product_afxQDF": {
           "type": "product",
           "settings": {
-            "product": "capture-medium-sling-bag",
+            "product": "agnes-black-mini-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-medium-sling-bag"
-            ],
-            "product_colors": "#000000"
+            "show_media": true
           }
         },
-        "product_yzYa9L": {
+        "product_AM3Jac": {
           "type": "product",
           "settings": {
-            "product": "capture-small-bag-green",
+            "product": "agnes-black-mini-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-small-bag-black",
-              "capture-small-bag-green",
-              "capture-small-bag-purple"
-            ],
-            "product_colors": "#000000,#B9C89F,#C9C4D5"
+            "show_media": true
           }
         },
-        "product_kwnea7": {
+        "product_znMdCT": {
           "type": "product",
           "settings": {
-            "product": "capture-small-bag-purple",
+            "product": "agnes-black-mini-shoulder-bag",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-small-bag-black",
-              "capture-small-bag-green",
-              "capture-small-bag-purple"
-            ],
-            "product_colors": "#000000,#B9C89F,#C9C4D5"
+            "show_media": true
           }
         },
-        "product_fJUqTf": {
+        "product_nfPUDX": {
           "type": "product",
           "settings": {
-            "product": "capture-small-bag-black",
+            "product": "accessories-product",
             "link": "",
             "img": "shopify://shop_images/Layer_0_1_5a6a5f20-da41-46c8-9caf-1176a8b7657e.png",
             "img_m": "shopify://shop_images/Layer_0_2_b0539930-a5de-4378-8ae8-f96c623c6385.png",
             "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-small-bag-black",
-              "capture-small-bag-green",
-              "capture-small-bag-purple"
-            ],
-            "product_colors": "#000000,#B9C89F,#C9C4D5"
+            "show_media": true
           }
         }
       },
       "block_order": [
-        "product_NARDw8",
-        "product_bM7EVV",
-        "product_yzYa9L",
-        "product_kwnea7",
-        "product_fJUqTf"
+        "product_qjY7Kx",
+        "product_afxQDF",
+        "product_AM3Jac",
+        "product_znMdCT",
+        "product_nfPUDX"
       ],
       "settings": {
         "unable_padding": false,
         "title": "You May Also Like",
         "continue_shopping": false,
-        "url": ""
+        "url": "shopify://products/accessories-product"
       }
     },
     "17373628072f3d93c9": {
@@ -559,10 +513,11 @@
     "main",
     "product_nav_eBmH6T",
     "video_eEEpfh",
-    "image_with_text_overlay_HnemtW",
-    "product_features_QrAATR",
-    "product_cards_zQFYB9",
-    "section_product_popup_iqCkwF",
+    "custom_text_with_media_BaK7bn",
+    "custom_text_with_media_iPGteQ",
+    "custom_text_with_media_dhJxQC",
+    "product_banner_HgD9HU",
+    "section_product_popup_DyMQKF",
     "17373628072f3d93c9",
     "product_follows_RnNaCy"
   ]
