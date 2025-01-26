@@ -217,6 +217,7 @@
 
                 {% assign product_list = block.settings.product_list %}
                 {% assign color_list = block.settings.product_colors | split: ',' %}
+                {{color_list}}
                 {% if product_list != blank and color_list != blank %}
                 <div class="color_box">
                   {% for p in product_list %}
