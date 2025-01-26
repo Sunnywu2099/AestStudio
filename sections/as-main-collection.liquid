@@ -205,6 +205,7 @@
                     section-id="{{ section.id }}"
                     class="popover  color-scheme color-scheme--dialog custom-popover drawer--sm"
                     close-on-listbox-select
+                      style="--base-color:#25282A;"
                   >
                     <p class="h4" slot="header">{{ 'collection.faceting.sort_by' | t }}</p>
 
@@ -300,6 +301,7 @@
               <facets-drawer
                 id="facets-drawer"
                 class="facets-drawer custom-drawer drawer drawer--sm color-scheme color-scheme--dialog {% if section.settings.filter_layout == 'sidebar' %}md:hidden{% endif %}"
+                style="--base-color:#25282A;"
               >
                 <p class="h4" slot="header">{{ 'collection.faceting.filters' | t }}</p>
 
