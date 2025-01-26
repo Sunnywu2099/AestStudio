@@ -13,15 +13,9 @@
       "type": "as-collection-info",
       "settings": {
         "collection_list": [
-          "mini",
-          "sling-bags",
-          "shoulder-bags",
-          "elongated-bags",
-          "tote",
-          "multi-bags",
-          "backpacks",
-          "small-leather-goods",
-          "accessories"
+          "bag-accessories-keyrings",
+          "camera-accessories",
+          "phone-cases-straps"
         ],
         "padding_top_web": 48,
         "padding_top_table": 48,
