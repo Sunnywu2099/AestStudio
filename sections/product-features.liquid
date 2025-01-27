@@ -18,6 +18,27 @@
   gap: 20px;
   overflow-x: auto;
 }
+.product-features .img-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #F7F7F6;
+}
+.product-features .text{
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  margin: 30px 0;
+}
+.product-features .img-wrapper .img-box{
+  flex: 1;
+  max-width: 491px;
+}
+.product-features .img-wrapper img{
+  
+}
 .product-features .top-wrapper .name {
   font-size: 14px;
   font-weight: 500;
@@ -40,7 +61,21 @@
 .swiper-rtl .swiper-button-prev:after{
   display: none;
 }
+
+@media screen and (max-width: 1024px){
+  .product-features .text{
+    font-size: 12px;
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+}
 @media screen and (max-width: 699px) {
+  .product-features .img-wrapper img{
+    
+  }
+  .product-features .img-wrapper .img-box{
+    max-width: 200px;
+  }
   .product-features .section-title {
     padding: 0 16px;
     margin-bottom: 16px;
@@ -67,20 +102,46 @@
         {% assign alt = block.settings.name %}
         <div class="swiper-slide item">
           <div class="img-wrapper">
+            
             {% if block.settings.img != blank %}
-              <picture>
-                {% if block.settings.img_m != blank %}
-                  <source srcset="{{ block.settings.img_m | img_url: '750x' }}" media="(max-width: 375px)">
-                  <source srcset="{{ block.settings.img_m | img_url: '1000x' }}" media="(max-width: 767px)">
+              <div class="img-box">
+                <picture>
+                  {% if block.settings.img_m != blank %}
+                    <source srcset="{{ block.settings.img_m | img_url: '750x' }}" media="(max-width: 375px)">
+                    <source srcset="{{ block.settings.img_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                  {% endif %}
+                  <source srcset="{{ block.settings.img | img_url: '2160x' }}" media="(max-width: 1080px)">
+                  <img
+                    src="{{ block.settings.img | img_url: '2400x' }}"
+                    alt="{{ alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+                </picture>
+                {% if block.settings.text != blank %}
+                  <div class="text">{{ block.settings.text }}</div>
                 {% endif %}
-                <source srcset="{{ block.settings.img | img_url: '2160x' }}" media="(max-width: 1080px)">
-                <img
-                  src="{{ block.settings.img | img_url: '2400x' }}"
-                  alt="{{ alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-              </picture>
+              </div>
+            {% endif %}
+            {% if block.settings.img_2 != blank %}
+              <div class="img-box">
+                <picture>
+                  {% if block.settings.img_2_m != blank %}
+                    <source srcset="{{ block.settings.img_2_m | img_url: '750x' }}" media="(max-width: 375px)">
+                    <source srcset="{{ block.settings.img_2_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                  {% endif %}
+                  <source srcset="{{ block.settings.img_2 | img_url: '2160x' }}" media="(max-width: 1080px)">
+                  <img
+                    src="{{ block.settings.img_2 | img_url: '2400x' }}"
+                    alt="{{ alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+                </picture>
+                {% if block.settings.text_2 != blank %}
+                  <div class="text">{{ block.settings.text_2 }}</div>
+                {% endif %}
+              </div>
             {% endif %}
           </div>
         </div>
@@ -155,6 +216,24 @@
             "type": "image_picker",
             "id": "img_m",
             "label": "Image Mobile"
+          },{
+            "type": "textarea",
+            "id": "text",
+            "label": "Image text"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_2",
+            "label": "Image 2"
+          }, {
+            "type": "image_picker",
+            "id": "img_2_m",
+            "label": "Image 2 Mobile"
+          },
+          {
+            "type": "textarea",
+            "id": "text_2",
+            "label": "Image text 2"
           }
         ]
       }
