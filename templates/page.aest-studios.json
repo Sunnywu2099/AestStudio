@@ -214,8 +214,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_5.png",
-            "use_video": true,
+            "img": "shopify://shop_images/Rectangle_249.png",
+            "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
