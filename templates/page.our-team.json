@@ -135,8 +135,7 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Group.png",
-            "img_m": "shopify://shop_images/Group.png",
+            "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
             "autoplay": true
           }
@@ -174,8 +173,7 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Clip_path_group_7.png",
-            "img_m": "shopify://shop_images/Clip_path_group_7.png",
+            "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
             "autoplay": true
           }
@@ -213,8 +211,7 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Clip_path_group_8.png",
-            "img_m": "shopify://shop_images/Clip_path_group_8.png",
+            "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
             "autoplay": true
           }
@@ -252,8 +249,7 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Clip_path_group_9.png",
-            "img_m": "shopify://shop_images/Clip_path_group_9.png",
+            "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
             "autoplay": true
           }
@@ -292,8 +288,7 @@
           "settings": {
             "color": "#25282a",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_4.png",
-            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "img": "shopify://shop_images/Rectangle_255.png",
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
@@ -303,8 +298,7 @@
           "settings": {
             "color": "#25282a",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
-            "img_m": "shopify://shop_images/Clip_path_group_3_0128043f-60a1-4ebe-9088-6c16ea61d327.png",
+            "img": "shopify://shop_images/Rectangle_255.png",
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
@@ -314,8 +308,7 @@
           "settings": {
             "color": "#25282a",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2_90944465-af2e-4c19-b61d-1dafe52b9c28.png",
+            "img": "shopify://shop_images/Rectangle_255.png",
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
@@ -325,8 +318,7 @@
           "settings": {
             "color": "#25282a",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_2ec77d3e-0630-45d9-a9f5-4dc362d827a0.png",
+            "img": "shopify://shop_images/Rectangle_255.png",
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
@@ -336,8 +328,7 @@
           "settings": {
             "color": "#25282a",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_4.png",
-            "img_m": "shopify://shop_images/Clip_path_group_4.png",
+            "img": "shopify://shop_images/Rectangle_255.png",
             "title": "Vanessa",
             "text": "Aest Studios Founder / Architecture designer"
           }
