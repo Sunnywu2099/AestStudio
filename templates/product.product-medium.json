@@ -291,33 +291,11 @@
         "item_7ppeai": {
           "type": "item",
           "settings": {
-            "name": "Inside",
+            "name": "Top",
             "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_gdzg8N": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_rU4AFj": {
@@ -325,16 +303,48 @@
           "settings": {
             "name": "Inside",
             "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "item_gdzg8N": {
+          "type": "item",
+          "settings": {
+            "name": "Material",
+            "img": "shopify://shop_images/Group_56.png",
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "item_8VLQfA": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_56.png",
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "item_cyjQcR": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_56.png",
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
           }
         }
       },
       "block_order": [
         "item_7ppeai",
+        "item_rU4AFj",
         "item_gdzg8N",
         "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_cyjQcR"
       ],
       "settings": {
         "title": "Product Features"
