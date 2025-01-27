@@ -275,7 +275,6 @@
         "color_scheme": "",
         "image_size": "auto",
         "image": "shopify://shop_images/Layer_0_1.png",
-        "mobile_image": "shopify://shop_images/Clip_path_group_1.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -292,50 +291,68 @@
         "item_7ppeai": {
           "type": "item",
           "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_gdzg8N": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "name": "Top",
+            "img": "shopify://shop_images/Group_1000006693.png",
+            "img_m": "shopify://shop_images/Group_1000006693.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_rU4AFj": {
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img": "shopify://shop_images/pdp-_3.png",
+            "img_m": "shopify://shop_images/pdp-_3.png",
+            "text": "Two removable, padded dividers<br>\nallowing organization of a camera with two lenses or other essentials.",
+            "img_2": "shopify://shop_images/Group_1000006689.png",
+            "img_2_m": "shopify://shop_images/Group_1000006689.png",
+            "text_2": ""
+          }
+        },
+        "item_8VLQfA": {
+          "type": "item",
+          "settings": {
+            "name": "Material",
+            "img": "shopify://shop_images/pdp-_2.png",
+            "img_m": "shopify://shop_images/pdp-_2.png",
+            "text": "Crafted from hand-finished oil-waxed cow leather",
+            "img_2": "shopify://shop_images/Mask_group_65ee8c6b-7429-401f-a67b-d634bb1c8220.png",
+            "img_2_m": "shopify://shop_images/Mask_group_65ee8c6b-7429-401f-a67b-d634bb1c8220.png",
+            "text_2": "Soft cavalry twill black lining for gentle protection"
+          }
+        },
+        "item_gdzg8N": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_1000006672.png",
+            "img_m": "shopify://shop_images/Group_1000006672.png",
+            "text": "Dual zipper + hidden magnetic closure for full top opening",
+            "img_2": "shopify://shop_images/Mask_group_1_1eddf05b-50a1-4173-91dc-e7e428da8c3e.png",
+            "img_2_m": "shopify://shop_images/Mask_group_1_1eddf05b-50a1-4173-91dc-e7e428da8c3e.png",
+            "text_2": "Multifunctional pockets and card slots inside"
+          }
+        },
+        "item_cyjQcR": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_1000006677.png",
+            "img_m": "shopify://shop_images/Group_1000006677.png",
+            "text": "Protective metal feet",
+            "img_2": "shopify://shop_images/pdp-_4.png",
+            "img_2_m": "shopify://shop_images/pdp-_4.png",
+            "text_2": "Brushed matte silver metal"
           }
         }
       },
       "block_order": [
         "item_7ppeai",
-        "item_gdzg8N",
+        "item_rU4AFj",
         "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_gdzg8N",
+        "item_cyjQcR"
       ],
       "settings": {
         "title": "Product Features"

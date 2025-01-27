@@ -276,12 +276,13 @@
         "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Comprehensive Protection for Your Gear",
+            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
           }
         },
         "item_yiwEDA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -293,8 +294,8 @@
         "item_yiwEDA"
       ],
       "settings": {
-        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img": "shopify://shop_images/Group_1000006631.png",
+        "img_m": "shopify://shop_images/Group_1000006631.png",
         "use_video": false,
         "autoplay": true,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -307,12 +308,13 @@
         "item_eLELVW": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Durable and Reusable",
+            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
           }
         },
         "item_Fg8hrc": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -324,8 +326,8 @@
         "item_Fg8hrc"
       ],
       "settings": {
-        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img": "shopify://shop_images/Group_1000006637.png",
+        "img_m": "shopify://shop_images/Group_1000006637.png",
         "use_video": true,
         "autoplay": false,
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -339,12 +341,13 @@
         "item_EK6GDX": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Multi-Purpose Use",
+            "text": "Not only ideal for electronics, but also perfect for small accessories or any delicate items that need extra care. Its versatile design makes it an excellent protective and storage accessory for a wide range of items."
           }
         },
         "item_NTRqdK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -356,9 +359,9 @@
         "item_NTRqdK"
       ],
       "settings": {
-        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "use_video": true,
+        "img": "shopify://shop_images/Group_1000006643.png",
+        "img_m": "shopify://shop_images/Group_1000006643.png",
+        "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "right"
@@ -369,7 +372,7 @@
       "settings": {
         "title": "You May Also Like",
         "img": "shopify://shop_images/Layer_0_11.png",
-        "content": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+        "content": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
       }
     },
     "section_product_popup_DyMQKF": {

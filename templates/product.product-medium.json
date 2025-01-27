@@ -275,7 +275,6 @@
         "color_scheme": "",
         "image_size": "auto",
         "image": "shopify://shop_images/Layer_0_1.png",
-        "mobile_image": "shopify://shop_images/Clip_path_group_1.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -292,50 +291,68 @@
         "item_7ppeai": {
           "type": "item",
           "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_gdzg8N": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "name": "Top",
+            "img": "shopify://shop_images/Group_1000006703.png",
+            "img_m": "shopify://shop_images/Group_1000006703.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_rU4AFj": {
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
+            "img_m": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
+            "text": "One removable, padded dividers <br>\nallowing organization of a camera with a lens or other essentials.",
+            "img_2": "shopify://shop_images/Group_1000006698.png",
+            "img_2_m": "shopify://shop_images/Group_1000006698.png",
+            "text_2": ""
+          }
+        },
+        "item_gdzg8N": {
+          "type": "item",
+          "settings": {
+            "name": "Material",
+            "img": "shopify://shop_images/pdp-_2_02f5dc49-7fc6-4742-9358-2b9b7a1f48f3.png",
+            "img_m": "shopify://shop_images/pdp-_2_02f5dc49-7fc6-4742-9358-2b9b7a1f48f3.png",
+            "text": "Crafted from hand-finished oil-waxed cow leather",
+            "img_2": "shopify://shop_images/Mask_group_2a10f3f1-dc10-4a90-b26e-8f63538bea11.png",
+            "img_2_m": "shopify://shop_images/Mask_group_2a10f3f1-dc10-4a90-b26e-8f63538bea11.png",
+            "text_2": "Soft cavalry twill black lining for gentle protection"
+          }
+        },
+        "item_8VLQfA": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_1000006699.png",
+            "img_m": "shopify://shop_images/Group_1000006699.png",
+            "text": "Dual zipper + hidden magnetic closure for full top opening",
+            "img_2": "shopify://shop_images/Mask_group_1_2baa548a-19f4-4fb7-bdc9-0c9e9b3da07d.png",
+            "img_2_m": "shopify://shop_images/Mask_group_1_2baa548a-19f4-4fb7-bdc9-0c9e9b3da07d.png",
+            "text_2": "Multifunctional pockets and card slots inside"
+          }
+        },
+        "item_cyjQcR": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
+            "img": "shopify://shop_images/Group_1000006700.png",
+            "img_m": "shopify://shop_images/Group_1000006700.png",
+            "text": "Protective metal feet",
+            "img_2": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
+            "img_2_m": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
+            "text_2": "Brushed matte silver metal"
           }
         }
       },
       "block_order": [
         "item_7ppeai",
+        "item_rU4AFj",
         "item_gdzg8N",
         "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_cyjQcR"
       ],
       "settings": {
         "title": "Product Features"

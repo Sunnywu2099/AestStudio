@@ -275,7 +275,6 @@
         "color_scheme": "",
         "image_size": "auto",
         "image": "shopify://shop_images/Layer_0_1.png",
-        "mobile_image": "shopify://shop_images/Clip_path_group_1.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -289,53 +288,45 @@
     "product_features_QrAATR": {
       "type": "product-features",
       "blocks": {
+        "item_8VLQfA": {
+          "type": "item",
+          "settings": {
+            "name": "Top",
+            "img": "shopify://shop_images/Group_1000006738.png",
+            "img_m": "shopify://shop_images/Group_1000006738.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
         "item_7ppeai": {
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img": "shopify://shop_images/Mask_group_2_ca6535c5-76c6-4eb6-b2fe-00b22fb6a673.png",
+            "img_m": "shopify://shop_images/Mask_group_2_ca6535c5-76c6-4eb6-b2fe-00b22fb6a673.png",
+            "text": "One removable, padded dividers, allowing organization of a smartphone or other small essentials.",
+            "img_2": "shopify://shop_images/Group_1000006711.png",
+            "img_2_m": "shopify://shop_images/Group_1000006711.png",
+            "text_2": ""
           }
         },
         "item_gdzg8N": {
           "type": "item",
           "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_cyjQcR": {
-          "type": "item",
-          "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
-        "item_rU4AFj": {
-          "type": "item",
-          "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "name": "Material",
+            "img": "shopify://shop_images/Mask_group_3_4fe66b51-8f5f-46e8-88d6-997618f07097.png",
+            "img_m": "shopify://shop_images/Mask_group_3_4fe66b51-8f5f-46e8-88d6-997618f07097.png",
+            "text": "Crafted from hand-finished oil-waxed cow leather",
+            "img_2": "shopify://shop_images/Mask_group_4_137fd3c1-ab51-4f42-8214-a00e9bd9cf45.png",
+            "img_2_m": "shopify://shop_images/Mask_group_4_137fd3c1-ab51-4f42-8214-a00e9bd9cf45.png",
+            "text_2": "Lining: Premium, soft, pistachio green lambskin leather"
           }
         }
       },
       "block_order": [
-        "item_7ppeai",
-        "item_gdzg8N",
         "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_7ppeai",
+        "item_gdzg8N"
       ],
       "settings": {
         "title": "Product Features"
