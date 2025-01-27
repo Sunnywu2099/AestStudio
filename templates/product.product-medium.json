@@ -292,8 +292,8 @@
           "type": "item",
           "settings": {
             "name": "Top",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
+            "img": "shopify://shop_images/Group_1000006703.png",
+            "img_m": "shopify://shop_images/Group_1000006703.png",
             "text": "",
             "text_2": ""
           }
@@ -302,9 +302,11 @@
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
+            "img": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
+            "img_m": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
+            "text": "One removable, padded dividers <br>\nallowing organization of a camera with a lens or other essentials.",
+            "img_2": "shopify://shop_images/Group_1000006698.png",
+            "img_2_m": "shopify://shop_images/Group_1000006698.png",
             "text_2": ""
           }
         },
