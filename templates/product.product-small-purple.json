@@ -291,9 +291,11 @@
         "item_gdzg8N": {
           "type": "item",
           "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "name": "Top",
+            "img": "shopify://shop_images/Group_1000006693.png",
+            "img_m": "shopify://shop_images/Group_1000006693.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_8VLQfA": {
@@ -301,7 +303,9 @@
           "settings": {
             "name": "Front",
             "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_cyjQcR": {
@@ -309,7 +313,9 @@
           "settings": {
             "name": "Details",
             "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
           }
         },
         "item_rU4AFj": {
@@ -317,7 +323,9 @@
           "settings": {
             "name": "Inside",
             "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
           }
         }
       },
