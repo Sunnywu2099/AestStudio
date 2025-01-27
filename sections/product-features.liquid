@@ -82,6 +82,21 @@
                   height="100%">
               </picture>
             {% endif %}
+            {% if block.settings.img_2 != blank %}
+              <picture>
+                {% if block.settings.img_2_m != blank %}
+                  <source srcset="{{ block.settings.img_2_m | img_url: '750x' }}" media="(max-width: 375px)">
+                  <source srcset="{{ block.settings.img_2_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                {% endif %}
+                <source srcset="{{ block.settings.img_2 | img_url: '2160x' }}" media="(max-width: 1080px)">
+                <img
+                  src="{{ block.settings.img_2 | img_url: '2400x' }}"
+                  alt="{{ alt }}"
+                  loading="lazy"
+                  width="auto"
+                  height="100%">
+              </picture>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -155,6 +170,24 @@
             "type": "image_picker",
             "id": "img_m",
             "label": "Image Mobile"
+          },{
+            "type": "text",
+            "id": "text",
+            "label": "Image text"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_2",
+            "label": "Image 2"
+          }, {
+            "type": "image_picker",
+            "id": "img_2_m",
+            "label": "Image 2 Mobile"
+          },
+          {
+            "type": "text",
+            "id": "text_2",
+            "label": "Image text 2"
           }
         ]
       }
