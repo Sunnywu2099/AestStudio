@@ -224,9 +224,9 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
-            "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
-            "btn": "Our Story",
+            "img": "shopify://shop_images/Clip_path_group_2_dc6c30b1-eca9-4736-a1ca-b07075e774db.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_dc6c30b1-eca9-4736-a1ca-b07075e774db.png",
+            "btn": "Aest Studio",
             "link": "shopify://pages/aest-studios"
           }
         },
@@ -235,8 +235,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1.png",
+            "img": "shopify://shop_images/Clip_path_group.png",
+            "img_m": "shopify://shop_images/Clip_path_group.png",
             "btn": "Your Voice & Your Mind",
             "link": "shopify://pages/your-voice"
           }
@@ -246,8 +246,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_2.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2.png",
+            "img": "shopify://shop_images/Clip_path_group_1_8a1ec877-87c8-4ff2-bf2a-f453348955bd.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_8a1ec877-87c8-4ff2-bf2a-f453348955bd.png",
             "btn": "Charitable Projects",
             "link": "shopify://pages/our-mission"
           }
@@ -257,8 +257,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1.png",
+            "img": "shopify://shop_images/Clip_path_group_3_ee3b8262-8f61-4476-a95a-d05b09d2e400.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_ee3b8262-8f61-4476-a95a-d05b09d2e400.png",
             "btn": "Cooperation Plan",
             "link": ""
           }
@@ -268,8 +268,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
-            "img_m": "shopify://shop_images/Clip_path_group_ad6e9773-4536-4042-914b-d51326ced59c.png",
+            "img": "shopify://shop_images/Clip_path_group_4_0b6cc632-ce58-488d-9533-b472c3b72bc0.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4_0b6cc632-ce58-488d-9533-b472c3b72bc0.png",
             "btn": "Special Projects",
             "link": "shopify://pages/series-of-stories"
           }
@@ -279,8 +279,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1.png",
+            "img": "shopify://shop_images/Clip_path_group_5_d7cf3621-e719-4a92-a004-71df924e3557.png",
+            "img_m": "shopify://shop_images/Clip_path_group_5_d7cf3621-e719-4a92-a004-71df924e3557.png",
             "btn": "Exhibition & Events",
             "link": ""
           }
@@ -290,8 +290,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_2.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2.png",
+            "img": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
             "btn": "Help Center",
             "link": ""
           }
