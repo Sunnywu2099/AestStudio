@@ -1,0 +1,337 @@
+{%- if section.blocks.size > 0 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+<style>
+  
+        /* 表格整体样式 */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #AAA;
+          text-align:center;
+        }
+
+        /* 表头单元格样式 */
+        th {
+            border: 1px solid #AAA;
+            padding: 8px;
+            text-align: center;
+          background:#25282A;
+            color:#fff
+        }
+
+        /* 表格数据单元格样式 */
+        td {
+            border: 1px solid #AAA;
+            padding: 8px;
+            text-align: center;
+        }
+    #shipping-area-table{
+      padding-bottom:20px;
+    }
+  .aest-faq-box .faq__content{
+    flex-basis:1000px;
+  }
+  .aest-faq-box p,.aest-faq-box li{
+    margin-bottom:15px;
+  }
+  .shopify-pc__banner__dialog{
+    display:none
+  }
+
+  #my-button{
+    width:40%;
+    min-width:320px
+  }
+
+  .aest-line{
+    width:100%;
+    border-bottom:1px solid #aaa;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  #back-to-top {
+    
+    text-decoration: underline;
+    z-index: 999;
+    color:#000
+  }
+</style>
+  <div class="aest-faq-box section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <div class="container container--md">
+      <div class="section-stack">
+        
+        <div class="faq">
+          {%- assign categories_blocks = section.blocks | where: 'type', 'category' -%}
+
+          {%- if section.settings.show_categories and categories_blocks.size > 0 -%}
+            <faq-toc class="faq__toc hidden md:grid">
+              {%- for block in categories_blocks -%}
+                <a class="faq__toc-item {% if forloop.first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
+              {%- endfor -%}
+            </faq-toc>
+          {%- endif -%}
+
+          <div class="faq__content">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'category' -%}
+                  {%- if block.settings.title != blank -%}
+                    <p id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
+                    {%- if block.settings.custom_icon != blank -%}
+                      {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
+                      {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
+                      {%- capture style -%}--image-max-width: {{ block.settings.icon_width }}px{%- endcapture -%}
+
+                      {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
+                    {%- elsif block.settings.icon != 'none' -%}
+                      {%- render 'icon' with block.settings.icon, width: block.settings.icon_width -%}
+                    {%- endif -%}
+
+                      {{- block.settings.title -}}
+                    </p>
+                  {%- endif -%}
+
+                
+              {%- endcase -%}
+            {%- endfor -%}
+            <div class="aest-line"></div>
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'rich_item' -%}
+                  <div class="text-item">
+                    {% if block.settings.title != blank %}
+                      <h2 class="title">{{ block.settings.title }}</h2>
+                    {% endif %}
+                    {% if block.settings.content != blank %}
+                      <p class="text">{{ block.settings.content }}</p>
+                    {% endif %}
+                  </div>
+
+                {%- when 'area_table' -%}
+                  <div id="shipping-area-table">
+                    
+                  </div>
+              {%- endcase -%}
+            {%- endfor -%}
+
+             <a href="#" id="back-to-top" title="BACK TO TOP">BACK TO TOP</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {%- comment -%}We also output the content with JSON microdata for SEO{%- endcomment -%}
+
+  <script>
+    // 点击返回顶部链接时的滚动效果
+    document.getElementById('back-to-top').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // 平滑滚动效果
+        });
+    });
+    const dataString = {{ section.settings.table_data }};
+    
+    try {
+        // 这里需要将单引号替换成双引号，因为JSON要求双引号
+        let jsonData = dataString;//JSON.parse(dataString.replace(/'/g, '"'));
+        const table = document.createElement('table');
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
+        const headerRow = document.createElement('tr');
+        for (let i = 0; i < jsonData.length; i++) {
+            const th = document.createElement('th');
+            th.textContent = jsonData[i][0];
+            headerRow.appendChild(th);
+        }
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+        // 找到最长的子数组长度
+        let maxLength = 0;
+        jsonData.forEach(subArray => {
+            if (subArray.length - 1 > maxLength) {
+                maxLength = subArray.length - 1;
+            }
+        });
+        for (let i = 0; i < maxLength; i++) {
+            const row = document.createElement('tr');
+            for (let j = 0; j < jsonData.length; j++) {
+                const td = document.createElement('td');
+                td.textContent= ' ';
+                if (jsonData[j].length > i + 1) {
+                    td.textContent = jsonData[j][i + 1];
+                }
+                row.appendChild(td);
+            }
+            tbody.appendChild(row);
+        }
+        table.appendChild(tbody);
+        const container = document.getElementById('shipping-area-table');
+        container.appendChild(table);
+    } catch (error) {
+        console.error('解析数据时出错:', error);
+    }
+    
+  </script>
+  <script type="application/ld+json">
+    {%- assign question_blocks = section.blocks | where: 'type', 'question' -%}
+
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for block in question_blocks -%}
+          {
+            "@type": "Question",
+            "name": {{ block.settings.question | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ block.settings.answer | json }}
+            }
+          }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "privacy",
+  "class": "shopify-section--faq",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+   {
+        "type": "textarea",
+        "id": "table_data",
+        "label": "输入表格数据（格式：[['America', 'USA'], ['Europe', 'France']]"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_categories",
+      "label": "t:sections.faq.show_categories"
+    },
+    {
+      "type": "header",
+      "content": "t:global.section.header_category"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "t:global.text.subheading",
+      "default": "Need help?"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "t:global.text.content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "t:sections.faq.blocks.category.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "t:global.text.title",
+          "default": "Category"
+        },
+        
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "t:global.icons.custom_icon",
+          "info": "t:global.icons.custom_icon_info"
+        },
+        {
+          "type": "range",
+          "id": "icon_width",
+          "min": 12,
+          "max": 32,
+          "step": 4,
+          "unit": "px",
+          "label": "t:global.icons.icon_width",
+          "default": 16
+        }
+      ]
+    },
+    {
+      "type": "rich_item",
+      "name": "rich_item",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "title",
+          "default": "<span>Title</span>"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "content",
+          "default": "<p>Content</p>"
+        }
+      ]
+    },
+    {
+      "type": "area_table",
+      "name": "area_table",
+      "settings": [
+        {
+          "type": "text",
+          "id": "area_table",
+          "label": "area_table",
+          "default": "[]"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "shipping",
+      "blocks": [
+        {
+          "type": "category",
+          "settings": {
+            "title": "Order"
+          }
+        },
+        {
+          "type": "rich_item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

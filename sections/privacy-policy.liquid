@@ -1,0 +1,256 @@
+{%- if section.blocks.size > 0 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+<style>
+  
+  .aest-faq-box .faq__content{
+    flex-basis:1000px;
+  }
+  .aest-faq-box p,.aest-faq-box li{
+    margin-bottom:15px;
+  }
+  .shopify-pc__banner__dialog{
+    display:none
+  }
+</style>
+  <div class="aest-faq-box section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <div class="container container--md">
+      <div class="section-stack">
+        
+        <div class="faq">
+          {%- assign categories_blocks = section.blocks | where: 'type', 'category' -%}
+
+          {%- if section.settings.show_categories and categories_blocks.size > 0 -%}
+            <faq-toc class="faq__toc hidden md:grid">
+              {%- for block in categories_blocks -%}
+                <a class="faq__toc-item {% if forloop.first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
+              {%- endfor -%}
+            </faq-toc>
+          {%- endif -%}
+
+          <div class="faq__content">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'category' -%}
+                  {%- if block.settings.title != blank -%}
+                    <p id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
+                    {%- if block.settings.custom_icon != blank -%}
+                      {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
+                      {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
+                      {%- capture style -%}--image-max-width: {{ block.settings.icon_width }}px{%- endcapture -%}
+
+                      {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
+                    {%- elsif block.settings.icon != 'none' -%}
+                      {%- render 'icon' with block.settings.icon, width: block.settings.icon_width -%}
+                    {%- endif -%}
+
+                      {{- block.settings.title -}}
+                    </p>
+                  {%- endif -%}
+
+                {%- when 'rich_item' -%}
+                  <div class="text-item">
+                    {% if block.settings.title != blank %}
+                      <h2 class="title">{{ block.settings.title }}</h2>
+                    {% endif %}
+                    {% if block.settings.content != blank %}
+                      <p class="text">{{ block.settings.content }}</p>
+                    {% endif %}
+                  </div>
+              {%- endcase -%}
+            {%- endfor -%}
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {%- comment -%}We also output the content with JSON microdata for SEO{%- endcomment -%}
+  <script>
+    document.getElementById('my-button').addEventListener('click', function() {
+      // 在这里编写点击按钮后要执行的代码
+      alert('按钮被点击了111！');
+      // 触发官方 Cookie 偏好设置弹出框
+      // Change with your shop details
+      const STOREFRONT_DOMAIN = 'kj5rbz-xw.myshopify.com';
+      const CHECKOUT_DOMAIN = 'kj5rbz-xw.myshopify.com';
+      const SF_API_TOKEN = 'c253e035f0ff495ef9bdacb3d3539096'; // Obtained in the previous section
+
+      const LOCALE = "fr"
+      const COUNTRY = "ca"
+      privacyBanner.showPreferences({
+        storefrontAccessToken: SF_API_TOKEN,
+        checkoutRootDomain: CHECKOUT_DOMAIN,
+        storefrontRootDomain: STOREFRONT_DOMAIN,
+        
+      }).then(() => {
+        console.log('loaded1111');
+      });
+      
+      // // Run banner if needed for the current visitor:
+      // privacyBanner.loadBanner({
+      //   storefrontAccessToken: SF_API_TOKEN,
+      //   checkoutRootDomain: CHECKOUT_DOMAIN,
+      //   storefrontRootDomain: STOREFRONT_DOMAIN,
+      //   // Optional
+      //   locale: LOCALE,
+      //   country: COUNTRY
+      // }).then(() => {
+      //   console.log('loaded0000');
+         
+      // });
+      
+     
+
+      
+            // if (typeof Shopify.Cookies.showConsentBanner === 'function') {
+            //     Shopify.Cookies.showConsentBanner();
+            // }
+    });
+  </script>
+  <script src="https://cdn.shopify.com/shopifycloud/privacy-banner/storefront-banner.js"></script>
+<script>
+
+</script>
+  <script type="application/ld+json">
+    {%- assign question_blocks = section.blocks | where: 'type', 'question' -%}
+
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for block in question_blocks -%}
+          {
+            "@type": "Question",
+            "name": {{ block.settings.question | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ block.settings.answer | json }}
+            }
+          }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "privacy",
+  "class": "shopify-section--faq",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_categories",
+      "label": "t:sections.faq.show_categories"
+    },
+    {
+      "type": "header",
+      "content": "t:global.section.header_category"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "t:global.text.subheading",
+      "default": "Need help?"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "t:global.text.content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "t:sections.faq.blocks.category.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "t:global.text.title",
+          "default": "Category"
+        },
+        
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "t:global.icons.custom_icon",
+          "info": "t:global.icons.custom_icon_info"
+        },
+        {
+          "type": "range",
+          "id": "icon_width",
+          "min": 12,
+          "max": 32,
+          "step": 4,
+          "unit": "px",
+          "label": "t:global.icons.icon_width",
+          "default": 16
+        }
+      ]
+    },
+    {
+      "type": "rich_item",
+      "name": "rich_title",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "title",
+          "default": "<span>Title</span>"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "content",
+          "default": "<p>Content</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.faq.presets.faq.name",
+      "blocks": [
+        {
+          "type": "category",
+          "settings": {
+            "title": "Order"
+          }
+        },
+        {
+          "type": "rich_item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "term": {
+      "type": "term",
+      "blocks": {
+        "category_9e8z3A": {
+          "type": "category",
+          "settings": {
+            "title": "Privacy Policy",
+            "icon_width": 16
+          }
+        },
+        "rich_item_PJTgr8": {
+          "type": "rich_item",
+          "settings": {
+            "title": "",
+            "content": "<p>Latest update date: NOV 262024</p><p></p><p>ONA Designs International, LLC operates this website www.onabags.com. ONA Designs International, LLC (hereinafter referred to as \"we\" or \"ONA\") recognizes that you are concerned about how your information is used and shared. We have formulated this privacy policy to inform you of our practices regarding the collection, use, and sharing of information on this website. If you have any questions about this privacy policy, please contact our customer service department.</p><p></p><p>This policy covers how ONA handles the personal information it collects and receives. Personal information refers to information that can identify your personal identity, such as your name, address, email address, or phone number, and will not be disclosed in any other way. This policy does not apply to the actions of companies not owned or controlled by ONA, or personnel not employed or managed by ONA.</p>"
+          }
+        },
+        "rich_item_iepWw8": {
+          "type": "rich_item",
+          "settings": {
+            "title": "How do we collect your information",
+            "content": "<p>We collect and store the information you input into this website or provide to our customer service department. For example, when you open an account or place an order, we collect and store some or all of the following information you provide: name, billing address, delivery address, email address, phone number, credit card number, and expiration date. This information is used to provide the products and services you have ordered or requested, process and ship orders, send order and shipping confirmations, and provide customer service. Unless you choose not to receive promotional information related to this website, this information may also be used to contact you regarding sales, special offers, and new website features. When you make a purchase through the service, we will process your payment through a third-party application. Third party applications may collect certain financial information from you to process payments on behalf of ONA, including your name, email address, address, and other billing information.</p><p>Whenever you interact with this website, we automatically collect and store certain other information. For example, every time you visit this website, we collect your IP address, browser information, and reference site domain name. We also collect information about customer traffic patterns and website usage. This information is used to analyze and improve our website, and to provide our customers with a satisfactory shopping experience.</p>"
+          }
+        },
+        "rich_item_8B8F8M": {
+          "type": "rich_item",
+          "settings": {
+            "title": "We may collect your personal information in other ways:",
+            "content": "<ul><li>Communicate with us. When you choose to request information about our products and services, register for newsletters, contact customer service, or communicate with us in other ways, we may also collect your personal information, such as email address, phone number, or mailing address. </li><li>Investigation. We may occasionally contact you to participate in online surveys or face-to-face interviews. If you decide to participate, you may be asked to provide certain information, which may include personal information. All information collected through your participation in our survey or interview is voluntarily provided by you. We may use such information to improve our products, website, and/or services, and in any way that complies with the policies described in this article. </li><li>Publish on the website. We collect the information you post through our website. For example, when you interact with other users or websites by commenting on blog posts, the website will collect the information you provide in such submissions, including any personal information. If you choose to submit content to any public area of the website, such content will be considered \"public\" and not subject to the privacy protections set forth in this article. </li><li>Promotions and gifts. We sometimes collaborate with third parties on social media and online channels to sponsor giveaways and promotional activities. Each gift and promotion comes with terms and conditions, and all participants are responsible for carefully reading the terms and conditions as well as the privacy policy. If you choose to share your information to participate in giveaways or promotions, your participation information may be shared with such third parties.</li></ul><p></p><p>We, as well as third parties providing content, advertising, or other features in our services, may use cookies, pixel tags, local storage, and other technologies (\"Technologies\") to automatically collect information through our services. The technology we use is essentially small data files placed on your computer, tablet, phone, or other device (collectively referred to as \"device\"), which enable us to record certain information when you visit or interact with our website, services, applications, messaging, and tools, and identify you across devices.</p><p></p><ul><li>Cookie. Cookies are small text files placed in a visitor's computer browser to store their preferences. Most browsers allow you to block and delete cookies. However, if you do so, the website may not function properly. </li><li>Pixel tags/network beacons. Pixel tags (also known as web beacons) are a piece of code embedded on a website to collect information about user engagement on that webpage. Using pixels allows us to record information such as users visiting specific web pages or clicking on specific advertisements. </li><li>Analysis. We use Google Analytics (a service provided by Google, Inc. (\"Google\")) to collect information about how users use our services. For more information about Google Analytics, please visit www.google.com/policies/privacy/partners/. You can access it through http://tools.google.com/dlpage/gaoptout Choose to opt out of Google's collection and processing of data generated during your use of the service.</li></ul><p>If you wish to opt out of the technologies we use on our website, services, applications, or tools, you may block, delete, or disable them in the manner permitted by your browser or device.</p>"
+          }
+        },
+        "rich_item_WXrQaY": {
+          "type": "rich_item",
+          "settings": {
+            "title": "How we use your information",
+            "content": "<p>We obtain, store, use, and process personal information for various commercial purposes, including:</p><p>Provide the requested products, services, or information. ONA may use your information to fulfill requests for products, services, or information, including information about potential or future services, including:</p><p>-Overall management of personal information and accounts;</p><p>-Answer questions, comments, and other requests;</p>"
+          }
+        },
+        "rich_item_XVEnHc": {
+          "type": "rich_item",
+          "settings": {
+            "title": "Edit your information",
+            "content": "<p>You can edit your ONA account information at any time. We may send you certain communications related to ONA services, such as service announcements, management messages, and ONA newsletters, which are considered part of your ONA account.</p>"
+          }
+        },
+        "rich_item_H6RR4P": {
+          "type": "rich_item",
+          "settings": {
+            "title": "Confidentiality and Security",
+            "content": "<p>We limit access to your personal information to employees who we believe are reasonably required to access that information in order to provide you with products or services or to complete their work. ONA will not rent, sell, or share your personal information with others or non affiliated companies, unless for the purpose of providing the products or services you request, when we obtain your permission, or in the following circumstances: We provide information to representatives of ONA or trusted partners who cooperate with ONA in accordance with confidentiality agreements. These companies may use your personal information to help ONA communicate with you about discounts offered by ONA and our marketing partners. However, these companies do not have any independent rights to share this information. We respond to subpoenas, court orders, or legal proceedings, or establish or exercise our legal rights or defend against lawful claims; We believe that it is necessary to share information in order to investigate, prevent, or take action against illegal activities, suspected fraud, potential threats to anyone's personal safety, violations of ONA terms of use, or legal requirements. If ONA is acquired or merged by other companies, we will transfer your information. In this case, ONA will notify you before your information is transferred and subject to other privacy policies.</p>"
+          }
+        },
+        "rich_item_bcBrgq": {
+          "type": "rich_item",
+          "settings": {
+            "title": "How to protect your data",
+            "content": "<p>ONA uses various security measures, including Secure Socket Layer (SSL) encryption technology, to protect the personal information we collect. If you place an order through this website, you will be required to set up an account and provide an email address and password. You must provide an appropriate email address and password to access account information. To further protect your personal information, you should be cautious when providing passwords to others. If you want to cancel your password, or if you find that your password has been lost, stolen, or used without authorization, please contact us via email customercare@onabags.com Contact our customer service department.</p>"
+          }
+        },
+        "rich_item_UW8pCN": {
+          "type": "rich_item",
+          "settings": {
+            "title": "International users",
+            "content": "<p>By using this website, you will transfer data to the United States. By choosing to access this website, use the services, or otherwise provide us with information, you agree that any disputes regarding privacy or the terms contained in this privacy policy will be governed by the laws of the State of New York in the United States, and any disputes related to ONA or this website will be resolved in accordance with the terms. If you are from the European Union or other regions with data collection and use laws, please note that you agree to transfer your information to the United States and process your data globally. By providing your personal information, you agree to any transmission and processing in accordance with this policy. If you are a European resident, you have the right to access the personal information we hold about you and request correction, update, or deletion of your personal information. If you wish to exercise this right, please do so through customercare@onabags.com Contact us.</p>"
+          }
+        },
+        "rich_item_zBfKkU": {
+          "type": "rich_item",
+          "settings": {
+            "title": "Privacy Update",
+            "content": "<p>Policy update: ONA may update this policy. If we make any significant changes to this privacy policy, we will post a notice on this website notifying users of these changes. In some cases, we may also send email notifications to users about these changes. You should regularly check this website to see if there have been any recent changes to this privacy policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_9e8z3A",
+        "rich_item_PJTgr8",
+        "rich_item_iepWw8",
+        "rich_item_8B8F8M",
+        "rich_item_WXrQaY",
+        "rich_item_XVEnHc",
+        "rich_item_H6RR4P",
+        "rich_item_bcBrgq",
+        "rich_item_UW8pCN",
+        "rich_item_zBfKkU"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "term"
+  ]
+}

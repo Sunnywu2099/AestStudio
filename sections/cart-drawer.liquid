@@ -1,5 +1,38 @@
+<style>
+  .aest-cart-btn .quantity-selector--sm{
+    --quantity-selector-height: 1.2rem;
+    --quantity-selector-input-width: 1rem;
+  }
+  .cart-line-item-info{
+    width:430px
+  }
+  footer{
+    border:none;background: rgba(227, 229, 223, 0.30);
+  }
+  .cart-drawer .drawer::part(footer){
+    border:none;background: rgba(227, 229, 223, 0.30);
+  }
+
+  .cart-drawer .line-item{
+    border-bottom:1px solid rgba(37, 40, 42, 0.50);
+    padding-bottom:20px;
+  }
+  @media (max-width: 767px) {
+      .cart-line-item-info {
+          width: 330px;
+      }
+  }
+
+  /* 超小屏幕移动端（宽度小于 576px） */
+  @media (max-width: 575px) {
+      .cart-line-item-info {
+          width: 255px;
+      }
+  }
+</style>
 <cart-drawer id="cart-drawer" class="cart-drawer drawer {% if cart.empty? %}drawer--center-body{% endif %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}" initial-focus="false" handle-editor-events>
-  <p class="h4" slot="header">{{ 'cart.general.title' | t }}</p>
+  <!-- <p class="h4" slot="header">{{ 'cart.general.title' | t }}</p> -->
+  <p class="h4" slot="header">SHOPPING CART</p>
 
   {%- if cart.empty? -%}
     <p class="h5 text-center">{{ 'cart.general.empty' | t }}</p>
@@ -10,7 +43,7 @@
 
     <div class="cart-drawer__items">
       {%- for line_item in cart.items -%}
-        {%- render 'line-item', line_item: line_item, show_quantity_selector: true -%}
+        {%- render 'line-item-cart', line_item: line_item, show_quantity_selector: true -%}
       {%- endfor -%}
     </div>
 
@@ -69,13 +102,17 @@
         {%- endif -%}
       </div>
     {%- endif -%}
-
-    <form action="{{ routes.cart_url }}" method="POST" class="cart-drawer__footer" slot="footer">
+    
+    <form action="{{ routes.cart_url }}" method="POST" class="cart-drawer__footer" slot="footer" style="">
       <input type="hidden" name="attributes[products_mobile_grid_mode]" value="">
       <input type="hidden" name="attributes[products_desktop_grid_mode]" value="">
-
+      <div class="cart-flex-container" style="display: flex;font-size:14px;
+            justify-content: space-between;">
+          <span>Total</span>
+          <span>{{- cart.total_price | money -}}</span>
+      </div>
       {%- if section.settings.show_cart_note or section.settings.show_shipping_text -%}
-        <div class="v-stack gap-0.5 justify-items-start">
+        <div class="v-stack gap-0.5 justify-items-start" style="display:none">
           {%- if section.settings.show_cart_note -%}
             {%- assign cart_note_dialog_id = 'cart-note-' | append: section.id -%}
             <button class="link-faded-reverse" aria-controls="{{ cart_note_dialog_id }}">{{ 'cart.general.add_order_note' | t }}</button>
@@ -118,9 +155,9 @@
           {%- capture checkout_button -%}
             {{- 'cart.general.checkout' | t -}}
 
-            {%- if section.settings.show_price_in_checkout_button -%}
+            <!-- {%- if section.settings.show_price_in_checkout_button -%}
               <span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span>
-            {%- endif -%}
+            {%- endif -%} -->
           {%- endcapture -%}
 
           {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true -%}
@@ -129,6 +166,12 @@
     </form>
   {%- endif -%}
 </cart-drawer>
+
+<style>
+  #cart-drawer{
+    --drawer-max-width: min(92vw, 48.125rem);
+  }
+</style>
 
 {% schema %}
 {

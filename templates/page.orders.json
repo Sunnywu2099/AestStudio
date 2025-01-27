@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "term": {
+      "type": "term",
+      "blocks": {
+        "category_ghYRNf": {
+          "type": "category",
+          "settings": {
+            "title": "Orders",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "rich_item",
+          "settings": {
+            "title": "1.How can I check the status of my order?",
+            "content": "<ul><li>Once your order is shipped, we will send you a notification containing tracking information via email. </li><li>You can check the order status and estimated arrival time through this tracking link. You can also click here to enter our order inquiry portal and enter your order number or related information for inquiry. </li><li>If you have not found any relevant logistics information, it is likely that your order has just been shipped and the carrier has not updated the tracking information. Usually, within 48 hours after placing your order, you can check the relevant logistics information of your purchase order. </li><li>Due to the high value of our products, we recommend that you carefully inspect them when signing for them. If you are not satisfied with the product or find any problems, please submit a return request as soon as possible so that we can provide you with timely service and support.</li></ul>"
+          }
+        },
+        "rich_item_cEMRzz": {
+          "type": "rich_item",
+          "settings": {
+            "title": "2.How can I modify my order?",
+            "content": "<p>Orders placed on aeststudios.com cannot be modified. Please rest assured that if you no longer wish to keep your order, you can cancel and return the item at any time before or after the order is processed.</p>"
+          }
+        },
+        "rich_item_wrcAiX": {
+          "type": "rich_item",
+          "settings": {
+            "title": "3.How to cancel an order?",
+            "content": "<ul><li>If you decide to cancel, please contact our email as soon as possible hello@aeststudios.com contact us. If the order has not been shipped yet, we will do our best to assist you in canceling it. If the order has already been shipped, we cannot intercept the order and therefore cannot cancel it. You can return or reject the goods on the spot when you receive them. If there is no immediate return or rejection, you will bear the return costs incurred. </li><li>Please note that some orders cannot be cancelled or refunded (such as gift cards, customized products, etc.). </li><li>If you have any questions, please contact us hello@aeststudios.com We will find a solution.</li></ul>"
+          }
+        },
+        "rich_item_LPGPWw": {
+          "type": "rich_item",
+          "settings": {
+            "title": "4.When can the product be restocked if it is out of stock?",
+            "content": "<p>Aest Studios offers a wide range of the latest series products, with inventory regularly updated. If the product you want to purchase is out of stock, we sincerely invite you to contact us or subscribe to our waiting list (which can be viewed on the product information page). </p><p>If your order includes pre ordered or out of stock items, it may not be shipped immediately or may be automatically split into multiple shipments. The specific delivery date details can be found on the product information page.</p>"
+          }
+        },
+        "rich_item_fhFLLx": {
+          "type": "rich_item",
+          "settings": {
+            "title": "5.How can I track my order?",
+            "content": "<p>You can check the order status and obtain tracking information through the \"My Orders\" page. After the order is shipped, we will send you the tracking number and courier company information via email. You can check the status and estimated delivery time of your package through the link.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_ghYRNf",
+        "question-1",
+        "rich_item_cEMRzz",
+        "rich_item_wrcAiX",
+        "rich_item_LPGPWw",
+        "rich_item_fhFLLx"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "term"
+  ]
+}

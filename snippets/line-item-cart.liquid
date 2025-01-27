@@ -1,0 +1,119 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+LINE ITEM
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a single line item product information, and is used on order and cart page.
+
+********************************************
+Supported variables
+********************************************
+
+* line_item: the line item to render (required)
+* show_quantity_selector: if set to true, the quantity selector is displayed (useful for instance of mini-cart)
+{%- endcomment -%}
+
+<line-item class="line-item" >
+  
+  {%- if line_item.image != blank -%}
+    {{- line_item.image | image_url: width: line_item.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 70px, 120px', widths: '70,120,140,210,240,360', class: 'line-item__media' -}}
+  {%- endif -%}
+
+  <div class="line-item-info cart-line-item-info" style="flex-grow: 10;">
+    {%- assign text_class = '' -%}
+
+    {%- if settings.product_card_text_font == 'heading' -%}
+      {%- assign text_class = 'h6' -%}
+    {%- endif -%}
+
+    <div class="v-stack justify-items-start gap-2">
+      {%- if settings.show_vendor and line_item.vendor != blank -%}
+        {%- capture vendor_class -%}smallcaps {% if settings.product_card_text_font == 'heading' %}heading{% endif %}{% endcapture %}
+        {%- render 'vendor' with line_item.vendor, class: vendor_class -%}
+      {%- endif -%}
+
+      <div class="v-stack justify-items-start gap-1">
+        {%- if line_item.url != blank -%}
+          <a href="{{ line_item.url }}" class="{{ text_class }}">{{ line_item.product.title | default: line_item.title }}</a>
+        {%- else -%}
+          <p class="{{ text_class }}">{{ line_item.product.title | default: line_item.title }}</p>
+        {%- endif -%}
+
+        
+      </div>
+
+      {%- capture secondary_information -%}
+        {%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
+          <p class="smallcaps text-subdued">{{ line_item.variant.title }}</p>
+        {%- endunless -%}
+
+        {%- if line_item.selling_plan_allocation -%}
+          <p class="text-subdued">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
+        {%- endif -%}
+
+        {%- unless line_item.properties == empty -%}
+          <ul class="text-subdued">
+            {%- for property in line_item.properties -%}
+              {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
+
+              {%- if property.last == blank or first_character_in_key == '_' -%}
+                {%- continue -%}
+              {%- endif -%}
+
+              <li>
+                {%- if property.last contains '/uploads/' -%}
+                  <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
+                {%- else -%}
+                  {{ property.first }}: {{ property.last }}
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endunless -%}
+      {%- endcapture -%}
+
+      {%- if secondary_information != blank -%}
+        <div class="v-stack justify-items-start gap-1">
+          {{- secondary_information -}}
+        </div>
+      {%- endif -%}
+
+      
+
+      {%- if line_item.line_level_discount_allocations != blank -%}
+        <ul class="v-stack justify-items-start gap-1 unstyled-list" role="list">
+          {%- for discount_allocation in line_item.line_level_discount_allocations -%}
+            <li class="discount-badge text-xs">
+              {%- render 'icon' with 'discount', width: 12 -%} {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </div>
+  </div>
+  <div style="flex-grow: 1;display:flex;">
+    <div class="aest-cart-btn">
+      {%- render 'price-list', line_item: line_item, context: 'line_item' -%}
+    {%- if show_quantity_selector -%}
+        <line-item-quantity class="h-stack gap-4 {% if request.page_type == 'cart' %}sm:hidden{% endif %}">
+          {%- render 'quantity-selector', line_item: line_item, size: 'sm' -%}
+          
+          
+        </line-item-quantity>
+      {%- else -%}
+        <p class="text-subdued text-sm sm:hidden">{{ 'customer.order.quantity' | t }}: {{ line_item.quantity }}</p>
+      {%- endif -%}
+    </div>
+    
+
+      
+  </div>
+  <div>
+        <button onclick="location.href='{{ line_item.url_to_remove }}'" type="button" part="close-button tap-area" aria-label="Close"><svg aria-hidden="true" focusable="false" fill="none" width="8" class="icon icon-close" viewBox="0 0 16 16">
+          <path d="m1 1 14 14M1 15 15 1" stroke="currentColor" stroke-width="1.5"></path>
+          </svg>
+        </button>
+      </div>
+  
+  
+</line-item>

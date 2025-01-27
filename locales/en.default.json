@@ -223,6 +223,9 @@
     "form": {
       "name": "Name",
       "email": "E-mail",
+      "order_number":"Order Number",
+      "first_name": "First Name",
+      "topic":"Choose A Topic",
       "message": "Message",
       "submit": "Send message",
       "success_message": "Your message has been sent."
@@ -383,8 +386,8 @@
   },
   "404": {
     "general": {
-      "title": "404",
-      "not_found_info": "We could not find the page you were looking for. Please use the navigation or the button below to go back to our website.",
+      "title": "404 Page Not Found",
+      "not_found_info": "The page you were looking for does not exist",
       "continue_shopping": "Continue shopping"
     }
   },
