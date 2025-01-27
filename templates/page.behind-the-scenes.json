@@ -127,8 +127,7 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_10.png",
-            "img_m": "shopify://shop_images/Clip_path_group_10.png",
+            "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": true
           }
@@ -142,7 +141,7 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "link_text": "Designer Bag",
+        "link_text": "",
         "link_url": "",
         "pt": 0,
         "pb": 20,
@@ -157,8 +156,7 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_11.png",
-            "img_m": "shopify://shop_images/Clip_path_group_11.png",
+            "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": true
           }
@@ -172,7 +170,7 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "link_text": "Artist Bag",
+        "link_text": "",
         "link_url": "",
         "pt": 0,
         "pb": 20,
@@ -187,8 +185,7 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_10.png",
-            "img_m": "shopify://shop_images/Clip_path_group_10.png",
+            "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": true
           }
@@ -202,7 +199,7 @@
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "link_text": "Sports Bag",
+        "link_text": "",
         "link_url": "",
         "pt": 0,
         "pb": 120,
