@@ -298,10 +298,10 @@
             "text_2": ""
           }
         },
-        "item_gdzg8N": {
+        "item_rU4AFj": {
           "type": "item",
           "settings": {
-            "name": "Details",
+            "name": "Inside",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
             "text": "",
@@ -311,7 +311,17 @@
         "item_8VLQfA": {
           "type": "item",
           "settings": {
-            "name": "Front",
+            "name": "Material",
+            "img": "shopify://shop_images/Group_56.png",
+            "img_m": "shopify://shop_images/Group_56.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "item_gdzg8N": {
+          "type": "item",
+          "settings": {
+            "name": "Details",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
             "text": "",
@@ -327,24 +337,14 @@
             "text": "",
             "text_2": ""
           }
-        },
-        "item_rU4AFj": {
-          "type": "item",
-          "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
-            "text_2": ""
-          }
         }
       },
       "block_order": [
         "item_7ppeai",
-        "item_gdzg8N",
+        "item_rU4AFj",
         "item_8VLQfA",
-        "item_cyjQcR",
-        "item_rU4AFj"
+        "item_gdzg8N",
+        "item_cyjQcR"
       ],
       "settings": {
         "title": "Product Features"
