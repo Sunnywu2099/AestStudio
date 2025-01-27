@@ -288,30 +288,32 @@
     "product_features_QrAATR": {
       "type": "product-features",
       "blocks": {
+        "item_8VLQfA": {
+          "type": "item",
+          "settings": {
+            "name": "Top",
+            "img": "shopify://shop_images/Group_1000006710.png",
+            "img_m": "shopify://shop_images/Group_1000006710.png",
+            "text": "",
+            "text_2": ""
+          }
+        },
         "item_7ppeai": {
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
+            "img": "shopify://shop_images/Mask_group_2_ca6535c5-76c6-4eb6-b2fe-00b22fb6a673.png",
+            "img_m": "shopify://shop_images/Mask_group_2_ca6535c5-76c6-4eb6-b2fe-00b22fb6a673.png",
+            "text": "One removable, padded dividers, allowing organization of a smartphone or other small essentials.",
+            "img_2": "shopify://shop_images/Group_1000006711.png",
+            "img_2_m": "shopify://shop_images/Group_1000006711.png",
             "text_2": ""
           }
         },
         "item_gdzg8N": {
           "type": "item",
           "settings": {
-            "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
-            "text_2": ""
-          }
-        },
-        "item_8VLQfA": {
-          "type": "item",
-          "settings": {
-            "name": "Front",
+            "name": "Material",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
             "text": "",
@@ -320,9 +322,9 @@
         }
       },
       "block_order": [
+        "item_8VLQfA",
         "item_7ppeai",
-        "item_gdzg8N",
-        "item_8VLQfA"
+        "item_gdzg8N"
       ],
       "settings": {
         "title": "Product Features"
