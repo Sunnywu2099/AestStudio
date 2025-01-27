@@ -347,45 +347,45 @@
         "item_MXWeV8": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png"
+            "img": "shopify://shop_images/Rectangle_241.png",
+            "img_m": "shopify://shop_images/Rectangle_241.png"
           }
         },
-        "item_qzFViR": {
+        "item_T8Ha9J": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png"
+            "img": "shopify://shop_images/Rectangle_241.png",
+            "img_m": "shopify://shop_images/Rectangle_241.png"
           }
         },
-        "item_znDYLj": {
+        "item_GmJrXc": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png"
+            "img": "shopify://shop_images/Rectangle_241.png",
+            "img_m": "shopify://shop_images/Rectangle_241.png"
           }
         },
-        "item_mV7r3K": {
+        "item_MP6MJm": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png"
+            "img": "shopify://shop_images/Rectangle_241.png",
+            "img_m": "shopify://shop_images/Rectangle_241.png"
           }
         },
-        "item_aKLfLn": {
+        "item_NYU9eh": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png"
+            "img": "shopify://shop_images/Rectangle_241.png",
+            "img_m": "shopify://shop_images/Rectangle_241.png"
           }
         }
       },
       "block_order": [
         "item_MXWeV8",
-        "item_qzFViR",
-        "item_znDYLj",
-        "item_mV7r3K",
-        "item_aKLfLn"
+        "item_T8Ha9J",
+        "item_GmJrXc",
+        "item_MP6MJm",
+        "item_NYU9eh"
       ],
       "settings": {
         "title": "Agnès on You"
@@ -509,41 +509,41 @@
         "item_anpEhe": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_241.png",
-            "img_m": "shopify://shop_images/Rectangle_241.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_VzGRhQ": {
+        "item_UDQBEq": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_241.png",
-            "img_m": "shopify://shop_images/Rectangle_241.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_RLTGwN": {
+        "item_y4gwVC": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_241.png",
-            "img_m": "shopify://shop_images/Rectangle_241.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_xCgkqF": {
+        "item_KTPm4E": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_241.png",
-            "img_m": "shopify://shop_images/Rectangle_241.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         }
       },
       "block_order": [
         "item_anpEhe",
-        "item_VzGRhQ",
-        "item_RLTGwN",
-        "item_xCgkqF"
+        "item_UDQBEq",
+        "item_y4gwVC",
+        "item_KTPm4E"
       ],
       "settings": {
         "title": "Follow Us"
