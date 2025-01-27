@@ -326,9 +326,11 @@
           "type": "item",
           "settings": {
             "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
+            "img": "shopify://shop_images/Group_1000006672.png",
+            "img_m": "shopify://shop_images/Group_1000006672.png",
             "text": "",
+            "img_2": "shopify://shop_images/Mask_group_1_1eddf05b-50a1-4173-91dc-e7e428da8c3e.png",
+            "img_2_m": "shopify://shop_images/Mask_group_1_1eddf05b-50a1-4173-91dc-e7e428da8c3e.png",
             "text_2": ""
           }
         },
