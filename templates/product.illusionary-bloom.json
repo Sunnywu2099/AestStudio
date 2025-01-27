@@ -489,41 +489,41 @@
         "item_GQee7r": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
-            "img_m": "shopify://shop_images/Clip_path_group_21c7dbc3-205b-4e26-9a3c-1ef33f79d3d6.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_KV3cYf": {
+        "item_g3Vkka": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_edd534ec-0232-4f6f-b841-6af76abfdc2d.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_xpVCBB": {
+        "item_EEwfzF": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2_35d433c9-c5f8-4df8-8717-cb475bc15f70.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         },
-        "item_anpEhe": {
+        "item_hq3gQd": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_3.png",
-            "img_m": "shopify://shop_images/Clip_path_group_3.png",
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
         }
       },
       "block_order": [
         "item_GQee7r",
-        "item_KV3cYf",
-        "item_xpVCBB",
-        "item_anpEhe"
+        "item_g3Vkka",
+        "item_EEwfzF",
+        "item_hq3gQd"
       ],
       "settings": {
         "title": "Follow Us"
