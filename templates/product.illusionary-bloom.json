@@ -276,12 +276,13 @@
         "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Comprehensive Protection for Your Gear",
+            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
           }
         },
         "item_yiwEDA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -293,8 +294,8 @@
         "item_yiwEDA"
       ],
       "settings": {
-        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
+        "img": "shopify://shop_images/Group_1000006631.png",
+        "img_m": "shopify://shop_images/Group_1000006631.png",
         "use_video": false,
         "autoplay": true,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -313,6 +314,7 @@
         },
         "item_Fg8hrc": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -344,6 +346,7 @@
         },
         "item_NTRqdK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
