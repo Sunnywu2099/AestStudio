@@ -294,8 +294,8 @@
             "name": "Top",
             "img": "shopify://shop_images/Group_1000006693.png",
             "img_m": "shopify://shop_images/Group_1000006693.png",
-            "textarea": "",
-            "textarea_2": ""
+            "text": "",
+            "text_2": ""
           }
         },
         "item_rU4AFj": {
@@ -304,10 +304,10 @@
             "name": "Inside",
             "img": "shopify://shop_images/pdp-_3.png",
             "img_m": "shopify://shop_images/pdp-_3.png",
-            "textarea": "",
+            "text": "Two removable, padded dividers<br>\nallowing organization of a camera with two lenses or other essentials.",
             "img_2": "shopify://shop_images/Group_1000006689.png",
             "img_2_m": "shopify://shop_images/Group_1000006689.png",
-            "textarea_2": ""
+            "text_2": ""
           }
         },
         "item_8VLQfA": {
@@ -316,8 +316,8 @@
             "name": "Material",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
-            "textarea": "",
-            "textarea_2": ""
+            "text": "",
+            "text_2": ""
           }
         },
         "item_gdzg8N": {
@@ -326,8 +326,8 @@
             "name": "Details",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
-            "textarea": "",
-            "textarea_2": ""
+            "text": "",
+            "text_2": ""
           }
         },
         "item_cyjQcR": {
@@ -336,8 +336,8 @@
             "name": "Details",
             "img": "shopify://shop_images/Group_56.png",
             "img_m": "shopify://shop_images/Group_56.png",
-            "textarea": "",
-            "textarea_2": ""
+            "text": "",
+            "text_2": ""
           }
         }
       },
