@@ -96,6 +96,7 @@
         "media_dmKhwi": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group.png",
             "img_m": "shopify://shop_images/Mask_group.png",
             "use_video": false,
@@ -105,8 +106,9 @@
         "text_6i3PVh": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
-            "text": "Our founder, Vanessa, is an architect with deep reverence for detail.  In her journey as an architect, she recognized how many design conventions overlook invisible needs—those subtle, often unarticulated requirements.\nFrom the height of furniture, the spacing of chairs and staircases, to the design of public spaces, like the restroom ratios, the absence of nurturing spaces, and even the standard room temperature, these standards frequently fail to consider diverse perspectives, leaving essential needs unaddressed."
+            "text": "Founder, Vanessa\nVanessa, an architect with a profound appreciation for detail, has always been attuned to the often-overlooked nuances of design. Throughout her career, she identified a gap in how conventional design practices address subtle, unspoken needs—those critical yet invisible requirements that shape our daily experiences.\n<br><br>\nFrom the height of furniture and the spacing of chairs and staircases to public spaces like restrooms, the lack of nurturing environments, and even standard room temperatures, Vanessa saw how traditional standards frequently disregard diverse perspectives, leaving fundamental needs unmet."
           }
         }
       },
@@ -119,6 +121,8 @@
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -131,6 +135,7 @@
         "media_DnC8Yj": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_5.png",
             "img_m": "shopify://shop_images/Mask_group_5.png",
             "use_video": false,
@@ -140,6 +145,7 @@
         "text_YVQCqp": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Our story begins on the white cliffs of London, where the ocean breeze carries the scent of salt and freedom, and nature stretches endlessly before her. In this moment of serene beauty, she faced an unexpected dilemma: her camera and drone, precious companions of her journey, had no place to rest, no sanctuary to shield them. The bag she carried, though stylish, lacked the structure to cradle them with care, while traditional camera bags felt uninspired and devoid of grace.\n<br><br>\nAmidst the mountains and sea, she realized that the market lacked a bag that seamlessly married functionality with the elegance of design and the allure of fashion."
           }
@@ -154,6 +160,8 @@
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -166,6 +174,7 @@
         "media_ELYpTx": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_4.png",
             "img_m": "shopify://shop_images/Mask_group_4.png",
             "use_video": false,
@@ -175,6 +184,7 @@
         "text_WHPeRa": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Inspired by the modernist architect Louis Sullivan’s iconic maxim, “Form follows function”—the idea that form must always follow function, whether in organic or inorganic design—she began to contemplate how this principle could be translated into the world of fashion. Why shouldn’t aesthetics and functionality exist in perfect harmony, elevating one another? And so, her journey to craft a new design language began—one where fashion and practicality seamlessly intertwine, creating an effortless balance of style and purpose—Fashion follows function.\n<br><br>\nWe are grounded in the philosophy of functional aesthetics, committed to creating a new language of fashion and beauty. Our design language embraces the invisible needs of women, focusing on their style and sensibility, while thoughtfully addressing real-life needs and practical scenarios. Each piece we create is not just a reflection of beauty, but a solution to the overlooked, seamlessly blending aesthetic elegance with practical functionality.\n<br><br>\nOur brand story is about discovering and meeting those invisible needs that lie within the smallest details of life and traditional norms. It’s a tribute to the delicate art of living, to the resilience and vitality of life itself, and to the ongoing exploration of balance between aesthetics and function in every detail."
           }
@@ -189,6 +199,8 @@
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -201,6 +213,7 @@
         "media_kray83": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Clip_path_group_5.png",
             "use_video": true,
             "autoplay": false,
@@ -217,6 +230,8 @@
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
