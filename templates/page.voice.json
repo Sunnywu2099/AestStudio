@@ -23,6 +23,7 @@
       "blocks": {
         "item_bBr4et": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Cooperation Plan",
             "link": ""
@@ -32,18 +33,19 @@
           "type": "item",
           "settings": {
             "text": "Your Voice",
-            "link": ""
+            "link": "shopify://pages/your-voice"
           }
         },
         "item_FYihCW": {
           "type": "item",
           "settings": {
             "text": "Your Mind",
-            "link": ""
+            "link": "shopify://pages/your-mind"
           }
         },
         "item_qFLwwz": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Exhibition & Events",
             "link": ""
@@ -51,6 +53,7 @@
         },
         "item_9CFEKJ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Special Projects",
             "link": ""
@@ -58,6 +61,7 @@
         },
         "item_wXrX3A": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Charitable Projects",
             "link": ""
@@ -72,7 +76,6 @@
         "item_9CFEKJ",
         "item_wXrX3A"
       ],
-      "disabled": true,
       "settings": {
         "type": "margin",
         "top": 0,
