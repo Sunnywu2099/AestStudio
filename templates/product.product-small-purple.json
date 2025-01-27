@@ -302,9 +302,11 @@
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
+            "img": "shopify://shop_images/Group_1000006735.png",
+            "img_m": "shopify://shop_images/Group_1000006735.png",
+            "text": "One removable, padded dividers, allowing organization of a smartphone or other small essentials.",
+            "img_2": "shopify://shop_images/Group_1000006736.png",
+            "img_2_m": "shopify://shop_images/Group_1000006736.png",
             "text_2": ""
           }
         },
@@ -312,10 +314,12 @@
           "type": "item",
           "settings": {
             "name": "Material",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
-            "text_2": ""
+            "img": "shopify://shop_images/Group_1000006737.png",
+            "img_m": "shopify://shop_images/Group_1000006737.png",
+            "text": "Crafted from hand-finished oil-waxed cow leather",
+            "img_2": "shopify://shop_images/Group_1000006736.png",
+            "img_2_m": "shopify://shop_images/Group_1000006736.png",
+            "text_2": "Lining: Premium, soft, pistachio green lambskin leather"
           }
         }
       },
