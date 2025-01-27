@@ -76,35 +76,46 @@
         {% assign alt = block.settings.name %}
         <div class="swiper-slide item">
           <div class="img-wrapper">
+            
             {% if block.settings.img != blank %}
-              <picture>
-                {% if block.settings.img_m != blank %}
-                  <source srcset="{{ block.settings.img_m | img_url: '750x' }}" media="(max-width: 375px)">
-                  <source srcset="{{ block.settings.img_m | img_url: '1000x' }}" media="(max-width: 767px)">
+              <div class="img-box">
+                <picture>
+                  {% if block.settings.img_m != blank %}
+                    <source srcset="{{ block.settings.img_m | img_url: '750x' }}" media="(max-width: 375px)">
+                    <source srcset="{{ block.settings.img_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                  {% endif %}
+                  <source srcset="{{ block.settings.img | img_url: '2160x' }}" media="(max-width: 1080px)">
+                  <img
+                    src="{{ block.settings.img | img_url: '2400x' }}"
+                    alt="{{ alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+                </picture>
+                {% if block.settings.text != blank %}
+                  <div class="text">{{ block.settings.text }}</div>
                 {% endif %}
-                <source srcset="{{ block.settings.img | img_url: '2160x' }}" media="(max-width: 1080px)">
-                <img
-                  src="{{ block.settings.img | img_url: '2400x' }}"
-                  alt="{{ alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-              </picture>
+              </div>
             {% endif %}
             {% if block.settings.img_2 != blank %}
-              <picture>
-                {% if block.settings.img_2_m != blank %}
-                  <source srcset="{{ block.settings.img_2_m | img_url: '750x' }}" media="(max-width: 375px)">
-                  <source srcset="{{ block.settings.img_2_m | img_url: '1000x' }}" media="(max-width: 767px)">
+              <div class="img-box">
+                <picture>
+                  {% if block.settings.img_2_m != blank %}
+                    <source srcset="{{ block.settings.img_2_m | img_url: '750x' }}" media="(max-width: 375px)">
+                    <source srcset="{{ block.settings.img_2_m | img_url: '1000x' }}" media="(max-width: 767px)">
+                  {% endif %}
+                  <source srcset="{{ block.settings.img_2 | img_url: '2160x' }}" media="(max-width: 1080px)">
+                  <img
+                    src="{{ block.settings.img_2 | img_url: '2400x' }}"
+                    alt="{{ alt }}"
+                    loading="lazy"
+                    width="auto"
+                    height="100%">
+                </picture>
+                {% if block.settings.text_2 != blank %}
+                  <div class="text">{{ block.settings.text_2 }}</div>
                 {% endif %}
-                <source srcset="{{ block.settings.img_2 | img_url: '2160x' }}" media="(max-width: 1080px)">
-                <img
-                  src="{{ block.settings.img_2 | img_url: '2400x' }}"
-                  alt="{{ alt }}"
-                  loading="lazy"
-                  width="auto"
-                  height="100%">
-              </picture>
+              </div>
             {% endif %}
           </div>
         </div>
