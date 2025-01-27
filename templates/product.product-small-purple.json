@@ -347,45 +347,45 @@
         "item_MXWeV8": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_2.png",
-            "img_m": "shopify://shop_images/Layer_0_2.png"
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png"
           }
         },
-        "item_adDApN": {
+        "item_qzFViR": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_3.png",
-            "img_m": "shopify://shop_images/Layer_0_3.png"
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png"
           }
         },
-        "item_kxJCE6": {
+        "item_znDYLj": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_4.png",
-            "img_m": "shopify://shop_images/Layer_0_4.png"
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png"
           }
         },
-        "item_JxA8PW": {
+        "item_mV7r3K": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_5.png",
-            "img_m": "shopify://shop_images/Layer_0_5.png"
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png"
           }
         },
-        "item_UQCD4J": {
+        "item_aKLfLn": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Layer_0_6.png",
-            "img_m": "shopify://shop_images/Layer_0_6.png"
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png"
           }
         }
       },
       "block_order": [
         "item_MXWeV8",
-        "item_adDApN",
-        "item_kxJCE6",
-        "item_JxA8PW",
-        "item_UQCD4J"
+        "item_qzFViR",
+        "item_znDYLj",
+        "item_mV7r3K",
+        "item_aKLfLn"
       ],
       "settings": {
         "title": "Agnès on You"
