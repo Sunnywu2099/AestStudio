@@ -276,12 +276,13 @@
         "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Comprehensive Protection for Your Gear",
+            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
           }
         },
         "item_yiwEDA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -307,12 +308,13 @@
         "item_eLELVW": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Durable and Reusable",
+            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
           }
         },
         "item_Fg8hrc": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
@@ -338,12 +340,13 @@
         "item_EK6GDX": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Multi-Purpose Use",
+            "text": "Not only ideal for electronics, but also perfect for small accessories or any delicate items that need extra care. Its versatile design makes it an excellent protective and storage accessory for a wide range of items."
           }
         },
         "item_NTRqdK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Product Introduction",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
