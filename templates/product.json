@@ -338,9 +338,11 @@
           "type": "item",
           "settings": {
             "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
+            "img": "shopify://shop_images/Group_1000006677.png",
+            "img_m": "shopify://shop_images/Group_1000006677.png",
             "text": "",
+            "img_2": "shopify://shop_images/pdp-_4.png",
+            "img_2_m": "shopify://shop_images/pdp-_4.png",
             "text_2": ""
           }
         }
