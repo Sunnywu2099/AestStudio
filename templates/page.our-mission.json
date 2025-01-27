@@ -16,14 +16,14 @@
           "type": "item",
           "settings": {
             "text": "Packaging",
-            "link": ""
+            "link": "shopify://pages/packaging"
           }
         },
         "item_GUCXkw": {
           "type": "item",
           "settings": {
             "text": "Our Mission",
-            "link": ""
+            "link": "shopify://pages/our-mission"
           }
         }
       },
