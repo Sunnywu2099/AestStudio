@@ -111,15 +111,12 @@
           "settings": {
             "menu_item": "Projects",
             "images_position": "right",
-            "image_1": "shopify://shop_images/Layer_0-1.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/Layer_0-2.jpg",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
-            "image_3": "shopify://shop_images/Layer_0.jpg",
             "image_3_heading": "",
             "image_3_text": "",
             "image_3_link": ""
