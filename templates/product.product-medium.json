@@ -338,10 +338,12 @@
           "type": "item",
           "settings": {
             "name": "Details",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
-            "text_2": ""
+            "img": "shopify://shop_images/Group_1000006700.png",
+            "img_m": "shopify://shop_images/Group_1000006700.png",
+            "text": "Protective metal feet",
+            "img_2": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
+            "img_2_m": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
+            "text_2": "Brushed matte silver metal"
           }
         }
       },
