@@ -439,13 +439,7 @@ class="header color-scheme color-scheme--{{ section.settings.color_scheme.id }}"
       {%- render 'accordion', title: 'Language', content: languages_content, open: true, show_arrow: true -%}
     {%- endif -%}
 
-    <div slot="footer">
-      {%- assign button_content = 'collection.faceting.apply_filters' | t -%}
-
-      <dialog-close-button class="contents">
-        {%- render 'button', type: 'button', content: button_content, stretch: true -%}
-      </dialog-close-button>
-    </div>
+   
   </facets-drawer>
 </nav>
 
