@@ -288,14 +288,6 @@
     "product_features_QrAATR": {
       "type": "product-features",
       "blocks": {
-        "item_7ppeai": {
-          "type": "item",
-          "settings": {
-            "name": "Inside",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png"
-          }
-        },
         "item_gdzg8N": {
           "type": "item",
           "settings": {
@@ -330,7 +322,6 @@
         }
       },
       "block_order": [
-        "item_7ppeai",
         "item_gdzg8N",
         "item_8VLQfA",
         "item_cyjQcR",
