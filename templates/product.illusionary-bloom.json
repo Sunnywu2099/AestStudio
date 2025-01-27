@@ -308,8 +308,8 @@
         "item_eLELVW": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Durable and Reusable",
+            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
           }
         },
         "item_Fg8hrc": {
@@ -326,9 +326,9 @@
         "item_Fg8hrc"
       ],
       "settings": {
-        "img": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "img_m": "shopify://shop_images/WX20241205-112347_2x_1.png",
-        "use_video": true,
+        "img": "shopify://shop_images/Group_1000006637.png",
+        "img_m": "shopify://shop_images/Group_1000006637.png",
+        "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "left"
