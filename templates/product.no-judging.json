@@ -494,10 +494,37 @@
             "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
+        },
+        "item_YBV87F": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "url": ""
+          }
+        },
+        "item_KH8g7B": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "url": ""
+          }
+        },
+        "item_ECeHak": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_271.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "item_GQee7r"
+        "item_GQee7r",
+        "item_YBV87F",
+        "item_KH8g7B",
+        "item_ECeHak"
       ],
       "settings": {
         "title": "Follow Us"
