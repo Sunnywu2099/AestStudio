@@ -314,10 +314,12 @@
           "type": "item",
           "settings": {
             "name": "Material",
-            "img": "shopify://shop_images/Group_56.png",
-            "img_m": "shopify://shop_images/Group_56.png",
-            "text": "",
-            "text_2": ""
+            "img": "shopify://shop_images/Mask_group_3_4fe66b51-8f5f-46e8-88d6-997618f07097.png",
+            "img_m": "shopify://shop_images/Mask_group_3_4fe66b51-8f5f-46e8-88d6-997618f07097.png",
+            "text": "Crafted from hand-finished oil-waxed cow leather",
+            "img_2": "shopify://shop_images/Mask_group_4_137fd3c1-ab51-4f42-8214-a00e9bd9cf45.png",
+            "img_2_m": "shopify://shop_images/Mask_group_4_137fd3c1-ab51-4f42-8214-a00e9bd9cf45.png",
+            "text_2": "Lining: Premium, soft, pistachio green lambskin leather"
           }
         }
       },
