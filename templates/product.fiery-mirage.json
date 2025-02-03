@@ -151,7 +151,6 @@
             "url_3": "",
             "img_4": "shopify://shop_images/image_3.png",
             "url_4": "",
-            "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
             "url_5": ""
           }
         },
@@ -276,8 +275,8 @@
         "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "title": "Comprehensive Protection for Your Gear",
-            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
+            "title": "Dual-Layer Protection for Extra Security",
+            "text": "Experience ultimate protection with a dual-layer design: a shock-absorbing inner layer seamlessly combined with a tough outer shell. This ensures your phone stays safe from accidental drops, bumps, and daily wear-and-tear, giving you peace of mind wherever you go."
           }
         },
         "item_yiwEDA": {
@@ -294,11 +293,10 @@
         "item_yiwEDA"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006631.png",
-        "img_m": "shopify://shop_images/Group_1000006631.png",
+        "img": "shopify://shop_images/Group_1000006638.png",
+        "img_m": "shopify://shop_images/Group_1000006638.png",
         "use_video": false,
         "autoplay": true,
-        "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "text_alignment": "right"
       }
     },
@@ -308,8 +306,8 @@
         "item_eLELVW": {
           "type": "item",
           "settings": {
-            "title": "Durable and Reusable",
-            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
+            "title": "Matte Finish for a Superior Feel",
+            "text": "Indulge in the premium matte finish, offering a smooth, anti-slip grip that resists fingerprints. This ensures your phone stays sleek, fresh, and effortlessly stylish throughout the day."
           }
         },
         "item_Fg8hrc": {
@@ -326,8 +324,8 @@
         "item_Fg8hrc"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006637.png",
-        "img_m": "shopify://shop_images/Group_1000006637.png",
+        "img": "shopify://shop_images/Group_1000006623.png",
+        "img_m": "shopify://shop_images/Group_1000006623.png",
         "use_video": false,
         "autoplay": false,
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -341,8 +339,8 @@
         "item_EK6GDX": {
           "type": "item",
           "settings": {
-            "title": "Multi-Purpose Use",
-            "text": "Not only ideal for electronics, but also perfect for small accessories or any delicate items that need extra care. Its versatile design makes it an excellent protective and storage accessory for a wide range of items."
+            "title": "Precision Fit with Responsive Buttons",
+            "text": "Engineered for precision, the case features perfectly tailored button, port, and camera cutouts. Enjoy a flawless fit and seamless responsiveness, providing you with a smooth, intuitive experience at your fingertips."
           }
         },
         "item_NTRqdK": {
@@ -359,8 +357,8 @@
         "item_NTRqdK"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006643.png",
-        "img_m": "shopify://shop_images/Group_1000006643.png",
+        "img": "shopify://shop_images/Group_1000006622.png",
+        "img_m": "shopify://shop_images/Group_1000006622.png",
         "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -369,6 +367,7 @@
     },
     "product_banner_HgD9HU": {
       "type": "product-banner",
+      "disabled": true,
       "settings": {
         "title": "You May Also Like",
         "img": "shopify://shop_images/Layer_0_11.png",
