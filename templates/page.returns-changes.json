@@ -37,21 +37,21 @@
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "How to Exchange an Item?",
+            "question": "How to exchange an Item?",
             "answer": "<ul><li>We currently <strong>do not offer direct exchanges</strong>. If you wish to exchange an item, please follow our <strong>return and refund process</strong>, then place a <strong>new order</strong> for the desired product.</li><li>All returns <strong>must comply with our return policy</strong>, including items being <strong>unused, undamaged, and with all tags and packaging intact</strong>.</li></ul>"
           }
         },
         "question-4": {
           "type": "question",
           "settings": {
-            "question": "Who Covers the Return Shipping Fees?",
+            "question": "Who covers the return shipping fees?",
             "answer": "<p>Please note that customers are responsible for the return shipping costs. We do not cover return shipping fees.</p>"
           }
         },
         "question-5": {
           "type": "question",
           "settings": {
-            "question": "How Long Does It Take to Process My Refund?",
+            "question": "How long does it take to process my refund?",
             "answer": "<ul><li>Once we <strong>receive your returned item</strong> and confirm it <strong>meets our return conditions</strong>, your refund will be <strong>processed within 5-10 business days</strong>. The refund will be issued <strong>to the original payment method</strong>. <strong>Please note that original shipping fees are non-refundable.</strong></li><li>Refunds may be <strong>subject to delays</strong> depending on <strong>your payment provider’s processing times</strong>. If your refund <strong>has not been received within 30 days</strong>, please <strong>contact us</strong>, and we will assist you in resolving the issue.</li></ul>"
           }
         },
@@ -64,6 +64,7 @@
         },
         "question_rkmiMi": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "What are the conditions for returns and exchanges?",
             "answer": "<p>1 The product must be kept in a brand new condition, unused, and undamaged. All labels, tags, and packaging must be intact.</p><p>2 We do not accept returns or exchanges for customized and personalized products that have been opened.</p><p>3 When returning goods, they must be returned through our designated courier company.</p><p>4 The return application must be submitted within 15 days, and the returned goods must be shipped out within 7 days after the application.</p><p>*Please note that we only support UPS or DHL as our return logistics carriers</p>"
