@@ -90,6 +90,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
@@ -196,6 +197,7 @@
       "blocks": {
         "item_rGmAbD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Product  Video",
             "id": "shopify-section-template--18965441183965__video_eEEpfh"
@@ -210,8 +212,9 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
-            "name": "Caprure on you",
+            "name": "Capture on you",
             "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
@@ -260,6 +263,7 @@
       "block_order": [
         "play_PU4wVK"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
@@ -277,7 +281,7 @@
           "type": "item",
           "settings": {
             "title": "Comprehensive Protection for Your Gear",
-            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
+            "text": "The Protective Wrap is designed to safeguard your valuable electronics, cameras, lenses, and other delicate items. Made with high-performance materials, it offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
           }
         },
         "item_yiwEDA": {
@@ -309,7 +313,7 @@
           "type": "item",
           "settings": {
             "title": "Durable and Reusable",
-            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
+            "text": "Crafted from high-quality, long-lasting materials, the wrap delivers exceptional performance with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures reliable protection for your devices, even under frequent use. Additionally, it is fully washable and reusable, maintaining its protective capabilities through multiple washes."
           }
         },
         "item_Fg8hrc": {
@@ -341,7 +345,7 @@
           "type": "item",
           "settings": {
             "title": "Multi-Purpose Use",
-            "text": "Not only ideal for electronics, but also perfect for small accessories or any delicate items that need extra care. Its versatile design makes it an excellent protective and storage accessory for a wide range of items."
+            "text": "This wrap is not just for electronics—it’s also perfect for small accessories or any delicate items that require extra care. Its versatile design makes it an ideal protective and storage solution for a wide range of items, ensuring convenience and peace of mind."
           }
         },
         "item_NTRqdK": {
@@ -368,6 +372,7 @@
     },
     "product_banner_HgD9HU": {
       "type": "product-banner",
+      "disabled": true,
       "settings": {
         "title": "You May Also Like",
         "img": "shopify://shop_images/Layer_0_11.png",
