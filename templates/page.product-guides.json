@@ -107,7 +107,7 @@
           "type": "item",
           "settings": {
             "title": "Size Guide",
-            "content": "<p><span>1.Basic Size Parameters</span>Length: The widest part of the bottom of the bag.<br>Height: The vertical distance from the bottom to the top of the bag.<br>Height: Depth: The horizontal distance from the back to the front of the bag.<br>Strap Length: The distance from the top of the strap to the top of the bag, applicable for shoulder or crossbody bags.\n</p>\n<p><span>2.Size Classification:</span>Small: A mini bag suitable for daily use.<br>Medium: A medium-sized bag with moderate capacity, suitable for work or going out.<br>Large: A larger bag with more capacity, ideal for travel or extended outings.</p>"
+            "content": "<p><span>1.Basic Size Parameters</span>Length: The widest part of the bottom of the bag.<br>Height: The vertical distance from the bottom to the top of the bag.<br> Depth: The horizontal distance from the back to the front of the bag.<br>Strap Length: The distance from the top of the strap to the top of the bag, applicable for shoulder or crossbody bags.\n</p>\n<p><span>2.Size Classification:</span>Small: A mini bag suitable for daily use.<br>Medium: A medium-sized bag with moderate capacity, suitable for work or going out.<br>Large: A larger bag with more capacity, ideal for travel or extended outings.</p>"
           }
         },
         "item_84MTb3": {
