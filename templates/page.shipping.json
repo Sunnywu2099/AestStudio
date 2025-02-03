@@ -1,1 +1,127 @@
-{"sections":{"shipping":{"type":"shipping","blocks":{"category_ghYRNf":{"type":"category","settings":{"title":"Shipping Policy","icon_width":16}},"question-1":{"type":"rich_item","settings":{"title":"","content":"<p>Thank you for choosing our brand. If you need a return or exchange, please fill out the following form and we will reply to you within 1-3 working days.<\/p>"}},"rich_item_cEMRzz":{"type":"rich_item","settings":{"title":"1.Can our order be shipped to all countries?","content":"<p>We currently support delivery to the following countries and regions:<\/p>"}},"area_table_nHWUkx":{"type":"area_table","settings":{"area_table":"[]"}},"rich_item_wrcAiX":{"type":"rich_item","settings":{"title":"Regions that do not support delivery:","content":"<p>Puerto Rico (PR), US Virgin Islands (VI), Guam (GU), Northern Mariana Islands (MP), American Samoa (AS), Alaska (AK), Hawaii (HI).<\/p>"}},"rich_item_LPGPWw":{"type":"rich_item","settings":{"title":"3.What is the delivery time for different regions?","content":"<p>We cooperate with different transportation companies to ensure fast delivery services for you. Here are the estimated delivery times for orders from different regions:<\/p><p>Within the United States:Orders within the United States will be shipped from warehouses located in the western United States. Estimated delivery time to various states\/cities within the United States: 3-8 working days (may be delayed during holidays and weekends)<\/p><p>International Logistics:The delivery time for countries other than the United States is 7-10 working days (there may be delays during holidays and weekends). We will ship from the warehouse closest to you, automatically selecting the nearest warehouse and the fastest standard\/ground service. International orders are sent through various carriers, and we cannot guarantee which shipping service or warehouse will be used before shipment.<\/p>"}},"rich_item_fhFLLx":{"type":"rich_item","settings":{"title":"4.Which courier carrier do you use?","content":"<p>We collaborate with multiple international courier companies to ensure fast and reliable delivery of your goods. Our main express carriers include:<\/p><ul><li>DHL<\/li><li>UPS<\/li><li>USP MI<\/li><\/ul>"}},"rich_item_aQnWCr":{"type":"rich_item","settings":{"title":"5.Does delivery require payment of shipping fees?","content":"<p>All orders are eligible for free express delivery service. If you need special logistics services (such as expedited transportation), please contact us hello@aeststudio.com<\/p>"}},"rich_item_7QMFmJ":{"type":"rich_item","settings":{"title":"6.Delivery address and delivery receipt","content":"<p>Shipping address：The address you provided at checkout must be a valid address. We are unable to send orders to post office boxes, shipping addresses, or postal collection addresses in specific countries.<\/p><p>Sign in requirements:To ensure the smooth delivery of your order, the courier company will require the recipient to sign for it. If you are unable to personally sign for the package, you can choose to send it to a trusted address or contact the courier company to arrange for redelivery.<\/p>"}},"rich_item_Mr8t9t":{"type":"rich_item","settings":{"title":"7.Delivery failed","content":"<p>If the package cannot be delivered due to reasons beyond our control after two attempts, it will be automatically returned and we will contact you for a refund or redelivery.<\/p>"}},"rich_item_JCxwEj":{"type":"rich_item","settings":{"title":"8.Do I need to pay customs duties?","content":"<p>Some international transportation may require payment of tariffs, taxes, and customs fees. Please note that the shipping fees on our website do not include these costs, which we cannot control. We suggest that you contact your local customs office before international shipping to obtain more information about any additional fees that may be levied in your country\/region.<\/p><p> If the customer refuses to accept the package due to import tariffs or taxes, the customer may bear full responsibility for all postage, return shipping, customs fees, and handling fees.<\/p>"}},"rich_item_E4tqyR":{"type":"rich_item","settings":{"title":"9.I haven't received my order yet or my package is damaged. What should I do?","content":"<p>If any items are lost or damaged in the received package, we sincerely invite you to file a claim with the carrier and submit it through hello@aeststudios.com Contact our customer service department. Please note that any claims related to delivery must be submitted within 15 working days after the package is delivered.<\/p><p> *After this deadline, we will not be able to claim any lost orders.<\/p>"}}},"block_order":["category_ghYRNf","question-1","rich_item_cEMRzz","area_table_nHWUkx","rich_item_wrcAiX","rich_item_LPGPWw","rich_item_fhFLLx","rich_item_aQnWCr","rich_item_7QMFmJ","rich_item_Mr8t9t","rich_item_JCxwEj","rich_item_E4tqyR"],"settings":{"color_scheme":"","table_data":"[\n    [\"Europe\",\"France\",\"Belgium\",\"Italy\",\"Germany\",\"United Kingdom\",\"Spain\",\"Austria\",\"Denmark\",\"Finland\",\"Poland\",\"Netherlands\",\"Ireland\",\"Sweden\",\"Switzerland\",\"Norway\",\"Luxembourg\",\"Portugal\",\"Czech Republic\",\"Hungary\"],\n    [\"Asia-Pacific\",\"Singapore\",\"Malaysia\",\"Japan\",\"Australia\",\"New Zealand\",\"Thailand\",\"South Korea\",\"Philippines\",\"Taiwan\",\"Vietnam\",\"Hong Kong\",\"Macao\",\"India\",\"Indonesia\"],\n    [\"America\",\"United States\",\"Canada\",\"Mexico\",\"Colombia\"],\n    [\"Middle East\",\"United Arab Emirates\",\"Saudi Arabia\",\"Kuwait\",\"Turkey\"]\n]","separate_section_with_border":true,"show_categories":false,"subheading":"Need help?","title":"Frequently Asked Questions","content":""}}},"order":["shipping"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shipping": {
+      "type": "shipping",
+      "blocks": {
+        "category_ghYRNf": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping Policy",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "rich_item",
+          "settings": {
+            "title": "",
+            "content": "<p>Thank you for choosing our brand. If you need a return or exchange, please fill out the following form and we will reply to you within 1-3 working days.</p>"
+          }
+        },
+        "rich_item_cEMRzz": {
+          "type": "rich_item",
+          "settings": {
+            "title": "1. Can our order be shipped to all countries?",
+            "content": "<p>We currently support shipping to the following countries and regions:</p>"
+          }
+        },
+        "area_table_nHWUkx": {
+          "type": "area_table",
+          "settings": {
+            "area_table": "[]"
+          }
+        },
+        "rich_item_wrcAiX": {
+          "type": "rich_item",
+          "settings": {
+            "title": "<strong>Unsupported Delivery Regions:</strong>",
+            "content": "<p>Puerto Rico (PR), U.S. Virgin Islands (VI), Guam (GU), Northern Mariana Islands (MP), American Samoa (AS), Alaska (AK), and Hawaii (HI).</p><p><strong>Unfortunately, we cannot ship to P.O. boxes, APO, or FPO addresses.</strong></p><p>If your country or region is not listed, please contact us at <strong>hello@aeststudios.com</strong> to check if special delivery arrangements can be made.</p>"
+          }
+        },
+        "rich_item_LPGPWw": {
+          "type": "rich_item",
+          "settings": {
+            "title": "2. What is the delivery time for different regions?",
+            "content": "<p>We work with various shipping carriers to provide <strong>fast and reliable</strong> delivery services. Below are the estimated delivery times for different regions:</p><p><strong>Within the United States:</strong></p><p>Orders within the U.S. are shipped from our <strong>East Coast warehouse</strong>. The estimated delivery time to different states and cities across the U.S. is <strong>5-8 business days</strong> (delays may occur during holidays and weekends).</p><p><strong>International Shipping:</strong></p><p>For orders outside the U.S., the estimated delivery time is <strong>7-10 business days</strong> (delays may occur during holidays and weekends).Orders will be automatically shipped from the <strong>nearest available warehouse</strong>. International orders are processed through various carriers, and we <strong>cannot guarantee</strong> which shipping service or warehouse will be used prior to dispatch.</p>"
+          }
+        },
+        "rich_item_fhFLLx": {
+          "type": "rich_item",
+          "settings": {
+            "title": "3. Which courier carrier do you use?",
+            "content": "<p>We partner with multiple international carriers to ensure <strong>fast and secure delivery</strong>. Our primary shipping providers include:      </p><ul><li><strong>DHL</strong> </li><li><strong>UPS</strong></li></ul>"
+          }
+        },
+        "rich_item_aQnWCr": {
+          "type": "rich_item",
+          "settings": {
+            "title": "4. <strong>Is there a shipping fee?</strong>",
+            "content": "<p><strong>United States (excluding unsupported regions listed above):</strong> </p><ul><li>Free shipping for orders over <strong>$69</strong>. </li><li>A <strong>$12</strong> shipping fee for orders under <strong>$69</strong>.       </li></ul><p><strong>Europe:</strong> A <strong>$17</strong> shipping fee.  </p><p><strong>Asia:</strong> A <strong>$11</strong> shipping fee.  </p><p><strong>Australia:</strong> A <strong>$12</strong> shipping fee. </p><p><strong>New Zealand:</strong> A <strong>$21</strong> shipping fee. </p><p><strong>Other countries and regions (excluding unsupported regions):</strong> A <strong>$20</strong> shipping fee.</p>"
+          }
+        },
+        "rich_item_7QMFmJ": {
+          "type": "rich_item",
+          "settings": {
+            "title": "<strong>5. Shipping Address & Signature Requirements</strong>",
+            "content": "<p><strong>Shipping Address: </strong>The shipping address provided at checkout <strong>must be valid</strong>. We cannot ship to <strong>P.O. boxes, APO/FPO addresses.</strong></p><p><strong>Signature Requirements: </strong>To ensure successful delivery, the carrier may require a signature upon receipt. If you are unable to sign in person, you may choose to have the package delivered to a trusted address.</p><p><strong>Note: </strong>If the package <strong>cannot be delivered</strong> due to reasons <strong>beyond our control</strong>, it will be returned to us. We will then contact you to arrange a <strong>refund or re-delivery</strong>.</p>"
+          }
+        },
+        "rich_item_Mr8t9t": {
+          "type": "rich_item",
+          "settings": {
+            "title": "6. Delivery failed",
+            "content": "<p>If a package <strong>cannot be delivered</strong> after <strong>two failed delivery attempts</strong> for reasons <strong>beyond our control</strong>, it will be <strong>automatically returned to us</strong>. We will then contact you to arrange either a <strong>refund or re-delivery</strong>.</p>"
+          }
+        },
+        "rich_item_JCxwEj": {
+          "type": "rich_item",
+          "settings": {
+            "title": "7. <strong>Will I have to pay customs duties?</strong>",
+            "content": "<p>For some international shipments, <strong>customs duties, taxes, and fees may apply</strong>. Please note that:</p><ul><li>The <strong>shipping fees listed on our website do not include customs duties</strong>, and we have no control over these charges.</li><li>We recommend <strong>contacting your local customs office</strong> before placing an order to learn more about any potential import fees.</li></ul><p><strong>Important: </strong>If a package is <strong>refused by the customer</strong> due to import duties or taxes, the customer <strong>may be responsible for all related shipping fees, return shipping costs, customs fees, and handling charges</strong>.</p>"
+          }
+        },
+        "rich_item_E4tqyR": {
+          "type": "rich_item",
+          "settings": {
+            "title": "<strong>8. I haven’t received my order, or my package is damaged. What should I do?</strong>",
+            "content": "<p>If any items in your package are <strong>missing or damaged</strong>, we sincerely encourage you to <strong>file a claim with the carrier</strong> and contact our <strong>customer service team</strong> at <strong>hello@aeststudios.com</strong>.</p><p><strong>Important:</strong></p><ul><li>Any <strong>delivery-related claims must be submitted within 15 business days</strong> from the date of delivery.</li><li> <strong>Claims submitted after this period will not be eligible for reimbursement</strong> for lost orders.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "category_ghYRNf",
+        "question-1",
+        "rich_item_cEMRzz",
+        "area_table_nHWUkx",
+        "rich_item_wrcAiX",
+        "rich_item_LPGPWw",
+        "rich_item_fhFLLx",
+        "rich_item_aQnWCr",
+        "rich_item_7QMFmJ",
+        "rich_item_Mr8t9t",
+        "rich_item_JCxwEj",
+        "rich_item_E4tqyR"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "table_data": "[\n    [\"Europe\",\"France\",\"Belgium\",\"Italy\",\"Germany\",\"United Kingdom\",\"Spain\",\"Austria\",\"Denmark\",\"Finland\",\"Poland\",\"Netherlands\",\"Ireland\",\"Sweden\",\"Switzerland\",\"Norway\",\"Luxembourg\",\"Portugal\",\"Czech Republic\",\"Hungary\"],\n    [\"Asia-Pacific\",\"Singapore\",\"Malaysia\",\"Japan\",\"Australia\",\"New Zealand\",\"Thailand\",\"South Korea\",\"Philippines\",\"Taiwan\",\"Vietnam\",\"Hong Kong\",\"Macao\",\"India\",\"Indonesia\"],\n    [\"America\",\"United States\",\"Canada\",\"Mexico\",\"Colombia\"],\n    [\"Middle East\",\"United Arab Emirates\",\"Saudi Arabia\",\"Kuwait\",\"Turkey\"]\n]",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "shipping"
+  ]
+}
