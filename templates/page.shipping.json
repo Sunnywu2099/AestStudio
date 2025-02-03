@@ -113,7 +113,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "table_data": "[\n    [\"Europe\",\"France\",\"Belgium\",\"Italy\",\"Germany\",\"United Kingdom\",\"Spain\",\"Austria\",\"Denmark\",\"Finland\",\"Poland\",\"Netherlands\",\"Ireland\",\"Sweden\",\"Switzerland\",\"Norway\",\"Luxembourg\",\"Portugal\",\"Czech Republic\",\"Hungary\"],\n    [\"Asia-Pacific\",\"Singapore\",\"Malaysia\",\"Japan\",\"Australia\",\"New Zealand\",\"Thailand\",\"South Korea\",\"Philippines\",\"Taiwan\",\"Vietnam\",\"Hong Kong\",\"Macao\",\"India\",\"Indonesia\"],\n    [\"America\",\"United States\",\"Canada\",\"Mexico\",\"Colombia\"],\n    [\"Middle East\",\"United Arab Emirates\",\"Saudi Arabia\",\"Kuwait\",\"Turkey\"]\n]",
+        "table_data": "[\n    [\"Europe\",\"France\",\"Belgium\",\"Italy\",\"Germany\",\"United Kingdom\",\"Spain\",\"Austria\",\"Denmark\",\"Finland\",\"Poland\",\"Netherlands\",\"Ireland\",\"Sweden\",\"Switzerland\",\"Norway\",\"Luxembourg\",\"Portugal\",\"Czech Republic\",\"Hungary\"],\n    [\"Asia-Pacific\",\"Singapore\",\"Malaysia\",\"Japan\",\"Australia\",\"New Zealand\",\"Thailand\",\"South Korea\",\"Philippines\",\"Taiwan\",\"Vietnam\",\"Hong Kong\",\"Macau\",\"India\",\"Indonesia\"],\n    [\"America\",\"United States\",\"Canada\",\"Mexico\",\"Colombia\"],\n    [\"Middle East\",\"United Arab Emirates\",\"Saudi Arabia\",\"Kuwait\",\"Turkey\"]\n]",
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "Need help?",
