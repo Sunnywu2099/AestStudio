@@ -230,6 +230,17 @@
             "link": "shopify://pages/aest-studios"
           }
         },
+        "block_QKp4UY": {
+          "type": "block",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
+            "btn": "Help Center",
+            "link": "shopify://pages/contact"
+          }
+        },
         "block_DCpCth": {
           "type": "block",
           "settings": {
@@ -284,27 +295,16 @@
             "btn": "Exhibition & Events",
             "link": ""
           }
-        },
-        "block_QKp4UY": {
-          "type": "block",
-          "settings": {
-            "color": "#ffffff",
-            "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
-            "img_m": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
-            "btn": "Help Center",
-            "link": "shopify://pages/contact"
-          }
         }
       },
       "block_order": [
         "block_cTwNpV",
+        "block_QKp4UY",
         "block_DCpCth",
         "block_n4jTGh",
         "block_9tqePb",
         "block_dwaUxg",
-        "block_QbwJXH",
-        "block_QKp4UY"
+        "block_QbwJXH"
       ],
       "settings": {
         "section_title": "AEST CLUB"
