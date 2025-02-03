@@ -90,6 +90,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
@@ -122,7 +123,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Product Details",
-            "content": "<ul><li>IMD: Double-Sided IMD (In-Mold Decoration)</li><li>TPU: Transparent TPU (Thermoplastic Polyurethane)</li><li>Design：Blooming Flower</li><li>Available for iPhone 15/15PRO/15PROMAX/16/16PRO/16PROMAX</li></ul>",
+            "content": "<ul><li>IMD: Double-Sided IMD (In-Mold Decoration)</li><li>TPU: Transparent TPU (Thermoplastic Polyurethane)</li><li>Design：Blooming Flower</li><li>Available for iPhone 15/15 PRO/15 PROMAX/16/16 PRO/16 PROMAX</li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -147,7 +148,6 @@
             "url_1": "shopify://products/agnes-black-mini-shoulder-bag",
             "img_2": "shopify://shop_images/image_1.png",
             "url_2": "",
-            "img_3": "shopify://shop_images/image_2.png",
             "url_3": "",
             "img_4": "shopify://shop_images/image_3.png",
             "url_4": "",
