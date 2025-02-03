@@ -90,6 +90,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
@@ -196,6 +197,7 @@
       "blocks": {
         "item_rGmAbD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Product  Video",
             "id": "shopify-section-template--18965441183965__video_eEEpfh"
@@ -210,8 +212,9 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
-            "name": "Caprure on you",
+            "name": "Capture on you",
             "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
@@ -260,6 +263,7 @@
       "block_order": [
         "play_PU4wVK"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
@@ -276,8 +280,8 @@
         "item_eXUKfX": {
           "type": "item",
           "settings": {
-            "title": "Comprehensive Protection for Your Gear",
-            "text": "PROTECTIVE WRAP protects your valuable electronics, cameras, lenses, and other delicate items. The high-performance material offers full protection against scratches, dust, and impacts, ensuring your devices remain in pristine condition during travel or storage."
+            "title": "Dual-Layer Protection for Extra Security",
+            "text": "Experience ultimate protection with a dual-layer design: a shock-absorbing inner layer seamlessly combined with a tough outer shell. This ensures your phone stays safe from accidental drops, bumps, and daily wear-and-tear, giving you peace of mind wherever you go."
           }
         },
         "item_yiwEDA": {
@@ -308,8 +312,8 @@
         "item_eLELVW": {
           "type": "item",
           "settings": {
-            "title": "Durable and Reusable",
-            "text": "Made from high-quality, long-lasting materials, with shear strength exceeding 75N and peel strength exceeding 0.7N. The durable fabric ensures it remains strong and effective in providing protection for your devices. Additionally, it is fully washable and reusable, maintaining its protective capabilities even after multiple washes"
+            "title": "Matte Finish for a Superior Feel",
+            "text": "Indulge in the premium matte finish, offering a smooth, anti-slip grip that resists fingerprints. This ensures your phone stays sleek, fresh, and effortlessly stylish throughout the day."
           }
         },
         "item_Fg8hrc": {
@@ -341,8 +345,8 @@
         "item_EK6GDX": {
           "type": "item",
           "settings": {
-            "title": "Multi-Purpose Use",
-            "text": "Not only ideal for electronics, but also perfect for small accessories or any delicate items that need extra care. Its versatile design makes it an excellent protective and storage accessory for a wide range of items."
+            "title": "Precision Fit with Responsive Buttons",
+            "text": "Engineered for precision, the case features perfectly tailored button, port, and camera cutouts. Enjoy a flawless fit and seamless responsiveness, providing you with a smooth, intuitive experience at your fingertips"
           }
         },
         "item_NTRqdK": {
