@@ -1,1 +1,88 @@
-{"sections":{"faq":{"type":"faq","blocks":{"category":{"type":"category","settings":{"title":"Frequently Asked Questions","icon":"none","icon_width":16}},"question-1":{"type":"question","settings":{"question":"Shipping & Orders","answer":"<p>We know how exciting it is to receive your order, and we’re here to make sure everything goes smoothly from checkout to delivery. Whether you’re wondering about shipping options, tracking your package, or delivery times, we’ve got you covered.<\/p><p>Visit our <a href=\"\/pages\/shipping\" title=\"shipping\">Shipping & Orders page<\/a> for all the details you need to stay informed and in control of your purchase!<\/p>"}},"question-2":{"type":"question","settings":{"question":"Returns and Exchanges","answer":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p><p>Visit our <a href=\"\/pages\/returns\" title=\"returns\">Returns and Exchanges page<\/a> to get all the information you need and start your request today!<\/p>"}},"question-3":{"type":"question","settings":{"question":"Product Info&sizing","answer":"<p>We’ve got all the details you need—materials, size, color, and more—right on each product page! Just head to the page of your favorite product to find all the info you’re looking for.<\/p>"}},"question-4":{"type":"question","settings":{"question":"Technology and process","answer":"<p>Every bag tells a story of craftsmanship and innovation. Our journey begins with the finest materials, sourced sustainably, and continues with cutting-edge technology and meticulous attention to detail.<\/p><p>Discover more about the craftsmanship and technology behind your favorite bags on our <a href=\"https:\/\/aeststudios.com\/pages\/technology-process\">Technology and Process page<\/a>.<\/p>"}},"question-5":{"type":"question","settings":{"question":"Discount codes&offers","answer":"<p>Sometimes discount codes may not apply if they’ve expired, so be sure to double-check the valid time. If you run into any issues, feel free to reach out to us—we’re happy to help!<\/p><p>To use a discount code, simply enter it at checkout page, and the discount will be automatically applied to your order total.<\/p>"}},"question-6":{"type":"question","settings":{"question":"Contact us","answer":"<p>We are here Mon.-Fri. 9am-6pm(GMT+8). Drop us a note anytime: hello@aeststudio.com. We will respond to your inquiry within 2 business days.<\/p>"}}},"block_order":["category","question-1","question-2","question-3","question-4","question-5","question-6"],"settings":{"color_scheme":"","separate_section_with_border":true,"show_categories":false,"subheading":"Need help?","title":"Frequently Asked Questions","content":""}}},"order":["faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping & Orders",
+            "answer": "<p>We know how exciting it is to receive your order, and we’re here to make sure everything goes smoothly from checkout to delivery. Whether you’re wondering about shipping options, tracking your package, or delivery times, we’ve got you covered.</p><p>Visit our <a href=\"/pages/shipping\" title=\"shipping\">Shipping & Delivery page</a> for all the details you need to stay informed and in control of your purchase!</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "Returns and Exchanges",
+            "answer": "<p>We want you to love your new bag, but we understand that sometimes things don’t work out. That’s why we offer a returns and exchanges policy to ensure your shopping experience is as smooth as possible.</p><p>Visit our <a href=\"/pages/returns\" title=\"returns\">Returns and Refunds page</a> to get all the information you need and start your request today!</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "Product Info&sizing",
+            "answer": "<p>We’ve got all the details you need—materials, size, color, and more—right on each product page! Just head to the page of your favorite product to find all the info you’re looking for.</p>"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "question": "Technology and process",
+            "answer": "<p>Every bag tells a story of craftsmanship and innovation. Our journey begins with the finest materials, sourced sustainably, and continues with cutting-edge technology and meticulous attention to detail.</p><p>Discover more about the craftsmanship and technology behind your favorite bags on our <a href=\"https://aeststudios.com/pages/technology-process\">Technology and Process page</a>.</p>"
+          }
+        },
+        "question-5": {
+          "type": "question",
+          "settings": {
+            "question": "Discount codes & offers",
+            "answer": "<p>Sometimes discount codes may not apply if they’ve expired, so be sure to double-check the valid time. If you run into any issues, feel free to reach out to us—we’re happy to help!</p><p>To use a discount code, simply enter and apply it at checkout page, and the discount will be automatically applied to your order total.</p>"
+          }
+        },
+        "question-6": {
+          "type": "question",
+          "settings": {
+            "question": "Contact us",
+            "answer": "<p>We are here Mon.-Fri. 9am-6pm(GMT+8). Drop us a note anytime: hello@aeststudio.com. We will respond to your inquiry within 2 business days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4",
+        "question-5",
+        "question-6"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}

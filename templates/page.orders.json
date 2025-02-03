@@ -22,36 +22,36 @@
         "question-1": {
           "type": "rich_item",
           "settings": {
-            "title": "1.How can I check the status of my order?",
-            "content": "<ul><li>Once your order is shipped, we will send you a notification containing tracking information via email. </li><li>You can check the order status and estimated arrival time through this tracking link. You can also click here to enter our order inquiry portal and enter your order number or related information for inquiry. </li><li>If you have not found any relevant logistics information, it is likely that your order has just been shipped and the carrier has not updated the tracking information. Usually, within 48 hours after placing your order, you can check the relevant logistics information of your purchase order. </li><li>Due to the high value of our products, we recommend that you carefully inspect them when signing for them. If you are not satisfied with the product or find any problems, please submit a return request as soon as possible so that we can provide you with timely service and support.</li></ul>"
+            "title": "1. How can I check the status of my order?",
+            "content": "<ul><li>Once your order <strong>has been shipped</strong>, we will send you an <strong>email notification</strong> with tracking information. You can use the tracking link to check the order status and the estimated delivery time.</li><li> You can also click <strong>[here](insert link)</strong> to access our <strong>Order Tracking Portal</strong>. Enter your order number or related details to track your order.</li><li> If <strong>no tracking information</strong> is available, it may be because your order has just been shipped and the carrier has not yet updated the tracking details. Typically, tracking information will be available <strong>within 48 hours of shipping</strong>.</li><li>Since our products are <strong>high-value items</strong>, we recommend <strong>carefully checking your package when you received</strong>. If you are unsatisfied with the product or notice any issues, please <strong>submit a return request as soon as possible</strong> so we can provide timely support.</li></ul>"
           }
         },
         "rich_item_cEMRzz": {
           "type": "rich_item",
           "settings": {
-            "title": "2.How can I modify my order?",
-            "content": "<p>Orders placed on aeststudios.com cannot be modified. Please rest assured that if you no longer wish to keep your order, you can cancel and return the item at any time before or after the order is processed.</p>"
+            "title": "2. How can I modify my order?",
+            "content": "<p>Orders placed on <strong>aeststudios.comcannot be modified</strong> (e.g., removing or changing items in your order). The only option is to <strong>cancel your order and place a new one</strong>.</p><ul><li> If you no longer wish to keep your order, <strong>please cancel it before it is shipped</strong>.</li><li>Once the order has been shipped, we will <strong>no longer be able to intercept it</strong>. In such cases, you may <strong>return the product upon receipt</strong> or <strong>refuse the delivery</strong>.</li><li>f you <strong>do not immediately return or refuse the package</strong>, you <strong>will be responsible for the return shipping fees</strong>.</li></ul>"
           }
         },
         "rich_item_wrcAiX": {
           "type": "rich_item",
           "settings": {
-            "title": "3.How to cancel an order?",
-            "content": "<ul><li>If you decide to cancel, please contact our email as soon as possible hello@aeststudios.com contact us. If the order has not been shipped yet, we will do our best to assist you in canceling it. If the order has already been shipped, we cannot intercept the order and therefore cannot cancel it. You can return or reject the goods on the spot when you receive them. If there is no immediate return or rejection, you will bear the return costs incurred. </li><li>Please note that some orders cannot be cancelled or refunded (such as gift cards, customized products, etc.). </li><li>If you have any questions, please contact us hello@aeststudios.com We will find a solution.</li></ul>"
+            "title": "3. How to cancel an order?",
+            "content": "<ul><li> If you decide to cancel your order, please <strong>contact us as soon as possible</strong> at <strong>hello@aeststudios.com</strong>.</li><li> If the order <strong>has not yet been shipped</strong>, we will do our best to cancel it for you.</li><li>If the order <strong>has already been shipped</strong>, we <strong>will not be able to intercept it</strong>. In such cases, you may <strong>return the product upon receipt</strong> or <strong>refuse the delivery</strong>.</li><li>If you <strong>do not immediately return or refuse the package</strong>, you <strong>will be responsible for the return shipping fees</strong>.</li></ul><p><strong>Noted：</strong></p><ul><li><strong>Please note that some orders cannot be canceled or refunded</strong> (e.g., gift cards, customized products, etc.).</li><li>If you have any questions, please contact us at <strong>hello@aeststudios.com</strong>, and we will work to find a solution.</li></ul>"
           }
         },
         "rich_item_LPGPWw": {
           "type": "rich_item",
           "settings": {
-            "title": "4.When can the product be restocked if it is out of stock?",
-            "content": "<p>Aest Studios offers a wide range of the latest series products, with inventory regularly updated. If the product you want to purchase is out of stock, we sincerely invite you to contact us or subscribe to our waiting list (which can be viewed on the product information page). </p><p>If your order includes pre ordered or out of stock items, it may not be shipped immediately or may be automatically split into multiple shipments. The specific delivery date details can be found on the product information page.</p>"
+            "title": "<strong>4. What happens if a product is out of stock, and when will it be restocked?</strong>",
+            "content": "<ul><li><strong>Aest Studios</strong> offers a wide selection of <strong>the latest collection pieces</strong>, and our inventory is <strong>regularly updated</strong>.</li><li>If the product you want is out of stock, we invite you to <strong>contact us</strong> or <strong>subscribe to our waitlist</strong> (available on the product information page).</li><li>If your order contains <strong>pre-order or out-of-stock items</strong>, it may <strong>not be shipped immediately</strong> or <strong>may be automatically split into multiple shipments</strong>.</li><li>Please refer to the <strong>product information page</strong> for specific shipping dates.</li></ul>"
           }
         },
         "rich_item_fhFLLx": {
           "type": "rich_item",
           "settings": {
-            "title": "5.How can I track my order?",
-            "content": "<p>You can check the order status and obtain tracking information through the \"My Orders\" page. After the order is shipped, we will send you the tracking number and courier company information via email. You can check the status and estimated delivery time of your package through the link.</p>"
+            "title": "5. How can I track my order?",
+            "content": "<ul><li>You can <strong>check your order status</strong> and obtain tracking information through the <strong>“My Orders” page</strong>.</li><li>Once your order <strong>has been shipped</strong>, we will send you an <strong>email notification</strong> containing: your tracking number, the shipping carrier’s information...</li><li>You can <strong>use the provided tracking link</strong> to check your package’s <strong>real-time status and estimated delivery date</strong>.</li></ul>"
           }
         }
       },
