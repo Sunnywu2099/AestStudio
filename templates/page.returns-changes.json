@@ -1,1 +1,96 @@
-{"sections":{"returns":{"type":"returns","blocks":{"category":{"type":"category","settings":{"title":"Returns & Refunds","icon":"none","icon_width":16}},"question-1":{"type":"question","settings":{"question":"How to make a return?","answer":"<p>1-If you are not satisfied with the purchased product, we offer a free return service within 15 days. Please ensure that the product meets the return criteria and the return request must be submitted within 7 days of receiving the product.<\/p><p>2-Due to the high value of our products, we recommend that you carefully inspect them when signing for them. If you are not satisfied with the product or find any problems, please submit a return request as soon as possible so that we can provide you with timely service and support.<\/p><p>3-When returning, the product must maintain its original packaging, label, and safety label that have not been removed, and have not been used or damaged. Products that do not meet the return criteria cannot be returned.<\/p><p>4-After submitting a return request, you will receive a return authorization email and can send the product back according to instructions. Please note that we only support UPS or DHL as our return logistics carriers.<\/p>"}},"question-2":{"type":"question","settings":{"question":"How to submit a return request?","answer":"<p>1-Visit our Returns & Refunds and follow the steps to process your return.<\/p><p>2-Once the return is accepted, you will receive an email containing all the steps to send the package.<\/p>"}},"question-3":{"type":"question","settings":{"question":"How to exchange?","answer":"<p>1-We currently do not offer exchange services. If you need to exchange the item, please follow the return process to return the product first, and place a new order to purchase the required item after the return is completed.<\/p><p>2-Returns must comply with our return policy, including the item being unused, undamaged, and all labels and packaging intact.<\/p>"}},"question-4":{"type":"question","settings":{"question":"Who is responsible for the transportation cost of returns?","answer":"<p>Please note that we are unable to cover the cost of return shipping. Customers are responsible for shipping fees for return shipments. We will send the return address and instructions via email. <strong>We only accept UPS and DHL for return shipping<\/strong>. Please choose one of them when making a return.<\/p>"}},"question-5":{"type":"question","settings":{"question":"How can I pay for the return fee?","answer":"<p>The logistics cost for returns depends on your return address and the selected logistics carrier. You can pay the selected logistics carrier when returning the item, and Aest studios will not receive any logistics related fees for returns.<\/p>"}},"question-6":{"type":"question","settings":{"question":"How long does it take for my refund?","answer":"<p>1 Once we receive the returned item and confirm that it meets the return criteria, the refund will be processed within 5 working days. The refund will be returned to the account you used for payment.<\/p><p>2 Refunds may be affected by the processing time of your payment platform and may take up to 30 days to be credited.<\/p><p>3 After the refund is completed, you will receive a confirmation email.<\/p>"}},"question_rkmiMi":{"type":"question","settings":{"question":"What are the conditions for returns and exchanges?","answer":"<p>1 The product must be kept in a brand new condition, unused, and undamaged. All labels, tags, and packaging must be intact.<\/p><p>2 We do not accept returns or exchanges for customized and personalized products that have been opened.<\/p><p>3 When returning goods, they must be returned through our designated courier company.<\/p><p>4 The return application must be submitted within 15 days, and the returned goods must be shipped out within 7 days after the application.<\/p><p>*Please note that we only support UPS or DHL as our return logistics carriers<\/p>"}}},"block_order":["category","question-1","question-2","question-3","question-4","question-5","question-6","question_rkmiMi"],"settings":{"color_scheme":"","separate_section_with_border":true,"show_categories":false,"subheading":"Need help?","title":"Frequently Asked Questions","content":""}}},"order":["returns"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "returns": {
+      "type": "returns",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "Returns & Refunds",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "How to return an Item?",
+            "answer": "<ul><li>If you are not satisfied with your purchase, we offer <strong>return service within 15 days</strong>. Please ensure the item meets our return conditions and <strong>ship the return within 7 days</strong> after submitting your request.</li><li>Since our products are <strong>high-value items</strong>, we recommend <strong>carefully checking them when received</strong>. If you are dissatisfied or notice any issues, please <strong>submit a return request promptly</strong> so we can assist you.</li><li>Items must be <strong>returned in their original packaging</strong>, with <strong>all tags and security labels intact</strong>, and <strong>must not be used or damaged</strong>. Items that do not meet the return criteria <strong>will not be accepted</strong>.</li><li>After submitting a return request, you will receive a <strong>return authorization email</strong> with instructions on how to return your item. <strong>Please note that we only accept returns via UPS or DHL.</strong></li></ul>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "How to submit a return request?",
+            "answer": "<ul><li>Visit our <a href=\"/pages/returns-form-plus\" title=\"returns-form-plus\"><strong>Returns Portal</strong></a> and follow the steps to process your return.</li><li>Once your return is <strong>approved</strong>, you will receive a <strong>return authorization email</strong> with instructions on how to send back your package.</li></ul>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "How to Exchange an Item?",
+            "answer": "<ul><li>We currently <strong>do not offer direct exchanges</strong>. If you wish to exchange an item, please follow our <strong>return and refund process</strong>, then place a <strong>new order</strong> for the desired product.</li><li>All returns <strong>must comply with our return policy</strong>, including items being <strong>unused, undamaged, and with all tags and packaging intact</strong>.</li></ul>"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "question": "Who Covers the Return Shipping Fees?",
+            "answer": "<p>Please note that customers are responsible for the return shipping costs. We do not cover return shipping fees.</p>"
+          }
+        },
+        "question-5": {
+          "type": "question",
+          "settings": {
+            "question": "How Long Does It Take to Process My Refund?",
+            "answer": "<ul><li>Once we <strong>receive your returned item</strong> and confirm it <strong>meets our return conditions</strong>, your refund will be <strong>processed within 5-10 business days</strong>. The refund will be issued <strong>to the original payment method</strong>. <strong>Please note that original shipping fees are non-refundable.</strong></li><li>Refunds may be <strong>subject to delays</strong> depending on <strong>your payment provider’s processing times</strong>. If your refund <strong>has not been received within 30 days</strong>, please <strong>contact us</strong>, and we will assist you in resolving the issue.</li></ul>"
+          }
+        },
+        "question-6": {
+          "type": "question",
+          "settings": {
+            "question": "What are the return conditions?",
+            "answer": "<ul><li>Items must be <strong>in brand-new condition</strong>, <strong>unused</strong>, and <strong>undamaged</strong>, with <strong>all tags, labels, and packaging intact</strong>.</li><li><strong>Customized and personalized products that have been opened cannot be returned or exchanged.</strong></li><li> Return requests <strong>must be submitted within 15 days</strong>, and <strong>items must be shipped within 7 days</strong> after the request is approved.</li><li><strong>Please note that only UPS or DHL are accepted for return shipping.</strong></li></ul>"
+          }
+        },
+        "question_rkmiMi": {
+          "type": "question",
+          "settings": {
+            "question": "What are the conditions for returns and exchanges?",
+            "answer": "<p>1 The product must be kept in a brand new condition, unused, and undamaged. All labels, tags, and packaging must be intact.</p><p>2 We do not accept returns or exchanges for customized and personalized products that have been opened.</p><p>3 When returning goods, they must be returned through our designated courier company.</p><p>4 The return application must be submitted within 15 days, and the returned goods must be shipped out within 7 days after the application.</p><p>*Please note that we only support UPS or DHL as our return logistics carriers</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4",
+        "question-5",
+        "question-6",
+        "question_rkmiMi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "returns"
+  ]
+}
