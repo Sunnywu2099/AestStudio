@@ -195,6 +195,7 @@
       "blocks": {
         "item_rGmAbD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Product Video",
             "id": "shopify-section-template--18965441183965__video_eEEpfh"
@@ -209,8 +210,9 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
-            "name": "Caprure on you",
+            "name": "Capture on you",
             "id": "shopify-section-template--18965441183965__product_banner_HgD9HU"
           }
         },
@@ -259,6 +261,7 @@
       "block_order": [
         "play_PU4wVK"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
