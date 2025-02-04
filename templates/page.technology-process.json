@@ -108,7 +108,7 @@
           "settings": {
             "width": "",
             "title": "",
-            "text": "At Aest Studio, our pursuit of excellence begins with the finest materials and cutting-edge techniques. Each product is crafted with precision, combining advanced machinery and artisanal skill. From the initial design to the final stitch, every detail matters."
+            "text": "At Aest Studios, excellence starts with the finest materials and state-of-the-art techniques. Each piece is meticulously crafted, blending advanced machinery with artisanal expertise. From concept to final stitch, every detail is thoughtfully considered to ensure exceptional quality and design."
           }
         }
       },
@@ -157,15 +157,15 @@
           "settings": {
             "width": "",
             "title": "Materials",
-            "text": "We are committed to selecting durable, high-quality, and stylish leather. Every piece of leather is carefully chosen to strike the perfect balance between quality and aesthetics. We believe leather is a material that conveys emotions and warmth, and through the delicate touch and natural texture of each piece, we imbue every bag with a unique vitality, offering a sensory experience that touches the heart."
+            "text": "At Aest Studios, we are dedicated to sourcing durable, high-quality, and stylish leather. Each piece is carefully selected to achieve the perfect balance of craftsmanship and aesthetics.\n<br><br>\nLeather is more than just a material, it tells a story and carries warmth and emotion. Through its natural texture and refined touch, every bag is imbued with a unique vitality, offering a sensory experience that resonates with the heart."
           }
         },
         "text_iX4qY8": {
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Production/Pattern Cutting",
-            "text": "We use computerized pattern cutting, utilizing software and automated machinery to create unique designs for each bag. With the help of laser cutting machines, we ensure that every edge of the leather and fabric is smooth and precise, improving overall quality, appearance, and efficiency."
+            "title": "Pattern Cutting",
+            "text": "We employ computerized pattern cutting, combining advanced software and automated machinery to craft unique designs for each bag. With the help of laser cutting machines, we achieve smooth, precise edges on both leather and fabric, enhancing quality, appearance, and production efficiency while maintaining the highest standards of craftsmanship."
           }
         }
       },
@@ -216,7 +216,7 @@
           "settings": {
             "width": "",
             "title": "Sewing and Stitching",
-            "text": "Our advanced equipment, including computerized sewing machines and high-post sewing machines, ensures every stitch is perfect. The computerized sewing machine automatically adjusts stitching parameters, enhancing production efficiency while maintaining stitching quality. The high-post sewing machine handles complex structures, ensuring neat and durable stitching on every bag."
+            "text": "Precision is at the heart of our craftsmanship. We use advanced sewing technology, including computerized sewing machines and high-post sewing machines, to ensure every stitch is flawless. The computerized sewing machine automatically adjusts stitching parameters, enhancing production efficiency while maintaining stitching quality. The high-post sewing machine handles complex structures, ensuring neat and durable stitching on every bag. This meticulous process guarantees both strength and elegance, delivering a seamless blend of durability and design."
           }
         },
         "text_8bEBXa": {
@@ -224,7 +224,7 @@
           "settings": {
             "width": "",
             "title": "Edge Painting",
-            "text": "To ensure the precision and evenness of edge painting, we are equipped with shoulder strap edge drying machines and small piece edge drying machines. These high-tech devices allow for precise control of the drying process, ensuring that the edges of each bag are smooth and uniform, enhancing the quality of the product’s details."
+            "text": "At Aest Studios, precision and consistency define our craftsmanship. We utilize shoulder strap edge drying machines and small piece edge drying machines to achieve flawless edge painting. These high-tech tools allow for precise drying control, ensuring smooth, uniform edges that enhance the refinement and durability of each bag."
           }
         }
       },
@@ -265,7 +265,7 @@
           "settings": {
             "width": "",
             "title": "Quality Control",
-            "text": "Each Aest product undergoes rigorous quality control. We use advanced quality inspection instruments to conduct multiple tests on every bag, ensuring that every detail meets our high standards. From materials to finished products, each step is meticulously checked and verified to ensure the perfect balance of durability and functionality."
+            "text": "Every Aest Studios product undergoes rigorous quality control to meet our exacting standards. Using advanced quality inspection instruments, we conduct multiple tests at every stage—from raw materials to final product. Each detail is meticulously checked and verified to ensure the perfect balance of durability, functionality, and craftsmanship."
           }
         }
       },
@@ -332,6 +332,7 @@
         "text_ffT3AC",
         "text_YyMaYi"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": false,
