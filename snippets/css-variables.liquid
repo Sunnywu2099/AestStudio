@@ -65,6 +65,7 @@ note that this may have impact on different places.
     --container-lg-max-width: 78.75rem; /* 1260px */
     --container-xl-max-width: 85rem; /* 1360px */
     --container-gutter: 1.25rem;
+    --container-custom-nav-padding:80px;
 
     --section-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}2rem{%- elsif settings.section_vertical_spacing == 'sm' %}2.25rem{% elsif settings.section_vertical_spacing == 'md' %}2.5rem{% elsif settings.section_vertical_spacing == 'lg' %}3rem{% else %}4rem{% endif %};
     --section-vertical-spacing-tight: {%- if settings.section_vertical_spacing == 'xs' %}2rem{% elsif section.settings_vertical_spacing == 'sm' %}2.25rem{% else %}2.5rem{% endif %};
@@ -296,4 +297,10 @@ note that this may have impact on different places.
       --circle-button-background: {{ color_scheme.settings.circle_button_background.rgb }};
       --circle-button-text-color: {{ color_scheme.settings.circle_button_icon.rgb }};
     }
+
+    {% if request.page_type == 'index' %} 
+      main#main{
+        background:#f7f8f6;
+      }
+    {% endif %}
 </style>
