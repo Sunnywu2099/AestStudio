@@ -169,8 +169,16 @@
           {%- render 'vendor' with product.vendor, class: vendor_class -%}
         {%- endif -%}
 
-        {%- if show_title or show_prices or show_short -%}
+        
+
+        {%- if show_title or show_prices or show_short or product.metafields.custom.short -%}
           <div class="v-stack justify-items-start gap-1">
+
+            {% if show_short != blank %}
+              <div class="product-short">
+                {{ product.metafields.custom.short }}
+              </div>
+            {% endif %}
             {%- if show_title -%}
       
           
@@ -190,11 +198,7 @@
       
             {%- endif -%}
 
-            {% if show_short != blank %}
-              <div class="product-short">
-                {{ product.metafields.custom.short }}
-              </div>
-            {% endif %}
+           
 
             {%- if show_prices -%}
               {%- render 'price-list', product: product, context: 'card' -%}
