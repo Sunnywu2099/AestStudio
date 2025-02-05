@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "as_collection_info_A6DU4x": {
+      "type": "as-collection-info",
+      "settings": {
+        "collection_list": [
+          "mini",
+          "sling-bags",
+          "shoulder-bags",
+          "elongated-bags",
+          "tote",
+          "multi-bags",
+          "backpacks",
+          "small-leather-goods",
+          "accessories"
+        ],
+        "padding_top_web": 48,
+        "padding_top_table": 48,
+        "padding_top_mobile": 24,
+        "padding_bottom_web": 0,
+        "padding_bottom_table": 0,
+        "padding_bottom_mobile": 0,
+        "bg_color": ""
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_image": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "as_main_collection_8pR6TW": {
+      "type": "as-main-collection",
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 12,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": true,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "as_collection_text_qAekMk": {
+      "type": "as-collection-text",
+      "settings": {
+        "heading": "EXPLORE AEST'S BAG COLLECTION FOR WOMEN",
+        "left_text": "Discover the AEST Studios bag collection, inspired by our exploration of invisible needs and our commitment to delivering innovative solutions. Each bag is meticulously crafted from premium materials, seamlessly fusing fashion, functionality, and innovation.",
+        "right_text": "Capture SHE Collection The Capture 'SHE' Collection is AEST's debut series, drawing inspiration from the traditional camera bag and blending timeless design with fashion and elegance to fulfill both functional and aesthetic needs.\n<br>\nExplore the Capture 'SHE' Collection's Shoulder Bags, Sling Bags, Small Bags and Mini Bags , crafted in hand-finished oil-waxed cow leather with brushed matte silver hardware.",
+        "padding_top_web": 160,
+        "padding_top_table": 128,
+        "padding_top_mobile": 96,
+        "padding_bottom_web": 160,
+        "padding_bottom_table": 128,
+        "padding_bottom_mobile": 96,
+        "bg_color": ""
+      }
+    }
+  },
+  "order": [
+    "as_collection_info_A6DU4x",
+    "collection-banner",
+    "main",
+    "as_main_collection_8pR6TW",
+    "as_collection_text_qAekMk"
+  ]
+}
