@@ -297,4 +297,10 @@ note that this may have impact on different places.
       --circle-button-background: {{ color_scheme.settings.circle_button_background.rgb }};
       --circle-button-text-color: {{ color_scheme.settings.circle_button_icon.rgb }};
     }
+
+    {% if request.page_type == 'index' %} 
+      main#main{
+        background:#f7f8f6;
+      }
+    {% endif %}
 </style>
