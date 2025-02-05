@@ -71,7 +71,7 @@
         "footer_aside_custom_L7TBbh"
       ],
       "custom_css": [
-        ".footer {background: #f7f7f5;}",
+        ".footer {background: #f7f7f5; ppadding-inline-start:40px}",
         ".footer__aside {display: none;}",
         ".footer__aside__custom {display: flex;}"
       ],
