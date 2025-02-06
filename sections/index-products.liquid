@@ -97,14 +97,14 @@
             <a href="{{ link |  default: product.url }}">
               <div class="e_meida">
                 {% if img_one != blank %}
-                {{ img_one | image_url: width: '500x' | image_tag: class:"first" }}
+                {{ img_one | image_url: width: 'master' | image_tag: class:"first" }}
                 {% else %}
-                {{ product.images[0] | image_url: width: '500x' | image_tag: class:"first" }}
+                {{ product.images[0] | image_url: width: 'master' | image_tag: class:"first" }}
                 {% endif %}
                 {% if img_two != blank %}
-                {{ img_two | image_url: width: '500x' | image_tag: class:"second" }}
+                {{ img_two | image_url: width: 'master' | image_tag: class:"second" }}
                 {% else %}
-                {{ product.images[1] | image_url: width: '500x' | image_tag: class:"second" }}
+                {{ product.images[1] | image_url: width: 'master' | image_tag: class:"second" }}
                 {% endif %}
               </div>
               <div class="e_info">
