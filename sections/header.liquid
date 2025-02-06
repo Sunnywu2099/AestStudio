@@ -373,7 +373,7 @@ class="header color-scheme color-scheme--{{ section.settings.color_scheme.id }}"
       </li>
     {%- endif -%}
 
-    <li class="market-selector md-max:hidden ">
+    {% comment %} <li class="market-selector md-max:hidden ">
       <button
         type="button"
         aria-controls="facets-market-drawer"
@@ -381,7 +381,7 @@ class="header color-scheme color-scheme--{{ section.settings.color_scheme.id }}"
       >
         Market
       </button>
-    </li>
+    </li> {% endcomment %}
 
     {%- comment -%}Offer a hook for apps to integrate into the header to add their own icon, for instance{%- endcomment -%}
     {%- for block in section.blocks -%}

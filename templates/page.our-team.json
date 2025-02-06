@@ -90,10 +90,10 @@
         "bottom_m": 0
       }
     },
-    "custom_multiple_media_9kHQM7": {
+    "custom_multiple_media_jmT7L9": {
       "type": "custom-multiple-media",
       "blocks": {
-        "media_iVkD6X": {
+        "media_FnhX4m": {
           "type": "media",
           "settings": {
             "width": "",
@@ -102,7 +102,7 @@
             "autoplay": true
           }
         },
-        "text_r8wFeV": {
+        "text_6cDHBm": {
           "type": "text",
           "settings": {
             "width": "",
@@ -112,8 +112,8 @@
         }
       },
       "block_order": [
-        "media_iVkD6X",
-        "text_r8wFeV"
+        "media_FnhX4m",
+        "text_6cDHBm"
       ],
       "settings": {
         "page_desc": "Our Team",
@@ -462,7 +462,7 @@
   "order": [
     "main",
     "section_nav_mGDaCc",
-    "custom_multiple_media_9kHQM7",
+    "custom_multiple_media_jmT7L9",
     "custom_multiple_media_Aciiaq",
     "custom_multiple_media_xDFWVC",
     "custom_multiple_media_yLfDVV",
