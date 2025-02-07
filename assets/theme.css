@@ -5204,6 +5204,7 @@ product-rerender {
   column-gap: var(--mega-menu-promo-gap);
   flex: 0 auto;
   display: flex;
+  margin-left: 80px;
 }
 
 .mega-menu__promo > * {
