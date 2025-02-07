@@ -11,6 +11,13 @@
     margin-top:10px;
     margin-bottom:10px;
   }
+  .aest-contract-box select{
+    border:none;
+    border-bottom:1px solid #aaa;
+    padding-left:0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
   div.section-stack{
     grid-row-gap:15px;
   }
@@ -131,7 +138,8 @@
 
           <div class="fieldset-row">
             {%- assign label  = 'contact.form.topic' | t -%}
-            {%- render 'input', type: 'text', name: 'contact[topic]', label: label, value: customer.OrderNumber, required: true, autocomplete: 'Topic' -%}
+            {%- assign svalues  = 'Product Related|Order Related|Service Related' | split: "|"  -%}
+            {%- render 'select', option_values: svalues, show_empty_value: true, name: 'contact[topic]', label: label, required: true -%}
           </div>
 
           
