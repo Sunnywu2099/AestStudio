@@ -1,10 +1,100 @@
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
-
-<div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+<style>
+  .aest-contract-box input{
+    border:none;
+    border-bottom:1px solid #aaa;
+    padding-left:0px;
+  }
+  .aest-line{
+    width:100%;
+    border-bottom:1px solid #aaa;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  div.section-stack{
+    grid-row-gap:15px;
+  }
+</style>
+<div class="aest-contract-box section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container container--xs">
     <div class="section-stack text-center">
-      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
+      
+      <div style="text-align:left">
+        <h2 class="title" style="padding-bottom:25px;">Contact Us</h2>
+        <div class="aest-line"></div>
+        <p class="text">We are glad to hear your voice! Whether you have any questions, need help, or would like to share your suggestions, please feel free to contact us at any time.</p>
 
+      </div>
+      
+      <div class="items">
+            {% for block in section.blocks %} 
+                {% liquid 
+                  assign bs = block.settings
+                  assign color = bs.color
+                  assign type = bs.type
+                  assign title = bs.title
+                  assign btn = bs.btn
+                  assign link = bs.link
+                  assign pc_image = bs.img
+                  assign mobile_image = bs.img_m
+                  assign alt = bs.img.alt
+                  assign pc_video = bs.video
+                  assign mobile_video = bs.video_m
+                %}
+                <div class="item {% if forloop.index > 6 %} hidden {% endif %}" style="--color:{{color}};">
+                  <div class="media">
+                    {% if type == 'img' %}
+                      {% if pc_image != blank %}
+                        <picture>
+                          {% if mobile_image != blank %}
+                          <source
+                            srcset="{{ mobile_image | img_url: '750x' }}"
+                            media="(max-width: 375px)"
+                          >
+                          <source
+                            srcset="{{ mobile_image | img_url: '1000x' }}"
+                            media="(max-width: 767px)"
+                          >
+                          {% endif %}
+                          <source
+                            srcset="{{ pc_image | img_url: '2160x' }}"
+                            media="(max-width: 1080px)"
+                          >
+                          <img src="{{ pc_image | img_url: '2400x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+                        </picture>
+                      {% endif %}
+                    {% else %}
+                      {% if pc_video != blank %}
+                        {{ pc_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"desktop" }}
+                      {% endif %}
+                      {% if mobile_video != blank %}
+                        {{ mobile_video | video_tag: autoplay: true, loop: true, muted: true, image_size: 'master', class:"mobile" }}
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                  <div class="info">
+                    {% if title != blank %}
+                      <h3 class="item_title">{{ title }}</h3>
+                    {% endif %}
+                    {% if btn != blank %}
+                      <a class="item_btn" href="{{link}}"><span>{{btn}}</span>{{arrow_right}}</a>
+                    {% endif %}
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+      <div class="aest-line"></div>
+      <div>
+        <div style="float:left;color:#25282A;">Call Our Client Service</div>
+        <div style="float:right;color:#AAA;">9:00 AM to 6:00 PM (GMT+8) on weekdays</div>
+      </div>
+      <div>
+        <div style="float:left;color:#25282A;">Response Time</div>
+        <div style="float:right;width:278px;text-align:left;color:#AAA;">We will respond to your inquiry within 2 business days. Please note that there may be delays during weekends or public holidays.</div>
+      </div>
+      <div class="aest-line"></div>
+      <div style="color:#25282A;text-align:left;">If you have any questions or needs, you can let us know through the following form:</div>
+      
       {%- form 'contact', class: 'form' -%}
         {%- if form.posted_successfully? -%}
           {%- assign content = 'contact.form.success_message' | t -%}
@@ -18,12 +108,33 @@
 
         <div class="fieldset">
           <div class="fieldset-row">
+            {%- assign label  = 'contact.form.first_name' | t -%}
+            {%- render 'input', type: 'text', name: 'contact[FirstName]', label: label, value: customer.FirstName, required: false, autocomplete: 'First Name' -%}
+          </div>
+          
+          <div class="fieldset-row">
             {%- assign label  = 'contact.form.name' | t -%}
             {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
 
+          </div>
+
+          <div class="fieldset-row">
+            
             {%- assign label  = 'contact.form.email' | t -%}
             {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
           </div>
+
+          <div class="fieldset-row">
+            {%- assign label  = 'contact.form.order_number' | t -%}
+            {%- render 'input', type: 'text', name: 'contact[OrderNumber]', label: label, value: customer.OrderNumber, required: false, autocomplete: 'Order Number' -%}
+          </div>
+
+          <div class="fieldset-row">
+            {%- assign label  = 'contact.form.topic' | t -%}
+            {%- render 'input', type: 'text', name: 'contact[topic]', label: label, value: customer.OrderNumber, required: true, autocomplete: 'Topic' -%}
+          </div>
+
+          
 
           {%- for block in section.blocks -%}
             {%- assign field_title = block.settings.title -%}
@@ -53,6 +164,8 @@
         {%- assign button_content = 'contact.form.submit' | t -%}
         {%- render 'button', content: button_content, type: 'submit' -%}
       {%- endform -%}
+
+      <div style="color:#25282A;text-align:left;">Before contacting us, you can first check our <a style="text-decoration-line:underline" href="https://kj5rbz-xw.myshopify.com/pages/faq">FAQ</a> page. There may already be the answer you need here.</div>
     </div>
   </div>
 </div>
@@ -120,6 +233,79 @@
         }
       ]
     },
+    {
+            "type": "item",
+            "name": "item",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Text color",
+                    "default":"#fff"
+                },
+                {
+                    "type":"select",
+                    "id":"type",
+                    "label": "选用类型",
+                    "default":"img",
+                    "options": [
+                    {
+                        "label": "图片",
+                        "value": "img"
+                    },
+                    {
+                        "label": "视频",
+                        "value": "video"
+                    }
+                    ]
+                },
+                {
+                    "type": "header",
+                    "content": "图片"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image (desktop)"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_m",
+                    "label": "Image (mobile)"
+                },
+                {
+                    "type": "header",
+                    "content": "视频"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "video (desktop)"
+                },
+                {
+                    "type": "video",
+                    "id": "video_m",
+                    "label": "video (mobile)"
+                },
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "CAMERA BAG"
+                },
+                {
+                    "type": "text",
+                    "id": "btn",
+                    "label": "Button",
+                    "default": "Shop Now"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        },
     {
       "type": "dropdown",
       "name": "t:sections.contact.blocks.dropdown.name",
