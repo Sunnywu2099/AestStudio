@@ -1,6 +1,6 @@
 
 .product-gallery__image-list .product-gallery__media>*{
-  min-height: 700px;
+  min-height: 800px;
   object-fit: cover;
 }
 .accordion__toggle{
