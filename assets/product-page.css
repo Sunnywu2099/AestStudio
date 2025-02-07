@@ -1,4 +1,17 @@
-
+.buy-buttons-wrapper{
+  display: flex;
+  gap: 12px;
+}
+.buy-buttons-wrapper .buy-buttons{
+  flex: 1;
+}
+.buy-buttons-wrapper .wishlist-btn{
+  width: 42px;
+  height: inherit;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #25282A;
+}
 .product-gallery__image-list .product-gallery__media>*{
   min-height: 850px;
   object-fit: cover;
