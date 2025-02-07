@@ -12,10 +12,7 @@
   border-radius: 2px;
   background: #25282A;
 }
-.product-gallery__image-list .product-gallery__media>*{
-  min-height: 850px;
-  object-fit: cover;
-}
+
 .accordion__toggle{
   padding-block: 12px;
   text-transform: capitalize;
@@ -122,6 +119,10 @@ legend{
   .pswp__button[aria-label="Next"]{
     margin-right: 60px; 
     box-shadow: none;
+  }
+  .product-gallery__image-list .product-gallery__media>*{
+    min-height: 850px;
+    object-fit: cover;
   }
 }
 
