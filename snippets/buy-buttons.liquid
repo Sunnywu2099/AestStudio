@@ -52,7 +52,7 @@ Supported variables
         endif
       %}
 
-      <div class="v-stack gap-4">
+      <div class="buy-buttons-wrapper">
         {%- if recipient_feature_active -%}
           <gift-card-recipient class="gift-card-recipient v-stack gap-3">
             {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
@@ -108,6 +108,7 @@ Supported variables
             </style>
           {%- endif -%}
         </buy-buttons>
+        {% render "add-to-wishlist-main", product:product %}
       </div>
     {%- endform -%}
   </product-form>
