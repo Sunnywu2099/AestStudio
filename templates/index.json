@@ -49,8 +49,8 @@
           "type": "product",
           "settings": {
             "product": "capture-large-shoulder-bag",
-            "img1": "shopify://shop_images/1_1_de38b423-b78e-4666-a856-c8eb4dcfbf4d.png",
-            "img2": "shopify://shop_images/lookbook2_8c9755e3-234b-43f7-a360-2ee63906dbce.png",
+            "img1": "shopify://shop_images/Group_1000006809.png",
+            "img2": "shopify://shop_images/Mask_group_19013fdb-a2b7-4e76-b681-1a9daf1b8036.png",
             "title": "",
             "link": ""
           }
@@ -59,8 +59,8 @@
           "type": "product",
           "settings": {
             "product": "capture-medium-sling-bag",
-            "img1": "shopify://shop_images/Mask_group_b0848bad-e64d-4f41-92e2-9af700589efe.png",
-            "img2": "shopify://shop_images/lookbook2_715ec5bb-9485-4861-b5c9-c04dffbc97fa.png",
+            "img1": "shopify://shop_images/Group_1000006810.png",
+            "img2": "shopify://shop_images/Mask_group_1_16b5df41-508c-4f1d-aaf8-d2e166817cd5.png",
             "title": "",
             "link": ""
           }
@@ -69,8 +69,8 @@
           "type": "product",
           "settings": {
             "product": "capture-small-bag-black",
-            "img1": "shopify://shop_images/Group_1000006659.png",
-            "img2": "shopify://shop_images/lookbook2.png",
+            "img1": "shopify://shop_images/Group_1000006659_97c84b74-277e-4553-b423-96f5a35547ff.png",
+            "img2": "shopify://shop_images/Mask_group_2_45460585-d792-4820-b590-2f3a836a91ff.png",
             "title": "",
             "link": ""
           }
@@ -79,8 +79,8 @@
           "type": "product",
           "settings": {
             "product": "capture-small-bag-green",
-            "img1": "shopify://shop_images/Group_1000006660.png",
-            "img2": "shopify://shop_images/Mask_group_1.png",
+            "img1": "shopify://shop_images/Group_1000006660_7108d287-5fbb-491e-be6b-26ba55a7cef6.png",
+            "img2": "shopify://shop_images/Mask_group_3_6b111047-7c3f-4d20-92bb-ab8136f92360.png",
             "title": "",
             "link": ""
           }
@@ -97,15 +97,15 @@
     "index_banner_3XLRKw": {
       "type": "index-banner",
       "settings": {
-        "color": "#ffffff",
+        "color": "#131313",
         "type": "img",
-        "img": "shopify://shop_images/1.png",
-        "img_m": "shopify://shop_images/1.png",
+        "img": "shopify://shop_images/1_cee29540-a143-4881-8835-4abf4077b401.png",
+        "img_m": "shopify://shop_images/1_cee29540-a143-4881-8835-4abf4077b401.png",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture SHE Collection",
         "btn": "Shop Now",
         "link": "shopify://collections/capture-she-series",
-        "opacity": 0
+        "opacity": 30
       }
     },
     "index_banner_one_half_MLnXVr": {
@@ -116,10 +116,10 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Mask_group_10.png",
-            "img_m": "shopify://shop_images/Mask_group_10.png",
-            "title": "Our Story",
-            "btn": "Shop Now",
+            "img": "shopify://shop_images/Mask_group_2_fdcd896f-1f84-44a3-9bf2-ecf6daacafdb.png",
+            "img_m": "shopify://shop_images/Mask_group_2_fdcd896f-1f84-44a3-9bf2-ecf6daacafdb.png",
+            "title": "Aest Studios",
+            "btn": "Explore Now",
             "link": "shopify://pages/aest-studios",
             "opacity": 0
           }
@@ -129,8 +129,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Mask_group_11.png",
-            "img_m": "shopify://shop_images/Mask_group_11.png",
+            "img": "shopify://shop_images/Mask_group_3_3c4e5472-223c-44cc-b9a9-8af9db3a2abb.png",
+            "img_m": "shopify://shop_images/Mask_group_3_3c4e5472-223c-44cc-b9a9-8af9db3a2abb.png",
             "title": "Capture Medium Sling Bag",
             "btn": "Shop Now",
             "link": "shopify://products/capture-medium-sling-bag",
@@ -157,8 +157,8 @@
           "type": "product",
           "settings": {
             "product": "fiery-mirage",
-            "img1": "shopify://shop_images/Group_1000006667.png",
-            "img2": "shopify://shop_images/Group_1000006644.png",
+            "img1": "shopify://shop_images/01_ba98aed9-b3fd-453e-80b3-037832c4499c.png",
+            "img2": "shopify://shop_images/Group_1000006644_159a81a8-f456-44c7-b9ce-835b4e014bf9.png",
             "title": "",
             "link": ""
           }
@@ -167,8 +167,8 @@
           "type": "product",
           "settings": {
             "product": "solstice-dream-1",
-            "img1": "shopify://shop_images/Group_1000006668.png",
-            "img2": "shopify://shop_images/Group_1000006645.png",
+            "img1": "shopify://shop_images/02.png",
+            "img2": "shopify://shop_images/Group_1000006645_02dd24a4-05c3-4592-94b1-b926ad086353.png",
             "title": "",
             "link": ""
           }
@@ -177,8 +177,8 @@
           "type": "product",
           "settings": {
             "product": "moonlit-drift",
-            "img1": "shopify://shop_images/Group_1000006669.png",
-            "img2": "shopify://shop_images/Group_1000006646.png",
+            "img1": "shopify://shop_images/03.png",
+            "img2": "shopify://shop_images/Group_1000006646_28a3a4a7-4053-41b2-9bf4-555406181001.png",
             "title": "",
             "link": ""
           }
@@ -187,8 +187,8 @@
           "type": "product",
           "settings": {
             "product": "solstice-dream",
-            "img1": "shopify://shop_images/Group_1000006661.png",
-            "img2": "shopify://shop_images/Group_1000006647.png",
+            "img1": "shopify://shop_images/Group_1000006661_b06b64e4-3ba0-419e-bece-6e1de061e3e9.png",
+            "img2": "shopify://shop_images/Group_1000006647_17c66877-6a85-4a36-aa3f-572f23e031a1.png",
             "title": "",
             "link": ""
           }
@@ -207,8 +207,8 @@
       "settings": {
         "color": "#ffffff",
         "type": "img",
-        "img": "shopify://shop_images/4_787d487c-e707-4736-8ba2-6cc805b07fc1.png",
-        "img_m": "shopify://shop_images/4_787d487c-e707-4736-8ba2-6cc805b07fc1.png",
+        "img": "shopify://shop_images/Mask_group_6_1e049387-715e-4aba-8e1b-87f0fbefd3d5.png",
+        "img_m": "shopify://shop_images/Mask_group_4_b386e4c3-37bd-4955-ae7f-c5ef9a890fa0.png",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture Large Shoulder Bag",
         "btn": "Shop Now",
@@ -224,8 +224,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_2_dc6c30b1-eca9-4736-a1ca-b07075e774db.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2_dc6c30b1-eca9-4736-a1ca-b07075e774db.png",
+            "img": "shopify://shop_images/Clip_path_group_355f6d06-76ed-4de1-b20a-d653f3ba1e57.png",
+            "img_m": "shopify://shop_images/Clip_path_group_355f6d06-76ed-4de1-b20a-d653f3ba1e57.png",
             "btn": "Aest Studio",
             "link": "shopify://pages/aest-studios"
           }
@@ -235,8 +235,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
-            "img_m": "shopify://shop_images/Clip_path_group_6_3f3e6b30-00fb-4a2c-8187-b6f273afadf2.png",
+            "img": "shopify://shop_images/Clip_path_group_5_64defc91-f564-44ad-a08f-779cb57a3a3a.png",
+            "img_m": "shopify://shop_images/Clip_path_group_5_64defc91-f564-44ad-a08f-779cb57a3a3a.png",
             "btn": "Help Center",
             "link": "shopify://pages/contact"
           }
@@ -246,8 +246,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group.png",
-            "img_m": "shopify://shop_images/Clip_path_group.png",
+            "img": "shopify://shop_images/Clip_path_group_1_79deb2aa-2038-48c8-be59-6f7448b28591.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_79deb2aa-2038-48c8-be59-6f7448b28591.png",
             "btn": "Your Voice & Your Mind",
             "link": "shopify://pages/your-voice"
           }
@@ -257,8 +257,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1_8a1ec877-87c8-4ff2-bf2a-f453348955bd.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_8a1ec877-87c8-4ff2-bf2a-f453348955bd.png",
+            "img": "shopify://shop_images/Clip_path_group_2_b38bd16b-c2c8-4863-9406-0509e5d8e35e.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_b38bd16b-c2c8-4863-9406-0509e5d8e35e.png",
             "btn": "Charitable Projects",
             "link": "shopify://pages/our-mission"
           }
@@ -268,8 +268,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_3_ee3b8262-8f61-4476-a95a-d05b09d2e400.png",
-            "img_m": "shopify://shop_images/Clip_path_group_3_ee3b8262-8f61-4476-a95a-d05b09d2e400.png",
+            "img": "shopify://shop_images/Clip_path_group_3_5069d478-2729-4fc3-ae46-df7d75bc55bb.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_5069d478-2729-4fc3-ae46-df7d75bc55bb.png",
             "btn": "Cooperation Plan",
             "link": ""
           }
@@ -279,8 +279,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_4_0b6cc632-ce58-488d-9533-b472c3b72bc0.png",
-            "img_m": "shopify://shop_images/Clip_path_group_4_0b6cc632-ce58-488d-9533-b472c3b72bc0.png",
+            "img": "shopify://shop_images/Clip_path_group_4_4579e981-c43a-410a-b207-557711103a88.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4_4579e981-c43a-410a-b207-557711103a88.png",
             "btn": "Special Projects",
             "link": "shopify://pages/series-of-stories"
           }
@@ -290,8 +290,8 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_5_d7cf3621-e719-4a92-a004-71df924e3557.png",
-            "img_m": "shopify://shop_images/Clip_path_group_5_d7cf3621-e719-4a92-a004-71df924e3557.png",
+            "img": "shopify://shop_images/Clip_path_group_6_a0b02a89-71b3-4a8a-bf94-0c2f6cb850b4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_6_a0b02a89-71b3-4a8a-bf94-0c2f6cb850b4.png",
             "btn": "Exhibition & Events",
             "link": ""
           }
