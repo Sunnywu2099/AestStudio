@@ -93,7 +93,10 @@ Supported variables
   </div>
   <div style="flex-grow: 1;display:flex;">
     <div class="aest-cart-btn">
-      {%- render 'price-list', line_item: line_item, context: 'line_item' -%}
+      <div style="padding-bottom:0.5rem">
+        {%- render 'price-list', line_item: line_item, context: 'line_item' -%}
+      </div>
+      
     {%- if show_quantity_selector -%}
         <line-item-quantity class="h-stack gap-4 {% if request.page_type == 'cart' %}sm:hidden{% endif %}">
           {%- render 'quantity-selector', line_item: line_item, size: 'sm' -%}
