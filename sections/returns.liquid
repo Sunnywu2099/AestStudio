@@ -53,7 +53,7 @@
             {%- endfor -%}
 
             <div>
-              We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.
+               {{- block.settings.content -}}
             </div>
 
             <div style="text-align:center;width:100%;margin-bottom:50px;margin-top:20px;">
@@ -151,7 +151,8 @@
     {
       "type": "richtext",
       "id": "content",
-      "label": "t:global.text.content"
+      "label": "t:global.text.content",
+      "default":"<p>We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.</p>"
     }
   ],
   "blocks": [
