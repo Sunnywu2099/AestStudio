@@ -53,7 +53,9 @@
             {%- endfor -%}
            
             <div>
-               {{- block.settings.content -}}
+               {% if block.settings.title %}
+                  <h2>{{ block.settings.title }}</h2>
+              {% endif %}
             </div>
             
 
