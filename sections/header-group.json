@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Free Shopping To United States On All Orders"
+            "text": "Free Shopping To United States On Orders above $69"
           }
         }
       },
@@ -145,7 +145,7 @@
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
-        "menu_open_trigger": "hover",
+        "menu_open_trigger": "click",
         "menu_text_font": "heading",
         "enable_search": true,
         "sidebar_color_scheme": "",

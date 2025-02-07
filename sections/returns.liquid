@@ -51,10 +51,14 @@
                 
               {%- endcase -%}
             {%- endfor -%}
-
+           
             <div>
-              We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.
+              {% if section.settings.content %}
+                 {{ section.settings.content }}
+              {% endif %}
+               
             </div>
+            
 
             <div style="text-align:center;width:100%;margin-bottom:50px;margin-top:20px;">
               <button id="my-button" class="button" onclick="location='/pages/returns-form-plus'">START A RETURN OR EXCHANGE</button>
@@ -146,12 +150,13 @@
       "type": "inline_richtext",
       "id": "title",
       "label": "t:global.text.heading",
-      "default": "Frequently Asked Questions"
+      "default": "title"
     },
     {
       "type": "richtext",
       "id": "content",
-      "label": "t:global.text.content"
+      "label": "t:global.text.content",
+      "default":"<p>We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.</p>"
     }
   ],
   "blocks": [
