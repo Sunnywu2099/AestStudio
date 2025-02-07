@@ -11,15 +11,14 @@
   }
   .custom-text-with-media-2 .text-item{
     max-width: 790px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
   .custom-text-with-media-2 .custom-wrapper.row-reverse{
     flex-direction: row-reverse;
   }
   .custom-text-with-media-2 .custom-wrapper .media-wrapper{
-    width: calc( 42% - 40px );
+    width: 50%;
     position: relative;
-    flex-shrink: 0;
   }
   .custom-text-with-media-2 video{
     width: 100%;
@@ -29,9 +28,7 @@
   .custom-text-with-media-2 .custom-wrapper .content-wrapper{
     display: flex;
     flex-direction: column;
-    width: calc( 58% - 40px );
-    flex-shrink: 0;
-    padding-top: 60px;
+    width: 50%;
     gap: 80px;
   }
   .custom-text-with-media-2 .custom-wrapper.row-reverse .content-wrapper{
@@ -102,7 +99,7 @@
   assign mobile_video = section.settings.mobile_video
   assign text_alignment = section.settings.text_alignment
 %}
-<div class="">
+<div class="container container--xl">
   <div class="custom-wrapper {% if text_alignment == 'left' %}row-reverse{% endif %}">
     <div class="media-wrapper">
       {% if use_video %}
