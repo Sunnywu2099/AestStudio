@@ -154,18 +154,18 @@ Supported variables
                 assign list_classes = ''
             endcase
           -%}
-          {% if option.name == 'color' or option.name == 'Color' %}
-              {% if product.metafields.custom.product_list != blank %}
-              {% assign product_list = product.metafields.custom.product_list.value %}
-              <div class="color_box variant-picker__option-values h-stack gap-2.5 wrap">
-                {% for p in product_list %}
-                  <a href="{{ p.url }}">
-                    {% assign bg = p.metafields.custom.product_color.value %}
-                    <div class="color_item" style="background-color:{{bg}};"></div>
-                  </a>
-                {% endfor %}
-              </div>
-          {% endif %}
+          {% if product.metafields.custom.product_list != blank %}
+              {% if option.name == 'color' or option.name == 'Color' %}
+                {% assign product_list = product.metafields.custom.product_list.value %}
+                <div class="color_box variant-picker__option-values h-stack gap-2.5 wrap">
+                  {% for p in product_list %}
+                    <a href="{{ p.url }}">
+                      {% assign bg = p.metafields.custom.product_color.value %}
+                      <div class="color_item" style="background-color:{{bg}};"></div>
+                    </a>
+                  {% endfor %}
+                </div>
+            {% endif %}
           {% else %}
               <div class="variant-picker__option-values {{ list_classes }}" >
                 {% liquid
