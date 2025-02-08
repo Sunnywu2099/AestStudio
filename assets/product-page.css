@@ -107,6 +107,9 @@ legend{
   width: 20px;
   height: 20px;
   border-radius: 100%;
+  
+}
+.color_box.variant-picker__option-values .color_item.active{
   padding: 2px;
   border: 1px solid #000;
   background: content-box #000 no-repeat center / cover;
