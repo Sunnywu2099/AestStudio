@@ -107,6 +107,9 @@ legend{
   width: 20px;
   height: 20px;
   border-radius: 100%;
+  padding: 2px;
+  border: 1px solid transparent;
+  background: content-box #000 no-repeat center / cover;
 }
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
