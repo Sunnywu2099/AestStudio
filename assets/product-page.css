@@ -108,7 +108,7 @@ legend{
   height: 20px;
   border-radius: 100%;
   padding: 2px;
-  border: 1px solid transparent;
+  border: 1px solid #000;
   background: content-box #000 no-repeat center / cover;
 }
 @media screen and (min-width: 1000px){
