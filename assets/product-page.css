@@ -96,7 +96,7 @@ legend{
   line-height: normal;
   letter-spacing: 0.6px;
 }
-.color_box.variant-picker__option-values > a{
+.color_box.variant-picker__option-values .color_item{
   display: inline-block;
   width: 20px;
   height: 20px;
