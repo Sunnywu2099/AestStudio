@@ -96,6 +96,11 @@ legend{
   line-height: normal;
   letter-spacing: 0.6px;
 }
+.color_box.variant-picker__option-values > a{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
     top: 0!important;
