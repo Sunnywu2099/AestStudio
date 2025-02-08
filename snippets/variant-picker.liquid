@@ -161,7 +161,7 @@ Supported variables
                   {% for p in product_list %}
                     <a href="{{ p.url }}">
                       {% assign bg = p.metafields.custom.product_color.value %}
-                      <div class="color_item" style="background-color:{{bg}};"></div>
+                      <div class="color_item {% if product.id == p.id %}active{% endif %}" style="background-color:{{bg}};"></div>
                     </a>
                   {% endfor %}
                 </div>
