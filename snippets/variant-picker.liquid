@@ -163,8 +163,9 @@ Supported variables
                       {% assign bg = p.metafields.custom.product_color.value %}
                       {% if product.id == p.id %}
                         <div class="color_item active" style="background-color:{{bg}};"></div>
-                      {% endif %}
+                      {% else %}
                       <div class="color_item" style="background-color:{{bg}};"></div>
+                      {% endif %}
                     </a>
                   {% endfor %}
                 </div>
