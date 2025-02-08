@@ -154,26 +154,38 @@ Supported variables
                 assign list_classes = ''
             endcase
           -%}
-          
-          <div class="variant-picker__option-values {{ list_classes }}" >
-            {% liquid
-              assign name = form_id | append: '-option' | append: option.position
+          {% if option.name == 'color' or option.name == 'Color' %}
+              {% if product.metafields.custom.product_list != blank %}
+              {% assign product_list = product.metafields.custom.product_list.value %}
+              <div class="color_box">
+                {% for p in product_list %}
+                  <a href="{{ p.url }}">
+                    {% assign bg = p.metafields.custom.product_color.value %}
+                    <div class="color_item" style="background-color:{{bg}};"></div>
+                  </a>
+                {% endfor %}
+              </div>
+          {% endif %}
+          {% else %}
+              <div class="variant-picker__option-values {{ list_classes }}" >
+                {% liquid
+                  assign name = form_id | append: '-option' | append: option.position
 
-              for option_value in option.values
-                case resolved_option_selector_style
-                  when 'variant_image'
-                    render 'option-value', type: 'thumbnail', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
-                  when 'swatch'
-                    render 'option-value', type: 'swatch', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
-                  when 'block'
-                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
-                  when 'block_swatch'
-                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, show_swatch: true, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
-                endcase
-              endfor
-            %}
-          </div>
-
+                  for option_value in option.values
+                    case resolved_option_selector_style
+                      when 'variant_image'
+                        render 'option-value', type: 'thumbnail', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                      when 'swatch'
+                        render 'option-value', type: 'swatch', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                      when 'block'
+                        render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                      when 'block_swatch'
+                        render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, show_swatch: true, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                    endcase
+                  endfor
+                %}
+              </div>
+          {% endif %}         
         {%- endif -%}
       </fieldset>
     {%- endfor -%}
