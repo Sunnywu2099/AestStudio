@@ -154,8 +154,18 @@ Supported variables
                 assign list_classes = ''
             endcase
           -%}
-
-          <div class="variant-picker__option-values {{ list_classes }} 123">
+          {% if product.metafields.custom.product_list != blank %}
+            {% assign product_list = product.metafields.custom.product_list.value %}
+            <div class="color_box">
+              {% for p in product_list %}
+                <a href="{{ p.url }}">
+                  {% assign bg = p.metafields.custom.product_color.value %}
+                  <div class="color_item" style="background-color:{{bg}};"></div>
+                </a>
+              {% endfor %}
+            </div>
+          {% else %}
+          <div class="variant-picker__option-values {{ list_classes }}" >
             {% liquid
               assign name = form_id | append: '-option' | append: option.position
 
@@ -173,6 +183,7 @@ Supported variables
               endfor
             %}
           </div>
+          {% endif %}
         {%- endif -%}
       </fieldset>
     {%- endfor -%}
