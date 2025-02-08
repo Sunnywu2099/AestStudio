@@ -96,6 +96,12 @@ legend{
   line-height: normal;
   letter-spacing: 0.6px;
 }
+.color_box.variant-picker__option-values a{
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100%;
+}
 .color_box.variant-picker__option-values .color_item{
   display: inline-block;
   width: 20px;
