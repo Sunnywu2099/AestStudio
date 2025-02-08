@@ -157,7 +157,7 @@ Supported variables
           {% if option.name == 'color' or option.name == 'Color' %}
               {% if product.metafields.custom.product_list != blank %}
               {% assign product_list = product.metafields.custom.product_list.value %}
-              <div class="color_box">
+              <div class="color_box variant-picker__option-values h-stack gap-2.5 wrap">
                 {% for p in product_list %}
                   <a href="{{ p.url }}">
                     {% assign bg = p.metafields.custom.product_color.value %}
