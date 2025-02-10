@@ -191,6 +191,7 @@
         },
         "item_QrKERe": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "You May Also Like",
             "id": "shopify-section-template--18983813906653__section_product_popup_DyMQKF"
@@ -269,8 +270,8 @@
         "item_yiwEDA"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006631.png",
-        "img_m": "shopify://shop_images/Group_1000006631.png",
+        "img": "shopify://shop_images/Group_1000006765_1.png",
+        "img_m": "shopify://shop_images/Group_1000006765_1.png",
         "use_video": false,
         "autoplay": true,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -301,8 +302,8 @@
         "item_Fg8hrc"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006637.png",
-        "img_m": "shopify://shop_images/Group_1000006637.png",
+        "img": "shopify://shop_images/Mask_group_31.png",
+        "img_m": "shopify://shop_images/Mask_group_31.png",
         "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -333,8 +334,8 @@
         "item_NTRqdK"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006643.png",
-        "img_m": "shopify://shop_images/Group_1000006643.png",
+        "img": "shopify://shop_images/Group_1000006683_ae7f38ee-6c56-4438-9b19-0cea92a00595.png",
+        "img_m": "shopify://shop_images/Group_1000006683_ae7f38ee-6c56-4438-9b19-0cea92a00595.png",
         "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -343,6 +344,7 @@
     },
     "product_banner_HgD9HU": {
       "type": "product-banner",
+      "disabled": true,
       "settings": {
         "title": "Caprure on you",
         "img": "shopify://shop_images/Layer_0_11.png",
