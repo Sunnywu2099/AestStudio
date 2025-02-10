@@ -62,6 +62,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Soft bowling bag in sleek nappa leather with turned-edge construction,elongated flat handles, and dual zipper closure.",
@@ -112,6 +113,7 @@
         },
         "in_action_fcgMfP": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "Pairs With",
             "text": "",
