@@ -74,7 +74,10 @@
             {%- endfor -%}
 
             <div>
-              We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.
+              {% if section.settings.content %}
+                 {{ section.settings.content }}
+              {% endif %}
+              
             </div>
 
             
@@ -264,7 +267,8 @@
     {
       "type": "richtext",
       "id": "content",
-      "label": "t:global.text.content"
+      "label": "t:global.text.content",
+      "default":"<p>We are committed to providing you with high-quality bags and a premium shopping experience. If you are not satisfied with your order, you can apply for a return or exchange according to the following policy.</p>"
     }
   ],
   "blocks": [
