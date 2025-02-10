@@ -49,34 +49,6 @@
             "size_chart_page": ""
           }
         },
-        "advanced_wishlist_wishlist_btn_QkrA3n": {
-          "type": "shopify://apps/advanced-wishlist/blocks/wishlist-btn/330d9272-08ea-4193-b3e0-475a69fa65fa",
-          "settings": {
-            "button_style": "style_3",
-            "button_border": 0,
-            "button_font_size": 14,
-            "button_font_weight": "400",
-            "button_border_radius": 0,
-            "button_vertical_space": 0,
-            "button_horizontal_space": 0,
-            "button_text_color": "#ffffff",
-            "button_background": "#5c6ac4",
-            "border_color": "#5c6ac4",
-            "hover_button_text_color": "#ffffff",
-            "hover_button_background_color": "#5c6ac4",
-            "hover_button_border_color": "#5c6ac4",
-            "is_new_icon_settings": false,
-            "icon_type": "outline",
-            "icon_size": 16,
-            "icon_background_type": "icon_round_background",
-            "icon_background_color": "#5c6ac4",
-            "icon_fill_color": "#ffffff",
-            "icon_border_color": "#ffffff",
-            "icon_hover_color": "#5c6ac4",
-            "selected_icon_fill_color": "#5c6ac4",
-            "selected_icon_border_color": "#5c6ac4"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -93,15 +65,14 @@
           "settings": {
             "title": "In Action",
             "text": "Capture Small Bag in hand-finished oil-waxed cow leather, featuring a brushed cylindrical matte silver metal plaque on the front. featuring the AEST logo in Braille, symbolizing our philosophy of addressing invisible needs with thoughtful design.",
-            "img_1": "shopify://shop_images/Layer_0_7.png",
+            "img_1": "shopify://shop_images/Mask_group_8_26ffa5a0-dc78-48bd-bd4f-4cc846bbbb91.png",
             "url_1": "/",
-            "img_2": "shopify://shop_images/Layer_0_8.png",
+            "img_2": "shopify://shop_images/Mask_group_9_51f3bb04-18a0-4dfc-bcfa-2c9d29930105.png",
             "url_2": "/",
-            "img_3": "shopify://shop_images/Layer_0_9.png",
+            "img_3": "shopify://shop_images/Mask_group_10_928758d5-24d2-4c7a-ae77-98e1afe48e80.png",
             "url_3": "/",
-            "img_4": "shopify://shop_images/Layer_0_10.png",
+            "img_4": "shopify://shop_images/Mask_group_11_80094d39-0396-4c80-a007-87dcd5d30df9.png",
             "url_4": "/",
-            "img_5": "shopify://shop_images/Layer_0_7.png",
             "url_5": ""
           }
         },
@@ -167,7 +138,6 @@
         "price",
         "payment_terms",
         "variant_picker",
-        "advanced_wishlist_wishlist_btn_QkrA3n",
         "buy_buttons",
         "in_action_ifkLi4",
         "accordion_UYLqjQ",
@@ -198,28 +168,28 @@
           "type": "item",
           "settings": {
             "name": "Product  Video",
-            "id": "shopify-section-template--18952352989405__video_eEEpfh"
+            "id": "shopify-section-template--18983715111133__video_eEEpfh"
           }
         },
         "item_PiwMpQ": {
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": "shopify-section-template--18952352989405__product_features_QrAATR"
+            "id": "shopify-section-template--18983715111133__product_features_QrAATR"
           }
         },
         "item_tLRGyK": {
           "type": "item",
           "settings": {
             "name": "Capture on you",
-            "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
+            "id": "shopify-section-template--18983715111133__product_cards_zQFYB9"
           }
         },
         "item_QrKERe": {
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": "shopify-section-template--18952352989405__section_product_popup_iqCkwF"
+            "id": "shopify-section-template--18983715111133__section_product_popup_iqCkwF"
           }
         },
         "item_aqM9w8": {
@@ -233,7 +203,7 @@
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": "shopify-section-template--18952352989405__product_follows_RnNaCy"
+            "id": "shopify-section-template--18983715111133__product_follows_RnNaCy"
           }
         }
       },
