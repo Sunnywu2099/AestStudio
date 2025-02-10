@@ -184,6 +184,7 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Caprure on you",
             "id": "shopify-section-template--18983813906653__product_banner_HgD9HU"
@@ -191,7 +192,6 @@
         },
         "item_QrKERe": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "name": "You May Also Like",
             "id": "shopify-section-template--18983813906653__section_product_popup_DyMQKF"
