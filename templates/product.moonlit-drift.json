@@ -49,34 +49,6 @@
             "size_chart_page": ""
           }
         },
-        "advanced_wishlist_wishlist_btn_HxJFt6": {
-          "type": "shopify://apps/advanced-wishlist/blocks/wishlist-btn/330d9272-08ea-4193-b3e0-475a69fa65fa",
-          "settings": {
-            "button_style": "style_3",
-            "button_border": 0,
-            "button_font_size": 14,
-            "button_font_weight": "500",
-            "button_border_radius": 0,
-            "button_vertical_space": 0,
-            "button_horizontal_space": 0,
-            "button_text_color": "#ffffff",
-            "button_background": "#5c6ac4",
-            "border_color": "#5c6ac4",
-            "hover_button_text_color": "#ffffff",
-            "hover_button_background_color": "#5c6ac4",
-            "hover_button_border_color": "#5c6ac4",
-            "is_new_icon_settings": false,
-            "icon_type": "outline",
-            "icon_size": 16,
-            "icon_background_type": "icon_round_background",
-            "icon_background_color": "#5c6ac4",
-            "icon_fill_color": "#ffffff",
-            "icon_border_color": "#ffffff",
-            "icon_hover_color": "#5c6ac4",
-            "selected_icon_fill_color": "#5c6ac4",
-            "selected_icon_border_color": "#5c6ac4"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -134,7 +106,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Shipping & Payment",
-            "content": "<p>Payment</p><p>Aest Studios accepts the following payment methods: Shopify payment (including Visa, Mastercard, Apple Pay, American Express, Discover, Diners, etc.) and PayPal and other major credit cards and payment platforms.</p><p>Shipping</p><ul><li> United States: Free shipping on orders over $69; $12 shipping fee for orders under $69;  Europe: $17 shipping fee; Asia: $11 shipping fee</li><li>Delivery time: 5-8 working days in the United States; 7-10 working days for international orders</li><li>More information view <span style=\"text-decoration:underline\">Shipping and Orders</span></li></ul><p>Returns</p><ul><li>It is possible to return any item ordered within 15 days from the date of delivery</li><li>Items must be returned in their original condition and in their original packaging</li><li>More information view  <span style=\"text-decoration:underline\">Return and Refunds</span></li></ul>",
+            "content": "<p>Payment</p><p>Aest Studios accepts the following payment methods: Shopify payment (including Visa, Mastercard, Apple Pay, American Express, Discover, Diners, etc.) and PayPal and other major credit cards and payment platforms.</p><p>Shipping</p><ul><li> United States: Free shipping on orders over $69; $12 shipping fee for orders under $69;  Europe: $17 shipping fee; Asia: $11 shipping fee</li><li>Delivery time: 5-8 working days in the United States; 7-10 working days for international orders</li><li>More information view <a href=\"/pages/shipping\" title=\"shipping\"><span style=\"text-decoration:underline\">Shipping and Orders</span></a></li></ul><p>Returns</p><ul><li>It is possible to return any item ordered within 15 days from the date of delivery</li><li>Items must be returned in their original condition and in their original packaging</li><li>More information view  <a href=\"/pages/returns\" title=\"returns\"><span style=\"text-decoration:underline\">Return and Refunds</span></a></li></ul>",
             "liquid": "",
             "page": ""
           }
@@ -168,7 +140,6 @@
         "price",
         "payment_terms",
         "variant_picker",
-        "advanced_wishlist_wishlist_btn_HxJFt6",
         "buy_buttons",
         "in_action_ifkLi4",
         "accordion_UYLqjQ",
@@ -207,7 +178,7 @@
           "type": "item",
           "settings": {
             "name": "Product Features",
-            "id": "shopify-section-template--18965441183965__custom_text_with_media_BaK7bn"
+            "id": "shopify-section-template--18983810203869__custom_text_with_media_BaK7bn"
           }
         },
         "item_tLRGyK": {
@@ -222,7 +193,7 @@
           "type": "item",
           "settings": {
             "name": "You May Also Like",
-            "id": "shopify-section-template--18965441183965__section_product_popup_DyMQKF"
+            "id": "shopify-section-template--18983810203869__section_product_popup_DyMQKF"
           }
         },
         "item_aqM9w8": {
@@ -236,7 +207,7 @@
           "type": "item",
           "settings": {
             "name": "Follow Us",
-            "id": "shopify-section-template--18965441183965__product_follows_RnNaCy"
+            "id": "shopify-section-template--18983810203869__product_follows_RnNaCy"
           }
         }
       },
