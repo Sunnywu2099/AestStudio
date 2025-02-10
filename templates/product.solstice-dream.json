@@ -169,6 +169,7 @@
       "blocks": {
         "item_rGmAbD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Product  Video",
             "id": "shopify-section-template--18983813906653__video_eEEpfh"
@@ -233,6 +234,7 @@
       "block_order": [
         "play_PU4wVK"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
