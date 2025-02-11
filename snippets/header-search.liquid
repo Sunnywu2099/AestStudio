@@ -13,15 +13,6 @@ Supported variables
 Nothing
 {%- endcomment -%}
 
-{% stylesheet %}
-  
-#header-search-{{ section.id }} .h6{
-  text-algin:left;
-
-}
-
-{% endstylesheet %}
-
 <header-search id="header-search-{{ section.id }}" class="header-search">
   <div class="container" style="max-width:1000px; margin:0 auto;">
     <form id="predictive-search-form" action="{{ routes.search_url }}" method="GET" aria-owns="header-predictive-search" class="header-search__form" role="search">
