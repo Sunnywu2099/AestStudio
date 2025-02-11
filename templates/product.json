@@ -243,8 +243,7 @@
         "show_controls": true,
         "video_size": "auto",
         "video": "shopify://files/videos/video(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "poster": "shopify://shop_images/Layer_0.png",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
