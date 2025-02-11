@@ -329,6 +329,48 @@
         "title": "Product Features"
       }
     },
+    "custom_text_with_media_2_jbDJ9h": {
+      "type": "custom-text-with-media-2",
+      "blocks": {
+        "item_VaUJX7": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_VaUJX7"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/pdp-_3.png",
+        "use_video": false,
+        "autoplay": true,
+        "text_alignment": "right"
+      }
+    },
+    "custom_text_with_media_2_gmMqKf": {
+      "type": "custom-text-with-media-2",
+      "blocks": {
+        "item_P8iGxw": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "item_P8iGxw"
+      ],
+      "settings": {
+        "img": "shopify://shop_images/pdp-_3.png",
+        "use_video": false,
+        "autoplay": true,
+        "text_alignment": "left"
+      }
+    },
     "product_cards_zQFYB9": {
       "type": "product-cards",
       "blocks": {
@@ -544,6 +586,8 @@
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
     "product_features_QrAATR",
+    "custom_text_with_media_2_jbDJ9h",
+    "custom_text_with_media_2_gmMqKf",
     "product_cards_zQFYB9",
     "section_product_popup_iqCkwF",
     "17373628072f3d93c9",
