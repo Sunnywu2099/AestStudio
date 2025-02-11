@@ -1,0 +1,210 @@
+<style>
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+  }
+  .sustainability .s-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+  }
+  .sustainability .content-box{
+    margin-top: 40px;
+  }
+  .sustainability .content-box a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 9px;
+    border-bottom: 0.5px solid #25282A;
+    color: #25282A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0.9px;
+  }
+  @media screen and (max-width: 999px) {
+    #shopify-section-{{section.id}} {
+      padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+    }
+  }
+  @media screen and (max-width: 699px) {
+    .sustainability .s-wrapper{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .sustainability .content-box{
+      margin-top: 20px;
+    }
+    .sustainability .content-box a{
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  }
+</style>
+
+<div class="container container--xl">
+  <div class="s-wrapper">
+    {% for block in section.blocks %}
+      {% assign bs = block.settings %}
+      <div class="item">
+        {% if bs.img != blank %}
+          <picture>
+            {%- if bs.img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ bs.img_m.width }}"
+                height="{{ bs.img_m.height }}">
+            {%- endif -%}
+            {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+        <div class="content-box">
+          <a href="{{bs.url}}">
+            <span>{{bs.text}}</span>
+            <span>
+              {% render 'sustain-icon' %}
+            </span>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "custom blog card",
+    "class": "custom-blog-card",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image PC"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          },
+          {
+            "type": "checkbox",
+            "id": "use_video",
+            "label": "Use video",
+            "default": true,
+            "info": "Image will be the post image if video is used"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "default": true
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video PC"
+          },
+          {
+            "type": "video",
+            "id": "mobile_video",
+            "label": "Video Mobile"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link url"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Link text"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "date",
+            "label": "Date"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom blog card"
+      }
+    ]
+  }
+{% endschema %}
