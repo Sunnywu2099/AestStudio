@@ -129,9 +129,99 @@
         "link_text": "Camera Bag",
         "link_url": "",
         "pt": 120,
-        "pb": 120,
+        "pb": 20,
         "pt_m": 40,
         "pb_m": 60
+      }
+    },
+    "custom_multiple_media_xi3djm": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_m3H7hV": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
+            "img_m": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "media_m3H7hV"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "Designer Bag",
+        "link_url": "",
+        "pt": 0,
+        "pb": 20,
+        "pt_m": 0,
+        "pb_m": 20
+      }
+    },
+    "custom_multiple_media_fWF7rg": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_xJ8AQt": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_1_00b6e5ae-2a53-4816-905d-8d34eb90b56a.png",
+            "img_m": "shopify://shop_images/Homepage_-_1.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "media_xJ8AQt"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "Camera Bag",
+        "link_url": "",
+        "pt": 0,
+        "pb": 20,
+        "pt_m": 0,
+        "pb_m": 20
+      }
+    },
+    "custom_multiple_media_9KNdM6": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_NRC3r4": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
+            "img_m": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "media_NRC3r4"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "Camera Bag",
+        "link_url": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 20
       }
     }
   },
@@ -139,6 +229,9 @@
     "main",
     "section_nav_mGDaCc",
     "section_logo_z6VJck",
-    "custom_multiple_media_PabXt8"
+    "custom_multiple_media_PabXt8",
+    "custom_multiple_media_xi3djm",
+    "custom_multiple_media_fWF7rg",
+    "custom_multiple_media_9KNdM6"
   ]
 }
