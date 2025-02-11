@@ -62,7 +62,12 @@
       {% endif %}
     </div>
     <div class="content-box">
-      
+    {% if ss.text != blank %}
+      <div>{{ss.text}}</div>
+    {% endif %}
+    {% if ss.date != blank %}
+      <div>{{ss.date}}</div>
+    {% endif %}
     </div>
   </div>
 </div>
