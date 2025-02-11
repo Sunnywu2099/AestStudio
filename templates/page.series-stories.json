@@ -92,7 +92,6 @@
     },
     "section_logo_z6VJck": {
       "type": "section-logo",
-      "disabled": true,
       "settings": {
         "img": "shopify://shop_images/Logo_99fc19c9-f75e-41c4-8757-8e4582556177.png",
         "width": "280px",
@@ -100,9 +99,9 @@
         "width_m": "280px",
         "type": "margin",
         "top": 120,
-        "bottom": 120,
+        "bottom": 0,
         "top_m": 60,
-        "bottom_m": 60
+        "bottom_m": 0
       }
     },
     "custom_multiple_media_PabXt8": {
@@ -111,6 +110,7 @@
         "text_EJJhtA": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
@@ -120,9 +120,12 @@
         "text_EJJhtA"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 60,
         "pb": 120,
         "pt_m": 40,
@@ -135,6 +138,7 @@
         "media_V9gmdV": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_7.png",
             "img_m": "shopify://shop_images/Mask_group_7.png",
             "use_video": false,
@@ -144,6 +148,7 @@
         "text_mtAREc": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
@@ -154,9 +159,12 @@
         "text_mtAREc"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -169,6 +177,7 @@
         "media_cLCtQc": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_8.png",
             "img_m": "shopify://shop_images/Mask_group_8.png",
             "use_video": false,
@@ -178,6 +187,7 @@
         "text_nKaVik": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
@@ -188,9 +198,12 @@
         "text_nKaVik"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -203,6 +216,7 @@
         "media_ixV7Dn": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/4_84cafeb2-f4c9-4637-8b41-c3be6931986d.png",
             "img_m": "shopify://shop_images/4_84cafeb2-f4c9-4637-8b41-c3be6931986d.png",
             "use_video": false,
@@ -212,6 +226,7 @@
         "text_YwQ487": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
           }
@@ -222,9 +237,12 @@
         "text_YwQ487"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -237,6 +255,7 @@
         "media_jFz9Cn": {
           "type": "media",
           "settings": {
+            "width": "",
             "img": "shopify://shop_images/Mask_group_9.png",
             "img_m": "shopify://shop_images/Mask_group_9.png",
             "use_video": false,
@@ -246,6 +265,7 @@
         "text_FUkn3b": {
           "type": "text",
           "settings": {
+            "width": "",
             "title": "",
             "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
@@ -256,9 +276,12 @@
         "text_FUkn3b"
       ],
       "settings": {
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
