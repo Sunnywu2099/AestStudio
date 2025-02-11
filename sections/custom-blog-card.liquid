@@ -17,7 +17,37 @@
 
 <div class="container container--xl">
   <div class="blog-wrapper">
-
+    <div class=""media-box>
+      {% if ss.use_video %}
+        {% if ss.autoplay %}
+          {{ ss.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+          {% if ss.mobile_video != blank %}
+            {{ ss.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+          {% endif %}
+        {% else %}
+          {{ ss.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+          {% if ss.mobile_video != blank %}
+            {{ ss.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+          {% endif %}
+          <div class="play-btn">
+            {% render 'play-video' %} 
+          </div>
+        {% endif %}
+      {% else %}
+        {% if ss.img != blank %}
+          <picture>
+            {%- if ss.img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ ss.img_m | image_url: width: '400x' }} 400w, {{ ss.img_m | image_url: width: '600x' }} 600w, {{ ss.img_m | image_url: width: '800x' }} 800w, {{ ss.img_m | image_url: width: '1000x' }} 1000w, {{ ss.img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ ss.img_m.width }}"
+                height="{{ ss.img_m.height }}">
+            {%- endif -%}
+            {{- ss.img | image_url: width: ss.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+      {% endif %}
+    </div>
   </div>
 </div>
 
