@@ -19,6 +19,20 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .custom-blog-card .title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    letter-spacing: 1.1px;
+  }
+  .custom-blog-card .date{
+    color: #25282A;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.4px;
+    letter-spacing: 0.8px;
+  }
   @media screen and (max-width: 999px) {
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
@@ -66,10 +80,10 @@
     </div>
     <div class="content-box">
     {% if ss.text != blank %}
-      <div>{{ss.text}}</div>
+      <div class="title">{{ss.text}}</div>
     {% endif %}
     {% if ss.date != blank %}
-      <div>{{ss.date}}</div>
+      <div class="date">{{ss.date}}</div>
     {% endif %}
     </div>
   </div>
