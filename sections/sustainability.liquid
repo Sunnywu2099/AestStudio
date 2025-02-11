@@ -16,7 +16,25 @@
 </style>
 
 <div class="container container--xl">
-
+  <div class="s-wrapper">
+    {% for block in section.blocks %}
+      {% assign bs = block.settings %}
+      <div class="item">
+        {% if bs.img != blank %}
+          <picture>
+            {%- if bs.img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ bs.img_m.width }}"
+                height="{{ bs.img_m.height }}">
+            {%- endif -%}
+            {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 
