@@ -187,6 +187,7 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Capture on you",
             "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
@@ -426,6 +427,7 @@
         "item_GBdUXB",
         "item_MCy4h8"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture on you"
       }
