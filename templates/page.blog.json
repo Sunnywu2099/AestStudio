@@ -25,7 +25,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
+            "img": "shopify://shop_images/Clip_path_group_8a12cad5-8330-47ee-a67b-7c2a46dc6c7a.png",
+            "img_m": "shopify://shop_images/Clip_path_group_8a12cad5-8330-47ee-a67b-7c2a46dc6c7a.png",
             "use_video": false,
             "autoplay": true
           }
@@ -44,7 +45,7 @@
         "text_gn9W3C"
       ],
       "settings": {
-        "page_desc": "Aest Studios Commitment To Sustainability",
+        "page_desc": "For women of power, purpose, art and design",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
