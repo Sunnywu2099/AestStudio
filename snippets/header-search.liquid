@@ -1,33 +1,44 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-HEADER SEARCH
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  HEADER SEARCH
+  ----------------------------------------------------------------------------------------------------------------------
 
-Code of the predictive search in the header. This uses the "predictive-search" component. The resources being
-searched are controlled by the Search & Discovery app.
+  Code of the predictive search in the header. This uses the "predictive-search" component. The resources being
+  searched are controlled by the Search & Discovery app.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-Nothing
+  Nothing
 {%- endcomment -%}
 
 {% style %}
-  
-#header-search-{{ section.id }} .h6{
-  text-algin:left;
-
-}
-
-{%- endstyle -%}
+  #header-search-{{ section.id }} .h6{
+    text-align: left;
+  }
+{% endstyle %}
 
 <header-search id="header-search-{{ section.id }}" class="header-search">
   <div class="container" style="max-width:1000px; margin:0 auto;">
-    <form id="predictive-search-form" action="{{ routes.search_url }}" method="GET" aria-owns="header-predictive-search" class="header-search__form" role="search">
+    <form
+      id="predictive-search-form"
+      action="{{ routes.search_url }}"
+      method="GET"
+      aria-owns="header-predictive-search"
+      class="header-search__form"
+      role="search"
+    >
       <div class="header-search__form-control">
         {%- render 'icon' with 'search', width: 20 -%}
-        <input type="search" name="q" spellcheck="false" class="header-search__input h5 sm:h4" aria-label="{{ 'search.general.title' | t | escape }}" placeholder="{{ 'search.general.search_placeholder' | t | escape }}">
+        <input
+          type="search"
+          name="q"
+          spellcheck="false"
+          class="header-search__input h5 sm:h4"
+          aria-label="{{ 'search.general.title' | t | escape }}"
+          placeholder="{{ 'search.general.search_placeholder' | t | escape }}"
+        >
 
         <dialog-close-button class="contents">
           <button type="button">
@@ -37,6 +48,29 @@ Nothing
         </dialog-close-button>
       </div>
     </form>
+
+    <div class="search-suggestions">
+      <div class="search-suggestions__title">Suggestions</div>
+
+      <ul>
+        <li class="suggestions__item">
+          <a href="/collections/mini"> Mini</a>
+        </li>
+        <li class="suggestions__item">
+          <a href="/collections/slings-bages"> Slings Bags</a>
+        </li>
+
+        <li class="suggestions__item">
+          <a href="/collections/shoulder-bags"> Shoulder Bags</a>
+        </li>
+        <li class="suggestions__item">
+          <a href="/collections/elongated-bags"> Elongated Bags</a>
+        </li>
+        <li class="suggestions__item">
+          <a href="/collections/tote"> Tote</a>
+        </li>
+      </ul>
+    </div>
 
     <predictive-search id="header-predictive-search" class="predictive-search">
       <div class="predictive-search__content" slot="results"></div>
