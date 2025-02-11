@@ -304,7 +304,7 @@
       "settings": {
         "img": "shopify://shop_images/Group_1000006759.png",
         "img_m": "shopify://shop_images/Group_1000006759.png",
-        "use_video": true,
+        "use_video": false,
         "autoplay": false,
         "text_alignment": "left"
       }
@@ -333,8 +333,8 @@
         "item_NTRqdK"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006643.png",
-        "img_m": "shopify://shop_images/Group_1000006643.png",
+        "img": "shopify://shop_images/Group_1000006760.png",
+        "img_m": "shopify://shop_images/Group_1000006760.png",
         "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
