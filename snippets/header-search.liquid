@@ -35,6 +35,19 @@
   line-height: 1.4; /* 140% */
   letter-spacing: 0.6px;
       }
+      #header-search-{{ section.id }} .search-suggestions__list{
+
+         padding: 0 16px;
+         display: flex;
+         flex-direction: column;
+         gap:10px;
+         align-items: flex-start;
+         justify-content: flex-start;
+      }
+
+
+
+
 {% endstyle %}
 
 <header-search id="header-search-{{ section.id }}" class="header-search">
@@ -70,7 +83,7 @@
     <div class="search-suggestions">
       <div class="search-suggestions__title">Suggestions</div>
 
-      <ul>
+      <ul class="search-suggestions__list">
         <li class="suggestions__item">
           <a href="/collections/mini"> Mini</a>
         </li>
