@@ -11,10 +11,55 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "custom_multiple_media_bUtUiD": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_NxzYn7": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "text_gn9W3C": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_NxzYn7",
+        "text_gn9W3C"
+      ],
+      "settings": {
+        "page_desc": "Aest Studios Commitment To Sustainability",
+        "is_full": false,
+        "section_type": "one-media-top-two-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_multiple_media_bUtUiD"
   ]
 }
