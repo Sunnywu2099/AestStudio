@@ -1,24 +1,74 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-HEADER SEARCH
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  HEADER SEARCH
+  ----------------------------------------------------------------------------------------------------------------------
 
-Code of the predictive search in the header. This uses the "predictive-search" component. The resources being
-searched are controlled by the Search & Discovery app.
+  Code of the predictive search in the header. This uses the "predictive-search" component. The resources being
+  searched are controlled by the Search & Discovery app.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-Nothing
+  Nothing
 {%- endcomment -%}
 
+{% style %}
+      #header-search-{{ section.id }} .h6{
+        text-align: left;
+      }
+      #header-search-{{ section.id }} .search-suggestions__title {
+        padding: 12px 0 ;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.7px;
+        box-shadow: 0 0.5px 0 0  rgba(37, 40, 42, 0.67)
+
+
+      }
+
+      #header-search-{{ section.id }} .suggestions__item{
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4; /* 140% */
+  letter-spacing: 0.6px;
+      }
+      #header-search-{{ section.id }} .search-suggestions__list{
+        margin-bottom: 40px;
+         padding:  16px 0;
+         display: flex;
+         flex-direction: column;
+         gap:10px;
+         align-items: flex-start;
+         justify-content: flex-start;
+         box-shadow: 0 0.5px 0 0  rgba(37, 40, 42, 0.67)
+      }
+{% endstyle %}
+
 <header-search id="header-search-{{ section.id }}" class="header-search">
-  <div class="container">
-    <form id="predictive-search-form" action="{{ routes.search_url }}" method="GET" aria-owns="header-predictive-search" class="header-search__form" role="search">
+  <div class="container" style="max-width:1000px; margin:0 auto;">
+    <form
+      id="predictive-search-form"
+      action="{{ routes.search_url }}"
+      method="GET"
+      aria-owns="header-predictive-search"
+      class="header-search__form"
+      role="search"
+    >
       <div class="header-search__form-control">
         {%- render 'icon' with 'search', width: 20 -%}
-        <input type="search" name="q" spellcheck="false" class="header-search__input h5 sm:h4" aria-label="{{ 'search.general.title' | t | escape }}" placeholder="{{ 'search.general.search_placeholder' | t | escape }}">
+        <input
+          type="search"
+          name="q"
+          spellcheck="false"
+          class="header-search__input h5 sm:h4"
+          aria-label="{{ 'search.general.title' | t | escape }}"
+          placeholder="{{ 'search.general.search_placeholder' | t | escape }}"
+        >
 
         <dialog-close-button class="contents">
           <button type="button">
@@ -28,6 +78,29 @@ Nothing
         </dialog-close-button>
       </div>
     </form>
+
+    <div class="search-suggestions">
+      <div class="search-suggestions__title">Suggestions</div>
+
+      <div class="search-suggestions__list">
+        <div class="suggestions__item">
+          <a href="/collections/mini"> Mini</a>
+        </div>
+        <div class="suggestions__item">
+          <a href="/collections/collections/sling-bags"> Slings Bags</a>
+        </div>
+
+        <div class="suggestions__item">
+          <a href="/collections/shoulder-bags"> Shoulder Bags</a>
+        </div>
+        <div class="suggestions__item">
+          <a href="/collections/elongated-bags"> Elongated Bags</a>
+        </div>
+        <div class="suggestions__item">
+          <a href="/collections/tote"> Tote</a>
+        </div>
+      </div>
+    </div>
 
     <predictive-search id="header-predictive-search" class="predictive-search">
       <div class="predictive-search__content" slot="results"></div>

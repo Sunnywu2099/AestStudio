@@ -7855,7 +7855,7 @@ ul {
 
 .predictive-search__products .product-card__info{
   justify-items: start;
-  gap:0px
+  gap:0.25rem
  
   
 }

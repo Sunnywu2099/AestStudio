@@ -187,6 +187,7 @@
         },
         "item_tLRGyK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Capture on you",
             "id": "shopify-section-template--18952352989405__product_cards_zQFYB9"
@@ -242,8 +243,7 @@
         "show_controls": true,
         "video_size": "auto",
         "video": "shopify://files/videos/video(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "poster": "shopify://shop_images/Layer_0.png",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
@@ -426,6 +426,7 @@
         "item_GBdUXB",
         "item_MCy4h8"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture on you"
       }
@@ -548,32 +549,32 @@
         "item_GQee7r": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/04.png",
+            "img_m": "shopify://shop_images/04.png",
             "url": ""
           }
         },
         "item_MXCjy6": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "img_m": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
             "url": ""
           }
         },
         "item_wKmqNP": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
+            "img_m": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
             "url": ""
           }
         },
         "item_xUfpTQ": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/1-01.png",
+            "img_m": "shopify://shop_images/1-01.png",
             "url": ""
           }
         }

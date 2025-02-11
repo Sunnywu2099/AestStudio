@@ -113,6 +113,7 @@
         },
         "in_action_fcgMfP": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "Pairs With",
             "text": "",
@@ -267,8 +268,8 @@
         "item_yiwEDA"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006638.png",
-        "img_m": "shopify://shop_images/Group_1000006638.png",
+        "img": "shopify://shop_images/Group_1000006638_1.png",
+        "img_m": "shopify://shop_images/Group_1000006638_1.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "right"
@@ -298,8 +299,8 @@
         "item_Fg8hrc"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006623.png",
-        "img_m": "shopify://shop_images/Group_1000006623.png",
+        "img": "shopify://shop_images/Group_1000006623_1.png",
+        "img_m": "shopify://shop_images/Group_1000006623_1.png",
         "use_video": false,
         "autoplay": false,
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -331,8 +332,8 @@
         "item_NTRqdK"
       ],
       "settings": {
-        "img": "shopify://shop_images/Group_1000006622.png",
-        "img_m": "shopify://shop_images/Group_1000006622.png",
+        "img": "shopify://shop_images/Group_1000006622_1.png",
+        "img_m": "shopify://shop_images/Group_1000006622_1.png",
         "use_video": false,
         "autoplay": false,
         "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
