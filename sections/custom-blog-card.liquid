@@ -2,7 +2,11 @@
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
   }
-
+  .custom-blog-card .blog-wrapper{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+  }
   @media screen and (max-width: 999px) {
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
@@ -47,6 +51,9 @@
           </picture>
         {% endif %}
       {% endif %}
+    </div>
+    <div class="content-box">
+
     </div>
   </div>
 </div>
