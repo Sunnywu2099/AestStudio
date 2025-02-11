@@ -68,6 +68,16 @@
     font-weight: 500;
     line-height: 25.2px;
     letter-spacing: 0.9px;
+    color: {{section.settings.link_color}};
+    border-radius: 2px;
+    border: 1px solid transparent;
+    padding: 10px 35px;
+    background: none;
+  }
+  #shopify-section-{{section.id}} .media_link:hover{
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.40);
+    color: #fff;
   }
   /* section type-2 */
   #shopify-section-{{section.id}} .type-2 .custom-wrapper{
@@ -383,6 +393,11 @@
         "type": "url",
         "id": "link_url",
         "label": "Link URL"
+      },
+      {
+        "type": "color",
+        "id": "link_color",
+        "label": "Link color"
       },
       {
         "type": "range",
