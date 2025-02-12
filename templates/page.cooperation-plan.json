@@ -53,14 +53,14 @@
           "type": "item",
           "settings": {
             "text": "Special Projects",
-            "link": ""
+            "link": "shopify://pages/special-projects"
           }
         },
         "item_ArfrKA": {
           "type": "item",
           "settings": {
             "text": "Charitable Projects",
-            "link": ""
+            "link": "shopify://pages/public-welfare-projects"
           }
         }
       },
