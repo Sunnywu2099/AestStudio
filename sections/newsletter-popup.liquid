@@ -4,12 +4,20 @@
     {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
 
     {%- capture _temporary -%}
+    
       {%- form 'customer', id: newsletter_id, class: 'form' -%}
         {%- assign posted_successfully = form.posted_successfully? -%}
+        
       {%- endform -%}
     {%- endcapture -%}
 
-    <newsletter-popup class="pop-in newsletter-popup color-scheme color-scheme--{{ section.settings.color_scheme.id }}" title="Newsletter popup" {% if section.settings.show_only_once %}only-once{% endif %} apparition-delay="{{ section.settings.apparition_delay }}" {% if posted_successfully %}open{% endif %} handle-editor-events>
+    {% if posted_successfully %}
+        {% assign letter_class = "letter_is_success" %}
+    {% else %}
+        {% assign letter_class = "letter_need_enter" %}
+    {% endif %}
+
+    <newsletter-popup id="subscribe-popup" class="{{ letter_class }} newsletter-popup color-scheme color-scheme--{{ section.settings.color_scheme.id }}" title="Newsletter popup" {% if section.settings.show_only_once %}only-once{% endif %} apparition-delay="{{ section.settings.apparition_delay }}" {% if posted_successfully %}open{% endif %} handle-editor-events>
       <dialog-close-button class="contents">
         <button class="pop-in__close-button tap-area">
           <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
@@ -17,9 +25,10 @@
         </button>
       </dialog-close-button>
 
-      <div class="v-stack gap-8">
+      <div style="display:flex">
+        <div class="subscribe-info">
         {%- if section.settings.title != blank or section.settings.content != blank -%}
-          <div class="v-stack gap-4 text-center">
+          <div class=" " style="margin-bottom:20px;">
             {%- if section.settings.title != blank -%}
               <p class="h4">{{ section.settings.title }}</p>
             {%- endif -%}
@@ -50,19 +59,109 @@
               <div class="fieldset">
                 <input type="hidden" name="contact[tags]" value="newsletter">
 
-                {%- assign label = 'blog.comments.email' | t -%}
+                {%- assign label = 'Your E-mail'  -%}
                 {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
               </div>
 
               {%- render 'button', content: section.settings.button_text, type: 'submit' -%}
+
+              <div style="padding-top:25px;">
+                {{ section.settings.content2}}
+                
+              </div>
             {%- endif -%}
           {%- endform -%}
         {%- endif -%}
       </div>
+      <div class="media">
+            
+           <picture>
+             {% liquid 
+                    assign alt = section.settings.img.alt
+                    %}
+             
+             <source
+                                srcset="{{ section.settings.img  | img_url: '2160x'}}"
+                                media="(max-width: 375px)"
+                              >
+             <img src="{{ section.settings.img | img_url: '2160x'}}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
+           </picture>
+        </div>
+        
+      
+      </div>
+      
     </newsletter-popup>
   {%- endunless -%}
 {%- endunless -%}
+<style>
+  #subscribe-popup {
+  position: fixed;
+  
+  transform: translate(-50%, -50%) ;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  padding-top:46px;
+    padding-right:0px;
+    transition: opacity 0.6s ease-in-out; /* 添加透明度渐变效果，时长 1 秒 */
+    color:#25282A;
+    width:auto;
+}
+  #subscribe-popup.letter_need_enter{
+    top: 50%;
+  left: 50%;
+  }
+  
+  #subscribe-popup.letter_is_success{
+    padding-right:20px;
+    right:8px;
+    bottom:8px;
+  }
 
+  .letter_need_enter .subscribe-info{
+    width:50%;
+    padding-right:20px;
+  }
+   #subscribe-popup.letter_need_enter .media{
+     width:50%;
+   }
+  .letter_is_success  .media{
+    display:none;
+  }
+
+  #subscribe-popup input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+  @media (max-width: 1000px) {
+      #subscribe-popup .media{
+       display:none;
+     }
+    .subscribe-info{
+      width:90%
+    }
+  }
+
+  /* 超小屏幕移动端（宽度小于 576px） */
+  @media (max-width: 575px) {
+      #subscribe-popup .media{
+       display:none;
+     }
+    .subscribe-info{
+    width:90%;
+      min-width:310px;
+  }
+    
+  }
+</style>
 {% schema %}
 {
   "name": "t:sections.newsletter_popup.name",
@@ -129,7 +228,17 @@
       "id": "button_text",
       "label": "t:global.text.button_text",
       "default": "Subscribe"
-    }
+    },
+    {
+      "type": "richtext",
+      "id": "content2",
+      "label": "Content2"
+    },
+    {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+      }
   ]
 }
 {% endschema %}
