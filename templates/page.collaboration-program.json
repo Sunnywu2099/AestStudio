@@ -18,6 +18,68 @@
         "page_width": "xs"
       }
     },
+    "section_nav_JWNFLf": {
+      "type": "section-nav",
+      "blocks": {
+        "item_tHzWVx": {
+          "type": "item",
+          "settings": {
+            "text": "Cooperation Plan",
+            "link": ""
+          }
+        },
+        "item_gmXVtP": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice",
+            "link": "shopify://pages/your-voice"
+          }
+        },
+        "item_RjWwHb": {
+          "type": "item",
+          "settings": {
+            "text": "Your Mind",
+            "link": "shopify://pages/your-mind"
+          }
+        },
+        "item_DYTcmX": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "item_QMVXwK": {
+          "type": "item",
+          "settings": {
+            "text": "Special Projects",
+            "link": ""
+          }
+        },
+        "item_ArfrKA": {
+          "type": "item",
+          "settings": {
+            "text": "Charitable Projects",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_tHzWVx",
+        "item_gmXVtP",
+        "item_RjWwHb",
+        "item_DYTcmX",
+        "item_QMVXwK",
+        "item_ArfrKA"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
     "collaboration_program_ng8KDc": {
       "type": "collaboration-program",
       "blocks": {
@@ -115,6 +177,7 @@
   },
   "order": [
     "main",
+    "section_nav_JWNFLf",
     "collaboration_program_ng8KDc"
   ]
 }
