@@ -100,7 +100,7 @@
     </div>
     <div class="content-box">
     {% if ss.text != blank %}
-      <div class="title">{{ss.text}}</div>
+      <a class="title" href="{{ss.url}}">{{ss.text}}</a>
     {% endif %}
     {% if ss.date != blank %}
       <div class="date">{{ss.date}}</div>
