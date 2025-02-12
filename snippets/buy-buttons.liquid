@@ -191,7 +191,7 @@ Supported variables
        let el = $(this);
        if(el.prop('checked')){
         el.parents('.target_select').find(`input[name='properties[__shopify_send_gift_card_to_recipient]']`).prop('checked',false);
-        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden');
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
        }else{
 
        }
