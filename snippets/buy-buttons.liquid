@@ -173,9 +173,11 @@ Supported variables
             </div>
           </div>
 
-          <div class="gift-card-for_me" hidden>
-
-          </div>
+          {% if block.settings.for_me_desc != blank %} 
+            <div class="gift-card-for_me" hidden>
+              {{block.settings.for_me_desc}}
+            </div>
+          {% endif %}
 
 
         </gift-card-recipient>
