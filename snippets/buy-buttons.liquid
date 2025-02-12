@@ -53,31 +53,6 @@ Supported variables
       %}
 
       <div class="buy-buttons-wrapper">
-        {%- if recipient_feature_active -%}
-          <gift-card-recipient class="gift-card-recipient v-stack gap-3">
-            {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
-            {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]' -%}
-
-            <div class="gift-card-recipient__fields" hidden>
-              <div class="fieldset">
-                {%- liquid
-                  assign recipient_email_label = 'gift_card.recipient.email_label' | t
-                  render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
-
-                  assign recipient_name_label = 'gift_card.recipient.name_label' | t
-                  render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name
-
-                  assign send_on_label = 'gift_card.recipient.send_on_label' | t
-                  render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
-                  render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
-
-                  assign message_label = 'gift_card.recipient.message_label' | t
-                  render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
-                -%}
-              </div>
-            </div>
-          </gift-card-recipient>
-        {%- endif -%}
 
         <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--has-dynamic{% endif %}" form="{{ form_id }}">
           {%- if show_payment_button and atc_button_background == blank and atc_button_text_color == blank -%}
@@ -110,6 +85,31 @@ Supported variables
         </buy-buttons>
         {% render "add-to-wishlist-main", product:product %}
       </div>
+      {%- if recipient_feature_active -%}
+        <gift-card-recipient class="gift-card-recipient v-stack gap-3">
+          {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
+          {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]' -%}
+
+          <div class="gift-card-recipient__fields" hidden>
+            <div class="fieldset">
+              {%- liquid
+                assign recipient_email_label = 'gift_card.recipient.email_label' | t
+                render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
+
+                assign recipient_name_label = 'gift_card.recipient.name_label' | t
+                render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name
+
+                assign send_on_label = 'gift_card.recipient.send_on_label' | t
+                render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
+                render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
+
+                assign message_label = 'gift_card.recipient.message_label' | t
+                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
+              -%}
+            </div>
+          </div>
+        </gift-card-recipient>
+      {%- endif -%}
     {%- endform -%}
   </product-form>
 {%- else -%}
