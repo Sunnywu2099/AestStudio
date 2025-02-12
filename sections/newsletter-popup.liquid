@@ -94,6 +94,30 @@
     </newsletter-popup>
   {%- endunless -%}
 {%- endunless -%}
+
+<script>
+  window.addEventListener('load', function () {
+  // 显示订阅弹框
+  const subscribePopup = document.getElementById('subscribe-popup');
+    subscribePopup.style.display = 'block';
+    setTimeout(function(){
+      
+       // subscribePopup.style.opacity = 1;
+      subscribePopup.classList.add('show')
+    },3000);
+  
+
+  // 关闭弹框
+  const closeButton = document.createElement('button');
+  closeButton.textContent = 'X';
+  closeButton.className = 'close-button';
+  closeButton.addEventListener('click', function () {
+    subscribePopup.style.display = 'none';
+   
+  });
+  subscribePopup.appendChild(closeButton);
+});
+</script>
 <style>
   #subscribe-popup {
   position: fixed;
