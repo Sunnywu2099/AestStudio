@@ -445,7 +445,7 @@
       "email_label": "Recipient Email Address",
       "name_label": "Recipient Name",
       "send_on_label": "Send on (optional)",
-      "message_label": "Message (optional)"
+      "message_label": "Gift Message"
     }
   },
   "password": {
