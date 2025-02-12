@@ -159,12 +159,53 @@
         "pt_m": 60,
         "pb_m": 0
       }
+    },
+    "custom_multiple_media_abPmDi": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_NrAkY3": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_2_6fab4497-89ba-46b8-b937-5e988e4ecf30.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_6fab4497-89ba-46b8-b937-5e988e4ecf30.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_9ig9FE": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_NrAkY3",
+        "text_9ig9FE"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
     }
   },
   "order": [
     "main",
     "section_nav_mGDaCc",
     "custom_multiple_media_PabXt8",
-    "custom_multiple_media_TyLNeD"
+    "custom_multiple_media_TyLNeD",
+    "custom_multiple_media_abPmDi"
   ]
 }
