@@ -168,10 +168,10 @@
       ],
       "settings": {
         "page_desc": "Collaboration Program for Female Artists&Designers",
-        "pt": 80,
-        "pb": 80,
-        "pt_m": 40,
-        "pb_m": 40
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
       }
     }
   },
