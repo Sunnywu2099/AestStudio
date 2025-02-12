@@ -114,7 +114,7 @@ Supported variables
       {%- if recipient_feature_active -%}
         <gift-card-recipient class="gift-card-recipient v-stack gap-3">
 
-          <div class="gift-block-header">Who Is It For?</div>
+          <div class="gift-block-header">{{block.setting.who_is_it_for}}</div>
           <div class="target_select">
             {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
             {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
