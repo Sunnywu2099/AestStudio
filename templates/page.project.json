@@ -297,6 +297,10 @@
       "block_order": [
         "play_iDqpgF"
       ],
+      "custom_css": [
+        ".content-over-media{margin-bottom: 120px;}",
+        "@media (max-width: 999px){.content-over-media{margin-bottom: 60px; }}"
+      ],
       "settings": {
         "autoplay": true,
         "show_controls": false,
