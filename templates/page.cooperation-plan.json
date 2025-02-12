@@ -87,62 +87,35 @@
           "type": "item",
           "settings": {
             "title": "Bella Hadid",
-            "img": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
-            "img_m": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "url": ""
           }
         },
-        "item_dq3T3x": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Clip_path_group2.png",
-            "img_m": "shopify://shop_images/Clip_path_group2.png",
-            "url": ""
-          }
-        },
-        "item_yP6KeM": {
-          "type": "item",
-          "settings": {
-            "title": "UMA Wang",
-            "img": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
-            "img_m": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
-            "url": ""
-          }
-        },
-        "item_aUjtJ8": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Clip_path_group3.png",
-            "img_m": "shopify://shop_images/Clip_path_group3.png",
-            "url": ""
-          }
-        },
-        "item_RmdAhN": {
+        "item_eLhMew": {
           "type": "item",
           "settings": {
             "title": "Bella Hadid",
-            "img": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
-            "img_m": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "url": ""
           }
         },
-        "item_xdFTzm": {
+        "item_fjmqrM": {
           "type": "item",
           "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Clip_path_group2.png",
-            "img_m": "shopify://shop_images/Clip_path_group2.png",
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "url": ""
           }
         },
-        "item_JG3gLN": {
+        "item_RTAWaD": {
           "type": "item",
           "settings": {
-            "title": "UMA Wang",
-            "img": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
-            "img_m": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "url": ""
           }
         },
@@ -150,21 +123,48 @@
           "type": "item",
           "settings": {
             "title": "Kariley",
-            "img": "shopify://shop_images/Clip_path_group3.png",
-            "img_m": "shopify://shop_images/Clip_path_group3.png",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_VcCTW3": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_34Pn33": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_HWBrbh": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "url": ""
           }
         }
       },
       "block_order": [
         "item_trcTte",
-        "item_dq3T3x",
-        "item_yP6KeM",
-        "item_aUjtJ8",
-        "item_RmdAhN",
-        "item_xdFTzm",
-        "item_JG3gLN",
-        "item_LPhaPr"
+        "item_eLhMew",
+        "item_fjmqrM",
+        "item_RTAWaD",
+        "item_LPhaPr",
+        "item_VcCTW3",
+        "item_34Pn33",
+        "item_HWBrbh"
       ],
       "settings": {
         "page_desc": "Brand Cooperation Plan",
