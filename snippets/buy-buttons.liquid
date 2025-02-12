@@ -142,8 +142,12 @@ Supported variables
                 render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
               -%}
               
-              <div class="gift-block-header">{{block.settings.add_a_message}}</div>
-              <div class="gift-block-desc">{{block.settings.add_a_message_desc}}</div>
+              <div class="gift-block-header">
+                {{block.settings.add_a_message}}
+                {% if block.settings.add_a_message_desc != blank %} 
+                  <p class="desc">{{block.settings.add_a_message_desc}}</p>
+                {% endif %}
+              </div>
               {%- liquid
                 assign message_label = 'gift_card.recipient.message_label' | t
                 render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
