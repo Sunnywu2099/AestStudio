@@ -300,7 +300,7 @@
       "settings": {
         "autoplay": true,
         "show_controls": false,
-        "video_size": "md",
+        "video_size": "auto",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "external_video_url": "",
         "text_color": "#ffffff"
