@@ -17,9 +17,32 @@
         "show_title": true,
         "page_width": "xs"
       }
+    },
+    "collaboration_program_ng8KDc": {
+      "type": "collaboration-program",
+      "blocks": {
+        "item_trcTte": {
+          "type": "item",
+          "settings": {
+            "title": "Product Introduction",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_trcTte"
+      ],
+      "settings": {
+        "page_desc": "Collaboration Program for Female Artists&Designers",
+        "pt": 80,
+        "pb": 80,
+        "pt_m": 40,
+        "pb_m": 40
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collaboration_program_ng8KDc"
   ]
 }
