@@ -101,7 +101,13 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     $('.collaboration-program .more').click(function(){
-      $(this).toggleClass('active');
+      if(!$(this).hasClass('active')){
+        $(this).addClass('active');
+        $('.collaboration-program .more-text').text('SEE LESS');
+      }else{
+        $(this).removeClass('active');
+        $('.collaboration-program .more-text').text('SEE MORE');
+      }
       // $('.collaboration-program .media-wrapper .item')
     })
   });
