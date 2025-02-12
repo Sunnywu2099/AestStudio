@@ -102,17 +102,26 @@
             "use_video": false,
             "autoplay": false
           }
+        },
+        "text_J34dfK": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
         }
       },
       "block_order": [
-        "media_kjR7Cm"
+        "media_kjR7Cm",
+        "text_J34dfK"
       ],
       "settings": {
-        "page_desc": "Series Of Stories",
-        "is_full": true,
+        "page_desc": "Public welfare projects",
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "link_text": "Camera Bag",
+        "link_text": "",
         "link_url": "",
         "link_color": "#1c1c1c",
         "pt": 120,
@@ -120,107 +129,11 @@
         "pt_m": 40,
         "pb_m": 60
       }
-    },
-    "custom_multiple_media_xi3djm": {
-      "type": "custom-multiple-media",
-      "blocks": {
-        "media_m3H7hV": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
-            "img_m": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
-            "use_video": false,
-            "autoplay": false
-          }
-        }
-      },
-      "block_order": [
-        "media_m3H7hV"
-      ],
-      "settings": {
-        "page_desc": "",
-        "is_full": true,
-        "section_type": "one-media-top-one-content-bottom",
-        "text_alignment": "right",
-        "link_text": "Designer Bag",
-        "link_url": "",
-        "link_color": "#ffffff",
-        "pt": 0,
-        "pb": 20,
-        "pt_m": 0,
-        "pb_m": 20
-      }
-    },
-    "custom_multiple_media_fWF7rg": {
-      "type": "custom-multiple-media",
-      "blocks": {
-        "media_xJ8AQt": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_1_00b6e5ae-2a53-4816-905d-8d34eb90b56a.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_00b6e5ae-2a53-4816-905d-8d34eb90b56a.png",
-            "use_video": false,
-            "autoplay": false
-          }
-        }
-      },
-      "block_order": [
-        "media_xJ8AQt"
-      ],
-      "settings": {
-        "page_desc": "",
-        "is_full": true,
-        "section_type": "one-media-top-one-content-bottom",
-        "text_alignment": "right",
-        "link_text": "Artist Bag",
-        "link_url": "",
-        "link_color": "#ffffff",
-        "pt": 0,
-        "pb": 20,
-        "pt_m": 0,
-        "pb_m": 20
-      }
-    },
-    "custom_multiple_media_9KNdM6": {
-      "type": "custom-multiple-media",
-      "blocks": {
-        "media_NRC3r4": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
-            "img_m": "shopify://shop_images/Clip_path_group_355afb3f-09e2-43d2-854b-82bf783b6022.png",
-            "use_video": false,
-            "autoplay": false
-          }
-        }
-      },
-      "block_order": [
-        "media_NRC3r4"
-      ],
-      "settings": {
-        "page_desc": "",
-        "is_full": true,
-        "section_type": "one-media-top-one-content-bottom",
-        "text_alignment": "right",
-        "link_text": "Sports Bag",
-        "link_url": "",
-        "link_color": "#ffffff",
-        "pt": 0,
-        "pb": 120,
-        "pt_m": 0,
-        "pb_m": 20
-      }
     }
   },
   "order": [
     "main",
     "section_nav_mGDaCc",
-    "custom_multiple_media_PabXt8",
-    "custom_multiple_media_xi3djm",
-    "custom_multiple_media_fWF7rg",
-    "custom_multiple_media_9KNdM6"
+    "custom_multiple_media_PabXt8"
   ]
 }
