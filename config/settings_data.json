@@ -81,11 +81,6 @@
         "disabled": true,
         "settings": {}
       },
-      "3847134708050210359": {
-        "type": "shopify://apps/transcy/blocks/switcher_embed_block/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
-        "disabled": true,
-        "settings": {}
-      },
       "15912215999290715800": {
         "type": "shopify://apps/geolocation-orbe/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": true,
@@ -142,7 +137,7 @@
       },
       "384495262013941155": {
         "type": "shopify://apps/advanced-wishlist/blocks/collection-btn/330d9272-08ea-4193-b3e0-475a69fa65fa",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "is_added_selector": false,
           "collection_icon_selector": ".card__heading",
