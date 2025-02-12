@@ -91,10 +91,30 @@
             "img_m": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
             "url": ""
           }
+        },
+        "item_qY9Rtf": {
+          "type": "item",
+          "settings": {
+            "title": "One Day With My Bag",
+            "img": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "img_m": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "url": ""
+          }
+        },
+        "item_MrhbGp": {
+          "type": "item",
+          "settings": {
+            "title": "What's in your bag?",
+            "img": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "item_tUzRxR"
+        "item_tUzRxR",
+        "item_qY9Rtf",
+        "item_MrhbGp"
       ],
       "settings": {
         "page_desc": "Special Projects",
