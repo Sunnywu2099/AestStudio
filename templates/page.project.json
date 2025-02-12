@@ -283,6 +283,27 @@
         "pt_m": 60,
         "pb_m": 60
       }
+    },
+    "video_6K7MCU": {
+      "type": "video",
+      "blocks": {
+        "play_iDqpgF": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_iDqpgF"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -292,6 +313,7 @@
     "custom_multiple_media_TyLNeD",
     "custom_multiple_media_abPmDi",
     "custom_multiple_media_rN3Ync",
-    "custom_multiple_media_9GWgVL"
+    "custom_multiple_media_9GWgVL",
+    "video_6K7MCU"
   ]
 }
