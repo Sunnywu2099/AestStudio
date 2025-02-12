@@ -6,6 +6,9 @@
     display: flex;
     gap: 60px;
     justify-content: space-between;
+    {% if section.settings.text_alignment == 'left' %}
+      flex-direction: row-reverse;  
+    {% endif %}
   }
   .custom-blog-card .blog-wrapper .media-box{
     width: calc((100% - 60px)/2);
