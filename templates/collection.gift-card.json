@@ -12,7 +12,9 @@
     "as_collection_info_A6DU4x": {
       "type": "as-collection-info",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "gift-card"
+        ],
         "padding_top_web": 48,
         "padding_top_table": 48,
         "padding_top_mobile": 24,
