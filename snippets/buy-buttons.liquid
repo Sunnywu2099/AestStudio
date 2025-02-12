@@ -172,6 +172,10 @@ Supported variables
               -%}
             </div>
           </div>
+
+          <div class="gift-card-for_me">
+
+
         </gift-card-recipient>
       {%- endif -%}
     {%- endform -%}
@@ -199,7 +203,7 @@ Supported variables
        console.log(el.prop('checked'));
        if(el.prop('checked')){
         el.parents('.target_select').find(`input#checkbox-for_me-{{ section.id }}---`).prop('checked',false);
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
+        el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',true);
        }
     });
 
