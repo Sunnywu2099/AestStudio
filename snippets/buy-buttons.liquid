@@ -187,7 +187,8 @@ Supported variables
 {%- if recipient_feature_active -%}
   <script type="module">
     $('#checkbox-for_me-{{ section.id }}---').on('click',function(){
-       console.log('111');
+       let el = $(this);
+       console.log(el)
     })
   </script>
 {%- endif -%}
