@@ -169,8 +169,10 @@
             "width": "",
             "img": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
             "img_m": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
-            "use_video": false,
-            "autoplay": false
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov"
           }
         },
         "text_9ig9FE": {
