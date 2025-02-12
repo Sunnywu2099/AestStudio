@@ -18,10 +18,16 @@
     padding-bottom:20px;
     column-gap:1rem;
   }
+   #cart-drawer{
+    --drawer-max-width: min(92vw, 38rem,520px);
+  }
   @media (max-width: 767px) {
       .cart-line-item-info {
           width: 330px;
       }
+     #cart-drawer{
+      --drawer-max-width: min(92vw, 38rem,420px);
+    }
   }
 
   /* 超小屏幕移动端（宽度小于 576px） */
@@ -168,11 +174,7 @@
   {%- endif -%}
 </cart-drawer>
 
-<style>
-  #cart-drawer{
-    --drawer-max-width: min(92vw, 38rem,520px);
-  }
-</style>
+
 
 {% schema %}
 {
