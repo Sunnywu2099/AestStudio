@@ -442,7 +442,7 @@
     },
     "recipient": {
       "checkbox": "I want to send this as a gift",
-      "email_label": "Recipient email",
+      "email_label": "Recipient Email Address",
       "name_label": "Recipient Name",
       "send_on_label": "Send on (optional)",
       "message_label": "Message (optional)"
