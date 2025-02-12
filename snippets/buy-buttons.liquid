@@ -125,11 +125,11 @@ Supported variables
           <div class="gift-card-recipient__fields">
             <div class="fieldset">
               {%- liquid
-                assign recipient_email_label = 'gift_card.recipient.email_label' | t
-                render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
-
                 assign recipient_name_label = 'gift_card.recipient.name_label' | t
                 render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name
+                
+                assign recipient_email_label = 'gift_card.recipient.email_label' | t
+                render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
 
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
                 render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
