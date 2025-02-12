@@ -68,6 +68,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Capture Large Shoulder Bag in hand-finished oil-waxed cow leather with a brushed matte silver metal plaque on the front, featuring the AEST logo in Braille, symbolizing our philosophy of addressing invisible needs with thoughtful design.",
@@ -95,6 +96,7 @@
         },
         "accordion_XzHcUk": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
@@ -106,6 +108,7 @@
         },
         "accordion_jVztkw": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
@@ -117,6 +120,7 @@
         },
         "in_action_fcgMfP": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "Pairs With",
             "text": "",
