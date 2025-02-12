@@ -190,7 +190,7 @@ Supported variables
     $('#checkbox-for_me-{{ section.id }}---').on('click',function(){
        let el = $(this);
        if(el.prop('checked')){
-        console.log(el.parents('.target_select'))
+        console.log(el.parents('.target_select').find(`input[name='properties[__shopify_send_gift_card_to_recipient]']`))
        }else{
 
        }
