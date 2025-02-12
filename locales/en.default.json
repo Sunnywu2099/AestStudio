@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Page {{ page }}",
@@ -98,7 +107,7 @@
       "view_in_space": "View in your space",
       "taxes_included": "Tax included.",
       "taxes_excluded": "Tax excluded.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated<\/a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated</a> at checkout",
       "size_chart": "Size chart",
       "available_colors_count": {
         "one": "{{ count }} color available",
@@ -223,9 +232,9 @@
     "form": {
       "name": "Name",
       "email": "E-mail",
-      "order_number":"Order Number",
+      "order_number": "Order Number",
       "first_name": "First Name",
-      "topic":"Choose A Topic",
+      "topic": "Choose A Topic",
       "message": "Message",
       "submit": "Send message",
       "success_message": "Your message has been sent."
@@ -434,7 +443,7 @@
     "recipient": {
       "checkbox": "I want to send this as a gift",
       "email_label": "Recipient email",
-      "name_label": "Recipient name (optional)",
+      "name_label": "Recipient Name",
       "send_on_label": "Send on (optional)",
       "message_label": "Message (optional)"
     }
