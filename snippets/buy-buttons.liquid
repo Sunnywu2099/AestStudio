@@ -62,6 +62,7 @@ Supported variables
       .target_select input:checked{
         background: url({{ 'circle-white-black.svg' | asset_url }}) no-repeat center / 0 #000;
         background-size: contain;
+        pointer-events: none;
       }
       .gift-card-recipient__fields .input,.gift-card-recipient__fields .textarea{
         border-color: #5b5b5b8f;
@@ -189,7 +190,7 @@ Supported variables
     $('#checkbox-for_me-{{ section.id }}---').on('click',function(){
        let el = $(this);
        if(el.prop('checked'){
-        
+
        }
     })
   </script>
