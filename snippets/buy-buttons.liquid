@@ -199,8 +199,8 @@ Supported variables
        let el = $(this);
        if(el.prop('checked')){
         el.parents('.target_select').find(`input[name='properties[__shopify_send_gift_card_to_recipient]']`).prop('checked',false);
-        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
         el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
        }
     });
     $('input[name="properties[__shopify_send_gift_card_to_recipient]"]').on('click',function(){
@@ -208,6 +208,7 @@ Supported variables
        console.log(el.prop('checked'));
        if(el.prop('checked')){
         el.parents('.target_select').find(`input#checkbox-for_me-{{ section.id }}---`).prop('checked',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',false);
         el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',true);
        }
     });
