@@ -160,6 +160,37 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_W8BBnK": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_RQPTtg": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
+            "img_m": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "media_RQPTtg"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
     "custom_multiple_media_EEXhXw": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -167,8 +198,18 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
-            "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "media_rKTEWA": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
             "use_video": false,
             "autoplay": false
           }
@@ -184,7 +225,48 @@
       },
       "block_order": [
         "media_dxcnPm",
+        "media_rKTEWA",
         "text_gtdQFx"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_cD7BAt": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_xAUHtj": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+            "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_3xT9MG": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_xAUHtj",
+        "text_3xT9MG"
       ],
       "settings": {
         "page_desc": "",
@@ -206,6 +288,8 @@
     "section_nav_JWNFLf",
     "custom_multiple_media_kdMKB8",
     "custom_multiple_media_9jpF8Y",
-    "custom_multiple_media_EEXhXw"
+    "custom_multiple_media_W8BBnK",
+    "custom_multiple_media_EEXhXw",
+    "custom_multiple_media_cD7BAt"
   ]
 }
