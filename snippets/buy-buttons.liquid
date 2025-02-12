@@ -87,8 +87,15 @@ Supported variables
       </div>
       {%- if recipient_feature_active -%}
         <gift-card-recipient class="gift-card-recipient v-stack gap-3">
-          {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
-          {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
+
+          <div class="gift-block-header">Who Is It For?</div>
+          <div>
+            {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
+            {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
+
+            {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
+            {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
+            </div>
 
           <div class="gift-card-recipient__fields">
             <div class="fieldset">
