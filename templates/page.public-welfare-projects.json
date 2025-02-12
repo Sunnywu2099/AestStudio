@@ -55,6 +55,13 @@
             "text": "Special Projects",
             "link": ""
           }
+        },
+        "item_LhJ3HJ": {
+          "type": "item",
+          "settings": {
+            "text": "Charitable Projects",
+            "link": "shopify://pages/public-welfare-projects"
+          }
         }
       },
       "block_order": [
@@ -62,7 +69,8 @@
         "item_zzXym9",
         "item_bVciHi",
         "item_3RFn9L",
-        "item_FzANbX"
+        "item_FzANbX",
+        "item_LhJ3HJ"
       ],
       "settings": {
         "type": "margin",
