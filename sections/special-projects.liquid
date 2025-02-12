@@ -1,0 +1,162 @@
+<style>
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+  }
+  #shopify-section-{{section.id}} .section-title{
+    color: #25282A;
+    font-family: Courier;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px; /* 140% */
+    letter-spacing: 1.1px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .special-projects .media-wrapper .name{
+    color: #25282A;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    letter-spacing: 1.1px;
+    margin-top: 22px;
+  }
+  @media screen and (max-width: 999px) {
+    #shopify-section-{{section.id}} {
+      padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+    }
+    #shopify-section-{{section.id}} .section-title{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1.1px;
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 699px) {
+    .special-projects .media-wrapper .name{
+      font-size: 14px;
+      line-height: 1.2;
+      margin-top: 10px;
+    }
+  }
+</style>
+
+<div class="container container--xl">
+  {% if section.settings.page_desc != blank %}
+    <h2 class="section-title">{{ section.settings.page_desc }}</h2>
+  {% endif %}
+  <div class="media-wrapper">
+    {% for block in section.blocks %} 
+    <a class="item" {% if block.settings.url != blank %}href="{{ block.settings.url }}" target="_blank"{% endif %}>
+        {% if block.settings.img != blank %}
+          <picture>
+            {%- if block.settings.img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ block.settings.img_m | image_url: width: '400x' }} 400w, {{ block.settings.img_m | image_url: width: '600x' }} 600w, {{ block.settings.img_m | image_url: width: '800x' }} 800w, {{ block.settings.img_m | image_url: width: '1000x' }} 1000w, {{ block.settings.img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ block.settings.img_m.width }}"
+                height="{{ block.settings.img_m.height }}">
+            {%- endif -%}
+            {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+        <div class="content">
+          {% if block.settings.title != blank %}
+            <div class="name">{{ block.settings.title }}</div>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Special projects",
+    "class": "special-projects",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "page_desc",
+        "label": "Page description"
+      },
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Product Introduction"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image PC"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Special projects"
+      }
+    ]
+  }
+{% endschema %}
