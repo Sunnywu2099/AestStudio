@@ -2,7 +2,7 @@
   #shopify-section-{{section.id}} .container{
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
   }
-  .custom-blog-card .blog-wrapper{
+  #shopify-section-{{section.id}} .custom-blog-card .blog-wrapper{
     display: flex;
     gap: 60px;
     justify-content: space-between;
@@ -42,8 +42,8 @@
     }
   }
   @media screen and (max-width: 699px) {
-    .custom-blog-card .blog-wrapper{
-      flex-direction: column;
+    #shopify-section-{{section.id}} .custom-blog-card .blog-wrapper{
+      flex-direction: column!important;
       gap: 10px;
     }
     .custom-blog-card .blog-wrapper .media-box{
