@@ -28,13 +28,27 @@
   }
 </style>
 
-<div class="container container--xl">
+<div clablock.settings="container container--xl">
   {% if section.settings.page_desc != blank %}
-    <h2 class="section-title">{{ section.settings.page_desc }}</h2>
+    <h2 clablock.settings="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
-  <div class="media-wrapper">
-
-
+  <div clablock.settings="media-wrapper">
+    {% for block in section.blocks %} 
+      <div clablock.settings="item">
+        {% if block.settings.img != blank %}
+          <picture>
+            {%- if block.settings.img_m != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ block.settings.img_m | image_url: width: '400x' }} 400w, {{ block.settings.img_m | image_url: width: '600x' }} 600w, {{ block.settings.img_m | image_url: width: '800x' }} 800w, {{ block.settings.img_m | image_url: width: '1000x' }} 1000w, {{ block.settings.img_m | image_url: width: '1200x' }} 1200w"
+                width="{{ block.settings.img_m.width }}"
+                height="{{ block.settings.img_m.height }}">
+            {%- endif -%}
+            {{- block.settings.img | image_url: width: block.settings.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+          </picture>
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
 </div>
 
