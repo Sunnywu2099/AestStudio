@@ -160,7 +160,7 @@ Supported variables
               </div>
               {%- liquid
                 assign message_label = 'gift_card.recipient.message_label' | t
-                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 20, show_max_characters_count: true, enterkeyhint:true
+                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 20
               -%}
               {%- liquid
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
