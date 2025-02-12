@@ -79,10 +79,51 @@
         "top_m": 0,
         "bottom_m": 0
       }
+    },
+    "custom_multiple_media_kdMKB8": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_kexkHr": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_0886c84f-1afb-47b7-b2e0-4f775d2b5817.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_0886c84f-1afb-47b7-b2e0-4f775d2b5817.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_UXHmV6": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "media_kexkHr",
+        "text_UXHmV6"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
-    "section_nav_JWNFLf"
+    "section_nav_JWNFLf",
+    "custom_multiple_media_kdMKB8"
   ]
 }
