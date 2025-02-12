@@ -68,13 +68,69 @@
         "text_alignment": "right",
         "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
         "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
-        "use_video": true,
+        "use_video": false,
         "autoplay": true,
         "video": "shopify://files/videos/look4.mov",
         "mobile_video": "shopify://files/videos/look4.mov",
         "url": "",
         "text": "Product-related",
-        "title": "",
+        "date": "December24，2024"
+      }
+    },
+    "custom_blog_card_FHGm8q": {
+      "type": "custom-blog-card",
+      "settings": {
+        "pt": 100,
+        "pb": 100,
+        "pt_m": 50,
+        "pb_m": 50,
+        "text_alignment": "left",
+        "img": "shopify://shop_images/Clip_path_group_1_9078fd3c-237b-4239-96fa-f2cd044db996.png",
+        "img_m": "shopify://shop_images/Clip_path_group_1_9078fd3c-237b-4239-96fa-f2cd044db996.png",
+        "use_video": false,
+        "autoplay": true,
+        "video": "shopify://files/videos/look4.mov",
+        "mobile_video": "shopify://files/videos/look4.mov",
+        "url": "",
+        "text": "Fashion Trends and Matching",
+        "date": "December24，2024"
+      }
+    },
+    "custom_blog_card_wKdYYd": {
+      "type": "custom-blog-card",
+      "settings": {
+        "pt": 100,
+        "pb": 100,
+        "pt_m": 50,
+        "pb_m": 50,
+        "text_alignment": "right",
+        "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+        "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+        "use_video": true,
+        "autoplay": true,
+        "video": "shopify://files/videos/look4.mov",
+        "mobile_video": "shopify://files/videos/look4.mov",
+        "url": "",
+        "text": "Way  Of Life",
+        "date": "December24，2024"
+      }
+    },
+    "custom_blog_card_N3arwg": {
+      "type": "custom-blog-card",
+      "settings": {
+        "pt": 100,
+        "pb": 100,
+        "pt_m": 50,
+        "pb_m": 50,
+        "text_alignment": "left",
+        "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+        "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+        "use_video": true,
+        "autoplay": true,
+        "video": "shopify://files/videos/look4.mov",
+        "mobile_video": "shopify://files/videos/look4.mov",
+        "url": "",
+        "text": "User Story",
         "date": "December24，2024"
       }
     }
@@ -82,6 +138,9 @@
   "order": [
     "main",
     "custom_multiple_media_bUtUiD",
-    "custom_blog_card_egHte8"
+    "custom_blog_card_egHte8",
+    "custom_blog_card_FHGm8q",
+    "custom_blog_card_wKdYYd",
+    "custom_blog_card_N3arwg"
   ]
 }

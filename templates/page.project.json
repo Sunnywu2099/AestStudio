@@ -1,0 +1,324 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_mGDaCc": {
+      "type": "section-nav",
+      "blocks": {
+        "item_zNfPHD": {
+          "type": "item",
+          "settings": {
+            "text": "Cooperation Plan",
+            "link": "shopify://pages/cooperation-plan"
+          }
+        },
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice",
+            "link": "shopify://pages/your-voice"
+          }
+        },
+        "item_bVciHi": {
+          "type": "item",
+          "settings": {
+            "text": "Your Mind",
+            "link": "shopify://pages/your-mind"
+          }
+        },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "item_FzANbX": {
+          "type": "item",
+          "settings": {
+            "text": "Special Projects",
+            "link": "shopify://pages/womens-support-program"
+          }
+        },
+        "item_LhJ3HJ": {
+          "type": "item",
+          "settings": {
+            "text": "Charitable Projects",
+            "link": "shopify://pages/public-welfare-projects"
+          }
+        }
+      },
+      "block_order": [
+        "item_zNfPHD",
+        "item_zzXym9",
+        "item_bVciHi",
+        "item_3RFn9L",
+        "item_FzANbX",
+        "item_LhJ3HJ"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "custom_multiple_media_PabXt8": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_kjR7Cm": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "img_m": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_J34dfK": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_kjR7Cm",
+        "text_J34dfK"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_TyLNeD": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_bpBXTg": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+            "img_m": "shopify://shop_images/w3ebfw_tif_97fda764-22a0-4d54-99a1-c4dbc4670c31.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_7jidjU": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_bpBXTg",
+        "text_7jidjU"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_abPmDi": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_NrAkY3": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
+            "img_m": "shopify://shop_images/Clip_path_group_7_4b007af4-e7f9-477f-8ed9-5d9024404cf2.png",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov"
+          }
+        },
+        "text_9ig9FE": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_NrAkY3",
+        "text_9ig9FE"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_rN3Ync": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_BrNdfn": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_6_c5c472ab-240d-4fd8-b115-3fd5b62b502c.png",
+            "img_m": "shopify://shop_images/Clip_path_group_6_c5c472ab-240d-4fd8-b115-3fd5b62b502c.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_Jdmxc7": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_BrNdfn",
+        "text_Jdmxc7"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_9GWgVL": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_wT4eET": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "media_QbcCQ8": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "media_wT4eET",
+        "media_QbcCQ8"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
+    "video_6K7MCU": {
+      "type": "video",
+      "blocks": {
+        "play_iDqpgF": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_iDqpgF"
+      ],
+      "custom_css": [
+        ".content-over-media{margin-bottom: 120px;}",
+        "@media (max-width: 999px){.content-over-media{margin-bottom: 60px; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_nav_mGDaCc",
+    "custom_multiple_media_PabXt8",
+    "custom_multiple_media_TyLNeD",
+    "custom_multiple_media_abPmDi",
+    "custom_multiple_media_rN3Ync",
+    "custom_multiple_media_9GWgVL",
+    "video_6K7MCU"
+  ]
+}

@@ -1,0 +1,183 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_JWNFLf": {
+      "type": "section-nav",
+      "blocks": {
+        "item_tHzWVx": {
+          "type": "item",
+          "settings": {
+            "text": "Cooperation Plan",
+            "link": "shopify://pages/cooperation-plan"
+          }
+        },
+        "item_gmXVtP": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice",
+            "link": "shopify://pages/your-voice"
+          }
+        },
+        "item_RjWwHb": {
+          "type": "item",
+          "settings": {
+            "text": "Your Mind",
+            "link": "shopify://pages/your-mind"
+          }
+        },
+        "item_DYTcmX": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "item_QMVXwK": {
+          "type": "item",
+          "settings": {
+            "text": "Special Projects",
+            "link": ""
+          }
+        },
+        "item_ArfrKA": {
+          "type": "item",
+          "settings": {
+            "text": "Charitable Projects",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_tHzWVx",
+        "item_gmXVtP",
+        "item_RjWwHb",
+        "item_DYTcmX",
+        "item_QMVXwK",
+        "item_ArfrKA"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "collaboration_program_ng8KDc": {
+      "type": "collaboration-program",
+      "blocks": {
+        "item_trcTte": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "img_m": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "url": ""
+          }
+        },
+        "item_dq3T3x": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group2.png",
+            "img_m": "shopify://shop_images/Clip_path_group2.png",
+            "url": ""
+          }
+        },
+        "item_yP6KeM": {
+          "type": "item",
+          "settings": {
+            "title": "UMA Wang",
+            "img": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "img_m": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "url": ""
+          }
+        },
+        "item_aUjtJ8": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group3.png",
+            "img_m": "shopify://shop_images/Clip_path_group3.png",
+            "url": ""
+          }
+        },
+        "item_RmdAhN": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "img_m": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "url": ""
+          }
+        },
+        "item_xdFTzm": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group2.png",
+            "img_m": "shopify://shop_images/Clip_path_group2.png",
+            "url": ""
+          }
+        },
+        "item_JG3gLN": {
+          "type": "item",
+          "settings": {
+            "title": "UMA Wang",
+            "img": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "img_m": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "url": ""
+          }
+        },
+        "item_LPhaPr": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group3.png",
+            "img_m": "shopify://shop_images/Clip_path_group3.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_trcTte",
+        "item_dq3T3x",
+        "item_yP6KeM",
+        "item_aUjtJ8",
+        "item_RmdAhN",
+        "item_xdFTzm",
+        "item_JG3gLN",
+        "item_LPhaPr"
+      ],
+      "settings": {
+        "page_desc": "Collaboration Program for Female Artists&Designers",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_nav_JWNFLf",
+    "collaboration_program_ng8KDc"
+  ]
+}

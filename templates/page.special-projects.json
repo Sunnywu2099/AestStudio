@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_mGDaCc": {
+      "type": "section-nav",
+      "blocks": {
+        "item_zNfPHD": {
+          "type": "item",
+          "settings": {
+            "text": "Cooperation Plan",
+            "link": "shopify://pages/cooperation-plan"
+          }
+        },
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice",
+            "link": "shopify://pages/your-voice"
+          }
+        },
+        "item_bVciHi": {
+          "type": "item",
+          "settings": {
+            "text": "Your Mind",
+            "link": "shopify://pages/your-mind"
+          }
+        },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
+          }
+        },
+        "item_FzANbX": {
+          "type": "item",
+          "settings": {
+            "text": "Special Projects",
+            "link": "shopify://pages/special-projects"
+          }
+        },
+        "item_LhJ3HJ": {
+          "type": "item",
+          "settings": {
+            "text": "Charitable Projects",
+            "link": "shopify://pages/public-welfare-projects"
+          }
+        }
+      },
+      "block_order": [
+        "item_zNfPHD",
+        "item_zzXym9",
+        "item_bVciHi",
+        "item_3RFn9L",
+        "item_FzANbX",
+        "item_LhJ3HJ"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "special_projects_WQzqMH": {
+      "type": "special-projects",
+      "blocks": {
+        "item_tUzRxR": {
+          "type": "item",
+          "settings": {
+            "title": "One Day With My Bag",
+            "img": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "url": "shopify://pages/project"
+          }
+        },
+        "item_qY9Rtf": {
+          "type": "item",
+          "settings": {
+            "title": "One Day With My Bag",
+            "img": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "img_m": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "url": ""
+          }
+        },
+        "item_MrhbGp": {
+          "type": "item",
+          "settings": {
+            "title": "What's in your bag?",
+            "img": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "img_m": "shopify://shop_images/Clip_path_group_4_b2f36ad5-ad79-4618-bb7f-311a7ad29078.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_tUzRxR",
+        "item_qY9Rtf",
+        "item_MrhbGp"
+      ],
+      "settings": {
+        "page_desc": "Special Projects",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_nav_mGDaCc",
+    "special_projects_WQzqMH"
+  ]
+}
