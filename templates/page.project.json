@@ -87,8 +87,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
-            "img_m": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
+            "img": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
+            "img_m": "shopify://shop_images/Layer_0_2_d764a509-01af-4300-8d3f-75bea8dc0c83.png",
             "use_video": false,
             "autoplay": false
           }
@@ -107,7 +107,7 @@
         "text_J34dfK"
       ],
       "settings": {
-        "page_desc": "Women's Support Program",
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
