@@ -201,7 +201,8 @@ Supported variables
         el.parents('.target_select').find(`input[name='properties[__shopify_send_gift_card_to_recipient]']`).prop('checked',false);
         el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',false);
         el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
-        el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('')
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('');
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('');
        }
     });
     $('input[name="properties[__shopify_send_gift_card_to_recipient]"]').on('click',function(){
