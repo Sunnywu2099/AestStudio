@@ -42,34 +42,18 @@
             "link": "shopify://pages/your-mind"
           }
         },
-        "item_JGGPbA": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "text": "Look Book",
-            "link": "shopify://pages/look-book"
-          }
-        },
-        "item_RMifqG": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "text": "Design Book",
-            "link": "shopify://pages/design-book"
-          }
-        },
         "item_3RFn9L": {
           "type": "item",
           "settings": {
-            "text": "Behind The Scenes",
-            "link": "shopify://pages/behind-the-scenes"
+            "text": "Exhibition & Events",
+            "link": ""
           }
         },
         "item_FzANbX": {
           "type": "item",
           "settings": {
-            "text": "Technology & Process",
-            "link": "shopify://pages/technology-process"
+            "text": "Special Projects",
+            "link": ""
           }
         }
       },
@@ -77,8 +61,6 @@
         "item_zNfPHD",
         "item_zzXym9",
         "item_bVciHi",
-        "item_JGGPbA",
-        "item_RMifqG",
         "item_3RFn9L",
         "item_FzANbX"
       ],
