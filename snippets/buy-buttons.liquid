@@ -93,7 +93,7 @@ Supported variables
             {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
             {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
 
-            {%- render 'checkbox', label: 'For Me' -%}
+            {%- render 'checkbox', label: 'For Me', switch:true -%}
             </div>
 
           <div class="gift-card-recipient__fields">
