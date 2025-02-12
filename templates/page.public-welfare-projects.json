@@ -239,6 +239,57 @@
         "pt_m": 60,
         "pb_m": 0
       }
+    },
+    "custom_multiple_media_9GWgVL": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_wT4eET": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "media_QbcCQ8": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "use_video": false,
+            "autoplay": false
+          }
+        },
+        "text_mRtM3A": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_wT4eET",
+        "media_QbcCQ8",
+        "text_mRtM3A"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "#1c1c1c",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
@@ -247,6 +298,7 @@
     "custom_multiple_media_PabXt8",
     "custom_multiple_media_TyLNeD",
     "custom_multiple_media_abPmDi",
-    "custom_multiple_media_rN3Ync"
+    "custom_multiple_media_rN3Ync",
+    "custom_multiple_media_9GWgVL"
   ]
 }
