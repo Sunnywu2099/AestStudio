@@ -140,13 +140,19 @@ Supported variables
                 
                 assign recipient_email_label = 'gift_card.recipient.email_label' | t
                 render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
-
+              -%}
+              
+              <div class="gift-block-header">{{block.settings.add_a_message}}</div>
+              <div class="gift-block-desc">{{block.settings.add_a_message_desc}}</div>
+              {%- liquid
+                assign message_label = 'gift_card.recipient.message_label' | t
+                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
+              -%}
+              {%- liquid
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
                 render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
                 render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
 
-                assign message_label = 'gift_card.recipient.message_label' | t
-                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
               -%}
             </div>
           </div>
