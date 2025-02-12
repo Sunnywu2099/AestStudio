@@ -115,9 +115,9 @@
         "link_url": "",
         "link_color": "#1c1c1c",
         "pt": 120,
-        "pb": 20,
-        "pt_m": 40,
-        "pb_m": 60
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
       }
     },
     "custom_multiple_media_TyLNeD": {
@@ -155,9 +155,9 @@
         "link_url": "",
         "link_color": "#1c1c1c",
         "pt": 120,
-        "pb": 20,
-        "pt_m": 40,
-        "pb_m": 60
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
       }
     }
   },
