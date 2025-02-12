@@ -28,11 +28,11 @@
   }
 </style>
 
-<div clablock.settings="container container--xl">
+<div class="container container--xl">
   {% if section.settings.page_desc != blank %}
     <h2 clablock.settings="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
-  <div clablock.settings="media-wrapper">
+  <div class="media-wrapper">
     {% for block in section.blocks %} 
       <div clablock.settings="item">
         {% if block.settings.img != blank %}
