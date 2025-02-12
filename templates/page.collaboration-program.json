@@ -56,13 +56,53 @@
             "img_m": "shopify://shop_images/Clip_path_group3.png",
             "url": ""
           }
+        },
+        "item_RmdAhN": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "img_m": "shopify://shop_images/Clip_path_group_d3a36ee7-ac54-4039-9e31-f1687156d996.png",
+            "url": ""
+          }
+        },
+        "item_xdFTzm": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group2.png",
+            "img_m": "shopify://shop_images/Clip_path_group2.png",
+            "url": ""
+          }
+        },
+        "item_JG3gLN": {
+          "type": "item",
+          "settings": {
+            "title": "UMA Wang",
+            "img": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "img_m": "shopify://shop_images/Layer_0_93eab026-139f-4de7-bccd-6611ec81d049.png",
+            "url": ""
+          }
+        },
+        "item_LPhaPr": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Clip_path_group3.png",
+            "img_m": "shopify://shop_images/Clip_path_group3.png",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "item_trcTte",
         "item_dq3T3x",
         "item_yP6KeM",
-        "item_aUjtJ8"
+        "item_aUjtJ8",
+        "item_RmdAhN",
+        "item_xdFTzm",
+        "item_JG3gLN",
+        "item_LPhaPr"
       ],
       "settings": {
         "page_desc": "Collaboration Program for Female Artists&Designers",
