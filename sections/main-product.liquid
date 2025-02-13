@@ -49,6 +49,9 @@
     background-color: #25282a;
     color: #fff;
   }
+  #shopify-section-{{ section.id }} .product-info__block-item buy-buttons button[type="submit"]:disabled{
+      display: none;
+  }
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
