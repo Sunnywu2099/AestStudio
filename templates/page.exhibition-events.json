@@ -299,9 +299,9 @@
       "settings": {
         "page_desc": "Store & Flash mob",
         "pt": 120,
-        "pb": 0,
+        "pb": 120,
         "pt_m": 60,
-        "pb_m": 0
+        "pb_m": 60
       }
     }
   },
