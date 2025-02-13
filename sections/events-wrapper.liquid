@@ -88,37 +88,37 @@
   {% endif %}
   <div class="media-wrapper">
     {% for block in section.blocks %} 
-    {% assign bs = block.settings %}
-    <a class="item" {% if block.settings.url != blank %}href="{{ block.settings.url }}" target="_blank"{% endif %}>
-      {% if bs.use_video %}
-        {% if bs.autoplay %}
-          {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
-          {% if bs.mobile_video != blank %}
-            {{ bs.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+      {% assign bs = block.settings %}
+      <a class="item" {% if block.settings.url != blank %}href="{{ block.settings.url }}" target="_blank"{% endif %}>
+        {% if bs.use_video %}
+          {% if bs.autoplay %}
+            {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+            {% if bs.mobile_video != blank %}
+              {{ bs.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+            {% endif %}
+          {% else %}
+            {{ bs.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+            {% if bs.mobile_video != blank %}
+              {{ bs.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+            {% endif %}
+            <div class="play-btn">
+              {% render 'play-video' %} 
+            </div>
           {% endif %}
         {% else %}
-          {{ bs.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
-          {% if bs.mobile_video != blank %}
-            {{ bs.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+          {% if bs.img != blank %}
+            <picture>
+              {%- if bs.img_m != blank -%}
+                <source
+                  media="(max-width: 699px)"
+                  srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                  width="{{ bs.img_m.width }}"
+                  height="{{ bs.img_m.height }}">
+              {%- endif -%}
+              {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            </picture>
           {% endif %}
-          <div class="play-btn">
-            {% render 'play-video' %} 
-          </div>
         {% endif %}
-      {% else %}
-        {% if bs.img != blank %}
-          <picture>
-            {%- if bs.img_m != blank -%}
-              <source
-                media="(max-width: 699px)"
-                srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
-                width="{{ bs.img_m.width }}"
-                height="{{ bs.img_m.height }}">
-            {%- endif -%}
-            {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-          </picture>
-        {% endif %}
-      {% endif %}
       </a>
     {% endfor %}
   </div>
