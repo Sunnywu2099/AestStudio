@@ -158,8 +158,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img": "shopify://shop_images/Clip_path_group_1_d81f2065-c1a4-4b36-8c0e-0def8a93d332.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_d81f2065-c1a4-4b36-8c0e-0def8a93d332.png",
             "use_video": false,
             "autoplay": true
           }
@@ -170,8 +170,10 @@
             "width": "",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "use_video": false,
-            "autoplay": true
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov"
           }
         }
       },
