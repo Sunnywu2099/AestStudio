@@ -265,7 +265,7 @@
       ],
       "settings": {
         "page_desc": "",
-        "is_full": false,
+        "is_full": true,
         "section_type": "three-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "",
@@ -318,7 +318,7 @@
       ],
       "settings": {
         "page_desc": "",
-        "is_full": false,
+        "is_full": true,
         "section_type": "three-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "",
