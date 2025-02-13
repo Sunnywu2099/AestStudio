@@ -57,6 +57,13 @@
   }
   #shopify-section-{{ section.id }} .product-info__block-item .notify_popup-text1{}
   #shopify-section-{{ section.id }} .product-info__block-item .notify_popup-text2{}
+  #shopify-section-{{ section.id }} .product-info__block-item .agree_row {
+    display: flex;
+  }
+  #shopify-section-{{ section.id }} .product-info__block-item .agree_row input{
+    width:20px;
+    height:20px;
+  }
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
