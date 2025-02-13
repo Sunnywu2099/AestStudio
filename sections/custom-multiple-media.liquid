@@ -272,6 +272,8 @@
     assign custom_class = 'type-6'
   elsif section_type == 'all-center-one-media-top-one-content-bottom'
     assign custom_class = 'type-7'
+  elsif section_type == 'Three media top,one content bottom'
+    assign custom_class = 'type-8'
   endif section_type == ''
 
   assign is_full = section.settings.is_full
@@ -403,6 +405,10 @@
           {
             "value": "all-center-one-media-top-one-content-bottom",
             "label": "One media top,two content bottom, all center"
+          },
+          {
+            "value": "three-media-top-one-content-bottom",
+            "label": "Three media top,one content bottom"
           }
         ],
         "default": "one-media-top-one-content-bottom"
