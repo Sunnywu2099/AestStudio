@@ -155,6 +155,13 @@ Supported variables
                       <label for="notify_popup_confirm1"> {{label}}</label>
                     </div>
                   {% endif %} 
+                  {% if block.settings.notify_popup_confirm2 != blank %}  
+                    <div class="fieldset-row agree_row">
+                      {%- assign label  = block.settings.notify_popup_confirm2 -%}
+                      <input type="checkbox" id="notify_popup_confirm2" required>
+                      <label for="notify_popup_confirm2"> {{label}}</label>
+                    </div>
+                  {% endif %} 
         
         
                 </div>
