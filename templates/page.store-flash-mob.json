@@ -117,11 +117,43 @@
         "pt_m": 60,
         "pb_m": 30
       }
+    },
+    "custom_multiple_media_WmXhBM": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_UWbLmx": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_b5462ff9-0256-4207-a811-01e03ee02427.png",
+            "img_m": "shopify://shop_images/Clip_path_group_b5462ff9-0256-4207-a811-01e03ee02427.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "media_UWbLmx"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-two-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 60,
+        "pt_m": 0,
+        "pb_m": 30
+      }
     }
   },
   "order": [
     "main",
     "section_nav_JWNFLf",
-    "custom_multiple_media_HWVDdA"
+    "custom_multiple_media_HWVDdA",
+    "custom_multiple_media_WmXhBM"
   ]
 }
