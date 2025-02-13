@@ -87,6 +87,14 @@
         </script>
 </head>
 
+{%- if settings.loading_img != blank -%}
+  <div class="loading_page">
+    <div class="loader-content">
+        <img src="http://i3.tietuku.com/997c27fdf4ce259b.gif" alt="Loader" class="loader-loader" />
+    </div>
+  </div>
+{%- endif -%}
+
   {% liquid
     assign features_class = ''
   
