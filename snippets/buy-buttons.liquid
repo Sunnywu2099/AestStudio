@@ -256,12 +256,9 @@ Supported variables
             <label for="notify_popup_confirm2"> {{label}}</label>
           </div>
         {% endif %} 
-
-
       </div>
 
-      {%- assign button_content = 'contact.form.submit' | t -%}
-      {%- render 'button', content: button_content, type: 'submit' -%}
+      {%- render 'button', content: block.settings.notify_me, type: 'submit' -%}
     {%- endform -%}
 
   </div>
