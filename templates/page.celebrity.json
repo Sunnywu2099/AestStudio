@@ -90,7 +90,8 @@
             "img": "shopify://shop_images/Clip_path_group_c4d79622-d8dc-4ce8-acaf-9c6ba137fa40.png",
             "img_m": "shopify://shop_images/Clip_path_group_c4d79622-d8dc-4ce8-acaf-9c6ba137fa40.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_wjGiN6": {
@@ -130,7 +131,8 @@
             "img": "shopify://shop_images/Clip_path_group_2_5fbbb0eb-420a-489d-a997-3f3059b3f936.png",
             "img_m": "shopify://shop_images/Clip_path_group_2_5fbbb0eb-420a-489d-a997-3f3059b3f936.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         }
       },
@@ -161,7 +163,8 @@
             "img": "shopify://shop_images/Clip_path_group_1_d81f2065-c1a4-4b36-8c0e-0def8a93d332.png",
             "img_m": "shopify://shop_images/Clip_path_group_1_d81f2065-c1a4-4b36-8c0e-0def8a93d332.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": "shopify://collections/best-seller"
           }
         },
         "media_nGGPnA": {
@@ -173,7 +176,8 @@
             "use_video": false,
             "autoplay": true,
             "video": "shopify://files/videos/look4.mov",
-            "mobile_video": "shopify://files/videos/look4.mov"
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": ""
           }
         }
       },
