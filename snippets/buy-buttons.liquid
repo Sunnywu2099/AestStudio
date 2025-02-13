@@ -164,14 +164,17 @@ Supported variables
                 render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 20, show_count:true 
               -%}
 
-
+              {% if block.settings.select_date != blank %}  
+                <div class="gift-block-header">{{block.settings.select_date}}</div>
+              {% endif %}
+              
               {%- liquid
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
                 render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
                 render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
               -%}
 
-              
+
             </div>
           </div>
 
