@@ -147,6 +147,13 @@ Supported variables
                     {%- assign label  = 'contact.form.email' | t -%}
                     {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
                   </div>
+                  
+                  {% if block.settings.notify_popup_confirm1 != blank %}  
+                    <div class="fieldset-row">
+                      {%- assign label  = block.settings.notify_popup_confirm1 -%}
+                      {%- render 'input', type: 'checkbox', label: label, required: true -%}
+                    </div>
+                  {% endif %} 
         
         
                 </div>
