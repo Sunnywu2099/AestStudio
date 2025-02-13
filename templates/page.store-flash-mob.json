@@ -228,9 +228,31 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 20,
+        "pb": 120,
         "pt_m": 0,
-        "pb_m": 10
+        "pb_m": 60
+      }
+    },
+    "video_yUT3EU": {
+      "type": "video",
+      "blocks": {
+        "play_4pPrgW": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_4pPrgW"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     }
   },
@@ -240,6 +262,7 @@
     "custom_multiple_media_HWVDdA",
     "custom_multiple_media_WmXhBM",
     "custom_multiple_media_bNtXwr",
-    "custom_multiple_media_tYgHHC"
+    "custom_multiple_media_tYgHHC",
+    "video_yUT3EU"
   ]
 }
