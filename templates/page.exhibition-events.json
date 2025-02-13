@@ -142,7 +142,7 @@
         "item_PRVEKz": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "img": "shopify://shop_images/Clip_path_group_13.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -160,7 +160,7 @@
         "item_8HG3Vi": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_19.png",
+            "img": "shopify://shop_images/Clip_path_group_13.png",
             "use_video": false,
             "autoplay": true,
             "video": "shopify://files/videos/look4.mov",
@@ -171,7 +171,7 @@
         "item_XFmjCD": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Clip_path_group_20.png",
+            "img": "shopify://shop_images/Clip_path_group_14.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
