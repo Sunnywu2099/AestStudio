@@ -106,7 +106,7 @@
       ],
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-two-content-bottom",
         "text_alignment": "right",
         "link_text": "",
