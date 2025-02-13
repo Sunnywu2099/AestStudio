@@ -170,7 +170,7 @@
             "width": "",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "use_video": true,
+            "use_video": false,
             "autoplay": true,
             "video": "shopify://files/videos/look4.mov",
             "mobile_video": "shopify://files/videos/look4.mov"
