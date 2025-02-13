@@ -46,7 +46,7 @@
           "type": "item",
           "settings": {
             "text": "Exhibition & Events",
-            "link": ""
+            "link": "shopify://pages/exhibition-events"
           }
         },
         "item_QMVXwK": {
@@ -79,10 +79,240 @@
         "top_m": 0,
         "bottom_m": 0
       }
+    },
+    "events_wrapper_mtmdYr": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_yGpNdg": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": "/"
+          }
+        },
+        "item_x6f8HM": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_18.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_APd3iV": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_19.png",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": "/"
+          }
+        },
+        "item_jT6wJ6": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_20.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_yGpNdg",
+        "item_x6f8HM",
+        "item_APd3iV",
+        "item_jT6wJ6"
+      ],
+      "settings": {
+        "page_desc": "Store & Flash mob",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "events_wrapper_XgLWqa": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_PRVEKz": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_13.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_M3WgHz": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_18.png",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": ""
+          }
+        },
+        "item_8HG3Vi": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_13.png",
+            "use_video": false,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": ""
+          }
+        },
+        "item_XFmjCD": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_14.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_PRVEKz",
+        "item_M3WgHz",
+        "item_8HG3Vi",
+        "item_XFmjCD"
+      ],
+      "settings": {
+        "page_desc": "Exhibition & Performance",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "events_wrapper_KQXQHN": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_CrgYej": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_15.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_reLz4x": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_16.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_VtVXCy": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YeORxV_tif.png",
+            "use_video": false,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": ""
+          }
+        },
+        "item_piVpUP": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/bBOqph_tif.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CrgYej",
+        "item_reLz4x",
+        "item_VtVXCy",
+        "item_piVpUP"
+      ],
+      "settings": {
+        "page_desc": "Magazines & Interviews",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
+    },
+    "events_wrapper_pCMxBi": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_9qqQmh": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_TAmhcx": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_18.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_QhpGzT": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_19.png",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
+            "url": ""
+          }
+        },
+        "item_xDmMUm": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_20.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9qqQmh",
+        "item_TAmhcx",
+        "item_QhpGzT",
+        "item_xDmMUm"
+      ],
+      "settings": {
+        "page_desc": "Celebrity",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
-    "section_nav_JWNFLf"
+    "section_nav_JWNFLf",
+    "events_wrapper_mtmdYr",
+    "events_wrapper_XgLWqa",
+    "events_wrapper_KQXQHN",
+    "events_wrapper_pCMxBi"
   ]
 }

@@ -1,0 +1,639 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "section_nav_fU37Gg": {
+      "type": "section-nav",
+      "blocks": {
+        "item_De3LNd": {
+          "type": "item",
+          "settings": {
+            "text": "Aest Studios",
+            "link": "shopify://pages/aest-studios"
+          }
+        },
+        "item_D4yBHB": {
+          "type": "item",
+          "settings": {
+            "text": "Our Team",
+            "link": "shopify://pages/our-team"
+          }
+        },
+        "item_pBGEzn": {
+          "type": "item",
+          "settings": {
+            "text": "Series Of Stories",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "item_E4r4TF": {
+          "type": "item",
+          "settings": {
+            "text": "Technology & Process",
+            "link": "shopify://pages/technology-process"
+          }
+        }
+      },
+      "block_order": [
+        "item_De3LNd",
+        "item_D4yBHB",
+        "item_pBGEzn",
+        "item_E4r4TF"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
+    "custom_multiple_media_bUtUiD": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_NxzYn7": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_gn9W3C": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_NxzYn7",
+        "text_gn9W3C"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_xH8GJY": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_MjAA9N": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_2_7d39d54e-5667-4cc2-bb61-e0396fcff115.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_zhLgKr": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_MjAA9N",
+        "text_zhLgKr"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_NiLLD4": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_p4rdE8": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_3_253c12c9-4cbe-43b0-83dd-868244a8d67b.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_h6nLKf": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_p4rdE8",
+        "text_h6nLKf"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_eVmAmW": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_ENgCaG": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_b8Fpza": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_ENgCaG",
+        "text_b8Fpza"
+      ],
+      "settings": {
+        "page_desc": "Look Book",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_cGx4nV": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_y8MEnD": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_hkGQwX": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_6TkWnM": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_y8MEnD",
+        "media_hkGQwX",
+        "media_6TkWnM"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "three-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 20,
+        "pt_m": 0,
+        "pb_m": 10
+      }
+    },
+    "custom_multiple_media_GHgfHM": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_EEtGKU": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_He4FTw": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_Rn6RcJ": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_EEtGKU",
+        "media_He4FTw",
+        "media_Rn6RcJ"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "three-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_EMRFet": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_fcgpCT": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_yCetYR": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_fcgpCT",
+        "text_yCetYR"
+      ],
+      "settings": {
+        "page_desc": "Design Book",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_PbnXLh": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_W3i4KP": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_ANNcxi": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_W3i4KP",
+        "media_ANNcxi"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_aBj9De": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_LtNRyV": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_4_4965c15f-b147-4854-b6a6-2835b4d180f7.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_emtRRj": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_5_4c79875e-1a78-4dc0-a0e0-1e7556fe9cc6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_6gpajH": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_6_1f2c2002-ea23-43e5-b57c-7f93e91a0d9e.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_LtNRyV",
+        "media_emtRRj",
+        "media_6gpajH"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "three-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 0,
+        "pt_m": 0,
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_9WEiqD": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "text_j74JDj": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "text_j74JDj"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_ri3c4b": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_z4X74m": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_4_4965c15f-b147-4854-b6a6-2835b4d180f7.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_nnKeJn": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_5_4c79875e-1a78-4dc0-a0e0-1e7556fe9cc6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_WPGRrt": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_6_1f2c2002-ea23-43e5-b57c-7f93e91a0d9e.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_z4X74m",
+        "media_nnKeJn",
+        "media_WPGRrt"
+      ],
+      "settings": {
+        "page_desc": "Behind The Scenes",
+        "is_full": true,
+        "section_type": "three-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_JWfLmC": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_RbLmPp": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_7_ed0ffcf4-b909-479c-a425-a9709deed4df.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_VNEVz4": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "The founders of Aest Studio are also professional women from multiple fields including design, photography, art, architecture, and outdoor sports. While focusing on work and hobbies, we have found that there is a lack of functional package designs on the market that are dedicated to providing solutions for women in professional fields that have a sense of design, meet women's aesthetics, and meet professional needs."
+          }
+        }
+      },
+      "block_order": [
+        "media_RbLmPp",
+        "text_VNEVz4"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "all-center-one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_nMimzL": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_FzhPMp": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_8_8bdde6ea-f8e6-4d38-aca3-5e5b07c4a2d0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_FzhPMp"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_nav_fU37Gg",
+    "custom_multiple_media_bUtUiD",
+    "custom_multiple_media_xH8GJY",
+    "custom_multiple_media_NiLLD4",
+    "custom_multiple_media_eVmAmW",
+    "custom_multiple_media_cGx4nV",
+    "custom_multiple_media_GHgfHM",
+    "custom_multiple_media_EMRFet",
+    "custom_multiple_media_PbnXLh",
+    "custom_multiple_media_aBj9De",
+    "custom_multiple_media_9WEiqD",
+    "custom_multiple_media_ri3c4b",
+    "custom_multiple_media_JWfLmC",
+    "custom_multiple_media_nMimzL"
+  ]
+}
