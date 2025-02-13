@@ -64,7 +64,15 @@ Supported variables
       %}
 
       <fieldset class="variant-picker__option v-stack gap-2">
-        <div class="variant-picker__option-info h-stack justify-between gap-2">
+        
+      {% assign is_need_hidden = false %}
+      {% for hide_option in hide_option_name %}
+        {% if hide_option == option.name %}  
+          {% assign is_need_hidden = true %}
+        {% endif %}
+      {% endfor %}
+
+        <div class="variant-picker__option-info h-stack justify-between gap-2" {% if is_need_hidden %} hidden {% endif %}>
           <div class="h-stack gap-1">
             <legend>{{ option.name }}:</legend>
 
