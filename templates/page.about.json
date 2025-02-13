@@ -87,37 +87,37 @@
         "item_trcTte": {
           "type": "item",
           "settings": {
-            "title": "Bella Hadid",
+            "title": "Aest Studios",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
+            "url": "shopify://pages/aest-studios"
           }
         },
         "item_eLhMew": {
           "type": "item",
           "settings": {
-            "title": "Bella Hadid",
+            "title": "Our Team",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
+            "url": "shopify://pages/our-team"
           }
         },
         "item_fjmqrM": {
           "type": "item",
           "settings": {
-            "title": "Bella Hadid",
+            "title": "Story of “Capture SHE Collection”",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
+            "url": "shopify://collections/capture-she-series"
           }
         },
         "item_RTAWaD": {
           "type": "item",
           "settings": {
-            "title": "Bella Hadid",
+            "title": "Technology & Process",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
+            "url": "shopify://pages/technology-process"
           }
         }
       },
