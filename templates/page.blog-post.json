@@ -106,17 +106,6 @@
     "custom_multiple_media_AM9CCz": {
       "type": "custom-multiple-media",
       "blocks": {
-        "media_8xykx4": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
-            "use_video": false,
-            "autoplay": true,
-            "url": ""
-          }
-        },
         "media_pUxBcC": {
           "type": "media",
           "settings": {
@@ -138,9 +127,61 @@
         }
       },
       "block_order": [
-        "media_8xykx4",
         "media_pUxBcC",
         "text_9LnKp6"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_ddkKTi": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_VgjnHc": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_xjeJAA": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_qJGY3r": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_VgjnHc",
+        "media_xjeJAA",
+        "text_qJGY3r"
       ],
       "settings": {
         "page_desc": "",
@@ -161,6 +202,7 @@
     "main",
     "custom_multiple_media_bUtUiD",
     "custom_multiple_media_VpEAw4",
-    "custom_multiple_media_AM9CCz"
+    "custom_multiple_media_AM9CCz",
+    "custom_multiple_media_ddkKTi"
   ]
 }
