@@ -130,7 +130,7 @@ Supported variables
                 <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
               {% endif %}
 
-              {%- form 'contact', class: 'form' -%}
+              {% form 'contact', class: 'form' %}
                 {%- if form.posted_successfully? -%}
                   {%- assign content = 'contact.form.success_message' | t -%}
                   {%- render 'banner', status: 'success', content: content -%}
@@ -168,7 +168,7 @@ Supported variables
         
                 {%- assign button_content = 'contact.form.submit' | t -%}
                 {%- render 'button', content: button_content, type: 'submit' -%}
-              {%- endform -%}
+              {% endform %}
 
             </div>
           </x-modal>
