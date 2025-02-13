@@ -105,8 +105,9 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_19.png",
-            "use_video": false,
+            "use_video": true,
             "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
             "url": ""
           }
         },
