@@ -231,8 +231,8 @@
         "play_PU4wVK"
       ],
       "settings": {
-        "autoplay": false,
-        "show_controls": true,
+        "autoplay": true,
+        "show_controls": false,
         "video_size": "auto",
         "video": "shopify://files/videos/video(4).mp4",
         "external_video_url": "",
