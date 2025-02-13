@@ -411,6 +411,59 @@
         "pt_m": 0,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_ri3c4b": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_z4X74m": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_4_4965c15f-b147-4854-b6a6-2835b4d180f7.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_nnKeJn": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_5_4c79875e-1a78-4dc0-a0e0-1e7556fe9cc6.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_WPGRrt": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_6_1f2c2002-ea23-43e5-b57c-7f93e91a0d9e.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_z4X74m",
+        "media_nnKeJn",
+        "media_WPGRrt"
+      ],
+      "settings": {
+        "page_desc": "Behind The Scenes",
+        "is_full": true,
+        "section_type": "three-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
@@ -423,6 +476,7 @@
     "custom_multiple_media_cGx4nV",
     "custom_multiple_media_GHgfHM",
     "custom_multiple_media_EMRFet",
-    "custom_multiple_media_PbnXLh"
+    "custom_multiple_media_PbnXLh",
+    "custom_multiple_media_ri3c4b"
   ]
 }
