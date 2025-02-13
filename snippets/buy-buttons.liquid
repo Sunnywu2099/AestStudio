@@ -112,9 +112,7 @@ Supported variables
           
           <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
             {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
-            {%if block.settings.notify_me_details != blank%}
-            <p>{{block.settings.notify_me_details}}</p>
-            {% endif %}
+            
           </div>
 
 
@@ -140,6 +138,11 @@ Supported variables
         </buy-buttons>
         {% render "add-to-wishlist-main", product:product %}
       </div>
+
+      {%if block.settings.notify_me_details != blank%}
+        <p {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
+      {% endif %}
+      
       {%- if recipient_feature_active -%}
         <gift-card-recipient class="gift-card-recipient v-stack gap-3">
 
