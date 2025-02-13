@@ -110,7 +110,7 @@ Supported variables
 
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
           
-          <div>
+          <div class="notify_me-wrapper {{button_disabled}}">
             {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
             {%if block.settings.notify_me_details != blank%}
             <p>{{block.settings.notify_me_details}}</p>
