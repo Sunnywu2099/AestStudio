@@ -302,7 +302,7 @@
   {% if section.settings.page_desc != blank %}
     <h2 class="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
-  <div class="custom-wrapper">
+  <div class="custom-wrapper {% if custom_class == 'type-8' %}container container--xl{% endif %}">
     {% assign ss = section.settings %}
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
