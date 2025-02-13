@@ -86,7 +86,8 @@
         "item_yGpNdg": {
           "type": "item",
           "settings": {
-            "use_video": true,
+            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "use_video": false,
             "autoplay": true,
             "url": ""
           }
@@ -94,7 +95,8 @@
         "item_x6f8HM": {
           "type": "item",
           "settings": {
-            "use_video": true,
+            "img": "shopify://shop_images/Clip_path_group_18.png",
+            "use_video": false,
             "autoplay": true,
             "url": ""
           }
@@ -102,7 +104,8 @@
         "item_APd3iV": {
           "type": "item",
           "settings": {
-            "use_video": true,
+            "img": "shopify://shop_images/Clip_path_group_19.png",
+            "use_video": false,
             "autoplay": true,
             "url": ""
           }
@@ -110,7 +113,8 @@
         "item_jT6wJ6": {
           "type": "item",
           "settings": {
-            "use_video": true,
+            "img": "shopify://shop_images/Clip_path_group_20.png",
+            "use_video": false,
             "autoplay": true,
             "url": ""
           }
