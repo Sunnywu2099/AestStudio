@@ -77,6 +77,9 @@
       </ul>
     </div>
   </div>
+  {% if section.settings.content != blank %}
+    <div class="content-box">{{ section.settings.content }}</div>
+  {% endif %}
 </div>
 
 <script>
