@@ -156,6 +156,8 @@
     margin: 0;
   }
   /* section type-5 */
+  /* section type-7 */
+  /* section type-7 */
   @media screen and (max-width: 999px) {
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
@@ -239,6 +241,8 @@
     assign custom_class = 'type-5'
   elsif section_type == 'two-media-top-two-content-bottom'
     assign custom_class = 'type-6'
+  elsif section_type == 'all-center-one-media-top-one-content-bottom'
+    assign custom_class = 'type-7'
   endif section_type == ''
 
   assign is_full = section.settings.is_full
@@ -366,6 +370,10 @@
           {
             "value": "two-media-top-two-content-bottom",
             "label": "Two media top,two content bottom"
+          },
+          {
+            "value": "all-center-one-media-top-one-content-bottom",
+            "label": "One media top,two content bottom, all center"
           }
         ],
         "default": "one-media-top-one-content-bottom"
