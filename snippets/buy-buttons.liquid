@@ -113,7 +113,7 @@ Supported variables
           <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
             {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
             {%if block.settings.notify_me_details != blank%}
-              <p {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
+              <p class="notify_details" {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
             {% endif %}
           </div>
 
