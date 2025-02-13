@@ -18,6 +18,52 @@
         "page_width": "xs"
       }
     },
+    "section_nav_fU37Gg": {
+      "type": "section-nav",
+      "blocks": {
+        "item_De3LNd": {
+          "type": "item",
+          "settings": {
+            "text": "Aest Studios",
+            "link": "shopify://pages/aest-studios"
+          }
+        },
+        "item_D4yBHB": {
+          "type": "item",
+          "settings": {
+            "text": "Our Team",
+            "link": "shopify://pages/our-team"
+          }
+        },
+        "item_pBGEzn": {
+          "type": "item",
+          "settings": {
+            "text": "Series Of Stories",
+            "link": "shopify://pages/series-of-stories"
+          }
+        },
+        "item_E4r4TF": {
+          "type": "item",
+          "settings": {
+            "text": "Technology & Process",
+            "link": "shopify://pages/technology-process"
+          }
+        }
+      },
+      "block_order": [
+        "item_De3LNd",
+        "item_D4yBHB",
+        "item_pBGEzn",
+        "item_E4r4TF"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
     "custom_multiple_media_bUtUiD": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -27,7 +73,8 @@
             "width": "",
             "img": "shopify://shop_images/Mask_group_9_934bde02-8666-4bf4-b937-078f790fa5d6.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_gn9W3C": {
@@ -44,7 +91,7 @@
         "text_gn9W3C"
       ],
       "settings": {
-        "page_desc": "Aest Studios Commitment To Sustainability",
+        "page_desc": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -56,64 +103,11 @@
         "pt_m": 60,
         "pb_m": 60
       }
-    },
-    "sustainability_Re8npg": {
-      "type": "sustainability",
-      "blocks": {
-        "item_iGX8gR": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "img_m": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "url": "shopify://pages/sustainability",
-            "text": "01-Packaging"
-          }
-        },
-        "item_GELrAd": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "img_m": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "url": "shopify://pages/sustainability",
-            "text": "02-Our Mission"
-          }
-        },
-        "item_3rNLQT": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "img_m": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "url": "shopify://pages/sustainability",
-            "text": "01-Packaging"
-          }
-        },
-        "item_A3hBmG": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "img_m": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "url": "shopify://pages/sustainability",
-            "text": "02-Our Mission"
-          }
-        }
-      },
-      "block_order": [
-        "item_iGX8gR",
-        "item_GELrAd",
-        "item_3rNLQT",
-        "item_A3hBmG"
-      ],
-      "settings": {
-        "pt": 0,
-        "pb": 120,
-        "pt_m": 0,
-        "pb_m": 60
-      }
     }
   },
   "order": [
     "main",
-    "custom_multiple_media_bUtUiD",
-    "sustainability_Re8npg"
+    "section_nav_fU37Gg",
+    "custom_multiple_media_bUtUiD"
   ]
 }
