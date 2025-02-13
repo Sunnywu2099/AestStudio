@@ -111,12 +111,21 @@ Supported variables
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
           
           <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
-            {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+            {%- assign modal_id = product_form_id | append: block.id |  append: '-notify_me' -%}
+            
+            {%- render 'button', content: block.settings.notify_me, aria_controls: modal_id, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
             {%if block.settings.notify_me_details != blank%}
               <p class="notify_details" {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
             {% endif %}
           </div>
 
+          <x-modal id="{{ modal_id | escape }}" class="modal modal--lg color-scheme color-scheme--dialog">
+            <span class="h5" slot="header">{{ block.settings.modal_title }}</span>
+
+            <div class="prose">
+              {{- block.settings.modal_content -}}
+            </div>
+          </x-modal>
 
           {%- if show_payment_button -%}
             {{- form | payment_button -}}
