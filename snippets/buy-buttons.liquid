@@ -112,7 +112,9 @@ Supported variables
           
           <div>
             {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
-            <p></p>
+            {%if block.settings.notify_me_details != blank%}
+            <p>{{block.settings.notify_me_details}}</p>
+            {% endif %}
           </div>
 
 
