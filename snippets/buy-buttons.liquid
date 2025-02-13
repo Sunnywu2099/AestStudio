@@ -140,7 +140,7 @@ Supported variables
             {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
             {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
 
-            {%- render 'checkbox', label: 'For Me',id_prefix: 'for_me'  -%}
+            {%- render 'checkbox', label: block.settings.for_me, id_prefix: 'for_me'  -%}
           </div>
 
           <div class="gift-card-recipient__fields">
@@ -167,6 +167,12 @@ Supported variables
               {% if block.settings.select_date != blank %}  
                 <div class="gift-block-header">{{block.settings.select_date}}</div>
               {% endif %}
+
+              <div class="target_select">
+                {%- render 'checkbox', label: block.settings.send_now, id_prefix: 'send_now', checked: true -%}
+
+                {%- render 'checkbox', label: block.settings.send_other, id_prefix: 'send_other'  -%}
+              </div>
               
               {%- liquid
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
