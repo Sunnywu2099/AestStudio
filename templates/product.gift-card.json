@@ -42,6 +42,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "hide_option_name": "Denominations",
             "hide_sold_out_variants": false,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
@@ -60,6 +61,14 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
+            "who_is_it_for": "Who Is It For?",
+            "add_a_message": "Add A Message（Optional）",
+            "msg_desc": "Hint: Let the recipient know who the gift card is from, and add a special touch with a personalized message.",
+            "for_me": "For me",
+            "for_me_desc": "Once your gift card is purchased, you will receive an email containing the card and instructions on how to use it.",
+            "select_date": "Select Delivery Date",
+            "send_now": "Send Now",
+            "send_other": "Send At Later Time",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
