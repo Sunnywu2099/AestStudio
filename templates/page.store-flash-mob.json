@@ -144,9 +144,93 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 60,
+        "pb": 20,
         "pt_m": 0,
-        "pb_m": 30
+        "pb_m": 10
+      }
+    },
+    "custom_multiple_media_bNtXwr": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_acdcHL": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "media_EC9QBN": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "media_acdcHL",
+        "media_EC9QBN"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 20,
+        "pt_m": 0,
+        "pb_m": 10
+      }
+    },
+    "custom_multiple_media_tYgHHC": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_7FEj7b": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        },
+        "media_nGGPnA": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "img_m": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "use_video": false,
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "media_7FEj7b",
+        "media_nGGPnA"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 20,
+        "pt_m": 0,
+        "pb_m": 10
       }
     }
   },
@@ -154,6 +238,8 @@
     "main",
     "section_nav_JWNFLf",
     "custom_multiple_media_HWVDdA",
-    "custom_multiple_media_WmXhBM"
+    "custom_multiple_media_WmXhBM",
+    "custom_multiple_media_bNtXwr",
+    "custom_multiple_media_tYgHHC"
   ]
 }
