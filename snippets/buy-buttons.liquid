@@ -259,6 +259,9 @@ Supported variables
       </div>
 
       {%- render 'button', content: block.settings.notify_me, type: 'submit' -%}
+      {% if block.settings.notify_popup_tips != blank %}  
+        <p class="popup_footer">{{block.settings.notify_popup_tips}}</p>
+      {% endif %}
     {%- endform -%}
 
   </div>
