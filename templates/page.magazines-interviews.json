@@ -118,79 +118,6 @@
         "pb_m": 30
       }
     },
-    "custom_multiple_media_WmXhBM": {
-      "type": "custom-multiple-media",
-      "blocks": {
-        "media_UWbLmx": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_b5462ff9-0256-4207-a811-01e03ee02427.png",
-            "img_m": "shopify://shop_images/Clip_path_group_b5462ff9-0256-4207-a811-01e03ee02427.png",
-            "use_video": false,
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "media_UWbLmx"
-      ],
-      "settings": {
-        "page_desc": "",
-        "is_full": false,
-        "section_type": "one-media-top-two-content-bottom",
-        "text_alignment": "right",
-        "link_text": "",
-        "link_url": "",
-        "link_color": "",
-        "pt": 0,
-        "pb": 20,
-        "pt_m": 0,
-        "pb_m": 10
-      }
-    },
-    "custom_multiple_media_bNtXwr": {
-      "type": "custom-multiple-media",
-      "blocks": {
-        "media_acdcHL": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
-            "use_video": false,
-            "autoplay": true
-          }
-        },
-        "media_EC9QBN": {
-          "type": "media",
-          "settings": {
-            "width": "",
-            "img": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
-            "img_m": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
-            "use_video": false,
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "media_acdcHL",
-        "media_EC9QBN"
-      ],
-      "settings": {
-        "page_desc": "",
-        "is_full": false,
-        "section_type": "two-media",
-        "text_alignment": "right",
-        "link_text": "",
-        "link_url": "",
-        "link_color": "",
-        "pt": 0,
-        "pb": 20,
-        "pt_m": 0,
-        "pb_m": 10
-      }
-    },
     "custom_multiple_media_tYgHHC": {
       "type": "custom-multiple-media",
       "blocks": {
@@ -198,8 +125,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "use_video": false,
             "autoplay": true
           }
@@ -208,8 +135,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
-            "img_m": "shopify://shop_images/Clip_path_group_f5181e05-79e0-4e20-8161-381db54aa8e4.png",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "use_video": false,
             "autoplay": true
           }
@@ -247,8 +174,8 @@
         "play_4pPrgW"
       ],
       "custom_css": [
-        ".content-over-media{margin-bottom:120px;}",
-        "@media only(max-width:999px){.content-over-media{margin-bottom:60px;}}"
+        ".content-over-media {margin-bottom: 120px;}",
+        "@media only(max-width:999px) {.content-over-media {margin-bottom: 60px; }}"
       ],
       "settings": {
         "autoplay": true,
@@ -264,8 +191,6 @@
     "main",
     "section_nav_JWNFLf",
     "custom_multiple_media_HWVDdA",
-    "custom_multiple_media_WmXhBM",
-    "custom_multiple_media_bNtXwr",
     "custom_multiple_media_tYgHHC",
     "video_yUT3EU"
   ]
