@@ -88,9 +88,39 @@
 </head>
 
 {%- if settings.loading_img != blank -%}
+  <style>
+    .loader {
+        position: fixed;
+        z-index: 9999999999999999999;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        text-align: center;
+        -webkit-transition: opacity 1s ease;
+        -moz-transition: opacity 1s ease;
+        -o-transition: opacity 1s ease;
+        transition: opacity 1s ease;
+    }
+    .loader-content {
+        /* background: url("") no-repeat 50% 0%; */
+        /* background-size: 123px 38px; */
+        display: block;
+        position: relative;
+        padding-top: 50px;
+        top: 45%;
+        
+    }
+    .fadeout {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    /* logo出现动画 */
+    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0)
+  </style>
   <div class="loading_page">
     <div class="loader-content">
-        <img src="http://i3.tietuku.com/997c27fdf4ce259b.gif" alt="Loader" class="loader-loader" />
+      {{ settings.loading_img | image_url: width: master | image_tag: class:"loader-loader" }}
     </div>
   </div>
 {%- endif -%}
