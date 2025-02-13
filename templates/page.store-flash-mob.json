@@ -46,7 +46,7 @@
           "type": "item",
           "settings": {
             "text": "Exhibition & Events",
-            "link": ""
+            "link": "shopify://pages/exhibition-events"
           }
         },
         "item_QMVXwK": {
@@ -80,94 +80,38 @@
         "bottom_m": 0
       }
     },
-    "collaboration_program_ng8KDc": {
-      "type": "collaboration-program",
+    "custom_multiple_media_HWVDdA": {
+      "type": "custom-multiple-media",
       "blocks": {
-        "item_trcTte": {
-          "type": "item",
+        "text_wjGiN6": {
+          "type": "text",
           "settings": {
-            "title": "Bella Hadid",
-            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
         },
-        "item_eLhMew": {
-          "type": "item",
+        "text_DChWr3": {
+          "type": "text",
           "settings": {
-            "title": "Bella Hadid",
-            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
-          }
-        },
-        "item_fjmqrM": {
-          "type": "item",
-          "settings": {
-            "title": "Bella Hadid",
-            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
-          }
-        },
-        "item_RTAWaD": {
-          "type": "item",
-          "settings": {
-            "title": "Bella Hadid",
-            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
-            "url": ""
-          }
-        },
-        "item_LPhaPr": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "url": ""
-          }
-        },
-        "item_VcCTW3": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "url": ""
-          }
-        },
-        "item_34Pn33": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "url": ""
-          }
-        },
-        "item_HWBrbh": {
-          "type": "item",
-          "settings": {
-            "title": "Kariley",
-            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
-            "url": ""
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
           }
         }
       },
       "block_order": [
-        "item_trcTte",
-        "item_eLhMew",
-        "item_fjmqrM",
-        "item_RTAWaD",
-        "item_LPhaPr",
-        "item_VcCTW3",
-        "item_34Pn33",
-        "item_HWBrbh"
+        "text_wjGiN6",
+        "text_DChWr3"
       ],
       "settings": {
-        "page_desc": "Brand Cooperation Plan",
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-two-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -178,6 +122,6 @@
   "order": [
     "main",
     "section_nav_JWNFLf",
-    "collaboration_program_ng8KDc"
+    "custom_multiple_media_HWVDdA"
   ]
 }
