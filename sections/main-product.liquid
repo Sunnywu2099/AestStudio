@@ -55,6 +55,8 @@
   #shopify-section-{{ section.id }} .product-info__block-item .notify_details{
     margin-top: 12px;
   }
+  #shopify-section-{{ section.id }} .product-info__block-item .notify_popup-text1{}
+  #shopify-section-{{ section.id }} .product-info__block-item .notify_popup-text2{}
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
@@ -856,6 +858,18 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "id": "notify_popup_title",
           "label": "Notify me title",
           "default":"Notify me"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_text1",
+          "label": "Notify me text 1",
+          "default":"We will email you when this product is available"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_text2",
+          "label": "Notify me text 2",
+          "default":"*Estimated delivery within 2-3 business days. "
         },
         {
           "type": "checkbox",
