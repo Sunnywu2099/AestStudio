@@ -119,11 +119,12 @@ Supported variables
             {% endif %}
           </div>
 
-          <x-modal id="{{ modal_id | escape }}" class="modal modal--lg color-scheme color-scheme--dialog">
+          <x-modal id="{{ modal_id | escape }}" class="modal notify_modal modal--lg color-scheme color-scheme--dialog">
             <span class="h5" slot="header">{{ block.settings.notify_popup_title }}</span>
 
             <div class="prose">
-              {{- block.settings.modal_content -}}
+              <p class="text1">{{- block.settings.notify_popup_text1 -}}</p>
+              <p>{{- block.settings.notify_popup_text2 -}}</p>
             </div>
           </x-modal>
 
