@@ -35,6 +35,13 @@
       {%- endif -%}
     }
   }
+
+  #shopify-section-{{ section.id }} .variant-picker__option-values.label_w-3{
+    gap:12px 8px;
+  }
+  #shopify-section-{{ section.id }} .variant-picker__option-values.label_w-3>label{
+    width: calc((100% - 16px)/3);
+  }
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
