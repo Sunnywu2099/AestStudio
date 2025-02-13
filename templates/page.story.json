@@ -103,11 +103,93 @@
         "pt_m": 60,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_xH8GJY": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_MjAA9N": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_2_7d39d54e-5667-4cc2-bb61-e0396fcff115.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_zhLgKr": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_MjAA9N",
+        "text_zhLgKr"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_NiLLD4": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_p4rdE8": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Mask_group_3_253c12c9-4cbe-43b0-83dd-868244a8d67b.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_h6nLKf": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+          }
+        }
+      },
+      "block_order": [
+        "media_p4rdE8",
+        "text_h6nLKf"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
     "section_nav_fU37Gg",
-    "custom_multiple_media_bUtUiD"
+    "custom_multiple_media_bUtUiD",
+    "custom_multiple_media_xH8GJY",
+    "custom_multiple_media_NiLLD4"
   ]
 }
