@@ -198,6 +198,65 @@
         "pt_m": 0,
         "pb_m": 60
       }
+    },
+    "events_wrapper_KyCmRM": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_Qnd3UU": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "img_m": "shopify://shop_images/Clip_path_group_17.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_iLcKkF": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_18.png",
+            "img_m": "shopify://shop_images/Clip_path_group_18.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_U9k84G": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_17.png",
+            "img_m": "shopify://shop_images/Clip_path_group_17.png",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/look4.mov",
+            "url": ""
+          }
+        },
+        "item_fgcNa4": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Clip_path_group_20.png",
+            "img_m": "shopify://shop_images/Clip_path_group_20.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Qnd3UU",
+        "item_iLcKkF",
+        "item_U9k84G",
+        "item_fgcNa4"
+      ],
+      "settings": {
+        "page_desc": "",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
@@ -205,6 +264,7 @@
     "section_nav_JWNFLf",
     "custom_multiple_media_HWVDdA",
     "custom_multiple_media_8qKg4x",
-    "custom_multiple_media_tYgHHC"
+    "custom_multiple_media_tYgHHC",
+    "events_wrapper_KyCmRM"
   ]
 }
