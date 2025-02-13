@@ -369,6 +369,48 @@
         "pt_m": 0,
         "pb_m": 60
       }
+    },
+    "custom_multiple_media_PbnXLh": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_W3i4KP": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "media_ANNcxi": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_W3i4KP",
+        "media_ANNcxi"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "two-media",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
     }
   },
   "order": [
@@ -380,6 +422,7 @@
     "custom_multiple_media_eVmAmW",
     "custom_multiple_media_cGx4nV",
     "custom_multiple_media_GHgfHM",
-    "custom_multiple_media_EMRFet"
+    "custom_multiple_media_EMRFet",
+    "custom_multiple_media_PbnXLh"
   ]
 }
