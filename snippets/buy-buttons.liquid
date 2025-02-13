@@ -111,67 +111,12 @@ Supported variables
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
           
           <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
+            {%- assign modal_id = product_form_id | append: block.id |  append: '-notify_me' -%}
             
-            {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+            {%- render 'button', content: block.settings.notify_me, aria_controls: modal_id, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
             {%if block.settings.notify_me_details != blank%}
               <p class="notify_details" {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
             {% endif %}
-          </div>
-          
-          <div class="notify_me_popup">
-            <div class="notify_me_popup_header">
-              <span class="h5">{{ block.settings.notify_popup_title }}</span>
-            </div>
-
-            <div class="prose">
-              {% if block.settings.notify_popup_text1 != blank %}  
-                <p class="notify_popup-text1">{{- block.settings.notify_popup_text1 -}}</p>
-              {% endif %}
-              {% if block.settings.notify_popup_text2 != blank %}  
-                <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
-              {% endif %}
-
-              {% form 'contact', class: 'form' %}
-                {%- if form.posted_successfully? -%}
-                  {%- assign content = 'contact.form.success_message' | t -%}
-                  {%- render 'banner', status: 'success', content: content -%}
-                {%- endif -%}
-        
-                {%- if form.errors -%}
-                  {%- capture content -%}{{ form.errors.translated_fields[form.errors.first] | capitalize }} {{ form.errors.messages[form.errors.first] }}{%- endcapture -%}
-                  {%- render 'banner', status: 'error', content: content -%}
-                {%- endif -%}
-        
-                <div class="fieldset">
-        
-                  <div class="fieldset-row">
-                    {%- assign label  = 'contact.form.email' | t -%}
-                    {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
-                  </div>
-
-                  {% if block.settings.notify_popup_confirm1 != blank %}  
-                    <div class="agree_row">
-                      {%- assign label  = block.settings.notify_popup_confirm1 -%}
-                      <input type="checkbox" id="notify_popup_confirm1" required>
-                      <label for="notify_popup_confirm1"> {{label}}</label>
-                    </div>
-                  {% endif %} 
-                  {% if block.settings.notify_popup_confirm2 != blank %}  
-                    <div class="agree_row">
-                      {%- assign label  = block.settings.notify_popup_confirm2 -%}
-                      <input type="checkbox" id="notify_popup_confirm2" required>
-                      <label for="notify_popup_confirm2"> {{label}}</label>
-                    </div>
-                  {% endif %} 
-        
-        
-                </div>
-        
-                {%- assign button_content = 'contact.form.submit' | t -%}
-                {%- render 'button', content: button_content, type: 'submit' -%}
-              {% endform %}
-
-            </div>
           </div>
 
           {%- if show_payment_button -%}
@@ -268,7 +213,59 @@ Supported variables
   </buy-buttons>
 {%- endif -%}
 
+<x-modal id="{{ modal_id | escape }}" class="modal notify_modal modal--lg color-scheme color-scheme--dialog">
+  <span class="h5" slot="header">{{ block.settings.notify_popup_title }}</span>
 
+  <div class="prose">
+    {% if block.settings.notify_popup_text1 != blank %}  
+      <p class="notify_popup-text1">{{- block.settings.notify_popup_text1 -}}</p>
+    {% endif %}
+    {% if block.settings.notify_popup_text2 != blank %}  
+      <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
+    {% endif %}
+
+    {%- form 'contact', class: 'form' -%}
+      {%- if form.posted_successfully? -%}
+        {%- assign content = 'contact.form.success_message' | t -%}
+        {%- render 'banner', status: 'success', content: content -%}
+      {%- endif -%}
+
+      {%- if form.errors -%}
+        {%- capture content -%}{{ form.errors.translated_fields[form.errors.first] | capitalize }} {{ form.errors.messages[form.errors.first] }}{%- endcapture -%}
+        {%- render 'banner', status: 'error', content: content -%}
+      {%- endif -%}
+
+      <div class="fieldset">
+
+        <div class="fieldset-row">
+          {%- assign label  = 'contact.form.email' | t -%}
+          {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+        </div>
+
+        {% if block.settings.notify_popup_confirm1 != blank %}  
+          <div class="agree_row">
+            {%- assign label  = block.settings.notify_popup_confirm1 -%}
+            <input type="checkbox" id="notify_popup_confirm1" required>
+            <label for="notify_popup_confirm1"> {{label}}</label>
+          </div>
+        {% endif %} 
+        {% if block.settings.notify_popup_confirm2 != blank %}  
+          <div class="agree_row">
+            {%- assign label  = block.settings.notify_popup_confirm2 -%}
+            <input type="checkbox" id="notify_popup_confirm2" required>
+            <label for="notify_popup_confirm2"> {{label}}</label>
+          </div>
+        {% endif %} 
+
+
+      </div>
+
+      {%- assign button_content = 'contact.form.submit' | t -%}
+      {%- render 'button', content: button_content, type: 'submit' -%}
+    {%- endform -%}
+
+  </div>
+</x-modal>
 
 {%- if recipient_feature_active -%}
   <script type="module">
