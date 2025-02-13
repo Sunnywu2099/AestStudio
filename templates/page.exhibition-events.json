@@ -108,6 +108,7 @@
             "use_video": true,
             "autoplay": true,
             "video": "shopify://files/videos/look4.mov",
+            "mobile_video": "shopify://files/videos/look4.mov",
             "url": ""
           }
         },
