@@ -1,0 +1,255 @@
+<style>
+  #shopify-section-{{section.id}} {
+    padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
+  }
+  #shopify-section-{{section.id}} .section-title{
+    color: #25282A;
+    font-family: Courier;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px; /* 140% */
+    letter-spacing: 1.1px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .events-wrapper video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .events-wrapper .content-box{
+    margin: 60px auto 0;
+    color: #25282A;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.6px;
+    letter-spacing: 0.7px;
+    max-width: 1000px;
+  }
+  @media screen and (max-width: 999px) {
+    #shopify-section-{{section.id}} {
+      padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
+    }
+    #shopify-section-{{section.id}} .section-title{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1.1px;
+      margin-bottom: 30px;
+    }
+    .events-wrapper .content-box{
+      margin: 30px 20px 0;
+    }
+  }
+  @media screen and (max-width: 699px) {
+
+  }
+</style>
+
+<div class="">
+  {% if section.settings.page_desc != blank %}
+    <h2 class="section-title">{{ section.settings.page_desc }}</h2>
+  {% endif %}
+  <div class="media-wrapper splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for block in section.blocks %} 
+          {% assign bs = block.settings %}
+          <a class="item splide__slide" {% if block.settings.url != blank %}href="{{ block.settings.url }}" target="_blank"{% endif %}>
+            {% if bs.use_video %}
+              {% if bs.autoplay %}
+                {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+                {% if bs.mobile_video != blank %}
+                  {{ bs.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+                {% endif %}
+              {% else %}
+                {{ bs.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
+                {% if bs.mobile_video != blank %}
+                  {{ bs.mobile_video | video_tag: autoplay: false, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:' sm:hidden' }}
+                {% endif %}
+                <div class="play-btn">
+                  {% render 'play-video' %} 
+                </div>
+              {% endif %}
+            {% else %}
+              {% if bs.img != blank %}
+                <picture>
+                  {%- if bs.img_m != blank -%}
+                    <source
+                      media="(max-width: 699px)"
+                      srcset="{{ bs.img_m | image_url: width: '400x' }} 400w, {{ bs.img_m | image_url: width: '600x' }} 600w, {{ bs.img_m | image_url: width: '800x' }} 800w, {{ bs.img_m | image_url: width: '1000x' }} 1000w, {{ bs.img_m | image_url: width: '1200x' }} 1200w"
+                      width="{{ bs.img_m.width }}"
+                      height="{{ bs.img_m.height }}">
+                  {%- endif -%}
+                  {{- bs.img | image_url: width: bs.img.width | image_tag: sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+                </picture>
+              {% endif %}
+            {% endif %}
+          </a>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% if section.settings.content != blank %}
+    <div class="content-box custom-justify-content">{{ section.settings.content }}</div>
+  {% endif %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const media_{{section.index}} = new Splide('#shopify-section-{{section.id}} .media-wrapper', {
+      type: 'slide',
+      drag: true,          
+      arrows: false,        
+      pagination: false,  
+      autoplay: false,
+      gap: 16,
+      grid: {
+        rows: 1,
+        cols: 4,
+        gap:{
+          row: 0,
+          col: 16
+        }
+      },
+      breakpoints: {
+        1024: {
+          gap: 10,
+          grid: {
+            rows: 1,
+            cols: 3,
+            gap:{
+              row: 0,
+              col: 10
+            }
+          },
+        },
+        699: {
+          gap: 10,
+          grid: {
+            rows: 1,
+            cols: 2,
+            gap:{
+              row: 0,
+              col: 10
+            }
+          },
+        }
+      }
+    });
+    media_{{section.index}}.mount(window.splide.Extensions);
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Events wrapper",
+    "class": "events-wrapper",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["footer", "header"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "page_desc",
+        "label": "Page description"
+      },
+      {
+        "type": "range",
+        "id": "pt",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding top",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "label": "Padding bottom",
+        "default": 120,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pt_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding top Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "pb_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Padding bottom Mobile",
+        "default": 60,
+        "unit": "px"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image PC"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_m",
+            "label": "Image Mobile"
+          },
+          {
+            "type": "checkbox",
+            "id": "use_video",
+            "label": "Use video",
+            "default": true,
+            "info": "Image will be the post image if video is used"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "default": true
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video PC"
+          },
+          {
+            "type": "video",
+            "id": "mobile_video",
+            "label": "Video Mobile"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Events wrapper"
+      }
+    ]
+  }
+{% endschema %}

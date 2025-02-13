@@ -126,6 +126,9 @@
     display: flex;
     gap: 20px;
   }
+  #shopify-section-{{section.id}} .type-4 .media-wrapper{
+    flex: 1;
+  }
   /* section type-4 */
   /* section type-5 */
   #shopify-section-{{section.id}} .type-5 .custom-wrapper{
@@ -153,6 +156,39 @@
     margin: 0;
   }
   /* section type-5 */
+  /* section type-7 */
+  #shopify-section-{{section.id}} .type-7 .custom-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #shopify-section-{{section.id}} .type-7 .custom-wrapper .media-wrapper{
+    max-width: 810px;
+    width: 100%;
+    display: block;
+  }
+  #shopify-section-{{section.id}} .type-7 .custom-wrapper .content-wrapper{
+    max-width: 810px;
+    width: 100%;
+    margin: 0;
+    margin-top: 60px;
+  }
+  #shopify-section-{{section.id}} .type-7 .custom-wrapper .content-wrapper .title{
+    margin: 0 0 24px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px; 
+    letter-spacing: 0.9px;
+  }
+  /* section type-7 */
+  /* section type-8 */
+  #shopify-section-{{section.id}} .type-8 .custom-wrapper{
+    display: flex;
+    gap: 20px;
+  }
+  /* section type-8 */
   @media screen and (max-width: 999px) {
     #shopify-section-{{section.id}} {
       padding: {{section.settings.pt_m}}px 0 {{section.settings.pb_m}}px;
@@ -194,6 +230,11 @@
       letter-spacing: 1.1px;
       margin-bottom: 30px;
     }
+    #shopify-section-{{section.id}} .type-7 .custom-wrapper .content-wrapper .title{
+      margin: 0 0 8px;
+      font-size: 16px;
+      line-height: 22px; 
+    }
   }
 
   @media screen and (max-width: 699px) {
@@ -218,6 +259,22 @@
       width: 100%;
       margin: 0;
     }
+    #shopify-section-{{section.id}} .type-7 .custom-wrapper .content-wrapper{
+      margin-top: 30px;
+    }
+    #shopify-section-{{section.id}} .type-8 .custom-wrapper{
+      gap: 10px;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      margin-inline-end: 0;
+    }
+    #shopify-section-{{section.id}} .type-8 .custom-wrapper::-webkit-scrollbar{
+      display: none;
+    }
+    #shopify-section-{{section.id}} .media-wrapper {
+      flex: 0 0 calc(100% / 1.5); /* 每个 item 占视口的 1.2 个宽度 */
+      scroll-snap-align: start; /* 可选：让滚动停在每个 item 的开始位置 */
+    }
   }
 </style>
 
@@ -236,6 +293,10 @@
     assign custom_class = 'type-5'
   elsif section_type == 'two-media-top-two-content-bottom'
     assign custom_class = 'type-6'
+  elsif section_type == 'all-center-one-media-top-one-content-bottom'
+    assign custom_class = 'type-7'
+  elsif section_type == 'three-media-top-one-content-bottom'
+    assign custom_class = 'type-8'
   endif section_type == ''
 
   assign is_full = section.settings.is_full
@@ -246,12 +307,12 @@
   {% if section.settings.page_desc != blank %}
     <h2 class="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
-  <div class="custom-wrapper">
+  <div class="custom-wrapper {% if custom_class == 'type-8' %}container container--xl{% endif %}">
     {% assign ss = section.settings %}
     {% for block in section.blocks %}
       {% assign bs = block.settings %}
       {% if block.type == 'media' %}
-        <div class="media-wrapper" {% if custom_class == 'type-2' and bs.width != blank %} style="width: calc({{ bs.width }}% - 40px);" {% endif %}>
+        <a class="media-wrapper" {% if custom_class == 'type-2' and bs.width != blank %} style="width: calc({{ bs.width }}% - 40px);" {% endif %} {% if bs.url != blank %}href="{{ bs.url }}" {% endif %}>
           {% if bs.use_video %}
             {% if bs.autoplay %}
               {{ bs.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: 'master', class:'sm-max:hidden' }}
@@ -284,7 +345,7 @@
           {% if ss.link_text != blank %}
             <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>{{ ss.link_text }}</a>
           {% endif %}
-        </div>
+        </a>
       {% endif %}
     {% endfor %}
     {% for block in section.blocks %}  
@@ -363,6 +424,14 @@
           {
             "value": "two-media-top-two-content-bottom",
             "label": "Two media top,two content bottom"
+          },
+          {
+            "value": "all-center-one-media-top-one-content-bottom",
+            "label": "One media top,two content bottom, all center"
+          },
+          {
+            "value": "three-media-top-one-content-bottom",
+            "label": "Three media top,one content bottom"
           }
         ],
         "default": "one-media-top-one-content-bottom"
@@ -444,7 +513,7 @@
       {
         "type": "media",
         "name": "media",
-        "limit": 2,
+        "limit": 3,
         "settings": [
           {
             "type": "text",
@@ -484,6 +553,11 @@
             "type": "video",
             "id": "mobile_video",
             "label": "Video Mobile"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Url"
           }
         ]
       },

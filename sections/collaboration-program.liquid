@@ -109,6 +109,7 @@
       </a>
     {% endfor %}
   </div>
+  {% if section.blocks.size > 6 %}
   <div class="more">
     <span class="more-text">SEE MORE</span>
     <span class="more-arrow">
@@ -117,6 +118,7 @@
       </svg>
     </span>
   </div>
+{% endif %}
 </div>
 
 <script>
