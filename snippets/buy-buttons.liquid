@@ -238,10 +238,6 @@ Supported variables
        if(el.prop('checked')){
         el.parents('.target_select').find(`#checkbox-send_now-{{ section.id }}---`).prop('checked',false);
         el.parents('.target_select').next().attr('hidden',false);
-        // el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',false);
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('');
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('');
        }
     });
     $('#checkbox-send_now-{{ section.id }}---').on('click',function(){
@@ -250,10 +246,6 @@ Supported variables
         el.parents('.target_select').find(`#checkbox-send_other-{{ section.id }}---`).prop('checked',false);
         el.parents('.target_select').next().attr('hidden',true);
         el.parents('.target_select').next().find('input').val('');
-        // el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',false);
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('');
-        // el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('');
        }
     });
 
