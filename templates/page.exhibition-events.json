@@ -152,7 +152,7 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_18.png",
-            "use_video": false,
+            "use_video": true,
             "autoplay": true,
             "url": ""
           }
@@ -161,7 +161,7 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Clip_path_group_19.png",
-            "use_video": true,
+            "use_video": false,
             "autoplay": true,
             "video": "shopify://files/videos/look4.mov",
             "mobile_video": "shopify://files/videos/look4.mov",
