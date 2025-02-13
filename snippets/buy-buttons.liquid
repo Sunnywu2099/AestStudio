@@ -142,33 +142,12 @@ Supported variables
                 {%- endif -%}
         
                 <div class="fieldset">
-                  <div class="fieldset-row">
-                    {%- assign label  = 'contact.form.first_name' | t -%}
-                    {%- render 'input', type: 'text', name: 'contact[FirstName]', label: label, value: customer.FirstName, required: false, autocomplete: 'First Name' -%}
-                  </div>
-                  
-                  <div class="fieldset-row">
-                    {%- assign label  = 'contact.form.name' | t -%}
-                    {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
-        
-                  </div>
         
                   <div class="fieldset-row">
-                    
                     {%- assign label  = 'contact.form.email' | t -%}
                     {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
                   </div>
         
-                  <div class="fieldset-row">
-                    {%- assign label  = 'contact.form.order_number' | t -%}
-                    {%- render 'input', type: 'text', name: 'contact[OrderNumber]', label: label, value: customer.OrderNumber, required: false, autocomplete: 'Order Number' -%}
-                  </div>
-        
-                  <div class="fieldset-row">
-                    {%- assign label  = 'contact.form.topic' | t -%}
-                    {%- assign svalues  = 'Product Related|Order Related|Service Related' | split: "|"  -%}
-                    {%- render 'select', option_values: svalues, show_empty_value: true, name: 'contact[topic]', label: label, required: true -%}
-                  </div>
         
                   
         
