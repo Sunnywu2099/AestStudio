@@ -239,7 +239,7 @@ Supported variables
 
         <div class="fieldset-row">
           {%- assign label  = 'contact.form.email' | t -%}
-          {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+          {%- render 'input', type: 'email', name: 'contact[email]', label: label, label_hidden:true, value: customer.email, required: true, autocomplete: 'email' -%}
         </div>
 
         {% if block.settings.notify_popup_confirm1 != blank %}  
