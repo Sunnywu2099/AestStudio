@@ -224,7 +224,7 @@ Supported variables
       <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
     {% endif %}
 
-    {%- form 'contact', class: 'form' -%}
+    {%- form 'contact', class: 'form' data-shopify-captcha: "false" -%}
       {%- if form.posted_successfully? -%}
         {%- assign content = 'contact.form.success_message' | t -%}
         {%- render 'banner', status: 'success', content: content -%}
