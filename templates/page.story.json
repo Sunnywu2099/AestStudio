@@ -460,9 +460,9 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 60,
+        "pb": 0,
         "pt_m": 0,
-        "pb_m": 30
+        "pb_m": 0
       }
     },
     "custom_multiple_media_9WEiqD": {
@@ -472,7 +472,7 @@
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Product Introduction",
+            "title": "",
             "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
           }
         }
