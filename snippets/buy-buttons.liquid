@@ -111,16 +111,17 @@ Supported variables
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
           
           <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
-            {%- assign modal_id = product_form_id | append: block.id |  append: '-notify_me' -%}
             
-            {%- render 'button', content: block.settings.notify_me, aria_controls: modal_id, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+            {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
             {%if block.settings.notify_me_details != blank%}
               <p class="notify_details" {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
             {% endif %}
           </div>
-
-          <x-modal id="{{ modal_id | escape }}" class="modal notify_modal modal--lg color-scheme color-scheme--dialog">
-            <span class="h5" slot="header">{{ block.settings.notify_popup_title }}</span>
+          
+          <div class="notify_me_popup">
+            <div class="notify_me_popup_header">
+              <span class="h5">{{ block.settings.notify_popup_title }}</span>
+            </div>
 
             <div class="prose">
               {% if block.settings.notify_popup_text1 != blank %}  
@@ -130,7 +131,7 @@ Supported variables
                 <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
               {% endif %}
 
-              <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="form">
+              {% form 'contact', class: 'form' %}
                 {%- if form.posted_successfully? -%}
                   {%- assign content = 'contact.form.success_message' | t -%}
                   {%- render 'banner', status: 'success', content: content -%}
@@ -168,10 +169,10 @@ Supported variables
         
                 {%- assign button_content = 'contact.form.submit' | t -%}
                 {%- render 'button', content: button_content, type: 'submit' -%}
-              </form>
+              {% endform %}
 
             </div>
-          </x-modal>
+          </div>
 
           {%- if show_payment_button -%}
             {{- form | payment_button -}}
