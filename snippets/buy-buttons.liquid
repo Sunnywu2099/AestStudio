@@ -109,6 +109,12 @@ Supported variables
           {%- endif -%}
 
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+          
+          <div>
+            {%- render 'button', content: block.settings.notify_me, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+            <p></p>
+          </div>
+
 
           {%- if show_payment_button -%}
             {{- form | payment_button -}}
