@@ -79,10 +79,61 @@
         "top_m": 0,
         "bottom_m": 0
       }
+    },
+    "events_wrapper_mtmdYr": {
+      "type": "events-wrapper",
+      "blocks": {
+        "item_yGpNdg": {
+          "type": "item",
+          "settings": {
+            "use_video": true,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_x6f8HM": {
+          "type": "item",
+          "settings": {
+            "use_video": true,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_APd3iV": {
+          "type": "item",
+          "settings": {
+            "use_video": true,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "item_jT6wJ6": {
+          "type": "item",
+          "settings": {
+            "use_video": true,
+            "autoplay": true,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_yGpNdg",
+        "item_x6f8HM",
+        "item_APd3iV",
+        "item_jT6wJ6"
+      ],
+      "settings": {
+        "page_desc": "Store & Flash mob",
+        "pt": 120,
+        "pb": 0,
+        "pt_m": 60,
+        "pb_m": 0
+      }
     }
   },
   "order": [
     "main",
-    "section_nav_JWNFLf"
+    "section_nav_JWNFLf",
+    "events_wrapper_mtmdYr"
   ]
 }
