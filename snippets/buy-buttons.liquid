@@ -174,11 +174,13 @@ Supported variables
                 {%- render 'checkbox', label: block.settings.send_other, id_prefix: 'send_other'  -%}
               </div>
               
+              <div class="select_date_box" hidden>
               {%- liquid
                 assign send_on_label = 'gift_card.recipient.send_on_label' | t
                 render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
                 render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
               -%}
+              </div>
 
 
             </div>
