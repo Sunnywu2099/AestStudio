@@ -175,6 +175,9 @@
       "block_order": [
         "text_gCTLDM"
       ],
+      "custom_css": [
+        ".custom-multiple-media .content-wrapper{max-width:800px;}"
+      ],
       "settings": {
         "page_desc": "",
         "is_full": false,
