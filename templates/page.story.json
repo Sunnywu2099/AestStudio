@@ -460,6 +460,35 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
+        "pb": 60,
+        "pt_m": 0,
+        "pb_m": 30
+      }
+    },
+    "custom_multiple_media_9WEiqD": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "text_j74JDj": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "text_j74JDj"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
         "pb": 120,
         "pt_m": 0,
         "pb_m": 60
@@ -602,6 +631,7 @@
     "custom_multiple_media_EMRFet",
     "custom_multiple_media_PbnXLh",
     "custom_multiple_media_aBj9De",
+    "custom_multiple_media_9WEiqD",
     "custom_multiple_media_ri3c4b",
     "custom_multiple_media_JWfLmC",
     "custom_multiple_media_nMimzL"
