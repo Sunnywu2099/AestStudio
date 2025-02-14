@@ -256,6 +256,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
 {%- render 'product-quick-buy', product: product -%}
 
 <script>
+  $('.notify_modal button[type="submit"]').on('click',function(){
+    let el = $(this);
+    console.log(222,el)
+  })
+</script>
+<script>
   // We save the product ID in local storage to be eventually used for recently viewed section
   try {
     let recentlyViewedProducts = JSON.parse(localStorage.getItem('theme:recently-viewed-products') || '[]');
