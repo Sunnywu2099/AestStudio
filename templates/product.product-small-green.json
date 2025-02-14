@@ -512,7 +512,7 @@
         "item_GQee7r": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/04.png",
             "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
@@ -520,15 +520,15 @@
         "item_YkkGxA": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "img_m": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
             "url": ""
           }
         },
         "item_E9mFiX": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
             "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
@@ -536,8 +536,8 @@
         "item_ejD9Bm": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/1-01.png",
+            "img_m": "shopify://shop_images/1-01.png",
             "url": ""
           }
         }
