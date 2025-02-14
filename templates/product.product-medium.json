@@ -578,6 +578,53 @@
       "settings": {
         "title": "Follow Us"
       }
+    },
+    "product_follows_XJKLwJ": {
+      "type": "product-follows",
+      "blocks": {
+        "item_wDfCRy": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/04.png",
+            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "url": ""
+          }
+        },
+        "item_Ri6hEK": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "img_m": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "url": ""
+          }
+        },
+        "item_qab8TY": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
+            "img_m": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
+            "url": ""
+          }
+        },
+        "item_mCdfmx": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/1-01.png",
+            "img_m": "shopify://shop_images/1-01.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wDfCRy",
+        "item_Ri6hEK",
+        "item_qab8TY",
+        "item_mCdfmx"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Follow Us"
+      }
     }
   },
   "order": [
@@ -591,6 +638,7 @@
     "product_cards_zQFYB9",
     "section_product_popup_iqCkwF",
     "17373628072f3d93c9",
-    "product_follows_RnNaCy"
+    "product_follows_RnNaCy",
+    "product_follows_XJKLwJ"
   ]
 }
