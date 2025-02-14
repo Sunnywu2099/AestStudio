@@ -270,7 +270,7 @@ Supported variables
 <script type="module">
     $('.notify_modal button[type="submit"]').on('click',function(){
     let el = $(this);
-    console.log(222,el)
+    console.log(el.parents('#contact_form').find('input[required]'))
   })
 </script>
 
