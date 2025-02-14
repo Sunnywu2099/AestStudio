@@ -467,7 +467,7 @@
         "item_GQee7r": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/04.png",
             "img_m": "shopify://shop_images/Rectangle_271.png",
             "url": ""
           }
@@ -475,32 +475,24 @@
         "item_Aw6g9H": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "img_m": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
             "url": ""
           }
         },
         "item_rDEXzE": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
+            "img_m": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
             "url": ""
           }
         },
         "item_PkAdaD": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
-            "url": ""
-          }
-        },
-        "item_wdc8n3": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Rectangle_271.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
+            "img": "shopify://shop_images/1-01.png",
+            "img_m": "shopify://shop_images/1-01.png",
             "url": ""
           }
         }
@@ -509,8 +501,7 @@
         "item_GQee7r",
         "item_Aw6g9H",
         "item_rDEXzE",
-        "item_PkAdaD",
-        "item_wdc8n3"
+        "item_PkAdaD"
       ],
       "settings": {
         "title": "Follow Us"
