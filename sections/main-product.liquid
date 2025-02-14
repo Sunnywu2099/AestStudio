@@ -89,8 +89,8 @@
   .notify_modal .input[type="email"]::placeholder {
     opacity: 1;
   }
-  .notify_modal .input[type="email"]:invalid::placeholder,
-  .notify_modal .input[type="email"]:invalid {
+  .notify_modal .input.check[type="email"]:invalid::placeholder,
+  .notify_modal .input.check[type="email"]:invalid {
     color:#DB3844;
     border-bottom-color: #DB3844;
 
@@ -104,7 +104,7 @@
     width:20px;
     height:20px;
   }
-  .notify_modal .agree_row input:invalid+label{
+  .notify_modal .agree_row input.check:invalid+label{
     color:#DB3844;
   }
   .notify_modal .agree_row label{
