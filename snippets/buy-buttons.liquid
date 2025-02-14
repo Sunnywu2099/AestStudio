@@ -271,12 +271,12 @@ Supported variables
     $('.notify_modal button[type="submit"]').on('click',function(){
     let el = $(this);
     el.parents('#contact_form').find('input[required]').addClass('check');
-    el.parents('#contact_form').find('input[required]').each(function(index,element){
-      if (element.validity.valueMissing == true) {
-          element.setCustomValidity(' ');
-      }
-      element.reportValidity();
-    })
+    // el.parents('#contact_form').find('input[required]').each(function(index,element){
+    //   if (element.validity.valueMissing == true) {
+    //       element.setCustomValidity(' ');
+    //   }
+    //   element.reportValidity();
+    // })
     //  addClass('check')
     // .setCustomValidity(' ');
   })
