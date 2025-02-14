@@ -270,8 +270,8 @@ Supported variables
 <script type="module">
     $('.notify_modal button[type="submit"]').on('click',function(){
     let el = $(this);
-    el.parents('#contact_form').find('input[required]').each(function(e){
-      console.log(e)
+    el.parents('#contact_form').find('input[required]').each(function(index,element){
+      console.log(element)
     })
     //  addClass('check')
     // .setCustomValidity(' ');
