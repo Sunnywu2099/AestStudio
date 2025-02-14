@@ -285,6 +285,8 @@ Supported variables
        if(el.prop('checked')){
         el.parents('.target_select').find(`input#checkbox-for_me-{{ section.id }}---`).prop('checked',false);
         el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('').attr('disable',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('').attr('disable',false);
         el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',true);
        }
     });
