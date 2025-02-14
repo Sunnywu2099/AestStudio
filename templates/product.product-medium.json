@@ -416,6 +416,7 @@
         "item_UcdaCn",
         "item_7n946N"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture on you"
       }
