@@ -272,7 +272,7 @@ Supported variables
     let el = $(this);
     el.parents('#contact_form').find('input[required]').addClass('check');
     el.parents('#contact_form').find('input[required]').each(function(index,element){
-      // element.setCustomValidity(' ');
+      element.setCustomValidity(' ');
     })
     //  addClass('check')
     // .setCustomValidity(' ');
