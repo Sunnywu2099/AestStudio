@@ -267,6 +267,13 @@ Supported variables
   </div>
 </x-modal>
 
+<script type="module">
+    $('.notify_modal button[type="submit"]').on('click',function(){
+    let el = $(this);
+    console.log(222,el)
+  })
+</script>
+
 {%- if recipient_feature_active -%}
   <script type="module">
     $('#checkbox-for_me-{{ section.id }}---').on('click',function(){
