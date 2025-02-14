@@ -255,12 +255,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
 {%- endcomment -%}
 {%- render 'product-quick-buy', product: product -%}
 
-<script>
+{% comment %} <script>
   $('.notify_modal button[type="submit"]').on('click',function(){
     let el = $(this);
     console.log(222,el)
   })
-</script>
+</script> {% endcomment %}
 <script>
   // We save the product ID in local storage to be eventually used for recently viewed section
   try {
