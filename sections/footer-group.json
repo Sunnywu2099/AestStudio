@@ -73,6 +73,7 @@
       "custom_css": [
         ".footer {background: #f7f7f5; padding-block-start: 40px;}",
         ".footer__aside {display: none;}",
+        ".footer__block-list{padding:0 2}",
         ".footer__aside__custom {display: flex;}",
         ".footer__block--newsletter {min-width: 354px;}",
         ".footer__block--follow_us {min-width: 320px;}",
