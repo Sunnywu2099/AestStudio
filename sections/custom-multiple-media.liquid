@@ -238,6 +238,10 @@
   }
 
   @media screen and (max-width: 699px) {
+    #shopify-section-{{section.id}} .media-wrapper {
+      flex: 0 0 calc(100% / 1.5); /* 每个 item 占视口的 1.2 个宽度 */
+      scroll-snap-align: start; /* 可选：让滚动停在每个 item 的开始位置 */
+    }
     #shopify-section-{{section.id}} .type-3 .content-wrapper{
       width: 100%;
       margin: 0;
@@ -271,9 +275,19 @@
     #shopify-section-{{section.id}} .type-8 .custom-wrapper::-webkit-scrollbar{
       display: none;
     }
-    #shopify-section-{{section.id}} .media-wrapper {
-      flex: 0 0 calc(100% / 1.5); /* 每个 item 占视口的 1.2 个宽度 */
-      scroll-snap-align: start; /* 可选：让滚动停在每个 item 的开始位置 */
+    
+    #shopify-section-{{section.id}}.custom-multiple-media .content-wrapper .text{
+      font-size: 12px;
+      line-height: 1.2;
+    }
+    #shopify-section-{{section.id}}.custom-multiple-media .section-title{
+      font-size: 14px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+    }
+    #shopify-section-{{section.id}} .type-5 .custom-wrapper .media-wrapper{
+      width: calc((100% - 10px) / 2);
+      flex: auto;
     }
   }
 </style>
