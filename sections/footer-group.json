@@ -75,7 +75,8 @@
         ".footer__aside {display: none;}",
         ".footer__aside__custom {display: flex;}",
         ".footer__block--newsletter {min-width: 320px;}",
-        ".footer__block--follow_us {min-width: 320px;}"
+        ".footer__block--follow_us {min-width: 320px;}",
+        ".prose.text-subdued p{margin-top:0!important}"
       ],
       "settings": {
         "color_scheme": "",
