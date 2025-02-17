@@ -125,6 +125,9 @@ legend{
   .page-dots{
     gap: 5px;
   }
+  .product-gallery{
+    gap: 13px;
+  }
 }
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
