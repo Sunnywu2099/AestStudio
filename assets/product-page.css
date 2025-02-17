@@ -119,8 +119,8 @@ legend{
 }
 @media screen and (max-width: 999px){
   .page-dots>*{
-    width: 3px;
-    height: 3px;
+    width: 5px;
+    height: 5px;
   }
 }
 @media screen and (min-width: 1000px){
