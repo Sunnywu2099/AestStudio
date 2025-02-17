@@ -18,7 +18,7 @@
           "type": "newsletter",
           "settings": {
             "title": "BE THE FIRST TO KNOW",
-            "content": "<p>Subscribe to stay updated!Be the first to discover our latest collections, events, exclusive offers, and sales.</p>",
+            "content": "<p>Subscribe to stay updated!</p><p>Be the first to discover our latest collections, events, exclusive offers, and sales.</p>",
             "button_background": "",
             "button_text_color": ""
           }
@@ -75,7 +75,7 @@
         ".footer__aside {display: none;}",
         ".footer__aside__custom {display: flex;}",
         ".footer__block--newsletter {min-width: 320px;}",
-        ".footer__block--follow_us{min-width: 320px;}"
+        ".footer__block--follow_us {min-width: 320px;}"
       ],
       "settings": {
         "color_scheme": "",
