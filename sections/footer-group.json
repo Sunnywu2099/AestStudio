@@ -18,7 +18,7 @@
           "type": "newsletter",
           "settings": {
             "title": "BE THE FIRST TO KNOW",
-            "content": "<p>Subscribe to stay updated！<br/>Be the first to discover our latest<br/>collections, events, exclusive offers, and<br/>sales.</p>",
+            "content": "<p>Subscribe to stay updated!Be the first to discover our latest collections, events, exclusive offers, and sales.</p>",
             "button_background": "",
             "button_text_color": ""
           }
