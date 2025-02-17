@@ -59,7 +59,8 @@
             "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_xUTN7H": {
@@ -82,9 +83,10 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
-        "pt": 120,
+        "link_color": "",
+        "pt": 80,
         "pb": 120,
-        "pt_m": 60,
+        "pt_m": 20,
         "pb_m": 60
       }
     },
@@ -98,7 +100,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_qCcW3k": {
@@ -108,7 +111,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         }
       },
@@ -123,6 +127,7 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -139,7 +144,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_ygNG78": {
@@ -162,6 +168,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -178,7 +185,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_Gwtf3K": {
@@ -201,6 +209,7 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -217,7 +226,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_khfWba": {
@@ -227,7 +237,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         }
       },
@@ -242,6 +253,7 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 0,
         "pt_m": 0,
