@@ -117,6 +117,12 @@ legend{
   border: 1px solid #000;
   background: content-box #000 no-repeat center / cover;
 }
+@media screen and (max-width: 999px){
+  .page-dots>*{
+    width: 3px;
+    height: 3px;
+  }
+}
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
     top: 0!important;
