@@ -187,13 +187,13 @@
     "section_product_popup_9XWtre": {
       "type": "section-product-popup",
       "blocks": {
-        "product_dAQtd3": {
+        "product_NARDw8": {
           "type": "product",
           "settings": {
             "product": "capture-large-shoulder-bag",
             "link": "",
-            "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
-            "img_m": "shopify://shop_images/design_book_banner_2.png",
+            "img": "shopify://shop_images/Mask_group_47ad01d2-001c-41d1-939e-c62c1bec0e0c.png",
+            "img_m": "shopify://shop_images/Mask_group_47ad01d2-001c-41d1-939e-c62c1bec0e0c.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -201,13 +201,13 @@
             ]
           }
         },
-        "product_FBDJRw": {
+        "product_bM7EVV": {
           "type": "product",
           "settings": {
             "product": "capture-medium-sling-bag",
             "link": "",
-            "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
-            "img_m": "shopify://shop_images/design_book_banner_2.png",
+            "img": "shopify://shop_images/Mask_group_1_c9e9beda-9991-4c0f-b7c3-d3eab0732880.png",
+            "img_m": "shopify://shop_images/Mask_group_1_c9e9beda-9991-4c0f-b7c3-d3eab0732880.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -215,29 +215,13 @@
             ]
           }
         },
-        "product_rTEjMV": {
-          "type": "product",
-          "settings": {
-            "product": "capture-small-bag-black",
-            "link": "",
-            "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
-            "img_m": "shopify://shop_images/design_book_banner_2.png",
-            "text": "Shop This Look",
-            "show_media": true,
-            "product_list": [
-              "capture-small-bag-black",
-              "capture-small-bag-green",
-              "capture-small-bag-purple"
-            ]
-          }
-        },
-        "product_Trza8T": {
+        "product_yzYa9L": {
           "type": "product",
           "settings": {
             "product": "capture-small-bag-green",
             "link": "",
-            "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
-            "img_m": "shopify://shop_images/design_book_banner_2.png",
+            "img": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
+            "img_m": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -247,13 +231,29 @@
             ]
           }
         },
-        "product_baxWkb": {
+        "product_kwnea7": {
           "type": "product",
           "settings": {
             "product": "capture-small-bag-purple",
             "link": "",
-            "img": "shopify://shop_images/Layer_0_4_2691d0a9-91c7-4664-ba37-90805cafb4ea.png",
-            "img_m": "shopify://shop_images/design_book_banner_2.png",
+            "img": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
+            "img_m": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
+            "text": "Shop This Look",
+            "show_media": true,
+            "product_list": [
+              "capture-small-bag-black",
+              "capture-small-bag-green",
+              "capture-small-bag-purple"
+            ]
+          }
+        },
+        "product_fJUqTf": {
+          "type": "product",
+          "settings": {
+            "product": "capture-small-bag-black",
+            "link": "",
+            "img": "shopify://shop_images/Mask_group_2_624aa07f-f0f8-40e4-9547-96732cb648f9.png",
+            "img_m": "shopify://shop_images/Mask_group_2_624aa07f-f0f8-40e4-9547-96732cb648f9.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -265,11 +265,11 @@
         }
       },
       "block_order": [
-        "product_dAQtd3",
-        "product_FBDJRw",
-        "product_rTEjMV",
-        "product_Trza8T",
-        "product_baxWkb"
+        "product_NARDw8",
+        "product_bM7EVV",
+        "product_yzYa9L",
+        "product_kwnea7",
+        "product_fJUqTf"
       ],
       "settings": {
         "unable_padding": false,
