@@ -2,6 +2,9 @@
   display: flex;
   gap: 12px;
 }
+.product-gallery__image-list{
+  overflow: hidden;
+}
 .buy-buttons-wrapper .buy-buttons{
   flex: 1;
 }
