@@ -122,6 +122,9 @@ legend{
     width: 5px;
     height: 5px;
   }
+  .page-dots{
+    gap: 5px;
+  }
 }
 @media screen and (min-width: 1000px){
   .pswp__top-bar{
