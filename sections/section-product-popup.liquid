@@ -180,6 +180,9 @@
     .continue-shopping{
       min-width: 180px;
       margin-top: 30px;
+      font-size: 9px;
+        padding: 4px 17px;
+        margin-left: 20px;
     }
   }
 </style>
@@ -211,7 +214,7 @@
                         {% if media.media_type == 'image' %}
                             {% assign img = media %}
                             <div class="slide" data-index = "{{forloop.index0}}" data-img-id="{{ img.id }}" data-img='{{img | json}}'>
-                                {{ img | image_url: width: master | image_tag }}
+                                {{ img | image_url: width: '500x' | image_tag }}
                             </div>
                         {% endif %}
                     {% endfor %}
