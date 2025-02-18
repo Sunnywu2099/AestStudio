@@ -2,7 +2,9 @@
   @media (max-width:699px){
     #shopify-section-{{section.id}} .play-button svg{width:60px;height:60px;}
     {% if request.page_type == 'index' and section.index == '1' %} 
-      #shopify-section-{{section.id}} .content-over-meida{    --content-over-media-height: 510px;}  
+      #shopify-section-{{section.id}} .content-over-meida{
+            --content-over-media-height: 510px !important;
+      }  
     {% endif %}
   }
 </style>
