@@ -215,9 +215,9 @@
       "settings": {
         "type": "margin",
         "top": 0,
-        "bottom": 0,
+        "bottom": 80,
         "top_m": 0,
-        "bottom_m": 0
+        "bottom_m": 50
       }
     },
     "product_nav_eBmH6T": {
