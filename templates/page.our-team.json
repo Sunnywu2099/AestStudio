@@ -290,6 +290,86 @@
         "pb_m": 60
       }
     },
+    "custom_multiple_media_f39Gyk": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_8XkH6K": {
+          "type": "media",
+          "settings": {
+            "width": "41",
+            "img": "shopify://shop_images/Rectangle_251.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_7qHfjp": {
+          "type": "text",
+          "settings": {
+            "width": "59",
+            "title": "CC",
+            "text": "Design, to me, is not just a tool—it is a medium for expressing ideas and emotions. I am an experienced graphic/brand designer who interprets the world through visual language, bringing new life and individuality to brands.For me, every design is a conversation between the brand and its audience. I strive to use my work to reveal the stories and values behind a brand, inspiring and resonating with people on a deeper level. I firmly believe that great design should convey authenticity and evoke genuine emotion.I look forward to using my design expertise to infuse AEST STUDIOS with even more energy and creativity."
+          }
+        }
+      },
+      "block_order": [
+        "media_8XkH6K",
+        "text_7qHfjp"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_QjGKmn": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_c7LaDV": {
+          "type": "media",
+          "settings": {
+            "width": "41",
+            "img": "shopify://shop_images/Rectangle_251.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_Y7DFxj": {
+          "type": "text",
+          "settings": {
+            "width": "59",
+            "title": "Lucienne",
+            "text": "I lived in France, and that experience taught me to understand the world with a delicate perspective, and created a delicate balance between artistic perception and business analysis. I believe that good operation is not only a game of digital growth, but also a sculpting of emotion and experience."
+          }
+        }
+      },
+      "block_order": [
+        "media_c7LaDV",
+        "text_Y7DFxj"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
     "section_carousel_xF9fyM": {
       "type": "section-carousel",
       "blocks": {
@@ -477,6 +557,8 @@
     "custom_multiple_media_xDFWVC",
     "custom_multiple_media_yLfDVV",
     "custom_multiple_media_AHhbX7",
+    "custom_multiple_media_f39Gyk",
+    "custom_multiple_media_QjGKmn",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
