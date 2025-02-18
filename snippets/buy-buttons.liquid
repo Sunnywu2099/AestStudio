@@ -224,6 +224,9 @@ Supported variables
       <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
     {% endif %}
 
+    {% assign returnLink = routes.root_url | append:request.path %}
+{{returnLink}}
+    
     {%- form 'contact', class: 'form' -%}
       {%- if form.posted_successfully? -%}
         {%- assign content = 'contact.form.success_message' | t -%}
