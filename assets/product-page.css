@@ -158,4 +158,12 @@ legend{
     object-fit: cover;
   }
 }
+@media screen and (max-width: 699px){
+  .product-title.h3{
+    color: #25282A;
+    font-size: 18px;
+    line-height: 30.8px;
+    letter-spacing: 0.9px;
+  }
+}
 
