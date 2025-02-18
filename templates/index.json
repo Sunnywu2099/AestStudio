@@ -31,7 +31,9 @@
         "play_pDjcaV",
         "heading_9JnFx7"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width:699px){.content-over-meida{--content-over-media-height: 510px !important; }}"
+      ],
       "settings": {
         "autoplay": true,
         "show_controls": false,
