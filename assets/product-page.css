@@ -195,6 +195,7 @@ legend{
   }
   .accordion__toggle{
     font-size: 10px;
+    padding-block: 6px;
   }
 }
 
