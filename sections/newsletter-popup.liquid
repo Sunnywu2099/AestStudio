@@ -65,7 +65,7 @@
 
               {%- render 'button', content: section.settings.button_text, type: 'submit' -%}
 
-              <div style="padding-top:5px;font-size:11px;color:#aaa">
+              <div style="padding-top:5px;font-size:10px;color:#aaa" class="popup-content2">
                 {{ section.settings.content2}}
                 
               </div>
@@ -140,6 +140,10 @@
 }
   #subscribe-popup.show{
     opacity: 1;
+  }
+
+  .popup-content2 a{
+    text-decoration-line:underline;
   }
 
   #subscribe-popup .h4{
