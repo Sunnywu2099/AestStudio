@@ -176,5 +176,8 @@ legend{
     width: 16px;
     height: 16px;
   }
+  .block-swatch{
+    min-width: auto;
+  }
 }
 
