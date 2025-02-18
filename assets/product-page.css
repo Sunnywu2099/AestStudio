@@ -190,5 +190,8 @@ legend{
   .buy-buttons-wrapper .wishlist-btn{
     width: 32px;
   }
+  .buy-buttons-wrapper .wishlist-btn[data-added="true"] svg{
+    width: 10px;
+  }
 }
 
