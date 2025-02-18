@@ -197,14 +197,14 @@
           "type": "item",
           "settings": {
             "text": "DESCRIPTION",
-            "content": "<p>If you purchase other items along with the electronic gift card, it will be emailed to you after your entire order has shipped. If purchased separately, the gift card and instructions will be emailed directly to the recipient of your choice. Please note that processing may take up to 30 minutes.</p>"
+            "content": "<ul><li>If you purchase other items along with the electronic gift card, it will be emailed to you after your entire order is shipped.  </li><li>If the gift card is the only item in your order, you will receive an email with the card and redemption instructions within 30 minutes. </li><li>You can also choose to have the gift card sent directly to a recipient of your choice.</li></ul>"
           }
         },
         "item_CDnVrY": {
           "type": "item",
           "settings": {
             "text": "TERMS & CONDITIONS",
-            "content": "<ul><li>The gift card can be used directly on the official website.</li><li>How to Use: Enter the card number or activation code at checkout.</li><li>Not exchangeable for cash.</li><li>Gift cards are valid for [X period] (e.g., never expires or 1 year).</li><li>No refunds or exchanges are allowed.</li><li>If the gift card is lost, please contact customer service with your order number.</li></ul>"
+            "content": "<ul><li>This gift card can be used exclusively on the official website.</li><li>To redeem, enter the card number or activation code at checkout.</li><li>Gift cards cannot be exchanged for cash, and usage restrictions may apply in certain regions.</li><li>The balance on the gift card will not be refunded or returned in any form, including cash, credit, or check. </li><li>Gift cards you purchased will not expire.</li><li>If the gift card is lost, please contact customer support for assistance.</li><li>Only one gift card can be used per transaction. The balance on this digital gift card can be used for multiple purchases on our website until the balance is fully spent.</li></ul>"
           }
         }
       },
