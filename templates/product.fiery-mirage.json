@@ -42,6 +42,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "hide_option_name": "",
             "hide_sold_out_variants": false,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
@@ -52,8 +53,23 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "notify_me": "Notify Me",
+            "notify_me_details": "*Estimated delivery within 2-3 business days.",
+            "notify_popup_title": "Notify me",
+            "notify_popup_text1": "We will email you when this product is available",
+            "notify_popup_text2": "*Estimated delivery within 2-3 business days.",
+            "notify_popup_confirm1": "<p>I confirm that i have read and understood the <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></p>",
+            "notify_popup_confirm2": "<p>I would like to receive updates about new launches and other onspirational content</p>",
             "show_payment_button": false,
             "show_gift_card_recipient": true,
+            "who_is_it_for": "Who Is It For?",
+            "add_a_message": "Add A Message（Optional）",
+            "msg_desc": "Hint: Let the recipient know who the gift card is from, and add a special touch with a personalized message.",
+            "for_me": "For me",
+            "for_me_desc": "Once your gift card is purchased, you will receive an email containing the card and instructions on how to use it.",
+            "select_date": "Select Delivery Date",
+            "send_now": "Send Now",
+            "send_other": "Send At Later Time",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",

@@ -42,6 +42,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "hide_option_name": "Denominations",
             "hide_sold_out_variants": false,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
@@ -58,8 +59,24 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "notify_me": "Notify Me",
+            "notify_me_details": "*Estimated delivery within 2-3 business days.",
+            "notify_popup_title": "Notify me",
+            "notify_popup_text1": "We will email you when this product is available",
+            "notify_popup_text2": "*Estimated delivery within 2-3 business days.",
+            "notify_popup_confirm1": "<p>I confirm that i have read and understood the <a href='/policies/privacy-policy' title='Privacy Policy'>Privacy Policy</a></p>",
+            "notify_popup_confirm2": "<p>I would like to receive updates about new launches and other onspirational content</p>",
+            "notify_popup_tips": "This site is protected by recaptcha and the google Privacy Policy and Terms Of Service apply.",
             "show_payment_button": false,
             "show_gift_card_recipient": true,
+            "who_is_it_for": "Who Is It For?",
+            "add_a_message": "Add A Message（Optional）",
+            "msg_desc": "Hint: Let the recipient know who the gift card is from, and add a special touch with a personalized message.",
+            "for_me": "For me",
+            "for_me_desc": "Once your gift card is purchased, you will receive an email containing the card and instructions on how to use it.",
+            "select_date": "Select Delivery Date",
+            "send_now": "Send Now",
+            "send_other": "Send At Later Time",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -68,6 +85,7 @@
         },
         "in_action_ifkLi4": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "In Action",
             "text": "Capture Large Shoulder Bag in hand-finished oil-waxed cow leather with a brushed matte silver metal plaque on the front, featuring the AEST logo in Braille, symbolizing our philosophy of addressing invisible needs with thoughtful design.",
@@ -84,6 +102,7 @@
         },
         "accordion_UYLqjQ": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
@@ -95,6 +114,7 @@
         },
         "accordion_XzHcUk": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
@@ -106,6 +126,7 @@
         },
         "accordion_jVztkw": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
@@ -117,6 +138,7 @@
         },
         "in_action_fcgMfP": {
           "type": "in_action",
+          "disabled": true,
           "settings": {
             "title": "Pairs With",
             "text": "",
@@ -166,6 +188,36 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
+      }
+    },
+    "product_details_QDnhAk": {
+      "type": "product-details",
+      "blocks": {
+        "item_KxdxCQ": {
+          "type": "item",
+          "settings": {
+            "text": "DESCRIPTION",
+            "content": "<p>If you purchase other items along with the electronic gift card, it will be emailed to you after your entire order has shipped. If purchased separately, the gift card and instructions will be emailed directly to the recipient of your choice. Please note that processing may take up to 30 minutes.</p>"
+          }
+        },
+        "item_CDnVrY": {
+          "type": "item",
+          "settings": {
+            "text": "TERMS & CONDITIONS",
+            "content": "<ul><li>The gift card can be used directly on the official website.</li><li>How to Use: Enter the card number or activation code at checkout.</li><li>Not exchangeable for cash.</li><li>Gift cards are valid for [X period] (e.g., never expires or 1 year).</li><li>No refunds or exchanges are allowed.</li><li>If the gift card is lost, please contact customer service with your order number.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KxdxCQ",
+        "item_CDnVrY"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 160,
+        "top_m": 0,
+        "bottom_m": 80
       }
     },
     "product_nav_eBmH6T": {
@@ -223,6 +275,7 @@
         "item_aqM9w8",
         "item_BzKfMV"
       ],
+      "disabled": true,
       "settings": {}
     },
     "video_eEEpfh": {
@@ -238,6 +291,7 @@
       "block_order": [
         "play_PU4wVK"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
@@ -249,6 +303,7 @@
     },
     "image_with_text_overlay_HnemtW": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image_size": "auto",
@@ -332,6 +387,7 @@
         "item_gdzg8N",
         "item_cyjQcR"
       ],
+      "disabled": true,
       "settings": {
         "title": "Product Features"
       }
@@ -350,6 +406,7 @@
       "block_order": [
         "item_PDXMny"
       ],
+      "disabled": true,
       "settings": {
         "img": "shopify://shop_images/Group_1000006679.png",
         "img_m": "shopify://shop_images/Group_1000006679.png",
@@ -372,6 +429,7 @@
       "block_order": [
         "item_dwnCFM"
       ],
+      "disabled": true,
       "settings": {
         "img": "shopify://shop_images/Mask_group_c2adb75e-d3ad-4902-bf24-9c272239f2bf.png",
         "img_m": "shopify://shop_images/Mask_group_c2adb75e-d3ad-4902-bf24-9c272239f2bf.png",
@@ -518,6 +576,7 @@
         "product_kwnea7",
         "product_fJUqTf"
       ],
+      "disabled": true,
       "settings": {
         "unable_padding": false,
         "title": "You May Also Like",
@@ -536,6 +595,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_4acArB"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -585,6 +645,7 @@
         "item_wKmqNP",
         "item_xUfpTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "Follow Us"
       }
@@ -592,6 +653,7 @@
   },
   "order": [
     "main",
+    "product_details_QDnhAk",
     "product_nav_eBmH6T",
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
