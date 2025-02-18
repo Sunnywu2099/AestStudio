@@ -187,5 +187,8 @@ legend{
     padding-top: 7px;
     padding-bottom: 7px;
   }
+  .buy-buttons-wrapper .wishlist-btn{
+    width: 32px;
+  }
 }
 
