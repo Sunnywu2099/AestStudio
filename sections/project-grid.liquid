@@ -195,7 +195,7 @@
       }
     });
     gridSplide_{{section.index}}.mount(window.splide.Extensions);
-    
+
     function adjustItemWidth() {
       const screenWidth = window.innerWidth;
       const splideTrack = document.querySelector('#shopify-section-{{section.id}} .splide__track');
@@ -205,6 +205,11 @@
         // 在屏幕宽度小于等于 699px 时，每个项的宽度设置为50%
         splideSlides.forEach(slide => {
           slide.style.flex = '0 0 70%';  // 设置每个项宽度为50%
+        });
+      }else {
+        // 否则恢复默认宽度
+        splideSlides.forEach(slide => {
+          slide.style.flex = '0 0 25%';  // 恢复每个项的默认宽度为100%
         });
       }
     }
