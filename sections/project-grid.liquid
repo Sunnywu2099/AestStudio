@@ -98,6 +98,9 @@
   border: 0.7px solid #FFF;
   background: rgba(37, 40, 42, 0.40);
 }
+.grid-wrapper .splide__slide{
+    width: calc( (100% - 48px) / 3);
+  }
 
 @media screen and (max-width: 999px){
   #shopify-section-{{section.id}} {
@@ -125,7 +128,7 @@
     line-height: 16.8px;
   }
   .grid-wrapper .splide__slide{
-    width: 83%!important;
+    width: 70%;
   }
 }
 </style>
@@ -189,8 +192,7 @@
       autoScroll: {
         speed: 0.4,          
         pauseOnHover: true,
-      },
-      
+      }
     });
     gridSplide_{{section.index}}.mount(window.splide.Extensions);
   });
