@@ -57,7 +57,8 @@
             "width": "",
             "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_bPWkHc": {
@@ -80,10 +81,11 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
-        "pt_m": 60,
-        "pb_m": 60
+        "pt_m": 30,
+        "pb_m": 30
       }
     },
     "custom_multiple_media_3kk8pd": {
@@ -95,7 +97,8 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_GBz9ME": {
@@ -118,10 +121,11 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 30
       }
     },
     "custom_multiple_media_KN7VFU": {
@@ -133,7 +137,8 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_erXPW8": {
@@ -156,10 +161,11 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 30
       }
     },
     "custom_multiple_media_HCmafy": {
@@ -171,7 +177,8 @@
             "width": "",
             "img": "shopify://shop_images/Rectangle_249.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_ze4Ekr": {
@@ -194,6 +201,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 0,
         "pt_m": 0,
