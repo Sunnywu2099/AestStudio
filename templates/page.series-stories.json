@@ -140,6 +140,7 @@
       "block_order": [
         "media_m3H7hV"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": true,
@@ -172,6 +173,7 @@
       "block_order": [
         "media_xJ8AQt"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": true,
@@ -204,6 +206,7 @@
       "block_order": [
         "media_NRC3r4"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": true,
