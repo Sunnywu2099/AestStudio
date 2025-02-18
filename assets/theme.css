@@ -5360,11 +5360,14 @@ product-rerender {
 }
 
 .header-sidebar__promo > * {
-  min-width: 12.5rem;
+  /* min-width: 12.5rem; */
+  flex: 220px;
+  min-width: 220px;
+  max-width: 220px;
 }
 
 .header-sidebar__promo > *:only-child {
-  min-width: 100%;
+  /* min-width: 100%; */
 }
 
 .header-sidebar__linklist.divide-y .header-sidebar__linklist-button {
