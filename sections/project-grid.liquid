@@ -190,12 +190,17 @@
       },
       breakpoints: {
         699: {
-          perPage:2,  
           gap: 8,
         }
       }
     });
     gridSplide_{{section.index}}.mount(window.splide.Extensions);
+    // 动态调整每个项的宽度为50%
+    const splideTrack = document.querySelector('#shopify-section-{{section.id}} .splide__track');
+    const splideSlides = splideTrack.querySelectorAll('.splide__slide');
+    splideSlides.forEach(slide => {
+      slide.style.flex = '0 0 70%';  // 设置每个项宽度为50%
+    });
   });
 </script>
 
