@@ -2573,20 +2573,20 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse) {
-  background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat;
+  /* background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat; */
   text-decoration: none;
   transition: background-size .3s ease-in-out;
 }
 
 @supports (height: 1lh) {
   :is(.link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse)) {
-    background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.2lh) / 100% 1px no-repeat;
+    /* background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.2lh) / 100% 1px no-repeat; */
   }
 }
 
 @media screen and (pointer: fine) {
   :is(.link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse)):hover {
-    background-size: 0 1px;
+    /* background-size: 0 1px; */
   }
 }
 
