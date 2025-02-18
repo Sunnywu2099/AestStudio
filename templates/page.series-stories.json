@@ -110,7 +110,7 @@
       ],
       "settings": {
         "page_desc": "Series Of Stories",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Story of Capture SHE collection",
@@ -143,7 +143,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Designer Bag",
@@ -176,7 +176,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Artist Bag",
@@ -209,7 +209,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Sports Bag",
