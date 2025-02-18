@@ -42,6 +42,7 @@
             "menu_item": "SHOP",
             "images_position": "right",
             "inside_menu": "view_all",
+            "inside_menu_url": "shopify://collections/all",
             "image_1": "shopify://shop_images/Mask_group-1.jpg",
             "image_1_heading": "",
             "image_1_text": "Our Projects",
