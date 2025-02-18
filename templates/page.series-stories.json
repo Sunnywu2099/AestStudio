@@ -110,16 +110,16 @@
       ],
       "settings": {
         "page_desc": "Series Of Stories",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
-        "link_text": "Camera Bag",
-        "link_url": "",
+        "link_text": "Story of Capture SHE collection",
+        "link_url": "shopify://collections/capture-she-series",
         "link_color": "#1c1c1c",
         "pt": 120,
-        "pb": 20,
+        "pb": 120,
         "pt_m": 40,
-        "pb_m": 20
+        "pb_m": 40
       }
     },
     "custom_multiple_media_xi3djm": {
@@ -140,9 +140,10 @@
       "block_order": [
         "media_m3H7hV"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Designer Bag",
@@ -172,9 +173,10 @@
       "block_order": [
         "media_xJ8AQt"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Artist Bag",
@@ -204,9 +206,10 @@
       "block_order": [
         "media_NRC3r4"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "Sports Bag",

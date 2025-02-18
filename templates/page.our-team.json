@@ -99,7 +99,8 @@
             "width": "",
             "img": "shopify://shop_images/Rectangle_249.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_6cDHBm": {
@@ -122,6 +123,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -137,7 +139,8 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_yhCdLN": {
@@ -160,6 +163,7 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -175,7 +179,8 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_w4Mfbj": {
@@ -198,6 +203,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -213,15 +219,16 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_KDeNkH": {
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "Tracy",
-            "text": "Amid the lush cultural whispers of the South, I discovered my path to design. Beginning with the soft allure of fashion accessories, I ventured deeper into the intricate world of bags. Immersed in leather workshops, I found a way to infuse each piece with the quiet strength and tender resilience of this land. With every creation, I whisper to the world: my heart beats with passion, and it always will."
+            "title": "Clytie",
+            "text": "With a passion for fashion and years of experience, I stay deeply connected to cutting-edge creativity.While some see fashion as a fleeting trend, to me, it’s the meticulously crafted garments and bags that reflect the team’s collective wisdom and a lasting cultural legacy. Through Aest Studios, we aim to offer more than just products— It's a liberated lifestyle where you boldly pursue your passions and express yourself fearlessly."
           }
         }
       },
@@ -236,6 +243,7 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -251,7 +259,8 @@
             "width": "41",
             "img": "shopify://shop_images/Rectangle_251.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_9qMNd8": {
@@ -274,6 +283,87 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_f39Gyk": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_8XkH6K": {
+          "type": "media",
+          "settings": {
+            "width": "41",
+            "img": "shopify://shop_images/Rectangle_251.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_7qHfjp": {
+          "type": "text",
+          "settings": {
+            "width": "59",
+            "title": "CC",
+            "text": "Design, to me, is not just a tool—it is a medium for expressing ideas and emotions. I am an experienced graphic/brand designer who interprets the world through visual language, bringing new life and individuality to brands.For me, every design is a conversation between the brand and its audience. I strive to use my work to reveal the stories and values behind a brand, inspiring and resonating with people on a deeper level. I firmly believe that great design should convey authenticity and evoke genuine emotion.I look forward to using my design expertise to infuse AEST STUDIOS with even more energy and creativity."
+          }
+        }
+      },
+      "block_order": [
+        "media_8XkH6K",
+        "text_7qHfjp"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "left",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 60
+      }
+    },
+    "custom_multiple_media_QjGKmn": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_c7LaDV": {
+          "type": "media",
+          "settings": {
+            "width": "41",
+            "img": "shopify://shop_images/Rectangle_251.png",
+            "use_video": false,
+            "autoplay": true,
+            "url": ""
+          }
+        },
+        "text_Y7DFxj": {
+          "type": "text",
+          "settings": {
+            "width": "59",
+            "title": "Lucienne",
+            "text": "I lived in France, and that experience taught me to understand the world with a delicate perspective, and created a delicate balance between artistic perception and business analysis. I believe that good operation is not only a game of digital growth, but also a sculpting of emotion and experience."
+          }
+        }
+      },
+      "block_order": [
+        "media_c7LaDV",
+        "text_Y7DFxj"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": false,
+        "section_type": "one-media-left-one-content-right",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -467,6 +557,8 @@
     "custom_multiple_media_xDFWVC",
     "custom_multiple_media_yLfDVV",
     "custom_multiple_media_AHhbX7",
+    "custom_multiple_media_f39Gyk",
+    "custom_multiple_media_QjGKmn",
     "section_carousel_xF9fyM",
     "section_column_media_bnccFY"
   ]
