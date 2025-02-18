@@ -172,5 +172,9 @@ legend{
   fieldset span{
     font-size: 10px;
   }
+  .color_box.variant-picker__option-values .color_item{
+    width: 16px;
+    height: 16px;
+  }
 }
 
