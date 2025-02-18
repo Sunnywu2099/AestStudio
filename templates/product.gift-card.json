@@ -190,6 +190,36 @@
         "max_image_zoom_level": 3
       }
     },
+    "product_details_QDnhAk": {
+      "type": "product-details",
+      "blocks": {
+        "item_KxdxCQ": {
+          "type": "item",
+          "settings": {
+            "text": "DESCRIPTION",
+            "content": "<p>If you purchase other items along with the electronic gift card, it will be emailed to you after your entire order has shipped. If purchased separately, the gift card and instructions will be emailed directly to the recipient of your choice. Please note that processing may take up to 30 minutes.</p>"
+          }
+        },
+        "item_CDnVrY": {
+          "type": "item",
+          "settings": {
+            "text": "TERMS & CONDITIONS",
+            "content": "<ul><li>The gift card can be used directly on the official website.</li><li>How to Use: Enter the card number or activation code at checkout.</li><li>Not exchangeable for cash.</li><li>Gift cards are valid for [X period] (e.g., never expires or 1 year).</li><li>No refunds or exchanges are allowed.</li><li>If the gift card is lost, please contact customer service with your order number.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KxdxCQ",
+        "item_CDnVrY"
+      ],
+      "settings": {
+        "type": "margin",
+        "top": 0,
+        "bottom": 0,
+        "top_m": 0,
+        "bottom_m": 0
+      }
+    },
     "product_nav_eBmH6T": {
       "type": "product-nav",
       "blocks": {
@@ -623,6 +653,7 @@
   },
   "order": [
     "main",
+    "product_details_QDnhAk",
     "product_nav_eBmH6T",
     "video_eEEpfh",
     "image_with_text_overlay_HnemtW",
