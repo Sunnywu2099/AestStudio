@@ -45,6 +45,9 @@
     #shopify-section-{{sid}} .container_inner div ul{
         margin-left: 1.5em;
     }
+    #shopify-section-{{sid}} .container_inner div ul>li:not(:first-child){
+        margin-top: 8px;
+    }
     @media (max-width:767px){
         #shopify-section-{{sid}}{
             {%if section.settings.type == 'padding' %}
