@@ -1,10 +1,13 @@
 <style>
   @media (max-width:699px){
     #shopify-section-{{section.id}} .play-button svg{width:60px;height:60px;}
+    {% if request.page_type == 'index' %} 
+      #shopify-section-{{section.id}} .content-over-meida{    --content-over-media-height: 510px;}  
+    {% endif %}
   }
 </style>
 
-<div class="123 content-over-media content-over-media--{{ section.settings.video_size }}" style="{% render 'surface', text_color: section.settings.text_color %}">
+<div class="{{section.index}} content-over-media content-over-media--{{ section.settings.video_size }}" style="{% render 'surface', text_color: section.settings.text_color %}">
   {%- assign poster_image = section.settings.poster | default: section.settings.video.preview_image -%}
       {% comment %}
   {%- if section.settings.poster_m != blank -%}
