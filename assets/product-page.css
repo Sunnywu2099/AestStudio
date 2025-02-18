@@ -13,7 +13,7 @@
 }
 .buy-buttons-wrapper .wishlist-btn{
   width: 42px;
-  height: 42px;
+  height: inherit;
   flex-shrink: 0;
   border-radius: 2px;
   background: #25282A;
@@ -167,6 +167,10 @@ legend{
     font-size: 18px;
     line-height: 30.8px;
     letter-spacing: 0.9px;
+  }
+  fieldset legend,
+  fieldset span{
+    font-size: 10px;
   }
 }
 
