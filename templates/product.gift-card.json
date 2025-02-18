@@ -546,6 +546,7 @@
         "product_kwnea7",
         "product_fJUqTf"
       ],
+      "disabled": true,
       "settings": {
         "unable_padding": false,
         "title": "You May Also Like",
@@ -564,6 +565,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_4acArB"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -613,6 +615,7 @@
         "item_wKmqNP",
         "item_xUfpTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "Follow Us"
       }
