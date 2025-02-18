@@ -77,7 +77,7 @@
         ".footer__aside__custom {display: flex;}",
         ".footer__block--newsletter {min-width: 354px;}",
         ".footer__block--follow_us {min-width: 200px;}",
-        "@media (max-width: 999px) {.footer__block--newsletter {min-width: auto; } .footer__block--follow_us {min-width: auto; }}",
+        "@media (max-width: 999px) {.footer__block--newsletter {min-width: auto; } .footer__block--follow_us {min-width: auto; } .footer__inner {padding: 0;}}",
         ".prose.text-subdued p {margin-top: 0 !important;}"
       ],
       "settings": {
