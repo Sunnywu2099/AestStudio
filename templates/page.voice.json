@@ -94,7 +94,8 @@
             "img": "shopify://shop_images/Rectangle_249.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_xUTN7H": {
@@ -117,10 +118,11 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
-        "pt_m": 60,
-        "pb_m": 60
+        "pt_m": 34,
+        "pb_m": 34
       }
     },
     "custom_multiple_media_97x7Nd": {
@@ -133,7 +135,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_ygNG78": {
@@ -156,10 +159,11 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 34
       }
     },
     "custom_multiple_media_iTU6T8": {
@@ -172,7 +176,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_knXqfV": {
@@ -195,10 +200,11 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 34
       }
     },
     "custom_multiple_media_n36XQz": {
@@ -211,7 +217,8 @@
             "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": false,
-            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_XCa3jP": {
@@ -243,10 +250,11 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 34
       }
     },
     "custom_multiple_media_RKpEpW": {
@@ -259,7 +267,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_XgpLxp": {
@@ -269,7 +278,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         }
       },
@@ -284,10 +294,11 @@
         "text_alignment": "left",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
-        "pb_m": 60
+        "pb_m": 30
       }
     }
   },

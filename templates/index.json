@@ -31,7 +31,9 @@
         "play_pDjcaV",
         "heading_9JnFx7"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 699px) {.content-over-media {--content-over-media-height: 510px !important; }}"
+      ],
       "settings": {
         "autoplay": true,
         "show_controls": false,
@@ -100,12 +102,12 @@
         "color": "#131313",
         "type": "img",
         "img": "shopify://shop_images/1_cee29540-a143-4881-8835-4abf4077b401.png",
-        "img_m": "shopify://shop_images/1_cee29540-a143-4881-8835-4abf4077b401.png",
+        "img_m": "shopify://shop_images/Mask_group_2_17e8b4ea-43c0-46bb-b2b6-239b1139b34f.png",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture SHE Collection",
         "btn": "Shop Now",
         "link": "shopify://collections/capture-she-series",
-        "opacity": 30
+        "opacity": 0
       }
     },
     "index_banner_one_half_MLnXVr": {
@@ -208,7 +210,7 @@
         "color": "#ffffff",
         "type": "img",
         "img": "shopify://shop_images/Mask_group_6_1e049387-715e-4aba-8e1b-87f0fbefd3d5.png",
-        "img_m": "shopify://shop_images/Mask_group_4_b386e4c3-37bd-4955-ae7f-c5ef9a890fa0.png",
+        "img_m": "shopify://shop_images/Mask_group_3_da36fbe9-0603-4eab-89a0-41021073ed34.png",
         "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
         "title": "Capture Large Shoulder Bag",
         "btn": "Shop Now",
