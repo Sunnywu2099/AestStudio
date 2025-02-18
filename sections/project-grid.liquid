@@ -108,7 +108,22 @@
   }
 }
 @media screen and (max-width: 699px) {
-
+  .grid-wrapper .content-box{
+    padding: 14px 0 0;
+  }
+  .grid-wrapper .content-box .block-title{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .grid-wrapper .content-box .block-text{
+    font-size: 9px;
+    line-height: 16.8px;
+    margin-bottom: 0;
+  }
+  .grid-wrapper .content-box .block-content{
+    font-size: 9px;
+    line-height: 16.8px;
+  }
 }
 </style>
 
@@ -167,45 +182,43 @@
       arrows: false,        
       pagination: false,    
       gap: 16,
+      perPage: 4,
       // direction: 'ltr',
       autoScroll: {
         speed: 0.4,          
         pauseOnHover: true,
       },
-      grid: {
-        rows: 1,
-        cols: 4,
-        gap:{
-          row: 0,
-          col: 16
-        }
-      },
       breakpoints: {
-        1024: {
-          gap: 10,
-          grid: {
-            rows: 1,
-            cols: 3,
-            gap:{
-              row: 0,
-              col: 10
-            }
-          },
-        },
         699: {
-          gap: 10,
-          grid: {
-            rows: 1,
-            cols: 2,
-            gap:{
-              row: 0,
-              col: 10
-            }
-          },
+          gap: 8,
         }
       }
     });
     gridSplide_{{section.index}}.mount(window.splide.Extensions);
+
+    function adjustItemWidth() {
+      const screenWidth = window.innerWidth;
+      const splideTrack = document.querySelector('#shopify-section-{{section.id}} .splide__track');
+      const splideSlides = splideTrack.querySelectorAll('.splide__slide');
+      
+      if (screenWidth <= 699) {
+        // 在屏幕宽度小于等于 699px 时，每个项的宽度设置为50%
+        splideSlides.forEach(slide => {
+          slide.style.flex = '0 0 70%';  // 设置每个项宽度为50%
+        });
+      }else {
+        // 否则恢复默认宽度
+        splideSlides.forEach(slide => {
+          slide.style.flex = '0 0 25%';  // 恢复每个项的默认宽度为100%
+        });
+      }
+    }
+
+    // 初始调用
+    adjustItemWidth();
+
+    // 监听窗口大小变化
+    window.addEventListener('resize', adjustItemWidth);
   });
 </script>
 

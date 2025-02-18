@@ -152,16 +152,23 @@
   }
   @media (max-width:1024px){
     #shopify-section-{{sid}} .e_product_item .e_info h3{
+      font-size: 12px;
     }
     #shopify-section-{{sid}} .e_product_item .e_info .price{
     }
   }
   @media (max-width:767px){
+    #shopify-section-{{sid}} .product_ctrl {
+    display: none;
+  }
     #shopify-section-{{sid}} .setion-title-block{
       margin-bottom: 16px;
     }
     #shopify-section-{{sid}} .section-product-popup_swiper{
       padding:0 max(var(--container-gutter),50% - var(--container-max-width) / 2);
+    }
+    #shopify-section-{{sid}} .e_product_item .e_info{
+      padding: 12px 0;
     }
     #shopify-section-{{sid}} .e_product_item .e_info h3{
     }
@@ -180,6 +187,9 @@
     .continue-shopping{
       min-width: 180px;
       margin-top: 30px;
+      font-size: 9px;
+        padding: 4px 17px;
+        margin-left: 20px;
     }
   }
 </style>

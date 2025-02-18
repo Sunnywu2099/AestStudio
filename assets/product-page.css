@@ -168,5 +168,40 @@ legend{
     line-height: 30.8px;
     letter-spacing: 0.9px;
   }
+  fieldset legend,
+  fieldset span{
+    font-size: 10px;
+  }
+  .color_box.variant-picker__option-values .color_item{
+    width: 16px;
+    height: 16px;
+  }
+  .block-swatch{
+    min-width: auto;
+  }
+  .buy-buttons-wrapper{
+    gap: 8px;
+  }
+  .buy-buttons-wrapper .button{
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .buy-buttons-wrapper .wishlist-btn{
+    width: 32px;
+  }
+  .buy-buttons-wrapper .wishlist-btn svg{
+    width: 10px;
+  }
+  .accordion__toggle{
+    font-size: 10px;
+    padding-block: 6px;
+  }
+  .section-spacing{
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+  }
+
+
 }
 
