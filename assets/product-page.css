@@ -7,7 +7,7 @@
 }
 .buy-buttons-wrapper .wishlist-btn{
   width: 42px;
-  height: inherit;
+  height: 42px;
   flex-shrink: 0;
   border-radius: 2px;
   background: #25282A;

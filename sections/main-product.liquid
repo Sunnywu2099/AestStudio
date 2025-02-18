@@ -35,6 +35,99 @@
       {%- endif -%}
     }
   }
+
+  #shopify-section-{{ section.id }} .variant-picker__option-values.label_w-3{
+    gap:12px 8px;
+  }
+  #shopify-section-{{ section.id }} .variant-picker__option-values.label_w-3>label{
+    width: calc((100% - 16px)/3);
+    height: 48px;
+    color: #000;
+    border-color: #000;
+  }
+  #shopify-section-{{ section.id }} .variant-picker__option-values.label_w-3>input:checked+label{
+    background-color: #25282a;
+    color: #fff;
+  }
+  #shopify-section-{{ section.id }} .product-info__block-item buy-buttons button[type="submit"]:disabled{
+    display: none;
+  }
+  #shopify-section-{{ section.id }} .product-info__block-item .notify_details{
+    margin-top: 12px;
+  }
+  .notify_modal {
+    --modal-body-max-width: 575px;
+  }
+  .notify_modal .h5{
+    text-align: left;
+    font-size: 16px;
+    text-transform: unset;
+    padding: 4px 0px;
+  }
+  .notify_modal.modal::part(body){
+    padding: 20px 28px;
+  }
+  .notify_modal .notify_popup-text1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 0.6px;
+  }
+  .notify_modal .notify_popup-text2{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 0.6px;
+    opacity: 0.85;
+    margin-top: 12px;
+  }
+  .notify_modal .input[type="email"] {
+    padding-left:0;
+    border-color: transparent;
+    border-bottom-color: #aaaaaa;
+  }
+  .notify_modal .input[type="email"]::placeholder {
+    opacity: 1;
+  }
+  .notify_modal .input.check[type="email"]:invalid::placeholder,
+  .notify_modal .input.check[type="email"]:invalid {
+    color:#DB3844;
+    border-bottom-color: #DB3844;
+
+  }
+  .notify_modal .agree_row {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+  }
+  .notify_modal .agree_row input{
+    width:20px;
+    height:20px;
+  }
+  .notify_modal .agree_row input.check:invalid+label{
+    color:#DB3844;
+  }
+  .notify_modal .agree_row label{
+    margin: 0;
+    font-size: 10px;
+    padding-top: 3px;
+  }
+  .notify_modal .agree_row label a{
+    color:rgb(var(--text-color));
+  }
+  .notify_modal button[type="submit"]{
+    width: 100%;
+    max-width:416px;
+    margin:3rem auto 0;
+  }
+  .notify_modal .popup_footer{
+    opacity: 0.85;
+    font-size: 10px;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 0.6px;
+    text-align: center;
+  }
+  .notify_modal .h-captcha{display: none;}
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
@@ -551,6 +644,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
       "limit": 1,
       "settings": [
         {
+          "type": "text",
+          "id": "hide_option_name",
+          "label": "隐藏选项名称",
+          "info": "以,隔开，且当应用之后对应的选项也会变大，宽为1/3"
+        },
+        {
           "type": "checkbox",
           "id": "hide_sold_out_variants",
           "label": "t:sections.main_product.blocks.variant_picker.hide_sold_out_variants",
@@ -806,6 +905,62 @@ quick buy information in a template, that will be extracted in JS, which ensures
       "limit": 1,
       "settings": [
         {
+          "type": "header",
+          "content": "Notify Me"
+        },
+        {
+          "type": "text",
+          "id": "notify_me",
+          "label":"Notify Me",
+          "default": "Notify Me"
+        },
+        {
+          "type": "text",
+          "id": "notify_me_details",
+          "label":"Notify Me detail",
+          "default": "*Estimated delivery within 2-3 business days."
+        },
+        {
+          "type": "header",
+          "content": "Notify me popup"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_title",
+          "label": "Notify me title",
+          "default":"Notify me"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_text1",
+          "label": "Notify me text 1",
+          "default":"We will email you when this product is available"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_text2",
+          "label": "Notify me text 2",
+          "default":"*Estimated delivery within 2-3 business days."
+        },
+        {
+          "type":"richtext",
+          "id": "notify_popup_confirm1",
+          "label": "Notify me confirm 1",
+          "default":"<p>I confirm that i have read and understood the <a href='/policies/privacy-policy' title='Privacy Policy'>Privacy Policy</a></p>"
+        },
+        {
+          "type":"richtext",
+          "id": "notify_popup_confirm2",
+          "label": "Notify me confirm 2",
+          "default":"<p>I would like to receive updates about new launches and other onspirational content</p>"
+        },
+        {
+          "type":"text",
+          "id": "notify_popup_tips",
+          "label": "Notify me footer",
+          "default":"This site is protected by recaptcha and the google Privacy Policy and Terms Of Service apply."
+        },
+        {
           "type": "checkbox",
           "id": "show_payment_button",
           "label": "t:sections.main_product.blocks.buy_buttons.show_payment_button",
@@ -818,6 +973,54 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "label": "t:sections.main_product.blocks.buy_buttons.show_gift_card_recipient",
           "info": "t:sections.main_product.blocks.buy_buttons.show_gift_card_recipient_info",
           "default": true
+        },
+        {
+          "type": "text",
+          "id": "who_is_it_for",
+          "label": "Who Is It For?",
+          "default": "Who Is It For?"
+        },
+        {
+          "type": "text",
+          "id": "add_a_message",
+          "label": "Add A Message（Optional）",
+          "default": "Add A Message（Optional）"
+        },
+        {
+          "type": "textarea",
+          "id": "msg_desc",
+          "label": " Message decription",
+          "default": "Hint: Let the recipient know who the gift card is from, and add a special touch with a personalized message."
+        },
+        {
+          "type": "text",
+          "id": "for_me",
+          "label": " For me",
+          "default": "For me"
+        },
+        {
+          "type": "textarea",
+          "id": "for_me_desc",
+          "label": " For me",
+          "default": "Once your gift card is purchased, you will receive an email containing the card and instructions on how to use it."
+        },
+        {
+          "type": "text",
+          "id": "select_date",
+          "label": "Select Delivery Date",
+          "default": "Select Delivery Date"
+        },
+        {
+          "type": "text",
+          "id": "send_now",
+          "label": "Send Now",
+          "default": "Send Now"
+        },
+        {
+          "type": "text",
+          "id": "send_other",
+          "label": "Send At Later Time",
+          "default": "Send At Later Time"
         },
         {
           "type": "color",

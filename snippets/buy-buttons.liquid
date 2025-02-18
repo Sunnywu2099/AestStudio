@@ -30,6 +30,53 @@ Supported variables
     endif
   -%}
 
+  {% if recipient_feature_active %}  
+    <style>
+      gift-card-recipient.gift-card-recipient{
+        margin-top: 32px;
+        gap: 18px;
+      }
+      .gift-block-header{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.4; /* 140% */
+        letter-spacing: 0.7px;
+      }
+      .gift-block-header.msg{
+        margin-top: 14px;
+      }
+      .gift-block-header .desc{
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-top: 8px;
+        margin-bottom: -6px;
+      }
+      .target_select{
+        display: flex;
+        gap: 32px;
+      }
+      .target_select input{
+        border-radius: 50%;
+      }
+      .target_select input:checked{
+        background: url({{ 'circle-white-black.svg' | asset_url }}) no-repeat center / 0 #000;
+        background-size: contain;
+        pointer-events: none;
+      }
+      .gift-card-recipient__fields .input,.gift-card-recipient__fields .textarea{
+        border-color: #5b5b5b8f;
+      }
+      .gift-card-recipient__fields .input::placeholder,
+      .gift-card-recipient__fields .textarea::placeholder{
+        opacity: 1;
+      }
+      .gift-card-recipient__fields .form-control label{
+        display: none;
+      }
+    </style>
+  {% endif %}
+
   <product-form>
     {%- form 'product', product, id: form_id -%}
       <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -53,31 +100,6 @@ Supported variables
       %}
 
       <div class="buy-buttons-wrapper">
-        {%- if recipient_feature_active -%}
-          <gift-card-recipient class="gift-card-recipient v-stack gap-3">
-            {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
-            {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]' -%}
-
-            <div class="gift-card-recipient__fields" hidden>
-              <div class="fieldset">
-                {%- liquid
-                  assign recipient_email_label = 'gift_card.recipient.email_label' | t
-                  render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
-
-                  assign recipient_name_label = 'gift_card.recipient.name_label' | t
-                  render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name
-
-                  assign send_on_label = 'gift_card.recipient.send_on_label' | t
-                  render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
-                  render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
-
-                  assign message_label = 'gift_card.recipient.message_label' | t
-                  render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
-                -%}
-              </div>
-            </div>
-          </gift-card-recipient>
-        {%- endif -%}
 
         <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--has-dynamic{% endif %}" form="{{ form_id }}">
           {%- if show_payment_button and atc_button_background == blank and atc_button_text_color == blank -%}
@@ -87,6 +109,15 @@ Supported variables
           {%- endif -%}
 
           {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+          
+          <div class="notify_me-wrapper" {% unless button_disabled %} hidden {% endunless %}>
+            {%- assign modal_id = product_form_id | append: block.id |  append: '-notify_me' -%}
+            
+            {%- render 'button', content: block.settings.notify_me, aria_controls: modal_id, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+            {%if block.settings.notify_me_details != blank%}
+              <p class="notify_details" {% unless button_disabled %} hidden {% endunless %}>{{block.settings.notify_me_details}}</p>
+            {% endif %}
+          </div>
 
           {%- if show_payment_button -%}
             {{- form | payment_button -}}
@@ -110,6 +141,69 @@ Supported variables
         </buy-buttons>
         {% render "add-to-wishlist-main", product:product %}
       </div>
+      {%- if recipient_feature_active -%}
+        <gift-card-recipient class="gift-card-recipient v-stack gap-3">
+
+          <div class="gift-block-header">{{block.settings.who_is_it_for}}</div>
+          <div class="target_select">
+            {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
+            {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]', checked: true -%}
+
+            {%- render 'checkbox', label: block.settings.for_me, id_prefix: 'for_me'  -%}
+          </div>
+
+          <div class="gift-card-recipient__fields">
+            <div class="fieldset">
+              {%- liquid
+                assign recipient_name_label = 'gift_card.recipient.name_label' | t
+                render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name, required: true
+                
+                assign recipient_email_label = 'gift_card.recipient.email_label' | t
+                render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
+              -%}
+              
+              <div class="gift-block-header msg">
+                {{block.settings.add_a_message}}
+                {% if block.settings.msg_desc != blank %} 
+                  <p class="desc">{{block.settings.msg_desc}}</p>
+                {% endif %}
+              </div>
+              {%- liquid
+                assign message_label = 'gift_card.recipient.message_label' | t
+                render 'input', label: message_label, name: 'properties[Message]', value: form.message, multiline: 3, maxlength: 20, show_count:true 
+              -%}
+
+              {% if block.settings.select_date != blank %}  
+                <div class="gift-block-header">{{block.settings.select_date}}</div>
+              {% endif %}
+
+              <div class="target_select">
+                {%- render 'checkbox', label: block.settings.send_now, id_prefix: 'send_now', checked: true -%}
+
+                {%- render 'checkbox', label: block.settings.send_other, id_prefix: 'send_other'  -%}
+              </div>
+              
+              <div class="select_date_box" hidden>
+              {%- liquid
+                assign send_on_label = 'gift_card.recipient.send_on_label' | t
+                render 'input', type: 'date', label: send_on_label, name: 'properties[Send on]', value: form.send_on, pattern: '\d{4}-\d{2}-\d{2}'
+                render 'input', type: 'hidden', name: 'properties[__shopify_offset]'
+              -%}
+              </div>
+
+
+            </div>
+          </div>
+
+          {% if block.settings.for_me_desc != blank %} 
+            <div class="gift-card-for_me" hidden>
+              {{block.settings.for_me_desc}}
+            </div>
+          {% endif %}
+
+
+        </gift-card-recipient>
+      {%- endif -%}
     {%- endform -%}
   </product-form>
 {%- else -%}
@@ -117,4 +211,121 @@ Supported variables
     {%- assign button_content = 'product.general.add_to_cart_button' | t -%}
     {%- render 'button', content: button_content, type: 'submit', background: variant_picker_block.settings.atc_button_background, text_color: variant_picker.settings.atc_button_text_color, stretch: true -%}
   </buy-buttons>
+{%- endif -%}
+
+<x-modal id="{{ modal_id | escape }}" class="modal notify_modal modal--lg color-scheme color-scheme--dialog">
+  <span class="h5" slot="header">{{ block.settings.notify_popup_title }}</span>
+
+  <div class="prose">
+    {% if block.settings.notify_popup_text1 != blank %}  
+      <p class="notify_popup-text1">{{- block.settings.notify_popup_text1 -}}</p>
+    {% endif %}
+    {% if block.settings.notify_popup_text2 != blank %}  
+      <p class="notify_popup-text2">{{- block.settings.notify_popup_text2 -}}</p>
+    {% endif %}
+
+    {%- form 'contact', class: 'form' -%}
+      {%- if form.posted_successfully? -%}
+        {%- assign content = 'contact.form.success_message' | t -%}
+        {%- render 'banner', status: 'success', content: content -%}
+      {%- endif -%}
+
+      {%- if form.errors -%}
+        {%- capture content -%}{{ form.errors.translated_fields[form.errors.first] | capitalize }} {{ form.errors.messages[form.errors.first] }}{%- endcapture -%}
+        {%- render 'banner', status: 'error', content: content -%}
+      {%- endif -%}
+
+      <div class="fieldset">
+
+        <div class="fieldset-row">
+          {%- assign label  = 'contact.form.email' | t -%}
+          {%- render 'input', type: 'email', name: 'contact[email]', label: label, label_hidden:true, value: customer.email, required: true, autocomplete: 'email' -%}
+        </div>
+
+        {% if block.settings.notify_popup_confirm1 != blank %}  
+          <div class="agree_row">
+            {%- assign label  = block.settings.notify_popup_confirm1 -%}
+            <input type="checkbox" id="notify_popup_confirm1" required>
+            <label for="notify_popup_confirm1"> {{label}}</label>
+          </div>
+        {% endif %} 
+        {% if block.settings.notify_popup_confirm2 != blank %}  
+          <div class="agree_row">
+            {%- assign label  = block.settings.notify_popup_confirm2 -%}
+            <input type="checkbox" id="notify_popup_confirm2">
+            <label for="notify_popup_confirm2"> {{label}}</label>
+          </div>
+        {% endif %} 
+      </div>
+
+      {%- render 'button', content: block.settings.notify_me, type: 'submit' -%}
+      {% if block.settings.notify_popup_tips != blank %}  
+        <p class="popup_footer">{{block.settings.notify_popup_tips}}</p>
+      {% endif %}
+    {%- endform -%}
+
+  </div>
+</x-modal>
+
+<script type="module">
+    $('.notify_modal button[type="submit"]').on('click',function(){
+    let el = $(this);
+    el.parents('#contact_form').find('input[required]').addClass('check');
+    // el.parents('#contact_form').find('input[required]').each(function(index,element){
+    //   if (element.validity.valueMissing == true) {
+    //       element.setCustomValidity(' ');
+    //   }
+    //   element.reportValidity();
+    // })
+    //  addClass('check')
+    // .setCustomValidity(' ');
+  })
+</script>
+
+{%- if recipient_feature_active -%}
+  <script type="module">
+    $('#checkbox-for_me-{{ section.id }}---').on('click',function(){
+       let el = $(this);
+       if(el.prop('checked')){
+        el.parents('.target_select').find(`input[name='properties[__shopify_send_gift_card_to_recipient]']`).prop('checked',false);
+        el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',true);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('').attr('disabled',true);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('').attr('disabled',true);
+       }
+    });
+    $('input[name="properties[__shopify_send_gift_card_to_recipient]"]').on('click',function(){
+       let el = $(this);
+       console.log(el.prop('checked'));
+       if(el.prop('checked')){
+        el.parents('.target_select').find(`input#checkbox-for_me-{{ section.id }}---`).prop('checked',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields').attr('hidden',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields input').val('').attr('disabled',false);
+        el.parents('gift-card-recipient').find('.gift-card-recipient__fields textarea').val('').attr('disabled',false);
+        el.parents('gift-card-recipient').find('.gift-card-for_me').attr('hidden',true);
+       }
+    });
+
+    $('#input--{{section.id}}--propertiesmessage').on('input', function() {
+        let charCount = $(this).val().length;
+        $(this).parent().find('span.num').text(charCount);
+    });
+
+    $('#checkbox-send_other-{{ section.id }}---').on('click',function(){
+       let el = $(this);
+       if(el.prop('checked')){
+        el.parents('.target_select').find(`#checkbox-send_now-{{ section.id }}---`).prop('checked',false);
+        el.parents('.target_select').next().attr('hidden',false);
+       }
+    });
+    $('#checkbox-send_now-{{ section.id }}---').on('click',function(){
+       let el = $(this);
+       if(el.prop('checked')){
+        el.parents('.target_select').find(`#checkbox-send_other-{{ section.id }}---`).prop('checked',false);
+        el.parents('.target_select').next().attr('hidden',true);
+        el.parents('.target_select').next().find('input').val('');
+       }
+    });
+
+  </script>
 {%- endif -%}
