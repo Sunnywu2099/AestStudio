@@ -28,7 +28,8 @@
             "img": "shopify://shop_images/1_1.png",
             "img_m": "shopify://shop_images/1_1.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_KzGGDU": {
@@ -51,6 +52,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -140,7 +142,7 @@
             "title": "Capture SHE Collection",
             "content": "Capture SHE Collection The Capture 'SHE' Collection is AEST's debut series, drawing inspiration from the traditional camera bag and blending timeless design with fashion and elegance to fulfill both functional and aesthetic needs.\nExplore the Capture 'SHE' Collection's Shoulder Bags, Sling Bags, Small Bags and Mini Bags , crafted in hand-finished oil-waxed cow leather with brushed matte silver hardware.",
             "table": "<div>\n                                    <span></span>\n                                    <span>material</span>\n                                    <span>size</span>\n                                    <span>weight</span>\n                                    <span>opening method</span>\n                                </div>\n                                <div>\n                                    <span>Capture Large Shoulder Bag</span>\n                                    <span>100% Calf</span>\n                                    <span>39.5x13.5x18cm</span>\n                                    <span>1.2 kg</span>\n                                    <span>Dual zippers/Magenet</span>\n                                </div>\n                                <div>\n                                    <span>Capture Medium Sling Bag</span>\n                                    <span>100% Calf</span>\n                                    <span>33x11x13.5cm</span>\n                                    <span>1.0kg</span>\n                                    <span>Zipper</span>\n                                </div>\n                                <div>\n                                    <span>Capture Small Bag</span>\n                                    <span>100% Calf</span>\n                                    <span>11x4.5x17cm</span>\n                                    <span>0.5kg</span>\n                                    <span>Magenet</span>\n                                </div>",
-            "btn": "ViEW ALL",
+            "btn": "VIEW ALL",
             "link": "shopify://collections/capture-she-series"
           }
         },
