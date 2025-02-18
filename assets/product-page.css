@@ -179,6 +179,9 @@ legend{
   .block-swatch{
     min-width: auto;
   }
+  .buy-buttons-wrapper{
+    gap: 8px;
+  }
   .buy-buttons-wrapper .button{
     font-size: 10px;
     padding-top: 7px;
