@@ -68,6 +68,10 @@ Supported variables
       <span class="form-control__max-characters-count text-sm text-subdued text-end">{{ 'general.form.max_characters' | t: max_chars: maxlength }}</span>
     {%- endif -%}
 
+    {%- if show_count and maxlength > 0 -%}
+      <span class="form-control__max-characters-count text-sm text-subdued text-end count"><span class="num">0</span> / {{maxlength}}</span>
+    {%- endif -%}
+
     {%- if label != blank and show_label_as_block != true -%}
       <label for="{{ id }}" class="{% if label_hidden %}sr-only{% else %}floating-label text-xs{% endif %}">{{ label }}</label>
     {%- endif -%}

@@ -23,6 +23,7 @@ Supported variables
   assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ','
   assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ','
   assign variant_image_options = variant_image_options | replace: ', ', ',' | downcase | split: ','
+  assign hide_option_name = hide_option_name | split: ','
 
   if context == 'main_product'
     assign is_main_product = true
@@ -63,7 +64,15 @@ Supported variables
       %}
 
       <fieldset class="variant-picker__option v-stack gap-2">
-        <div class="variant-picker__option-info h-stack justify-between gap-2">
+
+      {% assign is_need_hidden = false %}
+      {% for hide_option in hide_option_name %}
+        {% if hide_option == option.name %}  
+          {% assign is_need_hidden = true %}
+        {% endif %}
+      {% endfor %}
+
+        <div class="variant-picker__option-info h-stack justify-between gap-2" {% if is_need_hidden %} hidden {% endif %}>
           <div class="h-stack gap-1">
             <legend>{{ option.name }}:</legend>
 
@@ -171,7 +180,7 @@ Supported variables
                 </div>
             
           {% else %}
-              <div class="variant-picker__option-values {{ list_classes }}" >
+              <div class="variant-picker__option-values {{ list_classes }} {% if is_need_hidden %} label_w-3 {% endif %}" >
                 {% liquid
                   assign name = form_id | append: '-option' | append: option.position
 
