@@ -103,6 +103,16 @@
   .notify_modal .agree_row input{
     width:20px;
     height:20px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #c6c6c6;
+  }
+  .notify_modal .agree_row input:checked{
+    background-color: #000;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 24 24'><path fill='%23ffffff' d='m9 20.42l-6.21-6.21l2.83-2.83L9 14.77l9.88-9.89l2.83 2.83z'/></svg>");
   }
   .notify_modal .agree_row input.check:invalid+label{
     color:#DB3844;
@@ -128,6 +138,9 @@
     text-align: center;
   }
   .notify_modal .h-captcha{display: none;}
+  .buy-buttons-wrapper .wishlist-btn[data-added="true"] svg{
+    fill:#fff;
+  }
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}

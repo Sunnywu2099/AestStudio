@@ -7881,3 +7881,7 @@ ul {
   
 
 }
+.hulk__wishlist-wrap .wishlist-grid-view .wishlist-card{
+  box-shadow: unset!important;
+  padding: 18px 0 !important;
+}
