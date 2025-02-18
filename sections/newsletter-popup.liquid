@@ -100,11 +100,16 @@
   // 显示订阅弹框
   const subscribePopup = document.getElementById('subscribe-popup');
     subscribePopup.style.display = 'block';
-    setTimeout(function(){
-      
-       // subscribePopup.style.opacity = 1;
-      subscribePopup.classList.add('show')
-    },3000);
+    const isSubscribed = localStorage.getItem('isSubscribed');
+    const isPopupClosed = sessionStorage.getItem('isPopupClosed');
+    if (!isSubscribed && !isPopupClosed){
+      setTimeout(function(){
+        
+         // subscribePopup.style.opacity = 1;
+        subscribePopup.classList.add('show')
+      },3000);
+    }
+    
   
 
   // 关闭弹框
@@ -112,7 +117,7 @@
   
   closeButton.addEventListener('click', function () {
     subscribePopup.style.display = 'none';
-   
+    sessionStorage.setItem('isPopupClosed', 'true');
   });
   subscribePopup.appendChild(closeButton);
 });
