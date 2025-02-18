@@ -197,5 +197,11 @@ legend{
     font-size: 10px;
     padding-block: 6px;
   }
+  .section-spacing{
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+  }
+
+
 }
 
