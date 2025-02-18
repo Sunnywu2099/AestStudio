@@ -1,3 +1,6 @@
+:is(.link,.prose a:not(.h1,.h2,.h3,.h4,.h5,.h6,.button,.link-faded,.link-faded-reverse)):hover{
+  background-size: 0 0;
+}
 .buy-buttons-wrapper{
   display: flex;
   gap: 12px;
@@ -156,6 +159,14 @@ legend{
   .product-gallery__image-list .product-gallery__media>*{
     min-height: 850px;
     object-fit: cover;
+  }
+}
+@media screen and (max-width: 699px){
+  .product-title.h3{
+    color: #25282A;
+    font-size: 18px;
+    line-height: 30.8px;
+    letter-spacing: 0.9px;
   }
 }
 
