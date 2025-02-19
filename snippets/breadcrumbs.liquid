@@ -34,7 +34,7 @@
     {% if page.metafields.custom.has_parent_page.value != blank %}
       {% assign page_value = page.metafields.custom.has_parent_page.value %}
       <span aria-hidden="true">{{ arrow_right }}</span>
-      <a href="{{page_value.page_url.value}}">{{page_value.page_title.value}}</a>
+      <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
     <span aria-hidden="true">{{ arrow_right }}</span>
     <span>{{ page.title }}</span>
