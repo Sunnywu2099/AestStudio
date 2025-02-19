@@ -121,6 +121,10 @@ legend{
   border: 1px solid #000;
   background: content-box #000 no-repeat center / cover;
 }
+.custom-box{
+  display: flex;
+  gap: 5px;
+}
 .custom-box .wishlist-btn{
   width: 42px;
   height: 42px;
