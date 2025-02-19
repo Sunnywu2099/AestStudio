@@ -243,6 +243,17 @@
             "link": "shopify://pages/your-voice"
           }
         },
+        "block_dwaUxg": {
+          "type": "block",
+          "settings": {
+            "color": "#ffffff",
+            "type": "img",
+            "img": "shopify://shop_images/Mask_group_49.png",
+            "img_m": "shopify://shop_images/Mask_group_49.png",
+            "btn": "Special Projects",
+            "link": "shopify://pages/special-projects"
+          }
+        },
         "block_n4jTGh": {
           "type": "block",
           "settings": {
@@ -254,26 +265,15 @@
             "link": "shopify://pages/our-mission"
           }
         },
-        "block_QKp4UY": {
+        "block_9tqePb": {
           "type": "block",
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_3_bb962c84-df65-4141-b074-9c25c3263da9.png",
-            "img_m": "shopify://shop_images/Clip_path_group_3_bb962c84-df65-4141-b074-9c25c3263da9.png",
-            "btn": "Help Center",
-            "link": "shopify://pages/faq"
-          }
-        },
-        "block_dwaUxg": {
-          "type": "block",
-          "settings": {
-            "color": "#ffffff",
-            "type": "img",
-            "img": "shopify://shop_images/Mask_group_49.png",
-            "img_m": "shopify://shop_images/Mask_group_49.png",
-            "btn": "Special Projects",
-            "link": "shopify://pages/special-projects"
+            "img": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
+            "img_m": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
+            "btn": "Cooperation Plan",
+            "link": "shopify://pages/cooperation-plan"
           }
         },
         "block_QbwJXH": {
@@ -287,26 +287,26 @@
             "link": "shopify://pages/exhibition-events"
           }
         },
-        "block_9tqePb": {
+        "block_QKp4UY": {
           "type": "block",
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
-            "img_m": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
-            "btn": "Cooperation Plan",
-            "link": "shopify://pages/cooperation-plan"
+            "img": "shopify://shop_images/Clip_path_group_3_bb962c84-df65-4141-b074-9c25c3263da9.png",
+            "img_m": "shopify://shop_images/Clip_path_group_3_bb962c84-df65-4141-b074-9c25c3263da9.png",
+            "btn": "Help Center",
+            "link": "shopify://pages/faq"
           }
         }
       },
       "block_order": [
         "block_cTwNpV",
         "block_DCpCth",
-        "block_n4jTGh",
-        "block_QKp4UY",
         "block_dwaUxg",
+        "block_n4jTGh",
+        "block_9tqePb",
         "block_QbwJXH",
-        "block_9tqePb"
+        "block_QKp4UY"
       ],
       "settings": {
         "section_title": "AEST CLUB"
