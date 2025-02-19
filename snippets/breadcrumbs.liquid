@@ -24,6 +24,11 @@
     display: block;
     white-space: nowrap;
   }
+  .breadcrumb>span.active,
+  .breadcrumb>a.active{
+    color: #000;
+    font-weight: 400;
+  }
   @media (max-width: 768px) {
     .breadcrumb-bar{
       margin-bottom: 20px;
@@ -48,7 +53,7 @@
       <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
     <span aria-hidden="true">{{ arrow_right }}</span>
-    <span>{{ page.title }}</span>
+    <span class="active">{{ page.title }}</span>
 
   {% elsif template contains 'product' %}
 
@@ -62,7 +67,7 @@
 
     <span aria-hidden="true">{{ arrow_right }}</span>
 
-    <span>{{ product.title }}</span>
+    <span class="active">{{ product.title }}</span>
 
   {% elsif template contains 'collection' and collection.handle %}
 
@@ -80,7 +85,7 @@
 
     {% else %}
 
-      <span>{{ collection.title }}</span>
+      <span class="active">{{ collection.title }}</span>
 
     {% endif %}
 
@@ -98,7 +103,7 @@
 
     {% else %}
 
-    <span>{{ blog.title }}</span>
+    <span class="active">{{ blog.title }}</span>
 
     {% endif %}
 
@@ -110,13 +115,13 @@
 
     <span aria-hidden="true">{{ arrow_right }}</span>
 
-    <span>{{ article.title }}</span>
+    <span class="active">{{ article.title }}</span>
 
   {% else %}
 
    <span aria-hidden="true">{{ arrow_right }}</span>
 
-   <span>{{ page_title }}</span>
+   <span class="active">{{ page_title }}</span>
 
   {% endif %}
 
