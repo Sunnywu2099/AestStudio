@@ -232,30 +232,35 @@
         </div>
       </div>
 
-      <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
-        {%- liquid
-          assign button_disabled = false
-          assign button_style = 'solid'
+      <div class="custom-box">
+        <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
+          {%- liquid
+            assign button_disabled = false
+            assign button_style = 'solid'
 
-          if product.selected_or_first_available_variant == nil
-            assign button_disabled = true
-            assign button_style = 'outline'
-            assign button_content = 'product.general.unavailable_button' | t
-          elsif product.selected_or_first_available_variant.available == false
-            assign button_disabled = true
-            assign button_style = 'outline'
-            assign button_content = 'product.general.sold_out_button' | t
-          else
-            if product.template_suffix contains 'pre-order'
-              assign button_content = 'product.general.pre_order_button' | t
+            if product.selected_or_first_available_variant == nil
+              assign button_disabled = true
+              assign button_style = 'outline'
+              assign button_content = 'product.general.unavailable_button' | t
+            elsif product.selected_or_first_available_variant.available == false
+              assign button_disabled = true
+              assign button_style = 'outline'
+              assign button_content = 'product.general.sold_out_button' | t
             else
-              assign button_content = 'product.general.add_to_cart_button' | t
+              if product.template_suffix contains 'pre-order'
+                assign button_content = 'product.general.pre_order_button' | t
+              else
+                assign button_content = 'product.general.add_to_cart_button' | t
+              endif
             endif
-          endif
-        -%}
+          -%}
 
-        {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
-      </buy-buttons>
+          {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
+        </buy-buttons>
+        <div>
+          {% render "add-to-wishlist-main", product:product %}
+        </div>
+      </div>
     </product-sticky-bar>
   </product-rerender>
 {%- endif -%}
