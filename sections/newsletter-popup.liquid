@@ -103,6 +103,9 @@
   window.addEventListener('load', function () {
   // 显示订阅弹框
   const subscribePopup = document.getElementById('subscribe-popup');
+    
+    
+    
     subscribePopup.style.display = 'block';
     const isSubscribed = localStorage.getItem('isSubscribed');
     const isPopupClosed = sessionStorage.getItem('isPopupClosed');
@@ -112,6 +115,12 @@
          // subscribePopup.style.opacity = 1;
         subscribePopup.classList.add('show')
       },3000);
+    }
+
+    if(subscribePopup.classList.contains('letter_is_success')){
+      localStorage.setItem('isSubscribed', 'true');
+    }else{
+      
     }
     
   
