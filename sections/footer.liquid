@@ -181,15 +181,10 @@
                   {%- endif -%}
 
                 {%- when 'newsletter' -%}
-
-
                   <div class="v-stack gap-4 sm:gap-5">
                     {%- if block.settings.title != blank -%}
                       <p class="h6">{{ block.settings.title }}</p>
                     {%- endif -%}
-
-
-
                     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
 
                     {%- form 'customer', id: newsletter_form_id, class: 'form form-input' -%}
@@ -233,8 +228,9 @@
                     {%- if block.settings.content != blank -%}
                       <div class="prose text-subdued">
                         {{- block.settings.content -}}
-                      </div>
+                      </div>                  
                     {%- endif -%}
+                    <div>{%- render 'social-media', layout: 'list' -%}</div>
                   </div>
 
               
