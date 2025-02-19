@@ -4873,6 +4873,9 @@ product-rerender {
     /* width: 1.375rem; */
     width: 20px;
   }
+  .product-card{
+    gap: 9px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
