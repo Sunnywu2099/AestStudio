@@ -77,7 +77,9 @@
 
   .form-control > label.error{
   color:rgba(219, 56, 68, 1);}
-
+  .newsletter__social{
+    display: none;
+  }
   @media screen and (max-width: 699px) {
     .footer input{
       padding-top: 6px;
@@ -97,6 +99,9 @@
     }
     .form-input .align-self-start button svg{
       width: 15px;
+    }
+    .newsletter__social{
+      display: block;
     }
   }
 </style>
@@ -230,7 +235,7 @@
                         {{- block.settings.content -}}
                       </div>                  
                     {%- endif -%}
-                    <div>{%- render 'social-media', layout: 'list' -%}</div>
+                    <div class="newsletter__social">{%- render 'social-media', layout: 'list' -%}</div>
                   </div>
 
               
