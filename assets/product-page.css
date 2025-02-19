@@ -177,6 +177,12 @@ legend{
   }
 }
 @media screen and (max-width: 699px){
+  .custom-box{
+    justify-content: center;
+  }
+  .custom-box .buy-buttons{
+    flex: 1;
+  }
   .product-title.h3{
     color: #25282A;
     font-size: 18px;
