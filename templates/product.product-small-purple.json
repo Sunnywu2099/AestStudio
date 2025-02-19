@@ -510,44 +510,44 @@
     "product_follows_RnNaCy": {
       "type": "product-follows",
       "blocks": {
-        "item_anpEhe": {
+        "item_GQee7r": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/04.png",
             "img_m": "shopify://shop_images/04.png",
-            "url": ""
+            "url": "https://www.instagram.com/aeststudios/"
           }
         },
-        "item_UDQBEq": {
+        "item_MXCjy6": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
-            "img_m": "shopify://shop_images/Rectangle_271.png",
-            "url": ""
+            "img_m": "shopify://shop_images/02_6780b597-783f-448b-9306-e77fcb066445.png",
+            "url": "https://www.instagram.com/aeststudios/"
           }
         },
-        "item_y4gwVC": {
+        "item_wKmqNP": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
             "img_m": "shopify://shop_images/03_e573e5ad-c5a8-47be-a94a-bee05b476ecd.png",
-            "url": ""
+            "url": "https://www.instagram.com/aeststudios/"
           }
         },
-        "item_KTPm4E": {
+        "item_xUfpTQ": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/1-01.png",
             "img_m": "shopify://shop_images/1-01.png",
-            "url": ""
+            "url": "https://www.instagram.com/aeststudios/"
           }
         }
       },
       "block_order": [
-        "item_anpEhe",
-        "item_UDQBEq",
-        "item_y4gwVC",
-        "item_KTPm4E"
+        "item_GQee7r",
+        "item_MXCjy6",
+        "item_wKmqNP",
+        "item_xUfpTQ"
       ],
       "settings": {
         "title": "Follow Us"
