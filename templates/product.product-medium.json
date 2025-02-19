@@ -592,6 +592,7 @@
         "item_GgWFyb",
         "item_Ytgr9N"
       ],
+      "disabled": true,
       "settings": {
         "title": "Follow Us"
       }
@@ -638,7 +639,6 @@
         "item_qab8TY",
         "item_mCdfmx"
       ],
-      "disabled": true,
       "settings": {
         "title": "Follow Us"
       }
