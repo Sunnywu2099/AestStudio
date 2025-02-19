@@ -418,7 +418,7 @@
     });
 
     function init_menu(){
-      if (window.innerWidth < 700) {
+      if ($(window).width() < 700) {
         $('.footer .footer__block--links .menu_title').click(function () {
           $(this).toggleClass('active');
           $(this).next('.menu-list').slideToggle();
