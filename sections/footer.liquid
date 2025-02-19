@@ -188,7 +188,13 @@
                   {%- if menu != blank and menu.links.size > 0 -%}
                     <div class="v-stack gap-4 sm:gap-5">
                       {%- if block.settings.show_menu_title != blank -%}
-                        <p class="h6 menu_title">{{ block.settings.menu_title | default: menu.title }}</p>
+                        <p class="h6 menu_title">{{ block.settings.menu_title | default: menu.title }}
+                          <span class="menu_toggle">
+                            <svg width="7" height="5" viewBox="0 0 7 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M3.20155 5L0 -3.0598e-07L0.931524 -2.65261e-07L3.5 4.10042L3.4186 4.05858L3.59948 4.05858L3.51809 4.10042L6.06848 -4.07182e-08L7 0L3.80749 5L3.20155 5Z" fill="#25282A"/>
+                            </svg>
+                          </span>
+                        </p>
                       {%- endif -%}
 
                       <ul class="v-stack gap-2.5 unstyled-list menu-list" role="list">
