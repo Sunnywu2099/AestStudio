@@ -128,6 +128,9 @@ legend{
   border-radius: 2px;
   background: #25282a;
 }
+.wishlist-btn[data-added="true"] svg{
+  fill: #fff;
+}
 @media screen and (max-width: 999px){
   .page-dots>*{
     width: 5px;
