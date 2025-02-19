@@ -258,7 +258,7 @@
           {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
         </buy-buttons>
         <div>
-          {% render "add-to-wishlist-main", product:product %}
+          {% comment %} {% render "add-to-wishlist-main", product:product %} {% endcomment %}
         </div>
       </div>
     </product-sticky-bar>
