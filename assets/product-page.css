@@ -121,6 +121,13 @@ legend{
   border: 1px solid #000;
   background: content-box #000 no-repeat center / cover;
 }
+.custom-box .wishlist-btn{
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #25282a;
+}
 @media screen and (max-width: 999px){
   .page-dots>*{
     width: 5px;
