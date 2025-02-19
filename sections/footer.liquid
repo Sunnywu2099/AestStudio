@@ -81,6 +81,9 @@
   .menu_toggle{
     display: none;
   }
+  .footer .footer__block--links .menu_title{
+    pointer-events: none;
+  }
   @media screen and (max-width: 699px) {
     .footer__block-list{
       gap: 10px;
@@ -130,6 +133,7 @@
       justify-content: space-between;
       padding: 8px 0;
       border-bottom: 1px solid rgb(222,223,223);
+      pointer-events: allow;
     }
     .menu_toggle{
       display: block;
