@@ -267,13 +267,13 @@
                  
 
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media', layout: 'list' -%}
-      {%- endif -%}
+                {%- if section.settings.show_social_media -%}
+                  {%- render 'social-media', layout: 'list' -%}
+                {%- endif -%}
                     </div>
                   {%- endif -%}
               
-                {%- endcase -%}
+              {%- endcase -%}
             {%- endcapture -%}
 
             {%- if block_content != blank -%}
