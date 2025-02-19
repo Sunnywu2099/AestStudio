@@ -77,6 +77,82 @@
 
   .form-control > label.error{
   color:rgba(219, 56, 68, 1);}
+  .newsletter__social,
+  .menu_toggle{
+    display: none;
+  }
+  .footer .footer__block--links .menu_title{
+    pointer-events: none;
+  }
+  @media screen and (max-width: 699px) {
+    .footer__block-list{
+      gap: 10px;
+    }
+    .footer input{
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    .footer .footer__block--newsletter{
+      font-size: 10px;
+      line-height: 14px;
+      letter-spacing: 0.5px;
+      margin-bottom: 38px;
+    }
+    .form-input .align-self-start{
+      /* bottom: 2px; */
+      top: 4px;
+    }
+    .form-input .align-self-start button{
+      padding: 0;
+    }
+    .form-input .align-self-start button svg{
+      width: 15px;
+    }
+    .newsletter__social{
+      display: block;
+    }
+    .newsletter__social .social-media--list{
+      gap: 10px;
+    }
+    .newsletter__social .social-media--list svg{
+      width: 20px!important;
+    }
+    .footer__block--follow_us{
+      display: none;
+    }
+    .footer__aside__custom{
+      border-top: 0;
+      padding-top: 0;
+    }
+    .footer .footer__block--links ul {
+      display: none;
+    }
+    .footer .footer__block--links .menu_title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgb(222,223,223);
+      pointer-events: auto;
+    }
+    .footer .footer__block--links .menu_title.active .menu_toggle{
+      transform: rotate(180deg);
+      transition: all 0.3s ease-in-out;
+    }
+    .menu_toggle{
+      display: block;
+      transition: all 0.3s ease-in-out;
+    }
+    .footer__aside__custom{
+
+    }
+    .footer__aside__custom .footer__aside__social{
+      gap: 18px;
+    }
+    .footer__aside__custom .footer__aside__social svg{
+      width: 20px;
+    }
+  }
 </style>
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/jquery.validate.min.js"></script>
@@ -145,10 +221,16 @@
                   {%- if menu != blank and menu.links.size > 0 -%}
                     <div class="v-stack gap-4 sm:gap-5">
                       {%- if block.settings.show_menu_title != blank -%}
-                        <p class="h6">{{ block.settings.menu_title | default: menu.title }}</p>
+                        <p class="h6 menu_title">{{ block.settings.menu_title | default: menu.title }}
+                          <span class="menu_toggle">
+                            <svg width="7" height="5" viewBox="0 0 7 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M3.20155 5L0 -3.0598e-07L0.931524 -2.65261e-07L3.5 4.10042L3.4186 4.05858L3.59948 4.05858L3.51809 4.10042L6.06848 -4.07182e-08L7 0L3.80749 5L3.20155 5Z" fill="#25282A"/>
+                            </svg>
+                          </span>
+                        </p>
                       {%- endif -%}
 
-                      <ul class="v-stack gap-2.5 unstyled-list" role="list">
+                      <ul class="v-stack gap-2.5 unstyled-list menu-list" role="list">
                         {%- for link in menu.links -%}
                           <li>
                             <a href="{{ link.url }}" class="link-faded">{{ link.title }}</a>
@@ -159,15 +241,10 @@
                   {%- endif -%}
 
                 {%- when 'newsletter' -%}
-
-
                   <div class="v-stack gap-4 sm:gap-5">
                     {%- if block.settings.title != blank -%}
                       <p class="h6">{{ block.settings.title }}</p>
                     {%- endif -%}
-
-
-
                     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
 
                     {%- form 'customer', id: newsletter_form_id, class: 'form form-input' -%}
@@ -211,8 +288,9 @@
                     {%- if block.settings.content != blank -%}
                       <div class="prose text-subdued">
                         {{- block.settings.content -}}
-                      </div>
+                      </div>                  
                     {%- endif -%}
+                    <div class="newsletter__social">{%- render 'social-media', layout: 'list' -%}</div>
                   </div>
 
               
@@ -228,13 +306,13 @@
                  
 
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media', layout: 'list' -%}
-      {%- endif -%}
+                {%- if section.settings.show_social_media -%}
+                  {%- render 'social-media', layout: 'list' -%}
+                {%- endif -%}
                     </div>
                   {%- endif -%}
               
-                {%- endcase -%}
+              {%- endcase -%}
             {%- endcapture -%}
 
             {%- if block_content != blank -%}
@@ -340,8 +418,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-
-
     $(`#{{ newsletter_form_id }}`).validate({
       rules: {
         email: {
@@ -358,6 +434,22 @@
         error.insertAfter(element);
       },
     });
+
+
+    $('.footer .footer__block--links .menu_title').click(function () {
+      $(this).toggleClass('active');
+      $(this).next('.menu-list').slideToggle();
+    })
+
+    $(window).resize(function () {
+      if ($(window).width() >= 700) {
+        $('.footer .footer__block--links .menu_title').removeClass('active');
+        $('.footer .footer__block--links .menu-list').slideDown();
+      }
+    })
+      
+    
+    
   });
 </script>
 {% schema %}
