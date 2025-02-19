@@ -32,8 +32,9 @@
   {% if template contains 'page' %}
 
     {% if page.metafields.custom.has_parent_page.value != blank %}
+      {% assign page_value = page.metafields.custom.has_parent_page.value %}
       <span aria-hidden="true">{{ arrow_right }}</span>
-      <span>123</span>
+      <span>page_value</span>
     {% endif %}
     <span aria-hidden="true">{{ arrow_right }}</span>
     <span>{{ page.title }}</span>
