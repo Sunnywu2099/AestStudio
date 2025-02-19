@@ -31,6 +31,10 @@
 
   {% if template contains 'page' %}
 
+    {% if page.metifield.custom.has_parent_page.value != blank %}
+      <span aria-hidden="true">{{ arrow_right }}</span>
+      <span>123</span>
+    {% endif %}
     <span aria-hidden="true">{{ arrow_right }}</span>
     <span>{{ page.title }}</span>
 
