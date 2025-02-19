@@ -424,7 +424,8 @@
           $(this).next('.menu-list').slideToggle();
         })
       }else{
-        $('.footer .footer__block--links .menu_title').unbind('click');
+        $('.footer .footer__block--links ul').show();
+        $('.footer .footer__block--links .menu_title').removeClass('active');
       }
     }
 
