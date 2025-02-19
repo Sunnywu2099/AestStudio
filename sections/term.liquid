@@ -1,7 +1,12 @@
 {%- if section.blocks.size > 0 -%}
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 <style>
-  
+  .faq__content .title{
+    font-size:1.1em
+  }
+  .faq__content a{
+    text-decoration-line:underline !important;
+  }
   .aest-faq-box .faq__content{
     flex-basis:1000px;
   }
