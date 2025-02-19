@@ -204,6 +204,8 @@ legend{
     padding-block-end: 30px;
   }
 
-
+  .product-gallery__zoom-button{
+    display: none;
+  }
 }
 

@@ -12,6 +12,7 @@
     padding: 6px 0;
     border-top: 1px solid #25282a20;
     border-bottom: 1px solid #25282a20;
+    overflow-x: auto;
   }
   .breadcrumb>span,
   .breadcrumb>a{
@@ -21,6 +22,21 @@
     line-height: 1.4;
     letter-spacing: 0.5px;
     display: block;
+    white-space: nowrap;
+  }
+  .breadcrumb>span.active,
+  .breadcrumb>a.active{
+    color: #000;
+    font-weight: 400;
+  }
+  @media (max-width: 768px) {
+    .breadcrumb-bar{
+      margin-bottom: 20px;
+    }
+    .breadcrumb>span,
+    .breadcrumb>a{
+      font-size: 10px;
+    }
   }
 </style>
 
@@ -37,7 +53,7 @@
       <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
     <span aria-hidden="true">{{ arrow_right }}</span>
-    <span>{{ page.title }}</span>
+    <span class="active">{{ page.title }}</span>
 
   {% elsif template contains 'product' %}
 
@@ -51,7 +67,7 @@
 
     <span aria-hidden="true">{{ arrow_right }}</span>
 
-    <span>{{ product.title }}</span>
+    <span class="active">{{ product.title }}</span>
 
   {% elsif template contains 'collection' and collection.handle %}
 
@@ -69,7 +85,7 @@
 
     {% else %}
 
-      <span>{{ collection.title }}</span>
+      <span class="active">{{ collection.title }}</span>
 
     {% endif %}
 
@@ -87,7 +103,7 @@
 
     {% else %}
 
-    <span>{{ blog.title }}</span>
+    <span class="active">{{ blog.title }}</span>
 
     {% endif %}
 
@@ -99,13 +115,13 @@
 
     <span aria-hidden="true">{{ arrow_right }}</span>
 
-    <span>{{ article.title }}</span>
+    <span class="active">{{ article.title }}</span>
 
   {% else %}
 
    <span aria-hidden="true">{{ arrow_right }}</span>
 
-   <span>{{ page_title }}</span>
+   <span class="active">{{ page_title }}</span>
 
   {% endif %}
 

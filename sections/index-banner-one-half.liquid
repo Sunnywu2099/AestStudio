@@ -84,16 +84,21 @@
       #shopify-section-{{ sid }} .media video.desktop{display:none;}
       #shopify-section-{{ sid }} .item .info{
         bottom: 24px;
+        width: 90%;
       }
       #shopify-section-{{ sid }} .item .info .item_title{
-        font-size: 18px;
+        font-size: 14px;
         letter-spacing: 0.9px;
       }
       #shopify-section-{{ sid }} .item .info .item_btn{
         /* border-color:var(--color); */
         border-color:transparent;
         background: rgba(37, 40, 42, var(--opacity));
+        font-size: 11px;
       }
+      #shopify-section-{{ sid }} .item:not(:last-of-type){
+      margin-bottom: 12px;
+    }
   } 
   </style>
   <div class="index-banner-one_half">

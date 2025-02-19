@@ -2347,7 +2347,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (max-width: 699px) {
   .product-list:not(.product-list--carousel) {
-    margin-inline: -.625rem;
+    /* margin-inline: -.625rem; */
+    margin-inline: 0;
+
   }
 
   .product-list--carousel {
@@ -4870,7 +4872,11 @@ product-rerender {
 
 @media screen and (max-width: 699px) {
   .header__nav-icon {
-    width: 1.375rem;
+    /* width: 1.375rem; */
+    width: 20px;
+  }
+  .product-card{
+    gap: 9px;
   }
 }
 
