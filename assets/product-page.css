@@ -207,5 +207,8 @@ legend{
   .product-gallery__zoom-button{
     display: none;
   }
+  .product-sticky-bar{
+    margin-bottom: 3rem;
+  }
 }
 
