@@ -417,10 +417,22 @@
       },
     });
 
-    $('.footer .footer__block--links .menu_title').click(function () {
-      $(this).toggleClass('active');
-      $(this).next('.menu-list').slideToggle();
-    })
+    function init_menu(){
+      if (window.innerWidth < 700) {
+        $('.footer .footer__block--links .menu_title').click(function () {
+          $(this).toggleClass('active');
+          $(this).next('.menu-list').slideToggle();
+        })
+      }else{
+        $('.footer .footer__block--links .menu_title').unbind('click');
+      }
+    }
+
+    init_menu();
+    $(window).resize(function () {
+      init_menu();
+    });
+    
   });
 </script>
 {% schema %}
