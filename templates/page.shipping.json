@@ -51,49 +51,49 @@
           "type": "rich_item",
           "settings": {
             "title": "2. What is the delivery time for different regions?",
-            "content": "<p>We work with various shipping carriers to provide <strong>fast and reliable</strong> delivery services. Below are the estimated delivery times for different regions:</p><p><strong>Within the United States:</strong></p><p>Orders within the U.S. are shipped from our <strong>East Coast warehouse</strong>. The estimated delivery time to different states and cities across the U.S. is <strong>5-8 business days</strong> (delays may occur during holidays and weekends).</p><p><strong>International Shipping:</strong></p><p>For orders outside the U.S., the estimated delivery time is <strong>7-10 business days</strong> (delays may occur during holidays and weekends).Orders will be automatically shipped from the <strong>nearest available warehouse</strong>. International orders are processed through various carriers, and we <strong>cannot guarantee</strong> which shipping service or warehouse will be used prior to dispatch.</p>"
+            "content": "<p>We work with various shipping carriers to provide fast and reliable delivery services. Below are the estimated delivery times for different regions:</p><p><strong>Within the United States:</strong></p><p>Orders within the U.S. are shipped from our East Coast warehouse. The estimated delivery time to different states and cities across the U.S. is 5-8 business days (delays may occur during holidays and weekends).</p><p><strong>International Shipping:</strong></p><p>For orders outside the U.S., the estimated delivery time is 7-10 business days (delays may occur during holidays and weekends).Orders will be automatically shipped from the nearest available warehouse. International orders are processed through various carriers, and we cannot guarantee which shipping service or warehouse will be used prior to dispatch.</p>"
           }
         },
         "rich_item_fhFLLx": {
           "type": "rich_item",
           "settings": {
             "title": "3. Which courier carrier do you use?",
-            "content": "<p>We partner with multiple international carriers to ensure <strong>fast and secure delivery</strong>. Our primary shipping providers include:      </p><ul><li><strong>DHL</strong> </li><li><strong>UPS</strong></li></ul>"
+            "content": "<p>We partner with multiple international carriers to ensure fast and secure delivery. Our primary shipping providers include:      </p><ul><li>DHL </li><li>UPS</li></ul>"
           }
         },
         "rich_item_aQnWCr": {
           "type": "rich_item",
           "settings": {
             "title": "4. <strong>Is there a shipping fee?</strong>",
-            "content": "<p><strong>United States (excluding unsupported regions listed above):</strong> </p><ul><li>Free shipping for orders over <strong>$69</strong>. </li><li>A <strong>$12</strong> shipping fee for orders under <strong>$69</strong>.       </li></ul><p><strong>Europe:</strong> A <strong>$17</strong> shipping fee.  </p><p><strong>Asia:</strong> A <strong>$11</strong> shipping fee.  </p><p><strong>Australia:</strong> A <strong>$12</strong> shipping fee. </p><p><strong>New Zealand:</strong> A <strong>$21</strong> shipping fee. </p><p><strong>Other countries and regions (excluding unsupported regions):</strong> A <strong>$20</strong> shipping fee.</p>"
+            "content": "<p>United States (excluding unsupported regions listed above): </p><ul><li>Free shipping for orders over $69. </li><li>A $12 shipping fee for orders under $69.       </li></ul><p>Europe: A $17 shipping fee.  </p><p>Asia: A $11 shipping fee.  </p><p>Australia: A $12 shipping fee. </p><p>New Zealand: A $21 shipping fee. </p><p>Other countries and regions (excluding unsupported regions): A $20 shipping fee.</p>"
           }
         },
         "rich_item_7QMFmJ": {
           "type": "rich_item",
           "settings": {
             "title": "<strong>5. Shipping Address & Signature Requirements</strong>",
-            "content": "<p><strong>Shipping Address: </strong>The shipping address provided at checkout <strong>must be valid</strong>. We cannot ship to <strong>P.O. boxes, APO/FPO addresses.</strong></p><p><strong>Signature Requirements: </strong>To ensure successful delivery, the carrier may require a signature upon receipt. If you are unable to sign in person, you may choose to have the package delivered to a trusted address.</p><p><strong>Note: </strong>If the package <strong>cannot be delivered</strong> due to reasons <strong>beyond our control</strong>, it will be returned to us. We will then contact you to arrange a <strong>refund or re-delivery</strong>.</p>"
+            "content": "<p>Shipping Address: The shipping address provided at checkout must be valid. We cannot ship to P.O. boxes, APO/FPO addresses.</p><p>Signature Requirements: To ensure successful delivery, the carrier may require a signature upon receipt. If you are unable to sign in person, you may choose to have the package delivered to a trusted address.</p><p>Note: If the package cannot be delivered due to reasons beyond our control, it will be returned to us. We will then contact you to arrange a refund or re-delivery.</p>"
           }
         },
         "rich_item_Mr8t9t": {
           "type": "rich_item",
           "settings": {
             "title": "6. Delivery failed",
-            "content": "<p>If a package <strong>cannot be delivered</strong> after <strong>two failed delivery attempts</strong> for reasons <strong>beyond our control</strong>, it will be <strong>automatically returned to us</strong>. We will then contact you to arrange either a <strong>refund or re-delivery</strong>.</p>"
+            "content": "<p>If a package cannot be delivered after two failed delivery attempts for reasons beyond our control, it will be automatically returned to us. We will then contact you to arrange either a refund or re-delivery.</p>"
           }
         },
         "rich_item_JCxwEj": {
           "type": "rich_item",
           "settings": {
             "title": "7. <strong>Will I have to pay customs duties?</strong>",
-            "content": "<p>For some international shipments, <strong>customs duties, taxes, and fees may apply</strong>. Please note that:</p><ul><li>The <strong>shipping fees listed on our website do not include customs duties</strong>, and we have no control over these charges.</li><li>We recommend <strong>contacting your local customs office</strong> before placing an order to learn more about any potential import fees.</li></ul><p><strong>Important: </strong>If a package is <strong>refused by the customer</strong> due to import duties or taxes, the customer <strong>may be responsible for all related shipping fees, return shipping costs, customs fees, and handling charges</strong>.</p>"
+            "content": "<p>For some international shipments, customs duties, taxes, and fees may apply. Please note that:</p><ul><li>The shipping fees listed on our website do not include customs duties, and we have no control over these charges.</li><li>We recommend contacting your local customs office before placing an order to learn more about any potential import fees.</li></ul><p>Important: If a package is refused by the customer due to import duties or taxes, the customer may be responsible for all related shipping fees, return shipping costs, customs fees, and handling charges.</p>"
           }
         },
         "rich_item_E4tqyR": {
           "type": "rich_item",
           "settings": {
             "title": "<strong>8. I haven’t received my order, or my package is damaged. What should I do?</strong>",
-            "content": "<p>If any items in your package are <strong>missing or damaged</strong>, we sincerely encourage you to <strong>file a claim with the carrier</strong> and contact our <strong>customer service team</strong> at <strong>hello@aeststudios.com</strong>.</p><p><strong>Important:</strong></p><ul><li>Any <strong>delivery-related claims must be submitted within 15 business days</strong> from the date of delivery.</li><li> <strong>Claims submitted after this period will not be eligible for reimbursement</strong> for lost orders.</li></ul>"
+            "content": "<p>If any items in your package are missing or damaged, we sincerely encourage you to file a claim with the carrier and contact our customer service team at hello@aeststudios.com.</p><p>Important:</p><ul><li>Any delivery-related claims must be submitted within 15 business days from the date of delivery.</li><li> Claims submitted after this period will not be eligible for reimbursement for lost orders.</li></ul>"
           }
         }
       },
