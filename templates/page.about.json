@@ -104,6 +104,7 @@
         },
         "item_fjmqrM": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Story of “Capture SHE Collection”",
             "img": "shopify://shop_images/Mask_group_1_b7e4cc50-1ca7-46b2-9957-ca37d2ba6384.png",
@@ -113,6 +114,7 @@
         },
         "item_RTAWaD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Technology & Process",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
