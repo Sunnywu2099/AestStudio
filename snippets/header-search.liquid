@@ -83,7 +83,7 @@
       <div class="search-suggestions__title">Suggestions</div>
       {% if settings.search_menu != blank %}
         <div class="search-suggestions__list">
-          {% for item in settings.search_menu %}
+          {% for item in settings.search_menu.links %}
             <div class="suggestions__item">
               <a href="{{item.url}}">{{item}}</a>
             </div>
