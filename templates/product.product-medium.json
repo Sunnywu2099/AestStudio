@@ -289,12 +289,12 @@
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
-            "img_m": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
-            "text": "One removable, padded dividers <br>\nallowing organization of a camera with a lens or other essentials.",
-            "img_2": "shopify://shop_images/Group_1000006698.png",
-            "img_2_m": "shopify://shop_images/Group_1000006698.png",
-            "text_2": ""
+            "img": "shopify://shop_images/Group_1000006784.png",
+            "img_m": "shopify://shop_images/Group_1000006784.png",
+            "text": "One removable, padded dividers.",
+            "img_2": "shopify://shop_images/Group_1000006785.png",
+            "img_2_m": "shopify://shop_images/Group_1000006785.png",
+            "text_2": "Allowing organization of a camera with a lens or other essentials."
           }
         },
         "item_gdzg8N": {
@@ -313,11 +313,11 @@
           "type": "item",
           "settings": {
             "name": "Details",
-            "img": "shopify://shop_images/Group_1000006699.png",
-            "img_m": "shopify://shop_images/Group_1000006699.png",
-            "text": "Dual zipper + hidden magnetic closure for full top opening",
-            "img_2": "shopify://shop_images/Mask_group_1_2baa548a-19f4-4fb7-bdc9-0c9e9b3da07d.png",
-            "img_2_m": "shopify://shop_images/Mask_group_1_2baa548a-19f4-4fb7-bdc9-0c9e9b3da07d.png",
+            "img": "shopify://shop_images/Group_1000006829.png",
+            "img_m": "shopify://shop_images/Group_1000006829.png",
+            "text": "Dual zipper and hidden magnetic closure for full top opening",
+            "img_2": "shopify://shop_images/Group_1000006840.png",
+            "img_2_m": "shopify://shop_images/Group_1000006840.png",
             "text_2": "Multifunctional pockets and card slots inside"
           }
         },
@@ -325,11 +325,11 @@
           "type": "item",
           "settings": {
             "name": "Details",
-            "img": "shopify://shop_images/Group_1000006700.png",
-            "img_m": "shopify://shop_images/Group_1000006700.png",
+            "img": "shopify://shop_images/Group_1000006830.png",
+            "img_m": "shopify://shop_images/Group_1000006830.png",
             "text": "Protective metal feet",
-            "img_2": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
-            "img_2_m": "shopify://shop_images/pdp-_4_9fecdd37-e157-45a4-b40d-1fefeaaf952c.png",
+            "img_2": "shopify://shop_images/pdp-_4_1.png",
+            "img_2_m": "shopify://shop_images/pdp-_4_1.png",
             "text_2": "Brushed matte silver metal"
           }
         }
