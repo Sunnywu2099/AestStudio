@@ -289,24 +289,24 @@
           "type": "item",
           "settings": {
             "name": "Inside",
-            "img": "shopify://shop_images/Group_1000006735.png",
-            "img_m": "shopify://shop_images/Group_1000006735.png",
-            "text": "One removable, padded dividers, allowing organization of a smartphone or other small essentials.",
-            "img_2": "shopify://shop_images/Group_1000006736.png",
-            "img_2_m": "shopify://shop_images/Group_1000006736.png",
-            "text_2": ""
+            "img": "shopify://shop_images/Group_1000006836.png",
+            "img_m": "shopify://shop_images/Group_1000006836.png",
+            "text": "One removable, padded dividers.",
+            "img_2": "shopify://shop_images/Group_1000006837.png",
+            "img_2_m": "shopify://shop_images/Group_1000006837.png",
+            "text_2": "Allowing organization of a smartphone or other small essentials."
           }
         },
         "item_cyjQcR": {
           "type": "item",
           "settings": {
             "name": "Material",
-            "img": "shopify://shop_images/Mask_group_1_fd4769ad-b919-40c4-a9bc-c179e27f85a2.png",
-            "img_m": "shopify://shop_images/Mask_group_1_fd4769ad-b919-40c4-a9bc-c179e27f85a2.png",
+            "img": "shopify://shop_images/Mask_group_59.png",
+            "img_m": "shopify://shop_images/Mask_group_59.png",
             "text": "Crafted from hand-finished oil-waxed cow leather",
-            "img_2": "shopify://shop_images/Group_1000006737_d6be9fa8-d503-4b07-86d2-0db553018da8.png",
-            "img_2_m": "shopify://shop_images/Group_1000006737_d6be9fa8-d503-4b07-86d2-0db553018da8.png",
-            "text_2": "Lining: Premium, soft, pistachio green lambskin leather"
+            "img_2": "shopify://shop_images/Group_1000006838.png",
+            "img_2_m": "shopify://shop_images/Group_1000006838.png",
+            "text_2": "Lining: Premium, soft, violet lambskin leather"
           }
         }
       },
