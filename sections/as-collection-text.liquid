@@ -45,7 +45,7 @@
       }
 
     }
-    as-collection-text .as-collection-heading{font-size:12px;margin-bottom:24px}as-collection-text .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-text .as-underline span{color:var(--text-color);font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-text .text-container{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:1rem}@media (min-width: 768px){as-collection-text .text-container{grid-template-columns:repeat(2,minmax(0,1fr))}}as-collection-text .text-container{font-size:10px;font-weight:300;line-height:14px;letter-spacing:.5px}as-collection-text .text-container .left-text{grid-column:span 1 / span 1}as-collection-text .text-container .right-text{grid-column:span 1 / span 1}
+    as-collection-text .as-collection-heading{font-size:12px;margin-bottom:40px}as-collection-text .as-collection-desc{color:var(--text-color);text-align:justify;font-size:12px;font-style:normal;font-weight:300;line-height:1.4;letter-spacing:.6px;max-width:600px}as-collection-text .as-underline span{color:var(--text-color);font-style:normal;font-weight:500;line-height:1.4;letter-spacing:.9px;display:inline-block;border-bottom-width:1px;border-color:var(--text-color)}as-collection-text .text-container{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:1rem}@media (min-width: 768px){as-collection-text .text-container{grid-template-columns:repeat(2,minmax(0,1fr))}}as-collection-text .text-container{font-size:10px;font-weight:300;line-height:14px;letter-spacing:.5px}as-collection-text .text-container .left-text{grid-column:span 1 / span 1}as-collection-text .text-container .right-text{grid-column:span 1 / span 1}
     as-collection-text .text-container{
       a{
         font-weight: 500;
@@ -54,16 +54,18 @@
     as-collection-text .as-collection-heading{
       text-align: left;
     }
-    @media (min-width: 700px) {
+    @media (min-width: 1425px) {
       as-collection-text .as-collection-heading{
-        text-align: center;
+        margin-left: calc((85rem - 1286px) / 2);
       }
+    }
+    @media (min-width: 700px) {
       as-collection-text .text-container .left-text{
-        max-width: 480px;
+        max-width: 600px;
         margin: 0 auto;
       }
       as-collection-text .text-container .right-text{
-        max-width: 480px;
+        max-width: 600px;
         margin: 0 auto;
       }
     }
@@ -73,7 +75,7 @@
   class=" section-{{ section.id }}-padding section-{{ section.id }}  section-{{ section.id }}-bg "
   ay-sections
 >
-  <div class="container">
+  <div class="container container--xl">
     <div class="as-collection-heading  as-underline">
       <span>
         {{ section.settings.heading }}
