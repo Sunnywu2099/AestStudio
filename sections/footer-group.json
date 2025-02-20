@@ -34,7 +34,7 @@
         "links_NWjekU": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "company",
             "show_menu_title": true,
             "menu_title": ""
           }
