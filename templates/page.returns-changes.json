@@ -24,21 +24,21 @@
           "type": "question",
           "settings": {
             "question": "How to return an Item?",
-            "answer": "<ul><li>If you are not satisfied with your purchase, we offer <strong>return service within 15 days</strong>. Please ensure the item meets our return conditions and <strong>ship the return within 7 days</strong> after submitting your request.</li><li>Since our products are <strong>high-value items</strong>, we recommend <strong>carefully checking them when received</strong>. If you are dissatisfied or notice any issues, please <strong>submit a return request promptly</strong> so we can assist you.</li><li>Items must be <strong>returned in their original packaging</strong>, with <strong>all tags and security labels intact</strong>, and <strong>must not be used or damaged</strong>. Items that do not meet the return criteria <strong>will not be accepted</strong>.</li><li>After submitting a return request, you will receive a <strong>return authorization email</strong> with instructions on how to return your item. <strong>Please note that we only accept returns via UPS or DHL.</strong></li></ul>"
+            "answer": "<ul><li>If you are not satisfied with your purchase, we offer return service within 15 days. Please ensure the item meets our return conditions and ship the return within 7 days after submitting your request.</li><li>Since our products are high-value items, we recommend carefully checking them when received. If you are dissatisfied or notice any issues, please submit a return request promptly so we can assist you.</li><li>Items must be returned in their original packaging, with all tags and security labels intact, and must not be used or damaged. Items that do not meet the return criteria will not be accepted.</li><li>After submitting a return request, you will receive a return authorization email with instructions on how to return your item. Please note that we only accept returns via UPS or DHL.</li></ul>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
             "question": "How to submit a return request?",
-            "answer": "<ul><li>Visit our <a href=\"/pages/returns-form-plus\" title=\"returns-form-plus\"><strong>Returns Portal</strong></a> and follow the steps to process your return.</li><li>Once your return is <strong>approved</strong>, you will receive a <strong>return authorization email</strong> with instructions on how to send back your package.</li></ul>"
+            "answer": "<ul><li>Visit our <a href=\"/pages/returns-form-plus\" title=\"returns-form-plus\">Returns Portal</a> and follow the steps to process your return.</li><li>Once your return is approved, you will receive a return authorization email with instructions on how to send back your package.</li></ul>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
             "question": "How to exchange an Item?",
-            "answer": "<ul><li>We currently <strong>do not offer direct exchanges</strong>. If you wish to exchange an item, please follow our <strong>return and refund process</strong>, then place a <strong>new order</strong> for the desired product.</li><li>All returns <strong>must comply with our return policy</strong>, including items being <strong>unused, undamaged, and with all tags and packaging intact</strong>.</li></ul>"
+            "answer": "<ul><li>We currently do not offer direct exchanges. If you wish to exchange an item, please follow our return and refund process, then place a new order for the desired product.</li><li>All returns must comply with our return policy, including items being unused, undamaged, and with all tags and packaging intact.</li></ul>"
           }
         },
         "question-4": {
@@ -52,14 +52,14 @@
           "type": "question",
           "settings": {
             "question": "How long does it take to process my refund?",
-            "answer": "<ul><li>Once we <strong>receive your returned item</strong> and confirm it <strong>meets our return conditions</strong>, your refund will be <strong>processed within 5-10 business days</strong>. The refund will be issued <strong>to the original payment method</strong>. <strong>Please note that original shipping fees are non-refundable.</strong></li><li>Refunds may be <strong>subject to delays</strong> depending on <strong>your payment provider’s processing times</strong>. If your refund <strong>has not been received within 30 days</strong>, please <strong>contact us</strong>, and we will assist you in resolving the issue.</li></ul>"
+            "answer": "<ul><li>Once we receive your returned item and confirm it meets our return conditions, your refund will be processed within 5-10 business days. The refund will be issued to the original payment method. Please note that original shipping fees are non-refundable.</li><li>Refunds may be subject to delays depending on your payment provider’s processing times. If your refund has not been received within 30 days, please contact us, and we will assist you in resolving the issue.</li></ul>"
           }
         },
         "question-6": {
           "type": "question",
           "settings": {
             "question": "What are the return conditions?",
-            "answer": "<ul><li>Items must be <strong>in brand-new condition</strong>, <strong>unused</strong>, and <strong>undamaged</strong>, with <strong>all tags, labels, and packaging intact</strong>.</li><li><strong>Customized and personalized products that have been opened cannot be returned or exchanged.</strong></li><li> Return requests <strong>must be submitted within 15 days</strong>, and <strong>items must be shipped within 7 days</strong> after the request is approved.</li><li><strong>Please note that only UPS or DHL are accepted for return shipping.</strong></li></ul>"
+            "answer": "<ul><li>Items must be in brand-new condition, unused, and undamaged, with all tags, labels, and packaging intact.</li><li>Customized and personalized products that have been opened cannot be returned or exchanged.</li><li> Return requests must be submitted within 15 days, and items must be shipped within 7 days after the request is approved.</li><li>Please note that only UPS or DHL are accepted for return shipping.</li></ul>"
           }
         },
         "question_rkmiMi": {
