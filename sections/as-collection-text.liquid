@@ -54,19 +54,16 @@
     as-collection-text .as-collection-heading{
       text-align: left;
     }
-    @media (min-width: 1425px) {
-      as-collection-text .as-collection-heading{
-        margin-left: calc((85rem - 1286px) / 2);
-      }
-    }
-    @media (min-width: 700px) {
+
+    @media (min-width: 768px) {
       as-collection-text .text-container .left-text{
         max-width: 600px;
-        margin: 0 auto;
+        margin-left: 0;
       }
       as-collection-text .text-container .right-text{
         max-width: 600px;
-        margin: 0 auto;
+        margin-right: 0;
+        margin-left: auto;
       }
     }
 {%- endstyle -%}
