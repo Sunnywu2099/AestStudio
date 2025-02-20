@@ -252,7 +252,7 @@
         "autoplay": true,
         "show_controls": false,
         "video_size": "auto",
-        "video": "shopify://files/videos/video(4).mp4",
+        "video": "shopify://files/videos/5.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
