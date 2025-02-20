@@ -138,8 +138,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_5.png",
-            "img_m": "shopify://shop_images/Mask_group_5.png",
+            "img": "shopify://shop_images/Mask_group_51.png",
+            "img_m": "shopify://shop_images/Mask_group_51.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -179,8 +179,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_4.png",
-            "img_m": "shopify://shop_images/Mask_group_4.png",
+            "img": "shopify://shop_images/Mask_group_52.png",
+            "img_m": "shopify://shop_images/Mask_group_52.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -232,6 +232,7 @@
       "block_order": [
         "media_kray83"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": true,
