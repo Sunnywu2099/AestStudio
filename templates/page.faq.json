@@ -75,6 +75,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
+        "link_underline": false,
         "show_categories": false,
         "subheading": "",
         "title": "",
