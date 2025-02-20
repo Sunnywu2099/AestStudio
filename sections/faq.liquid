@@ -1,7 +1,10 @@
 <style>
-  .faq__content a{
+  {% if section.settings.link_underline %}
+     .faq__content a{
     text-decoration-line:underline !important;
   }
+    {% endif %}
+  
   .section-stack .faq__content{
     flex-basis:1000px
   }
