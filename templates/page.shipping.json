@@ -44,7 +44,7 @@
           "type": "rich_item",
           "settings": {
             "title": "<strong>Unsupported Delivery Regions:</strong>",
-            "content": "<p>Puerto Rico (PR), U.S. Virgin Islands (VI), Guam (GU), Northern Mariana Islands (MP), American Samoa (AS), Alaska (AK), and Hawaii (HI).</p><p><strong>Unfortunately, we cannot ship to P.O. boxes, APO, or FPO addresses.</strong></p><p>If your country or region is not listed, please contact us at <strong>hello@aeststudios.com</strong> to check if special delivery arrangements can be made.</p>"
+            "content": "<p>Puerto Rico (PR), U.S. Virgin Islands (VI), Guam (GU), Northern Mariana Islands (MP), American Samoa (AS), Alaska (AK), and Hawaii (HI).</p><p>Unfortunately, we cannot ship to P.O. boxes, APO, or FPO addresses.</p><p>If your country or region is not listed, please contact us at hello@aeststudios.com to check if special delivery arrangements can be made.</p>"
           }
         },
         "rich_item_LPGPWw": {
