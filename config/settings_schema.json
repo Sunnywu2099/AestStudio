@@ -14,6 +14,16 @@
     ]
   },
   {
+    "name": "Search suggestion",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "search_menu",
+        "label": "Search menu"
+      }
+    ]
+  },
+  {
     "name": "t:theme_settings.appearance.name",
     "settings": [
       {
