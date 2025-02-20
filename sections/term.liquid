@@ -4,9 +4,11 @@
   .faq__content .title{
     font-size:1.1em
   }
+  {% if section.settings.link_underline %}
   .faq__content a{
     text-decoration-line:underline !important;
   }
+  {% endif %}
   .aest-faq-box .faq__content{
     flex-basis:1000px;
   }
@@ -201,6 +203,12 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "link_underline",
+      "label": "link underline",
+      "default": true
     },
     {
       "type": "checkbox",
