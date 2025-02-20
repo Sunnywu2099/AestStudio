@@ -81,25 +81,35 @@
 
     <div class="search-suggestions">
       <div class="search-suggestions__title">Suggestions</div>
+      {% if settings.search_menu != blank %}
+        <div class="search-suggestions__list">
+          {% for item in settings.search_menu %}
+            <div class="suggestions__item">
+              <a href="{{item.url}}">{{item}}</a>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="search-suggestions__list">
+          <div class="suggestions__item">
+            <a href="/collections/mini"> Mini</a>
+          </div>
+          <div class="suggestions__item">
+            <a href="/collections/collections/sling-bags"> Slings Bags</a>
+          </div>
 
-      <div class="search-suggestions__list">
-        <div class="suggestions__item">
-          <a href="/collections/mini"> Mini</a>
+          <div class="suggestions__item">
+            <a href="/collections/shoulder-bags"> Shoulder Bags</a>
+          </div>
+          <div class="suggestions__item">
+            <a href="/collections/elongated-bags"> Elongated Bags</a>
+          </div>
+          <div class="suggestions__item">
+            <a href="/collections/tote"> Tote</a>
+          </div>
         </div>
-        <div class="suggestions__item">
-          <a href="/collections/collections/sling-bags"> Slings Bags</a>
-        </div>
-
-        <div class="suggestions__item">
-          <a href="/collections/shoulder-bags"> Shoulder Bags</a>
-        </div>
-        <div class="suggestions__item">
-          <a href="/collections/elongated-bags"> Elongated Bags</a>
-        </div>
-        <div class="suggestions__item">
-          <a href="/collections/tote"> Tote</a>
-        </div>
-      </div>
+      {% endif %}
+      
     </div>
 
     <predictive-search id="header-predictive-search" class="predictive-search">
