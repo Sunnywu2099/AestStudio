@@ -15,7 +15,7 @@
         "category_ghYRNf": {
           "type": "category",
           "settings": {
-            "title": "Cookie policy",
+            "title": "Cookie Policy",
             "icon_width": 16
           }
         },
@@ -44,14 +44,14 @@
           "type": "rich_item",
           "settings": {
             "title": "Absolutely necessary cookies",
-            "content": "<p>1.These cookies are crucial for users to move around on our website and provide access to features such as your personal information, purchases, registered user specific resources, and other secure areas of the website. These cookies will not collect information about you that can be used for marketing purposes, nor will they remember your location on the Internet. This type of cookie cannot be disabled. The following list provides more information about these cookies</p><p>-Answer questions, comments, and other requests;</p><p>-Cookies that temporarily store certain user data (such as online spreadsheet content);</p><p>-Cookies that store certain user preferences (such as search settings or language settings);</p><p>-Cookies that store data to ensure smooth playback of video or audio content.</p><p></p><p>2.The cookie on page 1 above is stored on your device and will expire after 24 hours to 365 days.</p>"
+            "content": "<p>These cookies are crucial for users to move around on our website and provide access to features such as your personal information, purchases, registered user specific resources, and other secure areas of the website. These cookies will not collect information about you that can be used for marketing purposes, nor will they remember your location on the Internet. This type of cookie cannot be disabled. The following list provides more information about these cookies</p><p>-Answer questions, comments, and other requests;</p><p>-Cookies that temporarily store certain user data (such as online spreadsheet content);</p><p>-Cookies that store certain user preferences (such as search settings or language settings);</p><p>-Cookies that store data to ensure smooth playback of video or audio content.</p><p></p><p>The cookie on page 1 above is stored on your device and will expire after 24 hours to 365 days.</p>"
           }
         },
         "rich_item_fhFLLx": {
           "type": "rich_item",
           "settings": {
             "title": "Analyzing Cookies",
-            "content": "<p>1.We use Google Analytics cookies to collect information about how visitors use our website. These cookies collect information in a aggregated manner so that we can gain a deeper understanding of how our website is being used. We anonymize IP addresses in Google Analytics, and the anonymized data will be transmitted to Google and stored on servers in the United States. If required by law, or if a third party processes information on behalf of Google, Google may also transfer this information to the third party. Google will not associate your IP address with any other data held by Google. Google Analytics cookies are stored on your device and expire after 356 days.</p><p>2.To view your Google Analytics cookies privacy overview, please visit: https: //support.google.com/analytics/answer/6004245</p><p>3.You can install Google Analytics and choose to exit the browser plugin through the following website: https: //tools.google.com/dlpage/gaoptoutPromote Cookies.</p><p>4.We also use a marketing database management program that deploys cookies when users interact with marketing communications, such as marketing emails or marketing based login pages on our website. This cookie collects personal information, such as your name, the pages you visit on our website, your visit history to our website, your purchase history on Aest Studios, etc. The collected information is used to evaluate the effectiveness of our marketing activities or provide better marketing positioning. The following table provides more information about this cookie.</p>"
+            "content": "<p>We use Google Analytics cookies to collect information about how visitors use our website. These cookies collect information in a aggregated manner so that we can gain a deeper understanding of how our website is being used. We anonymize IP addresses in Google Analytics, and the anonymized data will be transmitted to Google and stored on servers in the United States. If required by law, or if a third party processes information on behalf of Google, Google may also transfer this information to the third party. Google will not associate your IP address with any other data held by Google. Google Analytics cookies are stored on your device and expire after 356 days.</p><p>To view your Google Analytics cookies privacy overview, please visit: https: //support.google.com/analytics/answer/6004245</p><p>You can install Google Analytics and choose to exit the browser plugin through the following website: https: //tools.google.com/dlpage/gaoptoutPromote Cookies.</p><p>We also use a marketing database management program that deploys cookies when users interact with marketing communications, such as marketing emails or marketing based login pages on our website. This cookie collects personal information, such as your name, the pages you visit on our website, your visit history to our website, your purchase history on Aest Studios, etc. The collected information is used to evaluate the effectiveness of our marketing activities or provide better marketing positioning. The following table provides more information about this cookie.</p>"
           }
         },
         "rich_item_aQnWCr": {
@@ -81,6 +81,7 @@
       ],
       "settings": {
         "color_scheme": "",
+        "link_underline": true,
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "Need help?",
