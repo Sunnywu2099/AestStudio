@@ -89,13 +89,13 @@
             "title": "In Action",
             "text": "Capture Large Shoulder Bag in hand-finished oil-waxed cow leather with a brushed matte silver metal plaque on the front, featuring the AEST logo in Braille, symbolizing our philosophy of addressing invisible needs with thoughtful design.",
             "img_1": "shopify://shop_images/Mask_group_8_26ffa5a0-dc78-48bd-bd4f-4cc846bbbb91.png",
-            "url_1": "/",
-            "img_2": "shopify://shop_images/Mask_group_9_51f3bb04-18a0-4dfc-bcfa-2c9d29930105.png",
-            "url_2": "/",
+            "url_1": "shopify://products/capture-large-shoulder-bag",
+            "img_2": "shopify://shop_images/Mask_group_80.png",
+            "url_2": "shopify://products/capture-medium-sling-bag",
             "img_3": "shopify://shop_images/Mask_group_10_928758d5-24d2-4c7a-ae77-98e1afe48e80.png",
-            "url_3": "/",
+            "url_3": "shopify://products/capture-large-shoulder-bag",
             "img_4": "shopify://shop_images/Mask_group_11_80094d39-0396-4c80-a007-87dcd5d30df9.png",
-            "url_4": "/",
+            "url_4": "shopify://products/capture-small-bag-black",
             "url_5": ""
           }
         },
@@ -137,15 +137,14 @@
           "settings": {
             "title": "Pairs With",
             "text": "",
-            "img_1": "shopify://shop_images/Mask_group_12.png",
-            "url_1": "shopify://products/agnes-black-mini-shoulder-bag",
-            "img_2": "shopify://shop_images/Mask_group_13.png",
-            "url_2": "",
-            "img_3": "shopify://shop_images/Mask_group_14.png",
-            "url_3": "",
+            "img_1": "shopify://shop_images/Group_1000006853.png",
+            "url_1": "shopify://products/fiery-mirage",
+            "img_2": "shopify://shop_images/Group_1000006855.png",
+            "url_2": "shopify://products/solstice-dream-1",
+            "img_3": "shopify://shop_images/Group_1000006854.png",
+            "url_3": "shopify://products/illusionary-bloom",
             "img_4": "shopify://shop_images/Mask_group_15.png",
-            "url_4": "",
-            "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "url_4": "shopify://products/moonlit-drift",
             "url_5": ""
           }
         },
@@ -219,6 +218,7 @@
         },
         "item_aqM9w8": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "name": "Customer Reviews",
             "id": "judgeme_product_reviews"
@@ -312,8 +312,8 @@
             "img": "shopify://shop_images/pdp-_2.png",
             "img_m": "shopify://shop_images/pdp-_2.png",
             "text": "Crafted from hand-finished oil-waxed cow leather",
-            "img_2": "shopify://shop_images/Mask_group_65ee8c6b-7429-401f-a67b-d634bb1c8220.png",
-            "img_2_m": "shopify://shop_images/Mask_group_65ee8c6b-7429-401f-a67b-d634bb1c8220.png",
+            "img_2": "shopify://shop_images/Group_1000006845.png",
+            "img_2_m": "shopify://shop_images/Group_1000006845.png",
             "text_2": "Soft cavalry twill black lining for gentle protection"
           }
         },
@@ -324,8 +324,8 @@
             "img": "shopify://shop_images/Group_1000006827.png",
             "img_m": "shopify://shop_images/Group_1000006827.png",
             "text": "Dual zipper and hidden magnetic closure for full top opening",
-            "img_2": "shopify://shop_images/Group_1000006839.png",
-            "img_2_m": "shopify://shop_images/Group_1000006839.png",
+            "img_2": "shopify://shop_images/Group_1000006856.png",
+            "img_2_m": "shopify://shop_images/Group_1000006856.png",
             "text_2": "Multifunctional pockets and card slots inside"
           }
         },
@@ -455,8 +455,9 @@
           "type": "product",
           "settings": {
             "product": "capture-large-shoulder-bag",
-            "link": "",
+            "link": "shopify://products/capture-large-shoulder-bag",
             "img": "shopify://shop_images/Mask_group_47ad01d2-001c-41d1-939e-c62c1bec0e0c.png",
+            "img_m": "shopify://shop_images/Mask_group_71.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -468,8 +469,9 @@
           "type": "product",
           "settings": {
             "product": "capture-medium-sling-bag",
-            "link": "",
+            "link": "shopify://products/capture-medium-sling-bag",
             "img": "shopify://shop_images/Mask_group_1_c9e9beda-9991-4c0f-b7c3-d3eab0732880.png",
+            "img_m": "shopify://shop_images/Mask_group_72.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -481,9 +483,9 @@
           "type": "product",
           "settings": {
             "product": "capture-small-bag-green",
-            "link": "",
+            "link": "shopify://products/capture-small-bag-green",
             "img": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
-            "img_m": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
+            "img_m": "shopify://shop_images/Mask_group_74.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -497,9 +499,9 @@
           "type": "product",
           "settings": {
             "product": "capture-small-bag-purple",
-            "link": "",
+            "link": "shopify://products/capture-small-bag-purple",
             "img": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
-            "img_m": "shopify://shop_images/Mask_group_3_aa93e57d-d184-4ae6-b4da-93b198bd0592.png",
+            "img_m": "shopify://shop_images/Mask_group_74.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -513,9 +515,9 @@
           "type": "product",
           "settings": {
             "product": "capture-small-bag-black",
-            "link": "",
+            "link": "shopify://products/capture-small-bag-black",
             "img": "shopify://shop_images/Mask_group_2_624aa07f-f0f8-40e4-9547-96732cb648f9.png",
-            "img_m": "shopify://shop_images/Mask_group_2_624aa07f-f0f8-40e4-9547-96732cb648f9.png",
+            "img_m": "shopify://shop_images/Mask_group_73.png",
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
@@ -551,6 +553,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_4acArB"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,

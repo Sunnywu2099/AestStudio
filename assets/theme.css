@@ -7860,7 +7860,14 @@ ul {
 
 }
 
+.shopify-policy__container .shopify-policy__title {
+  text-align:left;
+  font-size:22px;
+}
 
+.shopify-policy__container .shopify-policy__body a{
+  text-decoration-line:underline !important;
+}
 
 .predictive-search__products .product-card__info{
   justify-items: start;

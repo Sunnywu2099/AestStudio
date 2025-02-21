@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Free Shopping To United States On Orders above $69"
+            "text": "Free Shopping to United States on Orders above $69"
           }
         }
       },
@@ -46,11 +46,11 @@
             "image_1": "shopify://shop_images/Mask_group-1.jpg",
             "image_1_heading": "",
             "image_1_text": "Our Projects",
-            "image_1_link": "shopify://pages/projects",
+            "image_1_link": "",
             "image_2": "shopify://shop_images/Mask_group.jpg",
             "image_2_heading": "",
             "image_2_text": "Our Mission",
-            "image_2_link": "shopify://pages/our-mission"
+            "image_2_link": ""
           }
         },
         "mega_menu_sec_nav_dpezNp": {
@@ -95,7 +95,7 @@
           "settings": {
             "menu_item": "About",
             "images_position": "right",
-            "image_1": "shopify://shop_images/about3x.jpg",
+            "image_1": "shopify://shop_images/Mask_group_75.png",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
@@ -155,7 +155,7 @@
         "sidebar_open_second_level_menus": false,
         "layout": "logo_center_navigation_inline",
         "show_icons": false,
-        "show_country_selector": false,
+        "show_country_selector": true,
         "show_country_name": false,
         "show_country_flag": false,
         "show_locale_selector": false,

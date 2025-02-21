@@ -240,7 +240,7 @@
             "img": "shopify://shop_images/Mask_group_48.png",
             "img_m": "shopify://shop_images/Mask_group_48.png",
             "btn": "Your Voice & Your Mind",
-            "link": "shopify://pages/your-voice"
+            "link": ""
           }
         },
         "block_dwaUxg": {
@@ -251,7 +251,7 @@
             "img": "shopify://shop_images/Mask_group_49.png",
             "img_m": "shopify://shop_images/Mask_group_49.png",
             "btn": "Special Projects",
-            "link": "shopify://pages/special-projects"
+            "link": ""
           }
         },
         "block_n4jTGh": {
@@ -259,10 +259,10 @@
           "settings": {
             "color": "#ffffff",
             "type": "img",
-            "img": "shopify://shop_images/Clip_path_group_1_85c6432b-9231-4f35-8a67-3a6dd5858b74.png",
-            "img_m": "shopify://shop_images/Clip_path_group_1_85c6432b-9231-4f35-8a67-3a6dd5858b74.png",
+            "img": "shopify://shop_images/Aest_Club_1-_-_1.png",
+            "img_m": "shopify://shop_images/Aest_Club_1-_-_1.png",
             "btn": "Charitable Projects",
-            "link": "shopify://pages/our-mission"
+            "link": ""
           }
         },
         "block_9tqePb": {
@@ -273,7 +273,7 @@
             "img": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
             "img_m": "shopify://shop_images/Clip_path_group_2_cfe84aea-87f0-49a8-bc3b-0d2939f5c929.png",
             "btn": "Cooperation Plan",
-            "link": "shopify://pages/cooperation-plan"
+            "link": ""
           }
         },
         "block_QbwJXH": {
@@ -284,7 +284,7 @@
             "img": "shopify://shop_images/Mask_group_50.png",
             "img_m": "shopify://shop_images/Mask_group_50.png",
             "btn": "Exhibition & Events",
-            "link": "shopify://pages/exhibition-events"
+            "link": ""
           }
         },
         "block_QKp4UY": {

@@ -25,7 +25,7 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_53.png",
+            "img": "shopify://shop_images/Mask_group_78.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -33,6 +33,7 @@
         },
         "text_gn9W3C": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "width": "",
             "title": "",
@@ -45,7 +46,7 @@
         "text_gn9W3C"
       ],
       "settings": {
-        "page_desc": "Aest Studios Commitment To Sustainability",
+        "page_desc": "Aest Studios Commitment to Sustainability",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -104,6 +105,7 @@
         "item_3rNLQT",
         "item_A3hBmG"
       ],
+      "disabled": true,
       "settings": {
         "pt": 0,
         "pb": 120,
