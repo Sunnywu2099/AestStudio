@@ -404,7 +404,7 @@
             {% if footer_info %}
               <div class="footer__aside__social">
                 {{footer_info.name.value}}
-                {% for img in footer_info.payments.values %}
+                {% for img in footer_info.payments.value %}
                   <img src="{{ img.srl | img_url:'master' }}" alt="payment">
                 {% endfor %}
               </div>
