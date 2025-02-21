@@ -33,6 +33,7 @@
         },
         "text_gn9W3C": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "width": "",
             "title": "",
@@ -104,6 +105,7 @@
         "item_3rNLQT",
         "item_A3hBmG"
       ],
+      "disabled": true,
       "settings": {
         "pt": 0,
         "pb": 120,
