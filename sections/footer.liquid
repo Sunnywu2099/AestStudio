@@ -401,7 +401,10 @@
             {% endif %}
 
             <div class="footer__aside__social">
-              {{ shop.metaobjects.footer_info.payments }}
+              {% for img in shop.metaobjects.footer_info.payments %}
+                <img src="{{ img }}" alt="payment">
+              {% endfor %}
+              
             </div>
 
             {% if block.settings.copyright %}
