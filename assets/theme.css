@@ -7918,5 +7918,5 @@ ul {
 
 
 button,a,.button{
-  text-transform: capitalize!important;
+  text-transform: uppercase!important;
 }
