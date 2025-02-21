@@ -2347,7 +2347,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (max-width: 699px) {
   .product-list:not(.product-list--carousel) {
-    margin-inline: -.625rem;
+    /* margin-inline: -.625rem; */
+    margin-inline: 0;
+
   }
 
   .product-list--carousel {
@@ -2573,20 +2575,20 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse) {
-  background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat;
+  /* background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat; */
   text-decoration: none;
   transition: background-size .3s ease-in-out;
 }
 
 @supports (height: 1lh) {
   :is(.link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse)) {
-    background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.2lh) / 100% 1px no-repeat;
+    /* background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.2lh) / 100% 1px no-repeat; */
   }
 }
 
 @media screen and (pointer: fine) {
   :is(.link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse)):hover {
-    background-size: 0 1px;
+    /* background-size: 0 1px; */
   }
 }
 
@@ -4870,7 +4872,11 @@ product-rerender {
 
 @media screen and (max-width: 699px) {
   .header__nav-icon {
-    width: 1.375rem;
+    /* width: 1.375rem; */
+    width: 20px;
+  }
+  .product-card{
+    gap: 9px;
   }
 }
 
@@ -5360,11 +5366,14 @@ product-rerender {
 }
 
 .header-sidebar__promo > * {
-  min-width: 12.5rem;
+  /* min-width: 12.5rem; */
+  flex: 220px;
+  min-width: 220px;
+  max-width: 220px;
 }
 
 .header-sidebar__promo > *:only-child {
-  min-width: 100%;
+  /* min-width: 100%; */
 }
 
 .header-sidebar__linklist.divide-y .header-sidebar__linklist-button {
@@ -7884,4 +7893,18 @@ ul {
 .hulk__wishlist-wrap .wishlist-grid-view .wishlist-card{
   box-shadow: unset!important;
   padding: 18px 0 !important;
+}
+.hulk__wishlist-wrap input[type="checkbox"] {
+  appearance: none;
+  border: 1px solid #c6c6c6;
+  width: 16px;
+  height: 16px;
+  margin-top: 0 !important;
+}
+.hulk__wishlist-wrap input[type="checkbox"]:checked {
+  background-color: #000;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 24 24'><path fill='%23ffffff' d='m9 20.42l-6.21-6.21l2.83-2.83L9 14.77l9.88-9.89l2.83 2.83z'/></svg>);
 }
