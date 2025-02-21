@@ -400,13 +400,16 @@
               </div>
             {% endif %}
 
+            {% assign footer_info = shop.metaobjects.footer_info %}
+            {% if footer_info %}
             <div class="footer__aside__social">
-              {% for img in shop.metaobjects.footer_info.payments %}
+              {% for img in footer_info.payments %}
                 <img src="{{ img }}" alt="payment">
               {% endfor %}
               
             </div>
-
+            {% endif %}
+            
             {% if block.settings.copyright %}
               <div class="footer__aside__copyright">
                 {{ block.settings.copyright }}
