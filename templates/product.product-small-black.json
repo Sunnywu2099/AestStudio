@@ -325,8 +325,8 @@
         "item_Xqdm3n": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "About Aesthetic",
+            "text": "This  Capture Small Bag is a member of the Capture \"SHE\" Collection. We draw inspiration from the traditional camera bag, blending timeless design with fashion and elegance to fulfill both functional and aesthetic needs."
           }
         }
       },
@@ -334,7 +334,8 @@
         "item_Xqdm3n"
       ],
       "settings": {
-        "img": "shopify://shop_images/pdp-_3.png",
+        "img": "shopify://shop_images/Mask_group_63.png",
+        "img_m": "shopify://shop_images/Mask_group_63.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "right"
@@ -346,8 +347,8 @@
         "item_UwazdG": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "About Design",
+            "text": "With its stylish, compact silhouette, this bag is perfect for effortless, on-the-go convenience. Wear it crossbody for ease and versatility."
           }
         }
       },
@@ -355,7 +356,8 @@
         "item_UwazdG"
       ],
       "settings": {
-        "img": "shopify://shop_images/pdp-_3.png",
+        "img": "shopify://shop_images/Mask_group_64.png",
+        "img_m": "shopify://shop_images/Mask_group_64.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "left"
