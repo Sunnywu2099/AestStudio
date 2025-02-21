@@ -25,6 +25,10 @@
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+    {%- if settings.loading_img != blank -%}
+      <link rel="preload" as="image" href="{{ settings.loading_img |  image_url: master  }}">
+    {%- endif -%}
+
     {%- unless settings.text_font.system? -%}
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -88,6 +92,7 @@
         </script>
 </head>
 
+
 {%- if settings.loading_img != blank -%}
   <style>
     .loading_page {
@@ -119,7 +124,7 @@
   </style>
   <div class="loading_page">
     <div class="loader-content">
-      {{ settings.loading_img | image_url: width: master | image_tag: class:"loader-loader" }}
+      {{ settings.loading_img | image_url: width: master | image_tag: class:"loader-loader"  }}
     </div>
   </div>
 
