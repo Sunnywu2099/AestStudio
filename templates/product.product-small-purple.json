@@ -127,7 +127,7 @@
           }
         },
         "in_action_fcgMfP": {
-   "type": "in_action",
+          "type": "in_action",
           "settings": {
             "title": "Pairs With",
             "text": "",
@@ -518,6 +518,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_4acArB"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
