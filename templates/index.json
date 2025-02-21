@@ -256,6 +256,7 @@
         },
         "block_n4jTGh": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "color": "#ffffff",
             "type": "img",
