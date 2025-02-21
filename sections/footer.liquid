@@ -403,6 +403,7 @@
             {% assign footer_info = shop.metaobjects.footer_info %}
             {% if footer_info %}
               <div class="footer__aside__social">
+                {{footer_info.name}}
                 {% for img in shop.metaobjects.footer_info.payments.value %}
                   <img src="{{ img.srl | img_url:'master' }}" alt="payment">
                 {% endfor %}
