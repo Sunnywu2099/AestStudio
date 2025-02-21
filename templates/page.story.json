@@ -29,6 +29,7 @@
         },
         "item_D4yBHB": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Our Team",
             "link": "shopify://pages/our-team"
@@ -43,6 +44,7 @@
         },
         "item_E4r4TF": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Technology & Process",
             "link": "shopify://pages/technology-process"
