@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "loading_img": "shopify://shop_images/Group_103.png",
+    "loading_img": "shopify://shop_images/downloading.gif",
     "search_menu": "search-suggestions-menu",
     "section_vertical_spacing": "xl",
     "button_border_radius": 2,
