@@ -10,7 +10,8 @@
   {
     "name": "Loading",
     "settings": [
-      {"type": "image_picker","id": "loading_img","label": "image"}
+      {"type": "image_picker","id": "loading_img","label": "image"},
+      {"type": "color","id": "loading_img_bg","label": "background"}
     ]
   },
   {
