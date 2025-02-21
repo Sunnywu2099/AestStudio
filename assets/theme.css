@@ -7865,6 +7865,10 @@ ul {
   font-size:22px;
 }
 
+.shopify-policy__container a{
+  text-decoration-line:underline;
+}
+
 .predictive-search__products .product-card__info{
   justify-items: start;
   gap:0.25rem
