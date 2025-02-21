@@ -401,7 +401,11 @@
             {% endif %}
 
             <div class="footer__aside__social">
-              {{ block.settings.social }}
+              {% comment %} {{ block.settings.social }} {% endcomment %}
+                <ul>
+              {%- for type in shop.enabled_payment_types -%}
+                <li>{{- type | payment_type_svg_tag -}}</li>
+              {%- endfor -%}</ul>
             </div>
 
             {% if block.settings.copyright %}
