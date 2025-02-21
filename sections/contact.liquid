@@ -21,6 +21,9 @@
   div.section-stack{
     grid-row-gap:15px;
   }
+  .aest-contract-box a {
+    text-decoration-line:underline !important;
+  }
 </style>
 <div class="aest-contract-box section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container container--xs">
@@ -173,7 +176,7 @@
         {%- render 'button', content: button_content, type: 'submit' -%}
       {%- endform -%}
 
-      <div style="color:#25282A;text-align:left;">Before contacting us, you can first check our <a style="text-decoration-line:underline" href="https://aeststudios.com/pages/faq">FAQ</a> page. There may already be the answer you need here.</div>
+      <div style="color:#25282A;text-align:left;">{{ section.settings.bottomTip }}</div>
     </div>
   </div>
 </div>
@@ -209,6 +212,12 @@
       "id": "title",
       "label": "t:global.text.heading",
       "default": "Contact"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "bottomTip",
+      "label": "bottom tip",
+      "default": "Before contacting us, you can first check our <a  href=\"https://aeststudios.com/pages/faq\">FAQ</a> page. There may already be the answer you need here."
     },
     {
       "type": "richtext",
