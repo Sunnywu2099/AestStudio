@@ -351,8 +351,8 @@
         "item_VaUJX7": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "About Aesthetic",
+            "text": "This  Capture Medium Sling Bag is a member of the Capture \"SHE\" Collection. We draw inspiration from the traditional camera bag, blending timeless design with fashion and elegance to fulfill both functional and aesthetic needs."
           }
         }
       },
@@ -360,7 +360,7 @@
         "item_VaUJX7"
       ],
       "settings": {
-        "img": "shopify://shop_images/pdp-_3.png",
+        "img": "shopify://shop_images/Group_1000006841.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "right"
@@ -372,8 +372,8 @@
         "item_P8iGxw": {
           "type": "item",
           "settings": {
-            "title": "Product Introduction",
-            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+            "title": "Versatile for Every Occasion",
+            "text": "Designed with versatility in mind, this sling bag effortlessly transitions between your daily activities. Whether you’re heading to the office, exploring the city, or enjoying a casual outing, it’s the perfect complement for any occasion. Its timeless design adapts to both formal and relaxed styles, making it the ultimate accessory for your ever-changing wardrobe."
           }
         }
       },
@@ -381,7 +381,7 @@
         "item_P8iGxw"
       ],
       "settings": {
-        "img": "shopify://shop_images/pdp-_3.png",
+        "img": "shopify://shop_images/Mask_group_61.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "left"
