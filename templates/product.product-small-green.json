@@ -335,7 +335,8 @@
         "item_PjdFMq"
       ],
       "settings": {
-        "img": "shopify://shop_images/pdp-_3_1c3ef67e-a076-4608-b2e2-c72dbbd338b2.png",
+        "img": "shopify://shop_images/Group_1000006844.png",
+        "img_m": "shopify://shop_images/Group_1000006844.png",
         "use_video": false,
         "autoplay": true,
         "text_alignment": "right"
