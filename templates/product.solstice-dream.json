@@ -129,19 +129,18 @@
           }
         },
         "in_action_fcgMfP": {
-          "type": "in_action",
+           "type": "in_action",
           "settings": {
             "title": "Pairs With",
             "text": "",
-            "img_1": "shopify://shop_images/WX20241205-112347_2x_2.png",
-            "url_1": "shopify://products/agnes-black-mini-shoulder-bag",
-            "img_2": "shopify://shop_images/image_1.png",
-            "url_2": "",
-            "img_3": "shopify://shop_images/image_2.png",
-            "url_3": "",
-            "img_4": "shopify://shop_images/image_3.png",
-            "url_4": "",
-            "img_5": "shopify://shop_images/WX20241205-112347_2x_2.png",
+            "img_1": "shopify://shop_images/Group_1000006853.png",
+            "url_1": "shopify://products/fiery-mirage",
+            "img_2": "shopify://shop_images/Group_1000006855.png",
+            "url_2": "shopify://products/solstice-dream-1",
+            "img_3": "shopify://shop_images/Group_1000006854.png",
+            "url_3": "shopify://products/illusionary-bloom",
+            "img_4": "shopify://shop_images/Mask_group_15.png",
+            "url_4": "shopify://products/moonlit-drift",
             "url_5": ""
           }
         },
