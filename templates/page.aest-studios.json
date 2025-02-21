@@ -220,11 +220,10 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Rectangle_249.png",
             "use_video": true,
             "autoplay": true,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
-            "mobile_video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "video": "shopify://files/videos/飘纱（瘦胳膊）.mov",
+            "mobile_video": "shopify://files/videos/飘纱（瘦胳膊）.mov",
             "url": ""
           }
         }
@@ -232,7 +231,6 @@
       "block_order": [
         "media_kray83"
       ],
-      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": true,
