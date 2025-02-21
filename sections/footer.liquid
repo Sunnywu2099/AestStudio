@@ -400,9 +400,14 @@
               </div>
             {% endif %}
 
-            <div class="footer__aside__social">
-              {{ block.settings.social }}
-            </div>
+            {% assign footer_info = block.settings.payments %}
+            {% if footer_info %}
+              <div class="footer__aside__social">
+                {% for img in footer_info.payments.value %}
+                  <img src="{{ img.src | img_url:'master' }}" alt="payment">
+                {% endfor %}
+              </div>
+            {% endif %}
 
             {% if block.settings.copyright %}
               <div class="footer__aside__copyright">
@@ -642,13 +647,12 @@
           "id": "logo",
           "label": "logo"
         },
-
         {
-          "type": "html",
-          "id": "social",
-          "label": "social svg"
+          "type": "metaobject",
+          "id": "payments",
+          "label": "Payments",
+          "metaobject_type": "footer_info"
         },
-
         {
           "type": "text",
           "id": "copyright",
