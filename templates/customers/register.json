@@ -1,1 +1,39 @@
-{"sections":{"main":{"type":"main-customers-register","blocks":{"fields":{"type":"fields","settings":{}}},"block_order":["fields"],"settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-register",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+            "show_marketing_consent": false
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Mask_group_2_638c60af-9ace-43c1-b7a2-f8a6be603892.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
