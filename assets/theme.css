@@ -7860,7 +7860,9 @@ ul {
 
 }
 
-
+.shopify-policy__container .shopify-policy__title {
+  text-align:left;
+}
 
 .predictive-search__products .product-card__info{
   justify-items: start;
