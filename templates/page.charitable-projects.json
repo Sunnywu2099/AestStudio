@@ -103,6 +103,7 @@
         },
         "item_fjmqrM": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Bella Hadid",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
@@ -112,6 +113,7 @@
         },
         "item_RTAWaD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Bella Hadid",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
@@ -139,6 +141,7 @@
         },
         "item_34Pn33": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Kariley",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
@@ -148,6 +151,7 @@
         },
         "item_HWBrbh": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Kariley",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
@@ -167,7 +171,105 @@
         "item_HWBrbh"
       ],
       "settings": {
-        "page_desc": "Brand Cooperation Plan",
+        "page_desc": "Women's Support Program",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
+    },
+    "collaboration_program_GYVP9J": {
+      "type": "collaboration-program",
+      "blocks": {
+        "item_8fQeLJ": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": "shopify://pages/blog"
+          }
+        },
+        "item_UYBwWe": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_7QJQni": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_xreVGh": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_87Ldqk": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_bW3jPB": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_34aNh9": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_MXTDCc": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8fQeLJ",
+        "item_UYBwWe",
+        "item_7QJQni",
+        "item_xreVGh",
+        "item_87Ldqk",
+        "item_bW3jPB",
+        "item_34aNh9",
+        "item_MXTDCc"
+      ],
+      "settings": {
+        "page_desc": "Public Welfare Projects",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -178,6 +280,7 @@
   "order": [
     "main",
     "section_nav_JWNFLf",
-    "collaboration_program_ng8KDc"
+    "collaboration_program_ng8KDc",
+    "collaboration_program_GYVP9J"
   ]
 }
