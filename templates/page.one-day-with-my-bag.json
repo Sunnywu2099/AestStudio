@@ -90,7 +90,8 @@
             "img": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
             "img_m": "shopify://shop_images/Clip_path_group_f2cd6bbf-438c-4c8b-b0f0-c051e6ce634e.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_J34dfK": {
@@ -107,7 +108,7 @@
         "text_J34dfK"
       ],
       "settings": {
-        "page_desc": "Women's Support Program",
+        "page_desc": "One Day With My Bags",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -130,7 +131,8 @@
             "img": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
             "img_m": "shopify://shop_images/Clip_path_group_1_f292117c-ce53-4516-a3c9-a69135ab56c6.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_7jidjU": {
@@ -170,7 +172,8 @@
             "img": "shopify://shop_images/Clip_path_group_2_6fab4497-89ba-46b8-b937-5e988e4ecf30.png",
             "img_m": "shopify://shop_images/Clip_path_group_2_6fab4497-89ba-46b8-b937-5e988e4ecf30.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_9ig9FE": {
@@ -210,7 +213,8 @@
             "img": "shopify://shop_images/Clip_path_group_3_0886c84f-1afb-47b7-b2e0-4f775d2b5817.png",
             "img_m": "shopify://shop_images/Clip_path_group_3_0886c84f-1afb-47b7-b2e0-4f775d2b5817.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_Jdmxc7": {
@@ -250,7 +254,8 @@
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "media_QbcCQ8": {
@@ -260,11 +265,13 @@
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
             "use_video": false,
-            "autoplay": false
+            "autoplay": false,
+            "url": ""
           }
         },
         "text_mRtM3A": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "width": "",
             "title": "",
@@ -291,7 +298,7 @@
         "pb_m": 60
       }
     },
-        "custom_multiple_media_6mjbNj": {
+    "custom_multiple_media_6mjbNj": {
       "type": "custom-multiple-media",
       "blocks": {
         "media_kray83": {
@@ -322,8 +329,8 @@
         "pt_m": 0,
         "pb_m": 28
       }
-    }},
-
+    }
+  },
   "order": [
     "main",
     "section_nav_mGDaCc",
