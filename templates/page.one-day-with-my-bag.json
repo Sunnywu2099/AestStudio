@@ -290,8 +290,40 @@
         "pt_m": 60,
         "pb_m": 60
       }
-    }
-  },
+    },
+        "custom_multiple_media_6mjbNj": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "media_kray83": {
+          "type": "media",
+          "settings": {
+            "width": "",
+            "use_video": true,
+            "autoplay": true,
+            "video": "shopify://files/videos/飘纱（瘦胳膊）.mov",
+            "mobile_video": "shopify://files/videos/飘纱（瘦胳膊）.mov",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_kray83"
+      ],
+      "settings": {
+        "page_desc": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 0,
+        "pb_m": 28
+      }
+    }},
+
   "order": [
     "main",
     "section_nav_mGDaCc",
@@ -299,6 +331,7 @@
     "custom_multiple_media_TyLNeD",
     "custom_multiple_media_abPmDi",
     "custom_multiple_media_rN3Ync",
-    "custom_multiple_media_9GWgVL"
+    "custom_multiple_media_9GWgVL",
+    "custom_multiple_media_6mjbNj"
   ]
 }
