@@ -21,32 +21,18 @@
     "section_nav_mGDaCc": {
       "type": "section-nav",
       "blocks": {
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice & Your Mind",
+            "link": "shopify://pages/your-voice"
+          }
+        },
         "item_zNfPHD": {
           "type": "item",
           "settings": {
             "text": "Cooperation Plan",
             "link": "shopify://pages/cooperation-plan"
-          }
-        },
-        "item_zzXym9": {
-          "type": "item",
-          "settings": {
-            "text": "Your Voice",
-            "link": "shopify://pages/your-voice"
-          }
-        },
-        "item_bVciHi": {
-          "type": "item",
-          "settings": {
-            "text": "Your Mind",
-            "link": "shopify://pages/your-mind"
-          }
-        },
-        "item_3RFn9L": {
-          "type": "item",
-          "settings": {
-            "text": "Exhibition & Events",
-            "link": ""
           }
         },
         "item_FzANbX": {
@@ -56,21 +42,35 @@
             "link": "shopify://pages/special-projects"
           }
         },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
+          }
+        },
         "item_LhJ3HJ": {
           "type": "item",
           "settings": {
             "text": "Charitable Projects",
             "link": "shopify://pages/public-welfare-projects"
           }
+        },
+        "item_bVciHi": {
+          "type": "item",
+          "settings": {
+            "text": "Sustainability",
+            "link": "shopify://pages/sustainability"
+          }
         }
       },
       "block_order": [
-        "item_zNfPHD",
         "item_zzXym9",
-        "item_bVciHi",
-        "item_3RFn9L",
+        "item_zNfPHD",
         "item_FzANbX",
-        "item_LhJ3HJ"
+        "item_3RFn9L",
+        "item_LhJ3HJ",
+        "item_bVciHi"
       ],
       "settings": {
         "type": "margin",
