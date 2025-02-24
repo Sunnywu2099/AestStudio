@@ -45,7 +45,7 @@
           "type": "question",
           "settings": {
             "question": "Who covers the return shipping fees?",
-            "answer": "<p>Please note that customers are responsible for the return shipping costs. We do not cover return shipping fees.</p>"
+            "answer": "<p>Please note that customers are responsible for the return shipping costs. We do not cover return shipping fees. Any return shipping fee will be deducted directly from your refund.</p>"
           }
         },
         "question-5": {
@@ -83,6 +83,7 @@
       ],
       "settings": {
         "color_scheme": "",
+        "link_underline": true,
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "Need help?",
