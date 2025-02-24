@@ -106,12 +106,12 @@
     
     
     
-    subscribePopup.style.display = 'block';
+    
     const isSubscribed = localStorage.getItem('isSubscribed');
     const isPopupClosed = sessionStorage.getItem('isPopupClosed');
     if (!isSubscribed && !isPopupClosed){
       setTimeout(function(){
-        
+        subscribePopup.style.display = 'block';
          // subscribePopup.style.opacity = 1;
         subscribePopup.classList.add('show')
         if(subscribePopup.classList.contains('letter_is_success')){
@@ -235,7 +235,7 @@
        display:none;
      }
      #subscribe-popup{
-      width:330px;
+      width:auto
     }
     .subscribe-info{
     width:90%;
