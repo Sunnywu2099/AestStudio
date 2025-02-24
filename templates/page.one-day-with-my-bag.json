@@ -21,18 +21,18 @@
     "section_nav_mGDaCc": {
       "type": "section-nav",
       "blocks": {
+        "item_zzXym9": {
+          "type": "item",
+          "settings": {
+            "text": "Your Voice & Your Mind",
+            "link": "shopify://pages/your-voice"
+          }
+        },
         "item_zNfPHD": {
           "type": "item",
           "settings": {
             "text": "Cooperation Plan",
             "link": "shopify://pages/cooperation-plan"
-          }
-        },
-        "item_zzXym9": {
-          "type": "item",
-          "settings": {
-            "text": "Your Voice",
-            "link": "shopify://pages/your-voice"
           }
         },
         "item_bVciHi": {
@@ -42,18 +42,18 @@
             "link": "shopify://pages/your-mind"
           }
         },
-        "item_3RFn9L": {
-          "type": "item",
-          "settings": {
-            "text": "Exhibition & Events",
-            "link": ""
-          }
-        },
         "item_FzANbX": {
           "type": "item",
           "settings": {
             "text": "Special Projects",
             "link": "shopify://pages/special-projects"
+          }
+        },
+        "item_3RFn9L": {
+          "type": "item",
+          "settings": {
+            "text": "Exhibition & Events",
+            "link": ""
           }
         },
         "item_LhJ3HJ": {
@@ -65,11 +65,11 @@
         }
       },
       "block_order": [
-        "item_zNfPHD",
         "item_zzXym9",
+        "item_zNfPHD",
         "item_bVciHi",
-        "item_3RFn9L",
         "item_FzANbX",
+        "item_3RFn9L",
         "item_LhJ3HJ"
       ],
       "settings": {
