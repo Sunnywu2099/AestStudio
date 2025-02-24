@@ -37,6 +37,7 @@
         },
         "item_bVciHi": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Your Mind",
             "link": "shopify://pages/your-mind"
@@ -63,13 +64,13 @@
             "link": "shopify://pages/public-welfare-projects"
           }
         },
-"item_LhJ4GP": {
+        "item_LhJ4GP": {
           "type": "item",
           "settings": {
-            "text": "Charitable Projects",
+            "text": "Sustainability",
             "link": "shopify://pages/public-welfare-projects"
           }
-        },
+        }
       },
       "block_order": [
         "item_zzXym9",
