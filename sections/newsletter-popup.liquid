@@ -60,7 +60,7 @@
                 <input type="hidden" name="contact[tags]" value="newsletter">
 
                 {%- assign label = 'Your E-mail'  -%}
-                {%- render 'input', type: 'email', name: 'contact[email]', label: '', value: customer.email, required: true, autocomplete: 'email' -%}
+                {%- render 'input', type: 'email', name: 'contact[email]', placeholder: label, value: customer.email, required: true, autocomplete: 'email' -%}
               </div>
 
               {%- render 'button', content: section.settings.button_text, type: 'submit' -%}
