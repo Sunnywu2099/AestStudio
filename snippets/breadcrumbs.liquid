@@ -75,7 +75,7 @@
 
     
     {% if collection.metafields.custom.has_parent_page.value != blank %}
-      {% assign page_value = page.metafields.custom.has_parent_page.value %}
+      {% assign page_value = collection.metafields.custom.has_parent_page.value %}
       <span aria-hidden="true">{{ arrow_right }}</span>
       <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
