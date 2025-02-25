@@ -73,23 +73,15 @@
 
   {% elsif template contains 'collection' and collection.handle %}
 
-    <span aria-hidden="true">{{ arrow_right }}</span>
-
-    {% if current_tags %}
-
-      {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-
-      {{ collection.title | link_to: url }}
-
+    
+    {% if collection.metafields.custom.has_parent_page.value != blank %}
+      {% assign page_value = page.metafields.custom.has_parent_page.value %}
       <span aria-hidden="true">{{ arrow_right }}</span>
-
-      <span>{{ current_tags | join: " + " }}</span>
-
-    {% else %}
-
-      <span class="active">{{ collection.title }}</span>
-
+      <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
+    
+    <span aria-hidden="true">{{ arrow_right }}</span>
+    <span class="active">{{ collection.title }}</span>
 
   {% elsif template == 'blog' %}
 
