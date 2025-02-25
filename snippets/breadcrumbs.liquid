@@ -1,4 +1,6 @@
-{% capture arrow_right %}<svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none"><path d="M4 3.21318L0 5.5V4.83463L3.28033 3L3.24686 3.05814V2.92894L3.28033 2.98708L0 1.16537V0.5L4 2.78036V3.21318Z" fill="#25282A"/></svg>{% endcapture %}
+{% capture arrow_right %}
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none"><path d="M4 3.21318L0 5.5V4.83463L3.28033 3L3.24686 3.05814V2.92894L3.28033 2.98708L0 1.16537V0.5L4 2.78036V3.21318Z" fill="#25282A"/></svg>
+{% endcapture %}
 <style>
   .breadcrumb-bar {
     margin-bottom: 40px;
@@ -71,23 +73,15 @@
 
   {% elsif template contains 'collection' and collection.handle %}
 
-    <span aria-hidden="true">{{ arrow_right }}</span>
-
-    {% if current_tags %}
-
-      {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-
-      {{ collection.title | link_to: url }}
-
+    
+    {% if collection.metafields.custom.has_parent_page.value != blank %}
+      {% assign page_value = collection.metafields.custom.has_parent_page.value %}
       <span aria-hidden="true">{{ arrow_right }}</span>
-
-      <span>{{ current_tags | join: " + " }}</span>
-
-    {% else %}
-
-      <span class="active">{{ collection.title }}</span>
-
+      <a href="{{page_value.page_url.value}}" title="{{page_value.page_title.value}}">{{page_value.page_title.value}}</a>
     {% endif %}
+    
+    <span aria-hidden="true">{{ arrow_right }}</span>
+    <span class="active">{{ collection.title }}</span>
 
   {% elsif template == 'blog' %}
 
