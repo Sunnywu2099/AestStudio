@@ -350,6 +350,9 @@
   {% if section.settings.page_desc != blank %}
     <h2 class="section-title">{{ section.settings.page_desc }}</h2>
   {% endif %}
+  {% if section.settings.page_content != blank %}
+    <div class="section-content">{{ section.settings.page_content }}</div>
+  {% endif %}
   <div class="custom-wrapper {% if custom_class == 'type-8' %}container container--xl{% endif %}">
     {% assign ss = section.settings %}
     {% for block in section.blocks %}
@@ -432,6 +435,11 @@
         "type": "text",
         "id": "page_desc",
         "label": "Page description"
+      },
+      {
+        "type": "text",
+        "id": "page_content",
+        "label": "Page content"
       },
       {
         "type": "checkbox",
