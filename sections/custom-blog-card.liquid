@@ -100,7 +100,11 @@
     </div>
     <div class="content-box">
     {% if ss.text != blank %}
-      <a class="title" href="{{ss.url}}">{{ss.text}}</a>
+      <div>
+        <a class="title" href="{{ss.url}}">{{ss.text}}</a>
+        <div class="content">{{ss.text}}</div>
+      </div>
+      
     {% endif %}
     {% if ss.date != blank %}
       <div class="date">{{ss.date}}</div>
@@ -217,6 +221,11 @@
             "type": "text",
             "id": "text",
             "label": "Link text"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content"
           },
           {
             "type": "text",
