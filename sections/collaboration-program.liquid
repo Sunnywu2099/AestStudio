@@ -1,4 +1,4 @@
-{% assign num = section.settings.num %}
+{% assign num = section.settings.num | plus: 1 %}
 <style>
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
