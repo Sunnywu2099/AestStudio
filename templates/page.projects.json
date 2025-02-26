@@ -88,7 +88,7 @@
         "item_trcTte": {
           "type": "item",
           "settings": {
-            "title": "Your Voice",
+            "title": "Your Voice & Your Mind",
             "img": "shopify://shop_images/Mask_group_c2595fda-76ea-4484-9df8-e38ca1293d9f.png",
             "img_m": "shopify://shop_images/Mask_group_c2595fda-76ea-4484-9df8-e38ca1293d9f.png",
             "url": "shopify://pages/your-voice"
@@ -96,6 +96,7 @@
         },
         "item_eLhMew": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Your Mind",
             "img": "shopify://shop_images/Mask_group_1_b7e4cc50-1ca7-46b2-9957-ca37d2ba6384.png",
