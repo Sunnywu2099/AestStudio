@@ -31,12 +31,13 @@
         "item_gmXVtP": {
           "type": "item",
           "settings": {
-            "text": "Your Voice",
+            "text": "Your Voice & Your Mind",
             "link": "shopify://pages/your-voice"
           }
         },
         "item_RjWwHb": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Your Mind",
             "link": "shopify://pages/your-mind"
