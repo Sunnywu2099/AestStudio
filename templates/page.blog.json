@@ -28,7 +28,8 @@
             "img": "shopify://shop_images/Clip_path_group_8a12cad5-8330-47ee-a67b-7c2a46dc6c7a.png",
             "img_m": "shopify://shop_images/Clip_path_group_8a12cad5-8330-47ee-a67b-7c2a46dc6c7a.png",
             "use_video": false,
-            "autoplay": true
+            "autoplay": true,
+            "url": ""
           }
         },
         "text_gn9W3C": {
@@ -46,6 +47,7 @@
       ],
       "settings": {
         "page_desc": "For women of power, purpose, art and design",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -74,6 +76,7 @@
         "mobile_video": "shopify://files/videos/look4.mov",
         "url": "",
         "text": "Product-related",
+        "content": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.",
         "date": "December24，2024"
       }
     },
@@ -93,6 +96,7 @@
         "mobile_video": "shopify://files/videos/look4.mov",
         "url": "",
         "text": "Fashion Trends and Matching",
+        "content": "",
         "date": "December24，2024"
       }
     },
@@ -112,6 +116,7 @@
         "mobile_video": "shopify://files/videos/look4.mov",
         "url": "",
         "text": "Way  Of Life",
+        "content": "",
         "date": "December24，2024"
       }
     },
@@ -131,6 +136,7 @@
         "mobile_video": "shopify://files/videos/look4.mov",
         "url": "",
         "text": "User Story",
+        "content": "",
         "date": "December24，2024"
       }
     },
