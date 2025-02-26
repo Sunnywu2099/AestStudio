@@ -32,7 +32,7 @@
           "type": "item",
           "settings": {
             "text": "Your Voice",
-            "link": "shopify://pages/your-voice"
+            "link": "shopify://pages/your-voice-your-mind"
           }
         },
         "item_RjWwHb": {
@@ -87,8 +87,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_c4d79622-d8dc-4ce8-acaf-9c6ba137fa40.png",
-            "img_m": "shopify://shop_images/Clip_path_group_c4d79622-d8dc-4ce8-acaf-9c6ba137fa40.png",
+            "img": "shopify://shop_images/Mask_group_75.png",
+            "img_m": "shopify://shop_images/Mask_group_75.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -109,8 +109,9 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
-        "section_type": "one-media-top-one-content-bottom",
+        "section_type": "all-center-one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
@@ -141,6 +142,7 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -187,6 +189,7 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "two-media",
         "text_alignment": "right",
