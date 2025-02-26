@@ -21,6 +21,15 @@
     "custom_multiple_media_bUtUiD": {
       "type": "custom-multiple-media",
       "blocks": {
+        "text_gn9W3C": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "width": "",
+            "title": "",
+            "text": "In the design and creation of every product, Aest Studios remains committed to respecting nature and the future. From selecting sustainable materials to eco-friendly packaging and meticulously optimized production processes, we strive to reduce our environmental impact with precision and care. Every detail embodies our commitment and love for the planet."
+          }
+        },
         "media_NxzYn7": {
           "type": "media",
           "settings": {
@@ -31,22 +40,22 @@
             "url": ""
           }
         },
-        "text_gn9W3C": {
+        "text_Mky4XV": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "width": "",
             "title": "",
-            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+            "text": "In the design and creation of every product, Aest Studios remains committed to respecting nature and the future. From selecting sustainable materials to eco-friendly packaging and meticulously optimized production processes, we strive to reduce our environmental impact with precision and care. Every detail embodies our commitment and love for the planet."
           }
         }
       },
       "block_order": [
+        "text_gn9W3C",
         "media_NxzYn7",
-        "text_gn9W3C"
+        "text_Mky4XV"
       ],
       "settings": {
-        "page_desc": "Aest Studios Commitment to Sustainability",
+        "page_desc": "Fashioning a Cleaner Tomorrow",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
