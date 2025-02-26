@@ -103,6 +103,7 @@
         },
         "item_fjmqrM": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Bella Hadid",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
@@ -112,6 +113,7 @@
         },
         "item_RTAWaD": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Bella Hadid",
             "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
@@ -139,6 +141,7 @@
         },
         "item_34Pn33": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Kariley",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
@@ -148,6 +151,7 @@
         },
         "item_HWBrbh": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Kariley",
             "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
@@ -173,11 +177,110 @@
         "pt_m": 60,
         "pb_m": 60
       }
+    },
+    "collaboration_program_yj3Y4G": {
+      "type": "collaboration-program",
+      "blocks": {
+        "item_jAkELx": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": "shopify://pages/blog"
+          }
+        },
+        "item_kXbEVJ": {
+          "type": "item",
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_FRxYQw": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_Bq4Pwj": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Bella Hadid",
+            "img": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "img_m": "shopify://shop_images/Layer_0_031aa787-9fab-48de-9ca7-b8a1e81d9ce4.png",
+            "url": ""
+          }
+        },
+        "item_bNkCUi": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_mQRaqR": {
+          "type": "item",
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_ptDVqh": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        },
+        "item_WUYAbW": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Kariley",
+            "img": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "img_m": "shopify://shop_images/Layer_0_1_e2a4bcbe-062c-4157-97e5-c0f3e3a86076.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_jAkELx",
+        "item_kXbEVJ",
+        "item_FRxYQw",
+        "item_Bq4Pwj",
+        "item_bNkCUi",
+        "item_mQRaqR",
+        "item_ptDVqh",
+        "item_WUYAbW"
+      ],
+      "settings": {
+        "page_desc": "Brand Cooperation Plan",
+        "pt": 120,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
+      }
     }
   },
   "order": [
     "main",
     "section_nav_JWNFLf",
-    "collaboration_program_ng8KDc"
+    "collaboration_program_ng8KDc",
+    "collaboration_program_yj3Y4G"
   ]
 }
