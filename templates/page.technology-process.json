@@ -100,7 +100,8 @@
             "img": "shopify://shop_images/Rectangle_249.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_x9yLW8": {
@@ -123,6 +124,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
@@ -139,7 +141,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_EADa4X": {
@@ -149,7 +152,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_qWbBWJ": {
@@ -182,6 +186,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -198,7 +203,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_gdYEUB": {
@@ -208,7 +214,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_HJq3Pa": {
@@ -241,6 +248,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -257,14 +265,15 @@
             "img": "shopify://shop_images/Rectangle_260.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_imDAQH": {
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Quality Control",
+            "title": "",
             "text": "Every Aest Studios product undergoes rigorous quality control to meet our exacting standards. Using advanced quality inspection instruments, we conduct multiple tests at every stage—from raw materials to final product. Each detail is meticulously checked and verified to ensure the perfect balance of durability, functionality, and craftsmanship."
           }
         }
@@ -280,6 +289,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
@@ -296,7 +306,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "media_BHLCNb": {
@@ -306,7 +317,8 @@
             "img": "shopify://shop_images/Rectangle_263.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4"
+            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
+            "url": ""
           }
         },
         "text_ffT3AC": {
@@ -332,7 +344,6 @@
         "text_ffT3AC",
         "text_YyMaYi"
       ],
-      "disabled": true,
       "settings": {
         "page_desc": "",
         "is_full": false,
@@ -340,6 +351,7 @@
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
+        "link_color": "",
         "pt": 0,
         "pb": 120,
         "pt_m": 0,
