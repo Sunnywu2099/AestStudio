@@ -1,3 +1,4 @@
+{% assign num = section.settings.num %}
 <style>
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
@@ -21,7 +22,7 @@
   .collaboration-program .media-wrapper .item{
     width: calc(50% - 10px);
   }
-  .collaboration-program .media-wrapper .item:nth-of-type(n+7){
+  .collaboration-program .media-wrapper .item:nth-of-type(n+{{num}}){
     display: none;
   }
   .collaboration-program .media-wrapper .name{
@@ -127,11 +128,11 @@
       if(!$(this).hasClass('active')){
         $(this).addClass('active');
         $('.collaboration-program .more-text').text('SEE LESS');
-        $('.collaboration-program .media-wrapper .item:nth-of-type(n+7)').show();
+        $('.collaboration-program .media-wrapper .item:nth-of-type(n+{{num}})').show();
       }else{
         $(this).removeClass('active');
         $('.collaboration-program .more-text').text('SEE MORE');
-        $('.collaboration-program .media-wrapper .item:nth-of-type(n+7)').hide();
+        $('.collaboration-program .media-wrapper .item:nth-of-type(n+{{num}})').hide();
       }
       $('.collaboration-program .more-arrow').toggleClass('active');
     })
