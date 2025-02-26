@@ -129,11 +129,12 @@
         "item_jT6wJ6"
       ],
       "settings": {
-        "page_desc": "Store & Flash mob",
+        "page_desc": "Pop-up & Stores",
         "pt": 120,
         "pb": 0,
         "pt_m": 60,
-        "pb_m": 0
+        "pb_m": 0,
+        "content": ""
       }
     },
     "events_wrapper_XgLWqa": {
@@ -187,11 +188,12 @@
         "item_XFmjCD"
       ],
       "settings": {
-        "page_desc": "Exhibition & Performance",
+        "page_desc": "Exhibition & Fashion Show",
         "pt": 120,
         "pb": 0,
         "pt_m": 60,
-        "pb_m": 0
+        "pb_m": 0,
+        "content": ""
       }
     },
     "events_wrapper_KQXQHN": {
@@ -247,7 +249,8 @@
         "pt": 120,
         "pb": 0,
         "pt_m": 60,
-        "pb_m": 0
+        "pb_m": 0,
+        "content": ""
       }
     },
     "events_wrapper_pCMxBi": {
@@ -299,11 +302,12 @@
         "item_xDmMUm"
       ],
       "settings": {
-        "page_desc": "Celebrity",
+        "page_desc": "Celebrity Collaborations",
         "pt": 120,
         "pb": 120,
         "pt_m": 60,
-        "pb_m": 60
+        "pb_m": 60,
+        "content": ""
       }
     }
   },
