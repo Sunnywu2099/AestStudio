@@ -31,9 +31,9 @@
 }
 .accordion__content{
   color: #25282A;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 14px;
+  line-height: 16px;
   letter-spacing: 0.5px;
 }
 .product-info__block-group.accordion-group{
@@ -217,7 +217,7 @@ legend{
     width: 10px;
   }
   .accordion__toggle{
-    font-size: 10px;
+    font-size: 13px;
     padding-block: 6px;
   }
   .section-spacing{
