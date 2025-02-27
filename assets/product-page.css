@@ -24,16 +24,16 @@
   padding-block: 12px;
   text-transform: capitalize;
   color: #25282A;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 16.8px;
   letter-spacing: 0.6px;
 }
 .accordion__content{
   color: #25282A;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 14px;
+  line-height: 16px;
   letter-spacing: 0.5px;
 }
 .product-info__block-group.accordion-group{
@@ -65,9 +65,10 @@ legend{
 }
 .product-info__block-item:is([data-block-type=description]){
   --product-info-gap: 4px;
+  font-size: 12px;
 }
 .product-info__block-item:is([data-block-type=vendor]) .h6{
-  font-size: 10px;
+  font-size: 12px;
 }
 .product-info__block-item:is([data-block-type=price]){
   --product-info-gap: 0px;
@@ -216,7 +217,7 @@ legend{
     width: 10px;
   }
   .accordion__toggle{
-    font-size: 10px;
+    font-size: 13px;
     padding-block: 6px;
   }
   .section-spacing{
