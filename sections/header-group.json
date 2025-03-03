@@ -19,10 +19,17 @@
           "settings": {
             "text": "Free Shopping to United States on Orders above $69"
           }
+        },
+        "message_rkxqzC": {
+          "type": "message",
+          "settings": {
+            "text": "Free Shopping to United States on Orders above $69"
+          }
         }
       },
       "block_order": [
-        "message-1"
+        "message-1",
+        "message_rkxqzC"
       ],
       "settings": {
         "color_scheme": "",
