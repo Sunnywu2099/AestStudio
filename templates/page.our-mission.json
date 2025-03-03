@@ -75,6 +75,9 @@
         "media_k6iEnp",
         "text_bPWkHc"
       ],
+      "custom_css": [
+        ".text-item .title,.text-item .text {text-align: center;}"
+      ],
       "settings": {
         "page_desc": "Social Responsibility Is Part of Who We Are",
         "page_content": "Our target:Every partner we work with meets our standards for both environmental and social responsibility.",
