@@ -80,15 +80,15 @@
       ],
       "settings": {
         "page_desc": "Social Responsibility Is Part of Who We Are",
-        "page_content": "Our target:Every partner we work with meets our standards for both environmental and social responsibility.",
+        "page_content": "Our target: <br><br>Every partner we work with meets our standards for both environmental and social responsibility.",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "",
         "link_url": "",
         "link_color": "",
-        "pt": 120,
-        "pb": 120,
+        "pt": 52,
+        "pb": 30,
         "pt_m": 30,
         "pb_m": 30
       }
