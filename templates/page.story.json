@@ -82,7 +82,7 @@
           "type": "text",
           "settings": {
             "width": "",
-            "title": "",
+            "title": "xxxxxx",
             "text": "Aest Studios is driven by the mission to continuously explore the invisible needs, offering innovative solutions for all. The first need we identified is the delicate balance between fashion and practicality, where aesthetics and functionality coexist seamlessly.\n<br>\n<br>\nOur first collection—Capture \"SHE\" Collection—was born from the inspiration and emotions stirred by the White Cliffs of Dover. In this moment of serene reflection, we envisioned our camera bag collection, a tribute to both elegance and function."
           }
         }
@@ -561,9 +561,39 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 120,
+        "pb": 0,
         "pt_m": 0,
-        "pb_m": 20
+        "pb_m": 0
+      }
+    },
+    "custom_multiple_media_xpdUaU": {
+      "type": "custom-multiple-media",
+      "blocks": {
+        "text_fgnNcK": {
+          "type": "text",
+          "settings": {
+            "width": "",
+            "title": "Product Introduction",
+            "text": "Lorem ipsum dolor sit amet, mei et tempor voluptaria. Usu ut utinam menandri, ei nulla timeam intellegat nec. Sed animal discere praesent eu, vim probo deserunt no. Et invidunt antiopam sit, copiosae principes prodesset sed ei. Maiorum corpora expetenda ex quo, nam te malorum phaedrum."
+          }
+        }
+      },
+      "block_order": [
+        "text_fgnNcK"
+      ],
+      "settings": {
+        "page_desc": "",
+        "page_content": "",
+        "is_full": true,
+        "section_type": "one-media-top-one-content-bottom",
+        "text_alignment": "right",
+        "link_text": "",
+        "link_url": "",
+        "link_color": "",
+        "pt": 0,
+        "pb": 120,
+        "pt_m": 60,
+        "pb_m": 60
       }
     },
     "custom_multiple_media_JWfLmC": {
@@ -654,6 +684,7 @@
     "custom_multiple_media_aBj9De",
     "custom_multiple_media_9WEiqD",
     "custom_multiple_media_ri3c4b",
+    "custom_multiple_media_xpdUaU",
     "custom_multiple_media_JWfLmC",
     "custom_multiple_media_nMimzL"
   ]
