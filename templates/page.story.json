@@ -124,7 +124,7 @@
           "settings": {
             "width": "",
             "title": "",
-            "text": "We seek to close the divide between practicality and style in camera bags, crafting creations that embody the perfect balance of fashion and function. Guided by our philosophy of Functional Aesthetic, each design seamlessly integrates style, functionality, and innovation, resulting in refined pieces that are purposeful and precise."
+            "text": "<span>Aest Studio</span><br>\nWe seek to close the divide between practicality and style in camera bags, crafting creations that embody the perfect balance of fashion and function. Guided by our philosophy of Functional Aesthetic, each design seamlessly integrates style, functionality, and innovation, resulting in refined pieces that are purposeful and precise."
           }
         }
       },
@@ -584,7 +584,7 @@
       "settings": {
         "page_desc": "",
         "page_content": "",
-        "is_full": true,
+        "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
         "link_text": "",
