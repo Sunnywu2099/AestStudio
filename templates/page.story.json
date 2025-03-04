@@ -378,7 +378,7 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 120,
+        "pb": 66,
         "pt_m": 0,
         "pb_m": 34
       }
@@ -390,7 +390,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "img": "shopify://shop_images/Mask_group_-_2025-03-04T182427.888.png",
+            "img_m": "shopify://shop_images/Mask_group_-_2025-03-04T182427.888.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -400,7 +401,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Clip_path_group_3_800cc10f-ff52-4fd0-bac8-4e7f2050d6f0.png",
+            "img": "shopify://shop_images/Mask_group_100.png",
+            "img_m": "shopify://shop_images/Mask_group_100.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -411,7 +413,6 @@
         "media_W3i4KP",
         "media_ANNcxi"
       ],
-      "disabled": true,
       "settings": {
         "page_desc": "",
         "page_content": "",
