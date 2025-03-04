@@ -99,6 +99,7 @@
           "settings": {
             "width": "",
             "img": "shopify://shop_images/Mask_group_88.png",
+            "img_m": "shopify://shop_images/Mask_group_88.png",
             "use_video": false,
             "autoplay": false,
             "url": ""
