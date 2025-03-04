@@ -522,7 +522,7 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_-_2025-03-04T182427.888.png",
+            "img": "shopify://shop_images/Mask_group_-_2025-03-04T183126.105.png",
             "img_m": "shopify://shop_images/Mask_group_-_2025-03-04T182427.888.png",
             "use_video": false,
             "autoplay": true,
@@ -533,8 +533,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_100.png",
-            "img_m": "shopify://shop_images/Mask_group_100.png",
+            "img": "shopify://shop_images/Mask_group_-_2025-03-04T183134.353.png",
+            "img_m": "shopify://shop_images/Mask_group_-_2025-03-04T183134.353.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -545,7 +545,6 @@
         "media_94icfM",
         "media_4tNwx9"
       ],
-      "disabled": true,
       "settings": {
         "page_desc": "",
         "page_content": "",
@@ -556,7 +555,7 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 68,
+        "pb": 10,
         "pt_m": 0,
         "pb_m": 60
       }
@@ -568,15 +567,14 @@
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Brand Collaterals",
-            "text": "At Aest Studios, our brand materials go beyond information—they are designed to be a sensory experience. Every element, from typography to texture and structure, works independently yet harmoniously, shaping the way our brand is felt and perceived.\n<br><br>\nWe have carefully selected three distinct eco-friendly handmade papers—Earth Paper, Dongba Paper, and Herbal Paper—each serving a specific role in different applications. These materials are thoughtfully applied across different touchpoints, creating a cohesive visual identity while offering a rich, tactile experience."
+            "title": "Protective Accessories",
+            "text": "At Aest Studios, every bag comes with a dedicated dust bag, but its purpose goes beyond protection. Designed for continued use, it seamlessly integrates into daily life—a lightweight, durable, and soft canvas tote meant to accompany everyday moments.\n<br><br>\nWe have meticulously refined the strap length through real-world testing to ensure optimal comfort. The embroidered logo enhances both texture and durability, allowing the bag to withstand time and repeated use while maintaining its refined aesthetic."
           }
         }
       },
       "block_order": [
         "text_9RcGYg"
       ],
-      "disabled": true,
       "settings": {
         "page_desc": "",
         "page_content": "",
