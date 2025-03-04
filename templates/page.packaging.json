@@ -31,8 +31,8 @@
         "item_fgPCAd": {
           "type": "item",
           "settings": {
-            "text": "Environment",
-            "link": ""
+            "text": "Social Responsibility",
+            "link": "shopify://pages/our-mission"
           }
         }
       },
@@ -40,7 +40,6 @@
         "item_h4kVFj",
         "item_fgPCAd"
       ],
-      "disabled": true,
       "settings": {
         "type": "margin",
         "top": 0,
