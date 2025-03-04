@@ -114,23 +114,24 @@
         "item_iGX8gR": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "img_m": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
-            "url": "shopify://pages/sustainability",
+            "img": "shopify://shop_images/Mask_group_83.png",
+            "img_m": "shopify://shop_images/Mask_group_83.png",
+            "url": "shopify://pages/packaging",
             "text": "01-Packaging"
           }
         },
         "item_GELrAd": {
           "type": "item",
           "settings": {
-            "img": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "img_m": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
-            "url": "shopify://pages/sustainability",
-            "text": "02-Our Mission"
+            "img": "shopify://shop_images/Mask_group_84.png",
+            "img_m": "shopify://shop_images/Mask_group_84.png",
+            "url": "shopify://pages/our-mission",
+            "text": "02-Social Responsibility"
           }
         },
         "item_3rNLQT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
             "img_m": "shopify://shop_images/image_1_02e5aec4-596d-4f32-8d38-d2d2f33d57eb.png",
@@ -140,6 +141,7 @@
         },
         "item_A3hBmG": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
             "img_m": "shopify://shop_images/image_7f164e55-6cc2-48da-8724-8b870daf3a44.png",
