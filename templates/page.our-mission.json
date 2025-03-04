@@ -100,8 +100,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Mask_group_55.png",
-            "img_m": "shopify://shop_images/Mask_group_55.png",
+            "img": "shopify://shop_images/Mask_group_85.png",
+            "img_m": "shopify://shop_images/Mask_group_85.png",
             "use_video": false,
             "autoplay": false,
             "url": ""
@@ -142,7 +142,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_263.png",
+            "img": "shopify://shop_images/Mask_group_86.png",
+            "img_m": "shopify://shop_images/Mask_group_86.png",
             "use_video": false,
             "autoplay": false,
             "url": ""
