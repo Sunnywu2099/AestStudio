@@ -144,7 +144,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Rectangle_263.png",
+            "img": "shopify://shop_images/Mask_group_89.png",
+            "img_m": "shopify://shop_images/Mask_group_89.png",
             "use_video": false,
             "autoplay": false,
             "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
@@ -155,8 +156,8 @@
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Aest Studio",
-            "text": "Aest Studio<br>\nis a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+            "title": "",
+            "text": "<span>Earth Paper:</span><br>\nEarth Paper is a sustainable material made from a high percentage of recyclable and renewable fibers. Its production process adheres to strict environmental standards, ensuring that each sheet is produced with minimal resource consumption and minimal environmental impact. Handcrafted Earth Paper boasts a unique texture and natural flexibility. Each sheet features delicate \npatterns and organic irregularities, making every piece one-of-a-kind—a testament to both craftsmanship and sustainability.\n<br><br>\n<span>Dongba Paper:</span><br>\nDongba Paper traces its origins back to the Tang Dynasty in China, over 1,200 years ago. Traditionally crafted by the Naxi ethnic minority in Yunnan, it is made from locally sourced plants using time-honored handcrafting techniques passed down by Dongba artisans. Renowned for its exceptional durability, Dongba Paper is naturally resistant to insects and decay, with a lifespan of 800 to 1,000 years. As one of the oldest and most authentic forms of handmade paper, it stands as a testament to cultural heritage, craftsmanship, and sustainability.\n<br><br>\n<span>Herbal Paper:</span><br>\nHerbal Paper is crafted from natural herbal plant fibers, carefully sourced from sustainable plant materials. Each fiber is meticulously selected and hand-pulled, resulting in a paper with a distinct texture and organic color tones."
           }
         }
       },
