@@ -639,7 +639,7 @@
         "link_url": "",
         "link_color": "",
         "pt": 0,
-        "pb": 0,
+        "pb": 54,
         "pt_m": 0,
         "pb_m": 0
       }
@@ -659,6 +659,7 @@
       "block_order": [
         "text_fgnNcK"
       ],
+      "disabled": true,
       "settings": {
         "page_desc": "",
         "page_content": "",
