@@ -187,10 +187,10 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Rectangle_263.png",
+            "img": "shopify://shop_images/Mask_group_91.png",
+            "img_m": "shopify://shop_images/Mask_group_91.png",
             "use_video": false,
             "autoplay": false,
-            "video": "shopify://files/videos/5532774-uhd_4096_2160_25fps (online-video-cutter.com).mp4",
             "url": ""
           }
         },
@@ -198,8 +198,8 @@
           "type": "text",
           "settings": {
             "width": "",
-            "title": "Aest Studio",
-            "text": "Aest Studio is a cutting-edge design brand led by women, committed to breaking the neglect of women's needs in different professional fields, perfectly integrating \"aesthetics\" and \"functionality\", and providing contemporary women with more choices. The brand name originates from the first letter of \"Aesthetics\", symbolizing the brand's ultimate pursuit of aesthetics.\nAest Studio is also an advocate for women's lifestyles, focusing on women's achievements and praising women's power is the spiritual core of the brand. We draw design inspiration from the stories of women around the world, attempting to create a new aesthetic language that transcends the singular attributes of style and becomes a philosophy of life - breaking silence, showcasing sharpness, and ultimately consolidating the unique resilience of women. Whether it's controlling the pace in the workplace or expanding boundaries in life, Aest Studio will be the most loyal partner for women, always providing them with bag products that combine design and professional practicality."
+            "title": "",
+            "text": "<span>Environmental Impact:</span><br>\nReducing Carbon Footprint: Our packaging is made from sustainably sourced paper, designed to minimize energy and water consumption during production. Additionally, all processes are certified by URS, UKAS, and IAF environmental management systems, ensuring responsible manufacturing. No Chemical Processing: Our paper is free from harmful bleaches and dyes, ensuring a safer production process for both people and the planet. Fully Recyclable & Biodegradable: Our packaging is 100% recyclable or naturally biodegradable, reducing waste and minimizing environmental impact.\n<br><br>"
           }
         }
       },
