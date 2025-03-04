@@ -103,7 +103,7 @@
         "link_url": "",
         "link_color": "",
         "pt": 80,
-        "pb": 120,
+        "pb": 80,
         "pt_m": 0,
         "pb_m": 60
       }
@@ -156,7 +156,6 @@
         "item_3rNLQT",
         "item_A3hBmG"
       ],
-      "disabled": true,
       "settings": {
         "pt": 0,
         "pb": 120,
