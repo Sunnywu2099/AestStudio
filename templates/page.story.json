@@ -59,6 +59,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
@@ -93,7 +94,7 @@
         "text_gn9W3C"
       ],
       "settings": {
-        "page_desc": "",
+        "page_desc": "Story of Capture SHE Collection",
         "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
@@ -101,9 +102,9 @@
         "link_text": "",
         "link_url": "",
         "link_color": "",
-        "pt": 0,
+        "pt": 120,
         "pb": 120,
-        "pt_m": 0,
+        "pt_m": 34,
         "pb_m": 34
       }
     },
