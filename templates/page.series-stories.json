@@ -112,7 +112,8 @@
         "media_kjR7Cm"
       ],
       "settings": {
-        "page_desc": "Series Of Stories",
+        "page_desc": "Series Of Story",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -146,6 +147,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -179,6 +181,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
@@ -212,6 +215,7 @@
       "disabled": true,
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
