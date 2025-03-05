@@ -73,7 +73,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Mask_group_78.png",
+            "img": "shopify://shop_images/Mask_group_-_2025-03-05T110103.797.png",
+            "img_m": "shopify://shop_images/Mask_group_-_2025-03-05T110103.797.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -95,7 +96,7 @@
       ],
       "settings": {
         "page_desc": "Fashioning a Cleaner Tomorrow",
-        "page_content": "We're commited to cleansing the fashion industry,one mindful choice at a time.<br>We call it Sustainable Style.",
+        "page_content": "We're commited to cleansing the fashion industry,one mindful choice at a time.We call it Sustainable Style.",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
