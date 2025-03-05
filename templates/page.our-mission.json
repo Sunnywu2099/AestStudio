@@ -261,8 +261,8 @@
             "text": "Shop This Look",
             "show_media": true,
             "product_list": [
-              "capture-small-bag-black",
               "capture-small-bag-green",
+              "capture-small-bag-black",
               "capture-small-bag-purple"
             ]
           }
@@ -313,7 +313,7 @@
         "continue_shopping": false,
         "url": ""
       }
-    },
+    }
   },
   "order": [
     "section_nav_XgBFVd",
