@@ -1,3 +1,4 @@
+{% capture arrow_right %} <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">  <g clip-path="url(#clip0_507_363)">  <path d="M0 3.00488H7.16005" stroke="currentColor" stroke-width="0.75" stroke-miterlimit="10"/>  <path d="M4.6197 6L4.09729 5.46166L6.86297 3.00489L4.09729 0.538336L4.6197 0L7.99998 3.00489L4.6197 6Z" fill="currentColor"/></g>  <defs>  <clipPath id="clip0_507_363">  <rect width="8" height="6" fill="currentColor"/></clipPath></defs>  </svg>   {% endcapture %}
 <style>
   #shopify-section-{{section.id}} {
     padding: {{section.settings.pt}}px 0 {{section.settings.pb}}px;
@@ -20,9 +21,9 @@
     text-align: center;
     margin-bottom: 40px;
     color: #25282A;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 19.6px;
+    line-height: 20px;
     letter-spacing: 0.7px;
   }
   #shopify-section-{{section.id}}.custom-multiple-media .media-wrapper{
@@ -88,6 +89,9 @@
     border: 1px solid transparent;
     padding: 0px 7px;
     background: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
   #shopify-section-{{section.id}} .media_link:hover{
     border: 1px solid {{section.settings.link_color}};
@@ -246,8 +250,6 @@
       margin-bottom: 30px;
     }
     #shopify-section-{{section.id}}.custom-multiple-media .section-content{
-      font-size: 9px;
-      line-height: 1.2;
       margin-bottom: 24px;
       padding: 0 20px;
     }
@@ -407,7 +409,9 @@
             {% endif %}
           {% endif %}
           {% if ss.link_text != blank %}
-            <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>{{ ss.link_text }}</a>
+            <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>
+              <span>{{ss.link_text}}</span>{{arrow_right}}
+              </a>
           {% endif %}
         </a>
       {% endif %}
