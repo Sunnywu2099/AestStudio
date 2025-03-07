@@ -409,6 +409,9 @@
             {% endif %}
           {% endif %}
           {% if ss.link_text != blank %}
+            {% if ss.link_title != blank %}
+            <div class="link_title">{{ ss.link_title}}</div>
+            {% endif %}
             <a class="media_link" {% if ss.link_url != blank %} href="{{ ss.link_url }}"{% endif %}>
               <span>{{ss.link_text}}</span>{{arrow_right}}
               </a>
@@ -525,6 +528,11 @@
           }
         ],
         "default": "right"
+      },
+      {
+        "type": "text",
+        "id": "link_title",
+        "label": "Link title"
       },
       {
         "type": "text",
