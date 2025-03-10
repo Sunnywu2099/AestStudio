@@ -381,6 +381,19 @@ input[type="checkbox"].dot-checkbox:checked + .ayue-custom:before {
 .product-card__info div {
   gap: 4px;
 }
+.product-badge{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+  font-size: 12px;
+  text-align: center;
+  color: {{ settings.badge_text_color }};
+  background: {{ settings.badge_bg_color }};
+  padding: 2px 8px;
+  font-weight: 600;
+  border-radius: {{ settings.border_radius }}px;
+}
 @media screen and (max-width: 699px) {
   .as-main-collection .product-title.h6{
     line-height: 13px;
@@ -624,6 +637,7 @@ input[type="checkbox"].dot-checkbox:checked + .ayue-custom:before {
                       position: forloop.index,
                       hide_product_information: section.settings.hide_product_information,
                       stacked: true
+                      show_badges: true
                     -%}
                   {%- endfor -%}
                 </product-list>

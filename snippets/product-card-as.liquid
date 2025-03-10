@@ -25,7 +25,7 @@
 
 {%- liquid
   if hide_product_information
-    assign show_badges = false
+    assign show_badges = true
     assign show_rating = false
     assign show_vendor = false
     assign show_title = false
@@ -63,9 +63,12 @@
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
-      {%- if show_badges -%}
-        {%- render 'product-badges', product: product, vertical: true, context: 'card' -%}
-      {%- endif -%}
+      {% assign badge = product.metafields.custom.badge %}
+      {% if badge != blank %}
+        <div class="product-badge">
+          {{ badge }}
+        </div>
+      {% endif %}
 
       <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>
         {%- capture sizes -%}

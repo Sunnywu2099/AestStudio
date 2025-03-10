@@ -15,6 +15,23 @@
     ]
   },
   {
+    "name": "Badges style",
+    "settings": [
+      {"type": "color","id": "badge_bg_color","label": "background color"},
+      {"type": "color","id": "badge_text_color","label": "text color"},
+      {
+        "type": "range",
+        "id": "border_radius",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "unit": "px",
+        "label": "border radius",
+        "default": 0
+      }
+    ]
+  },
+  {
     "name": "Search suggestion",
     "settings": [
       {
