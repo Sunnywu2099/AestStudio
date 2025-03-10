@@ -388,10 +388,11 @@ input[type="checkbox"].dot-checkbox:checked + .ayue-custom:before {
   z-index: 2;
   font-size: 12px;
   text-align: center;
-  color: #fff;
-  background: red;
+  color: {{ settings.badge_text_color }};
+  background: {{ settings.badge_bg_color }};
   padding: 2px 8px;
   font-weight: 600;
+  border-radius: {{ settings.border_radius }}px;
 }
 @media screen and (max-width: 699px) {
   .as-main-collection .product-title.h6{
