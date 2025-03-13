@@ -97,7 +97,8 @@
           "type": "media",
           "settings": {
             "width": "",
-            "img": "shopify://shop_images/Rectangle_249.png",
+            "img": "shopify://shop_images/Mask_group_1_69a7c2d9-dd87-4f4a-abeb-7139d64d75c6.png",
+            "img_m": "shopify://shop_images/Mask_group_1_69a7c2d9-dd87-4f4a-abeb-7139d64d75c6.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -118,9 +119,11 @@
       ],
       "settings": {
         "page_desc": "Our Team",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -137,7 +140,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_2_b7d19536-d0c2-4adf-ac6f-a69939b19c99.png",
+            "img_m": "shopify://shop_images/Mask_group_2_b7d19536-d0c2-4adf-ac6f-a69939b19c99.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -158,9 +162,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -177,7 +183,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_3_4afc2810-5d03-4357-888d-bc34473455f4.png",
+            "img_m": "shopify://shop_images/Mask_group_3_4afc2810-5d03-4357-888d-bc34473455f4.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -187,8 +194,8 @@
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "Lilymons",
-            "text": "As a designer driven by curiosity, I approach every project as a question waiting to be explored and answered. As one of the visual architects of Aest Studios, I bring stories to life through bold, thoughtful, and ever-evolving design. Years of studying and traveling across Asia have provided me with a multidimensional perspective. The richness and diversity of cultures I have encountered have expanded the boundaries of my design and profoundly shaped my artistic language."
+            "title": "Lucienne",
+            "text": "My time living in France taught me to see the world through a refined and thoughtful lens, fostering a delicate balance between artistic sensibility and business acumen. I believe that effective operations go beyond mere numbers; they are about crafting meaningful emotions and memorable experiences."
           }
         }
       },
@@ -198,9 +205,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -217,7 +226,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_4_6c726478-cb0b-4461-a1fb-cef06013e75b.png",
+            "img_m": "shopify://shop_images/Mask_group_4_6c726478-cb0b-4461-a1fb-cef06013e75b.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -227,8 +237,8 @@
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "Clytie",
-            "text": "With a passion for fashion and years of experience, I stay deeply connected to cutting-edge creativity.While some see fashion as a fleeting trend, to me, it’s the meticulously crafted garments and bags that reflect the team’s collective wisdom and a lasting cultural legacy. Through Aest Studios, we aim to offer more than just products— It's a liberated lifestyle where you boldly pursue your passions and express yourself fearlessly."
+            "title": "Lilymons",
+            "text": "As a designer driven by curiosity, I approach every project as a question waiting to be explored and answered. As one of the visual architects of Aest Studios, I bring stories to life through bold, thoughtful, and ever-evolving design. Years of studying and traveling across Asia have provided me with a multidimensional perspective. The richness and diversity of cultures I have encountered have expanded the boundaries of my design and profoundly shaped my artistic language."
           }
         }
       },
@@ -238,9 +248,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -257,7 +269,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_5_d7f3e9be-2fc8-4146-878e-8294ad29336e.png",
+            "img_m": "shopify://shop_images/Mask_group_5_d7f3e9be-2fc8-4146-878e-8294ad29336e.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -267,8 +280,8 @@
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "Dakota",
-            "text": "With a rich background in fashion and global experiences in London, I have grown into a marketer who seamlessly blends commerce with art. My strength lies in leveraging sharp business insights to understand people’s needs, allowing me to craft content that genuinely serves users—just as our brand is dedicated to addressing real-world needs at its core."
+            "title": "Clytie",
+            "text": "With a passion for fashion and years of experience, I remain deeply connected to cutting-edge creativity. While some view fashion as fleeting trends, I see it as an art form—meticulously crafted garments and bags that embody our team’s collective wisdom and contribute to a lasting cultural legacy. At Aest Studios, we aspire to offer more than just products. We aim to inspire a liberated lifestyle where you boldly pursue your passions and express yourself with confidence and authenticity."
           }
         }
       },
@@ -278,9 +291,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -318,9 +333,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -358,9 +375,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
