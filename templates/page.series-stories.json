@@ -30,7 +30,6 @@
         },
         "item_zzXym9": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "text": "Our Team",
             "link": "shopify://pages/our-team"
