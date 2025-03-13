@@ -57,7 +57,7 @@
             "notify_me_details": "*Estimated delivery within 2-3 business days.",
             "notify_popup_title": "Notify me",
             "notify_popup_text1": "We will email you when this product is available",
-            "notify_popup_text2": "*Estimated delivery within 2-3 business days.",
+            "notify_popup_text2": "Out of Stock",
             "notify_popup_confirm1": "<p>I confirm that i have read and understood the <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></p>",
             "notify_popup_confirm2": "<p>I would like to receive updates about new launches and other onspirational content</p>",
             "notify_popup_tips": "This site is protected by recaptcha and the google Privacy Policy and Terms Of Service apply.",
