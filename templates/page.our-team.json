@@ -312,7 +312,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_6_2e4f9feb-2a73-4736-ab89-c51923ee6f07.png",
+            "img_m": "shopify://shop_images/Mask_group_6_2e4f9feb-2a73-4736-ab89-c51923ee6f07.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -322,8 +323,8 @@
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "CC",
-            "text": "Design, to me, is not just a tool—it is a medium for expressing ideas and emotions. I am an experienced graphic/brand designer who interprets the world through visual language, bringing new life and individuality to brands.For me, every design is a conversation between the brand and its audience. I strive to use my work to reveal the stories and values behind a brand, inspiring and resonating with people on a deeper level. I firmly believe that great design should convey authenticity and evoke genuine emotion.I look forward to using my design expertise to infuse AEST STUDIOS with even more energy and creativity."
+            "title": "Dakota",
+            "text": "With a rich background in fashion and global experiences in London, I have grown into a marketer who seamlessly blends commerce with art. My strength lies in leveraging sharp business insights to understand people’s needs, allowing me to craft content that genuinely serves users—just as our brand is dedicated to addressing real-world needs at its core."
           }
         }
       },
@@ -354,7 +355,8 @@
           "type": "media",
           "settings": {
             "width": "41",
-            "img": "shopify://shop_images/Rectangle_251.png",
+            "img": "shopify://shop_images/Mask_group_7_a7014782-43ec-4a9b-971a-6f8edf995b92.png",
+            "img_m": "shopify://shop_images/Mask_group_7_a7014782-43ec-4a9b-971a-6f8edf995b92.png",
             "use_video": false,
             "autoplay": true,
             "url": ""
@@ -364,8 +366,8 @@
           "type": "text",
           "settings": {
             "width": "59",
-            "title": "Lucienne",
-            "text": "I lived in France, and that experience taught me to understand the world with a delicate perspective, and created a delicate balance between artistic perception and business analysis. I believe that good operation is not only a game of digital growth, but also a sculpting of emotion and experience."
+            "title": "CC",
+            "text": "To me, design is more than just a tool—it’s a medium for expressing ideas, emotions, and stories. As an experienced graphic and brand designer, I translate the world into visual language, breathing new life and individuality into every brand I work with. Every design, in my view, is a dialogue between the brand and its audience. Through my work, I strive to unveil the stories, values, and attitudes that lie at the heart of a brand, creating designs that inspire and deeply resonate with people. I firmly believe that great design embodies authenticity and evokes genuine emotion. I am excited to bring my expertise to Aest Studios, infusing it with fresh energy, creativity, and a deeper connection to its audience."
           }
         }
       },
@@ -450,6 +452,7 @@
         "item_LNqwdm",
         "item_8mfAFE"
       ],
+      "disabled": true,
       "settings": {
         "type": "margin",
         "top": 0,
