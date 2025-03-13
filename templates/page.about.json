@@ -95,11 +95,10 @@
         },
         "item_eLhMew": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Our Team",
-            "img": "shopify://shop_images/Mask_group_1_b7e4cc50-1ca7-46b2-9957-ca37d2ba6384.png",
-            "img_m": "shopify://shop_images/Mask_group_1_b7e4cc50-1ca7-46b2-9957-ca37d2ba6384.png",
+            "img": "shopify://shop_images/Mask_group_8_8cb38d0e-3962-4076-8e6b-8dc02e169231.png",
+            "img_m": "shopify://shop_images/Mask_group_8_8cb38d0e-3962-4076-8e6b-8dc02e169231.png",
             "url": "shopify://pages/our-team"
           }
         },
@@ -131,6 +130,7 @@
       ],
       "settings": {
         "page_desc": "",
+        "num": 4,
         "pt": 80,
         "pb": 120,
         "pt_m": 0,
