@@ -54,7 +54,7 @@
           "type": "buy_buttons",
           "settings": {
             "notify_me": "Notify Me",
-            "notify_me_details": "",
+            "notify_me_details": "Out of Stock",
             "notify_popup_title": "Notify me",
             "notify_popup_text1": "We will email you when this product is available",
             "notify_popup_text2": "",
