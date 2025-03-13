@@ -30,7 +30,6 @@
         },
         "item_zzXym9": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "text": "Our Team",
             "link": "shopify://pages/our-team"
@@ -122,9 +121,11 @@
       ],
       "settings": {
         "page_desc": "About Aest Studios",
+        "page_content": "",
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -163,9 +164,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "left",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -204,9 +207,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": false,
         "section_type": "one-media-left-one-content-right",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
@@ -236,9 +241,11 @@
       ],
       "settings": {
         "page_desc": "",
+        "page_content": "",
         "is_full": true,
         "section_type": "one-media-top-one-content-bottom",
         "text_alignment": "right",
+        "link_title": "",
         "link_text": "",
         "link_url": "",
         "link_color": "",
