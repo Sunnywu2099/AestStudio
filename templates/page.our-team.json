@@ -60,6 +60,7 @@
         },
         "item_3RFn9L": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Behind The Scenes",
             "link": "shopify://pages/behind-the-scenes"
@@ -67,6 +68,7 @@
         },
         "item_FzANbX": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "text": "Technology & Process",
             "link": "shopify://pages/technology-process"
