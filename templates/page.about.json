@@ -95,6 +95,7 @@
         },
         "item_eLhMew": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Our Team",
             "img": "shopify://shop_images/Mask_group_8_8cb38d0e-3962-4076-8e6b-8dc02e169231.png",
